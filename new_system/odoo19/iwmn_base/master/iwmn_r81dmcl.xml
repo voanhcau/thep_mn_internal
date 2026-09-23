@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_iwmn_r81dmcl_list" model="ir.ui.view">
+        <field name="name">iwmn.r81dmcl.list</field>
+        <field name="model">iwmn.r81dmcl</field>
+        <field name="arch" type="xml">
+            <list string="R81DMCL - Ten_CL">
+                <field name="ma_cl"/>
+                <field name="ten_cl"/>
+                <field name="create_log"/>
+                <field name="lastmodify_log"/>
+                <field name="ma_data"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmcl_form" model="ir.ui.view">
+        <field name="name">iwmn.r81dmcl.form</field>
+        <field name="model">iwmn.r81dmcl</field>
+        <field name="arch" type="xml">
+            <form string="R81DMCL - Ten_CL">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="ma_cl"/>
+                            <field name="ten_cl"/>
+                            <field name="create_log"/>
+                        </group>
+                        <group>
+                            <field name="lastmodify_log"/>
+                            <field name="ma_data"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmcl_search" model="ir.ui.view">
+        <field name="name">iwmn.r81dmcl.search</field>
+        <field name="model">iwmn.r81dmcl</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="ten_cl"/>
+                <field name="ma_cl"/>
+                <field name="create_log"/>
+                <field name="lastmodify_log"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_iwmn_r81dmcl" model="ir.actions.act_window">
+        <field name="name">R81DMCL - Ten_CL</field>
+        <field name="res_model">iwmn.r81dmcl</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_iwmn_r81dmcl_search"/>
+    </record>
+
+    <menuitem id="menu_iwmn_r81dmcl" name="R81DMCL - Ten_CL"
+              parent="menu_iwmn_master_quality"
+              action="action_iwmn_r81dmcl" sequence="17"/>
+</odoo>

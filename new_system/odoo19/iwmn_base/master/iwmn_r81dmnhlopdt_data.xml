@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="iwmn_r81dmnhlopdt_dtcn" model="iwmn.r81dmnhlopdt">
+            <field name="ma_nh_lopdt">DTCN</field>
+            <field name="ten_nh_lopdt">Đào tạo chứng chỉ - chứng nhận</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_nh_lopdt_parent" eval="False"/>
+            <field name="nh_cuoi" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmnhlopdt_dtcn_001" model="iwmn.r81dmnhlopdt">
+            <field name="ma_nh_lopdt">DTCN_001</field>
+            <field name="ten_nh_lopdt">Đào tạo vận hành thiết bị nâng</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_nh_lopdt_parent">DTCN</field>
+            <field name="nh_cuoi" eval="True"/>
+        </record>
+        <record id="iwmn_r81dmnhlopdt_dtcn_002" model="iwmn.r81dmnhlopdt">
+            <field name="ma_nh_lopdt">DTCN_002</field>
+            <field name="ten_nh_lopdt">Đào tạo đấu thầu</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_nh_lopdt_parent">DTCN</field>
+            <field name="nh_cuoi" eval="True"/>
+        </record>
+        <record id="iwmn_r81dmnhlopdt_dtcn_003" model="iwmn.r81dmnhlopdt">
+            <field name="ma_nh_lopdt">DTCN_003</field>
+            <field name="ten_nh_lopdt">Bồi Dưỡng Kiến Thức Quốc Phòng &amp; An Ninh</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_nh_lopdt_parent">DTCN</field>
+            <field name="nh_cuoi" eval="True"/>
+        </record>
+        <record id="iwmn_r81dmnhlopdt_dtcn_004" model="iwmn.r81dmnhlopdt">
+            <field name="ma_nh_lopdt">DTCN_004</field>
+            <field name="ten_nh_lopdt">Bồi Dưỡng Văn Bản Quy Phạm Pháp Luật</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_nh_lopdt_parent">DTCN</field>
+            <field name="nh_cuoi" eval="True"/>
+        </record>
+        <record id="iwmn_r81dmnhlopdt_dtcn_005" model="iwmn.r81dmnhlopdt">
+            <field name="ma_nh_lopdt">DTCN_005</field>
+            <field name="ten_nh_lopdt">Nghiệp vụ hành chính văn phòng</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_nh_lopdt_parent">DTCN</field>
+            <field name="nh_cuoi" eval="True"/>
+        </record>
+        <record id="iwmn_r81dmnhlopdt_dtcn_006" model="iwmn.r81dmnhlopdt">
+            <field name="ma_nh_lopdt">DTCN_006</field>
+            <field name="ten_nh_lopdt">Đào tạo người quản lý</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_nh_lopdt_parent">DTCN</field>
+            <field name="nh_cuoi" eval="True"/>
+        </record>
+        <record id="iwmn_r81dmnhlopdt_dtcn_007" model="iwmn.r81dmnhlopdt">
+            <field name="ma_nh_lopdt">DTCN_007</field>
+            <field name="ten_nh_lopdt">Đào tạo về hải quan</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_nh_lopdt_parent">DTCN</field>
+            <field name="nh_cuoi" eval="True"/>
+        </record>
+        <record id="iwmn_r81dmnhlopdt_dtcn_008" model="iwmn.r81dmnhlopdt">
+            <field name="ma_nh_lopdt">DTCN_008</field>
+            <field name="ten_nh_lopdt">Đào tạo về xây dựng công trình</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_nh_lopdt_parent">DTCN</field>
+            <field name="nh_cuoi" eval="True"/>
+        </record>
+        <record id="iwmn_r81dmnhlopdt_dtcn_009" model="iwmn.r81dmnhlopdt">
+            <field name="ma_nh_lopdt">DTCN_009</field>
+            <field name="ten_nh_lopdt">Đào tạo về nghiệp vụ quản lý kho bãi, năng lượng</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_nh_lopdt_parent">DTCN</field>
+            <field name="nh_cuoi" eval="True"/>
+        </record>
+        <record id="iwmn_r81dmnhlopdt_dtcn_010" model="iwmn.r81dmnhlopdt">
+            <field name="ma_nh_lopdt">DTCN_010</field>
+            <field name="ten_nh_lopdt">Đào tạo về nghiệp vụ kỹ thuật chuyên môn</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_nh_lopdt_parent">DTCN</field>
+            <field name="nh_cuoi" eval="True"/>
+        </record>
+        <record id="iwmn_r81dmnhlopdt_dtcn_011" model="iwmn.r81dmnhlopdt">
+            <field name="ma_nh_lopdt">DTCN_011</field>
+            <field name="ten_nh_lopdt">Đào tạo về HTQLCL ISO</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_nh_lopdt_parent">DTCN</field>
+            <field name="nh_cuoi" eval="True"/>
+        </record>
+        <record id="iwmn_r81dmnhlopdt_dtcn_012" model="iwmn.r81dmnhlopdt">
+            <field name="ma_nh_lopdt">DTCN_012</field>
+            <field name="ten_nh_lopdt">Đào tạo an toàn bức xạ cho người phụ trách</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_nh_lopdt_parent">DTCN</field>
+            <field name="nh_cuoi" eval="True"/>
+        </record>
+        <record id="iwmn_r81dmnhlopdt_dtmt" model="iwmn.r81dmnhlopdt">
+            <field name="ma_nh_lopdt">DTMT</field>
+            <field name="ten_nh_lopdt">Đào tạo an toàn - môi trường</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_nh_lopdt_parent" eval="False"/>
+            <field name="nh_cuoi" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmnhlopdt_dtmt_001" model="iwmn.r81dmnhlopdt">
+            <field name="ma_nh_lopdt">DTMT_001</field>
+            <field name="ten_nh_lopdt">Huấn luyện an toàn định kỳ (Nhóm 1)</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_nh_lopdt_parent">DTMT</field>
+            <field name="nh_cuoi" eval="True"/>
+        </record>
+        <record id="iwmn_r81dmnhlopdt_dtmt_002" model="iwmn.r81dmnhlopdt">
+            <field name="ma_nh_lopdt">DTMT_002</field>
+            <field name="ten_nh_lopdt">Huấn luyện an toàn thiết bị nâng (Nhóm 3)</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_nh_lopdt_parent">DTMT</field>
+            <field name="nh_cuoi" eval="True"/>
+        </record>
+        <record id="iwmn_r81dmnhlopdt_dtmt_003" model="iwmn.r81dmnhlopdt">
+            <field name="ma_nh_lopdt">DTMT_003</field>
+            <field name="ten_nh_lopdt">Huấn luyện an toàn thiết bị áp lực (Nhóm 3)</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_nh_lopdt_parent">DTMT</field>
+            <field name="nh_cuoi" eval="True"/>
+        </record>
+        <record id="iwmn_r81dmnhlopdt_dtmt_004" model="iwmn.r81dmnhlopdt">
+            <field name="ma_nh_lopdt">DTMT_004</field>
+            <field name="ten_nh_lopdt">Huấn luyện an toàn phòng cháy chữa cháy và cứu nạn cứu hộ</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_nh_lopdt_parent">DTMT</field>
+            <field name="nh_cuoi" eval="True"/>
+        </record>
+        <record id="iwmn_r81dmnhlopdt_dtmt_005" model="iwmn.r81dmnhlopdt">
+            <field name="ma_nh_lopdt">DTMT_005</field>
+            <field name="ten_nh_lopdt">Huấn luyện an toàn điện (Nhóm 3)</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_nh_lopdt_parent">DTMT</field>
+            <field name="nh_cuoi" eval="True"/>
+        </record>
+        <record id="iwmn_r81dmnhlopdt_dtmt_006" model="iwmn.r81dmnhlopdt">
+            <field name="ma_nh_lopdt">DTMT_006</field>
+            <field name="ten_nh_lopdt">Huấn luyện an toàn hóa chất (Nhóm 3)</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_nh_lopdt_parent">DTMT</field>
+            <field name="nh_cuoi" eval="True"/>
+        </record>
+        <record id="iwmn_r81dmnhlopdt_dtmt_007" model="iwmn.r81dmnhlopdt">
+            <field name="ma_nh_lopdt">DTMT_007</field>
+            <field name="ten_nh_lopdt">Huấn luyện an toàn sơ cấp cứu</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_nh_lopdt_parent">DTMT</field>
+            <field name="nh_cuoi" eval="True"/>
+        </record>
+        <record id="iwmn_r81dmnhlopdt_dtmt_008" model="iwmn.r81dmnhlopdt">
+            <field name="ma_nh_lopdt">DTMT_008</field>
+            <field name="ten_nh_lopdt">Huấn luyện an toàn làm việc trên cao (Nhóm 3)</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_nh_lopdt_parent">DTMT</field>
+            <field name="nh_cuoi" eval="True"/>
+        </record>
+        <record id="iwmn_r81dmnhlopdt_dtmt_009" model="iwmn.r81dmnhlopdt">
+            <field name="ma_nh_lopdt">DTMT_009</field>
+            <field name="ten_nh_lopdt">Huấn luyện an toàn trong không gian hạn chế (Nhóm 3)</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_nh_lopdt_parent">DTMT</field>
+            <field name="nh_cuoi" eval="True"/>
+        </record>
+        <record id="iwmn_r81dmnhlopdt_dtmt_010" model="iwmn.r81dmnhlopdt">
+            <field name="ma_nh_lopdt">DTMT_010</field>
+            <field name="ten_nh_lopdt">Huấn luyện an toàn vệ sinh viên (Nhóm 6)</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_nh_lopdt_parent">DTMT</field>
+            <field name="nh_cuoi" eval="True"/>
+        </record>
+        <record id="iwmn_r81dmnhlopdt_dtmt_011" model="iwmn.r81dmnhlopdt">
+            <field name="ma_nh_lopdt">DTMT_011</field>
+            <field name="ten_nh_lopdt">Huấn luyện an toàn người quản lý (Nhóm 2)</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_nh_lopdt_parent">DTMT</field>
+            <field name="nh_cuoi" eval="True"/>
+        </record>
+        <record id="iwmn_r81dmnhlopdt_dtmt_012" model="iwmn.r81dmnhlopdt">
+            <field name="ma_nh_lopdt">DTMT_012</field>
+            <field name="ten_nh_lopdt">Huấn luyện y tế-ATVSLĐ (Nhóm 5)</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_nh_lopdt_parent">DTMT</field>
+            <field name="nh_cuoi" eval="True"/>
+        </record>
+        <record id="iwmn_r81dmnhlopdt_dtmt_013" model="iwmn.r81dmnhlopdt">
+            <field name="ma_nh_lopdt">DTMT_013</field>
+            <field name="ten_nh_lopdt">Huấn luyện an toàn hàn cắt oxy gas, hàn điện (Nhóm 3)</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_nh_lopdt_parent">DTMT</field>
+            <field name="nh_cuoi" eval="True"/>
+        </record>
+        <record id="iwmn_r81dmnhlopdt_dtmt_014" model="iwmn.r81dmnhlopdt">
+            <field name="ma_nh_lopdt">DTMT_014</field>
+            <field name="ten_nh_lopdt">Huấn luyện an toàn bức xạ</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_nh_lopdt_parent">DTMT</field>
+            <field name="nh_cuoi" eval="True"/>
+        </record>
+    </data>
+</odoo>

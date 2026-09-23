@@ -1,0 +1,10 @@
+﻿CREATE FUNCTION [dbo].[fn_GetNow]()
+RETURNS DATE
+AS
+BEGIN
+	
+	DECLARE @Date DATE
+	SET @Date = GETDATE()
+	RETURN @Date
+END
+SELECT dbo.fn_GetNow()

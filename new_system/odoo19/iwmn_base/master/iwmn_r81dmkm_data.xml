@@ -1,0 +1,1721 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="iwmn_r81dmkm_74" model="iwmn.r81dmkm">
+            <field name="ma_km">22</field>
+            <field name="ten_km">Tiền lương và khoản chi NLĐ</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">070720:180928:BANGNH</field>
+            <field name="ident00">74</field>
+            <field name="ma_km_parent" eval="False"/>
+            <field name="nh_cuoi">0</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_92" model="iwmn.r81dmkm">
+            <field name="ma_km">2201</field>
+            <field name="ten_km">Lương</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">070720:190840:BANGNH</field>
+            <field name="ident00">92</field>
+            <field name="ma_km_parent">22</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_93" model="iwmn.r81dmkm">
+            <field name="ma_km">2202</field>
+            <field name="ten_km">Tiền ăn trưa, bồi dưỡng độc hại</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">070720:190848:BANGNH</field>
+            <field name="ident00">93</field>
+            <field name="ma_km_parent">22</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_94" model="iwmn.r81dmkm">
+            <field name="ma_km">2203</field>
+            <field name="ten_km">BHXH,BHYT,BHTN,KPCĐ</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">070720:190855:BANGNH</field>
+            <field name="ident00">94</field>
+            <field name="ma_km_parent">22</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_246" model="iwmn.r81dmkm">
+            <field name="ma_km">2204</field>
+            <field name="ten_km">Tiền tàu xe đi phép</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">021019:075516:BANGNH</field>
+            <field name="lastmodify_log">230720:085726:BANGNH</field>
+            <field name="ident00">246</field>
+            <field name="ma_km_parent">22</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_97" model="iwmn.r81dmkm">
+            <field name="ma_km">2208</field>
+            <field name="ten_km">Đồng phục</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">230720:091608:BANGNH</field>
+            <field name="ident00">97</field>
+            <field name="ma_km_parent">22</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_297" model="iwmn.r81dmkm">
+            <field name="ma_km">2209</field>
+            <field name="ten_km">Bảo hộ lao động</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">201024:172757:BANGNH</field>
+            <field name="lastmodify_log">230720:091608:BANGNH</field>
+            <field name="ident00">297</field>
+            <field name="ma_km_parent">22</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_99" model="iwmn.r81dmkm">
+            <field name="ma_km">2212</field>
+            <field name="ten_km">Chi phí nghỉ mát, tham quan, về nguồn</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">271024:183617:BANGNH</field>
+            <field name="ident00">99</field>
+            <field name="ma_km_parent">22</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_96" model="iwmn.r81dmkm">
+            <field name="ma_km">2214</field>
+            <field name="ten_km">Chi phí y tế</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">230720:101233:BANGNH</field>
+            <field name="ident00">96</field>
+            <field name="ma_km_parent">22</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_259" model="iwmn.r81dmkm">
+            <field name="ma_km">2216</field>
+            <field name="ten_km">Chi phí đào tạo</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">070720:151626:BANGNH</field>
+            <field name="lastmodify_log">230720:101211:BANGNH</field>
+            <field name="ident00">259</field>
+            <field name="ma_km_parent">22</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_296" model="iwmn.r81dmkm">
+            <field name="ma_km">2218</field>
+            <field name="ten_km">Quà tặng người lao động</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">201024:120106:BANGNH</field>
+            <field name="lastmodify_log">201024:120337:BANGNH</field>
+            <field name="ident00">296</field>
+            <field name="ma_km_parent">22</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_362" model="iwmn.r81dmkm">
+            <field name="ma_km">2231</field>
+            <field name="ten_km">Bảo hiểm sức khoẻ &amp; nhân thọ</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">150125:224015:BANGNH</field>
+            <field name="lastmodify_log">110720:095543:BANGNH</field>
+            <field name="ident00">362</field>
+            <field name="ma_km_parent">22</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_223" model="iwmn.r81dmkm">
+            <field name="ma_km">2268</field>
+            <field name="ten_km">Chi khác cho NLĐ</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">120319:162133:BANGNH</field>
+            <field name="lastmodify_log">110720:095543:BANGNH</field>
+            <field name="ident00">223</field>
+            <field name="ma_km_parent">22</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_83" model="iwmn.r81dmkm">
+            <field name="ma_km">23</field>
+            <field name="ten_km">Lao động thuê ngoài</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">070720:180936:BANGNH</field>
+            <field name="ident00">83</field>
+            <field name="ma_km_parent" eval="False"/>
+            <field name="nh_cuoi">0</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_248" model="iwmn.r81dmkm">
+            <field name="ma_km">2314</field>
+            <field name="ten_km">Nhân công - Vệ sinh, công nhật</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">021019:083731:BANGNH</field>
+            <field name="lastmodify_log">070720:191250:BANGNH</field>
+            <field name="ident00">248</field>
+            <field name="ma_km_parent">23</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_129" model="iwmn.r81dmkm">
+            <field name="ma_km">2322</field>
+            <field name="ten_km">Nhân công - Bảo vệ</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">070720:191306:BANGNH</field>
+            <field name="ident00">129</field>
+            <field name="ma_km_parent">23</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_130" model="iwmn.r81dmkm">
+            <field name="ma_km">2324</field>
+            <field name="ten_km">Nhân công - Chăm sóc, trồng cây xanh</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">070720:191310:BANGNH</field>
+            <field name="ident00">130</field>
+            <field name="ma_km_parent">23</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_217" model="iwmn.r81dmkm">
+            <field name="ma_km">2342</field>
+            <field name="ten_km">Nhân công - Chuẩn bị công nghệ</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">070915:140929:BANGNH</field>
+            <field name="lastmodify_log">070720:191049:BANGNH</field>
+            <field name="ident00">217</field>
+            <field name="ma_km_parent">23</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_135" model="iwmn.r81dmkm">
+            <field name="ma_km">2345</field>
+            <field name="ten_km">Nhân công - Phân loại, thu gom, chế biến phế liệu</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">070720:191148:BANGNH</field>
+            <field name="ident00">135</field>
+            <field name="ma_km_parent">23</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_132" model="iwmn.r81dmkm">
+            <field name="ma_km">2346</field>
+            <field name="ten_km">Nhân công - Lựa sắt xỉ thu hồi</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">070720:191141:BANGNH</field>
+            <field name="ident00">132</field>
+            <field name="ma_km_parent">23</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_134" model="iwmn.r81dmkm">
+            <field name="ma_km">2348</field>
+            <field name="ten_km">Nhân công - Xử lý bụi lò (Đóng bao, thu gom, bốc xếp bụi lò)</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">200125:153627:BANGNH</field>
+            <field name="ident00">134</field>
+            <field name="ma_km_parent">23</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_371" model="iwmn.r81dmkm">
+            <field name="ma_km">2351</field>
+            <field name="ten_km">Nhân công - Vệ sinh máy móc</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">210125:112422:BANGNH</field>
+            <field name="lastmodify_log">180125:145622:BANGNH</field>
+            <field name="ident00">371</field>
+            <field name="ma_km_parent">23</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_143" model="iwmn.r81dmkm">
+            <field name="ma_km">2352</field>
+            <field name="ten_km">Nhân công - Kê đà, móc, mở cáp chất bãi thép</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">070720:191157:BANGNH</field>
+            <field name="ident00">143</field>
+            <field name="ma_km_parent">23</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_247" model="iwmn.r81dmkm">
+            <field name="ma_km">2354</field>
+            <field name="ten_km">Nhân công - Bốc dỡ phục vụ bán hàng</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">021019:083550:BANGNH</field>
+            <field name="lastmodify_log">160726:110346:BANGNH</field>
+            <field name="ident00">247</field>
+            <field name="ma_km_parent">23</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_367" model="iwmn.r81dmkm">
+            <field name="ma_km">2355</field>
+            <field name="ten_km">Nhân công - Bẻ thép</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">180125:145637:BANGNH</field>
+            <field name="lastmodify_log">180125:145622:BANGNH</field>
+            <field name="ident00">367</field>
+            <field name="ma_km_parent">23</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_249" model="iwmn.r81dmkm">
+            <field name="ma_km">2372</field>
+            <field name="ten_km">Nhân công - Vá vỏ xe</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">021019:083840:BANGNH</field>
+            <field name="lastmodify_log">070720:191204:BANGNH</field>
+            <field name="ident00">249</field>
+            <field name="ma_km_parent">23</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_250" model="iwmn.r81dmkm">
+            <field name="ma_km">2374</field>
+            <field name="ten_km">Nhân công - Giặt đồ</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">021019:084220:BANGNH</field>
+            <field name="lastmodify_log">070720:191209:BANGNH</field>
+            <field name="ident00">250</field>
+            <field name="ma_km_parent">23</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_293" model="iwmn.r81dmkm">
+            <field name="ma_km">2375</field>
+            <field name="ten_km">Nhân công - Bảo trì, sửa chữa</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">210720:095037:BANGNH</field>
+            <field name="lastmodify_log">070720:191209:BANGNH</field>
+            <field name="ident00">293</field>
+            <field name="ma_km_parent">23</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_294" model="iwmn.r81dmkm">
+            <field name="ma_km">2376</field>
+            <field name="ten_km">Nhân công - Thuê chuyên gia</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">210720:154309:BANGNH</field>
+            <field name="lastmodify_log">070720:191209:BANGNH</field>
+            <field name="ident00">294</field>
+            <field name="ma_km_parent">23</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_110" model="iwmn.r81dmkm">
+            <field name="ma_km">32</field>
+            <field name="ten_km">Vận chuyển, xếp dỡ</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">110720:154848:BANGNH</field>
+            <field name="ident00">110</field>
+            <field name="ma_km_parent" eval="False"/>
+            <field name="nh_cuoi">0</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_114" model="iwmn.r81dmkm">
+            <field name="ma_km">3214</field>
+            <field name="ten_km">Vận chuyển - Taxi, đưa rước CB-CNV</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">110720:154916:BANGNH</field>
+            <field name="ident00">114</field>
+            <field name="ma_km_parent">32</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_119" model="iwmn.r81dmkm">
+            <field name="ma_km">3224</field>
+            <field name="ten_km">Vận chuyển - Chuyển bụi lò</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">110720:154930:BANGNH</field>
+            <field name="ident00">119</field>
+            <field name="ma_km_parent">32</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_118" model="iwmn.r81dmkm">
+            <field name="ma_km">3242</field>
+            <field name="ten_km">Vận chuyển, xếp dỡ, dịch vụ logictic - Phôi</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">271125:140358:BANGNH</field>
+            <field name="ident00">118</field>
+            <field name="ma_km_parent">32</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_116" model="iwmn.r81dmkm">
+            <field name="ma_km">3252</field>
+            <field name="ten_km">Xếp dỡ, nâng hạ thép cán</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">110720:154941:BANGNH</field>
+            <field name="ident00">116</field>
+            <field name="ma_km_parent">32</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_113" model="iwmn.r81dmkm">
+            <field name="ma_km">3254</field>
+            <field name="ten_km">Vận chuyển - Thép</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">110720:154951:BANGNH</field>
+            <field name="ident00">113</field>
+            <field name="ma_km_parent">32</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_244" model="iwmn.r81dmkm">
+            <field name="ma_km">3272</field>
+            <field name="ten_km">Dịch vụ XNK</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">011019:141128:BANGNH</field>
+            <field name="lastmodify_log">110720:154956:BANGNH</field>
+            <field name="ident00">244</field>
+            <field name="ma_km_parent">32</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_262" model="iwmn.r81dmkm">
+            <field name="ma_km">36</field>
+            <field name="ten_km">Quảng cáo &amp; chi phí sản phẩm</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">070720:153429:BANGNH</field>
+            <field name="lastmodify_log">070525:170336:BANGNH</field>
+            <field name="ident00">262</field>
+            <field name="ma_km_parent" eval="False"/>
+            <field name="nh_cuoi">0</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_282" model="iwmn.r81dmkm">
+            <field name="ma_km">3613</field>
+            <field name="ten_km">QC - Pano, bảng hiệu</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">120720:095851:BANGNH</field>
+            <field name="lastmodify_log">110720:155024:BANGNH</field>
+            <field name="ident00">282</field>
+            <field name="ma_km_parent">36</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_273" model="iwmn.r81dmkm">
+            <field name="ma_km">3614</field>
+            <field name="ten_km">QC - Truyền thông</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">070720:194532:BANGNH</field>
+            <field name="lastmodify_log">110720:155024:BANGNH</field>
+            <field name="ident00">273</field>
+            <field name="ma_km_parent">36</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_89" model="iwmn.r81dmkm">
+            <field name="ma_km">3616</field>
+            <field name="ten_km">QC - Chi phí thương hiệu</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">110720:155030:BANGNH</field>
+            <field name="ident00">89</field>
+            <field name="ma_km_parent">36</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_257" model="iwmn.r81dmkm">
+            <field name="ma_km">3618</field>
+            <field name="ten_km">QC - Quà tặng</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">050720:140117:BANGNH</field>
+            <field name="lastmodify_log">031124:154907:BANGNH</field>
+            <field name="ident00">257</field>
+            <field name="ma_km_parent">36</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_280" model="iwmn.r81dmkm">
+            <field name="ma_km">3620</field>
+            <field name="ten_km">QC - Hội nghị, sự kiện</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">120720:053213:BANGNH</field>
+            <field name="lastmodify_log">271024:102506:BANGNH</field>
+            <field name="ident00">280</field>
+            <field name="ma_km_parent">36</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_373" model="iwmn.r81dmkm">
+            <field name="ma_km">3681</field>
+            <field name="ten_km">SP - Vật tư &amp; dịch vụ bán hàng</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">070525:170614:BANGNH</field>
+            <field name="lastmodify_log">070525:182347:BANGNH</field>
+            <field name="ident00">373</field>
+            <field name="ma_km_parent">36</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_79" model="iwmn.r81dmkm">
+            <field name="ma_km">42</field>
+            <field name="ten_km">Chi phí thường xuyên</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">110720:095702:BANGNH</field>
+            <field name="ident00">79</field>
+            <field name="ma_km_parent" eval="False"/>
+            <field name="nh_cuoi">0</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_76" model="iwmn.r81dmkm">
+            <field name="ma_km">4202</field>
+            <field name="ten_km">FC - Khấu hao tài sản</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">301024:113514:BANGNH</field>
+            <field name="ident00">76</field>
+            <field name="ma_km_parent">42</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_82" model="iwmn.r81dmkm">
+            <field name="ma_km">4203</field>
+            <field name="ten_km">FC - Thuê đất, mặt bằng, kho bãi</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">301024:113520:BANGNH</field>
+            <field name="ident00">82</field>
+            <field name="ma_km_parent">42</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_102" model="iwmn.r81dmkm">
+            <field name="ma_km">4211</field>
+            <field name="ten_km">FC - Tiền điện</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">301024:113527:BANGNH</field>
+            <field name="ident00">102</field>
+            <field name="ma_km_parent">42</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_103" model="iwmn.r81dmkm">
+            <field name="ma_km">4212</field>
+            <field name="ten_km">FC - Tiền nước</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">301024:113535:BANGNH</field>
+            <field name="ident00">103</field>
+            <field name="ma_km_parent">42</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_306" model="iwmn.r81dmkm">
+            <field name="ma_km">4220</field>
+            <field name="ten_km">FC - Chi phí kiểm toán &amp; tư vấn tài chính</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">281024:230335:BANGNH</field>
+            <field name="lastmodify_log">010925:164508:BANGNH</field>
+            <field name="ident00">306</field>
+            <field name="ma_km_parent">42</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_301" model="iwmn.r81dmkm">
+            <field name="ma_km">44</field>
+            <field name="ten_km">Dịch vụ tài chính, ngân hàng</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">281024:222602:BANGNH</field>
+            <field name="lastmodify_log">090626:145815:BANGNH</field>
+            <field name="ident00">301</field>
+            <field name="ma_km_parent" eval="False"/>
+            <field name="nh_cuoi">0</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_302" model="iwmn.r81dmkm">
+            <field name="ma_km">4401</field>
+            <field name="ten_km">TC - Phí chuyển khoản</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">281024:222628:BANGNH</field>
+            <field name="lastmodify_log">301024:151356:BANGNH</field>
+            <field name="ident00">302</field>
+            <field name="ma_km_parent">44</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_303" model="iwmn.r81dmkm">
+            <field name="ma_km">4402</field>
+            <field name="ten_km">TC - Phí dịch vụ thanh toán quốc tế</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">281024:222652:BANGNH</field>
+            <field name="lastmodify_log">301024:151404:BANGNH</field>
+            <field name="ident00">303</field>
+            <field name="ma_km_parent">44</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_304" model="iwmn.r81dmkm">
+            <field name="ma_km">4405</field>
+            <field name="ten_km">TC - Phí bảo lãnh, ký quỹ</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">281024:222735:BANGNH</field>
+            <field name="lastmodify_log">301024:151411:BANGNH</field>
+            <field name="ident00">304</field>
+            <field name="ma_km_parent">44</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_375" model="iwmn.r81dmkm">
+            <field name="ma_km">4408</field>
+            <field name="ten_km">Dịch vụ tư vấn luật</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">090626:145719:BANGNH</field>
+            <field name="lastmodify_log">281024:222704:BANGNH</field>
+            <field name="ident00">375</field>
+            <field name="ma_km_parent">44</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_180" model="iwmn.r81dmkm">
+            <field name="ma_km">52</field>
+            <field name="ten_km">Chi phí sửa chữa, bảo trì</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">310315:104034:VR</field>
+            <field name="lastmodify_log">211024:052926:BANGNH</field>
+            <field name="ident00">180</field>
+            <field name="ma_km_parent" eval="False"/>
+            <field name="nh_cuoi">0</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_80" model="iwmn.r81dmkm">
+            <field name="ma_km">5212</field>
+            <field name="ten_km">Sửa chữa / Nhà xưởng, hạ tầng</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">110720:100233:BANGNH</field>
+            <field name="ident00">80</field>
+            <field name="ma_km_parent">52</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_225" model="iwmn.r81dmkm">
+            <field name="ma_km">5222</field>
+            <field name="ten_km">Sửa chữa / Máy móc sản xuất</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">130319:080130:BANGNH</field>
+            <field name="lastmodify_log">110720:100142:BANGNH</field>
+            <field name="ident00">225</field>
+            <field name="ma_km_parent">52</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_227" model="iwmn.r81dmkm">
+            <field name="ma_km">5229</field>
+            <field name="ten_km">Sửa chữa / Kiểm định, hiệu chuẩn thiết bị</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">130319:081220:BANGNH</field>
+            <field name="lastmodify_log">110720:100208:BANGNH</field>
+            <field name="ident00">227</field>
+            <field name="ma_km_parent">52</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_332" model="iwmn.r81dmkm">
+            <field name="ma_km">53</field>
+            <field name="ten_km">Chi phí xe máy</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">291024:104626:BANGNH</field>
+            <field name="lastmodify_log">291024:105921:BANGNH</field>
+            <field name="ident00">332</field>
+            <field name="ma_km_parent" eval="False"/>
+            <field name="nh_cuoi">0</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_333" model="iwmn.r81dmkm">
+            <field name="ma_km">5301</field>
+            <field name="ten_km">XM - Phí giao thông, kiểm định xe</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">291024:104747:BANGNH</field>
+            <field name="lastmodify_log">150125:231433:BANGNH</field>
+            <field name="ident00">333</field>
+            <field name="ma_km_parent">53</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_334" model="iwmn.r81dmkm">
+            <field name="ma_km">5302</field>
+            <field name="ten_km">XM - DV Giữ xe, rửa xe</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">291024:104830:BANGNH</field>
+            <field name="lastmodify_log">150125:231455:BANGNH</field>
+            <field name="ident00">334</field>
+            <field name="ma_km_parent">53</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_335" model="iwmn.r81dmkm">
+            <field name="ma_km">5312</field>
+            <field name="ten_km">XM - DV Sửa chữa, bảo dưỡng</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">291024:104913:BANGNH</field>
+            <field name="lastmodify_log">150125:231508:BANGNH</field>
+            <field name="ident00">335</field>
+            <field name="ma_km_parent">53</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_363" model="iwmn.r81dmkm">
+            <field name="ma_km">5331</field>
+            <field name="ten_km">XM - DV Bảo hiểm xe máy</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">150125:224220:BANGNH</field>
+            <field name="lastmodify_log">150125:224228:BANGNH</field>
+            <field name="ident00">363</field>
+            <field name="ma_km_parent">53</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_336" model="iwmn.r81dmkm">
+            <field name="ma_km">5352</field>
+            <field name="ten_km">XM - Nhiên liệu mua ngoài</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">291024:105104:BANGNH</field>
+            <field name="lastmodify_log">301024:151552:BANGNH</field>
+            <field name="ident00">336</field>
+            <field name="ma_km_parent">53</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_337" model="iwmn.r81dmkm">
+            <field name="ma_km">5381</field>
+            <field name="ten_km">XM Nhiên liệu cấp phát</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">291024:105121:BANGNH</field>
+            <field name="lastmodify_log">150125:233405:BANGNH</field>
+            <field name="ident00">337</field>
+            <field name="ma_km_parent">53</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_338" model="iwmn.r81dmkm">
+            <field name="ma_km">5382</field>
+            <field name="ten_km">XM Vật tư phụ tùng, vật dụng</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">291024:105742:BANGNH</field>
+            <field name="lastmodify_log">150125:233411:BANGNH</field>
+            <field name="ident00">338</field>
+            <field name="ma_km_parent">53</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_317" model="iwmn.r81dmkm">
+            <field name="ma_km">61</field>
+            <field name="ten_km">Chi phí CNTT, mạng và máy tính</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">291024:085527:BANGNH</field>
+            <field name="lastmodify_log">180125:152500:BANGNH</field>
+            <field name="ident00">317</field>
+            <field name="ma_km_parent" eval="False"/>
+            <field name="nh_cuoi">0</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_318" model="iwmn.r81dmkm">
+            <field name="ma_km">6101</field>
+            <field name="ten_km">CNTT - DV Bản quyền phần mềm, chứng thư sô</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">291024:085550:BANGNH</field>
+            <field name="lastmodify_log">180125:162815:BANGNH</field>
+            <field name="ident00">318</field>
+            <field name="ma_km_parent">61</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_346" model="iwmn.r81dmkm">
+            <field name="ma_km">6102</field>
+            <field name="ten_km">CNTT - DV Internet</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">291024:155336:BANGNH</field>
+            <field name="lastmodify_log">150125:222558:BANGNH</field>
+            <field name="ident00">346</field>
+            <field name="ma_km_parent">61</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_319" model="iwmn.r81dmkm">
+            <field name="ma_km">6111</field>
+            <field name="ten_km">CNTT - DV Bảo trì/sửa chữa phần mềm, hệ thống mạng</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">291024:085746:BANGNH</field>
+            <field name="lastmodify_log">150125:222604:BANGNH</field>
+            <field name="ident00">319</field>
+            <field name="ma_km_parent">61</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_321" model="iwmn.r81dmkm">
+            <field name="ma_km">6118</field>
+            <field name="ten_km">CNTT - DV Bảo trì/sửa chữa máy tính</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">291024:085828:BANGNH</field>
+            <field name="lastmodify_log">150125:222515:BANGNH</field>
+            <field name="ident00">321</field>
+            <field name="ma_km_parent">61</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_347" model="iwmn.r81dmkm">
+            <field name="ma_km">6168</field>
+            <field name="ten_km">CNTT - DV Chi phí CNTT khác</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">291024:155711:BANGNH</field>
+            <field name="lastmodify_log">150125:222551:BANGNH</field>
+            <field name="ident00">347</field>
+            <field name="ma_km_parent">61</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_324" model="iwmn.r81dmkm">
+            <field name="ma_km">6181</field>
+            <field name="ten_km">CNTT Vật tư hệ thống mạng</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">291024:085952:BANGNH</field>
+            <field name="lastmodify_log">150125:222220:BANGNH</field>
+            <field name="ident00">324</field>
+            <field name="ma_km_parent">61</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_323" model="iwmn.r81dmkm">
+            <field name="ma_km">6185</field>
+            <field name="ten_km">CNTT Vật tư, thiết bị, máy vi tính</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">291024:085921:BANGNH</field>
+            <field name="lastmodify_log">150125:222408:BANGNH</field>
+            <field name="ident00">323</field>
+            <field name="ma_km_parent">61</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_325" model="iwmn.r81dmkm">
+            <field name="ma_km">62</field>
+            <field name="ten_km">Chi phí hệ thống camera</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">291024:090031:BANGNH</field>
+            <field name="lastmodify_log">211024:052926:BANGNH</field>
+            <field name="ident00">325</field>
+            <field name="ma_km_parent" eval="False"/>
+            <field name="nh_cuoi">0</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_320" model="iwmn.r81dmkm">
+            <field name="ma_km">6215</field>
+            <field name="ten_km">Camera - DV bảo trì/sửa chữa, lắp đặt hệ thống camera</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">291024:085805:BANGNH</field>
+            <field name="lastmodify_log">040925:155009:BANGNH</field>
+            <field name="ident00">320</field>
+            <field name="ma_km_parent">62</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_322" model="iwmn.r81dmkm">
+            <field name="ma_km">6285</field>
+            <field name="ten_km">Camera Vật tư sửa chữa</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">291024:085851:BANGNH</field>
+            <field name="lastmodify_log">150125:222155:BANGNH</field>
+            <field name="ident00">322</field>
+            <field name="ma_km_parent">62</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_352" model="iwmn.r81dmkm">
+            <field name="ma_km">63</field>
+            <field name="ten_km">Máy và thiết bị văn phòng</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">031124:193054:BANGNH</field>
+            <field name="lastmodify_log">031124:193228:BANGNH</field>
+            <field name="ident00">352</field>
+            <field name="ma_km_parent" eval="False"/>
+            <field name="nh_cuoi">0</field>
+            <field name="note">Máy in, máy photo, máy lạnh, máy nước uống, âm thanh, máy giặt, ...</field>
+        </record>
+        <record id="iwmn_r81dmkm_356" model="iwmn.r81dmkm">
+            <field name="ma_km">6302</field>
+            <field name="ten_km">MVP - DV sửa chữa máy lạnh</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">031124:193419:BANGNH</field>
+            <field name="lastmodify_log">031124:193327:BANGNH</field>
+            <field name="ident00">356</field>
+            <field name="ma_km_parent">63</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_353" model="iwmn.r81dmkm">
+            <field name="ma_km">6308</field>
+            <field name="ten_km">MVP - DV sửa chữa máy văn phòng khác</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">031124:193120:BANGNH</field>
+            <field name="lastmodify_log">031124:193522:BANGNH</field>
+            <field name="ident00">353</field>
+            <field name="ma_km_parent">63</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_355" model="iwmn.r81dmkm">
+            <field name="ma_km">6380</field>
+            <field name="ten_km">MVP Máy văn phòng xuất dùng</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">031124:193317:BANGNH</field>
+            <field name="lastmodify_log">150125:222146:BANGNH</field>
+            <field name="ident00">355</field>
+            <field name="ma_km_parent">63</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_354" model="iwmn.r81dmkm">
+            <field name="ma_km">6382</field>
+            <field name="ten_km">MVP Vật tư sử dụng, sửa chữa máy văn phòng</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">031124:193149:BANGNH</field>
+            <field name="lastmodify_log">150125:222137:BANGNH</field>
+            <field name="ident00">354</field>
+            <field name="ma_km_parent">63</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_366" model="iwmn.r81dmkm">
+            <field name="ma_km">6384</field>
+            <field name="ten_km">MVP Mực in</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">180125:140901:BANGNH</field>
+            <field name="lastmodify_log">190125:104336:BANGNH</field>
+            <field name="ident00">366</field>
+            <field name="ma_km_parent">63</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_307" model="iwmn.r81dmkm">
+            <field name="ma_km">65</field>
+            <field name="ten_km">PCCC, ATVSLĐ</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">281024:230439:BANGNH</field>
+            <field name="lastmodify_log">291024:111553:BANGNH</field>
+            <field name="ident00">307</field>
+            <field name="ma_km_parent" eval="False"/>
+            <field name="nh_cuoi">0</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_309" model="iwmn.r81dmkm">
+            <field name="ma_km">6505</field>
+            <field name="ten_km">PCAT - Đào tạo, huấn luyện PCCC, ATVSLĐ</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">281024:230554:BANGNH</field>
+            <field name="lastmodify_log">301024:151739:BANGNH</field>
+            <field name="ident00">309</field>
+            <field name="ma_km_parent">65</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_369" model="iwmn.r81dmkm">
+            <field name="ma_km">6507</field>
+            <field name="ten_km">PCAT - Kiểm định, sửa chữa thiết bị PCCC</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">190125:104746:BANGNH</field>
+            <field name="lastmodify_log">190125:104802:BANGNH</field>
+            <field name="ident00">369</field>
+            <field name="ma_km_parent">65</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_312" model="iwmn.r81dmkm">
+            <field name="ma_km">6520</field>
+            <field name="ten_km">PCAT - Đảm bảo ATVSLĐ</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">281024:230717:BANGNH</field>
+            <field name="lastmodify_log">301024:151757:BANGNH</field>
+            <field name="ident00">312</field>
+            <field name="ma_km_parent">65</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_364" model="iwmn.r81dmkm">
+            <field name="ma_km">6531</field>
+            <field name="ten_km">PCAT - DV BẢO HIỂM PCCC</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">150125:224258:BANGNH</field>
+            <field name="lastmodify_log">190125:104815:BANGNH</field>
+            <field name="ident00">364</field>
+            <field name="ma_km_parent">65</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_314" model="iwmn.r81dmkm">
+            <field name="ma_km">6581</field>
+            <field name="ten_km">PCAT Vật tư ATVSLĐ</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">281024:230835:BANGNH</field>
+            <field name="lastmodify_log">150125:222128:BANGNH</field>
+            <field name="ident00">314</field>
+            <field name="ma_km_parent">65</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_316" model="iwmn.r81dmkm">
+            <field name="ma_km">6583</field>
+            <field name="ten_km">PCAT Vật tư PCCC</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">281024:230906:BANGNH</field>
+            <field name="lastmodify_log">150125:222122:BANGNH</field>
+            <field name="ident00">316</field>
+            <field name="ma_km_parent">65</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_339" model="iwmn.r81dmkm">
+            <field name="ma_km">66</field>
+            <field name="ten_km">Chi phí môi trường</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">291024:110401:BANGNH</field>
+            <field name="lastmodify_log">291024:111540:BANGNH</field>
+            <field name="ident00">339</field>
+            <field name="ma_km_parent" eval="False"/>
+            <field name="nh_cuoi">0</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_340" model="iwmn.r81dmkm">
+            <field name="ma_km">6611</field>
+            <field name="ten_km">MTr - DV tư vấn, báo cáo, phí bảo vệ môi trường</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">291024:110657:BANGNH</field>
+            <field name="lastmodify_log">030625:052202:BANGNH</field>
+            <field name="ident00">340</field>
+            <field name="ma_km_parent">66</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note">Tư vấn, đánh giá, lập báo cáo, kiểm định quan trắc môi trường</field>
+        </record>
+        <record id="iwmn_r81dmkm_370" model="iwmn.r81dmkm">
+            <field name="ma_km">6617</field>
+            <field name="ten_km">MTr - DV Kiểm định, hiệu chuẩn, sửa chữa thiết bị môi trường</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">190125:105023:BANGNH</field>
+            <field name="lastmodify_log">190125:204303:BANGNH</field>
+            <field name="ident00">370</field>
+            <field name="ma_km_parent">66</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note">Tư vấn, đánh giá, lập báo cáo, kiểm định quan trắc môi trường</field>
+        </record>
+        <record id="iwmn_r81dmkm_341" model="iwmn.r81dmkm">
+            <field name="ma_km">6621</field>
+            <field name="ten_km">MTr - Xử lý nước thải</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">291024:110727:BANGNH</field>
+            <field name="lastmodify_log">150125:221714:BANGNH</field>
+            <field name="ident00">341</field>
+            <field name="ma_km_parent">66</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_342" model="iwmn.r81dmkm">
+            <field name="ma_km">6623</field>
+            <field name="ten_km">MTr - Xử lý chất thải, rác thải</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">291024:110747:BANGNH</field>
+            <field name="lastmodify_log">170626:161235:HIENBTT</field>
+            <field name="ident00">342</field>
+            <field name="ma_km_parent">66</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_365" model="iwmn.r81dmkm">
+            <field name="ma_km">6631</field>
+            <field name="ten_km">MTr - DV BẢO HIỂM môi trường</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">150125:224329:BANGNH</field>
+            <field name="lastmodify_log">030625:052138:BANGNH</field>
+            <field name="ident00">365</field>
+            <field name="ma_km_parent">66</field>
+            <field name="nh_cuoi">0</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_343" model="iwmn.r81dmkm">
+            <field name="ma_km">6681</field>
+            <field name="ten_km">MTr Vật tư xử lý môi trường</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">291024:111022:BANGNH</field>
+            <field name="lastmodify_log">150125:222115:BANGNH</field>
+            <field name="ident00">343</field>
+            <field name="ma_km_parent">66</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_326" model="iwmn.r81dmkm">
+            <field name="ma_km">67</field>
+            <field name="ten_km">Chi phí văn phòng</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">291024:095908:BANGNH</field>
+            <field name="lastmodify_log">281024:222704:BANGNH</field>
+            <field name="ident00">326</field>
+            <field name="ma_km_parent" eval="False"/>
+            <field name="nh_cuoi">0</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_327" model="iwmn.r81dmkm">
+            <field name="ma_km">6701</field>
+            <field name="ten_km">VP - DV điện thoại</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">291024:101244:BANGNH</field>
+            <field name="lastmodify_log">150125:221935:BANGNH</field>
+            <field name="ident00">327</field>
+            <field name="ma_km_parent">67</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_328" model="iwmn.r81dmkm">
+            <field name="ma_km">6702</field>
+            <field name="ten_km">VP - DV chuyển phát</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">291024:101331:BANGNH</field>
+            <field name="lastmodify_log">150125:221811:BANGNH</field>
+            <field name="ident00">328</field>
+            <field name="ma_km_parent">67</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_345" model="iwmn.r81dmkm">
+            <field name="ma_km">6703</field>
+            <field name="ten_km">VP - DV truyền hình</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">291024:154913:BANGNH</field>
+            <field name="lastmodify_log">150125:221802:BANGNH</field>
+            <field name="ident00">345</field>
+            <field name="ma_km_parent">67</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_360" model="iwmn.r81dmkm">
+            <field name="ma_km">6758</field>
+            <field name="ten_km">VP - DV Sửa chữa văn phòng</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">031124:195524:BANGNH</field>
+            <field name="lastmodify_log">031124:195940:BANGNH</field>
+            <field name="ident00">360</field>
+            <field name="ma_km_parent">67</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_329" model="iwmn.r81dmkm">
+            <field name="ma_km">6781</field>
+            <field name="ten_km">VP Văn phòng phẩm</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">291024:102002:BANGNH</field>
+            <field name="lastmodify_log">180125:140649:BANGNH</field>
+            <field name="ident00">329</field>
+            <field name="ma_km_parent">67</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note">Không bao gồm mực in máy tính</field>
+        </record>
+        <record id="iwmn_r81dmkm_330" model="iwmn.r81dmkm">
+            <field name="ma_km">6782</field>
+            <field name="ten_km">VP Vật tư, đồ dùng Y tế</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">291024:102028:BANGNH</field>
+            <field name="lastmodify_log">150125:222031:BANGNH</field>
+            <field name="ident00">330</field>
+            <field name="ma_km_parent">67</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_357" model="iwmn.r81dmkm">
+            <field name="ma_km">6783</field>
+            <field name="ten_km">VP Thực phẩm, thức uống, dụng cụ thực phẩm</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">031124:193556:BANGNH</field>
+            <field name="lastmodify_log">180125:144850:BANGNH</field>
+            <field name="ident00">357</field>
+            <field name="ma_km_parent">67</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_331" model="iwmn.r81dmkm">
+            <field name="ma_km">6785</field>
+            <field name="ten_km">VP Vật dụng văn phòng (nước rửa tay, giấy vs, ...)</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">291024:102051:BANGNH</field>
+            <field name="lastmodify_log">150125:222043:BANGNH</field>
+            <field name="ident00">331</field>
+            <field name="ma_km_parent">67</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_359" model="iwmn.r81dmkm">
+            <field name="ma_km">6786</field>
+            <field name="ten_km">VP Đồ dùng, công cụ, dụng cụ văn phòng (bàn, ghế, kệ, đồ dùng trang trí ...)</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">031124:194438:BANGNH</field>
+            <field name="lastmodify_log">070525:171712:BANGNH</field>
+            <field name="ident00">359</field>
+            <field name="ma_km_parent">67</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note">Bàn ghế, tủ, ....</field>
+        </record>
+        <record id="iwmn_r81dmkm_358" model="iwmn.r81dmkm">
+            <field name="ma_km">6788</field>
+            <field name="ten_km">VP Vật tư sửa chữa, bảo trì nhà văn phòng</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">031124:194255:BANGNH</field>
+            <field name="lastmodify_log">150125:222056:BANGNH</field>
+            <field name="ident00">358</field>
+            <field name="ma_km_parent">67</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_189" model="iwmn.r81dmkm">
+            <field name="ma_km">68</field>
+            <field name="ten_km">Chi phí khác</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">310315:161419:VR</field>
+            <field name="lastmodify_log">271024:102408:BANGNH</field>
+            <field name="ident00">189</field>
+            <field name="ma_km_parent" eval="False"/>
+            <field name="nh_cuoi">0</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_156" model="iwmn.r81dmkm">
+            <field name="ma_km">6812</field>
+            <field name="ten_km">CK - Tiếp khách</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">301024:152202:BANGNH</field>
+            <field name="ident00">156</field>
+            <field name="ma_km_parent">68</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_109" model="iwmn.r81dmkm">
+            <field name="ma_km">6813</field>
+            <field name="ten_km">CK - Chi phí công tác</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">301024:152210:BANGNH</field>
+            <field name="ident00">109</field>
+            <field name="ma_km_parent">68</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_274" model="iwmn.r81dmkm">
+            <field name="ma_km">6834</field>
+            <field name="ten_km">CK - Phí khai thác thông tin</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">070720:200801:BANGNH</field>
+            <field name="lastmodify_log">301024:152219:BANGNH</field>
+            <field name="ident00">274</field>
+            <field name="ma_km_parent">68</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_376" model="iwmn.r81dmkm">
+            <field name="ma_km">6835</field>
+            <field name="ten_km">CK - Tư vấn pháp lý</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">090626:150110:BANGNH</field>
+            <field name="lastmodify_log">301024:152219:BANGNH</field>
+            <field name="ident00">376</field>
+            <field name="ma_km_parent">68</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_374" model="iwmn.r81dmkm">
+            <field name="ma_km">6840</field>
+            <field name="ten_km">CK - Thuế, phí các loại</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">010925:164723:BANGNH</field>
+            <field name="lastmodify_log">080126:061715:BANGNH</field>
+            <field name="ident00">374</field>
+            <field name="ma_km_parent">68</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_240" model="iwmn.r81dmkm">
+            <field name="ma_km">6852</field>
+            <field name="ten_km">CK - Gia công thép cán</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">040419:155709:BANGNH</field>
+            <field name="lastmodify_log">301024:152227:BANGNH</field>
+            <field name="ident00">240</field>
+            <field name="ma_km_parent">68</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_350" model="iwmn.r81dmkm">
+            <field name="ma_km">6854</field>
+            <field name="ten_km">CK - Chi phí khánh, liên hoan, hội thảo</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">011124:220245:BANGNH</field>
+            <field name="lastmodify_log">260526:155616:BANGNH</field>
+            <field name="ident00">350</field>
+            <field name="ma_km_parent">68</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note">Tặng hoa, tài trợ hiệp hội, ...</field>
+        </record>
+        <record id="iwmn_r81dmkm_253" model="iwmn.r81dmkm">
+            <field name="ma_km">6858</field>
+            <field name="ten_km">CK - Chi hoạt động từ thiện</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">261119:152057:BANGNH</field>
+            <field name="lastmodify_log">301024:152236:BANGNH</field>
+            <field name="ident00">253</field>
+            <field name="ma_km_parent">68</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_300" model="iwmn.r81dmkm">
+            <field name="ma_km">6861</field>
+            <field name="ten_km">CK - Chi nộp quỹ, hiệp hội</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">211024:151432:BANGNH</field>
+            <field name="lastmodify_log">301024:152243:BANGNH</field>
+            <field name="ident00">300</field>
+            <field name="ma_km_parent">68</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_277" model="iwmn.r81dmkm">
+            <field name="ma_km">6865</field>
+            <field name="ten_km">CK - Chi phí dự phòng</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">110720:160124:BANGNH</field>
+            <field name="lastmodify_log">301024:152249:BANGNH</field>
+            <field name="ident00">277</field>
+            <field name="ma_km_parent">68</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_254" model="iwmn.r81dmkm">
+            <field name="ma_km">6867</field>
+            <field name="ten_km">CK - Các khoản bị phạt</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">261119:152152:BANGNH</field>
+            <field name="lastmodify_log">301024:152256:BANGNH</field>
+            <field name="ident00">254</field>
+            <field name="ma_km_parent">68</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_195" model="iwmn.r81dmkm">
+            <field name="ma_km">6868</field>
+            <field name="ten_km">CK - Chi phí khác</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">030415:143423:BANGNH</field>
+            <field name="lastmodify_log">301024:152302:BANGNH</field>
+            <field name="ident00">195</field>
+            <field name="ma_km_parent">68</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_295" model="iwmn.r81dmkm">
+            <field name="ma_km">6869</field>
+            <field name="ten_km">CK - Chi phí ước tính</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">201024:101630:BANGNH</field>
+            <field name="lastmodify_log">070525:210047:BANGNH</field>
+            <field name="ident00">295</field>
+            <field name="ma_km_parent">68</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_198" model="iwmn.r81dmkm">
+            <field name="ma_km">72</field>
+            <field name="ten_km">Chi phí tài chính</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">230415:142454:BANGNH</field>
+            <field name="lastmodify_log">110720:155153:BANGNH</field>
+            <field name="ident00">198</field>
+            <field name="ma_km_parent" eval="False"/>
+            <field name="nh_cuoi">0</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_199" model="iwmn.r81dmkm">
+            <field name="ma_km">7212</field>
+            <field name="ten_km">Lãi vay</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">230415:142510:BANGNH</field>
+            <field name="lastmodify_log">110720:155215:BANGNH</field>
+            <field name="ident00">199</field>
+            <field name="ma_km_parent">72</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_201" model="iwmn.r81dmkm">
+            <field name="ma_km">7214</field>
+            <field name="ten_km">Chênh lệch tỷ giá</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">230415:142543:BANGNH</field>
+            <field name="lastmodify_log">110720:155224:BANGNH</field>
+            <field name="ident00">201</field>
+            <field name="ma_km_parent">72</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_241" model="iwmn.r81dmkm">
+            <field name="ma_km">7218</field>
+            <field name="ten_km">Chiết khấu thanh toán</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">011019:135827:BANGNH</field>
+            <field name="lastmodify_log">110720:155234:BANGNH</field>
+            <field name="ident00">241</field>
+            <field name="ma_km_parent">72</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_202" model="iwmn.r81dmkm">
+            <field name="ma_km">7222</field>
+            <field name="ten_km">Lãi chậm trả</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">230415:142721:BANGNH</field>
+            <field name="lastmodify_log">110720:155254:BANGNH</field>
+            <field name="ident00">202</field>
+            <field name="ma_km_parent">72</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_236" model="iwmn.r81dmkm">
+            <field name="ma_km">82</field>
+            <field name="ten_km">Vật tư, nguyên liệu, vpp</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">130319:094131:BANGNH</field>
+            <field name="lastmodify_log">210720:051953:BANGNH</field>
+            <field name="ident00">236</field>
+            <field name="ma_km_parent" eval="False"/>
+            <field name="nh_cuoi">0</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_234" model="iwmn.r81dmkm">
+            <field name="ma_km">8202</field>
+            <field name="ten_km">Trục cán</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">130319:093541:BANGNH</field>
+            <field name="lastmodify_log">210720:052025:BANGNH</field>
+            <field name="ident00">234</field>
+            <field name="ma_km_parent">82</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_235" model="iwmn.r81dmkm">
+            <field name="ma_km">8204</field>
+            <field name="ten_km">Phụ tùng phân bổ</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">130319:093740:BANGNH</field>
+            <field name="lastmodify_log">210720:052038:BANGNH</field>
+            <field name="ident00">235</field>
+            <field name="ma_km_parent">82</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_372" model="iwmn.r81dmkm">
+            <field name="ma_km">8262</field>
+            <field name="ten_km">Vật tư Nguyên liệu phụ</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">210125:114646:BANGNH</field>
+            <field name="lastmodify_log">210125:114715:BANGNH</field>
+            <field name="ident00">372</field>
+            <field name="ma_km_parent">82</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkm_233" model="iwmn.r81dmkm">
+            <field name="ma_km">8268</field>
+            <field name="ten_km">Vật tư khác</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">130319:093036:BANGNH</field>
+            <field name="lastmodify_log">290720:134309:BANGNH</field>
+            <field name="ident00">233</field>
+            <field name="ma_km_parent">82</field>
+            <field name="nh_cuoi">1</field>
+            <field name="note" eval="False"/>
+        </record>
+    </data>
+</odoo>

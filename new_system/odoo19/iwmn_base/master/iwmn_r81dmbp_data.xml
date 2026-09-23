@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="iwmn_r81dmbp_21" model="iwmn.r81dmbp">
+            <field name="ma_bp">0NQL</field>
+            <field name="ten_bp">Người quản lý không chuyên trách</field>
+            <field name="ma_bp_parent" eval="False"/>
+            <field name="nh_cuoi">1</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">030725:092428:VR</field>
+            <field name="lastmodify_log">260315:165818:CANHBT</field>
+            <field name="ident00">21</field>
+        </record>
+        <record id="iwmn_r81dmbp_18" model="iwmn.r81dmbp">
+            <field name="ma_bp">BQLDA</field>
+            <field name="ten_bp">Ban quản lý dự án</field>
+            <field name="ma_bp_parent" eval="False"/>
+            <field name="nh_cuoi">1</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">010916:093448:VR</field>
+            <field name="lastmodify_log">260315:165818:CANHBT</field>
+            <field name="ident00">18</field>
+        </record>
+        <record id="iwmn_r81dmbp_12" model="iwmn.r81dmbp">
+            <field name="ma_bp">NQL</field>
+            <field name="ten_bp">Người quản lý</field>
+            <field name="ma_bp_parent" eval="False"/>
+            <field name="nh_cuoi">1</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">010415:153431:VR</field>
+            <field name="lastmodify_log">270323:100825:VR</field>
+            <field name="ident00">12</field>
+        </record>
+        <record id="iwmn_r81dmbp_17" model="iwmn.r81dmbp">
+            <field name="ma_bp">PCNTT</field>
+            <field name="ten_bp">Phòng công nghệ thông tin</field>
+            <field name="ma_bp_parent" eval="False"/>
+            <field name="nh_cuoi">1</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">050116:171450:CUONGPN</field>
+            <field name="lastmodify_log">260315:162459:VR</field>
+            <field name="ident00">17</field>
+        </record>
+        <record id="iwmn_r81dmbp_8" model="iwmn.r81dmbp">
+            <field name="ma_bp">PKD</field>
+            <field name="ten_bp">Phòng kinh doanh</field>
+            <field name="ma_bp_parent" eval="False"/>
+            <field name="nh_cuoi">1</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">260315:162933:VR</field>
+            <field name="lastmodify_log">260315:162459:VR</field>
+            <field name="ident00">8</field>
+        </record>
+        <record id="iwmn_r81dmbp_5" model="iwmn.r81dmbp">
+            <field name="ma_bp">PKHVT</field>
+            <field name="ten_bp">Kế hoạch vật tư</field>
+            <field name="ma_bp_parent" eval="False"/>
+            <field name="nh_cuoi">1</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">030315:094144:HOANG</field>
+            <field name="lastmodify_log">260315:165808:CANHBT</field>
+            <field name="ident00">5</field>
+        </record>
+        <record id="iwmn_r81dmbp_2" model="iwmn.r81dmbp">
+            <field name="ma_bp">PKT</field>
+            <field name="ten_bp">Kế toán tài chính</field>
+            <field name="ma_bp_parent" eval="False"/>
+            <field name="nh_cuoi">1</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">030123:155607:VR</field>
+            <field name="ident00">2</field>
+        </record>
+        <record id="iwmn_r81dmbp_3" model="iwmn.r81dmbp">
+            <field name="ma_bp">PKTDT</field>
+            <field name="ten_bp">Kỹ thuật đầu tư</field>
+            <field name="ma_bp_parent" eval="False"/>
+            <field name="nh_cuoi">1</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">091118:093913:VR</field>
+            <field name="ident00">3</field>
+        </record>
+        <record id="iwmn_r81dmbp_7" model="iwmn.r81dmbp">
+            <field name="ma_bp">PQLCL</field>
+            <field name="ten_bp">Quản lý chất lượng</field>
+            <field name="ma_bp_parent" eval="False"/>
+            <field name="nh_cuoi">1</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">260315:162755:VR</field>
+            <field name="lastmodify_log">260315:165818:CANHBT</field>
+            <field name="ident00">7</field>
+        </record>
+        <record id="iwmn_r81dmbp_6" model="iwmn.r81dmbp">
+            <field name="ma_bp">PTCHC</field>
+            <field name="ten_bp">Tổ chức hành chính</field>
+            <field name="ma_bp_parent" eval="False"/>
+            <field name="nh_cuoi">1</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">260315:162723:VR</field>
+            <field name="lastmodify_log">260315:165857:CANHBT</field>
+            <field name="ident00">6</field>
+        </record>
+        <record id="iwmn_r81dmbp_9" model="iwmn.r81dmbp">
+            <field name="ma_bp">PXCAN</field>
+            <field name="ten_bp">Phân xưởng cán</field>
+            <field name="ma_bp_parent" eval="False"/>
+            <field name="nh_cuoi">1</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">260315:162944:VR</field>
+            <field name="lastmodify_log">260315:162459:VR</field>
+            <field name="ident00">9</field>
+        </record>
+        <record id="iwmn_r81dmbp_11" model="iwmn.r81dmbp">
+            <field name="ma_bp">PXCD</field>
+            <field name="ten_bp">Phân xưởng cơ điện</field>
+            <field name="ma_bp_parent" eval="False"/>
+            <field name="nh_cuoi">1</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">260315:163006:VR</field>
+            <field name="lastmodify_log">260315:162459:VR</field>
+            <field name="ident00">11</field>
+        </record>
+        <record id="iwmn_r81dmbp_10" model="iwmn.r81dmbp">
+            <field name="ma_bp">PXLUYEN</field>
+            <field name="ten_bp">Phân xưởng luyện</field>
+            <field name="ma_bp_parent" eval="False"/>
+            <field name="nh_cuoi">1</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">260315:162956:VR</field>
+            <field name="lastmodify_log">260315:162459:VR</field>
+            <field name="ident00">10</field>
+        </record>
+        <record id="iwmn_r81dmbp_13" model="iwmn.r81dmbp">
+            <field name="ma_bp">PXO</field>
+            <field name="ten_bp">Phân xưởng Oxy</field>
+            <field name="ma_bp_parent" eval="False"/>
+            <field name="nh_cuoi">1</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">020415:102359:VR</field>
+            <field name="lastmodify_log">260315:162459:VR</field>
+            <field name="ident00">13</field>
+        </record>
+        <record id="iwmn_r81dmbp_19" model="iwmn.r81dmbp">
+            <field name="ma_bp">PXSX</field>
+            <field name="ten_bp">Phân xưởng sàn xuất</field>
+            <field name="ma_bp_parent" eval="False"/>
+            <field name="nh_cuoi">1</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">130417:110645:VR</field>
+            <field name="lastmodify_log">260315:162459:VR</field>
+            <field name="ident00">19</field>
+        </record>
+        <record id="iwmn_r81dmbp_15" model="iwmn.r81dmbp">
+            <field name="ma_bp">TDIEN</field>
+            <field name="ten_bp">Trạm điện 110KV</field>
+            <field name="ma_bp_parent" eval="False"/>
+            <field name="nh_cuoi">1</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">020415:102536:VR</field>
+            <field name="lastmodify_log">260315:165818:CANHBT</field>
+            <field name="ident00">15</field>
+        </record>
+        <record id="iwmn_r81dmbp_20" model="iwmn.r81dmbp">
+            <field name="ma_bp">THEPNB</field>
+            <field name="ten_bp">Nhà máy Thép Nhà Bè</field>
+            <field name="ma_bp_parent" eval="False"/>
+            <field name="nh_cuoi">1</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">210920:143805:CUONGPN</field>
+            <field name="lastmodify_log">260315:165818:CANHBT</field>
+            <field name="ident00">20</field>
+        </record>
+    </data>
+</odoo>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_iwmn_r81dmbanve_list" model="ir.ui.view">
+        <field name="name">iwmn.r81dmbanve.list</field>
+        <field name="model">iwmn.r81dmbanve</field>
+        <field name="arch" type="xml">
+            <list string="Danh mục bản vẽ" default_order="ma_banve, id">
+                <field name="ma_banve"/>
+                <field name="ten_banve"/>
+                <field name="file_name"/>
+                <field name="tag"/>
+                <field name="ma_data"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmbanve_form" model="ir.ui.view">
+        <field name="name">iwmn.r81dmbanve.form</field>
+        <field name="model">iwmn.r81dmbanve</field>
+        <field name="arch" type="xml">
+            <form string="Danh mục bản vẽ">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="ma_banve"/>
+                            <field name="ten_banve"/>
+                            <field name="file_name"/>
+                            <field name="tag"/>
+                            <field name="ma_data"/>
+                        </group>
+                        <group>
+                            <field name="image" widget="image"/>
+                        </group>
+                    </group>
+                    <group string="Dữ liệu log hệ thống cũ">
+                        <field name="create_log"/>
+                        <field name="lastmodify_log"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmbanve_search" model="ir.ui.view">
+        <field name="name">iwmn.r81dmbanve.search</field>
+        <field name="model">iwmn.r81dmbanve</field>
+        <field name="arch" type="xml">
+            <search string="Tìm kiếm danh mục bản vẽ">
+                <field name="ma_banve"/>
+                <field name="ten_banve"/>
+                <field name="file_name"/>
+                <field name="tag"/>
+                <field name="ma_data"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_iwmn_r81dmbanve" model="ir.actions.act_window">
+        <field name="name">Danh mục bản vẽ</field>
+        <field name="res_model">iwmn.r81dmbanve</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_iwmn_r81dmbanve_search"/>
+    </record>
+
+    <menuitem
+        id="menu_iwmn_r81dmbanve"
+        name="Danh mục bản vẽ"
+        parent="menu_iwmn_master_production"
+        action="action_iwmn_r81dmbanve"
+        sequence="20"
+    />
+</odoo>

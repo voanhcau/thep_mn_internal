@@ -1,0 +1,40 @@
+﻿set ANSI_NULLS ON
+set QUOTED_IDENTIFIER ON
+go
+
+
+ALTER FUNCTION [dbo].[fn_GetMa_Nhom] 
+(
+	@Kieu_Nhom CHAR(1)
+)
+RETURNS VARCHAR(20)
+WITH ENCRYPTION
+AS
+BEGIN
+
+	RETURN
+		CASE @Kieu_Nhom
+			WHEN '1' THEN 'TK'
+			WHEN '2' THEN 'TK_DU'
+			WHEN '3' THEN 'MA_DT'
+			WHEN '4' THEN 'MA_BP'
+			WHEN '5' THEN 'MA_KM'
+			WHEN '6' THEN 'MA_VT_SP'
+			WHEN '7' THEN 'MA_HD'
+			WHEN '8' THEN 'MA_KHO'
+			WHEN '9' THEN 'MA_VT'
+			WHEN 'a' THEN 'MA_NX'
+			WHEN 'b' THEN 'MA_JOB'
+			WHEN 'd' THEN 'MA_THUE'
+			WHEN 'e' THEN 'MA_DT_CBNV'
+			WHEN 'f' THEN 'MA_KV'
+			WHEN 'g' THEN 'TK_NO'
+			WHEN 'h' THEN 'TK_CO'
+			WHEN 'j' THEN 'MA_JOB'
+			ELSE '' 
+		END
+
+END
+
+
+

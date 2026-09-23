@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+    <record id="seq_iwmn_customer_order" model="ir.sequence">
+        <field name="name">Đơn đặt hàng portal</field>
+        <field name="code">iwmn.customer.order</field>
+        <field name="prefix">WEB/%(year)s/</field>
+        <field name="padding">5</field>
+    </record>
+</odoo>

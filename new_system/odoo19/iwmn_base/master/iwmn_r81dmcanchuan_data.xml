@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="iwmn_r81dmcanchuan_cuon" model="iwmn.r81dmcanchuan">
+            <field name="loai_sp">CUON</field>
+            <field name="ngay_ap">2023-11-01 00:00:00</field>
+            <field name="so_luong">2158.0000</field>
+        </record>
+        <record id="iwmn_r81dmcanchuan_dpcuon" model="iwmn.r81dmcanchuan">
+            <field name="loai_sp">DPCUON</field>
+            <field name="ngay_ap">2023-11-01 00:00:00</field>
+            <field name="so_luong">2158.0000</field>
+        </record>
+        <record id="iwmn_r81dmcanchuan_phoi" model="iwmn.r81dmcanchuan">
+            <field name="loai_sp">PHOI</field>
+            <field name="ngay_ap">2023-11-01 00:00:00</field>
+            <field name="so_luong">2097.0000</field>
+        </record>
+        <record id="iwmn_r81dmcanchuan_thanh" model="iwmn.r81dmcanchuan">
+            <field name="loai_sp">THANH</field>
+            <field name="ngay_ap">2023-11-01 00:00:00</field>
+            <field name="so_luong">2094.0000</field>
+        </record>
+    </data>
+</odoo>

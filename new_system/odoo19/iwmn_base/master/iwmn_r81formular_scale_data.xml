@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="iwmn_r81formular_scale_100_10t" model="iwmn.r81formular_scale">
+            <field name="formular_id">100-10T</field>
+            <field name="description">Khoảng 100Kg đến 10T</field>
+            <field name="condition">[0]-[10000]</field>
+            <field name="formular">[20]+[3]*[SO_BO]</field>
+            <field name="create_log">230315:144701:VR</field>
+            <field name="lastmodify_log">230315:173633:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81formular_scale_10t_40t" model="iwmn.r81formular_scale">
+            <field name="formular_id">10T-40T</field>
+            <field name="description">Khoảng 10T đến 40T</field>
+            <field name="condition">[10000]-[40000]</field>
+            <field name="formular">[40]+[3]*[SO_BO]</field>
+            <field name="create_log">230315:153103:VR</field>
+            <field name="lastmodify_log">230315:153025:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81formular_scale_40t" model="iwmn.r81formular_scale">
+            <field name="formular_id">40T</field>
+            <field name="description">Khoảng 40T trở lên</field>
+            <field name="condition">[40000]</field>
+            <field name="formular">[60]+[3]*[SO_BO]</field>
+            <field name="create_log">230315:153127:VR</field>
+            <field name="lastmodify_log">230315:153025:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+    </data>
+</odoo>

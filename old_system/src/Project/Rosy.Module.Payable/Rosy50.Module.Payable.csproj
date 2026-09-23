@@ -1,0 +1,488 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EF90494E-7D7C-49FA-A792-9E1836DE92F3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RosyModule.Payable</RootNamespace>
+    <AssemblyName>Rosy.Module.Payable</AssemblyName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>Rosy.snk</AssemblyOriginatorKeyFile>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Rosy\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Rosy\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Rosy.List, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Rosy\Rosy.List.dll</HintPath>
+    </Reference>
+    <Reference Include="Rosy.Module, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Rosy\Rosy.Module.dll</HintPath>
+    </Reference>
+    <Reference Include="Rosy.Report, Version=3.1.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Rosy\Rosy.Report.dll</HintPath>
+    </Reference>
+    <Reference Include="Rosy.System, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL" />
+    <Reference Include="Rosy.System.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL" />
+    <Reference Include="Rosy.System.Data, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL" />
+    <Reference Include="Rosy.System.Element, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL" />
+    <Reference Include="Rosy.System.Library, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL" />
+    <Reference Include="Rosy.System.Public, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Barcode_PT\frmKKBarcodePT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Barcode_PT\frmKKBarcodePT.designer.cs">
+      <DependentUpon>frmKKBarcodePT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Barcode_PT\frmKiemKeBarcodePT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Barcode_PT\frmKiemKeBarcodePT.Designer.cs">
+      <DependentUpon>frmKiemKeBarcodePT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Barcode_PT\frmAddSttOrg_BarcodePT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Barcode_PT\frmAddSttOrg_BarcodePT.designer.cs">
+      <DependentUpon>frmAddSttOrg_BarcodePT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Barcode_PT\frmReplaceVTri_BarcodePT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Barcode_PT\frmReplaceVTri_BarcodePT.designer.cs">
+      <DependentUpon>frmReplaceVTri_BarcodePT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Barcode_PT\frmBarcodePT_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Barcode_PT\frmBarcodePT_Edit.Designer.cs">
+      <DependentUpon>frmBarcodePT_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Barcode_PT\frmNhapBarcodePT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Barcode_PT\frmNhapBarcodePT.designer.cs">
+      <DependentUpon>frmNhapBarcodePT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVTPTTD_Enter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVTPTTD_Enter.Designer.cs">
+      <DependentUpon>frmVTPTTD_Enter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVTPTTD_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVTPTTD_Edit.Designer.cs">
+      <DependentUpon>frmVTPTTD_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVTPTTD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVTPTTD.designer.cs">
+      <DependentUpon>frmVTPTTD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFilter_QLHD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFilter_QLHD.Designer.cs">
+      <DependentUpon>frmFilter_QLHD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCheckInventory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCheckInventory.Designer.cs">
+      <DependentUpon>frmCheckInventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCSGiaMua_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCSGiaMua_Edit.Designer.cs">
+      <DependentUpon>frmCSGiaMua_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCtNM_Edit_Vat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCtNM_Edit_Vat.designer.cs">
+      <DependentUpon>frmCtNM_Edit_Vat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCtPO_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCtPO_Edit.Designer.cs">
+      <DependentUpon>frmCtPO_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCtPODH_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCtPODH_Edit.Designer.cs">
+      <DependentUpon>frmCtPODH_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCtPO_PT_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCtPO_PT_Edit.Designer.cs">
+      <DependentUpon>frmCtPO_PT_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCheckCtVt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCheckCtVt.Designer.cs">
+      <DependentUpon>frmCheckCtVt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCtDnTt_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCtDnTt_Edit.Designer.cs">
+      <DependentUpon>frmCtDnTt_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDnTu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDnTu.designer.cs">
+      <DependentUpon>frmDnTu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInheritDnTt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInheritDnTt.designer.cs">
+      <DependentUpon>frmInheritDnTt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdd_HD_DT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdd_HD_DT.designer.cs">
+      <DependentUpon>frmAdd_HD_DT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuan_Ly_Hd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuan_Ly_Hd.Designer.cs">
+      <DependentUpon>frmQuan_Ly_Hd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDm\frmDmCanDoiNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDm\frmDmCanDoiNew.Designer.cs">
+      <DependentUpon>frmDmCanDoiNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDm\frmDmCanDoiNew_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDm\frmDmCanDoiNew_Edit.Designer.cs">
+      <DependentUpon>frmDmCanDoiNew_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDm\frmDmCanDoi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDm\frmDmCanDoi.Designer.cs">
+      <DependentUpon>frmDmCanDoi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDm\frmDmCanDoi_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDm\frmDmCanDoi_Edit.Designer.cs">
+      <DependentUpon>frmDmCanDoi_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCtMo_Ta_Kt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCtMo_Ta_Kt.Designer.cs">
+      <DependentUpon>frmCtMo_Ta_Kt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPbCp_View.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPbCp_View.Designer.cs">
+      <DependentUpon>frmPbCp_View.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCtNM_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCtNM_Edit.Designer.cs">
+      <DependentUpon>frmCtNM_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPbCp_Dkl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPbCp_Dkl.Designer.cs">
+      <DependentUpon>frmPbCp_Dkl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPhanBoThueNk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPhanBoThueNk.Designer.cs">
+      <DependentUpon>frmPhanBoThueNk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDnTu_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDnTu_Edit.Designer.cs">
+      <DependentUpon>frmDnTu_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDmTHTX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDmTHTX.Designer.cs">
+      <DependentUpon>frmDmTHTX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDmTHTX_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDmTHTX_Edit.Designer.cs">
+      <DependentUpon>frmDmTHTX_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Barcode_PT\frmCtNXBarcodePT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Barcode_PT\frmCtNXBarcodePT.Designer.cs">
+      <DependentUpon>frmCtNXBarcodePT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTieuHao_DinhMuc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTieuHao_DinhMuc.Designer.cs">
+      <DependentUpon>frmTieuHao_DinhMuc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Barcode_PT\frmKKBarcodePT.resx">
+      <DependentUpon>frmKKBarcodePT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Barcode_PT\frmKiemKeBarcodePT.resx">
+      <DependentUpon>frmKiemKeBarcodePT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Barcode_PT\frmAddSttOrg_BarcodePT.resx">
+      <DependentUpon>frmAddSttOrg_BarcodePT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Barcode_PT\frmReplaceVTri_BarcodePT.resx">
+      <DependentUpon>frmReplaceVTri_BarcodePT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Barcode_PT\frmBarcodePT_Edit.resx">
+      <DependentUpon>frmBarcodePT_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Barcode_PT\frmNhapBarcodePT.resx">
+      <DependentUpon>frmNhapBarcodePT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVTPTTD_Enter.resx">
+      <DependentUpon>frmVTPTTD_Enter.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVTPTTD_Edit.resx">
+      <DependentUpon>frmVTPTTD_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVTPTTD.resx">
+      <DependentUpon>frmVTPTTD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFilter_QLHD.resx">
+      <DependentUpon>frmFilter_QLHD.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCheckInventory.resx">
+      <DependentUpon>frmCheckInventory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCSGiaMua_Edit.resx">
+      <DependentUpon>frmCSGiaMua_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCtNM_Edit_Vat.resx">
+      <DependentUpon>frmCtNM_Edit_Vat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCtPO_Edit.resx">
+      <DependentUpon>frmCtPO_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCtPODH_Edit.resx">
+      <DependentUpon>frmCtPODH_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCtPO_PT_Edit.resx">
+      <DependentUpon>frmCtPO_PT_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCheckCtVt.resx">
+      <DependentUpon>frmCheckCtVt.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCtDnTt_Edit.resx">
+      <DependentUpon>frmCtDnTt_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDnTu.resx">
+      <DependentUpon>frmDnTu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInheritDnTt.resx">
+      <DependentUpon>frmInheritDnTt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdd_HD_DT.resx">
+      <DependentUpon>frmAdd_HD_DT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuan_Ly_Hd.resx">
+      <DependentUpon>frmQuan_Ly_Hd.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDm\frmDmCanDoiNew.resx">
+      <DependentUpon>frmDmCanDoiNew.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDm\frmDmCanDoiNew_Edit.resx">
+      <DependentUpon>frmDmCanDoiNew_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDm\frmDmCanDoi.resx">
+      <DependentUpon>frmDmCanDoi.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDm\frmDmCanDoi_Edit.resx">
+      <DependentUpon>frmDmCanDoi_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCtMo_Ta_Kt.resx">
+      <DependentUpon>frmCtMo_Ta_Kt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPbCp_View.resx">
+      <DependentUpon>frmPbCp_View.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCtNM_Edit.resx">
+      <DependentUpon>frmCtNM_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPbCp_Dkl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPbCp_Dkl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPhanBoThueNk.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPhanBoThueNk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDnTu_Edit.resx">
+      <DependentUpon>frmDnTu_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDmTHTX.resx">
+      <DependentUpon>frmDmTHTX.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDmTHTX_Edit.resx">
+      <DependentUpon>frmDmTHTX_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Barcode_PT\frmCtNXBarcodePT.resx">
+      <DependentUpon>frmCtNXBarcodePT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTieuHao_DinhMuc.resx">
+      <DependentUpon>frmTieuHao_DinhMuc.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Rosy.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Rosy.List\Rosy50.List.csproj">
+      <Project>{2224CC58-5200-4537-BBE3-B57044BCD8D5}</Project>
+      <Name>Rosy50.List</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

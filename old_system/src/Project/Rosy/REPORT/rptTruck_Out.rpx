@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ActiveReportsLayout Version="3.1" PrintWidth="11058.24" DocumentName="ARNet Document" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-style: normal; text-decoration: none; font-weight: normal; font-size: 10pt; color: Black; font-family: &quot;Times New Roman&quot;; ddo-char-set: 204" />
+    <Style Name="Heading1" Value="font-size: 16pt; font-weight: bold; ddo-char-set: 204" />
+    <Style Name="Heading2" Value="font-size: 14pt; font-weight: bold; font-style: italic; font-family: &quot;Times New Roman&quot;; ddo-char-set: 204" />
+    <Style Name="Heading3" Value="font-size: 13pt; font-weight: bold; ddo-char-set: 204" />
+  </StyleSheet>
+  <Sections>
+    <Section Type="ReportHeader" Name="ReportHeader1" Height="7787" BackColor="16777215">
+      <Control Type="AR.Label" Name="Label18" DataField="Dien_Giai" Left="2439.36" Top="4739.041" Width="8140.32" Height="288" Caption="Dien_Giai" Style="font-size: 12pt; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Label19" DataField="So_Ct" Left="2439.36" Top="2538.72" Width="2135.52" Height="360" Caption="So_Ct" Style="font-size: 12pt; ddo-char-set: 1; font-weight: bold" />
+      <Control Type="AR.Label" Name="Label20" DataField="Ten_Vt_Sp" Left="2439.36" Top="3431.519" Width="6305.76" Height="302.7605" Caption="Ten_Vt_Sp" Style="font-size: 10pt; ddo-char-set: 1; font-weight: bold" />
+      <Control Type="AR.Label" Name="Label21" DataField="So_Xe" Left="8798.4" Top="2898.72" Width="1781.279" Height="302.7597" Caption="So_Xe" Style="font-size: 12pt; ddo-char-set: 1; font-weight: bold" />
+      <Control Type="AR.Label" Name="Label22" DataField="Ten_Dt" Left="2439.36" Top="2898.72" Width="4606.559" Height="504.0001" Caption="Ten_Dt" Style="font-size: 10pt; ddo-char-set: 1; font-weight: bold" />
+      <Control Type="AR.Field" Name="TextBox1" DataField="So_Luong_Co_Hang" Left="2439.359" Top="3776.4" Width="1756.8" Height="317.1602" Text="So_Luong_Co_Hang" OutputFormat="#,##0" Style="font-size: 12pt; ddo-char-set: 1; font-weight: bold; text-align: left" />
+      <Control Type="AR.Field" Name="TextBox2" DataField="Ngay_Ct" Left="8798.4" Top="2538.72" Width="1781.279" Height="331.5601" Text="Ngay_Ct" OutputFormat="dd/MM/yyyy" Style="font-size: 12pt; ddo-char-set: 1; font-weight: bold" />
+      <Control Type="AR.Label" Name="Label25" DataField="Ten_Dt_CbNv_Ra" Left="6030.72" Top="7316.641" Width="3581.279" Height="331.5587" Caption="Ten_Dt_CbNv_Ra" Style="font-size: 12pt; ddo-char-set: 1; text-align: center; font-weight: bold" />
+      <Control Type="AR.Field" Name="TextBox4" DataField="So_Luong_Khong_Hang" Left="2439.359" Top="4121.279" Width="1756.8" Height="302.4" Text="So_Luong_Khong_Hang" OutputFormat="#,##0" Style="font-size: 12pt; ddo-char-set: 1; font-weight: bold; text-align: left" />
+      <Control Type="AR.Field" Name="TextBox5" DataField="So_Luong" Left="2439.359" Top="4436.641" Width="1756.8" Height="272.1602" Text="So_Luong" OutputFormat="#,##0" Style="font-size: 12pt; ddo-char-set: 1; font-weight: bold; text-align: left" />
+      <Control Type="AR.Label" Name="Label3" DataField="Time_Out" Left="7892.641" Top="4422.239" Width="2687.039" Height="287.9999" Caption="Time_Out" Style="font-size: 12pt; ddo-char-set: 1; font-weight: bold" />
+      <Control Type="AR.Label" Name="Label4" DataField="Time_In" Left="7892.641" Top="4121.279" Width="2687.039" Height="315.36" Caption="Time_In" Style="font-size: 12pt; ddo-char-set: 1; font-weight: bold" />
+      <Control Type="AR.Label" Name="Label5" Left="6340.323" Top="4121.279" Width="1537.917" Height="315.3601" Caption="Ngày giờ vào:" Style="font-size: 12pt; ddo-char-set: 1; text-align: left; font-weight: bold" />
+      <Control Type="AR.Label" Name="Label6" Left="6340.323" Top="4422.239" Width="1537.917" Height="288" Caption="Ngày giờ ra:" Style="font-size: 12pt; ddo-char-set: 1; text-align: left; font-weight: bold" />
+      <Control Type="AR.Field" Name="TextBox6" Left="4224.959" Top="4436.643" Width="378.7201" Height="272.1601" Text="kg" Style="font-size: 12pt; ddo-char-set: 1; font-weight: bold; text-align: left" />
+      <Control Type="AR.Field" Name="TextBox7" Left="4224.959" Top="3775.68" Width="378.7201" Height="317.1601" Text="kg" Style="font-size: 12pt; ddo-char-set: 1; font-weight: bold; text-align: left" />
+      <Control Type="AR.Field" Name="TextBox8" Left="4224.959" Top="4121.279" Width="378.7201" Height="302.3999" Text="kg" Style="font-size: 12pt; ddo-char-set: 1; font-weight: bold; text-align: left" />
+      <Control Type="AR.Label" Name="Label7" DataField="Loai_NX" Tag="Loai_NX" Left="8798.4" Top="3231.36" Width="1781.279" Height="300.96" Caption="Loai_NX" Style="font-size: 12pt; ddo-char-set: 1; font-weight: bold" />
+      <Control Type="AR.Label" Name="Label8" DataField="So_Xa_Lan_Tau" Left="7892.641" Top="3805.92" Width="2687.04" Height="315.36" Caption="So_Xa_Lan_Tau" Style="font-size: 12pt; ddo-char-set: 1; font-weight: bold" />
+      <Control Type="AR.Label" Name="Label9" Left="6340.32" Top="3805.92" Width="1537.917" Height="315.3601" Caption="Số tàu/ xà lan:" Style="font-size: 12pt; ddo-char-set: 1; text-align: left; font-weight: bold" />
+      <Control Type="AR.Label" Name="Label10" DataField="Dien_Giai2" Left="2439.359" Top="5041.44" Width="8140.32" Height="288" Caption="Dien_Giai2" Style="font-size: 9pt; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Label11" DataField="Ten_Can" Left="6340.32" Top="2509.92" Width="830.8799" Height="360" Caption="CAN" Style="font-size: 12pt; ddo-char-set: 1; font-weight: bold" />
+      <Control Type="AR.Label" Name="Label12" DataField="Printed_Out" Tag="Printed_Out" Left="7204.32" Top="2509.92" Width="388.8007" Height="360.0002" Caption="Printed_Out" Style="font-size: 12pt; ddo-char-set: 1; font-weight: bold" />
+    </Section>
+    <Section Type="Detail" Name="detail" Height="0" RepeatToFill="1" BackColor="16777215" />
+    <Section Type="ReportFooter" Name="ReportFooter1" Height="0" BackColor="16777215" />
+  </Sections>
+  <ReportComponentTray />
+  <PageSettings LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" PaperSize="0" PaperWidth="11952" PaperHeight="7920" PaperName="Phieu can B5" Orientation="1" />
+  <Parameters />
+</ActiveReportsLayout>

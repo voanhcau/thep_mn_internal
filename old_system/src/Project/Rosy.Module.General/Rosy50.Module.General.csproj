@@ -1,0 +1,404 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0C1D0789-E140-444B-998E-CA243D6DC7A9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RosyModule.General</RootNamespace>
+    <AssemblyName>Rosy.Module.General</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>Rosy.snk</AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Rosy\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Rosy\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v7.1, Version=7.1.4.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\MyLibrary\DevExpress v7.1\DevExpress.Data.v7.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v7.1, Version=7.1.4.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\MyLibrary\DevExpress v7.1\DevExpress.Utils.v7.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v7.1, Version=7.1.4.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\MyLibrary\DevExpress v7.1\DevExpress.XtraEditors.v7.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v7.1, Version=7.1.4.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\MyLibrary\DevExpress v7.1\DevExpress.XtraTreeList.v7.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v7.1.Design, Version=7.1.4.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\MyLibrary\DevExpress v7.1\DevExpress.XtraTreeList.v7.1.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.85.1.271, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\ROSY\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\ROSY\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Rosy.Module, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Rosy\Rosy.Module.dll</HintPath>
+    </Reference>
+    <Reference Include="Rosy.System, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL" />
+    <Reference Include="Rosy.System.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL" />
+    <Reference Include="Rosy.System.Data, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL" />
+    <Reference Include="Rosy.System.Element, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL" />
+    <Reference Include="Rosy.System.Library, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL" />
+    <Reference Include="Rosy.System.Public, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmChiPhiDK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChiPhiDK.designer.cs">
+      <DependentUpon>frmChiPhiDK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmChiPhiDK_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChiPhiDK_Edit.designer.cs">
+      <DependentUpon>frmChiPhiDK_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReadExcel_ThueEasy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReadExcel_ThueEasy.Designer.cs">
+      <DependentUpon>frmReadExcel_ThueEasy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReadExcel_KT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReadExcel_KT.Designer.cs">
+      <DependentUpon>frmReadExcel_KT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTinh_CLTGBQ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTinh_CLTGBQ.designer.cs">
+      <DependentUpon>frmTinh_CLTGBQ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTinh_CLTGBQ_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTinh_CLTGBQ_Edit.Designer.cs">
+      <DependentUpon>frmTinh_CLTGBQ_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBudget.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBudget.designer.cs">
+      <DependentUpon>frmBudget.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBudgetDThu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBudgetDThu.designer.cs">
+      <DependentUpon>frmBudgetDThu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBudgetDThu_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBudgetDThu_Edit.designer.cs">
+      <DependentUpon>frmBudgetDThu_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBudget_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBudget_Edit.designer.cs">
+      <DependentUpon>frmBudget_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSDHanTt_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSDHanTt_Edit.Designer.cs">
+      <DependentUpon>frmSDHanTt_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSDHanTt_View.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSDHanTt_View.Designer.cs">
+      <DependentUpon>frmSDHanTt_View.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKetChuyenPbCT1_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKetChuyenPbCT1_Edit.Designer.cs">
+      <DependentUpon>frmKetChuyenPbCT1_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKetChuyenPb_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKetChuyenPb_Edit.Designer.cs">
+      <DependentUpon>frmKetChuyenPb_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKetChuyenPb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKetChuyenPb.Designer.cs">
+      <DependentUpon>frmKetChuyenPb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKetChuyen_Run.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKetChuyen_Run.Designer.cs">
+      <DependentUpon>frmKetChuyen_Run.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSDKCt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSDKCt.Designer.cs">
+      <DependentUpon>frmSDKCt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSDK_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSDK_Edit.Designer.cs">
+      <DependentUpon>frmSDK_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSDK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSDK.Designer.cs">
+      <DependentUpon>frmSDK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCtKT_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCtKT_Edit.Designer.cs">
+      <DependentUpon>frmCtKT_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKetChuyen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKetChuyen.designer.cs">
+      <DependentUpon>frmKetChuyen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKetChuyen_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKetChuyen_Edit.Designer.cs">
+      <DependentUpon>frmKetChuyen_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTinh_CLTG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTinh_CLTG.designer.cs">
+      <DependentUpon>frmTinh_CLTG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTinh_CLTG_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTinh_CLTG_Edit.Designer.cs">
+      <DependentUpon>frmTinh_CLTG_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCalLaiGop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCalLaiGop.Designer.cs">
+      <DependentUpon>frmCalLaiGop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmChiPhiDK.resx">
+      <DependentUpon>frmChiPhiDK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChiPhiDK_Edit.resx">
+      <DependentUpon>frmChiPhiDK_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReadExcel_ThueEasy.resx">
+      <DependentUpon>frmReadExcel_ThueEasy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReadExcel_KT.resx">
+      <DependentUpon>frmReadExcel_KT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTinh_CLTGBQ.resx">
+      <DependentUpon>frmTinh_CLTGBQ.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTinh_CLTGBQ_Edit.resx">
+      <DependentUpon>frmTinh_CLTGBQ_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBudget.resx">
+      <DependentUpon>frmBudget.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBudgetDThu.resx">
+      <DependentUpon>frmBudgetDThu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBudgetDThu_Edit.resx">
+      <DependentUpon>frmBudgetDThu_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBudget_Edit.resx">
+      <DependentUpon>frmBudget_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSDHanTt_Edit.resx">
+      <DependentUpon>frmSDHanTt_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSDHanTt_View.resx">
+      <DependentUpon>frmSDHanTt_View.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKetChuyenPbCT1_Edit.resx">
+      <DependentUpon>frmKetChuyenPbCT1_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKetChuyenPb_Edit.resx">
+      <DependentUpon>frmKetChuyenPb_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKetChuyenPb.resx">
+      <DependentUpon>frmKetChuyenPb.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKetChuyen_Run.resx">
+      <DependentUpon>frmKetChuyen_Run.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSDKCt.resx">
+      <DependentUpon>frmSDKCt.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSDK_Edit.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSDK_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSDK.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSDK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCtKT_Edit.resx">
+      <DependentUpon>frmCtKT_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKetChuyen.resx">
+      <DependentUpon>frmKetChuyen.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKetChuyen_Edit.resx">
+      <DependentUpon>frmKetChuyen_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTinh_CLTG.resx">
+      <DependentUpon>frmTinh_CLTG.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTinh_CLTG_Edit.resx">
+      <DependentUpon>frmTinh_CLTG_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalLaiGop.resx">
+      <DependentUpon>frmCalLaiGop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Rosy.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Summary.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Rosy.List\Rosy50.List.csproj">
+      <Project>{2224CC58-5200-4537-BBE3-B57044BCD8D5}</Project>
+      <Name>Rosy50.List</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

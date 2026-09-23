@@ -1,0 +1,1083 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="iwmn_r81dmlopdt_dtcn_012_2023" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTCN-012-2023</field>
+            <field name="ma_nh_lopdt">DTCN_012</field>
+            <field name="noi_dung">Giấy chứng nhận đào tạo an toàn bức xạ cho người phụ trách an toàn-Lê Trọng Nhân</field>
+            <field name="ma_dt">1075140</field>
+            <field name="ngay_bd">2023-05-25 00:00:00</field>
+            <field name="ngay_kt">2023-05-26 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">2500000.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtcn_001_2005" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTCN_001_2005</field>
+            <field name="ma_nh_lopdt">DTCN_001</field>
+            <field name="noi_dung">Đào tạo vận hành xe cẩu năm 2005</field>
+            <field name="ma_dt">1079603</field>
+            <field name="ngay_bd">2004-10-05 00:00:00</field>
+            <field name="ngay_kt">2005-01-05 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtcn_001_2006" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTCN_001_2006</field>
+            <field name="ma_nh_lopdt">DTCN_001</field>
+            <field name="noi_dung">Đào tạo vận hành xe nâng năm 2006</field>
+            <field name="ma_dt">1079603</field>
+            <field name="ngay_bd">2006-03-01 00:00:00</field>
+            <field name="ngay_kt">2006-04-28 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtcn_001_2006_1" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTCN_001_2006_1</field>
+            <field name="ma_nh_lopdt">DTCN_001</field>
+            <field name="noi_dung">Đào tạo vận hành cầu trục năm 2006</field>
+            <field name="ma_dt">1079603</field>
+            <field name="ngay_bd">2005-12-06 00:00:00</field>
+            <field name="ngay_kt">2006-03-06 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtcn_001_2008" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTCN_001_2008</field>
+            <field name="ma_nh_lopdt">DTCN_001</field>
+            <field name="noi_dung">Đào tạo vận hành xe nâng năm 2008</field>
+            <field name="ma_dt">1080131</field>
+            <field name="ngay_bd">2008-12-25 00:00:00</field>
+            <field name="ngay_kt">2008-12-30 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtcn_001_2012" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTCN_001_2012</field>
+            <field name="ma_nh_lopdt">DTCN_001</field>
+            <field name="noi_dung">Đào tạo vận hành xe nâng năm 2012</field>
+            <field name="ma_dt">1061665</field>
+            <field name="ngay_bd">2011-11-10 00:00:00</field>
+            <field name="ngay_kt">2012-01-30 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtcn_001_2020_1" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTCN_001_2020_1</field>
+            <field name="ma_nh_lopdt">DTCN_001</field>
+            <field name="noi_dung">Đào tạo vận hành thang nâng thủy lực năm 2020</field>
+            <field name="ma_dt">1079603</field>
+            <field name="ngay_bd">2021-07-15 00:00:00</field>
+            <field name="ngay_kt">2021-07-31 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtcn_001_2020_2" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTCN_001_2020_2</field>
+            <field name="ma_nh_lopdt">DTCN_001</field>
+            <field name="noi_dung">Đào tạo vận hành xe nâng năm 2020</field>
+            <field name="ma_dt">1079603</field>
+            <field name="ngay_bd">2021-07-15 00:00:00</field>
+            <field name="ngay_kt">2021-07-31 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtcn_001_2022" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTCN_001_2022</field>
+            <field name="ma_nh_lopdt">DTCN_001</field>
+            <field name="noi_dung">Đào tạo vận hành xe nâng năm 2022</field>
+            <field name="ma_dt">1079603</field>
+            <field name="ngay_bd">2022-07-27 00:00:00</field>
+            <field name="ngay_kt">2022-07-29 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtcn_001_2023_1" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTCN_001_2023_1</field>
+            <field name="ma_nh_lopdt">DTCN_001</field>
+            <field name="noi_dung">Đào tạo vận hành cầu trục năm 2023</field>
+            <field name="ma_dt">1079603</field>
+            <field name="ngay_bd">2023-05-06 00:00:00</field>
+            <field name="ngay_kt">2023-05-06 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtcn_002_2016" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTCN_002_2016</field>
+            <field name="ma_nh_lopdt">DTCN_002</field>
+            <field name="noi_dung">Đào tạo đấu thầu cơ bản đối với lựa chọn nhà đầu tư năm 2016</field>
+            <field name="ma_dt">1075218</field>
+            <field name="ngay_bd">2016-08-09 00:00:00</field>
+            <field name="ngay_kt">2016-08-11 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtcn_002_2019" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTCN_002_2019</field>
+            <field name="ma_nh_lopdt">DTCN_002</field>
+            <field name="noi_dung">Đào tạo đấu thầu cơ bản đối với lựa chọn nhà thầu năm 2019</field>
+            <field name="ma_dt">1075218</field>
+            <field name="ngay_bd">2019-05-29 00:00:00</field>
+            <field name="ngay_kt">2019-05-31 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtcn_002_2020" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTCN_002_2020</field>
+            <field name="ma_nh_lopdt">DTCN_002</field>
+            <field name="noi_dung">Bồi dưỡng nghiệp vụ đấu thầu qua mạng năm 2020</field>
+            <field name="ma_dt">1080132</field>
+            <field name="ngay_bd">2020-06-13 00:00:00</field>
+            <field name="ngay_kt">2020-06-14 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtcn_002_2022" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTCN_002_2022</field>
+            <field name="ma_nh_lopdt">DTCN_002</field>
+            <field name="noi_dung">Đào tạo đấu thầu cơ bản năm 2022</field>
+            <field name="ma_dt">1080132</field>
+            <field name="ngay_bd">2022-07-15 00:00:00</field>
+            <field name="ngay_kt">2022-07-17 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtcn_003_2022" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTCN_003_2022</field>
+            <field name="ma_nh_lopdt">DTCN_003</field>
+            <field name="noi_dung">Lớp bồi dưỡng kiến thức quốc phòng an ninh năm 2022</field>
+            <field name="ma_dt">DAOTAO</field>
+            <field name="ngay_bd">1900-01-01 00:00:00</field>
+            <field name="ngay_kt">1900-01-01 00:00:00</field>
+            <field name="ghi_chu">Hội Đồng Giáo Dục Quốc Phòng &amp; An Ninh đào tạo</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtcn_004_2015_01" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTCN_004_2015_01</field>
+            <field name="ma_nh_lopdt">DTCN_004</field>
+            <field name="noi_dung">Lớp bồi dưỡng văn bản quy phạm pháp luật năm 2015</field>
+            <field name="ma_dt">DAOTAO</field>
+            <field name="ngay_bd">2015-08-13 00:00:00</field>
+            <field name="ngay_kt">2015-08-15 00:00:00</field>
+            <field name="ghi_chu">Viện kinh tế xây dựng đào tạo</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtcn_004_2015_02" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTCN_004_2015_02</field>
+            <field name="ma_nh_lopdt">DTCN_004</field>
+            <field name="noi_dung">Lớp bồi dưỡng văn bản quy phạm pháp luật trong lĩnh vực đầu tư xây dựng năm 2015</field>
+            <field name="ma_dt">DAOTAO</field>
+            <field name="ngay_bd">2015-08-13 00:00:00</field>
+            <field name="ngay_kt">2015-08-15 00:00:00</field>
+            <field name="ghi_chu">Viện kinh tế xây dựng đào tạo</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtcn_004_2023_01" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTCN_004_2023_01</field>
+            <field name="ma_nh_lopdt">DTCN_004</field>
+            <field name="noi_dung">Lớp bồi dưỡng về pháp luật lao động</field>
+            <field name="ma_dt">1079830</field>
+            <field name="ngay_bd">2023-05-18 00:00:00</field>
+            <field name="ngay_kt">2023-05-18 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtcn_005_2016" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTCN_005_2016</field>
+            <field name="ma_nh_lopdt">DTCN_005</field>
+            <field name="noi_dung">Nghiệp vụ hành chính văn phòng, văn thư lưu trữ năm 2016</field>
+            <field name="ma_dt">1079830</field>
+            <field name="ngay_bd">2016-05-13 00:00:00</field>
+            <field name="ngay_kt">2016-05-13 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtcn_005_2019" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTCN_005_2019</field>
+            <field name="ma_nh_lopdt">DTCN_005</field>
+            <field name="noi_dung">Xây dựng hệ thống chỉ tiêu hiệu suất chủ yếu KPI theo BSC trong quản trị doanh nghiệp năm 2019</field>
+            <field name="ma_dt">1079830</field>
+            <field name="ngay_bd">2019-06-29 00:00:00</field>
+            <field name="ngay_kt">2019-06-29 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtcn_005_2020" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTCN_005_2020</field>
+            <field name="ma_nh_lopdt">DTCN_005</field>
+            <field name="noi_dung">Xây dựng hệ thống lương theo PP 3Ps năm 2020</field>
+            <field name="ma_dt">1079830</field>
+            <field name="ngay_bd">2020-08-07 00:00:00</field>
+            <field name="ngay_kt">2020-08-07 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtcn_005_2022" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTCN_005_2022</field>
+            <field name="ma_nh_lopdt">DTCN_005</field>
+            <field name="noi_dung">Nghiệp vụ hành chính văn phòng, văn thư lưu trữ năm 2022</field>
+            <field name="ma_dt">1080138</field>
+            <field name="ngay_bd">2022-09-13 00:00:00</field>
+            <field name="ngay_kt">2022-09-15 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtcn_005_2022_1" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTCN_005_2022_1</field>
+            <field name="ma_nh_lopdt">DTCN_005</field>
+            <field name="noi_dung">Nghiệp vụ cập nhật chính sách mới nhất thuế TNCN năm 2022</field>
+            <field name="ma_dt">1080138</field>
+            <field name="ngay_bd">2022-09-13 00:00:00</field>
+            <field name="ngay_kt">2022-09-15 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtcn_005_2022_2" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTCN_005_2022_2</field>
+            <field name="ma_nh_lopdt">DTCN_005</field>
+            <field name="noi_dung">Khóa tập huấn Pháp luật lao động danh cho nhà quản lý doanh nghiệp</field>
+            <field name="ma_dt">1075203</field>
+            <field name="ngay_bd">2022-11-03 00:00:00</field>
+            <field name="ngay_kt">2022-11-04 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtcn_006_2016" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTCN_006_2016</field>
+            <field name="ma_nh_lopdt">DTCN_006</field>
+            <field name="noi_dung">Chỉ huy trưởng công trình xây dựng</field>
+            <field name="ma_dt">1075218</field>
+            <field name="ngay_bd">2016-10-27 00:00:00</field>
+            <field name="ngay_kt">2016-10-31 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtcn_006_2017" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTCN_006_2017</field>
+            <field name="ma_nh_lopdt">DTCN_006</field>
+            <field name="noi_dung">The Bullet Proof Manager Program</field>
+            <field name="ma_dt">1075208</field>
+            <field name="ngay_bd">2017-01-01 00:00:00</field>
+            <field name="ngay_kt">2017-01-01 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtcn_007_2022" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTCN_007_2022</field>
+            <field name="ma_nh_lopdt">DTCN_007</field>
+            <field name="noi_dung">Chuyên viên chứng từ và khai thác hải quan</field>
+            <field name="ma_dt">1080107</field>
+            <field name="ngay_bd">2022-05-13 00:00:00</field>
+            <field name="ngay_kt">2022-05-20 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtcn_008_2012" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTCN_008_2012</field>
+            <field name="ma_nh_lopdt">DTCN_008</field>
+            <field name="noi_dung">Đạo tạo về nghiệp vụ giám sát thi công năm 2012</field>
+            <field name="ma_dt">1080132</field>
+            <field name="ngay_bd">2012-05-18 00:00:00</field>
+            <field name="ngay_kt">2012-06-12 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtcn_008_2016" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTCN_008_2016</field>
+            <field name="ma_nh_lopdt">DTCN_008</field>
+            <field name="noi_dung">Đạo tạo về quản lý dự án xây dựng công trình năm 2016</field>
+            <field name="ma_dt">1075218</field>
+            <field name="ngay_bd">2016-08-18 00:00:00</field>
+            <field name="ngay_kt">2016-08-23 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtcn_008_2016_1" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTCN_008_2016_1</field>
+            <field name="ma_nh_lopdt">DTCN_008</field>
+            <field name="noi_dung">Đạo tạo về nghiệp vụ định giá xây dựng năm 2016</field>
+            <field name="ma_dt">DAOTAO</field>
+            <field name="ngay_bd">2016-12-09 00:00:00</field>
+            <field name="ngay_kt">2016-12-15 00:00:00</field>
+            <field name="ghi_chu">Bộ Xây Dựng - Viện Kinh Tế Xây Dựng</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtcn_008_2016_2" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTCN_008_2016_2</field>
+            <field name="ma_nh_lopdt">DTCN_008</field>
+            <field name="noi_dung">Đạo tạo về nghiệp vụ giám sát thi công năm 2016</field>
+            <field name="ma_dt">1075218</field>
+            <field name="ngay_bd">2016-08-30 00:00:00</field>
+            <field name="ngay_kt">2016-09-17 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtcn_008_2018" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTCN_008_2018</field>
+            <field name="ma_nh_lopdt">DTCN_008</field>
+            <field name="noi_dung">Đạo tạo về quản lý dự án xây dựng công trình năm 2018</field>
+            <field name="ma_dt">DAOTAO</field>
+            <field name="ngay_bd">2016-12-09 00:00:00</field>
+            <field name="ngay_kt">2016-12-14 00:00:00</field>
+            <field name="ghi_chu">Cấp lần 2 ngày 05/10/2018 ( Viện kinh tế xây dựng)</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtcn_009_2009" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTCN_009_2009</field>
+            <field name="ma_nh_lopdt">DTCN_009</field>
+            <field name="noi_dung">Đào tạo về quản lý kho bãi năm 2009</field>
+            <field name="ma_dt">DAOTAO</field>
+            <field name="ngay_bd">2009-06-13 00:00:00</field>
+            <field name="ngay_kt">2009-06-20 00:00:00</field>
+            <field name="ghi_chu">Trường đào tạo kỹ thuật nghiệp vụ &amp; kỹ thuật MTC</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtcn_009_2017" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTCN_009_2017</field>
+            <field name="ma_nh_lopdt">DTCN_009</field>
+            <field name="noi_dung">Đào tạo về quản lý năng lượng năm 2017</field>
+            <field name="ma_dt">DAOTAO</field>
+            <field name="ngay_bd">2016-11-25 00:00:00</field>
+            <field name="ngay_kt">2016-11-25 00:00:00</field>
+            <field name="ghi_chu">Bộ Công Thương</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtcn_010_2004" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTCN_010_2004</field>
+            <field name="ma_nh_lopdt">DTCN_010</field>
+            <field name="noi_dung">Đào tạo điều hành trạm năm 2004</field>
+            <field name="ma_dt">DAOTAO</field>
+            <field name="ngay_bd">2004-05-24 00:00:00</field>
+            <field name="ngay_kt">2004-07-02 00:00:00</field>
+            <field name="ghi_chu">Trường trung học điện 2</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtcn_010_2016" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTCN_010_2016</field>
+            <field name="ma_nh_lopdt">DTCN_010</field>
+            <field name="noi_dung">Đào tạo kỹ thuật tính toán độ không đảm bảo đo trong hiệu chuẩn thiết bị đo lường năm 2016</field>
+            <field name="ma_dt">1061332</field>
+            <field name="ngay_bd">2016-10-24 00:00:00</field>
+            <field name="ngay_kt">2016-10-25 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtcn_010_2016_1" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTCN_010_2016_1</field>
+            <field name="ma_nh_lopdt">DTCN_010</field>
+            <field name="noi_dung">Đào tạo kỹ thuật thử nghiệm tính chất cơ lý (kéo &amp; uốn) và hóa học đối với vật liệu thép năm 2016</field>
+            <field name="ma_dt">1061332</field>
+            <field name="ngay_bd">2016-10-10 00:00:00</field>
+            <field name="ngay_kt">2016-10-10 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtcn_010_2016_2" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTCN_010_2016_2</field>
+            <field name="ma_nh_lopdt">DTCN_010</field>
+            <field name="noi_dung">Đào tạo vận hành hệ thống điện năm 2016</field>
+            <field name="ma_dt">1079928</field>
+            <field name="ngay_bd">2016-11-26 00:00:00</field>
+            <field name="ngay_kt">2016-11-26 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtcn_010_2017" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTCN_010_2017</field>
+            <field name="ma_nh_lopdt">DTCN_010</field>
+            <field name="noi_dung">Đào tạo chế biến món ăn</field>
+            <field name="ma_dt">1079499</field>
+            <field name="ngay_bd">2017-11-22 00:00:00</field>
+            <field name="ngay_kt">2017-12-14 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtcn_010_2018" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTCN_010_2018</field>
+            <field name="ma_nh_lopdt">DTCN_010</field>
+            <field name="noi_dung">Đào tạo kỹ thuật theo dõi và chuẩn đoán tình trạng máy tính cơ bản năm 2018</field>
+            <field name="ma_dt">1079211</field>
+            <field name="ngay_bd">2018-12-18 00:00:00</field>
+            <field name="ngay_kt">2018-12-22 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtcn_010_2022" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTCN_010_2022</field>
+            <field name="ma_nh_lopdt">DTCN_010</field>
+            <field name="noi_dung">Đào tạo chuyên môn y tế lao động năm 2022</field>
+            <field name="ma_dt">DAOTAO</field>
+            <field name="ngay_bd">2022-08-15 00:00:00</field>
+            <field name="ngay_kt">2022-08-19 00:00:00</field>
+            <field name="ghi_chu">Viện Y Tế Công Cộng TP Hồ Chí Minh</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtcn_010_2022_1" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTCN_010_2022_1</field>
+            <field name="ma_nh_lopdt">DTCN_010</field>
+            <field name="noi_dung">Đào tạo Quản trị mạng CCNA</field>
+            <field name="ma_dt">1080136</field>
+            <field name="ngay_bd">2022-09-05 00:00:00</field>
+            <field name="ngay_kt">2022-11-02 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtcn_010_2022_2" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTCN_010_2022_2</field>
+            <field name="ma_nh_lopdt">DTCN_010</field>
+            <field name="noi_dung">Đào tạo khai thác vận tải</field>
+            <field name="ma_dt">DAOTAO</field>
+            <field name="ngay_bd">2022-06-14 00:00:00</field>
+            <field name="ngay_kt">2022-09-14 00:00:00</field>
+            <field name="ghi_chu">Trường trung cấp nghề giao thông vận tải</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtcn_011" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTCN_011</field>
+            <field name="ma_nh_lopdt">DTCN_011</field>
+            <field name="noi_dung">Đào tạo ISO 17025:2007 năm 2016</field>
+            <field name="ma_dt">1061332</field>
+            <field name="ngay_bd">2016-09-29 00:00:00</field>
+            <field name="ngay_kt">2016-09-30 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtcn_011_2016" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTCN_011_2016</field>
+            <field name="ma_nh_lopdt">DTCN_011</field>
+            <field name="noi_dung">Đánh giá nội bộ ISO 17025:2007 năm 2016</field>
+            <field name="ma_dt">1061332</field>
+            <field name="ngay_bd">2016-10-26 00:00:00</field>
+            <field name="ngay_kt">2016-11-06 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtcn_011_2017" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTCN_011_2017</field>
+            <field name="ma_nh_lopdt">DTCN_011</field>
+            <field name="noi_dung">Đánh giá nội bộ ISO 9001:2015  năm 2017</field>
+            <field name="ma_dt">1061332</field>
+            <field name="ngay_bd">2017-07-27 00:00:00</field>
+            <field name="ngay_kt">2017-07-28 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtcn_011_2019" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTCN_011_2019</field>
+            <field name="ma_nh_lopdt">DTCN_011</field>
+            <field name="noi_dung">Đánh giá nội bộ ISO 17025:2007 năm 2019</field>
+            <field name="ma_dt">1061332</field>
+            <field name="ngay_bd">2019-01-16 00:00:00</field>
+            <field name="ngay_kt">2019-01-24 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtcn_011_2020" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTCN_011_2020</field>
+            <field name="ma_nh_lopdt">DTCN_011</field>
+            <field name="noi_dung">Đánh giá nội bộ ISO 14001:2015  năm 2020</field>
+            <field name="ma_dt">1061290</field>
+            <field name="ngay_bd">2020-08-29 00:00:00</field>
+            <field name="ngay_kt">2022-08-30 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtmt_003_2021" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTMT_003_2021</field>
+            <field name="ma_nh_lopdt">DTMT_003</field>
+            <field name="noi_dung">Huấn luyện an toàn thiết bị áp lực năm 2021</field>
+            <field name="ma_dt">1075133</field>
+            <field name="ngay_bd">2021-04-13 00:00:00</field>
+            <field name="ngay_kt">2021-04-15 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtmt_005_2020" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTMT_005_2020</field>
+            <field name="ma_nh_lopdt">DTMT_005</field>
+            <field name="noi_dung">Huấn luyện an toàn điện năm 2020</field>
+            <field name="ma_dt">1075133</field>
+            <field name="ngay_bd">2020-11-10 00:00:00</field>
+            <field name="ngay_kt">2020-11-11 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtmt_008_2020" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTMT_008_2020</field>
+            <field name="ma_nh_lopdt">DTMT_008</field>
+            <field name="noi_dung">Huấn luyện an toàn làm việc trên cao năm 2020</field>
+            <field name="ma_dt">1075133</field>
+            <field name="ngay_bd">2020-11-11 00:00:00</field>
+            <field name="ngay_kt">2020-11-13 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtmt_009_2020" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTMT_009_2020</field>
+            <field name="ma_nh_lopdt">DTMT_009</field>
+            <field name="noi_dung">Huấn luyện an toàn trong không gian hạn chế năm 2020</field>
+            <field name="ma_dt">1075133</field>
+            <field name="ngay_bd">2020-11-11 00:00:00</field>
+            <field name="ngay_kt">2020-11-13 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtmt_009_2021" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTMT_009_2021</field>
+            <field name="ma_nh_lopdt">DTMT_009</field>
+            <field name="noi_dung">Huấn luyện an toàn trong không gian hạn chế năm 2021</field>
+            <field name="ma_dt">1075133</field>
+            <field name="ngay_bd">2021-04-13 00:00:00</field>
+            <field name="ngay_kt">2021-04-15 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtmt_010_2020" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTMT_010_2020</field>
+            <field name="ma_nh_lopdt">DTMT_010</field>
+            <field name="noi_dung">Huấn luyện an toàn vệ sinh viên</field>
+            <field name="ma_dt">1079825</field>
+            <field name="ngay_bd">2020-06-23 00:00:00</field>
+            <field name="ngay_kt">2020-06-24 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtmt_010_2021" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTMT_010_2021</field>
+            <field name="ma_nh_lopdt">DTMT_010</field>
+            <field name="noi_dung">Huấn luyện an toàn vệ sinh viên</field>
+            <field name="ma_dt">1079825</field>
+            <field name="ngay_bd">2021-03-23 00:00:00</field>
+            <field name="ngay_kt">2021-03-25 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtmt001_2019_001" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTMT001_2019_001</field>
+            <field name="ma_nh_lopdt">DTMT_001</field>
+            <field name="noi_dung">Huấn luyện an toàn định kì 2019</field>
+            <field name="ma_dt">1079638</field>
+            <field name="ngay_bd">2019-03-12 00:00:00</field>
+            <field name="ngay_kt">2019-03-14 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien">0</field>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtmt001_2020_001" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTMT001_2020_001</field>
+            <field name="ma_nh_lopdt">DTMT_001</field>
+            <field name="noi_dung">Huấn luyện an toàn định kì 2020</field>
+            <field name="ma_dt">1079825</field>
+            <field name="ngay_bd">2020-06-16 00:00:00</field>
+            <field name="ngay_kt">2020-06-18 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien">0</field>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtmt001_2021_001" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTMT001_2021_001</field>
+            <field name="ma_nh_lopdt">DTMT_001</field>
+            <field name="noi_dung">Huấn luyện an toàn định kì 2021</field>
+            <field name="ma_dt">1079825</field>
+            <field name="ngay_bd">2020-06-16 00:00:00</field>
+            <field name="ngay_kt">2020-06-18 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien">0</field>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtmt001_2022_001" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTMT001_2022_001</field>
+            <field name="ma_nh_lopdt">DTMT_001</field>
+            <field name="noi_dung">Huấn luyện an toàn định kì 2022</field>
+            <field name="ma_dt">1079825</field>
+            <field name="ngay_bd">2022-04-12 00:00:00</field>
+            <field name="ngay_kt">2022-04-14 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien">0</field>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtmt001_2023_001" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTMT001_2023_001</field>
+            <field name="ma_nh_lopdt">DTMT_001</field>
+            <field name="noi_dung">Huấn luyện an toàn định kì 2023</field>
+            <field name="ma_dt">1079825</field>
+            <field name="ngay_bd">2023-03-07 00:00:00</field>
+            <field name="ngay_kt">2023-03-09 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien">0</field>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtmt002_2019_001" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTMT002_2019_001</field>
+            <field name="ma_nh_lopdt">DTMT_002</field>
+            <field name="noi_dung">Huấn luyện an toàn thiết bị nâng 2019</field>
+            <field name="ma_dt">1075133</field>
+            <field name="ngay_bd">2019-09-17 00:00:00</field>
+            <field name="ngay_kt">2019-09-19 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien">0</field>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtmt002_2020_001" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTMT002_2020_001</field>
+            <field name="ma_nh_lopdt">DTMT_002</field>
+            <field name="noi_dung">Huấn luyện an toàn thiết bị nâng 2020</field>
+            <field name="ma_dt">1079643</field>
+            <field name="ngay_bd">2020-07-14 00:00:00</field>
+            <field name="ngay_kt">2020-07-16 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien">0</field>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtmt004_2019_001" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTMT004_2019_001</field>
+            <field name="ma_nh_lopdt">DTMT_004</field>
+            <field name="noi_dung">Huấn luyện và diễn tập an toàn PCCC&amp;CNCH năm 2019</field>
+            <field name="ma_dt">1079772</field>
+            <field name="ngay_bd">2019-06-26 00:00:00</field>
+            <field name="ngay_kt">2019-06-27 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien">0</field>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtmt004_2020_001" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTMT004_2020_001</field>
+            <field name="ma_nh_lopdt">DTMT_004</field>
+            <field name="noi_dung">Huấn luyện và diễn tập an toàn PCCC&amp;CNCH năm 2020</field>
+            <field name="ma_dt">1079772</field>
+            <field name="ngay_bd">2020-10-08 00:00:00</field>
+            <field name="ngay_kt">2020-10-09 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien">0</field>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtmt006_2019_001" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTMT006_2019_001</field>
+            <field name="ma_nh_lopdt">DTMT_006</field>
+            <field name="noi_dung">Huấn luyện an toàn hóa chất năm 2019</field>
+            <field name="ma_dt">1075384</field>
+            <field name="ngay_bd">2019-05-15 00:00:00</field>
+            <field name="ngay_kt">2019-05-15 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien">0</field>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtmt006_2020_001" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTMT006_2020_001</field>
+            <field name="ma_nh_lopdt">DTMT_006</field>
+            <field name="noi_dung">Huấn luyện an toàn hóa chất năm 2020</field>
+            <field name="ma_dt">1079825</field>
+            <field name="ngay_bd">2020-09-16 00:00:00</field>
+            <field name="ngay_kt">2020-09-17 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien">0</field>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtmt007_2019_001" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTMT007_2019_001</field>
+            <field name="ma_nh_lopdt">DTMT_007</field>
+            <field name="noi_dung">Huấn luyện an toàn sơ cấp cứu năm 2019</field>
+            <field name="ma_dt">1075133</field>
+            <field name="ngay_bd">2019-10-09 00:00:00</field>
+            <field name="ngay_kt">2019-10-11 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien">0</field>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtmt007_2020_001" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTMT007_2020_001</field>
+            <field name="ma_nh_lopdt">DTMT_007</field>
+            <field name="noi_dung">Huấn luyện an toàn sơ cấp cứu năm 2020</field>
+            <field name="ma_dt">1075133</field>
+            <field name="ngay_bd">2020-10-05 00:00:00</field>
+            <field name="ngay_kt">2020-10-07 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien">0</field>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtmt011_2019_001" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTMT011_2019_001</field>
+            <field name="ma_nh_lopdt">DTMT_011</field>
+            <field name="noi_dung">Huấn luyện an toàn người quản lý năm 2019</field>
+            <field name="ma_dt">1000036</field>
+            <field name="ngay_bd">2019-05-24 00:00:00</field>
+            <field name="ngay_kt">2019-05-24 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien">0</field>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtmt011_2022_001" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTMT011_2022_001</field>
+            <field name="ma_nh_lopdt">DTMT_011</field>
+            <field name="noi_dung">Huấn luyện an toàn người quản lý năm 2022</field>
+            <field name="ma_dt">1075133</field>
+            <field name="ngay_bd">2022-07-12 00:00:00</field>
+            <field name="ngay_kt">2022-07-13 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien">0</field>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtmt012_2019_001" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTMT012_2019_001</field>
+            <field name="ma_nh_lopdt">DTMT_012</field>
+            <field name="noi_dung">Huấn luyện y tế - ATVSLĐ</field>
+            <field name="ma_dt" eval="False"/>
+            <field name="ngay_bd">2019-10-29 00:00:00</field>
+            <field name="ngay_kt">2019-10-31 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtmt013_2019_001" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTMT013_2019_001</field>
+            <field name="ma_nh_lopdt">DTMT_013</field>
+            <field name="noi_dung">Huấn Luyện An Toàn Hàn Cắt Oxy gas - điện năm 2019</field>
+            <field name="ma_dt">1079638</field>
+            <field name="ngay_bd">2019-06-11 00:00:00</field>
+            <field name="ngay_kt">2019-06-13 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien">0</field>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtmt013_2020_001" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTMT013_2020_001</field>
+            <field name="ma_nh_lopdt">DTMT_013</field>
+            <field name="noi_dung">Huấn Luyện An Toàn Hàn Cắt Oxy gas - điện năm 2020</field>
+            <field name="ma_dt">1079825</field>
+            <field name="ngay_bd">2020-11-24 00:00:00</field>
+            <field name="ngay_kt">2020-11-26 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien">0</field>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtmt014_2019_001" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTMT014_2019_001</field>
+            <field name="ma_nh_lopdt">DTMT_014</field>
+            <field name="noi_dung">Huấn luyện an toàn bức xạ năm 2019</field>
+            <field name="ma_dt">1075140</field>
+            <field name="ngay_bd">2019-07-31 00:00:00</field>
+            <field name="ngay_kt">2019-07-31 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtmt014_2020_001" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTMT014_2020_001</field>
+            <field name="ma_nh_lopdt">DTMT_014</field>
+            <field name="noi_dung">Huấn luyện an toàn bức xạ năm 2020</field>
+            <field name="ma_dt">1075140</field>
+            <field name="ngay_bd">2020-11-30 00:00:00</field>
+            <field name="ngay_kt">2020-11-30 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_dtmt014_2022_001" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">DTMT014_2022_001</field>
+            <field name="ma_nh_lopdt">DTMT_014</field>
+            <field name="noi_dung">Huấn luyện an toàn bức xạ năm 2022</field>
+            <field name="ma_dt">1075140</field>
+            <field name="ngay_bd">2022-10-19 00:00:00</field>
+            <field name="ngay_kt">2022-10-19 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmlopdt_xn_001" model="iwmn.r81dmlopdt">
+            <field name="ma_lopdt">XN_001</field>
+            <field name="ma_nh_lopdt">DTVB_002</field>
+            <field name="noi_dung">Đào tạo vận hành xe nâng năm 2020</field>
+            <field name="ma_dt">1079603</field>
+            <field name="ngay_bd">2020-07-15 00:00:00</field>
+            <field name="ngay_kt">2020-07-31 00:00:00</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="tien">0.0000</field>
+            <field name="giang_vien" eval="False"/>
+        </record>
+    </data>
+</odoo>

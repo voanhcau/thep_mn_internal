@@ -1,0 +1,949 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="iwmn_r81dmsize_d10" model="iwmn.r81dmsize">
+            <field name="ma_size">D10</field>
+            <field name="ten_size">D10</field>
+            <field name="length">11.7000</field>
+            <field name="diameter">10.0000</field>
+            <field name="dmin">10.0000</field>
+            <field name="dmax">10.0000</field>
+            <field name="barweight_bk">0.000000</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">090915:115201:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_d12" model="iwmn.r81dmsize">
+            <field name="ma_size">D12</field>
+            <field name="ten_size">D12</field>
+            <field name="length">11.7000</field>
+            <field name="diameter">12.0000</field>
+            <field name="dmin">12.0000</field>
+            <field name="dmax">12.0000</field>
+            <field name="barweight_bk">0.863248</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">090915:115340:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_d13" model="iwmn.r81dmsize">
+            <field name="ma_size">D13</field>
+            <field name="ten_size">D13</field>
+            <field name="length">12.0000</field>
+            <field name="diameter">13.0000</field>
+            <field name="dmin">13.0000</field>
+            <field name="dmax">13.0000</field>
+            <field name="barweight_bk">0.000000</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">090915:114759:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_d14" model="iwmn.r81dmsize">
+            <field name="ma_size">D14</field>
+            <field name="ten_size">D14</field>
+            <field name="length">11.7000</field>
+            <field name="diameter">14.0000</field>
+            <field name="dmin">14.0000</field>
+            <field name="dmax">14.0000</field>
+            <field name="barweight_bk">1.159830</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">090915:115349:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_d16" model="iwmn.r81dmsize">
+            <field name="ma_size">D16</field>
+            <field name="ten_size">D16</field>
+            <field name="length">11.7000</field>
+            <field name="diameter">16.0000</field>
+            <field name="dmin">16.0000</field>
+            <field name="dmax">16.0000</field>
+            <field name="barweight_bk">1.515390</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">090915:115356:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_d18" model="iwmn.r81dmsize">
+            <field name="ma_size">D18</field>
+            <field name="ten_size">D18</field>
+            <field name="length">11.7000</field>
+            <field name="diameter">18.0000</field>
+            <field name="dmin">18.0000</field>
+            <field name="dmax">18.0000</field>
+            <field name="barweight_bk">1.922220</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">090915:115403:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_d19" model="iwmn.r81dmsize">
+            <field name="ma_size">D19</field>
+            <field name="ten_size">D19</field>
+            <field name="length">11.7000</field>
+            <field name="diameter">19.0000</field>
+            <field name="dmin">19.0000</field>
+            <field name="dmax">19.0000</field>
+            <field name="barweight_bk">2.186330</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">090915:115411:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_d20" model="iwmn.r81dmsize">
+            <field name="ma_size">D20</field>
+            <field name="ten_size">D20</field>
+            <field name="length">11.7000</field>
+            <field name="diameter">20.0000</field>
+            <field name="dmin">20.0000</field>
+            <field name="dmax">20.0000</field>
+            <field name="barweight_bk">2.372650</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">090915:120527:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_d22" model="iwmn.r81dmsize">
+            <field name="ma_size">D22</field>
+            <field name="ten_size">D22</field>
+            <field name="length">11.7000</field>
+            <field name="diameter">22.0000</field>
+            <field name="dmin">22.0000</field>
+            <field name="dmax">22.0000</field>
+            <field name="barweight_bk">2.870940</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">090915:120531:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_d25" model="iwmn.r81dmsize">
+            <field name="ma_size">D25</field>
+            <field name="ten_size">D25</field>
+            <field name="length">11.7000</field>
+            <field name="diameter">25.0000</field>
+            <field name="dmin">25.0000</field>
+            <field name="dmax">25.0000</field>
+            <field name="barweight_bk">3.764960</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">090915:120536:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_d28" model="iwmn.r81dmsize">
+            <field name="ma_size">D28</field>
+            <field name="ten_size">D28</field>
+            <field name="length">11.7000</field>
+            <field name="diameter">28.0000</field>
+            <field name="dmin">28.0000</field>
+            <field name="dmax">28.0000</field>
+            <field name="barweight_bk">4.723080</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">090915:120540:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_d29" model="iwmn.r81dmsize">
+            <field name="ma_size">D29</field>
+            <field name="ten_size">D29</field>
+            <field name="length">11.7000</field>
+            <field name="diameter">29.0000</field>
+            <field name="dmin">29.0000</field>
+            <field name="dmax">29.0000</field>
+            <field name="barweight_bk">4.962390</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">090915:120545:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_d30" model="iwmn.r81dmsize">
+            <field name="ma_size">D30</field>
+            <field name="ten_size">D30</field>
+            <field name="length">11.7000</field>
+            <field name="diameter">30.0000</field>
+            <field name="dmin">30.0000</field>
+            <field name="dmax">30.0000</field>
+            <field name="barweight_bk">5.422220</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">090915:120549:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_d32" model="iwmn.r81dmsize">
+            <field name="ma_size">D32</field>
+            <field name="ten_size">D32</field>
+            <field name="length">11.7000</field>
+            <field name="diameter">32.0000</field>
+            <field name="dmin">32.0000</field>
+            <field name="dmax">32.0000</field>
+            <field name="barweight_bk">0.599100</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">090915:115315:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_d35" model="iwmn.r81dmsize">
+            <field name="ma_size">D35</field>
+            <field name="ten_size">D35</field>
+            <field name="length">11.7000</field>
+            <field name="diameter">35.0000</field>
+            <field name="dmin">35.0000</field>
+            <field name="dmax">35.0000</field>
+            <field name="barweight_bk">0.599100</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log">100217:115106:CUONGPN</field>
+            <field name="lastmodify_log">090915:115315:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_d36" model="iwmn.r81dmsize">
+            <field name="ma_size">D36</field>
+            <field name="ten_size">D36</field>
+            <field name="length">11.7000</field>
+            <field name="diameter">36.0000</field>
+            <field name="dmin">36.0000</field>
+            <field name="dmax">36.0000</field>
+            <field name="barweight_bk">0.000000</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">090915:120554:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_d38" model="iwmn.r81dmsize">
+            <field name="ma_size">D38</field>
+            <field name="ten_size">D38</field>
+            <field name="length">11.7000</field>
+            <field name="diameter">38.0000</field>
+            <field name="dmin">38.0000</field>
+            <field name="dmax">38.0000</field>
+            <field name="barweight_bk">0.000000</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log">100217:115716:CUONGPN</field>
+            <field name="lastmodify_log">090915:120554:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_d40" model="iwmn.r81dmsize">
+            <field name="ma_size">D40</field>
+            <field name="ten_size">D40</field>
+            <field name="length">11.7000</field>
+            <field name="diameter">40.0000</field>
+            <field name="dmin">40.0000</field>
+            <field name="dmax">40.0000</field>
+            <field name="barweight_bk">6.169230</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">090915:120559:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_d41" model="iwmn.r81dmsize">
+            <field name="ma_size">D41</field>
+            <field name="ten_size">D41</field>
+            <field name="length">11.7000</field>
+            <field name="diameter">41.0000</field>
+            <field name="dmin">41.0000</field>
+            <field name="dmax">41.0000</field>
+            <field name="barweight_bk">6.169230</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log">091116:182351:CUONGPN</field>
+            <field name="lastmodify_log">090915:120559:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_d43" model="iwmn.r81dmsize">
+            <field name="ma_size">D43</field>
+            <field name="ten_size">D43</field>
+            <field name="length">11.7000</field>
+            <field name="diameter">43.0000</field>
+            <field name="dmin">43.0000</field>
+            <field name="dmax">43.0000</field>
+            <field name="barweight_bk">0.000000</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">090915:120603:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_dtest" model="iwmn.r81dmsize">
+            <field name="ma_size">DTEST</field>
+            <field name="ten_size">DTEST</field>
+            <field name="length">11.7000</field>
+            <field name="diameter">10.0000</field>
+            <field name="dmin">10.0000</field>
+            <field name="dmax">10.0000</field>
+            <field name="barweight_bk">0.000000</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log">100915:091806:VR</field>
+            <field name="lastmodify_log">090915:115201:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_r055" model="iwmn.r81dmsize">
+            <field name="ma_size">R055</field>
+            <field name="ten_size">Φ5.5</field>
+            <field name="length">0.0000</field>
+            <field name="diameter">6.0000</field>
+            <field name="dmin">5.0000</field>
+            <field name="dmax">6.0000</field>
+            <field name="barweight_bk">0.000000</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">090915:115003:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_r06" model="iwmn.r81dmsize">
+            <field name="ma_size">R06</field>
+            <field name="ten_size">Φ6</field>
+            <field name="length">0.0000</field>
+            <field name="diameter">6.0000</field>
+            <field name="dmin">6.0000</field>
+            <field name="dmax">6.0000</field>
+            <field name="barweight_bk">0.000000</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">090915:115012:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_r07" model="iwmn.r81dmsize">
+            <field name="ma_size">R07</field>
+            <field name="ten_size">Φ7</field>
+            <field name="length">0.0000</field>
+            <field name="diameter">7.0000</field>
+            <field name="dmin">7.0000</field>
+            <field name="dmax">7.0000</field>
+            <field name="barweight_bk">0.000000</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">090915:114750:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_r08" model="iwmn.r81dmsize">
+            <field name="ma_size">R08</field>
+            <field name="ten_size">Φ8</field>
+            <field name="length">0.0000</field>
+            <field name="diameter">8.0000</field>
+            <field name="dmin">8.0000</field>
+            <field name="dmax">8.0000</field>
+            <field name="barweight_bk">0.000000</field>
+            <field name="minweight">500.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">090915:115054:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_r10" model="iwmn.r81dmsize">
+            <field name="ma_size">R10</field>
+            <field name="ten_size">Φ10</field>
+            <field name="length">0.0000</field>
+            <field name="diameter">10.0000</field>
+            <field name="dmin">10.0000</field>
+            <field name="dmax">10.0000</field>
+            <field name="barweight_bk">0.000000</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">090915:115047:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_r12" model="iwmn.r81dmsize">
+            <field name="ma_size">R12</field>
+            <field name="ten_size">Φ12</field>
+            <field name="length">0.0000</field>
+            <field name="diameter">12.0000</field>
+            <field name="dmin">12.0000</field>
+            <field name="dmax">12.0000</field>
+            <field name="barweight_bk">0.000000</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log">120915:120813:CUONGPN</field>
+            <field name="lastmodify_log">090915:115047:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_r14" model="iwmn.r81dmsize">
+            <field name="ma_size">R14</field>
+            <field name="ten_size">Φ14</field>
+            <field name="length">0.0000</field>
+            <field name="diameter">14.0000</field>
+            <field name="dmin">14.0000</field>
+            <field name="dmax">14.0000</field>
+            <field name="barweight_bk">0.000000</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log">120915:121338:CUONGPN</field>
+            <field name="lastmodify_log">090915:115047:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_r16" model="iwmn.r81dmsize">
+            <field name="ma_size">R16</field>
+            <field name="ten_size">Φ16</field>
+            <field name="length">0.0000</field>
+            <field name="diameter">16.0000</field>
+            <field name="dmin">16.0000</field>
+            <field name="dmax">16.0000</field>
+            <field name="barweight_bk">0.000000</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log">120915:121907:CUONGPN</field>
+            <field name="lastmodify_log">090915:115047:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_r18" model="iwmn.r81dmsize">
+            <field name="ma_size">R18</field>
+            <field name="ten_size">Φ20</field>
+            <field name="length">11.7000</field>
+            <field name="diameter">18.0000</field>
+            <field name="dmin">18.0000</field>
+            <field name="dmax">18.0000</field>
+            <field name="barweight_bk">0.000000</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log">120915:123650:CUONGPN</field>
+            <field name="lastmodify_log">090915:115047:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_r20" model="iwmn.r81dmsize">
+            <field name="ma_size">R20</field>
+            <field name="ten_size">Φ20</field>
+            <field name="length">11.7000</field>
+            <field name="diameter">20.0000</field>
+            <field name="dmin">20.0000</field>
+            <field name="dmax">20.0000</field>
+            <field name="barweight_bk">0.000000</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log">120915:123602:CUONGPN</field>
+            <field name="lastmodify_log">090915:115047:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_r22" model="iwmn.r81dmsize">
+            <field name="ma_size">R22</field>
+            <field name="ten_size">Φ22</field>
+            <field name="length">11.7000</field>
+            <field name="diameter">22.0000</field>
+            <field name="dmin">22.0000</field>
+            <field name="dmax">22.0000</field>
+            <field name="barweight_bk">0.000000</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log">120915:123525:CUONGPN</field>
+            <field name="lastmodify_log">090915:115047:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_r25" model="iwmn.r81dmsize">
+            <field name="ma_size">R25</field>
+            <field name="ten_size">Φ25</field>
+            <field name="length">11.7000</field>
+            <field name="diameter">25.0000</field>
+            <field name="dmin">25.0000</field>
+            <field name="dmax">25.0000</field>
+            <field name="barweight_bk">0.000000</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log">120915:123448:CUONGPN</field>
+            <field name="lastmodify_log">090915:115047:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_r28" model="iwmn.r81dmsize">
+            <field name="ma_size">R28</field>
+            <field name="ten_size">Φ28</field>
+            <field name="length">11.7000</field>
+            <field name="diameter">28.0000</field>
+            <field name="dmin">28.0000</field>
+            <field name="dmax">28.0000</field>
+            <field name="barweight_bk">0.000000</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log">120915:123308:CUONGPN</field>
+            <field name="lastmodify_log">090915:115047:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_r32" model="iwmn.r81dmsize">
+            <field name="ma_size">R32</field>
+            <field name="ten_size">Φ32</field>
+            <field name="length">11.7000</field>
+            <field name="diameter">32.0000</field>
+            <field name="dmin">32.0000</field>
+            <field name="dmax">32.0000</field>
+            <field name="barweight_bk">0.000000</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log">120915:123249:CUONGPN</field>
+            <field name="lastmodify_log">090915:115047:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_r36" model="iwmn.r81dmsize">
+            <field name="ma_size">R36</field>
+            <field name="ten_size">Φ36</field>
+            <field name="length">11.7000</field>
+            <field name="diameter">36.0000</field>
+            <field name="dmin">36.0000</field>
+            <field name="dmax">36.0000</field>
+            <field name="barweight_bk">0.000000</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log">120915:123123:CUONGPN</field>
+            <field name="lastmodify_log">090915:115047:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_r40" model="iwmn.r81dmsize">
+            <field name="ma_size">R40</field>
+            <field name="ten_size">Φ40</field>
+            <field name="length">11.7000</field>
+            <field name="diameter">40.0000</field>
+            <field name="dmin">40.0000</field>
+            <field name="dmax">40.0000</field>
+            <field name="barweight_bk">0.000000</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log">120915:122948:CUONGPN</field>
+            <field name="lastmodify_log">090915:115047:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_v10010" model="iwmn.r81dmsize">
+            <field name="ma_size">V10010</field>
+            <field name="ten_size">V100 x 10</field>
+            <field name="length">12.0000</field>
+            <field name="diameter">100.0000</field>
+            <field name="dmin">100.0000</field>
+            <field name="dmax">100.0000</field>
+            <field name="barweight_bk">0.000000</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">090915:120609:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_v1007" model="iwmn.r81dmsize">
+            <field name="ma_size">V1007</field>
+            <field name="ten_size">V100 x 7</field>
+            <field name="length">12.0000</field>
+            <field name="diameter">100.0000</field>
+            <field name="dmin">100.0000</field>
+            <field name="dmax">100.0000</field>
+            <field name="barweight_bk">100.000000</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">090915:120615:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_v1008" model="iwmn.r81dmsize">
+            <field name="ma_size">V1008</field>
+            <field name="ten_size">V100 x 8</field>
+            <field name="length">12.0000</field>
+            <field name="diameter">100.0000</field>
+            <field name="dmin">100.0000</field>
+            <field name="dmax">100.0000</field>
+            <field name="barweight_bk">2700.000000</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">090915:120619:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_v253" model="iwmn.r81dmsize">
+            <field name="ma_size">V253</field>
+            <field name="ten_size">V25 x 3</field>
+            <field name="length">12.0000</field>
+            <field name="diameter">25.0000</field>
+            <field name="dmin">25.0000</field>
+            <field name="dmax">25.0000</field>
+            <field name="barweight_bk">0.000000</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log">120915:104612:CUONGPN</field>
+            <field name="lastmodify_log">090915:120634:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_v303" model="iwmn.r81dmsize">
+            <field name="ma_size">V303</field>
+            <field name="ten_size">V30 x 3</field>
+            <field name="length">12.0000</field>
+            <field name="diameter">30.0000</field>
+            <field name="dmin">30.0000</field>
+            <field name="dmax">30.0000</field>
+            <field name="barweight_bk">0.000000</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log">120915:104739:CUONGPN</field>
+            <field name="lastmodify_log">090915:120634:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_v403" model="iwmn.r81dmsize">
+            <field name="ma_size">V403</field>
+            <field name="ten_size">V40 x 3</field>
+            <field name="length">12.0000</field>
+            <field name="diameter">40.0000</field>
+            <field name="dmin">40.0000</field>
+            <field name="dmax">40.0000</field>
+            <field name="barweight_bk">0.000000</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log">120915:104845:CUONGPN</field>
+            <field name="lastmodify_log">090915:120634:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_v404" model="iwmn.r81dmsize">
+            <field name="ma_size">V404</field>
+            <field name="ten_size">V40 x 4</field>
+            <field name="length">12.0000</field>
+            <field name="diameter">40.0000</field>
+            <field name="dmin">40.0000</field>
+            <field name="dmax">40.0000</field>
+            <field name="barweight_bk">0.000000</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log">120915:105836:CUONGPN</field>
+            <field name="lastmodify_log">090915:120634:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_v503" model="iwmn.r81dmsize">
+            <field name="ma_size">V503</field>
+            <field name="ten_size">V50 x 3</field>
+            <field name="length">12.0000</field>
+            <field name="diameter">50.0000</field>
+            <field name="dmin">50.0000</field>
+            <field name="dmax">50.0000</field>
+            <field name="barweight_bk">0.000000</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log">120915:105056:CUONGPN</field>
+            <field name="lastmodify_log">090915:120634:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_v504" model="iwmn.r81dmsize">
+            <field name="ma_size">V504</field>
+            <field name="ten_size">V50 x 4</field>
+            <field name="length">12.0000</field>
+            <field name="diameter">50.0000</field>
+            <field name="dmin">50.0000</field>
+            <field name="dmax">50.0000</field>
+            <field name="barweight_bk">0.000000</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log">120915:105123:CUONGPN</field>
+            <field name="lastmodify_log">090915:120634:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_v505" model="iwmn.r81dmsize">
+            <field name="ma_size">V505</field>
+            <field name="ten_size">V50 x 5</field>
+            <field name="length">12.0000</field>
+            <field name="diameter">50.0000</field>
+            <field name="dmin">50.0000</field>
+            <field name="dmax">50.0000</field>
+            <field name="barweight_bk">0.000000</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log">120915:105152:CUONGPN</field>
+            <field name="lastmodify_log">090915:120634:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_v605" model="iwmn.r81dmsize">
+            <field name="ma_size">V605</field>
+            <field name="ten_size">V60 x 5</field>
+            <field name="length">12.0000</field>
+            <field name="diameter">60.0000</field>
+            <field name="dmin">60.0000</field>
+            <field name="dmax">60.0000</field>
+            <field name="barweight_bk">0.000000</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log">120915:105221:CUONGPN</field>
+            <field name="lastmodify_log">090915:120634:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_v634" model="iwmn.r81dmsize">
+            <field name="ma_size">V634</field>
+            <field name="ten_size">V63 x 4</field>
+            <field name="length">12.0000</field>
+            <field name="diameter">63.0000</field>
+            <field name="dmin">63.0000</field>
+            <field name="dmax">63.0000</field>
+            <field name="barweight_bk">0.000000</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log">120915:105333:CUONGPN</field>
+            <field name="lastmodify_log">090915:120634:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_v635" model="iwmn.r81dmsize">
+            <field name="ma_size">V635</field>
+            <field name="ten_size">V63 x 5</field>
+            <field name="length">12.0000</field>
+            <field name="diameter">63.0000</field>
+            <field name="dmin">63.0000</field>
+            <field name="dmax">63.0000</field>
+            <field name="barweight_bk">0.000000</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log">120915:105315:CUONGPN</field>
+            <field name="lastmodify_log">090915:120634:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_v636" model="iwmn.r81dmsize">
+            <field name="ma_size">V636</field>
+            <field name="ten_size">V63 x 6</field>
+            <field name="length">12.0000</field>
+            <field name="diameter">63.0000</field>
+            <field name="dmin">63.0000</field>
+            <field name="dmax">63.0000</field>
+            <field name="barweight_bk">0.000000</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log">120915:105352:CUONGPN</field>
+            <field name="lastmodify_log">090915:120634:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_v706" model="iwmn.r81dmsize">
+            <field name="ma_size">V706</field>
+            <field name="ten_size">V70 x 6</field>
+            <field name="length">12.0000</field>
+            <field name="diameter">70.0000</field>
+            <field name="dmin">70.0000</field>
+            <field name="dmax">70.0000</field>
+            <field name="barweight_bk">0.000000</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log">120915:105447:CUONGPN</field>
+            <field name="lastmodify_log">090915:120634:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_v756" model="iwmn.r81dmsize">
+            <field name="ma_size">V756</field>
+            <field name="ten_size">V75 x 6</field>
+            <field name="length">6.0000</field>
+            <field name="diameter">70.0000</field>
+            <field name="dmin">75.0000</field>
+            <field name="dmax">75.0000</field>
+            <field name="barweight_bk">0.000000</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log">120915:105533:CUONGPN</field>
+            <field name="lastmodify_log">090915:120634:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_v758" model="iwmn.r81dmsize">
+            <field name="ma_size">V758</field>
+            <field name="ten_size">V75 x 8</field>
+            <field name="length">12.0000</field>
+            <field name="diameter">70.0000</field>
+            <field name="dmin">75.0000</field>
+            <field name="dmax">75.0000</field>
+            <field name="barweight_bk">0.000000</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log">120915:105609:CUONGPN</field>
+            <field name="lastmodify_log">090915:120634:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_v806" model="iwmn.r81dmsize">
+            <field name="ma_size">V806</field>
+            <field name="ten_size">V80 x 6</field>
+            <field name="length">12.0000</field>
+            <field name="diameter">80.0000</field>
+            <field name="dmin">80.0000</field>
+            <field name="dmax">80.0000</field>
+            <field name="barweight_bk">0.000000</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log">120915:103850:CUONGPN</field>
+            <field name="lastmodify_log">090915:120634:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_v906" model="iwmn.r81dmsize">
+            <field name="ma_size">V906</field>
+            <field name="ten_size">V90 x 6</field>
+            <field name="length">12.0000</field>
+            <field name="diameter">90.0000</field>
+            <field name="dmin">90.0000</field>
+            <field name="dmax">90.0000</field>
+            <field name="barweight_bk">0.000000</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">090915:120624:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_v907" model="iwmn.r81dmsize">
+            <field name="ma_size">V907</field>
+            <field name="ten_size">V90 x 7</field>
+            <field name="length">12.0000</field>
+            <field name="diameter">90.0000</field>
+            <field name="dmin">90.0000</field>
+            <field name="dmax">90.0000</field>
+            <field name="barweight_bk">0.000000</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">090915:120628:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_v908" model="iwmn.r81dmsize">
+            <field name="ma_size">V908</field>
+            <field name="ten_size">V90 x 8</field>
+            <field name="length">12.0000</field>
+            <field name="diameter">90.0000</field>
+            <field name="dmin">90.0000</field>
+            <field name="dmax">90.0000</field>
+            <field name="barweight_bk">0.000000</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">090915:114939:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmsize_v909" model="iwmn.r81dmsize">
+            <field name="ma_size">V909</field>
+            <field name="ten_size">V90 x 9</field>
+            <field name="length">12.0000</field>
+            <field name="diameter">90.0000</field>
+            <field name="dmin">90.0000</field>
+            <field name="dmax">90.0000</field>
+            <field name="barweight_bk">0.000000</field>
+            <field name="minweight">1000.0000</field>
+            <field name="maxweight">4000.0000</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">090915:120634:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+    </data>
+</odoo>

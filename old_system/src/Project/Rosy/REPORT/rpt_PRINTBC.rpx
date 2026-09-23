@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ActiveReportsLayout Version="3.1" PrintWidth="11340" DocumentName="ARNet Document" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-family: Arial; font-style: normal; text-decoration: none; font-weight: normal; font-size: 10pt; color: Black; " />
+    <Style Name="Heading1" Value="font-size: 16pt; font-weight: bold; " />
+    <Style Name="Heading2" Value="font-family: Times New Roman; font-size: 14pt; font-weight: bold; font-style: italic; " />
+    <Style Name="Heading3" Value="font-size: 13pt; font-weight: bold; " />
+  </StyleSheet>
+  <Sections>
+    <Section Type="ReportHeader" Name="ReportHeader1" Height="689" BackColor="16777215">
+      <Control Type="AR.Field" Name="TextBox7" Left="4140" Top="180" Width="3150" Height="270" Text="DANH SÁCH SẢN PHẨM" Style="text-align: center; font-weight: bold; " />
+    </Section>
+    <Section Type="PageHeader" Name="PageHeader1" Height="330" BackColor="16777215" />
+    <Section Type="Detail" Name="Detail1" Height="1859" BackColor="16777215">
+      <Control Type="AR.Barcode" Name="Barcode1" DataField="Barcode1" Tag="" Left="1260" Top="0" Width="2520" Height="990" BarStyle="9" Text="Barcode1" CODE128="0;0;0" />
+      <Control Type="AR.Field" Name="TextBox4" DataField="Ma_Vt1" Tag="" Left="1350" Top="1350" Width="1620" Height="270" Text="Ma_Vt1" />
+      <Control Type="AR.Field" Name="TextBox6" DataField="BarCode1" Tag="" Left="1350" Top="1080" Width="2340" Height="270" Text="BarCode1" CharacterSpacing="3" />
+      <Control Type="AR.Field" Name="TextBox5" DataField="BarCode2" Tag="" Left="4590" Top="1080" Width="2340" Height="270" Text="BarCode2" CharacterSpacing="3" />
+      <Control Type="AR.Field" Name="TextBox8" DataField="Ma_Vt2" Tag="" Left="4590" Top="1350" Width="1620" Height="270" Text="Ma_Vt1" />
+      <Control Type="AR.Barcode" Name="Barcode2" DataField="Barcode1" Tag="" Left="4500" Top="0" Width="2520" Height="990" BarStyle="9" Text="Barcode1" CODE128="0;0;0" />
+      <Control Type="AR.Field" Name="TextBox9" DataField="BarCode3" Tag="" Left="7740" Top="1080" Width="2340" Height="270" Text="BarCode2" CharacterSpacing="3" />
+      <Control Type="AR.Field" Name="TextBox10" DataField="Ma_Vt3" Tag="" Left="7740" Top="1350" Width="1620" Height="270" Text="Ma_Vt3" />
+      <Control Type="AR.Barcode" Name="Barcode3" DataField="Barcode1" Tag="" Left="7650" Top="0" Width="2520" Height="990" BarStyle="9" Text="Barcode1" CODE128="0;0;0" />
+    </Section>
+    <Section Type="PageFooter" Name="PageFooter1" Height="435" BackColor="16777215" />
+    <Section Type="ReportFooter" Name="ReportFooter1" Height="0" BackColor="16777215" />
+  </Sections>
+  <ReportComponentTray />
+  <PageSettings LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" />
+  <Parameters />
+</ActiveReportsLayout>

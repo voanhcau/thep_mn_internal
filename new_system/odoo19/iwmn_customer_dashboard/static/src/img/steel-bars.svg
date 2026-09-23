@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-label="Thép cây">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eef5f1"/><stop offset="1" stop-color="#d6e5dd"/></linearGradient><linearGradient id="bar" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#6f8179"/><stop offset=".5" stop-color="#344a41"/><stop offset="1" stop-color="#84958e"/></linearGradient></defs>
+  <rect width="320" height="220" rx="28" fill="url(#bg)"/><g stroke="url(#bar)" stroke-width="16" stroke-linecap="round"><path d="M42 166L236 54"/><path d="M61 185L255 73"/><path d="M29 137L223 25"/><path d="M91 194L285 82"/></g><g fill="none" stroke="#c46f2d" stroke-width="6"><path d="M115 104l35 61"/><path d="M166 75l35 61"/></g><text x="25" y="32" fill="#315b4e" font-family="Arial,sans-serif" font-size="17" font-weight="700">THÉP CÂY</text>
+</svg>

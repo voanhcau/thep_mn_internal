@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="paperformat_customer_order" model="report.paperformat">
+        <field name="name">Phiếu đặt hàng TMN A4</field>
+        <field name="format">A4</field>
+        <field name="orientation">Portrait</field>
+        <field name="margin_top">12</field>
+        <field name="margin_bottom">12</field>
+        <field name="margin_left">14</field>
+        <field name="margin_right">14</field>
+        <field name="header_line" eval="False"/>
+        <field name="header_spacing">0</field>
+        <field name="dpi">96</field>
+    </record>
+
+    <record id="action_report_customer_order" model="ir.actions.report">
+        <field name="name">Phiếu đặt hàng</field>
+        <field name="model">iwmn.customer.order</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">iwmn_customer_dashboard.report_customer_order</field>
+        <field name="report_file">iwmn_customer_dashboard.report_customer_order</field>
+        <field name="paperformat_id" ref="paperformat_customer_order"/>
+        <field name="print_report_name">'Phieu-dat-hang-%s' % object.name</field>
+    </record>
+
+    <template id="report_customer_order">
+        <t t-call="web.html_container">
+            <t t-foreach="docs" t-as="o">
+                <div class="article page iwmn-order-print" t-att-data-oe-model="o._name" t-att-data-oe-id="o.id" style="font-family:'DejaVu Serif', 'Times New Roman', serif; font-size:10pt; color:#111;">
+                    <style type="text/css">
+                        .iwmn-order-print .print-head { width:100%; border-collapse:collapse; }
+                        .iwmn-order-print .print-head td { border:0; vertical-align:middle; padding:0 3px; }
+                        .iwmn-order-print .print-head .logo { width:20%; text-align:center; }
+                        .iwmn-order-print .print-head .company { width:65%; text-align:center; line-height:1.3; }
+                        .iwmn-order-print .print-head .mark { width:15%; text-align:center; font:bold italic 38pt Arial,sans-serif; color:#1747dd; }
+                        .iwmn-order-print .meta { margin-top:8px; display:table; width:100%; }
+                        .iwmn-order-print .meta span { display:table-cell; width:50%; }
+                        .iwmn-order-print .meta span:last-child { text-align:right; }
+                        .iwmn-order-print .title { position:relative; text-align:center; margin:10px 0 9px; }
+                        .iwmn-order-print .title h1 { font-size:18pt; margin:0; font-weight:bold; }
+                        .iwmn-order-print .title strong { font-size:12pt; }
+                        .iwmn-order-print .form-code { position:absolute; right:0; top:0; border:1px solid #111; padding:3px 12px; font-size:9pt; color:#1560a6; }
+                        .iwmn-order-print .field { margin:4px 0; line-height:1.35; }
+                        .iwmn-order-print .label { font-weight:normal; }
+                        .iwmn-order-print .goods { width:100%; border-collapse:collapse; margin-top:8px; table-layout:fixed; }
+                        .iwmn-order-print .goods th, .iwmn-order-print .goods td { border:1px solid #333; padding:4px 3px; vertical-align:middle; }
+                        .iwmn-order-print .goods th { text-align:center; font-size:9pt; font-weight:bold; }
+                        .iwmn-order-print .goods td { font-size:9pt; }
+                        .iwmn-order-print .goods .num { text-align:center; }
+                        .iwmn-order-print .goods .qty { text-align:right; }
+                        .iwmn-order-print .requests { margin-top:10px; line-height:1.55; }
+                        .iwmn-order-print .confirmation { margin-top:14px; border-top:1px dotted #444; padding-top:7px; }
+                        .iwmn-order-print .signature { width:100%; margin-top:12px; text-align:center; border-collapse:collapse; }
+                        .iwmn-order-print .signature td { border:0; width:50%; vertical-align:top; height:70px; }
+                        .iwmn-order-print .muted { color:#555; }
+                    </style>
+
+                    <table class="print-head"><tr>
+                        <td class="logo"><img t-att-src="o._report_logo_data_uri()" style="max-width:105px; max-height:72px;" alt="VNSTEEL"/></td>
+                        <td class="company"><strong>CÔNG TY TNHH MTV THÉP MIỀN NAM-VNSTEEL</strong><br/>KCN Phú Mỹ I, Phường Phú Mỹ, Thành phố Hồ Chí Minh<br/>Tel: 0254.3921330 - Fax: 0254.3922 107</td>
+                        <td class="mark">V</td>
+                    </tr></table>
+                    <div class="meta"><span>SỐ: <strong t-out="o.name"/></span><span>Ngày <span t-field="o.order_date" t-options="{'widget':'date','format':'dd/MM/yyyy'}"/></span></div>
+                    <div class="title"><h1>PHIẾU ĐẶT HÀNG</h1><strong>(Sản phẩm thông dụng)</strong><div class="form-code">BM – 04<br/>QT-KD-02/09</div></div>
+
+                    <div class="field"><em>Kính gửi:</em> <strong>CÔNG TY TNHH MTV THÉP MIỀN NAM – VNSTEEL</strong></div>
+                    <div class="field">Tên đơn vị: <strong t-out="o.partner_id.commercial_partner_id.name"/></div>
+                    <div class="field">Điện thoại tài xế: <span t-out="o.vehicle_driver_phone"/>　 Fax:</div>
+                    <div class="field">Tài xế: <span t-out="o.vehicle_driver_name"/>　 CCCD: <span t-out="o.vehicle_driver_identity"/></div>
+                    <div class="field">Tên công trình: <span t-out="o.project_name or ''"/><t t-if="o.subproject_name"> / <span t-out="o.subproject_name"/></t></div>
+                    <div class="field">Thời gian nhận hàng: <span t-if="o.requested_delivery_date" t-field="o.requested_delivery_date" t-options="{'widget':'date','format':'dd/MM/yyyy'}"/><span t-else="" class="muted">Chưa xác định</span>　 Số xe/xà lan: <span t-out="o.vehicle_license_plate or o.vehicle_barge_number or ''"/></div>
+                    <div class="field">Phương thức thanh toán: <span t-out="'[x]' if o.payment_method == 'tra_cham' else '[ ]'"/> Trả chậm　　 <span t-out="'[x]' if o.payment_method == 'tra_cham_40' else '[ ]'"/> Trả chậm 40 ngày</div>
+                    <div class="field">Số hợp đồng: <span t-out="o.contract_number or ''"/>　 PO/ký hiệu: <span t-out="o.customer_reference"/></div>
+
+                    <table class="goods">
+                        <colgroup><col style="width:5%"/><col style="width:28%"/><col style="width:12%"/><col style="width:10%"/><col style="width:9%"/><col style="width:8%"/><col style="width:13%"/><col style="width:15%"/></colgroup>
+                        <thead><tr><th rowspan="2">STT</th><th rowspan="2">Sản phẩm – Quy cách</th><th rowspan="2">Nơi giao hàng</th><th colspan="3">Số lượng</th><th rowspan="2">Đơn giá<br/>(đồng/kg)</th><th rowspan="2">Ghi chú</th></tr><tr><th>Kg</th><th>Bó/Cuộn</th><th>Cây</th></tr></thead>
+                        <tbody>
+                            <tr t-foreach="o.line_ids" t-as="line">
+                                <td class="num" t-out="line_index + 1"/>
+                                <td><span t-out="line.product_query"/><t t-if="line.length_m">, <span t-out="line.length_m" t-options="{'widget':'float','precision':2}"/> m</t></td>
+                                <td t-out="o.delivery_area_label"/>
+                                <td class="qty" t-out="line.weight_kg" t-options="{'widget':'float','precision':0}"/>
+                                <td class="qty" t-out="line.bundle_qty if line.product_type == 'bar' else line.coil_cut_qty"/>
+                                <td class="qty" t-out="line.total_bar_qty if line.product_type == 'bar' else ''"/>
+                                <td class="qty"><span t-if="line.customer_unit_price" t-out="line.customer_unit_price" t-options="{'widget':'float','precision':0}"/></td>
+                                <td t-out="line.note or ''"/>
+                            </tr>
+                            <tr t-foreach="range(max(0, 7 - len(o.line_ids)))" t-as="blank"><td class="num" t-out="len(o.line_ids) + blank + 1"/><td/><td/><td/><td/><td/><td/><td/></tr>
+                        </tbody>
+                    </table>
+                    <div class="requests"><u><em>Các yêu cầu khác:</em></u>　 Thép cây để thẳng <span t-out="'[x]' if o.steel_shape in ('straight','mixed') else '[ ]'"/>　　 Bẻ cong <span t-out="'[x]' if o.steel_shape in ('bent','mixed') else '[ ]'"/>　　 Phiếu KCS/CNXX (Điện tử) <span t-out="'[x]' if o.so_luong_cnxx else '[ ]'"/><t t-if="o.so_luong_cnxx"> (<span t-out="o.so_luong_cnxx"/> bản)</t><br/><span t-out="o.other_requirements or ''"/></div>
+                    <div class="confirmation"><strong><u><em>Phần xác nhận của Công ty Thép Miền Nam – VNSTEEL (Có giá trị trong ngày)</em></u></strong><div style="height:42px; border-bottom:1px dotted #555;"/></div>
+                    <table class="signature"><tr><td>CÔNG TY THÉP MIỀN NAM - VNSTEEL<br/>P. KINH DOANH</td><td>KHÁCH HÀNG</td></tr></table>
+                </div>
+            </t>
+        </t>
+    </template>
+</odoo>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="group_api_gateway_caller" model="res.groups">
+        <field name="name">IWMN API Gateway Caller</field>
+        <field name="comment">Technical service accounts allowed to invoke the authenticated IWMN API gateway.</field>
+    </record>
+</odoo>

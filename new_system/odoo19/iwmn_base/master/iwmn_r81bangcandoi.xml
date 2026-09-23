@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_iwmn_r81bangcandoi_list" model="ir.ui.view">
+        <field name="name">iwmn.r81bangcandoi.list</field>
+        <field name="model">iwmn.r81bangcandoi</field>
+        <field name="arch" type="xml">
+            <list string="Bảng cân đối" default_order="nam desc, ma_vt, id">
+                <field name="ident00"/>
+                <field name="nam" options="{'enable_formatting': false}"/>
+                <field name="loai_ps"/>
+                <field name="ma_vt"/>
+                <field name="ma_dvcs"/>
+                <field name="tieu_hao"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81bangcandoi_form" model="ir.ui.view">
+        <field name="name">iwmn.r81bangcandoi.form</field>
+        <field name="model">iwmn.r81bangcandoi</field>
+        <field name="arch" type="xml">
+            <form string="Bảng cân đối">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="nam" options="{'enable_formatting': false}"/>
+                            <field name="loai_ps"/>
+                            <field name="ma_vt"/>
+                        </group>
+                        <group>
+                            <field name="ma_dvcs"/>
+                            <field name="tieu_hao"/>
+                            <field name="ident00"/>
+                        </group>
+                    </group>
+                    <group string="Giá trị theo tháng" col="4">
+                        <group>
+                            <field name="thang01"/>
+                            <field name="thang02"/>
+                            <field name="thang03"/>
+                            <field name="thang04"/>
+                            <field name="thang05"/>
+                            <field name="thang06"/>
+                        </group>
+                        <group>
+                            <field name="thang07"/>
+                            <field name="thang08"/>
+                            <field name="thang09"/>
+                            <field name="thang10"/>
+                            <field name="thang11"/>
+                            <field name="thang12"/>
+                        </group>
+                    </group>
+                    <group string="Dữ liệu log hệ thống cũ">
+                        <field name="create_log"/>
+                        <field name="lastmodify_log"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81bangcandoi_search" model="ir.ui.view">
+        <field name="name">iwmn.r81bangcandoi.search</field>
+        <field name="model">iwmn.r81bangcandoi</field>
+        <field name="arch" type="xml">
+            <search string="Tìm kiếm bảng cân đối">
+                <field name="ident00"/>
+                <field name="nam" options="{'enable_formatting': false}"/>
+                <field name="loai_ps"/>
+                <field name="ma_vt"/>
+                <field name="ma_dvcs"/>
+                <group>
+                    <filter name="group_by_nam" string="Năm" context="{'group_by': 'nam'}"/>
+                    <filter
+                        name="group_by_loai_ps"
+                        string="Loại phát sinh"
+                        context="{'group_by': 'loai_ps'}"
+                    />
+                    <filter
+                        name="group_by_ma_dvcs"
+                        string="Đơn vị cơ sở"
+                        context="{'group_by': 'ma_dvcs'}"
+                    />
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_iwmn_r81bangcandoi" model="ir.actions.act_window">
+        <field name="name">Bảng cân đối</field>
+        <field name="res_model">iwmn.r81bangcandoi</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_iwmn_r81bangcandoi_search"/>
+    </record>
+
+    <menuitem
+        id="menu_iwmn_r81bangcandoi"
+        name="Bảng cân đối"
+        parent="menu_iwmn_master_production"
+        action="action_iwmn_r81bangcandoi"
+        sequence="30"
+    />
+</odoo>

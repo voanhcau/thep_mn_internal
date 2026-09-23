@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_iwmn_r81dmttccong_list" model="ir.ui.view">
+        <field name="name">iwmn.r81dmttccong.list</field>
+        <field name="model">iwmn.r81dmttccong</field>
+        <field name="arch" type="xml">
+            <list string="R81DmTTCCong - Ten_CC">
+                <field name="ma_cc"/>
+                <field name="ten_cc"/>
+                <field name="an_sang"/>
+                <field name="an_trua"/>
+                <field name="an_chieu"/>
+                <field name="an_khuya"/>
+                <field name="an_sang_sau"/>
+                <field name="create_log"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmttccong_form" model="ir.ui.view">
+        <field name="name">iwmn.r81dmttccong.form</field>
+        <field name="model">iwmn.r81dmttccong</field>
+        <field name="arch" type="xml">
+            <form string="R81DmTTCCong - Ten_CC">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="ma_cc"/>
+                            <field name="ten_cc"/>
+                            <field name="an_sang"/>
+                            <field name="an_trua"/>
+                            <field name="an_chieu"/>
+                            <field name="an_khuya"/>
+                        </group>
+                        <group>
+                            <field name="an_sang_sau"/>
+                            <field name="create_log"/>
+                            <field name="lastmodify_log"/>
+                            <field name="ma_data"/>
+                            <field name="an_khuya_sau"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmttccong_search" model="ir.ui.view">
+        <field name="name">iwmn.r81dmttccong.search</field>
+        <field name="model">iwmn.r81dmttccong</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="ten_cc"/>
+                <field name="ma_cc"/>
+                <field name="an_sang"/>
+                <field name="an_trua"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_iwmn_r81dmttccong" model="ir.actions.act_window">
+        <field name="name">R81DmTTCCong - Ten_CC</field>
+        <field name="res_model">iwmn.r81dmttccong</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_iwmn_r81dmttccong_search"/>
+    </record>
+
+    <menuitem id="menu_iwmn_r81dmttccong" name="R81DmTTCCong - Ten_CC"
+              parent="menu_iwmn_master_organization"
+              action="action_iwmn_r81dmttccong" sequence="58"/>
+</odoo>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_iwmn_r81dmbp_list" model="ir.ui.view">
+        <field name="name">iwmn.r81dmbp.list</field>
+        <field name="model">iwmn.r81dmbp</field>
+        <field name="arch" type="xml">
+            <list string="R81DMBP - Ten_Bp">
+                <field name="ma_bp"/>
+                <field name="ten_bp"/>
+                <field name="ma_bp_parent"/>
+                <field name="nh_cuoi"/>
+                <field name="ngay_begin"/>
+                <field name="ngay_end"/>
+                <field name="ma_data"/>
+                <field name="create_log"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmbp_form" model="ir.ui.view">
+        <field name="name">iwmn.r81dmbp.form</field>
+        <field name="model">iwmn.r81dmbp</field>
+        <field name="arch" type="xml">
+            <form string="R81DMBP - Ten_Bp">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="ma_bp"/>
+                            <field name="ten_bp"/>
+                            <field name="ma_bp_parent"/>
+                            <field name="nh_cuoi"/>
+                            <field name="ngay_begin"/>
+                        </group>
+                        <group>
+                            <field name="ngay_end"/>
+                            <field name="ma_data"/>
+                            <field name="create_log"/>
+                            <field name="lastmodify_log"/>
+                            <field name="ident00"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmbp_search" model="ir.ui.view">
+        <field name="name">iwmn.r81dmbp.search</field>
+        <field name="model">iwmn.r81dmbp</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="ten_bp"/>
+                <field name="ma_bp"/>
+                <field name="ma_bp_parent"/>
+                <field name="nh_cuoi"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_iwmn_r81dmbp" model="ir.actions.act_window">
+        <field name="name">R81DMBP - Ten_Bp</field>
+        <field name="res_model">iwmn.r81dmbp</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_iwmn_r81dmbp_search"/>
+    </record>
+
+    <menuitem id="menu_iwmn_r81dmbp" name="R81DMBP - Ten_Bp"
+              parent="menu_iwmn_master_organization"
+              action="action_iwmn_r81dmbp" sequence="11"/>
+</odoo>

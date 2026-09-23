@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="iwmn_r81dmttccong_c1" model="iwmn.r81dmttccong">
+            <field name="ma_cc">C1</field>
+            <field name="ten_cc">Lương SP ( làm12h  nghỉ 24 ca ngày )</field>
+            <field name="an_sang">1.0000</field>
+            <field name="an_trua">1.0000</field>
+            <field name="an_chieu">1.0000</field>
+            <field name="an_khuya">0.0000</field>
+            <field name="an_sang_sau">0.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="an_khuya_sau">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmttccong_c1_2" model="iwmn.r81dmttccong">
+            <field name="ma_cc">C1/2</field>
+            <field name="ten_cc">1/2 CÔNG SP NGÀY</field>
+            <field name="an_sang">1.0000</field>
+            <field name="an_trua">1.0000</field>
+            <field name="an_chieu">0.0000</field>
+            <field name="an_khuya">0.0000</field>
+            <field name="an_sang_sau">0.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="an_khuya_sau">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmttccong_c1_1" model="iwmn.r81dmttccong">
+            <field name="ma_cc">C1_1</field>
+            <field name="ten_cc">Lương SP (làm 12 nghỉ 12 ca ngày)</field>
+            <field name="an_sang">1.0000</field>
+            <field name="an_trua">1.0000</field>
+            <field name="an_chieu">1.0000</field>
+            <field name="an_khuya">0.0000</field>
+            <field name="an_sang_sau">0.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="an_khuya_sau">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmttccong_c1_2_2" model="iwmn.r81dmttccong">
+            <field name="ma_cc">C1_2</field>
+            <field name="ten_cc">Lương SP (làm 12 nghỉ 12 ca ngày 11h -23h)</field>
+            <field name="an_sang">1.0000</field>
+            <field name="an_trua">1.0000</field>
+            <field name="an_chieu">1.0000</field>
+            <field name="an_khuya">0.0000</field>
+            <field name="an_sang_sau">0.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="an_khuya_sau">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmttccong_c2" model="iwmn.r81dmttccong">
+            <field name="ma_cc">C2</field>
+            <field name="ten_cc">Lương SP (làm 12h nghỉ 24 ca đêm )</field>
+            <field name="an_sang">0.0000</field>
+            <field name="an_trua">0.0000</field>
+            <field name="an_chieu">0.0000</field>
+            <field name="an_khuya">0.0000</field>
+            <field name="an_sang_sau">1.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="an_khuya_sau">1.0000</field>
+        </record>
+        <record id="iwmn_r81dmttccong_c2_2" model="iwmn.r81dmttccong">
+            <field name="ma_cc">C2/2</field>
+            <field name="ten_cc">1/2 CÔNG SP ĐÊM</field>
+            <field name="an_sang">0.0000</field>
+            <field name="an_trua">0.0000</field>
+            <field name="an_chieu">0.0000</field>
+            <field name="an_khuya">0.0000</field>
+            <field name="an_sang_sau">0.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="an_khuya_sau">1.0000</field>
+        </record>
+        <record id="iwmn_r81dmttccong_c2_1" model="iwmn.r81dmttccong">
+            <field name="ma_cc">C2_1</field>
+            <field name="ten_cc">Lương SP (làm 12 nghỉ 12 ca đêm)</field>
+            <field name="an_sang">0.0000</field>
+            <field name="an_trua">0.0000</field>
+            <field name="an_chieu">0.0000</field>
+            <field name="an_khuya">0.0000</field>
+            <field name="an_sang_sau">1.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="an_khuya_sau">1.0000</field>
+        </record>
+        <record id="iwmn_r81dmttccong_co" model="iwmn.r81dmttccong">
+            <field name="ma_cc">CO</field>
+            <field name="ten_cc">Con ốm</field>
+            <field name="an_sang">0.0000</field>
+            <field name="an_trua">0.0000</field>
+            <field name="an_chieu">0.0000</field>
+            <field name="an_khuya">0.0000</field>
+            <field name="an_sang_sau">0.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="an_khuya_sau">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmttccong_ct" model="iwmn.r81dmttccong">
+            <field name="ma_cc">CT</field>
+            <field name="ten_cc">Đi công tác</field>
+            <field name="an_sang">0.0000</field>
+            <field name="an_trua">0.0000</field>
+            <field name="an_chieu">0.0000</field>
+            <field name="an_khuya">0.0000</field>
+            <field name="an_sang_sau">0.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="an_khuya_sau">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmttccong_f0" model="iwmn.r81dmttccong">
+            <field name="ma_cc">F0</field>
+            <field name="ten_cc">Đang điều trị do nhiễm dịch bệnh tại công ty</field>
+            <field name="an_sang">0.0000</field>
+            <field name="an_trua">0.0000</field>
+            <field name="an_chieu">0.0000</field>
+            <field name="an_khuya">0.0000</field>
+            <field name="an_sang_sau">0.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="an_khuya_sau">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmttccong_f1" model="iwmn.r81dmttccong">
+            <field name="ma_cc">F1</field>
+            <field name="ten_cc">Đang cách li liên quan ca nhiễm tại công ty</field>
+            <field name="an_sang">0.0000</field>
+            <field name="an_trua">0.0000</field>
+            <field name="an_chieu">0.0000</field>
+            <field name="an_khuya">0.0000</field>
+            <field name="an_sang_sau">0.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="an_khuya_sau">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmttccong_f2" model="iwmn.r81dmttccong">
+            <field name="ma_cc">F2</field>
+            <field name="ten_cc">Đang cách li tại nhà do liên quan ca nhiễm tại công ty</field>
+            <field name="an_sang">0.0000</field>
+            <field name="an_trua">0.0000</field>
+            <field name="an_chieu">0.0000</field>
+            <field name="an_khuya">0.0000</field>
+            <field name="an_sang_sau">0.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="an_khuya_sau">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmttccong_h" model="iwmn.r81dmttccong">
+            <field name="ma_cc">H</field>
+            <field name="ten_cc">Đi học</field>
+            <field name="an_sang">0.0000</field>
+            <field name="an_trua">0.0000</field>
+            <field name="an_chieu">0.0000</field>
+            <field name="an_khuya">0.0000</field>
+            <field name="an_sang_sau">0.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="an_khuya_sau">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmttccong_k" model="iwmn.r81dmttccong">
+            <field name="ma_cc">K</field>
+            <field name="ten_cc">Lương SP ( 8h từ 7h30-16h30):</field>
+            <field name="an_sang">1.0000</field>
+            <field name="an_trua">1.0000</field>
+            <field name="an_chieu">0.0000</field>
+            <field name="an_khuya">0.0000</field>
+            <field name="an_sang_sau">0.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="an_khuya_sau">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmttccong_k_2" model="iwmn.r81dmttccong">
+            <field name="ma_cc">K/2</field>
+            <field name="ten_cc">1/2 Lương SP</field>
+            <field name="an_sang">1.0000</field>
+            <field name="an_trua">1.0000</field>
+            <field name="an_chieu">0.0000</field>
+            <field name="an_khuya">0.0000</field>
+            <field name="an_sang_sau">0.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="an_khuya_sau">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmttccong_k2" model="iwmn.r81dmttccong">
+            <field name="ma_cc">K2</field>
+            <field name="ten_cc">Lương SP (tăng ca 2 tiếng)</field>
+            <field name="an_sang">1.0000</field>
+            <field name="an_trua">1.0000</field>
+            <field name="an_chieu">0.0000</field>
+            <field name="an_khuya">0.0000</field>
+            <field name="an_sang_sau">0.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="an_khuya_sau">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmttccong_k4" model="iwmn.r81dmttccong">
+            <field name="ma_cc">K4</field>
+            <field name="ten_cc">Lương SP (tăng ca 4 tiếng )</field>
+            <field name="an_sang">1.0000</field>
+            <field name="an_trua">1.0000</field>
+            <field name="an_chieu">1.0000</field>
+            <field name="an_khuya">0.0000</field>
+            <field name="an_sang_sau">0.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="an_khuya_sau">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmttccong_kc" model="iwmn.r81dmttccong">
+            <field name="ma_cc">KC</field>
+            <field name="ten_cc">làm ca chiều (15h30 - 23h30)</field>
+            <field name="an_sang">0.0000</field>
+            <field name="an_trua">0.0000</field>
+            <field name="an_chieu">1.0000</field>
+            <field name="an_khuya">1.0000</field>
+            <field name="an_sang_sau">0.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="an_khuya_sau">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmttccong_kc_2" model="iwmn.r81dmttccong">
+            <field name="ma_cc">KC/2</field>
+            <field name="ten_cc">1/2 Lương SP</field>
+            <field name="an_sang">0.0000</field>
+            <field name="an_trua">0.0000</field>
+            <field name="an_chieu">1.0000</field>
+            <field name="an_khuya">0.0000</field>
+            <field name="an_sang_sau">0.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="an_khuya_sau">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmttccong_kc2" model="iwmn.r81dmttccong">
+            <field name="ma_cc">KC2</field>
+            <field name="ten_cc">Lương SP (tăng ca 2 tiếng)</field>
+            <field name="an_sang">0.0000</field>
+            <field name="an_trua">0.0000</field>
+            <field name="an_chieu">1.0000</field>
+            <field name="an_khuya">1.0000</field>
+            <field name="an_sang_sau">0.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="an_khuya_sau">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmttccong_kg" model="iwmn.r81dmttccong">
+            <field name="ma_cc">KG</field>
+            <field name="ten_cc">Nghỉ giãn cách XH</field>
+            <field name="an_sang">0.0000</field>
+            <field name="an_trua">0.0000</field>
+            <field name="an_chieu">0.0000</field>
+            <field name="an_khuya">0.0000</field>
+            <field name="an_sang_sau">0.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="an_khuya_sau">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmttccong_ko" model="iwmn.r81dmttccong">
+            <field name="ma_cc">KO</field>
+            <field name="ten_cc">Làm online</field>
+            <field name="an_sang">0.0000</field>
+            <field name="an_trua">0.0000</field>
+            <field name="an_chieu">0.0000</field>
+            <field name="an_khuya">0.0000</field>
+            <field name="an_sang_sau">0.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="an_khuya_sau">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmttccong_ks" model="iwmn.r81dmttccong">
+            <field name="ma_cc">KS</field>
+            <field name="ten_cc">làm ca sáng (7h30 - 15h30)</field>
+            <field name="an_sang">1.0000</field>
+            <field name="an_trua">1.0000</field>
+            <field name="an_chieu">0.0000</field>
+            <field name="an_khuya">0.0000</field>
+            <field name="an_sang_sau">0.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="an_khuya_sau">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmttccong_ks_2" model="iwmn.r81dmttccong">
+            <field name="ma_cc">KS/2</field>
+            <field name="ten_cc">1/2 Lương SP</field>
+            <field name="an_sang">1.0000</field>
+            <field name="an_trua">1.0000</field>
+            <field name="an_chieu">0.0000</field>
+            <field name="an_khuya">0.0000</field>
+            <field name="an_sang_sau">0.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="an_khuya_sau">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmttccong_ks2" model="iwmn.r81dmttccong">
+            <field name="ma_cc">KS2</field>
+            <field name="ten_cc">Lương SP (tăng ca 2 tiếng)</field>
+            <field name="an_sang">1.0000</field>
+            <field name="an_trua">1.0000</field>
+            <field name="an_chieu">0.0000</field>
+            <field name="an_khuya">0.0000</field>
+            <field name="an_sang_sau">0.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="an_khuya_sau">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmttccong_lc1" model="iwmn.r81dmttccong">
+            <field name="ma_cc">LC1</field>
+            <field name="ten_cc">Làm ngày lễ ca ngày</field>
+            <field name="an_sang">1.0000</field>
+            <field name="an_trua">1.0000</field>
+            <field name="an_chieu">1.0000</field>
+            <field name="an_khuya">0.0000</field>
+            <field name="an_sang_sau">0.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="an_khuya_sau">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmttccong_lc2" model="iwmn.r81dmttccong">
+            <field name="ma_cc">LC2</field>
+            <field name="ten_cc">Làm ngày lễ ca đêm</field>
+            <field name="an_sang">0.0000</field>
+            <field name="an_trua">0.0000</field>
+            <field name="an_chieu">0.0000</field>
+            <field name="an_khuya">0.0000</field>
+            <field name="an_sang_sau">1.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="an_khuya_sau">1.0000</field>
+        </record>
+        <record id="iwmn_r81dmttccong_lc3" model="iwmn.r81dmttccong">
+            <field name="ma_cc">LC3</field>
+            <field name="ten_cc">Làm ngày lễ đã tính công sp cho tháng trước</field>
+            <field name="an_sang">0.0000</field>
+            <field name="an_trua">0.0000</field>
+            <field name="an_chieu">0.0000</field>
+            <field name="an_khuya">0.0000</field>
+            <field name="an_sang_sau">0.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="an_khuya_sau">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmttccong_lct" model="iwmn.r81dmttccong">
+            <field name="ma_cc">LCT</field>
+            <field name="ten_cc">Công tác ngày lễ đã tính công sp</field>
+            <field name="an_sang">0.0000</field>
+            <field name="an_trua">0.0000</field>
+            <field name="an_chieu">0.0000</field>
+            <field name="an_khuya">0.0000</field>
+            <field name="an_sang_sau">0.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="an_khuya_sau">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmttccong_lk" model="iwmn.r81dmttccong">
+            <field name="ma_cc">LK</field>
+            <field name="ten_cc">Đi làm ngày lễ</field>
+            <field name="an_sang">1.0000</field>
+            <field name="an_trua">1.0000</field>
+            <field name="an_chieu">0.0000</field>
+            <field name="an_khuya">0.0000</field>
+            <field name="an_sang_sau">0.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="an_khuya_sau">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmttccong_lk2" model="iwmn.r81dmttccong">
+            <field name="ma_cc">LK2</field>
+            <field name="ten_cc">Đi làm ngày lễ tăng ca 2 tiếng</field>
+            <field name="an_sang">1.0000</field>
+            <field name="an_trua">1.0000</field>
+            <field name="an_chieu">0.0000</field>
+            <field name="an_khuya">0.0000</field>
+            <field name="an_sang_sau">0.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="an_khuya_sau">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmttccong_lk4" model="iwmn.r81dmttccong">
+            <field name="ma_cc">LK4</field>
+            <field name="ten_cc">Lương SP (tăng ca 4 tiếng )</field>
+            <field name="an_sang">1.0000</field>
+            <field name="an_trua">1.0000</field>
+            <field name="an_chieu">1.0000</field>
+            <field name="an_khuya">0.0000</field>
+            <field name="an_sang_sau">0.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="an_khuya_sau">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmttccong_lkc" model="iwmn.r81dmttccong">
+            <field name="ma_cc">LKC</field>
+            <field name="ten_cc">Đi làm ngày lễ ca chiều (15h30 - 23h30)</field>
+            <field name="an_sang">0.0000</field>
+            <field name="an_trua">0.0000</field>
+            <field name="an_chieu">1.0000</field>
+            <field name="an_khuya">1.0000</field>
+            <field name="an_sang_sau">0.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="an_khuya_sau">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmttccong_lkc_2" model="iwmn.r81dmttccong">
+            <field name="ma_cc">LKC/2</field>
+            <field name="ten_cc">Đi làm ngày lễ ca chiều 1/2 ca</field>
+            <field name="an_sang">0.0000</field>
+            <field name="an_trua">0.0000</field>
+            <field name="an_chieu">1.0000</field>
+            <field name="an_khuya">0.0000</field>
+            <field name="an_sang_sau">0.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="an_khuya_sau">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmttccong_lko" model="iwmn.r81dmttccong">
+            <field name="ma_cc">LKO</field>
+            <field name="ten_cc">Làm ngày lễ onl</field>
+            <field name="an_sang">0.0000</field>
+            <field name="an_trua">0.0000</field>
+            <field name="an_chieu">0.0000</field>
+            <field name="an_khuya">0.0000</field>
+            <field name="an_sang_sau">0.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="an_khuya_sau">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmttccong_lks" model="iwmn.r81dmttccong">
+            <field name="ma_cc">LKS</field>
+            <field name="ten_cc">Đi làm ngày lễ ca sáng (7h30 - 15h30)</field>
+            <field name="an_sang">1.0000</field>
+            <field name="an_trua">1.0000</field>
+            <field name="an_chieu">0.0000</field>
+            <field name="an_khuya">0.0000</field>
+            <field name="an_sang_sau">0.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="an_khuya_sau">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmttccong_lks_2" model="iwmn.r81dmttccong">
+            <field name="ma_cc">LKS/2</field>
+            <field name="ten_cc">Đi làm ngày lễ ca sáng</field>
+            <field name="an_sang">1.0000</field>
+            <field name="an_trua">1.0000</field>
+            <field name="an_chieu">0.0000</field>
+            <field name="an_khuya">0.0000</field>
+            <field name="an_sang_sau">0.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="an_khuya_sau">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmttccong_n1" model="iwmn.r81dmttccong">
+            <field name="ma_cc">N1</field>
+            <field name="ten_cc">ngừng việc do bảo trì hết việc</field>
+            <field name="an_sang">0.0000</field>
+            <field name="an_trua">0.0000</field>
+            <field name="an_chieu">0.0000</field>
+            <field name="an_khuya">0.0000</field>
+            <field name="an_sang_sau">0.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="an_khuya_sau">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmttccong_nb" model="iwmn.r81dmttccong">
+            <field name="ma_cc">NB</field>
+            <field name="ten_cc">Nghỉ bù</field>
+            <field name="an_sang">0.0000</field>
+            <field name="an_trua">0.0000</field>
+            <field name="an_chieu">0.0000</field>
+            <field name="an_khuya">0.0000</field>
+            <field name="an_sang_sau">0.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="an_khuya_sau">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmttccong_ng" model="iwmn.r81dmttccong">
+            <field name="ma_cc">NG</field>
+            <field name="ten_cc">ngừng việc do sự cố sx, do bất khả kháng, không sắp xếp được công việc...</field>
+            <field name="an_sang">0.0000</field>
+            <field name="an_trua">0.0000</field>
+            <field name="an_chieu">0.0000</field>
+            <field name="an_khuya">0.0000</field>
+            <field name="an_sang_sau">0.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="an_khuya_sau">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmttccong_o" model="iwmn.r81dmttccong">
+            <field name="ma_cc">O</field>
+            <field name="ten_cc">Ốm điều dưỡng</field>
+            <field name="an_sang">0.0000</field>
+            <field name="an_trua">0.0000</field>
+            <field name="an_chieu">0.0000</field>
+            <field name="an_khuya">0.0000</field>
+            <field name="an_sang_sau">0.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="an_khuya_sau">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmttccong_ri" model="iwmn.r81dmttccong">
+            <field name="ma_cc">RI</field>
+            <field name="ten_cc">Vào công ty không ghi nhận công</field>
+            <field name="an_sang">0.0000</field>
+            <field name="an_trua">0.0000</field>
+            <field name="an_chieu">0.0000</field>
+            <field name="an_khuya">0.0000</field>
+            <field name="an_sang_sau">0.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="an_khuya_sau">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmttccong_ts" model="iwmn.r81dmttccong">
+            <field name="ma_cc">TS</field>
+            <field name="ten_cc">Thai sản</field>
+            <field name="an_sang">0.0000</field>
+            <field name="an_trua">0.0000</field>
+            <field name="an_chieu">0.0000</field>
+            <field name="an_khuya">0.0000</field>
+            <field name="an_sang_sau">0.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="an_khuya_sau">0.0000</field>
+        </record>
+    </data>
+</odoo>

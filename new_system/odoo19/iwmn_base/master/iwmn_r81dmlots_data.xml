@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="iwmn_r81dmlots_pnd" model="iwmn.r81dmlots">
+            <field name="lot_id">PND</field>
+            <field name="lot_name">Phôi nội địa</field>
+            <field name="create_log">130215:104846:VR</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmlots_pnn" model="iwmn.r81dmlots">
+            <field name="lot_id">PNN</field>
+            <field name="lot_name">Phôi ngoại nhập</field>
+            <field name="create_log">130215:104857:VR</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+    </data>
+</odoo>

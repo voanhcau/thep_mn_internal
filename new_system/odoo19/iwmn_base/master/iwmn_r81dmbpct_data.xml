@@ -1,0 +1,2977 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="iwmn_r81dmbpct_empty" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">***</field>
+            <field name="ten_bp_ct">Công ty TNHH MTV Thép Miền Nam - VMSTEEL</field>
+            <field name="ma_bp" eval="False"/>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha" eval="False"/>
+            <field name="ma_bp_luong">***</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_0nql" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">0NQL</field>
+            <field name="ten_bp_ct">Người quản lý không chuyên trách</field>
+            <field name="ma_bp" eval="False"/>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">P0NQL</field>
+            <field name="ma_bp_luong">PTGD</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">HC</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_cd1_vp_ktv" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">CD1-VP-KTV</field>
+            <field name="ten_bp_ct">Nhân viên phụ trách kỹ thuật</field>
+            <field name="ma_bp">PXCD</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">PXCD</field>
+            <field name="ma_bp_luong">CD1-VP-KTV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">HC</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_cd1_vp_tkkt" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">CD1-VP-TKKT</field>
+            <field name="ten_bp_ct">Thống kê, nghiệp vụ kỹ thuật</field>
+            <field name="ma_bp">PXCD</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">PXCD</field>
+            <field name="ma_bp_luong">CD1-VP-TKKT</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">T27</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_cd2_xe" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">CD2-XE</field>
+            <field name="ten_bp_ct">Tổ vận chuyển phế liệu</field>
+            <field name="ma_bp">PXCD</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">PXCD</field>
+            <field name="ma_bp_luong">CD2-XE</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_cd2_xe_1hc" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">CD2-XE-1HC</field>
+            <field name="ten_bp_ct">Tổ vận chuyển phế liệu - hành chính</field>
+            <field name="ma_bp">PXCD</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">CD2-XE</field>
+            <field name="ma_bp_luong">CD2-XE-1HC</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">T27</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_cd2_xe_2ca" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">CD2-XE-2CA</field>
+            <field name="ten_bp_ct">Tổ vận chuyển phế liệu - 2 ca 3 kíp</field>
+            <field name="ma_bp">PXCD</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">CD2-XE</field>
+            <field name="ma_bp_luong">CD2-XE-2CA</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">12T</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_cd3_gc" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">CD3-GC</field>
+            <field name="ten_bp_ct">Tổ Gia công chế tạo cơ khí</field>
+            <field name="ma_bp">PXCD</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">PXCD</field>
+            <field name="ma_bp_luong">CD3-GC</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_cd3_gc_1hc" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">CD3-GC-1HC</field>
+            <field name="ten_bp_ct">Tổ Gia công chế tạo cơ khí - hành chính</field>
+            <field name="ma_bp">PXCD</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">CD3-GC</field>
+            <field name="ma_bp_luong">CD3-GC-1HC</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">T27</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_cd3_gc_2ca" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">CD3-GC-2CA</field>
+            <field name="ten_bp_ct">Tổ Gia công chế tạo cơ khí - 2 ca 3 kíp</field>
+            <field name="ma_bp">PXCD</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">CD3-GC</field>
+            <field name="ma_bp_luong">CD3-GC-2CA</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">12T</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_cd4_xlnuoc" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">CD4-XLNUOC</field>
+            <field name="ten_bp_ct">Trạm xử lý nước</field>
+            <field name="ma_bp">PXCD</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">PXCD</field>
+            <field name="ma_bp_luong">CD4-XLNUOC</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_cd4_xlnuoc_1hc" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">CD4-XLNUOC-1HC</field>
+            <field name="ten_bp_ct">Thường trực, hành chánh</field>
+            <field name="ma_bp">PXCD</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">CD4-XLNUOC</field>
+            <field name="ma_bp_luong">CD4-XLNUOC-1HC,CD4-XLNUOC-2CA</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">CD4-XLNUOC-2CA</field>
+            <field name="loai_cc">T27</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_cd4_xlnuoc_2ca" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">CD4-XLNUOC-2CA</field>
+            <field name="ten_bp_ct">Trực trạm 2 ca 3 kíp</field>
+            <field name="ma_bp">PXCD</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">CD4-XLNUOC</field>
+            <field name="ma_bp_luong">CD4-XLNUOC-2CA</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">CD4-XLNUOC-1HC</field>
+            <field name="loai_cc">12T</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_cd5_dien" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">CD5-DIEN</field>
+            <field name="ten_bp_ct">Trạm điện 110 kv</field>
+            <field name="ma_bp">PXCD</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">PXCD</field>
+            <field name="ma_bp_luong">CD5-DIEN</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_cd5_dien_1hc" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">CD5-DIEN-1HC</field>
+            <field name="ten_bp_ct">Thường trực, hành chánh</field>
+            <field name="ma_bp">PXCD</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">CD5-DIEN</field>
+            <field name="ma_bp_luong">CD5-DIEN-1HC,CD5-DIEN-2CA</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">CD5-DIEN-2CA</field>
+            <field name="loai_cc">T27</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_cd5_dien_2ca" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">CD5-DIEN-2CA</field>
+            <field name="ten_bp_ct">Trực trạm 2 ca 3 kíp</field>
+            <field name="ma_bp">PXCD</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">CD5-DIEN</field>
+            <field name="ma_bp_luong">CD5-DIEN-2CA</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">CD5-DIEN-1HC</field>
+            <field name="loai_cc">12T</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_cd6_oxy" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">CD6-OXY</field>
+            <field name="ten_bp_ct">Trạm oxy</field>
+            <field name="ma_bp">PXCD</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">PXCD</field>
+            <field name="ma_bp_luong">CD6-OXY</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_cd6_oxy_1hc" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">CD6-OXY-1HC</field>
+            <field name="ten_bp_ct">Thường trực, hành chánh</field>
+            <field name="ma_bp">PXCD</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">CD6-OXY</field>
+            <field name="ma_bp_luong">CD6-OXY-1HC,CD6-OXY-2CA</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">CD6-OXY-2CA</field>
+            <field name="loai_cc">T27</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_cd6_oxy_2ca" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">CD6-OXY-2CA</field>
+            <field name="ten_bp_ct">Trực trạm 2 ca 3 kíp</field>
+            <field name="ma_bp">PXCD</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">CD6-OXY</field>
+            <field name="ma_bp_luong">CD6-OXY-2CA</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">CD6-OXY-1HC</field>
+            <field name="loai_cc">12T</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_cd7_bttb" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">CD7-BTTB</field>
+            <field name="ten_bp_ct">Đội Bảo trì thiết bị (Sửa chữa, bơm mỡ thiết bị luyện kim)</field>
+            <field name="ma_bp">PXCD</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">PXCD</field>
+            <field name="ma_bp_luong">CD7-BTTB</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_cd7_bttb_1dt" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">CD7-BTTB-1DT</field>
+            <field name="ten_bp_ct">- Đội Trưởng</field>
+            <field name="ma_bp">PXCD</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">CD7-BTTB</field>
+            <field name="ma_bp_luong">CD7-BTTB-1DT,CD7-BTTB-2PH-TT,CD7-BTTB-2PH-TV,CD7-BTTB-4LUYEN-TT,CD7-BTTB-4LUYEN-TV,CD7-BTTB-5CAN-TT,CD7-BTTB-5CAN-TV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">T27</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_cd7_bttb_2ph" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">CD7-BTTB-2PH</field>
+            <field name="ten_bp_ct">Tổ BTTB phụ hồi</field>
+            <field name="ma_bp">PXCD</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">CD7-BTTB</field>
+            <field name="ma_bp_luong">CD7-BTTB-1DT,CD7-BTTB-2PH-TT,CD7-BTTB-2PH-TV,CD7-BTTB-4LUYEN-TT,CD7-BTTB-4LUYEN-TV,CD7-BTTB-5CAN-TT,CD7-BTTB-5CAN-TV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_cd7_bttb_2ph_tt" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">CD7-BTTB-2PH-TT</field>
+            <field name="ten_bp_ct">Tổ trưởng tổ BTTB phục hồi</field>
+            <field name="ma_bp">PXCD</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">CD7-BTTB-2PH</field>
+            <field name="ma_bp_luong">CD7-BTTB-1DT,CD7-BTTB-2PH-TT,CD7-BTTB-2PH-TV,CD7-BTTB-4LUYEN-TT,CD7-BTTB-4LUYEN-TV,CD7-BTTB-5CAN-TT,CD7-BTTB-5CAN-TV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">T27</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_cd7_bttb_2ph_tv" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">CD7-BTTB-2PH-TV</field>
+            <field name="ten_bp_ct">Tổ viên</field>
+            <field name="ma_bp">PXCD</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">CD7-BTTB-2PH</field>
+            <field name="ma_bp_luong">CD7-BTTB-1DT,CD7-BTTB-2PH-TT,CD7-BTTB-2PH-TV,CD7-BTTB-4LUYEN-TT,CD7-BTTB-4LUYEN-TV,CD7-BTTB-5CAN-TT,CD7-BTTB-5CAN-TV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">T27</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_cd7_bttb_3ca" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">CD7-BTTB-3CA</field>
+            <field name="ten_bp_ct">Trực ca cơ điện 2 ca 3 kíp</field>
+            <field name="ma_bp">PXCD</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">CD7-BTTB</field>
+            <field name="ma_bp_luong">CD7-BTTB-3CA-NT,CD7-BTTB-3CA-NV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_cd7_bttb_3ca_nt" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">CD7-BTTB-3CA-NT</field>
+            <field name="ten_bp_ct">Nhóm trưởng trực 2 ca 3 kíp</field>
+            <field name="ma_bp">PXCD</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">CD7-BTTB-3CA</field>
+            <field name="ma_bp_luong">CD7-BTTB-3CA-NT,CD7-BTTB-3CA-NV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">T27</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_cd7_bttb_3ca_nv" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">CD7-BTTB-3CA-NV</field>
+            <field name="ten_bp_ct">Tổ viên trực ca cơ điện 2 ca 3 kíp</field>
+            <field name="ma_bp">PXCD</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">CD7-BTTB-3CA</field>
+            <field name="ma_bp_luong">CD7-BTTB-3CA-NT,CD7-BTTB-3CA-NV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">T27</field>
+            <field name="is_kt" eval="True"/>
+        </record>
+        <record id="iwmn_r81dmbpct_cd7_bttb_3cac_nv" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">CD7-BTTB-3CAC-NV</field>
+            <field name="ten_bp_ct">Tổ viên trực ca cán cơ điện 2 ca 3 kíp</field>
+            <field name="ma_bp">PXCD</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">CD7-BTTB-3CA</field>
+            <field name="ma_bp_luong">CD7-BTTB-3CA-NT,CD7-BTTB-3CA-NV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">T27</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_cd7_bttb_3cal_nv" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">CD7-BTTB-3CAL-NV</field>
+            <field name="ten_bp_ct">Tổ viên trực ca luyện cơ điện 2 ca 3 kíp</field>
+            <field name="ma_bp">PXCD</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">CD7-BTTB-3CA</field>
+            <field name="ma_bp_luong">CD7-BTTB-3CA-NT,CD7-BTTB-3CA-NV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">T27</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_cd7_bttb_4luyen" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">CD7-BTTB-4LUYEN</field>
+            <field name="ten_bp_ct">Tổ BTTB luyện thép</field>
+            <field name="ma_bp">PXCD</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">CD7-BTTB</field>
+            <field name="ma_bp_luong">CD7-BTTB-1DT,CD7-BTTB-2PH-TT,CD7-BTTB-2PH-TV,CD7-BTTB-4LUYEN-TT,CD7-BTTB-4LUYEN-TV,CD7-BTTB-5CAN-TT,CD7-BTTB-5CAN-TV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_cd7_bttb_4luyen_tt" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">CD7-BTTB-4LUYEN-TT</field>
+            <field name="ten_bp_ct">Tổ trưởng tổ BTTB luyện thép</field>
+            <field name="ma_bp">PXCD</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">CD7-BTTB-4LUYEN</field>
+            <field name="ma_bp_luong">CD7-BTTB-1DT,CD7-BTTB-2PH-TT,CD7-BTTB-2PH-TV,CD7-BTTB-4LUYEN-TT,CD7-BTTB-4LUYEN-TV,CD7-BTTB-5CAN-TT,CD7-BTTB-5CAN-TV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">T27</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_cd7_bttb_4luyen_tv" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">CD7-BTTB-4LUYEN-TV</field>
+            <field name="ten_bp_ct">Tổ viên BTTB luyện thép</field>
+            <field name="ma_bp">PXCD</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">CD7-BTTB-4LUYEN</field>
+            <field name="ma_bp_luong">CD7-BTTB-1DT,CD7-BTTB-2PH-TT,CD7-BTTB-2PH-TV,CD7-BTTB-4LUYEN-TT,CD7-BTTB-4LUYEN-TV,CD7-BTTB-5CAN-TT,CD7-BTTB-5CAN-TV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">T27</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_cd7_bttb_5can" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">CD7-BTTB-5CAN</field>
+            <field name="ten_bp_ct">Tổ BTTB cán thép</field>
+            <field name="ma_bp">PXCD</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">CD7-BTTB</field>
+            <field name="ma_bp_luong">CD7-BTTB-1DT,CD7-BTTB-2PH-TT,CD7-BTTB-2PH-TV,CD7-BTTB-4LUYEN-TT,CD7-BTTB-4LUYEN-TV,CD7-BTTB-5CAN-TT,CD7-BTTB-5CAN-TV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_cd7_bttb_5can_tt" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">CD7-BTTB-5CAN-TT</field>
+            <field name="ten_bp_ct">Tổ trưởng BTTC cán thép</field>
+            <field name="ma_bp">PXCD</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">CD7-BTTB-5CAN</field>
+            <field name="ma_bp_luong">CD7-BTTB-1DT,CD7-BTTB-2PH-TT,CD7-BTTB-2PH-TV,CD7-BTTB-4LUYEN-TT,CD7-BTTB-4LUYEN-TV,CD7-BTTB-5CAN-TT,CD7-BTTB-5CAN-TV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">T27</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_cd7_bttb_5can_tv" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">CD7-BTTB-5CAN-TV</field>
+            <field name="ten_bp_ct">Tổ viên BTTB cán thép</field>
+            <field name="ma_bp">PXCD</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">CD7-BTTB-5CAN</field>
+            <field name="ma_bp_luong">CD7-BTTB-1DT,CD7-BTTB-2PH-TT,CD7-BTTB-2PH-TV,CD7-BTTB-4LUYEN-TT,CD7-BTTB-4LUYEN-TV,CD7-BTTB-5CAN-TT,CD7-BTTB-5CAN-TV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">T27</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_cntt1" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">CNTT1</field>
+            <field name="ten_bp_ct">- Nhân viên phần mềm</field>
+            <field name="ma_bp">PCNTT</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">PCNTT</field>
+            <field name="ma_bp_luong">CNTT1,CNTT2,CNTT3,CNTT4</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">HC</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_cntt2" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">CNTT2</field>
+            <field name="ten_bp_ct">- Nhân viên phần cứng 1</field>
+            <field name="ma_bp">PCNTT</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">PCNTT</field>
+            <field name="ma_bp_luong">CNTT1,CNTT2,CNTT3,CNTT4</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">HC</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_cntt3" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">CNTT3</field>
+            <field name="ten_bp_ct">- Nhân viên phần cứng 2</field>
+            <field name="ma_bp">PCNTT</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">PCNTT</field>
+            <field name="ma_bp_luong">CNTT1,CNTT2,CNTT3,CNTT4</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">HC</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_cntt4" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">CNTT4</field>
+            <field name="ten_bp_ct">- Nhân viên phần cứng 3</field>
+            <field name="ma_bp">PCNTT</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">PCNTT</field>
+            <field name="ma_bp_luong">CNTT1,CNTT2,CNTT3,CNTT4</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">HC</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_kd1_vp" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">KD1-VP</field>
+            <field name="ten_bp_ct">Nhân viên văn phòng</field>
+            <field name="ma_bp">PKD</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">PKD</field>
+            <field name="ma_bp_luong">KD1-VPC-NV,KD1-VPDD-NV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">HC</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_kd1_vpc_nv" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">KD1-VPC-NV</field>
+            <field name="ten_bp_ct">Nhân viên văn phòng chính</field>
+            <field name="ma_bp">PKD</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">KD1-VP</field>
+            <field name="ma_bp_luong">KD1-VPC-NV,KD1-VPDD-NV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">HC</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_kd1_vpdd_nv" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">KD1-VPDD-NV</field>
+            <field name="ten_bp_ct">Nhân viên văn phòng đại diện</field>
+            <field name="ma_bp">PKD</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">KD1-VP</field>
+            <field name="ma_bp_luong">KD1-VPC-NV,KD1-VPDD-NV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">HC</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_kd1_vpmt_nv" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">KD1-VPMT-NV</field>
+            <field name="ten_bp_ct">Nhân viên KD khu vực</field>
+            <field name="ma_bp">PKD</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">KD1-VP</field>
+            <field name="ma_bp_luong">KD1-VPC-NV,KD1-VPDD-NV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">HC</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_kd2_khocp" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">KD2-KHOCP</field>
+            <field name="ten_bp_ct">Thủ kho/ giao nhận tại KV và CTCP</field>
+            <field name="ma_bp">PKD</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">PKD</field>
+            <field name="ma_bp_luong">KD2-KHOCT-TV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">T27</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_kd2_khoct_tv" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">KD2-KHOCT-TV</field>
+            <field name="ten_bp_ct">Thủ kho/ giao nhận tại Công ty</field>
+            <field name="ma_bp">PKD</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">PKD</field>
+            <field name="ma_bp_luong">KD2-KHOCT-TV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">T27</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_kd2_khoctcp" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">KD2-KHOCTCP</field>
+            <field name="ten_bp_ct">Thủ kho/ giao nhận tại CTCP</field>
+            <field name="ma_bp">PKD</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">KD2-KHOCP</field>
+            <field name="ma_bp_luong">KD2-KHOCTCP</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">T27</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_kd2_khokv" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">KD2-KHOKV</field>
+            <field name="ten_bp_ct">Thủ kho/ giao nhận tại kho khu vực</field>
+            <field name="ma_bp">PKD</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">KD2-KHOCP</field>
+            <field name="ma_bp_luong">KD2-KHOKV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">T27</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_kd3_vc" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">KD3-VC</field>
+            <field name="ten_bp_ct">Tổ vận chuyển (người)</field>
+            <field name="ma_bp">PKD</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">PKD</field>
+            <field name="ma_bp_luong">KD3-VC-NG</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">T27</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_kd3_vc_ng" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">KD3-VC-NG</field>
+            <field name="ten_bp_ct">Tổ vận chuyển (người)</field>
+            <field name="ma_bp">PKD</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">KD3-VC</field>
+            <field name="ma_bp_luong">KD3-VC-NG</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">T27</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_kd3_vc_tv" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">KD3-VC-TV</field>
+            <field name="ten_bp_ct">Tổ vận chuyển (thành phẩm/ phôi)</field>
+            <field name="ma_bp">PKD</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">KD3-VC</field>
+            <field name="ma_bp_luong">KD3-VC-TV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">T27</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_khvt1_vp" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">KHVT1-VP</field>
+            <field name="ten_bp_ct">Nhân viên văn phòng</field>
+            <field name="ma_bp">PKHVT</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">PKHVT</field>
+            <field name="ma_bp_luong">KHVT1-VP</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">HC</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_khvt2_xe" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">KHVT2-XE</field>
+            <field name="ten_bp_ct">Kho xăng dầu/ xe tải</field>
+            <field name="ma_bp">PKHVT</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">PKHVT</field>
+            <field name="ma_bp_luong">KHVT2-XE</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">T27</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_kt1_vp" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">KT1_VP</field>
+            <field name="ten_bp_ct">Nhân viên văn phòng</field>
+            <field name="ma_bp">PKT</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">PKT</field>
+            <field name="ma_bp_luong">KT1_VP</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">HC</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_ktdt1_vp" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">KTDT1-VP</field>
+            <field name="ten_bp_ct">Nhân viên văn phòng</field>
+            <field name="ma_bp">PKTDT</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">PKTDT</field>
+            <field name="ma_bp_luong">KTDT1-VP</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">HC</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_ktdt2_kho" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">KTDT2-KHO</field>
+            <field name="ten_bp_ct">Kho vật tư phụ tùng</field>
+            <field name="ma_bp">PKTDT</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">PKTDT</field>
+            <field name="ma_bp_luong">KTDT2-KHO</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">HC</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_nql" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">NQL</field>
+            <field name="ten_bp_ct">Ban TGD</field>
+            <field name="ma_bp">NQL</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">PANQL</field>
+            <field name="ma_bp_luong">PTGD</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">HC</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_p0nql" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">P0NQL</field>
+            <field name="ten_bp_ct">Người quản lý không chuyên trách</field>
+            <field name="ma_bp" eval="False"/>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha" eval="False"/>
+            <field name="ma_bp_luong">PTGD</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">HC</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_panql" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">PANQL</field>
+            <field name="ten_bp_ct">Người quản lý chuyên trách</field>
+            <field name="ma_bp" eval="False"/>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha" eval="False"/>
+            <field name="ma_bp_luong">PTGD</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">HC</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_pcntt" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">PCNTT</field>
+            <field name="ten_bp_ct">Phòng Công nghệ thông tin</field>
+            <field name="ma_bp">PCNTT</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha" eval="False"/>
+            <field name="ma_bp_luong">PCNTT</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_phodvi" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">PHODVI</field>
+            <field name="ten_bp_ct">Phó trưởng đơn vị</field>
+            <field name="ma_bp" eval="False"/>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">TPDV</field>
+            <field name="ma_bp_luong">TRUONGDV,PHODVI</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">HC</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_pkd" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">PKD</field>
+            <field name="ten_bp_ct">Phòng Kinh doanh</field>
+            <field name="ma_bp">PKD</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha" eval="False"/>
+            <field name="ma_bp_luong">PKD</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_pkhvt" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">PKHVT</field>
+            <field name="ten_bp_ct">Phòng Kế hoạch Vật tư</field>
+            <field name="ma_bp">PKHVT</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha" eval="False"/>
+            <field name="ma_bp_luong">PKHVT</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_pkt" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">PKT</field>
+            <field name="ten_bp_ct">Phòng Kế toán Tài chính</field>
+            <field name="ma_bp">PKT</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha" eval="False"/>
+            <field name="ma_bp_luong">PKT</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_pktdt" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">PKTDT</field>
+            <field name="ten_bp_ct">Phòng Kỹ thuật Đầu tư</field>
+            <field name="ma_bp">PKTDT</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha" eval="False"/>
+            <field name="ma_bp_luong">PKTDT</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_pqlcl" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">PQLCL</field>
+            <field name="ten_bp_ct">Phòng Quản lý chất lượng</field>
+            <field name="ma_bp">PQLCL</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha" eval="False"/>
+            <field name="ma_bp_luong">PQLCL</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_ptchc" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">PTCHC</field>
+            <field name="ten_bp_ct">Phòng Tổ chức Hành chính</field>
+            <field name="ma_bp">PTCHC</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha" eval="False"/>
+            <field name="ma_bp_luong">PTCHC</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_pxcd" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">PXCD</field>
+            <field name="ten_bp_ct">Phân xưởng Cơ điện</field>
+            <field name="ma_bp">PXCD</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha" eval="False"/>
+            <field name="ma_bp_luong">PXCD</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_pxsx" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">PXSX</field>
+            <field name="ten_bp_ct">Phân xưởng Sản xuất</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha" eval="False"/>
+            <field name="ma_bp_luong">PXSX</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_qlcl1_vp" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">QLCL1-VP</field>
+            <field name="ten_bp_ct">Nhân viên văn phòng</field>
+            <field name="ma_bp">PQLCL</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">PQLCL</field>
+            <field name="ma_bp_luong">QLCL1-VP</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">HC</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_qlcl2_kcs" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">QLCL2-KCS</field>
+            <field name="ten_bp_ct">Tổ kiểm tra chất lượng sản phẩm</field>
+            <field name="ma_bp">PQLCL</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">PQLCL</field>
+            <field name="ma_bp_luong">QLCL2-KCS-CAN,QLCL2-KCS-LUYEN</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">12T</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_qlcl2_kcs_can" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">QLCL2-KCS-CAN</field>
+            <field name="ten_bp_ct">KCS thép cán 2 ca 3 kíp:
+ 2 người/ kíp x 3 kíp</field>
+            <field name="ma_bp">PQLCL</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">QLCL2-KCS</field>
+            <field name="ma_bp_luong">QLCL2-KCS-CAN,QLCL2-KCS-LUYEN</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">12T</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_qlcl2_kcs_luyen" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">QLCL2-KCS-LUYEN</field>
+            <field name="ten_bp_ct">KCS thép thỏi 2 ca 3 kíp:
+ 2 người/ kíp x 3 kíp</field>
+            <field name="ma_bp">PQLCL</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">QLCL2-KCS</field>
+            <field name="ma_bp_luong">QLCL2-KCS-CAN,QLCL2-KCS-LUYEN</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">12T</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_qlcl3_kcs_lieu" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">QLCL3-KCS-LIEU</field>
+            <field name="ten_bp_ct">KCS liệu</field>
+            <field name="ma_bp">PQLCL</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">PQLCL</field>
+            <field name="ma_bp_luong">QLCL3-KCS-LIEU</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">12T</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_qlcl4_can" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">QLCL4-CAN</field>
+            <field name="ten_bp_ct">Cân hàng</field>
+            <field name="ma_bp">PQLCL</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">PQLCL</field>
+            <field name="ma_bp_luong">QLCL4-CAN</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">12T</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_c1_vp" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-C1-VP</field>
+            <field name="ten_bp_ct">Văn phòng cán thép</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">PXSX</field>
+            <field name="ma_bp_luong">SX-C1-VP-KHO</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">HC</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_c1_vp_ktv" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-C1-VP-KTV</field>
+            <field name="ten_bp_ct">Văn phòng (nhóm KTV)</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">SX-C1-VP</field>
+            <field name="ma_bp_luong">SX-C1-VP-KTV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">HC</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_c2_nc" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-C2-NC</field>
+            <field name="ten_bp_ct">Văn phòng (kho phôi, vật tư VSCN)</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">SX-C1-VP</field>
+            <field name="ma_bp_luong">SX-C2-NC</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">T27</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_c3_sx" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-C3-SX</field>
+            <field name="ten_bp_ct">Sản xuất 2 ca 3 kíp</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">2</field>
+            <field name="ma_bp_ct_cha">PXSX</field>
+            <field name="ma_bp_luong">SX-C3-SX</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_c3_sx_a" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-C3-SX-A</field>
+            <field name="ten_bp_ct">Kíp A cán thép</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">2A</field>
+            <field name="ma_bp_ct_cha">SX-C3-SX</field>
+            <field name="ma_bp_luong">SX-C3-SX-A</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_c3_sx_a_1tc" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-C3-SX-A-1TC</field>
+            <field name="ten_bp_ct">Trưởng kíp</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">2A</field>
+            <field name="ma_bp_ct_cha">SX-C3-SX-A</field>
+            <field name="ma_bp_luong">SX-C3-SX-A-1TC,SX-C3-SX-A-2CN-TT,SX-C3-SX-A-2CN-TV,SX-C3-SX-A-3LN</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">CAA</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_c3_sx_a_2cn" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-C3-SX-A-2CN</field>
+            <field name="ten_bp_ct">Tổ công nghệ (cán thép nóng)</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">2A</field>
+            <field name="ma_bp_ct_cha">SX-C3-SX-A</field>
+            <field name="ma_bp_luong">SX-C3-SX-A-1TC,SX-C3-SX-A-2CN-TT,SX-C3-SX-A-2CN-TV,SX-C3-SX-A-3LN</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_c3_sx_a_2cn_tt" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-C3-SX-A-2CN-TT</field>
+            <field name="ten_bp_ct">- Tổ trưởng</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">2A</field>
+            <field name="ma_bp_ct_cha">SX-C3-SX-A-2CN</field>
+            <field name="ma_bp_luong">SX-C3-SX-A-1TC,SX-C3-SX-A-2CN-TT,SX-C3-SX-A-2CN-TV,SX-C3-SX-A-3LN</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-C3-SX-A-1TC</field>
+            <field name="loai_cc">CAA</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_c3_sx_a_2cn_tv" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-C3-SX-A-2CN-TV</field>
+            <field name="ten_bp_ct">- Cán thép nóng</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">2A</field>
+            <field name="ma_bp_ct_cha">SX-C3-SX-A-2CN</field>
+            <field name="ma_bp_luong">SX-C3-SX-A-1TC,SX-C3-SX-A-2CN-TT,SX-C3-SX-A-2CN-TV,SX-C3-SX-A-3LN</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-C3-SX-A-1TC</field>
+            <field name="loai_cc">CAA</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_c3_sx_a_3ln" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-C3-SX-A-3LN</field>
+            <field name="ten_bp_ct">Tổ lò nung thép để cán</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">2A</field>
+            <field name="ma_bp_ct_cha">SX-C3-SX-A</field>
+            <field name="ma_bp_luong">SX-C3-SX-A-1TC,SX-C3-SX-A-2CN-TT,SX-C3-SX-A-2CN-TV,SX-C3-SX-A-3LN</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-C3-SX-A-1TC</field>
+            <field name="loai_cc">CAA</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_c3_sx_a_4vh" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-C3-SX-A-4VH</field>
+            <field name="ten_bp_ct">Tổ vận hành máy cán thép</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">2A</field>
+            <field name="ma_bp_ct_cha">SX-C3-SX-A</field>
+            <field name="ma_bp_luong">SX-C3-SX-A-4VH</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_c3_sx_a_4vh_tt" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-C3-SX-A-4VH-TT</field>
+            <field name="ten_bp_ct">- Tổ trưởng</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">2A</field>
+            <field name="ma_bp_ct_cha">SX-C3-SX-A-4VH</field>
+            <field name="ma_bp_luong">SX-C3-SX-A-4VH-TT,SX-C3-SX-A-4VH-TV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-C3-SX-A-1TC</field>
+            <field name="loai_cc">CAA</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_c3_sx_a_4vh_tv" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-C3-SX-A-4VH-TV</field>
+            <field name="ten_bp_ct">- Vận hành máy cán thép</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">2A</field>
+            <field name="ma_bp_ct_cha">SX-C3-SX-A-4VH</field>
+            <field name="ma_bp_luong">SX-C3-SX-A-4VH-TT,SX-C3-SX-A-4VH-TV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-C3-SX-A-1TC</field>
+            <field name="loai_cc">CAA</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_c3_sx_a_5ct" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-C3-SX-A-5CT</field>
+            <field name="ten_bp_ct">- Tổ cầu trục trong gian buồng cán thép</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">2A</field>
+            <field name="ma_bp_ct_cha">SX-C3-SX-A</field>
+            <field name="ma_bp_luong">SX-C3-SX-A-5CT</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_c3_sx_a_5ct_tt" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-C3-SX-A-5CT-TT</field>
+            <field name="ten_bp_ct">- Tổ trưởng</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">2A</field>
+            <field name="ma_bp_ct_cha">SX-C3-SX-A-5CT</field>
+            <field name="ma_bp_luong">SX-C3-SX-A-5CT-TT,SX-C3-SX-A-5CT-TV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-C3-SX-A-1TC</field>
+            <field name="loai_cc">CAA</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_c3_sx_a_5ct_tv" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-C3-SX-A-5CT-TV</field>
+            <field name="ten_bp_ct">- Vận hành cầu trục trong gian buồng cán thép</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">2A</field>
+            <field name="ma_bp_ct_cha">SX-C3-SX-A-5CT</field>
+            <field name="ma_bp_luong">SX-C3-SX-A-5CT-TT,SX-C3-SX-A-5CT-TV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-C3-SX-A-1TC</field>
+            <field name="loai_cc">CAA</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_c3_sx_a_6tp" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-C3-SX-A-6TP</field>
+            <field name="ten_bp_ct">Tổ thành phẩm thép cán (làm việc trên sàn nguội)</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">2A</field>
+            <field name="ma_bp_ct_cha">SX-C3-SX-A</field>
+            <field name="ma_bp_luong">SX-C3-SX-A-6TP</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_c3_sx_a_6tp_tt" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-C3-SX-A-6TP-TT</field>
+            <field name="ten_bp_ct">- Tổ trưởng</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">2A</field>
+            <field name="ma_bp_ct_cha">SX-C3-SX-A-6TP</field>
+            <field name="ma_bp_luong">SX-C3-SX-A-6TP-TT,SX-C3-SX-A-6TP-TV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-C3-SX-A-1TC</field>
+            <field name="loai_cc">CAA</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_c3_sx_a_6tp_tv" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-C3-SX-A-6TP-TV</field>
+            <field name="ten_bp_ct">- Làm việc trên sàn nguội</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">2A</field>
+            <field name="ma_bp_ct_cha">SX-C3-SX-A-6TP</field>
+            <field name="ma_bp_luong">SX-C3-SX-A-6TP-TT,SX-C3-SX-A-6TP-TV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-C3-SX-A-1TC</field>
+            <field name="loai_cc">CAA</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_c3_sx_b" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-C3-SX-B</field>
+            <field name="ten_bp_ct">Kíp B cán thép</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">2B</field>
+            <field name="ma_bp_ct_cha">SX-C3-SX</field>
+            <field name="ma_bp_luong">SX-C3-SX-B</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_c3_sx_b_1tc" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-C3-SX-B-1TC</field>
+            <field name="ten_bp_ct">- Trưởng kíp</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">2B</field>
+            <field name="ma_bp_ct_cha">SX-C3-SX-B</field>
+            <field name="ma_bp_luong">SX-C3-SX-B-1TC,SX-C3-SX-B-2CN-TT,SX-C3-SX-B-2CN-TV,SX-C3-SX-B-3LN</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">CAB</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_c3_sx_b_2cn" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-C3-SX-B-2CN</field>
+            <field name="ten_bp_ct">- Tổ công nghệ (cán thép nóng)</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">2B</field>
+            <field name="ma_bp_ct_cha">SX-C3-SX-B</field>
+            <field name="ma_bp_luong">SX-C3-SX-B-1TC,SX-C3-SX-B-2CN-TT,SX-C3-SX-B-2CN-TV,SX-C3-SX-B-3LN</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_c3_sx_b_2cn_tt" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-C3-SX-B-2CN-TT</field>
+            <field name="ten_bp_ct">- Tổ trưởng</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">2B</field>
+            <field name="ma_bp_ct_cha">SX-C3-SX-B-2CN</field>
+            <field name="ma_bp_luong">SX-C3-SX-B-1TC,SX-C3-SX-B-2CN-TT,SX-C3-SX-B-2CN-TV,SX-C3-SX-B-3LN</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-C3-SX-B-1TC</field>
+            <field name="loai_cc">CAB</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_c3_sx_b_2cn_tv" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-C3-SX-B-2CN-TV</field>
+            <field name="ten_bp_ct">- Cán thép nóng</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">2B</field>
+            <field name="ma_bp_ct_cha">SX-C3-SX-B-2CN</field>
+            <field name="ma_bp_luong">SX-C3-SX-B-1TC,SX-C3-SX-B-2CN-TT,SX-C3-SX-B-2CN-TV,SX-C3-SX-B-3LN</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-C3-SX-B-1TC</field>
+            <field name="loai_cc">CAB</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_c3_sx_b_3ln" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-C3-SX-B-3LN</field>
+            <field name="ten_bp_ct">- Tổ lò nung thép để cán</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">2B</field>
+            <field name="ma_bp_ct_cha">SX-C3-SX-B</field>
+            <field name="ma_bp_luong">SX-C3-SX-B-1TC,SX-C3-SX-B-2CN-TT,SX-C3-SX-B-2CN-TV,SX-C3-SX-B-3LN</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-C3-SX-B-1TC</field>
+            <field name="loai_cc">CAB</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_c3_sx_b_4vh" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-C3-SX-B-4VH</field>
+            <field name="ten_bp_ct">- Tổ vận hành máy cán thép</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">2B</field>
+            <field name="ma_bp_ct_cha">SX-C3-SX-B</field>
+            <field name="ma_bp_luong">SX-C3-SX-B-4VH</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_c3_sx_b_4vh_tt" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-C3-SX-B-4VH-TT</field>
+            <field name="ten_bp_ct">- Tổ trưởng</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">2B</field>
+            <field name="ma_bp_ct_cha">SX-C3-SX-B-4VH</field>
+            <field name="ma_bp_luong">SX-C3-SX-B-4VH-TT,SX-C3-SX-B-4VH-TV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-C3-SX-B-1TC</field>
+            <field name="loai_cc">CAB</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_c3_sx_b_4vh_tv" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-C3-SX-B-4VH-TV</field>
+            <field name="ten_bp_ct">- Vận hành máy cán thép</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">2B</field>
+            <field name="ma_bp_ct_cha">SX-C3-SX-B-4VH</field>
+            <field name="ma_bp_luong">SX-C3-SX-B-4VH-TT,SX-C3-SX-B-4VH-TV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-C3-SX-B-1TC</field>
+            <field name="loai_cc">CAB</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_c3_sx_b_5ct" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-C3-SX-B-5CT</field>
+            <field name="ten_bp_ct">- Tổ cầu trục trong gian buồng cán thép</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">2B</field>
+            <field name="ma_bp_ct_cha">SX-C3-SX-B</field>
+            <field name="ma_bp_luong">SX-C3-SX-B-5CT</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_c3_sx_b_5ct_tt" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-C3-SX-B-5CT-TT</field>
+            <field name="ten_bp_ct">- Tổ trưởng</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">2B</field>
+            <field name="ma_bp_ct_cha">SX-C3-SX-B-5CT</field>
+            <field name="ma_bp_luong">SX-C3-SX-B-5CT-TT,SX-C3-SX-B-5CT-TV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-C3-SX-B-1TC</field>
+            <field name="loai_cc">CAB</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_c3_sx_b_5ct_tv" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-C3-SX-B-5CT-TV</field>
+            <field name="ten_bp_ct">- Vận hành cầu trục trong gian buồng cán thép</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">2B</field>
+            <field name="ma_bp_ct_cha">SX-C3-SX-B-5CT</field>
+            <field name="ma_bp_luong">SX-C3-SX-B-5CT-TT,SX-C3-SX-B-5CT-TV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-C3-SX-B-1TC</field>
+            <field name="loai_cc">CAB</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_c3_sx_b_6tp" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-C3-SX-B-6TP</field>
+            <field name="ten_bp_ct">- Tổ thành phẩm thép cán (làm việc trên sàn nguội)</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">2B</field>
+            <field name="ma_bp_ct_cha">SX-C3-SX-B</field>
+            <field name="ma_bp_luong">SX-C3-SX-B-6TP</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_c3_sx_b_6tp_tt" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-C3-SX-B-6TP-TT</field>
+            <field name="ten_bp_ct">- Tổ trưởng</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">2B</field>
+            <field name="ma_bp_ct_cha">SX-C3-SX-B-6TP</field>
+            <field name="ma_bp_luong">SX-C3-SX-B-6TP-TT,SX-C3-SX-B-6TP-TV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-C3-SX-B-1TC</field>
+            <field name="loai_cc">CAB</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_c3_sx_b_6tp_tv" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-C3-SX-B-6TP-TV</field>
+            <field name="ten_bp_ct">- Làm việc trên sàn nguội</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">2B</field>
+            <field name="ma_bp_ct_cha">SX-C3-SX-B-6TP</field>
+            <field name="ma_bp_luong">SX-C3-SX-B-6TP-TT,SX-C3-SX-B-6TP-TV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-C3-SX-B-1TC</field>
+            <field name="loai_cc">CAB</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_c3_sx_c" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-C3-SX-C</field>
+            <field name="ten_bp_ct">Kíp C cán thép</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">2C</field>
+            <field name="ma_bp_ct_cha">SX-C3-SX</field>
+            <field name="ma_bp_luong">SX-C3-SX-C</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_c3_sx_c_1tc" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-C3-SX-C-1TC</field>
+            <field name="ten_bp_ct">- Trưởng kíp</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">2C</field>
+            <field name="ma_bp_ct_cha">SX-C3-SX-C</field>
+            <field name="ma_bp_luong">SX-C3-SX-C-1TC,SX-C3-SX-C-2CN-TT,SX-C3-SX-C-2CN-TV,SX-C3-SX-C-3LN</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">CAC</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_c3_sx_c_2cn" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-C3-SX-C-2CN</field>
+            <field name="ten_bp_ct">- Tổ công nghệ (cán thép nóng)</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">2C</field>
+            <field name="ma_bp_ct_cha">SX-C3-SX-C</field>
+            <field name="ma_bp_luong">SX-C3-SX-C-1TC,SX-C3-SX-C-2CN-TT,SX-C3-SX-C-2CN-TV,SX-C3-SX-C-3LN</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_c3_sx_c_2cn_tt" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-C3-SX-C-2CN-TT</field>
+            <field name="ten_bp_ct">- Tổ trưởng</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">2C</field>
+            <field name="ma_bp_ct_cha">SX-C3-SX-C-2CN</field>
+            <field name="ma_bp_luong">SX-C3-SX-C-1TC,SX-C3-SX-C-2CN-TT,SX-C3-SX-C-2CN-TV,SX-C3-SX-C-3LN</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-C3-SX-C-1TC</field>
+            <field name="loai_cc">CAC</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_c3_sx_c_2cn_tv" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-C3-SX-C-2CN-TV</field>
+            <field name="ten_bp_ct">- Cán thép nóng</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">2C</field>
+            <field name="ma_bp_ct_cha">SX-C3-SX-C-2CN</field>
+            <field name="ma_bp_luong">SX-C3-SX-C-1TC,SX-C3-SX-C-2CN-TT,SX-C3-SX-C-2CN-TV,SX-C3-SX-C-3LN</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-C3-SX-C-1TC</field>
+            <field name="loai_cc">CAC</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_c3_sx_c_3ln" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-C3-SX-C-3LN</field>
+            <field name="ten_bp_ct">- Tổ lò nung thép để cán</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">2C</field>
+            <field name="ma_bp_ct_cha">SX-C3-SX-C</field>
+            <field name="ma_bp_luong">SX-C3-SX-C-1TC,SX-C3-SX-C-2CN-TT,SX-C3-SX-C-2CN-TV,SX-C3-SX-C-3LN</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-C3-SX-C-1TC</field>
+            <field name="loai_cc">CAC</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_c3_sx_c_4vh" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-C3-SX-C-4VH</field>
+            <field name="ten_bp_ct">- Tổ vận hành máy cán thép</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">2C</field>
+            <field name="ma_bp_ct_cha">SX-C3-SX-C</field>
+            <field name="ma_bp_luong">SX-C3-SX-C-4VH</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_c3_sx_c_4vh_tt" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-C3-SX-C-4VH-TT</field>
+            <field name="ten_bp_ct">- Tổ trưởng</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">2C</field>
+            <field name="ma_bp_ct_cha">SX-C3-SX-C-4VH</field>
+            <field name="ma_bp_luong">SX-C3-SX-C-4VH-TT,SX-C3-SX-C-4VH-TV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-C3-SX-C-1TC</field>
+            <field name="loai_cc">CAC</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_c3_sx_c_4vh_tv" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-C3-SX-C-4VH-TV</field>
+            <field name="ten_bp_ct">- Vận hành máy cán thép</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">2C</field>
+            <field name="ma_bp_ct_cha">SX-C3-SX-C-4VH</field>
+            <field name="ma_bp_luong">SX-C3-SX-C-4VH-TT,SX-C3-SX-C-4VH-TV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-C3-SX-C-1TC</field>
+            <field name="loai_cc">CAC</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_c3_sx_c_5ct" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-C3-SX-C-5CT</field>
+            <field name="ten_bp_ct">- Tổ cầu trục trong gian buồng cán thép</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">2C</field>
+            <field name="ma_bp_ct_cha">SX-C3-SX-C</field>
+            <field name="ma_bp_luong">SX-C3-SX-C-5CT</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_c3_sx_c_5ct_tt" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-C3-SX-C-5CT-TT</field>
+            <field name="ten_bp_ct">- Tổ trưởng</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">2C</field>
+            <field name="ma_bp_ct_cha">SX-C3-SX-C-5CT</field>
+            <field name="ma_bp_luong">SX-C3-SX-C-5CT-TT,SX-C3-SX-C-5CT-TV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-C3-SX-C-1TC</field>
+            <field name="loai_cc">CAC</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_c3_sx_c_5ct_tv" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-C3-SX-C-5CT-TV</field>
+            <field name="ten_bp_ct">- Vận hành cầu trục trong gian buồng cán thép</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">2C</field>
+            <field name="ma_bp_ct_cha">SX-C3-SX-C-5CT</field>
+            <field name="ma_bp_luong">SX-C3-SX-C-5CT-TT,SX-C3-SX-C-5CT-TV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-C3-SX-C-1TC</field>
+            <field name="loai_cc">CAC</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_c3_sx_c_6tp" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-C3-SX-C-6TP</field>
+            <field name="ten_bp_ct">- Tổ thành phẩm thép cán (làm việc trên sàn nguội)</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">2C</field>
+            <field name="ma_bp_ct_cha">SX-C3-SX-C</field>
+            <field name="ma_bp_luong">SX-C3-SX-C-6TP</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_c3_sx_c_6tp_tt" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-C3-SX-C-6TP-TT</field>
+            <field name="ten_bp_ct">- Tổ trưởng</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">2C</field>
+            <field name="ma_bp_ct_cha">SX-C3-SX-C-6TP</field>
+            <field name="ma_bp_luong">SX-C3-SX-C-6TP-TT,SX-C3-SX-C-6TP-TV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-C3-SX-C-1TC</field>
+            <field name="loai_cc">CAC</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_c3_sx_c_6tp_tv" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-C3-SX-C-6TP-TV</field>
+            <field name="ten_bp_ct">- Làm việc trên sàn nguội</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">2C</field>
+            <field name="ma_bp_ct_cha">SX-C3-SX-C-6TP</field>
+            <field name="ma_bp_luong">SX-C3-SX-C-6TP-TT,SX-C3-SX-C-6TP-TV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-C3-SX-C-1TC</field>
+            <field name="loai_cc">CAC</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_c4_cbsx" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-C4-CBSX</field>
+            <field name="ten_bp_ct">Tổ Chuẩn bị sản xuất (bơm mỡ thiết bị luyện kim)</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">PXSX</field>
+            <field name="ma_bp_luong">SX-C4-CBSX</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">T27</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l1_vp_nv" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L1-VP-NV</field>
+            <field name="ten_bp_ct">Văn phòng luyện thép</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">PXSX</field>
+            <field name="ma_bp_luong">SX-L1-VP-NV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">HC</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l2_sx" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L2-SX</field>
+            <field name="ten_bp_ct">Sản xuất 2 ca 3 kíp</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">1</field>
+            <field name="ma_bp_ct_cha">PXSX</field>
+            <field name="ma_bp_luong">SX-L2-SX</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l2_sx_a" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L2-SX-A</field>
+            <field name="ten_bp_ct">Kíp A luyện thép</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">1A</field>
+            <field name="ma_bp_ct_cha">SX-L2-SX</field>
+            <field name="ma_bp_luong">SX-L2-SX-A</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l2_sx_a_1tc" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L2-SX-A-1TC</field>
+            <field name="ten_bp_ct">- Trưởng kíp</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">1A</field>
+            <field name="ma_bp_ct_cha">SX-L2-SX-A</field>
+            <field name="ma_bp_luong">SX-L2-SX-A-1TC,SX-L2-SX-A-2LL-PL,SX-L2-SX-A-2LL-TT,SX-L2-SX-A-2LL-TV,SX-L2-SX-A-2LL-XI</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">CAA</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l2_sx_a_2ll" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L2-SX-A-2LL</field>
+            <field name="ten_bp_ct">- Tổ lò luyện thép</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">1A</field>
+            <field name="ma_bp_ct_cha">SX-L2-SX-A</field>
+            <field name="ma_bp_luong">SX-L2-SX-A-1TC,SX-L2-SX-A-2LL-PL,SX-L2-SX-A-2LL-TT,SX-L2-SX-A-2LL-TV,SX-L2-SX-A-2LL-XI</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l2_sx_a_2ll_pl" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L2-SX-A-2LL-PL</field>
+            <field name="ten_bp_ct">- Phối liệu luyện thép</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">1A</field>
+            <field name="ma_bp_ct_cha">SX-L2-SX-A-2LL</field>
+            <field name="ma_bp_luong">SX-L2-SX-A-1TC,SX-L2-SX-A-2LL-PL,SX-L2-SX-A-2LL-TT,SX-L2-SX-A-2LL-TV,SX-L2-SX-A-2LL-XI</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-L2-SX-A-1TC</field>
+            <field name="loai_cc">CAA</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l2_sx_a_2ll_tt" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L2-SX-A-2LL-TT</field>
+            <field name="ten_bp_ct">- Tổ trưởng tổ lò</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">1A</field>
+            <field name="ma_bp_ct_cha">SX-L2-SX-A-2LL</field>
+            <field name="ma_bp_luong">SX-L2-SX-A-1TC,SX-L2-SX-A-2LL-PL,SX-L2-SX-A-2LL-TT,SX-L2-SX-A-2LL-TV,SX-L2-SX-A-2LL-XI</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-L2-SX-A-1TC</field>
+            <field name="loai_cc">CAA</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l2_sx_a_2ll_tv" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L2-SX-A-2LL-TV</field>
+            <field name="ten_bp_ct">- Luyện thép lò điện, lò bằng</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">1A</field>
+            <field name="ma_bp_ct_cha">SX-L2-SX-A-2LL</field>
+            <field name="ma_bp_luong">SX-L2-SX-A-1TC,SX-L2-SX-A-2LL-PL,SX-L2-SX-A-2LL-TT,SX-L2-SX-A-2LL-TV,SX-L2-SX-A-2LL-XI</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-L2-SX-A-1TC</field>
+            <field name="loai_cc">CAA</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l2_sx_a_2ll_xi" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L2-SX-A-2LL-XI</field>
+            <field name="ten_bp_ct">- Xe xúc xỉ nóng</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">1A</field>
+            <field name="ma_bp_ct_cha">SX-L2-SX-A-2LL</field>
+            <field name="ma_bp_luong">SX-L2-SX-A-1TC,SX-L2-SX-A-2LL-PL,SX-L2-SX-A-2LL-TT,SX-L2-SX-A-2LL-TV,SX-L2-SX-A-2LL-XI</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-L2-SX-A-1TC</field>
+            <field name="loai_cc">CAA</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l2_sx_a_3dt" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L2-SX-A-3DT</field>
+            <field name="ten_bp_ct">- Tổ đúc thỏi thép</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">1A</field>
+            <field name="ma_bp_ct_cha">SX-L2-SX-A</field>
+            <field name="ma_bp_luong">SX-L2-SX-A-3DT</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l2_sx_a_3dt_nt" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L2-SX-A-3DT-NT</field>
+            <field name="ten_bp_ct">- Nhóm trưởng thùng rót thép</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">1A</field>
+            <field name="ma_bp_ct_cha">SX-L2-SX-A-3DT</field>
+            <field name="ma_bp_luong">SX-L2-SX-A-3DT-NT,SX-L2-SX-A-3DT-TP,SX-L2-SX-A-3DT-TT,SX-L2-SX-A-3DT-TV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-L2-SX-A-1TC</field>
+            <field name="loai_cc">CAA</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l2_sx_a_3dt_tp" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L2-SX-A-3DT-TP</field>
+            <field name="ten_bp_ct">- Xếp thỏi thành phẩm</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">1A</field>
+            <field name="ma_bp_ct_cha">SX-L2-SX-A-3DT</field>
+            <field name="ma_bp_luong">SX-L2-SX-A-3DT-NT,SX-L2-SX-A-3DT-TP,SX-L2-SX-A-3DT-TT,SX-L2-SX-A-3DT-TV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-L2-SX-A-1TC</field>
+            <field name="loai_cc">CAA</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l2_sx_a_3dt_tt" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L2-SX-A-3DT-TT</field>
+            <field name="ten_bp_ct">- Tổ trưởng tổ đúc thỏi thép</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">1A</field>
+            <field name="ma_bp_ct_cha">SX-L2-SX-A-3DT</field>
+            <field name="ma_bp_luong">SX-L2-SX-A-3DT-NT,SX-L2-SX-A-3DT-TP,SX-L2-SX-A-3DT-TT,SX-L2-SX-A-3DT-TV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-L2-SX-A-1TC</field>
+            <field name="loai_cc">CAA</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l2_sx_a_3dt_tv" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L2-SX-A-3DT-TV</field>
+            <field name="ten_bp_ct">- Đúc thỏi thép (VH thùng rót, công nghệ đúc, VH điện)</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">1A</field>
+            <field name="ma_bp_ct_cha">SX-L2-SX-A-3DT</field>
+            <field name="ma_bp_luong">SX-L2-SX-A-3DT-NT,SX-L2-SX-A-3DT-TP,SX-L2-SX-A-3DT-TT,SX-L2-SX-A-3DT-TV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-L2-SX-A-1TC</field>
+            <field name="loai_cc">CAA</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l2_sx_a_4ct" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L2-SX-A-4CT</field>
+            <field name="ten_bp_ct">- Tổ cầu trục luyện thép</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">1A</field>
+            <field name="ma_bp_ct_cha">SX-L2-SX-A</field>
+            <field name="ma_bp_luong">SX-L2-SX-A-4CT</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l2_sx_a_4ct_130t" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L2-SX-A-4CT-130T</field>
+            <field name="ten_bp_ct">- Cầu trục 130T luyện thép</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">1A</field>
+            <field name="ma_bp_ct_cha">SX-L2-SX-A-4CT</field>
+            <field name="ma_bp_luong">SX-L2-SX-A-4CT-TT,SX-L2-SX-A-4CT-16T,SX-L2-SX-A-4CT-130T</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-L2-SX-A-1TC</field>
+            <field name="loai_cc">CAA</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l2_sx_a_4ct_16t" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L2-SX-A-4CT-16T</field>
+            <field name="ten_bp_ct">- Cầu trục 16T luyện thép</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">1A</field>
+            <field name="ma_bp_ct_cha">SX-L2-SX-A-4CT</field>
+            <field name="ma_bp_luong">SX-L2-SX-A-4CT-TT,SX-L2-SX-A-4CT-16T,SX-L2-SX-A-4CT-130T</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-L2-SX-A-1TC</field>
+            <field name="loai_cc">CAA</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l2_sx_a_4ct_tt" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L2-SX-A-4CT-TT</field>
+            <field name="ten_bp_ct">- Tổ trưởng cầu trục</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">1A</field>
+            <field name="ma_bp_ct_cha">SX-L2-SX-A-4CT</field>
+            <field name="ma_bp_luong">SX-L2-SX-A-4CT-TT,SX-L2-SX-A-4CT-16T,SX-L2-SX-A-4CT-130T</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-L2-SX-A-1TC</field>
+            <field name="loai_cc">CAA</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l2_sx_b" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L2-SX-B</field>
+            <field name="ten_bp_ct">Kíp B luyện thép</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">1B</field>
+            <field name="ma_bp_ct_cha">SX-L2-SX</field>
+            <field name="ma_bp_luong">SX-L2-SX-B</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l2_sx_b_1tc" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L2-SX-B-1TC</field>
+            <field name="ten_bp_ct">- Trưởng kíp</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">1B</field>
+            <field name="ma_bp_ct_cha">SX-L2-SX-B</field>
+            <field name="ma_bp_luong">SX-L2-SX-B-1TC,SX-L2-SX-B-2LL-PL,SX-L2-SX-B-2LL-TT,SX-L2-SX-B-2LL-TV,SX-L2-SX-B-2LL-XI</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">CAB</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l2_sx_b_2ll" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L2-SX-B-2LL</field>
+            <field name="ten_bp_ct">- Tổ lò luyện thép</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">1B</field>
+            <field name="ma_bp_ct_cha">SX-L2-SX-B</field>
+            <field name="ma_bp_luong">SX-L2-SX-B-1TC,SX-L2-SX-B-2LL-PL,SX-L2-SX-B-2LL-TT,SX-L2-SX-B-2LL-TV,SX-L2-SX-B-2LL-XI</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l2_sx_b_2ll_pl" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L2-SX-B-2LL-PL</field>
+            <field name="ten_bp_ct">- Phối liệu luyện thép</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">1B</field>
+            <field name="ma_bp_ct_cha">SX-L2-SX-B-2LL</field>
+            <field name="ma_bp_luong">SX-L2-SX-B-1TC,SX-L2-SX-B-2LL-PL,SX-L2-SX-B-2LL-TT,SX-L2-SX-B-2LL-TV,SX-L2-SX-B-2LL-XI</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-L2-SX-B-1TC</field>
+            <field name="loai_cc">CAB</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l2_sx_b_2ll_tt" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L2-SX-B-2LL-TT</field>
+            <field name="ten_bp_ct">- Tổ trưởng tổ lò</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">1B</field>
+            <field name="ma_bp_ct_cha">SX-L2-SX-B-2LL</field>
+            <field name="ma_bp_luong">SX-L2-SX-B-1TC,SX-L2-SX-B-2LL-PL,SX-L2-SX-B-2LL-TT,SX-L2-SX-B-2LL-TV,SX-L2-SX-B-2LL-XI</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-L2-SX-B-1TC</field>
+            <field name="loai_cc">CAB</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l2_sx_b_2ll_tv" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L2-SX-B-2LL-TV</field>
+            <field name="ten_bp_ct">- Luyện thép lò điện, lò bằng</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">1B</field>
+            <field name="ma_bp_ct_cha">SX-L2-SX-B-2LL</field>
+            <field name="ma_bp_luong">SX-L2-SX-B-1TC,SX-L2-SX-B-2LL-PL,SX-L2-SX-B-2LL-TT,SX-L2-SX-B-2LL-TV,SX-L2-SX-B-2LL-XI</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-L2-SX-B-1TC</field>
+            <field name="loai_cc">CAB</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l2_sx_b_2ll_xi" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L2-SX-B-2LL-XI</field>
+            <field name="ten_bp_ct">- Xe xúc xỉ nóng</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">1B</field>
+            <field name="ma_bp_ct_cha">SX-L2-SX-B-2LL</field>
+            <field name="ma_bp_luong">SX-L2-SX-B-1TC,SX-L2-SX-B-2LL-PL,SX-L2-SX-B-2LL-TT,SX-L2-SX-B-2LL-TV,SX-L2-SX-B-2LL-XI</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-L2-SX-B-1TC</field>
+            <field name="loai_cc">CAB</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l2_sx_b_3dt" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L2-SX-B-3DT</field>
+            <field name="ten_bp_ct">- Tổ đúc thỏi thép</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">1B</field>
+            <field name="ma_bp_ct_cha">SX-L2-SX-B</field>
+            <field name="ma_bp_luong">SX-L2-SX-B-3DT</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l2_sx_b_3dt_nt" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L2-SX-B-3DT-NT</field>
+            <field name="ten_bp_ct">- Nhóm trưởng thùng rót thép</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">1B</field>
+            <field name="ma_bp_ct_cha">SX-L2-SX-B-3DT</field>
+            <field name="ma_bp_luong">SX-L2-SX-B-3DT-NT,SX-L2-SX-B-3DT-TP,SX-L2-SX-B-3DT-TT,SX-L2-SX-B-3DT-TV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-L2-SX-B-1TC</field>
+            <field name="loai_cc">CAB</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l2_sx_b_3dt_tp" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L2-SX-B-3DT-TP</field>
+            <field name="ten_bp_ct">- Xếp thỏi thành phẩm</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">1B</field>
+            <field name="ma_bp_ct_cha">SX-L2-SX-B-3DT</field>
+            <field name="ma_bp_luong">SX-L2-SX-B-3DT-NT,SX-L2-SX-B-3DT-TP,SX-L2-SX-B-3DT-TT,SX-L2-SX-B-3DT-TV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-L2-SX-B-1TC</field>
+            <field name="loai_cc">CAB</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l2_sx_b_3dt_tt" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L2-SX-B-3DT-TT</field>
+            <field name="ten_bp_ct">- Tổ trưởng tổ đúc thỏi thép</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">1B</field>
+            <field name="ma_bp_ct_cha">SX-L2-SX-B-3DT</field>
+            <field name="ma_bp_luong">SX-L2-SX-B-3DT-NT,SX-L2-SX-B-3DT-TP,SX-L2-SX-B-3DT-TT,SX-L2-SX-B-3DT-TV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-L2-SX-B-1TC</field>
+            <field name="loai_cc">CAB</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l2_sx_b_3dt_tv" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L2-SX-B-3DT-TV</field>
+            <field name="ten_bp_ct">- Đúc thỏi thép (VH thùng rót, công nghệ đúc, VH điện)</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">1B</field>
+            <field name="ma_bp_ct_cha">SX-L2-SX-B-3DT</field>
+            <field name="ma_bp_luong">SX-L2-SX-B-3DT-NT,SX-L2-SX-B-3DT-TP,SX-L2-SX-B-3DT-TT,SX-L2-SX-B-3DT-TV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-L2-SX-B-1TC</field>
+            <field name="loai_cc">CAB</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l2_sx_b_4ct" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L2-SX-B-4CT</field>
+            <field name="ten_bp_ct">- Tổ cầu trục luyện thép</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">1B</field>
+            <field name="ma_bp_ct_cha">SX-L2-SX-B</field>
+            <field name="ma_bp_luong">SX-L2-SX-B-4CT</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l2_sx_b_4ct_130t" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L2-SX-B-4CT-130T</field>
+            <field name="ten_bp_ct">- Cầu trục 130T luyện thép</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">1B</field>
+            <field name="ma_bp_ct_cha">SX-L2-SX-B-4CT</field>
+            <field name="ma_bp_luong">SX-L2-SX-B-4CT-TT,SX-L2-SX-B-4CT-16T,SX-L2-SX-B-4CT-130T</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-L2-SX-B-1TC</field>
+            <field name="loai_cc">CAB</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l2_sx_b_4ct_16t" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L2-SX-B-4CT-16T</field>
+            <field name="ten_bp_ct">- Cầu trục 16T luyện thép</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">1B</field>
+            <field name="ma_bp_ct_cha">SX-L2-SX-B-4CT</field>
+            <field name="ma_bp_luong">SX-L2-SX-B-4CT-TT,SX-L2-SX-B-4CT-16T,SX-L2-SX-B-4CT-130T</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-L2-SX-B-1TC</field>
+            <field name="loai_cc">CAB</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l2_sx_b_4ct_tt" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L2-SX-B-4CT-TT</field>
+            <field name="ten_bp_ct">- Tổ trưởng cầu trục</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">1B</field>
+            <field name="ma_bp_ct_cha">SX-L2-SX-B-4CT</field>
+            <field name="ma_bp_luong">SX-L2-SX-B-4CT-TT,SX-L2-SX-B-4CT-16T,SX-L2-SX-B-4CT-130T</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-L2-SX-B-1TC</field>
+            <field name="loai_cc">CAB</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l2_sx_c" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L2-SX-C</field>
+            <field name="ten_bp_ct">Kíp C luyện thép</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">1C</field>
+            <field name="ma_bp_ct_cha">SX-L2-SX</field>
+            <field name="ma_bp_luong">SX-L2-SX-C</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l2_sx_c_1tc" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L2-SX-C-1TC</field>
+            <field name="ten_bp_ct">- Trưởng kíp</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">1C</field>
+            <field name="ma_bp_ct_cha">SX-L2-SX-C</field>
+            <field name="ma_bp_luong">SX-L2-SX-C-1TC,SX-L2-SX-C-2LL-PL,SX-L2-SX-C-2LL-TT,SX-L2-SX-C-2LL-TV,SX-L2-SX-C-2LL-XI</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">CAC</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l2_sx_c_2ll" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L2-SX-C-2LL</field>
+            <field name="ten_bp_ct">- Tổ lò luyện thép</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">1C</field>
+            <field name="ma_bp_ct_cha">SX-L2-SX-C</field>
+            <field name="ma_bp_luong">SX-L2-SX-C-1TC,SX-L2-SX-C-2LL-PL,SX-L2-SX-C-2LL-TT,SX-L2-SX-C-2LL-TV,SX-L2-SX-C-2LL-XI</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l2_sx_c_2ll_pl" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L2-SX-C-2LL-PL</field>
+            <field name="ten_bp_ct">- Phối liệu luyện thép</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">1C</field>
+            <field name="ma_bp_ct_cha">SX-L2-SX-C-2LL</field>
+            <field name="ma_bp_luong">SX-L2-SX-C-1TC,SX-L2-SX-C-2LL-PL,SX-L2-SX-C-2LL-TT,SX-L2-SX-C-2LL-TV,SX-L2-SX-C-2LL-XI</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-L2-SX-C-1TC</field>
+            <field name="loai_cc">CAC</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l2_sx_c_2ll_tt" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L2-SX-C-2LL-TT</field>
+            <field name="ten_bp_ct">- Tổ trưởng tổ lò</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">1C</field>
+            <field name="ma_bp_ct_cha">SX-L2-SX-C-2LL</field>
+            <field name="ma_bp_luong">SX-L2-SX-C-1TC,SX-L2-SX-C-2LL-PL,SX-L2-SX-C-2LL-TT,SX-L2-SX-C-2LL-TV,SX-L2-SX-C-2LL-XI</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-L2-SX-C-1TC</field>
+            <field name="loai_cc">CAC</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l2_sx_c_2ll_tv" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L2-SX-C-2LL-TV</field>
+            <field name="ten_bp_ct">- Luyện thép lò điện, lò bằng</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">1C</field>
+            <field name="ma_bp_ct_cha">SX-L2-SX-C-2LL</field>
+            <field name="ma_bp_luong">SX-L2-SX-C-1TC,SX-L2-SX-C-2LL-PL,SX-L2-SX-C-2LL-TT,SX-L2-SX-C-2LL-TV,SX-L2-SX-C-2LL-XI</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-L2-SX-C-1TC</field>
+            <field name="loai_cc">CAC</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l2_sx_c_2ll_xi" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L2-SX-C-2LL-XI</field>
+            <field name="ten_bp_ct">- Xe xúc xỉ nóng</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">1C</field>
+            <field name="ma_bp_ct_cha">SX-L2-SX-C-2LL</field>
+            <field name="ma_bp_luong">SX-L2-SX-C-1TC,SX-L2-SX-C-2LL-PL,SX-L2-SX-C-2LL-TT,SX-L2-SX-C-2LL-TV,SX-L2-SX-C-2LL-XI</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-L2-SX-C-1TC</field>
+            <field name="loai_cc">CAC</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l2_sx_c_3dt" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L2-SX-C-3DT</field>
+            <field name="ten_bp_ct">- Tổ đúc thỏi thép</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">1C</field>
+            <field name="ma_bp_ct_cha">SX-L2-SX-C</field>
+            <field name="ma_bp_luong">SX-L2-SX-C-3DT</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l2_sx_c_3dt_nt" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L2-SX-C-3DT-NT</field>
+            <field name="ten_bp_ct">- Nhóm trưởng thùng rót thép</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">1C</field>
+            <field name="ma_bp_ct_cha">SX-L2-SX-C-3DT</field>
+            <field name="ma_bp_luong">SX-L2-SX-C-3DT-NT,SX-L2-SX-C-3DT-TP,SX-L2-SX-C-3DT-TT,SX-L2-SX-C-3DT-TV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-L2-SX-C-1TC</field>
+            <field name="loai_cc">CAC</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l2_sx_c_3dt_tp" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L2-SX-C-3DT-TP</field>
+            <field name="ten_bp_ct">- Xếp thỏi thành phẩm</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">1C</field>
+            <field name="ma_bp_ct_cha">SX-L2-SX-C-3DT</field>
+            <field name="ma_bp_luong">SX-L2-SX-C-3DT-NT,SX-L2-SX-C-3DT-TP,SX-L2-SX-C-3DT-TT,SX-L2-SX-C-3DT-TV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-L2-SX-C-1TC</field>
+            <field name="loai_cc">CAC</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l2_sx_c_3dt_tt" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L2-SX-C-3DT-TT</field>
+            <field name="ten_bp_ct">- Tổ trưởng tổ đúc thỏi thép</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">1C</field>
+            <field name="ma_bp_ct_cha">SX-L2-SX-C-3DT</field>
+            <field name="ma_bp_luong">SX-L2-SX-C-3DT-NT,SX-L2-SX-C-3DT-TP,SX-L2-SX-C-3DT-TT,SX-L2-SX-C-3DT-TV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-L2-SX-C-1TC</field>
+            <field name="loai_cc">CAC</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l2_sx_c_3dt_tv" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L2-SX-C-3DT-TV</field>
+            <field name="ten_bp_ct">- Đúc thỏi thép (VH thùng rót, công nghệ đúc, VH điện)</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">1C</field>
+            <field name="ma_bp_ct_cha">SX-L2-SX-C-3DT</field>
+            <field name="ma_bp_luong">SX-L2-SX-C-3DT-NT,SX-L2-SX-C-3DT-TP,SX-L2-SX-C-3DT-TT,SX-L2-SX-C-3DT-TV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-L2-SX-C-1TC</field>
+            <field name="loai_cc">CAC</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l2_sx_c_4ct" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L2-SX-C-4CT</field>
+            <field name="ten_bp_ct">- Tổ cầu trục luyện thép</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">1C</field>
+            <field name="ma_bp_ct_cha">SX-L2-SX-C</field>
+            <field name="ma_bp_luong">SX-L2-SX-C-4CT</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l2_sx_c_4ct_130t" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L2-SX-C-4CT-130T</field>
+            <field name="ten_bp_ct">- Cầu trục 130T luyện thép</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">1C</field>
+            <field name="ma_bp_ct_cha">SX-L2-SX-C-4CT</field>
+            <field name="ma_bp_luong">SX-L2-SX-C-4CT-TT,SX-L2-SX-C-4CT-16T,SX-L2-SX-C-4CT-130T</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-L2-SX-C-1TC</field>
+            <field name="loai_cc">CAC</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l2_sx_c_4ct_16t" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L2-SX-C-4CT-16T</field>
+            <field name="ten_bp_ct">- Cầu trục 16T luyện thép</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">1C</field>
+            <field name="ma_bp_ct_cha">SX-L2-SX-C-4CT</field>
+            <field name="ma_bp_luong">SX-L2-SX-C-4CT-TT,SX-L2-SX-C-4CT-16T,SX-L2-SX-C-4CT-130T</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-L2-SX-C-1TC</field>
+            <field name="loai_cc">CAC</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l2_sx_c_4ct_tt" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L2-SX-C-4CT-TT</field>
+            <field name="ten_bp_ct">- Tổ trưởng cầu trục</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">1C</field>
+            <field name="ma_bp_ct_cha">SX-L2-SX-C-4CT</field>
+            <field name="ma_bp_luong">SX-L2-SX-C-4CT-TT,SX-L2-SX-C-4CT-16T,SX-L2-SX-C-4CT-130T</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">SX-L2-SX-C-1TC</field>
+            <field name="loai_cc">CAC</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l3_cbcn" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L3-CBCN</field>
+            <field name="ten_bp_ct">Tổ chuẩn bị công nghệ (Nghiền, sàng, trộn vật liệu tường lò luyện thép) và làm thùng (làm sạch vật đúc thép)</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">PXSX</field>
+            <field name="ma_bp_luong">SX-L3-CBCN</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l3_cbcn_ntcn" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L3-CBCN-NTCN</field>
+            <field name="ten_bp_ct">- Nhóm trưởng chuẩn bị công nghệ</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">SX-L3-CBCN</field>
+            <field name="ma_bp_luong">SX-L3-CBCN-NTCN,SX-L3-CBCN-NTX,SX-L3-CBCN-NVCN,SX-L3-CBCN-NVX</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">T27</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l3_cbcn_ntx" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L3-CBCN-NTX</field>
+            <field name="ten_bp_ct">- Nhóm trưởng xây thùng rót</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">SX-L3-CBCN</field>
+            <field name="ma_bp_luong">SX-L3-CBCN-NTCN,SX-L3-CBCN-NTX,SX-L3-CBCN-NVCN,SX-L3-CBCN-NVX</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">T27</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l3_cbcn_nvcn" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L3-CBCN-NVCN</field>
+            <field name="ten_bp_ct">- Công nhân chuẩn bị vật tư công nghệ</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">SX-L3-CBCN</field>
+            <field name="ma_bp_luong">SX-L3-CBCN-NTCN,SX-L3-CBCN-NTX,SX-L3-CBCN-NVCN,SX-L3-CBCN-NVX</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">T27</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l3_cbcn_nvx" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L3-CBCN-NVX</field>
+            <field name="ten_bp_ct">- Xây thùng rót (làm sạch vật đúc thép)</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">SX-L3-CBCN</field>
+            <field name="ma_bp_luong">SX-L3-CBCN-NTCN,SX-L3-CBCN-NTX,SX-L3-CBCN-NVCN,SX-L3-CBCN-NVX</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">T27</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l4_cblieu" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L4-CBLIEU</field>
+            <field name="ten_bp_ct">Tổ chuẩn bị liệu (Phân loại thép phế để luyện thép)</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">PXSX</field>
+            <field name="ma_bp_luong">SX-L4-CBLIEU</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l4_cblieu_tt" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L4-CBLIEU-TT</field>
+            <field name="ten_bp_ct">Tổ trưởng chuẩn bị liệu</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">SX-L4-CBLIEU</field>
+            <field name="ma_bp_luong">SX-L4-CBLIEU-TT,SX-L4-CBLIEU-TV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">T27</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_sx_l4_cblieu_tv" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">SX-L4-CBLIEU-TV</field>
+            <field name="ten_bp_ct">Chuẩn bị liệu</field>
+            <field name="ma_bp">PXSX</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">SX-L4-CBLIEU</field>
+            <field name="ma_bp_luong">SX-L4-CBLIEU-TT,SX-L4-CBLIEU-TV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">T27</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_t1_vp_cm" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">T1-VP-CM</field>
+            <field name="ten_bp_ct">Văn phòng</field>
+            <field name="ma_bp">PTCHC</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">PTCHC</field>
+            <field name="ma_bp_luong">T1-VP-CM-CN</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">HC</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_t1_vp_cm_cn" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">T1-VP-CM-CN</field>
+            <field name="ten_bp_ct">Chủ nhiệm nhà ăn</field>
+            <field name="ma_bp">PTCHC</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">T1-VP-CM</field>
+            <field name="ma_bp_luong">T1-VP-CM-CN</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">HC</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_t1_vp_cm_nv" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">T1-VP-CM-NV</field>
+            <field name="ten_bp_ct">Nhân viên văn phòng</field>
+            <field name="ma_bp">PTCHC</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">T1-VP-CM</field>
+            <field name="ma_bp_luong">T1-VP-CM-NV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">HC</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_t2_yte_ca" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">T2-YTE-CA</field>
+            <field name="ten_bp_ct">Y tế (2 ca 3 kíp: 1 người/ kíp x 3 kíp)</field>
+            <field name="ma_bp">PTCHC</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">PTCHC</field>
+            <field name="ma_bp_luong">T2-YTE-CA</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">12T</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_t3_xe" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">T3-XE</field>
+            <field name="ten_bp_ct">Lái xe</field>
+            <field name="ma_bp">PTCHC</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">PTCHC</field>
+            <field name="ma_bp_luong">T3-XE</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_t3_xe_tt" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">T3-XE-TT</field>
+            <field name="ten_bp_ct">Lái xe tổ trưởng</field>
+            <field name="ma_bp">PTCHC</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">T3-XE</field>
+            <field name="ma_bp_luong">T3-XE-TT,T3-XE-TV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">HC</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_t3_xe_tv" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">T3-XE-TV</field>
+            <field name="ten_bp_ct">Lái xe tổ viên</field>
+            <field name="ma_bp">PTCHC</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">T3-XE</field>
+            <field name="ma_bp_luong">T3-XE-TT,T3-XE-TV</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">T27</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_t4_bv1" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">T4-BV1</field>
+            <field name="ten_bp_ct">Bảo vệ Công ty</field>
+            <field name="ma_bp">PTCHC</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">PTCHC</field>
+            <field name="ma_bp_luong">T4-BV1</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_t4_bv1_0dt" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">T4-BV1-0DT</field>
+            <field name="ten_bp_ct">Đội trưởng bảo vệ</field>
+            <field name="ma_bp">PTCHC</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">T4-BV1</field>
+            <field name="ma_bp_luong">T4-BV1-0DT,T4-BV1-HC</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">T27</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_t4_bv1_ca" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">T4-BV1-CA</field>
+            <field name="ten_bp_ct">Bảo vệ 2 ca 3 kíp</field>
+            <field name="ma_bp">PTCHC</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">T4-BV1</field>
+            <field name="ma_bp_luong">T4-BV1-HC,T4-BV1-CA</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">T4-BV1-0DT</field>
+            <field name="loai_cc">12T</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_t4_bv1_hc" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">T4-BV1-HC</field>
+            <field name="ten_bp_ct">Thường trực, hành chánh</field>
+            <field name="ma_bp">PTCHC</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">T4-BV1</field>
+            <field name="ma_bp_luong">T4-BV1-HC,T4-BV1-CA</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">T4-BV1-0DT</field>
+            <field name="loai_cc">T27</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_t5_na" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">T5-NA</field>
+            <field name="ten_bp_ct">Nhà ăn tập thể</field>
+            <field name="ma_bp">PTCHC</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">PTCHC</field>
+            <field name="ma_bp_luong">T5-NA</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_t5_na_1hc" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">T5-NA-1HC</field>
+            <field name="ten_bp_ct">Bếp chính (hành chính)</field>
+            <field name="ma_bp">PTCHC</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">T5-NA</field>
+            <field name="ma_bp_luong">T5-NA-2CA,T5-NA-1HC</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">T5-NA-2CA</field>
+            <field name="loai_cc">T27</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_t5_na_2ca" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">T5-NA-2CA</field>
+            <field name="ten_bp_ct">Đầu bếp (2 ca 3 kíp)</field>
+            <field name="ma_bp">PTCHC</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">T5-NA</field>
+            <field name="ma_bp_luong">T5-NA-2CA</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="True"/>
+            <field name="ma_bp_luong_ca">T5-NA-1HC</field>
+            <field name="loai_cc">12T</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_tpdv" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">TPDV</field>
+            <field name="ten_bp_ct">Quản lý chuyên môn nghiệp vụ</field>
+            <field name="ma_bp" eval="False"/>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha" eval="False"/>
+            <field name="ma_bp_luong">NQL</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc" eval="False"/>
+            <field name="is_kt" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmbpct_truongdv" model="iwmn.r81dmbpct">
+            <field name="ma_bp_ct">TRUONGDV</field>
+            <field name="ten_bp_ct">Trưởng đơn vị</field>
+            <field name="ma_bp" eval="False"/>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_data">*</field>
+            <field name="loai_pbql">3</field>
+            <field name="ma_bp_ct_cha">TPDV</field>
+            <field name="ma_bp_luong">TRUONGDV,PHODVI</field>
+            <field name="is_cong" eval="True"/>
+            <field name="is_ca" eval="False"/>
+            <field name="ma_bp_luong_ca" eval="False"/>
+            <field name="loai_cc">HC</field>
+            <field name="is_kt" eval="False"/>
+        </record>
+    </data>
+</odoo>

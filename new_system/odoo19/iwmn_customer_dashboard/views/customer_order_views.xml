@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_iwmn_r81dmvt_form_portal_image" model="ir.ui.view">
+        <field name="name">iwmn.r81dmvt.form.portal.image</field>
+        <field name="model">iwmn.r81dmvt</field>
+        <field name="inherit_id" ref="iwmn_base.view_iwmn_r81dmvt_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//sheet/group" position="before"><field name="portal_image" widget="image" class="oe_avatar"/></xpath>
+        </field>
+    </record>
+
+    <record id="view_iwmn_customer_order_list" model="ir.ui.view">
+        <field name="name">iwmn.customer.order.list</field>
+        <field name="model">iwmn.customer.order</field>
+        <field name="arch" type="xml">
+            <list string="Đơn đặt hàng portal" default_order="create_date desc">
+                <field name="name"/>
+                <field name="customer_reference"/>
+                <field name="partner_id"/>
+                <field name="order_date"/>
+                <field name="requested_delivery_date"/>
+                <field name="delivery_area"/>
+                <field name="assigned_warehouse_codes" optional="hide"/>
+                <field name="total_weight_kg" sum="Tổng kg"/>
+                <field name="state" widget="badge"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_iwmn_customer_order_form" model="ir.ui.view">
+        <field name="name">iwmn.customer.order.form</field>
+        <field name="model">iwmn.customer.order</field>
+        <field name="arch" type="xml">
+            <form string="Đơn đặt hàng portal">
+                <header>
+                    <button name="action_submit" type="object" string="Gửi xác nhận" class="btn-primary" invisible="state != 'draft'"/>
+                    <button name="action_reset_draft" type="object" string="Chuyển về nháp" invisible="state != 'waiting_confirmation'"/>
+                    <field name="state" widget="statusbar" statusbar_visible="draft,waiting_confirmation,waiting_payment,waiting_approval,waiting_delivery,delivered"/>
+                </header>
+                <sheet>
+                    <div class="oe_title"><h1><field name="name" readonly="1"/></h1></div>
+                    <group string="Đồng bộ SQL Server">
+                        <field name="legacy_sync_state"/>
+                        <field name="legacy_synced_at"/>
+                        <field name="legacy_sync_attempts"/>
+                        <field name="legacy_sync_error"/>
+                    </group>
+                    <group>
+                        <group>
+                            <field name="partner_id"/>
+                            <field name="erp_partner_id"/>
+                            <field name="portal_user_id"/>
+                            <field name="customer_reference"/>
+                            <field name="order_date"/>
+                            <field name="requested_delivery_date"/>
+                        </group>
+                        <group>
+                            <field name="project_name"/>
+                            <field name="r81dmctrinh_id"/>
+                            <field name="subproject_name"/>
+                            <field name="r81dmplctrinh_id"/>
+                            <field name="so_luong_cnxx"/>
+                            <field name="contract_number"/>
+                            <field name="r81dmhd_id"/>
+                            <field name="delivery_type"/>
+                            <field name="payment_method"/>
+                            <field name="ma_kho" invisible="delivery_type != 'KG'"/>
+                            <field name="r81dmkho_id" invisible="delivery_type != 'KG'"/>
+                        </group>
+                    </group>
+                    <group>
+                        <field name="delivery_area"/>
+                        <field name="assigned_warehouse_codes"/>
+                        <field name="allowed_warehouse_codes" readonly="1"/>
+                        <field name="transport_method"/>
+                        <field name="vehicle_license_plate" invisible="transport_method != 'xe'"/>
+                        <field name="vehicle_barge_number" invisible="transport_method != 'salan'"/>
+                        <field name="vehicle_driver_name"/>
+                        <field name="vehicle_driver_identity"/>
+                        <field name="vehicle_driver_phone"/>
+                        <field name="gate_state"/>
+                        <field name="steel_shape"/>
+                        <field name="cnxx_show_project"/>
+                        <field name="total_weight_kg" readonly="1"/>
+                    </group>
+                    <notebook>
+                        <page string="Hàng hóa">
+                            <field name="line_ids">
+                                <list editable="bottom">
+                                    <field name="sequence" widget="handle"/>
+                                    <field name="product_id"/>
+                                    <field name="product_query"/>
+                                    <field name="product_type"/>
+                                    <field name="size_code"/>
+                                    <field name="steel_grade"/>
+                                    <field name="length_m"/>
+                                    <field name="total_bar_qty"/>
+                                    <field name="bar_input_mode"/>
+                                    <field name="bars_per_bundle"/>
+                                    <field name="bundle_qty"/>
+                                    <field name="loose_bar_qty"/>
+                                    <field name="bar_weight_kg"/>
+                                    <field name="bundle_weight_kg"/>
+                                    <field name="requested_weight_kg"/>
+                                    <field name="coil_cut_qty"/>
+                                    <field name="weight_kg" readonly="1"/>
+                                    <field name="customer_unit_price"/>
+                                    <field name="official_unit_price"/>
+                                    <field name="price_adjustment"/>
+                                    <field name="official_subtotal" readonly="1"/>
+                                    <field name="stock_status"/>
+                                    <field name="steel_shape"/>
+                                    <field name="note"/>
+                                </list>
+                            </field>
+                        </page>
+                        <page string="Yêu cầu và chứng từ">
+                            <group>
+                                <field name="other_requirements"/>
+                                <field name="cancellation_reason"/>
+                                <field name="socp_number"/>
+                                <field name="invoice_url" widget="url"/>
+                                <field name="cnxx_filename" invisible="1"/>
+                                <field name="cnxx_file" filename="cnxx_filename"/>
+                                <field name="submitted_at" readonly="1"/>
+                            </group>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_iwmn_customer_orders" model="ir.actions.act_window">
+        <field name="name">Đơn hàng khách nhập</field>
+        <field name="res_model">iwmn.customer.order</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+    <record id="view_iwmn_customer_order_contract_list" model="ir.ui.view">
+        <field name="name">iwmn.customer.order.contract.list</field><field name="model">iwmn.customer.order.contract</field>
+        <field name="arch" type="xml"><list editable="bottom"><field name="erp_partner_id"/><field name="contract_number"/><field name="active"/></list></field>
+    </record>
+    <record id="action_iwmn_customer_order_contracts" model="ir.actions.act_window">
+        <field name="name">Hợp đồng portal</field><field name="res_model">iwmn.customer.order.contract</field><field name="view_mode">list</field>
+    </record>
+    <record id="view_iwmn_customer_order_project_list" model="ir.ui.view">
+        <field name="name">iwmn.customer.order.project.list</field><field name="model">iwmn.customer.order.project</field>
+        <field name="arch" type="xml"><list editable="bottom"><field name="erp_partner_id"/><field name="project_code"/><field name="project_name"/><field name="subproject_code"/><field name="subproject_name"/><field name="active"/></list></field>
+    </record>
+    <record id="action_iwmn_customer_order_projects" model="ir.actions.act_window">
+        <field name="name">Công trình portal</field><field name="res_model">iwmn.customer.order.project</field><field name="view_mode">list</field>
+    </record>
+
+    <menuitem id="menu_iwmn_customer_order_root" name="Đơn hàng Portal" sequence="70" groups="base.group_user"/>
+    <menuitem id="menu_iwmn_customer_orders" name="Đơn hàng khách nhập" parent="menu_iwmn_customer_order_root" action="action_iwmn_customer_orders" sequence="10" groups="base.group_user"/>
+    <menuitem id="menu_iwmn_customer_order_contracts" name="Danh mục hợp đồng" parent="menu_iwmn_customer_order_root" action="action_iwmn_customer_order_contracts" sequence="20" groups="base.group_user"/>
+    <menuitem id="menu_iwmn_customer_order_projects" name="Danh mục công trình" parent="menu_iwmn_customer_order_root" action="action_iwmn_customer_order_projects" sequence="30" groups="base.group_user"/>
+</odoo>

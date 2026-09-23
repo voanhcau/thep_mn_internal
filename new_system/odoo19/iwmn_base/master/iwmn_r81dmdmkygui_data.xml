@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="iwmn_r81dmdmkygui_1" model="iwmn.r81dmdmkygui">
+            <field name="ident00">1</field>
+            <field name="ma_kho">06BN.08</field>
+            <field name="grade_id" eval="False"/>
+            <field name="is_cuon" eval="False"/>
+            <field name="is_cay" eval="False"/>
+            <field name="so_luong">800000.0000</field>
+            <field name="ngay_ap">2017-04-01 00:00:00</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">220816:112115:VR</field>
+            <field name="lastmodify_log">120517:160250:TUANTN</field>
+        </record>
+        <record id="iwmn_r81dmdmkygui_2" model="iwmn.r81dmdmkygui">
+            <field name="ident00">2</field>
+            <field name="ma_kho">06BN</field>
+            <field name="grade_id" eval="False"/>
+            <field name="is_cuon" eval="True"/>
+            <field name="is_cay" eval="False"/>
+            <field name="so_luong">500000.0000</field>
+            <field name="ngay_ap">2017-04-01 00:00:00</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">220816:114745:VR</field>
+            <field name="lastmodify_log">120517:160258:TUANTN</field>
+        </record>
+        <record id="iwmn_r81dmdmkygui_5" model="iwmn.r81dmdmkygui">
+            <field name="ident00">5</field>
+            <field name="ma_kho">06THP</field>
+            <field name="grade_id" eval="False"/>
+            <field name="is_cuon" eval="True"/>
+            <field name="is_cay" eval="False"/>
+            <field name="so_luong">400000.0000</field>
+            <field name="ngay_ap">2016-01-01 00:00:00</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">220816:135033:VR</field>
+            <field name="lastmodify_log" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmdmkygui_6" model="iwmn.r81dmdmkygui">
+            <field name="ident00">6</field>
+            <field name="ma_kho">06TD</field>
+            <field name="grade_id" eval="False"/>
+            <field name="is_cuon" eval="True"/>
+            <field name="is_cay" eval="False"/>
+            <field name="so_luong">300000.0000</field>
+            <field name="ngay_ap">2016-01-01 00:00:00</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">240816:103300:VR</field>
+            <field name="lastmodify_log" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmdmkygui_7" model="iwmn.r81dmdmkygui">
+            <field name="ident00">7</field>
+            <field name="ma_kho">06TD.08</field>
+            <field name="grade_id" eval="False"/>
+            <field name="is_cuon" eval="False"/>
+            <field name="is_cay" eval="False"/>
+            <field name="so_luong">300000.0000</field>
+            <field name="ngay_ap">2016-01-01 00:00:00</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">240816:103310:VR</field>
+            <field name="lastmodify_log">240816:103331:VR</field>
+        </record>
+        <record id="iwmn_r81dmdmkygui_8" model="iwmn.r81dmdmkygui">
+            <field name="ident00">8</field>
+            <field name="ma_kho">06THP.08</field>
+            <field name="grade_id" eval="False"/>
+            <field name="is_cuon" eval="False"/>
+            <field name="is_cay" eval="False"/>
+            <field name="so_luong">600000.0000</field>
+            <field name="ngay_ap">2016-01-01 00:00:00</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">240816:114008:VR</field>
+            <field name="lastmodify_log">240816:114132:VR</field>
+        </record>
+        <record id="iwmn_r81dmdmkygui_9" model="iwmn.r81dmdmkygui">
+            <field name="ident00">9</field>
+            <field name="ma_kho">06HS</field>
+            <field name="grade_id" eval="False"/>
+            <field name="is_cuon" eval="True"/>
+            <field name="is_cay" eval="False"/>
+            <field name="so_luong">400000.0000</field>
+            <field name="ngay_ap">2016-01-01 00:00:00</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">240816:114056:VR</field>
+            <field name="lastmodify_log" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmdmkygui_10" model="iwmn.r81dmdmkygui">
+            <field name="ident00">10</field>
+            <field name="ma_kho">06HS.08</field>
+            <field name="grade_id" eval="False"/>
+            <field name="is_cuon" eval="False"/>
+            <field name="is_cay" eval="False"/>
+            <field name="so_luong">800000.0000</field>
+            <field name="ngay_ap">2016-01-01 00:00:00</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">240816:114117:VR</field>
+            <field name="lastmodify_log" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmdmkygui_11" model="iwmn.r81dmdmkygui">
+            <field name="ident00">11</field>
+            <field name="ma_kho">06SLHCM1</field>
+            <field name="grade_id" eval="False"/>
+            <field name="is_cuon" eval="True"/>
+            <field name="is_cay" eval="False"/>
+            <field name="so_luong">160000.0000</field>
+            <field name="ngay_ap">2016-01-01 00:00:00</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">240816:114157:VR</field>
+            <field name="lastmodify_log">240816:114132:VR</field>
+        </record>
+        <record id="iwmn_r81dmdmkygui_12" model="iwmn.r81dmdmkygui">
+            <field name="ident00">12</field>
+            <field name="ma_kho">06SLHCM1.08</field>
+            <field name="grade_id" eval="False"/>
+            <field name="is_cuon" eval="False"/>
+            <field name="is_cay" eval="False"/>
+            <field name="so_luong">440000.0000</field>
+            <field name="ngay_ap">2016-01-01 00:00:00</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">240816:114210:VR</field>
+            <field name="lastmodify_log">240816:114132:VR</field>
+        </record>
+        <record id="iwmn_r81dmdmkygui_13" model="iwmn.r81dmdmkygui">
+            <field name="ident00">13</field>
+            <field name="ma_kho">06PT</field>
+            <field name="grade_id" eval="False"/>
+            <field name="is_cuon" eval="True"/>
+            <field name="is_cay" eval="False"/>
+            <field name="so_luong">380000.0000</field>
+            <field name="ngay_ap">2016-01-01 00:00:00</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">240816:114302:VR</field>
+            <field name="lastmodify_log">240816:114132:VR</field>
+        </record>
+        <record id="iwmn_r81dmdmkygui_14" model="iwmn.r81dmdmkygui">
+            <field name="ident00">14</field>
+            <field name="ma_kho">06PT.08</field>
+            <field name="grade_id" eval="False"/>
+            <field name="is_cuon" eval="False"/>
+            <field name="is_cay" eval="False"/>
+            <field name="so_luong">420000.0000</field>
+            <field name="ngay_ap">2016-01-01 00:00:00</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">240816:114318:VR</field>
+            <field name="lastmodify_log">240816:114132:VR</field>
+        </record>
+        <record id="iwmn_r81dmdmkygui_15" model="iwmn.r81dmdmkygui">
+            <field name="ident00">15</field>
+            <field name="ma_kho">06HCM1</field>
+            <field name="grade_id" eval="False"/>
+            <field name="is_cuon" eval="True"/>
+            <field name="is_cay" eval="False"/>
+            <field name="so_luong">200000.0000</field>
+            <field name="ngay_ap">2016-01-01 00:00:00</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">240816:114345:VR</field>
+            <field name="lastmodify_log">240816:114132:VR</field>
+        </record>
+        <record id="iwmn_r81dmdmkygui_16" model="iwmn.r81dmdmkygui">
+            <field name="ident00">16</field>
+            <field name="ma_kho">06HCM2</field>
+            <field name="grade_id" eval="False"/>
+            <field name="is_cuon" eval="True"/>
+            <field name="is_cay" eval="False"/>
+            <field name="so_luong">200000.0000</field>
+            <field name="ngay_ap">2016-01-01 00:00:00</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">240816:114351:VR</field>
+            <field name="lastmodify_log">240816:114132:VR</field>
+        </record>
+        <record id="iwmn_r81dmdmkygui_17" model="iwmn.r81dmdmkygui">
+            <field name="ident00">17</field>
+            <field name="ma_kho">06HCM1.08</field>
+            <field name="grade_id" eval="False"/>
+            <field name="is_cuon" eval="False"/>
+            <field name="is_cay" eval="False"/>
+            <field name="so_luong">300000.0000</field>
+            <field name="ngay_ap">2016-01-01 00:00:00</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">240816:114418:VR</field>
+            <field name="lastmodify_log">240816:114132:VR</field>
+        </record>
+        <record id="iwmn_r81dmdmkygui_18" model="iwmn.r81dmdmkygui">
+            <field name="ident00">18</field>
+            <field name="ma_kho">06HCM2.08</field>
+            <field name="grade_id" eval="False"/>
+            <field name="is_cuon" eval="False"/>
+            <field name="is_cay" eval="False"/>
+            <field name="so_luong">300000.0000</field>
+            <field name="ngay_ap">2016-01-01 00:00:00</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">240816:114422:VR</field>
+            <field name="lastmodify_log">240816:114132:VR</field>
+        </record>
+        <record id="iwmn_r81dmdmkygui_19" model="iwmn.r81dmdmkygui">
+            <field name="ident00">19</field>
+            <field name="ma_kho">06CKTG</field>
+            <field name="grade_id" eval="False"/>
+            <field name="is_cuon" eval="True"/>
+            <field name="is_cay" eval="False"/>
+            <field name="so_luong">250000.0000</field>
+            <field name="ngay_ap">2016-01-01 00:00:00</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">240816:114449:VR</field>
+            <field name="lastmodify_log">240816:114132:VR</field>
+        </record>
+        <record id="iwmn_r81dmdmkygui_20" model="iwmn.r81dmdmkygui">
+            <field name="ident00">20</field>
+            <field name="ma_kho">06CKTG.08</field>
+            <field name="grade_id" eval="False"/>
+            <field name="is_cuon" eval="False"/>
+            <field name="is_cay" eval="False"/>
+            <field name="so_luong">250000.0000</field>
+            <field name="ngay_ap">2016-01-01 00:00:00</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">240816:114458:VR</field>
+            <field name="lastmodify_log">240816:114132:VR</field>
+        </record>
+        <record id="iwmn_r81dmdmkygui_21" model="iwmn.r81dmdmkygui">
+            <field name="ident00">21</field>
+            <field name="ma_kho">06CH</field>
+            <field name="grade_id" eval="False"/>
+            <field name="is_cuon" eval="True"/>
+            <field name="is_cay" eval="False"/>
+            <field name="so_luong">450000.0000</field>
+            <field name="ngay_ap">2017-04-01 00:00:00</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">240816:114513:VR</field>
+            <field name="lastmodify_log">120517:160241:TUANTN</field>
+        </record>
+        <record id="iwmn_r81dmdmkygui_22" model="iwmn.r81dmdmkygui">
+            <field name="ident00">22</field>
+            <field name="ma_kho">06CH.08</field>
+            <field name="grade_id" eval="False"/>
+            <field name="is_cuon" eval="False"/>
+            <field name="is_cay" eval="False"/>
+            <field name="so_luong">300000.0000</field>
+            <field name="ngay_ap">2016-01-01 00:00:00</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">240816:114527:VR</field>
+            <field name="lastmodify_log">240816:114132:VR</field>
+        </record>
+        <record id="iwmn_r81dmdmkygui_23" model="iwmn.r81dmdmkygui">
+            <field name="ident00">23</field>
+            <field name="ma_kho">06TP</field>
+            <field name="grade_id" eval="False"/>
+            <field name="is_cuon" eval="True"/>
+            <field name="is_cay" eval="False"/>
+            <field name="so_luong">100000.0000</field>
+            <field name="ngay_ap">2016-01-01 00:00:00</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">240816:114559:VR</field>
+            <field name="lastmodify_log">300816:143205:OANHNTK</field>
+        </record>
+        <record id="iwmn_r81dmdmkygui_24" model="iwmn.r81dmdmkygui">
+            <field name="ident00">24</field>
+            <field name="ma_kho">06TP</field>
+            <field name="grade_id">G02</field>
+            <field name="is_cuon" eval="False"/>
+            <field name="is_cay" eval="True"/>
+            <field name="so_luong">200000.0000</field>
+            <field name="ngay_ap">2016-01-01 00:00:00</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">240816:114626:VR</field>
+            <field name="lastmodify_log">300816:143137:OANHNTK</field>
+        </record>
+        <record id="iwmn_r81dmdmkygui_26" model="iwmn.r81dmdmkygui">
+            <field name="ident00">26</field>
+            <field name="ma_kho">06CL</field>
+            <field name="grade_id" eval="False"/>
+            <field name="is_cuon" eval="True"/>
+            <field name="is_cay" eval="False"/>
+            <field name="so_luong">300000.0000</field>
+            <field name="ngay_ap">2016-01-01 00:00:00</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">240816:114734:VR</field>
+            <field name="lastmodify_log">240816:114132:VR</field>
+        </record>
+        <record id="iwmn_r81dmdmkygui_27" model="iwmn.r81dmdmkygui">
+            <field name="ident00">27</field>
+            <field name="ma_kho">06MTG.08</field>
+            <field name="grade_id">G01</field>
+            <field name="is_cuon" eval="False"/>
+            <field name="is_cay" eval="True"/>
+            <field name="so_luong">300000.0000</field>
+            <field name="ngay_ap">2016-01-01 00:00:00</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">240816:114824:VR</field>
+            <field name="lastmodify_log">300816:142933:OANHNTK</field>
+        </record>
+        <record id="iwmn_r81dmdmkygui_28" model="iwmn.r81dmdmkygui">
+            <field name="ident00">28</field>
+            <field name="ma_kho">06QTKG1.08</field>
+            <field name="grade_id">G01</field>
+            <field name="is_cuon" eval="False"/>
+            <field name="is_cay" eval="True"/>
+            <field name="so_luong">300000.0000</field>
+            <field name="ngay_ap">2016-01-01 00:00:00</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">240816:114838:VR</field>
+            <field name="lastmodify_log">300816:143025:OANHNTK</field>
+        </record>
+        <record id="iwmn_r81dmdmkygui_29" model="iwmn.r81dmdmkygui">
+            <field name="ident00">29</field>
+            <field name="ma_kho">06HGBL</field>
+            <field name="grade_id" eval="False"/>
+            <field name="is_cuon" eval="True"/>
+            <field name="is_cay" eval="False"/>
+            <field name="so_luong">96000.0000</field>
+            <field name="ngay_ap">2016-01-01 00:00:00</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">290816:140825:VR</field>
+            <field name="lastmodify_log">240816:114132:VR</field>
+        </record>
+        <record id="iwmn_r81dmdmkygui_30" model="iwmn.r81dmdmkygui">
+            <field name="ident00">30</field>
+            <field name="ma_kho">06HGCT</field>
+            <field name="grade_id" eval="False"/>
+            <field name="is_cuon" eval="True"/>
+            <field name="is_cay" eval="False"/>
+            <field name="so_luong">96000.0000</field>
+            <field name="ngay_ap">2016-01-01 00:00:00</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">290816:140834:VR</field>
+            <field name="lastmodify_log">240816:114132:VR</field>
+        </record>
+        <record id="iwmn_r81dmdmkygui_31" model="iwmn.r81dmdmkygui">
+            <field name="ident00">31</field>
+            <field name="ma_kho">06HGKG</field>
+            <field name="grade_id" eval="False"/>
+            <field name="is_cuon" eval="True"/>
+            <field name="is_cay" eval="False"/>
+            <field name="so_luong">96000.0000</field>
+            <field name="ngay_ap">2016-01-01 00:00:00</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">290816:140843:VR</field>
+            <field name="lastmodify_log">240816:114132:VR</field>
+        </record>
+        <record id="iwmn_r81dmdmkygui_32" model="iwmn.r81dmdmkygui">
+            <field name="ident00">32</field>
+            <field name="ma_kho">06HGPQ</field>
+            <field name="grade_id" eval="False"/>
+            <field name="is_cuon" eval="True"/>
+            <field name="is_cay" eval="False"/>
+            <field name="so_luong">96000.0000</field>
+            <field name="ngay_ap">2016-01-01 00:00:00</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">290816:140858:VR</field>
+            <field name="lastmodify_log">240816:114132:VR</field>
+        </record>
+        <record id="iwmn_r81dmdmkygui_33" model="iwmn.r81dmdmkygui">
+            <field name="ident00">33</field>
+            <field name="ma_kho">06HGST</field>
+            <field name="grade_id" eval="False"/>
+            <field name="is_cuon" eval="True"/>
+            <field name="is_cay" eval="False"/>
+            <field name="so_luong">96000.0000</field>
+            <field name="ngay_ap">2016-01-01 00:00:00</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">290816:140938:VR</field>
+            <field name="lastmodify_log">240816:114132:VR</field>
+        </record>
+        <record id="iwmn_r81dmdmkygui_34" model="iwmn.r81dmdmkygui">
+            <field name="ident00">34</field>
+            <field name="ma_kho">06HGBL</field>
+            <field name="grade_id">G02</field>
+            <field name="is_cuon" eval="False"/>
+            <field name="is_cay" eval="True"/>
+            <field name="so_luong">100000.0000</field>
+            <field name="ngay_ap">2016-01-01 00:00:00</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">290816:141012:VR</field>
+            <field name="lastmodify_log">300816:144224:OANHNTK</field>
+        </record>
+        <record id="iwmn_r81dmdmkygui_35" model="iwmn.r81dmdmkygui">
+            <field name="ident00">35</field>
+            <field name="ma_kho">06HGCT</field>
+            <field name="grade_id">G02</field>
+            <field name="is_cuon" eval="False"/>
+            <field name="is_cay" eval="True"/>
+            <field name="so_luong">100000.0000</field>
+            <field name="ngay_ap">2016-01-01 00:00:00</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">290816:141020:VR</field>
+            <field name="lastmodify_log">300816:144241:OANHNTK</field>
+        </record>
+        <record id="iwmn_r81dmdmkygui_36" model="iwmn.r81dmdmkygui">
+            <field name="ident00">36</field>
+            <field name="ma_kho">06HGKG</field>
+            <field name="grade_id">G02</field>
+            <field name="is_cuon" eval="False"/>
+            <field name="is_cay" eval="True"/>
+            <field name="so_luong">100000.0000</field>
+            <field name="ngay_ap">2016-01-01 00:00:00</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">290816:141038:VR</field>
+            <field name="lastmodify_log">300816:144259:OANHNTK</field>
+        </record>
+        <record id="iwmn_r81dmdmkygui_37" model="iwmn.r81dmdmkygui">
+            <field name="ident00">37</field>
+            <field name="ma_kho">06HGPQ</field>
+            <field name="grade_id">G02</field>
+            <field name="is_cuon" eval="False"/>
+            <field name="is_cay" eval="True"/>
+            <field name="so_luong">100000.0000</field>
+            <field name="ngay_ap">2016-01-01 00:00:00</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">290816:141049:VR</field>
+            <field name="lastmodify_log">300816:144315:OANHNTK</field>
+        </record>
+        <record id="iwmn_r81dmdmkygui_38" model="iwmn.r81dmdmkygui">
+            <field name="ident00">38</field>
+            <field name="ma_kho">06HGST</field>
+            <field name="grade_id">G02</field>
+            <field name="is_cuon" eval="False"/>
+            <field name="is_cay" eval="True"/>
+            <field name="so_luong">100000.0000</field>
+            <field name="ngay_ap">2016-01-01 00:00:00</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">290816:141059:VR</field>
+            <field name="lastmodify_log">300816:144327:OANHNTK</field>
+        </record>
+        <record id="iwmn_r81dmdmkygui_39" model="iwmn.r81dmdmkygui">
+            <field name="ident00">39</field>
+            <field name="ma_kho">06HGBL.08</field>
+            <field name="grade_id" eval="False"/>
+            <field name="is_cuon" eval="False"/>
+            <field name="is_cay" eval="False"/>
+            <field name="so_luong">54000.0000</field>
+            <field name="ngay_ap">2016-01-01 00:00:00</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">290816:141122:VR</field>
+            <field name="lastmodify_log">300816:145115:OANHNTK</field>
+        </record>
+        <record id="iwmn_r81dmdmkygui_40" model="iwmn.r81dmdmkygui">
+            <field name="ident00">40</field>
+            <field name="ma_kho">06HGCT.08</field>
+            <field name="grade_id" eval="False"/>
+            <field name="is_cuon" eval="False"/>
+            <field name="is_cay" eval="False"/>
+            <field name="so_luong">54000.0000</field>
+            <field name="ngay_ap">2016-01-01 00:00:00</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">290816:141138:VR</field>
+            <field name="lastmodify_log">300816:145131:OANHNTK</field>
+        </record>
+        <record id="iwmn_r81dmdmkygui_41" model="iwmn.r81dmdmkygui">
+            <field name="ident00">41</field>
+            <field name="ma_kho">06HGKG.08</field>
+            <field name="grade_id" eval="False"/>
+            <field name="is_cuon" eval="False"/>
+            <field name="is_cay" eval="False"/>
+            <field name="so_luong">54000.0000</field>
+            <field name="ngay_ap">2016-01-01 00:00:00</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">290816:141151:VR</field>
+            <field name="lastmodify_log">300816:145137:OANHNTK</field>
+        </record>
+        <record id="iwmn_r81dmdmkygui_42" model="iwmn.r81dmdmkygui">
+            <field name="ident00">42</field>
+            <field name="ma_kho">06HGPQ.08</field>
+            <field name="grade_id" eval="False"/>
+            <field name="is_cuon" eval="False"/>
+            <field name="is_cay" eval="False"/>
+            <field name="so_luong">54000.0000</field>
+            <field name="ngay_ap">2016-01-01 00:00:00</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">290816:141159:VR</field>
+            <field name="lastmodify_log">300816:145145:OANHNTK</field>
+        </record>
+        <record id="iwmn_r81dmdmkygui_43" model="iwmn.r81dmdmkygui">
+            <field name="ident00">43</field>
+            <field name="ma_kho">06HGST.08</field>
+            <field name="grade_id" eval="False"/>
+            <field name="is_cuon" eval="False"/>
+            <field name="is_cay" eval="False"/>
+            <field name="so_luong">54000.0000</field>
+            <field name="ngay_ap">2016-01-01 00:00:00</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">290816:141209:VR</field>
+            <field name="lastmodify_log">300816:145153:OANHNTK</field>
+        </record>
+    </data>
+</odoo>

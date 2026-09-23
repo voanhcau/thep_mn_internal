@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="iwmn_r81dmnhcckqkd_cc2019" model="iwmn.r81dmnhcckqkd">
+            <field name="ma_nh_cc">CC2019</field>
+            <field name="ten_nh_cc">Quản lý chứng chỉ năm 2019</field>
+            <field name="ma_nh_cc_parent">QLCC</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log">110520:142451:VR</field>
+            <field name="lastmodify_log">110520:142441:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmnhcckqkd_cc2020" model="iwmn.r81dmnhcckqkd">
+            <field name="ma_nh_cc">CC2020</field>
+            <field name="ten_nh_cc">Quản lý chứng chỉ năm 2020</field>
+            <field name="ma_nh_cc_parent">QLCC</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log">110520:142434:VR</field>
+            <field name="lastmodify_log">110520:142441:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmnhcckqkd_cc2021" model="iwmn.r81dmnhcckqkd">
+            <field name="ma_nh_cc">CC2021</field>
+            <field name="ten_nh_cc">Quản lý chứng chỉ năm 2021</field>
+            <field name="ma_nh_cc_parent">QLCC</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log">020421:155020:VR</field>
+            <field name="lastmodify_log">110520:142441:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmnhcckqkd_kd2019" model="iwmn.r81dmnhcckqkd">
+            <field name="ma_nh_cc">KD2019</field>
+            <field name="ten_nh_cc">Quản lý kết quả kiểm định năm 2019</field>
+            <field name="ma_nh_cc_parent">QLKD</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log">110520:143140:VR</field>
+            <field name="lastmodify_log">110520:142332:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmnhcckqkd_kd2020" model="iwmn.r81dmnhcckqkd">
+            <field name="ma_nh_cc">KD2020</field>
+            <field name="ten_nh_cc">Quản lý kết quả kiểm định năm 2020</field>
+            <field name="ma_nh_cc_parent">QLKD</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log">110520:143237:VR</field>
+            <field name="lastmodify_log">110520:142332:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmnhcckqkd_kd2021" model="iwmn.r81dmnhcckqkd">
+            <field name="ma_nh_cc">KD2021</field>
+            <field name="ten_nh_cc">Quản lý kết quả kiểm định năm 2021</field>
+            <field name="ma_nh_cc_parent">QLKD</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log">020421:155028:VR</field>
+            <field name="lastmodify_log">110520:142332:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmnhcckqkd_qlcc" model="iwmn.r81dmnhcckqkd">
+            <field name="ma_nh_cc">QLCC</field>
+            <field name="ten_nh_cc">Quản lý chứng chỉ</field>
+            <field name="ma_nh_cc_parent" eval="False"/>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="create_log">110520:142314:VR</field>
+            <field name="lastmodify_log">110520:142332:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmnhcckqkd_qlkd" model="iwmn.r81dmnhcckqkd">
+            <field name="ma_nh_cc">QLKD</field>
+            <field name="ten_nh_cc">Quản lý kết quả kiểm định</field>
+            <field name="ma_nh_cc_parent" eval="False"/>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="create_log">110520:142418:VR</field>
+            <field name="lastmodify_log">110520:142332:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+    </data>
+</odoo>

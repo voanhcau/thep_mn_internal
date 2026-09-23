@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="iwmn_r81equipmentinfo_32" model="iwmn.r81equipmentinfo">
+            <field name="ident00">32</field>
+            <field name="host_ip">192.168.10.30</field>
+            <field name="equip_id">DI-18</field>
+            <field name="description">DI-18</field>
+            <field name="port_name">COM2</field>
+            <field name="baudrate">9600</field>
+            <field name="parity">None</field>
+            <field name="databits">8</field>
+            <field name="stopbits">One</field>
+            <field name="handshake">None</field>
+            <field name="zero_coefficient">0.0000</field>
+            <field name="span_coefficient">1.0000</field>
+            <field name="net_weight_min">500.0000</field>
+            <field name="net_weight_max">4997.0000</field>
+            <field name="slopes_up">500.0000</field>
+            <field name="slopes_down">200.0000</field>
+            <field name="stable_count">4</field>
+            <field name="num_ticket_print">1</field>
+            <field name="print_barcode">Honeywell PM42 (203 dpi)</field>
+            <field name="print_report" eval="False"/>
+            <field name="print_eticket" eval="False"/>
+            <field name="create_log">060315:144943:VR</field>
+            <field name="lastmodify_log">031225:171137:TUANLH</field>
+            <field name="status_input_type">CANDTTUDONG</field>
+            <field name="stx">10</field>
+            <field name="etx">13</field>
+            <field name="value_len">1,9</field>
+            <field name="plc_port_name" eval="False"/>
+            <field name="stable_time">0</field>
+            <field name="stable_range">0</field>
+            <field name="can" eval="False"/>
+            <field name="khoi_luong_old">0.0000</field>
+            <field name="loai_can">PXCAN</field>
+            <field name="note">CAN THANH</field>
+            <field name="loai_sp">THANH</field>
+        </record>
+        <record id="iwmn_r81equipmentinfo_34" model="iwmn.r81equipmentinfo">
+            <field name="ident00">34</field>
+            <field name="host_ip">192.168.10.26</field>
+            <field name="equip_id">AD-4401</field>
+            <field name="description">CAN 1A</field>
+            <field name="port_name">COM3</field>
+            <field name="baudrate">9600</field>
+            <field name="parity">None</field>
+            <field name="databits">8</field>
+            <field name="stopbits">One</field>
+            <field name="handshake">None</field>
+            <field name="zero_coefficient">0.0000</field>
+            <field name="span_coefficient">0.0000</field>
+            <field name="net_weight_min">20.0000</field>
+            <field name="net_weight_max">0.0000</field>
+            <field name="slopes_up">0.0000</field>
+            <field name="slopes_down">0.0000</field>
+            <field name="stable_count">0</field>
+            <field name="num_ticket_print">0</field>
+            <field name="print_barcode">POS-80C (copy 2)</field>
+            <field name="print_report" eval="False"/>
+            <field name="print_eticket">EPSON LQ-310 ESC/P2</field>
+            <field name="create_log">250315:120355:VR</field>
+            <field name="lastmodify_log">240726:082721:KHANHHD</field>
+            <field name="status_input_type" eval="False"/>
+            <field name="stx">10</field>
+            <field name="etx">13</field>
+            <field name="value_len">6,8</field>
+            <field name="plc_port_name" eval="False"/>
+            <field name="stable_time">5</field>
+            <field name="stable_range">20</field>
+            <field name="can">CANA</field>
+            <field name="khoi_luong_old">0.0000</field>
+            <field name="loai_can">QLCL</field>
+            <field name="note" eval="False"/>
+            <field name="loai_sp" eval="False"/>
+        </record>
+        <record id="iwmn_r81equipmentinfo_50" model="iwmn.r81equipmentinfo">
+            <field name="ident00">50</field>
+            <field name="host_ip">192.168.10.37</field>
+            <field name="equip_id">NT-501A</field>
+            <field name="description">NT-501A</field>
+            <field name="port_name">COM3</field>
+            <field name="baudrate">9600</field>
+            <field name="parity">Even</field>
+            <field name="databits">7</field>
+            <field name="stopbits">One</field>
+            <field name="handshake">None</field>
+            <field name="zero_coefficient">0.0000</field>
+            <field name="span_coefficient">0.0000</field>
+            <field name="net_weight_min">20.0000</field>
+            <field name="net_weight_max">0.0000</field>
+            <field name="slopes_up">0.0000</field>
+            <field name="slopes_down">0.0000</field>
+            <field name="stable_count">0</field>
+            <field name="num_ticket_print">0</field>
+            <field name="print_barcode">POS-80C (copy 1)</field>
+            <field name="print_report" eval="False"/>
+            <field name="print_eticket">EPSON LQ-310 ESC/P2</field>
+            <field name="create_log">290515:113724:PHUONGTQ</field>
+            <field name="lastmodify_log">280624:101715:KHANHHD</field>
+            <field name="status_input_type" eval="False"/>
+            <field name="stx">10</field>
+            <field name="etx">13</field>
+            <field name="value_len">6,8</field>
+            <field name="plc_port_name" eval="False"/>
+            <field name="stable_time">5</field>
+            <field name="stable_range">20</field>
+            <field name="can">CANC</field>
+            <field name="khoi_luong_old">0.0000</field>
+            <field name="loai_can">QLCL</field>
+            <field name="note">tạo phieucanB5 size 21x13.97, set default máy POS</field>
+            <field name="loai_sp" eval="False"/>
+        </record>
+        <record id="iwmn_r81equipmentinfo_52" model="iwmn.r81equipmentinfo">
+            <field name="ident00">52</field>
+            <field name="host_ip">192.168.8.33</field>
+            <field name="equip_id">AD-4401</field>
+            <field name="description">TEST CAN</field>
+            <field name="port_name">COM1</field>
+            <field name="baudrate">9600</field>
+            <field name="parity">None</field>
+            <field name="databits">8</field>
+            <field name="stopbits">One</field>
+            <field name="handshake">None</field>
+            <field name="zero_coefficient">0.0000</field>
+            <field name="span_coefficient">0.0000</field>
+            <field name="net_weight_min">20.0000</field>
+            <field name="net_weight_max">0.0000</field>
+            <field name="slopes_up">0.0000</field>
+            <field name="slopes_down">0.0000</field>
+            <field name="stable_count">0</field>
+            <field name="num_ticket_print">0</field>
+            <field name="print_barcode">POS-80C</field>
+            <field name="print_report" eval="False"/>
+            <field name="print_eticket" eval="False"/>
+            <field name="create_log">290518:093853:VR</field>
+            <field name="lastmodify_log">290518:094100:VR</field>
+            <field name="status_input_type" eval="False"/>
+            <field name="stx">10</field>
+            <field name="etx">13</field>
+            <field name="value_len">6,8</field>
+            <field name="plc_port_name" eval="False"/>
+            <field name="stable_time">0</field>
+            <field name="stable_range">0</field>
+            <field name="can">CAND</field>
+            <field name="khoi_luong_old">0.0000</field>
+            <field name="loai_can" eval="False"/>
+            <field name="note" eval="False"/>
+            <field name="loai_sp" eval="False"/>
+        </record>
+        <record id="iwmn_r81equipmentinfo_53" model="iwmn.r81equipmentinfo">
+            <field name="ident00">53</field>
+            <field name="host_ip">192.168.10.38</field>
+            <field name="equip_id">NT-501A</field>
+            <field name="description">NT-501A</field>
+            <field name="port_name">COM2</field>
+            <field name="baudrate">9600</field>
+            <field name="parity">Even</field>
+            <field name="databits">7</field>
+            <field name="stopbits">One</field>
+            <field name="handshake">None</field>
+            <field name="zero_coefficient">0.0000</field>
+            <field name="span_coefficient">0.0000</field>
+            <field name="net_weight_min">20.0000</field>
+            <field name="net_weight_max">0.0000</field>
+            <field name="slopes_up">0.0000</field>
+            <field name="slopes_down">0.0000</field>
+            <field name="stable_count">0</field>
+            <field name="num_ticket_print">0</field>
+            <field name="print_barcode">POS-80C (copy 1)</field>
+            <field name="print_report" eval="False"/>
+            <field name="print_eticket">EPSON LQ-310 ESC/P2</field>
+            <field name="create_log">310818:125630:CUONGPN</field>
+            <field name="lastmodify_log">050924:083611:KHANHHD</field>
+            <field name="status_input_type" eval="False"/>
+            <field name="stx" eval="False"/>
+            <field name="etx" eval="False"/>
+            <field name="value_len" eval="False"/>
+            <field name="plc_port_name" eval="False"/>
+            <field name="stable_time">0</field>
+            <field name="stable_range">0</field>
+            <field name="can">CAND</field>
+            <field name="khoi_luong_old">0.0000</field>
+            <field name="loai_can">QLCL</field>
+            <field name="note" eval="False"/>
+            <field name="loai_sp" eval="False"/>
+        </record>
+        <record id="iwmn_r81equipmentinfo_54" model="iwmn.r81equipmentinfo">
+            <field name="ident00">54</field>
+            <field name="host_ip">192.168.0.60</field>
+            <field name="equip_id">BARCODE-PR</field>
+            <field name="description">BARCODE-PR</field>
+            <field name="port_name" eval="False"/>
+            <field name="baudrate" eval="False"/>
+            <field name="parity" eval="False"/>
+            <field name="databits" eval="False"/>
+            <field name="stopbits" eval="False"/>
+            <field name="handshake" eval="False"/>
+            <field name="zero_coefficient">0.0000</field>
+            <field name="span_coefficient">0.0000</field>
+            <field name="net_weight_min">0.0000</field>
+            <field name="net_weight_max">0.0000</field>
+            <field name="slopes_up">0.0000</field>
+            <field name="slopes_down">0.0000</field>
+            <field name="stable_count">0</field>
+            <field name="num_ticket_print">0</field>
+            <field name="print_barcode">Citizen CL-S621</field>
+            <field name="print_report" eval="False"/>
+            <field name="print_eticket" eval="False"/>
+            <field name="create_log">050918:142221:VR</field>
+            <field name="lastmodify_log">080822:140837:VR</field>
+            <field name="status_input_type" eval="False"/>
+            <field name="stx" eval="False"/>
+            <field name="etx" eval="False"/>
+            <field name="value_len" eval="False"/>
+            <field name="plc_port_name" eval="False"/>
+            <field name="stable_time">0</field>
+            <field name="stable_range">0</field>
+            <field name="can" eval="False"/>
+            <field name="khoi_luong_old">0.0000</field>
+            <field name="loai_can" eval="False"/>
+            <field name="note" eval="False"/>
+            <field name="loai_sp" eval="False"/>
+        </record>
+        <record id="iwmn_r81equipmentinfo_56" model="iwmn.r81equipmentinfo">
+            <field name="ident00">56</field>
+            <field name="host_ip">192.168.0.14</field>
+            <field name="equip_id">NT-501A</field>
+            <field name="description">NT-501A</field>
+            <field name="port_name">COM1</field>
+            <field name="baudrate">9600</field>
+            <field name="parity">Even</field>
+            <field name="databits">7</field>
+            <field name="stopbits">One</field>
+            <field name="handshake">None</field>
+            <field name="zero_coefficient">0.0000</field>
+            <field name="span_coefficient">0.0000</field>
+            <field name="net_weight_min">20.0000</field>
+            <field name="net_weight_max">0.0000</field>
+            <field name="slopes_up">0.0000</field>
+            <field name="slopes_down">0.0000</field>
+            <field name="stable_count">0</field>
+            <field name="num_ticket_print">0</field>
+            <field name="print_barcode">POS-80C</field>
+            <field name="print_report" eval="False"/>
+            <field name="print_eticket">EPSON LQ-310 ESC/P2</field>
+            <field name="create_log">310818:125630:CUONGPN</field>
+            <field name="lastmodify_log">310523:134539:KHANHHD</field>
+            <field name="status_input_type" eval="False"/>
+            <field name="stx" eval="False"/>
+            <field name="etx" eval="False"/>
+            <field name="value_len" eval="False"/>
+            <field name="plc_port_name" eval="False"/>
+            <field name="stable_time">0</field>
+            <field name="stable_range">0</field>
+            <field name="can">CAND</field>
+            <field name="khoi_luong_old">16930.0000</field>
+            <field name="loai_can" eval="False"/>
+            <field name="note" eval="False"/>
+            <field name="loai_sp" eval="False"/>
+        </record>
+        <record id="iwmn_r81equipmentinfo_57" model="iwmn.r81equipmentinfo">
+            <field name="ident00">57</field>
+            <field name="host_ip">192.168.10.54</field>
+            <field name="equip_id">AD-4401</field>
+            <field name="description">TEST CAN</field>
+            <field name="port_name">COM1</field>
+            <field name="baudrate">9600</field>
+            <field name="parity">None</field>
+            <field name="databits">8</field>
+            <field name="stopbits">One</field>
+            <field name="handshake">None</field>
+            <field name="zero_coefficient">0.0000</field>
+            <field name="span_coefficient">0.0000</field>
+            <field name="net_weight_min">20.0000</field>
+            <field name="net_weight_max">0.0000</field>
+            <field name="slopes_up">0.0000</field>
+            <field name="slopes_down">0.0000</field>
+            <field name="stable_count">0</field>
+            <field name="num_ticket_print">0</field>
+            <field name="print_barcode">POS-80C</field>
+            <field name="print_report" eval="False"/>
+            <field name="print_eticket" eval="False"/>
+            <field name="create_log">290518:093853:VR</field>
+            <field name="lastmodify_log">290518:094100:VR</field>
+            <field name="status_input_type" eval="False"/>
+            <field name="stx">10</field>
+            <field name="etx">13</field>
+            <field name="value_len">6,8</field>
+            <field name="plc_port_name" eval="False"/>
+            <field name="stable_time">0</field>
+            <field name="stable_range">0</field>
+            <field name="can">CAND</field>
+            <field name="khoi_luong_old">0.0000</field>
+            <field name="loai_can" eval="False"/>
+            <field name="note" eval="False"/>
+            <field name="loai_sp" eval="False"/>
+        </record>
+        <record id="iwmn_r81equipmentinfo_59" model="iwmn.r81equipmentinfo">
+            <field name="ident00">59</field>
+            <field name="host_ip">192.168.0.15</field>
+            <field name="equip_id">NT-501A</field>
+            <field name="description">NT-501A</field>
+            <field name="port_name">COM1</field>
+            <field name="baudrate">9600</field>
+            <field name="parity">None</field>
+            <field name="databits">8</field>
+            <field name="stopbits">One</field>
+            <field name="handshake">None</field>
+            <field name="zero_coefficient">0.0000</field>
+            <field name="span_coefficient">0.0000</field>
+            <field name="net_weight_min">20.0000</field>
+            <field name="net_weight_max">0.0000</field>
+            <field name="slopes_up">0.0000</field>
+            <field name="slopes_down">0.0000</field>
+            <field name="stable_count">0</field>
+            <field name="num_ticket_print">0</field>
+            <field name="print_barcode" eval="False"/>
+            <field name="print_report" eval="False"/>
+            <field name="print_eticket" eval="False"/>
+            <field name="create_log">070920:094220:KHANHHD</field>
+            <field name="lastmodify_log">250820:145707:KHANHHD</field>
+            <field name="status_input_type" eval="False"/>
+            <field name="stx" eval="False"/>
+            <field name="etx" eval="False"/>
+            <field name="value_len" eval="False"/>
+            <field name="plc_port_name" eval="False"/>
+            <field name="stable_time">0</field>
+            <field name="stable_range">0</field>
+            <field name="can">CAND</field>
+            <field name="khoi_luong_old">16930.0000</field>
+            <field name="loai_can" eval="False"/>
+            <field name="note" eval="False"/>
+            <field name="loai_sp" eval="False"/>
+        </record>
+        <record id="iwmn_r81equipmentinfo_60" model="iwmn.r81equipmentinfo">
+            <field name="ident00">60</field>
+            <field name="host_ip">192.168.12.11</field>
+            <field name="equip_id">DI-28SS</field>
+            <field name="description">DI-18SS</field>
+            <field name="port_name">COM2</field>
+            <field name="baudrate">9600</field>
+            <field name="parity">None</field>
+            <field name="databits">8</field>
+            <field name="stopbits">One</field>
+            <field name="handshake">None</field>
+            <field name="zero_coefficient">0.0000</field>
+            <field name="span_coefficient">1.0000</field>
+            <field name="net_weight_min">1000.0000</field>
+            <field name="net_weight_max">4997.0000</field>
+            <field name="slopes_up">5.0000</field>
+            <field name="slopes_down">5.0000</field>
+            <field name="stable_count">4</field>
+            <field name="num_ticket_print">1</field>
+            <field name="print_barcode" eval="False"/>
+            <field name="print_report" eval="False"/>
+            <field name="print_eticket" eval="False"/>
+            <field name="create_log">270422:133639:VR</field>
+            <field name="lastmodify_log">250722:152609:VR</field>
+            <field name="status_input_type">CANDTTUDONG</field>
+            <field name="stx">61</field>
+            <field name="etx">13</field>
+            <field name="value_len">2,5</field>
+            <field name="plc_port_name" eval="False"/>
+            <field name="stable_time">0</field>
+            <field name="stable_range">0</field>
+            <field name="can" eval="False"/>
+            <field name="khoi_luong_old">0.0000</field>
+            <field name="loai_can">PXCAN</field>
+            <field name="note">CAN PHOI</field>
+            <field name="loai_sp">PHOI</field>
+        </record>
+        <record id="iwmn_r81equipmentinfo_63" model="iwmn.r81equipmentinfo">
+            <field name="ident00">63</field>
+            <field name="host_ip">192.168.10.31</field>
+            <field name="equip_id">DI-28SS</field>
+            <field name="description">DI-81</field>
+            <field name="port_name">COM2</field>
+            <field name="baudrate">9600</field>
+            <field name="parity">None</field>
+            <field name="databits">8</field>
+            <field name="stopbits">One</field>
+            <field name="handshake">None</field>
+            <field name="zero_coefficient">-3.0000</field>
+            <field name="span_coefficient">1.0000</field>
+            <field name="net_weight_min">80.0000</field>
+            <field name="net_weight_max">4997.0000</field>
+            <field name="slopes_up">200.0000</field>
+            <field name="slopes_down">400.0000</field>
+            <field name="stable_count">0</field>
+            <field name="num_ticket_print">1</field>
+            <field name="print_barcode" eval="False"/>
+            <field name="print_report" eval="False"/>
+            <field name="print_eticket" eval="False"/>
+            <field name="create_log">101023:092525:VR</field>
+            <field name="lastmodify_log">280725:102049:LYTB</field>
+            <field name="status_input_type">CANDTTUDONG</field>
+            <field name="stx">10</field>
+            <field name="etx">13</field>
+            <field name="value_len">1,9</field>
+            <field name="plc_port_name" eval="False"/>
+            <field name="stable_time">0</field>
+            <field name="stable_range">0</field>
+            <field name="can" eval="False"/>
+            <field name="khoi_luong_old">0.0000</field>
+            <field name="loai_can">PXCAN</field>
+            <field name="note">CAN CUON</field>
+            <field name="loai_sp">CUON</field>
+        </record>
+        <record id="iwmn_r81equipmentinfo_64" model="iwmn.r81equipmentinfo">
+            <field name="ident00">64</field>
+            <field name="host_ip">192.168.11.150</field>
+            <field name="equip_id">DI81</field>
+            <field name="description">DI-81</field>
+            <field name="port_name" eval="False"/>
+            <field name="baudrate">9600</field>
+            <field name="parity">None</field>
+            <field name="databits">8</field>
+            <field name="stopbits">One</field>
+            <field name="handshake">None</field>
+            <field name="zero_coefficient">-3.0000</field>
+            <field name="span_coefficient">1.0000</field>
+            <field name="net_weight_min">80.0000</field>
+            <field name="net_weight_max">4997.0000</field>
+            <field name="slopes_up">200.0000</field>
+            <field name="slopes_down">400.0000</field>
+            <field name="stable_count">0</field>
+            <field name="num_ticket_print">1</field>
+            <field name="print_barcode" eval="False"/>
+            <field name="print_report" eval="False"/>
+            <field name="print_eticket" eval="False"/>
+            <field name="create_log">281123:081648:VR</field>
+            <field name="lastmodify_log">101023:133949:VR</field>
+            <field name="status_input_type">CANDTTUDONG</field>
+            <field name="stx">10</field>
+            <field name="etx">13</field>
+            <field name="value_len">1,9</field>
+            <field name="plc_port_name" eval="False"/>
+            <field name="stable_time">0</field>
+            <field name="stable_range">0</field>
+            <field name="can" eval="False"/>
+            <field name="khoi_luong_old">0.0000</field>
+            <field name="loai_can">PXCAN</field>
+            <field name="note">CAN CUON</field>
+            <field name="loai_sp">CUON</field>
+        </record>
+        <record id="iwmn_r81equipmentinfo_65" model="iwmn.r81equipmentinfo">
+            <field name="ident00">65</field>
+            <field name="host_ip">192.168.10.25</field>
+            <field name="equip_id">AD-4401</field>
+            <field name="description">Can 1B</field>
+            <field name="port_name">COM3</field>
+            <field name="baudrate">9600</field>
+            <field name="parity">None</field>
+            <field name="databits">8</field>
+            <field name="stopbits">One</field>
+            <field name="handshake">None</field>
+            <field name="zero_coefficient">0.0000</field>
+            <field name="span_coefficient">0.0000</field>
+            <field name="net_weight_min">20.0000</field>
+            <field name="net_weight_max">0.0000</field>
+            <field name="slopes_up">0.0000</field>
+            <field name="slopes_down">0.0000</field>
+            <field name="stable_count">0</field>
+            <field name="num_ticket_print">0</field>
+            <field name="print_barcode">POS-80C (copy 2)</field>
+            <field name="print_report" eval="False"/>
+            <field name="print_eticket">EPSON LQ-310 ESC/P2</field>
+            <field name="create_log">090126:095703:KHANHHD</field>
+            <field name="lastmodify_log">240726:082448:KHANHHD</field>
+            <field name="status_input_type" eval="False"/>
+            <field name="stx">10</field>
+            <field name="etx">13</field>
+            <field name="value_len">6,8</field>
+            <field name="plc_port_name" eval="False"/>
+            <field name="stable_time">5</field>
+            <field name="stable_range">20</field>
+            <field name="can">CANB</field>
+            <field name="khoi_luong_old">0.0000</field>
+            <field name="loai_can">QLCL</field>
+            <field name="note" eval="False"/>
+            <field name="loai_sp" eval="False"/>
+        </record>
+    </data>
+</odoo>

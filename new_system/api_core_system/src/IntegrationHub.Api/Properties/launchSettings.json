@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "IntegrationHub.Api": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "INTEGRATIONHUB_ENV_FILE": ".env"
+      },
+      "applicationUrl": "http://localhost:9119"
+    }
+  }
+}

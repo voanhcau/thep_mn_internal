@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="iwmn_r81equipment_chamcong_192_168_10_3" model="iwmn.r81equipment_chamcong">
+            <field name="equipment_ip">192.168.10.3</field>
+            <field name="equipment_name">Máy MCC03</field>
+            <field name="loai">R</field>
+            <field name="ma_data">A01</field>
+            <field name="equipment_id">MCC00009</field>
+            <field name="equipment_type">WT</field>
+            <field name="port_name">4370</field>
+        </record>
+        <record id="iwmn_r81equipment_chamcong_192_168_10_4" model="iwmn.r81equipment_chamcong">
+            <field name="equipment_ip">192.168.10.4</field>
+            <field name="equipment_name">Máy MCC05</field>
+            <field name="loai">V</field>
+            <field name="ma_data">A01</field>
+            <field name="equipment_id">MCC00011</field>
+            <field name="equipment_type">WT</field>
+            <field name="port_name">4370</field>
+        </record>
+        <record id="iwmn_r81equipment_chamcong_192_168_10_5" model="iwmn.r81equipment_chamcong">
+            <field name="equipment_ip">192.168.10.5</field>
+            <field name="equipment_name">Máy MCC06</field>
+            <field name="loai">R</field>
+            <field name="ma_data">A01</field>
+            <field name="equipment_id">MCC00012</field>
+            <field name="equipment_type">WT</field>
+            <field name="port_name">4370</field>
+        </record>
+        <record id="iwmn_r81equipment_chamcong_192_168_10_6" model="iwmn.r81equipment_chamcong">
+            <field name="equipment_ip">192.168.10.6</field>
+            <field name="equipment_name">Máy MCC07</field>
+            <field name="loai">0</field>
+            <field name="ma_data">A01</field>
+            <field name="equipment_id">MCC00013</field>
+            <field name="equipment_type">WT</field>
+            <field name="port_name">4370</field>
+        </record>
+        <record id="iwmn_r81equipment_chamcong_192_168_10_7" model="iwmn.r81equipment_chamcong">
+            <field name="equipment_ip">192.168.10.7</field>
+            <field name="equipment_name">Máy MCC04</field>
+            <field name="loai">R</field>
+            <field name="ma_data">A01</field>
+            <field name="equipment_id">MCC00010</field>
+            <field name="equipment_type">WT</field>
+            <field name="port_name">4370</field>
+        </record>
+        <record id="iwmn_r81equipment_chamcong_192_168_9_20" model="iwmn.r81equipment_chamcong">
+            <field name="equipment_ip">192.168.9.20</field>
+            <field name="equipment_name">Máy MCC01</field>
+            <field name="loai">C</field>
+            <field name="ma_data">A01</field>
+            <field name="equipment_id">MCC00007</field>
+            <field name="equipment_type">WT</field>
+            <field name="port_name">4370</field>
+        </record>
+        <record id="iwmn_r81equipment_chamcong_192_168_9_21" model="iwmn.r81equipment_chamcong">
+            <field name="equipment_ip">192.168.9.21</field>
+            <field name="equipment_name">Máy MCC02</field>
+            <field name="loai">C</field>
+            <field name="ma_data">A01</field>
+            <field name="equipment_id">MCC00008</field>
+            <field name="equipment_type">WT</field>
+            <field name="port_name">4370</field>
+        </record>
+    </data>
+</odoo>

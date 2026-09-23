@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="portal_credit_dashboard" name="Dashboard hạn mức khách hàng">
+        <t t-call="portal.portal_layout">
+            <t t-set="additional_title">Dashboard tài chính</t>
+            <div class="iwmn-credit-dashboard">
+                <header class="iwmn-dashboard-hero">
+                    <div>
+                        <p class="iwmn-dashboard-eyebrow">TỔNG QUAN TÀI CHÍNH</p>
+                        <h1>Xin chào, <t t-out="customer_name"/></h1>
+                        <p class="iwmn-dashboard-subtitle">
+                            Cập nhật đến ngày
+                            <time t-att-datetime="report_date.isoformat()"
+                                  t-out="report_date.strftime('%d/%m/%Y')"/>
+                            <t t-if="dashboard_fetched_at">
+                                · Lấy dữ liệu lúc
+                                <time t-out="dashboard_fetched_at" t-options="{'widget': 'datetime'}"/>
+                            </t>
+                        </p>
+                    </div>
+                    <div class="iwmn-hero-actions">
+                        <a href="/my/orders" class="iwmn-refresh-button"><i class="fa fa-list-alt" aria-hidden="true"/> Đơn hàng</a>
+                        <a href="/my/orders/new" class="iwmn-refresh-button iwmn-new-order-button"><i class="fa fa-plus" aria-hidden="true"/> Đặt hàng mới</a>
+                        <a href="/my?refresh=1" class="iwmn-refresh-button" aria-label="Lấy dữ liệu mới nhất từ máy chủ"><i class="fa fa-refresh" aria-hidden="true"/> Làm mới</a>
+                    </div>
+                </header>
+
+                <div t-if="dashboard_error" class="iwmn-dashboard-alert" role="status">
+                    <i class="fa fa-info-circle" aria-hidden="true"/>
+                    <span t-out="dashboard_error"/>
+                </div>
+
+                <div t-att-class="'iwmn-dashboard-grid ' + (not has_credit_data and 'iwmn-is-muted' or '')">
+                    <section class="iwmn-dashboard-card iwmn-debt-card" aria-labelledby="iwmn-debt-title">
+                        <div class="iwmn-card-heading">
+                            <span class="iwmn-heading-icon"><i class="fa fa-line-chart" aria-hidden="true"/></span>
+                            <div>
+                                <h2 id="iwmn-debt-title">Tình hình dư nợ</h2>
+                                <p>Các khoản phải thu hiện tại</p>
+                            </div>
+                        </div>
+
+                        <div class="iwmn-debt-total">
+                            <span>Tổng dư nợ</span>
+                            <strong t-att-class="dashboard['debt']['total'] &lt; 0 and 'iwmn-negative' or ''">
+                                <t t-out="dashboard['debt']['total']" t-options="{'widget': 'monetary', 'display_currency': res_company.currency_id, 'decimal_places': 0}"/>
+                            </strong>
+                        </div>
+
+                        <div class="iwmn-debt-breakdown">
+                            <a t-foreach="dashboard['debt']['detail_metrics']" t-as="metric"
+                               t-att-class="'iwmn-debt-stat iwmn-debt-' + metric['key']"
+                               t-att-href="'/my/credit-limit-details/%s' % metric['key']">
+                                <span class="iwmn-stat-mark"><i t-att-class="'fa ' + metric['icon']"/></span>
+                                <div><small t-out="metric['label']"/><strong t-out="metric['value']" t-options="{'widget': 'monetary', 'display_currency': res_company.currency_id, 'decimal_places': 0}"/></div>
+                                <i class="fa fa-angle-right iwmn-debt-stat-arrow" aria-hidden="true"/>
+                            </a>
+                        </div>
+
+                        <div t-if="dashboard['debt']['overdue_days']" class="iwmn-overdue-note">
+                            Khoản quá hạn lâu nhất: <strong><t t-out="dashboard['debt']['overdue_days_display']"/> ngày</strong>
+                        </div>
+                    </section>
+
+                    <a class="iwmn-dashboard-card iwmn-approval-card"
+                       t-att-href="'/my/credit-limit-details/%s' % dashboard['approval_payment']['key']"
+                       aria-labelledby="iwmn-approval-title">
+                        <span class="iwmn-approval-icon">
+                            <i t-att-class="'fa ' + dashboard['approval_payment']['icon']" aria-hidden="true"/>
+                        </span>
+                        <div class="iwmn-approval-copy">
+                            <small>ĐƠN HÀNG CHỜ DUYỆT</small>
+                            <h2 id="iwmn-approval-title" t-out="dashboard['approval_payment']['label']"/>
+                            <p>Số tiền cần thanh toán để các đơn hàng đang chờ được xem xét duyệt.</p>
+                        </div>
+                        <div class="iwmn-approval-amount">
+                            <strong t-out="dashboard['approval_payment']['value']"
+                                    t-options="{'widget': 'monetary', 'display_currency': res_company.currency_id, 'decimal_places': 0}"/>
+                            <span>Xem danh sách đơn hàng <i class="fa fa-angle-right" aria-hidden="true"/></span>
+                        </div>
+                    </a>
+
+                    <section class="iwmn-dashboard-card iwmn-limit-card" aria-labelledby="iwmn-limit-title">
+                        <div class="iwmn-limit-header">
+                            <div class="iwmn-card-heading">
+                                <span class="iwmn-heading-icon"><i class="fa fa-pie-chart" aria-hidden="true"/></span>
+                                <div>
+                                    <h2 id="iwmn-limit-title">Tổng quan hạn mức</h2>
+                                    <p>Tình hình sử dụng và cơ cấu hạn mức tín dụng</p>
+                                    <div t-att-class="'iwmn-purchasing-inline ' + (dashboard['limits']['remaining'] &lt; 0 and 'iwmn-is-exceeded' or '')">
+                                        <span>Khả năng mua hàng</span>
+                                        <strong t-out="dashboard['limits']['remaining']"
+                                                t-options="{'widget': 'monetary', 'display_currency': res_company.currency_id, 'decimal_places': 0}"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <article class="iwmn-donut-panel iwmn-capacity-panel" aria-labelledby="iwmn-capacity-chart-title">
+                            <div class="iwmn-chart-heading">
+                                <h3 id="iwmn-capacity-chart-title">Cấu thành khả năng mua hàng</h3>
+                                <p>Bảo lãnh + tín chấp + tiền mặt, sau khi trừ các khoản đang sử dụng</p>
+                            </div>
+                            <div class="iwmn-capacity-sources">
+                                <article t-foreach="dashboard['limits']['source_segments']" t-as="source" class="iwmn-capacity-source">
+                                    <div><span t-att-style="'background-color: %s' % source['color']"/><small t-out="source['label']"/></div>
+                                    <strong t-out="source['value']" t-options="{'widget': 'monetary', 'display_currency': res_company.currency_id, 'decimal_places': 0}"/>
+                                </article>
+                            </div>
+                            <div class="iwmn-chart-content iwmn-capacity-chart-content">
+                                <div class="iwmn-donut-wrap">
+                                    <div class="iwmn-donut-usage-ring"
+                                         t-att-style="'--iwmn-used-angle: %sdeg' % (float(dashboard['limits']['used_percent']) * 3.6)"
+                                         t-att-aria-label="'Tỷ lệ hạn mức đang sử dụng: %s phần trăm' % int(float(dashboard['limits']['used_percent']))">
+                                        <div class="iwmn-donut-usage-gap">
+                                            <div t-att-class="'iwmn-donut ' + (dashboard['limits']['is_exceeded'] and 'iwmn-is-exceeded' or '')"
+                                                 t-att-style="'background: conic-gradient(%s)' % dashboard['limits']['gradient']">
+                                                <div class="iwmn-donut-center">
+                                                    <strong t-out="dashboard['limits']['remaining']" t-options="{'widget': 'monetary', 'display_currency': res_company.currency_id, 'decimal_places': 0}"/>
+                                                    <b><t t-out="float(dashboard['limits']['used_percent'])" t-options="{'widget': 'float', 'precision': 0}"/>% đang sử dụng</b>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="iwmn-limit-legend iwmn-capacity-legend">
+                                    <article t-foreach="dashboard['limits']['segments']" t-as="segment"
+                                             t-att-class="'iwmn-limit-item iwmn-limit-' + segment['key']">
+                                        <div class="iwmn-limit-label">
+                                            <span t-att-style="'background-color: %s' % segment['color']"/>
+                                            <small t-out="segment['label']"/>
+                                            <b><t t-out="float(segment['percent'])" t-options="{'widget': 'float', 'precision': 0}"/>%</b>
+                                        </div>
+                                        <strong t-out="segment['value']" t-options="{'widget': 'monetary', 'display_currency': res_company.currency_id, 'decimal_places': 0}"/>
+                                    </article>
+                                </div>
+                            </div>
+                        </article>
+
+                        <div class="iwmn-credit-details">
+                            <div class="iwmn-credit-details-heading">
+                                <div>
+                                    <h3>Thông tin hạn mức liên quan</h3>
+                                    <p>Các giá trị đang tham gia vào tình hình sử dụng hạn mức</p>
+                                </div>
+                                <span><i class="fa fa-info-circle" aria-hidden="true"/> Nhấn vào từng mục để xem danh sách chi tiết</span>
+                            </div>
+                            <div class="iwmn-credit-metric-grid">
+                                <a t-foreach="dashboard['limits'].get('detail_metrics', [])"
+                                         t-as="metric"
+                                         class="iwmn-credit-metric-card"
+                                         t-att-href="'/my/credit-limit-details/%s' % metric['key']"
+                                         t-att-data-detail-key="metric['key']"
+                                         t-att-data-api-field="metric['api_field']">
+                                    <span class="iwmn-credit-metric-icon">
+                                        <i t-att-class="'fa ' + metric['icon']" aria-hidden="true"/>
+                                    </span>
+                                    <div>
+                                        <small t-out="metric['label']"/>
+                                        <strong t-out="metric['value']"
+                                                t-options="{'widget': 'monetary', 'display_currency': res_company.currency_id, 'decimal_places': 0}"/>
+                                    </div>
+                                    <span class="iwmn-credit-metric-arrow" title="Xem danh sách chi tiết">
+                                        <i class="fa fa-angle-right" aria-hidden="true"/>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </t>
+    </template>
+
+    <template id="portal_credit_limit_details" name="Chi tiết cấu phần hạn mức">
+        <t t-call="portal.portal_layout">
+            <t t-set="additional_title" t-value="detail_type['label']"/>
+            <div class="iwmn-credit-dashboard iwmn-credit-detail-page">
+                <a href="/my" class="iwmn-credit-detail-back">
+                    <i class="fa fa-arrow-left" aria-hidden="true"/> Quay lại dashboard
+                </a>
+                <section class="iwmn-dashboard-card iwmn-credit-detail-card">
+                    <div class="iwmn-credit-detail-title">
+                        <span><i t-att-class="'fa ' + detail_type['icon']" aria-hidden="true"/></span>
+                        <div>
+                            <p>CHI TIẾT HẠN MỨC LIÊN QUAN</p>
+                            <h1 t-out="detail_type['label']"/>
+                            <small>
+                                Ngày dữ liệu <t t-out="report_date" t-options="{'widget': 'date'}"/>
+                                <t t-if="erp_partner"> · Mã khách hàng <strong t-out="erp_partner.ma_dt"/></t>
+                            </small>
+                        </div>
+                    </div>
+
+                    <div class="iwmn-credit-detail-summary">
+                        <div class="iwmn-credit-detail-total">
+                            <span class="iwmn-credit-summary-money-icon"><i class="fa fa-money" aria-hidden="true"/></span>
+                            <div>
+                                <small>Tổng giá trị <t t-out="detail_type['label']"/></small>
+                                <strong t-out="detail_total"
+                                        t-options="{'widget': 'monetary', 'display_currency': res_company.currency_id, 'decimal_places': 0}"/>
+                            </div>
+                        </div>
+                        <div class="iwmn-credit-detail-summary-meta">
+                            <span><i class="fa fa-list-ul" aria-hidden="true"/> <strong t-out="detail_count"/> khoản chi tiết</span>
+                            <span><i class="fa fa-calendar" aria-hidden="true"/> <t t-out="report_date" t-options="{'widget': 'date'}"/></span>
+                        </div>
+                    </div>
+
+                    <div t-if="detail_error" class="alert alert-warning" role="alert" t-out="detail_error"/>
+                    <div t-elif="detail_table['rows']" class="iwmn-credit-detail-list">
+                        <article t-foreach="detail_table['rows']" t-as="row" class="iwmn-credit-detail-item">
+                            <div class="iwmn-credit-detail-item-head">
+                                <span><i t-att-class="'fa ' + detail_type['icon']" aria-hidden="true"/></span>
+                                <div>
+                                    <small>Khoản chi tiết #<t t-out="row_index + 1"/></small>
+                                    <strong t-out="row['title']"/>
+                                    <em t-if="row['reference'] and row['reference'] != row['title']">Số LXH: <t t-out="row['reference']"/></em>
+                                </div>
+                            </div>
+                            <div class="iwmn-credit-detail-fields">
+                                <div t-foreach="row['cells']" t-as="cell" t-if="cell['visible']"
+                                     t-att-class="'iwmn-credit-detail-field iwmn-detail-' + cell['key'] + (cell['icon'] and ' iwmn-has-icon' or '')">
+                                    <span t-if="cell['icon']" class="iwmn-credit-detail-field-icon">
+                                        <i t-att-class="'fa ' + cell['icon']" aria-hidden="true"/>
+                                    </span>
+                                    <div>
+                                        <small t-out="cell['label']"/>
+                                        <strong>
+                                            <t t-if="cell['is_money']"
+                                               t-out="cell['value']"
+                                               t-options="{'widget': 'monetary', 'display_currency': res_company.currency_id, 'decimal_places': 0}"/>
+                                            <t t-elif="cell['is_number']"
+                                               t-out="cell['value']"
+                                               t-options="{'widget': 'float', 'precision': 0}"/>
+                                            <t t-else="" t-out="cell['value'] if cell['value'] is not None else ''"/>
+                                        </strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div t-else="" class="iwmn-credit-detail-empty">
+                        <i class="fa fa-folder-open-o" aria-hidden="true"/>
+                        <strong>Không có khoản chi tiết</strong>
+                        <span>Không có dữ liệu phù hợp tại ngày báo cáo.</span>
+                    </div>
+                </section>
+            </div>
+        </t>
+    </template>
+</odoo>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_iwmn_r81dmcksl_list" model="ir.ui.view">
+        <field name="name">iwmn.r81dmcksl.list</field>
+        <field name="model">iwmn.r81dmcksl</field>
+        <field name="arch" type="xml">
+            <list string="R81DMCKSL - So_Qd_Gia">
+                <field name="ident00"/>
+                <field name="tu_sl"/>
+                <field name="den_sl"/>
+                <field name="gia"/>
+                <field name="ngay_ap"/>
+                <field name="ma_dt_list"/>
+                <field name="so_qd_gia"/>
+                <field name="ngay_kthuc"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmcksl_form" model="ir.ui.view">
+        <field name="name">iwmn.r81dmcksl.form</field>
+        <field name="model">iwmn.r81dmcksl</field>
+        <field name="arch" type="xml">
+            <form string="R81DMCKSL - So_Qd_Gia">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="ident00"/>
+                            <field name="tu_sl"/>
+                            <field name="den_sl"/>
+                            <field name="gia"/>
+                        </group>
+                        <group>
+                            <field name="ngay_ap"/>
+                            <field name="ma_dt_list"/>
+                            <field name="so_qd_gia"/>
+                            <field name="ngay_kthuc"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmcksl_search" model="ir.ui.view">
+        <field name="name">iwmn.r81dmcksl.search</field>
+        <field name="model">iwmn.r81dmcksl</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="so_qd_gia"/>
+                <field name="ident00"/>
+                <field name="tu_sl"/>
+                <field name="den_sl"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_iwmn_r81dmcksl" model="ir.actions.act_window">
+        <field name="name">R81DMCKSL - So_Qd_Gia</field>
+        <field name="res_model">iwmn.r81dmcksl</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_iwmn_r81dmcksl_search"/>
+    </record>
+
+    <menuitem id="menu_iwmn_r81dmcksl" name="R81DMCKSL - So_Qd_Gia"
+              parent="menu_iwmn_master_finance"
+              action="action_iwmn_r81dmcksl" sequence="16"/>
+</odoo>

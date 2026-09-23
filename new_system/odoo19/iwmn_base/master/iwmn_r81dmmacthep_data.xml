@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="iwmn_r81dmmacthep_g01" model="iwmn.r81dmmacthep">
+            <field name="grade_id">G01</field>
+            <field name="grade_name">CB300-V</field>
+            <field name="standard_id">18</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">220716:155846:CUONGPN</field>
+            <field name="bend_standard">TCVN 7937-1:2013</field>
+            <field name="chemis_standard">ASTM E415-15</field>
+            <field name="pull_standard">TCVN 7937-1:2013</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmmacthep_g02" model="iwmn.r81dmmacthep">
+            <field name="grade_id">G02</field>
+            <field name="grade_name">CB400-V</field>
+            <field name="standard_id">18</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">220716:155923:CUONGPN</field>
+            <field name="bend_standard">TCVN 7937-1:2013</field>
+            <field name="chemis_standard">ASTM E415-15</field>
+            <field name="pull_standard">TCVN 7937-1:2013</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmmacthep_g03" model="iwmn.r81dmmacthep">
+            <field name="grade_id">G03</field>
+            <field name="grade_name">CB500-V</field>
+            <field name="standard_id">18</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">220716:155939:CUONGPN</field>
+            <field name="bend_standard">TCVN 7937-1:2013</field>
+            <field name="chemis_standard">ASTM E415-15</field>
+            <field name="pull_standard">TCVN 7937-1:2013</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmmacthep_g04" model="iwmn.r81dmmacthep">
+            <field name="grade_id">G04</field>
+            <field name="grade_name">CB240-T</field>
+            <field name="standard_id">20</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">220716:155952:CUONGPN</field>
+            <field name="bend_standard">TCVN 7937-1:2013</field>
+            <field name="chemis_standard">ASTM E415-15</field>
+            <field name="pull_standard">TCVN 7937-1:2013</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmmacthep_g05" model="iwmn.r81dmmacthep">
+            <field name="grade_id">G05</field>
+            <field name="grade_name">CT3</field>
+            <field name="standard_id">18</field>
+            <field name="create_log">090915:115957:VR</field>
+            <field name="lastmodify_log">220716:160008:CUONGPN</field>
+            <field name="bend_standard">TCVN 7937-1:2013</field>
+            <field name="chemis_standard">ASTM E415-15</field>
+            <field name="pull_standard">TCVN 7937-1:2013</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmmacthep_g06" model="iwmn.r81dmmacthep">
+            <field name="grade_id">G06</field>
+            <field name="grade_name">CT5</field>
+            <field name="standard_id">18</field>
+            <field name="create_log">090915:120137:VR</field>
+            <field name="lastmodify_log">220716:160022:CUONGPN</field>
+            <field name="bend_standard">TCVN 7937-1:2013</field>
+            <field name="chemis_standard">ASTM E415-15</field>
+            <field name="pull_standard">TCVN 7937-1:2013</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmmacthep_g07" model="iwmn.r81dmmacthep">
+            <field name="grade_id">G07</field>
+            <field name="grade_name">SD295A</field>
+            <field name="standard_id">27</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">241120:090740:VR</field>
+            <field name="bend_standard">JIS Z2248-2006</field>
+            <field name="chemis_standard">ASTM E415-15</field>
+            <field name="pull_standard">JIS Z2241-2011</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmmacthep_g08" model="iwmn.r81dmmacthep">
+            <field name="grade_id">G08</field>
+            <field name="grade_name">SD390</field>
+            <field name="standard_id">27</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">241120:090028:VR</field>
+            <field name="bend_standard">JIS Z2248-2006</field>
+            <field name="chemis_standard">ASTM E415-15</field>
+            <field name="pull_standard">JIS Z2241-2011</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmmacthep_g09" model="iwmn.r81dmmacthep">
+            <field name="grade_id">G09</field>
+            <field name="grade_name">SD490</field>
+            <field name="standard_id">27</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">220716:161835:CUONGPN</field>
+            <field name="bend_standard">JIS Z2248-2006</field>
+            <field name="chemis_standard">ASTM E415-15</field>
+            <field name="pull_standard">JIS Z2241-2011</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmmacthep_g10" model="iwmn.r81dmmacthep">
+            <field name="grade_id">G10</field>
+            <field name="grade_name">SD 390</field>
+            <field name="standard_id">27</field>
+            <field name="create_log">090915:120212:VR</field>
+            <field name="lastmodify_log">220716:161840:CUONGPN</field>
+            <field name="bend_standard">JIS Z2248-2006</field>
+            <field name="chemis_standard">ASTM E415-15</field>
+            <field name="pull_standard">JIS Z2241-2011</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmmacthep_g11" model="iwmn.r81dmmacthep">
+            <field name="grade_id">G11</field>
+            <field name="grade_name">GR60</field>
+            <field name="standard_id">12</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">010626:100558:THANGNT</field>
+            <field name="bend_standard">ASTM A 370-15</field>
+            <field name="chemis_standard">ASTM E415-15</field>
+            <field name="pull_standard">ASTM A 370-15</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmmacthep_g12" model="iwmn.r81dmmacthep">
+            <field name="grade_id">G12</field>
+            <field name="grade_name">SD295A.</field>
+            <field name="standard_id">27</field>
+            <field name="create_log">090915:120233:VR</field>
+            <field name="lastmodify_log">220716:161847:CUONGPN</field>
+            <field name="bend_standard">JIS Z2248-2006</field>
+            <field name="chemis_standard">ASTM E415-15</field>
+            <field name="pull_standard">JIS Z2241-2011</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">2020-11-25 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmmacthep_g13" model="iwmn.r81dmmacthep">
+            <field name="grade_id">G13</field>
+            <field name="grade_name">SD390.</field>
+            <field name="standard_id">27</field>
+            <field name="create_log">090915:120244:VR</field>
+            <field name="lastmodify_log">220716:161851:CUONGPN</field>
+            <field name="bend_standard">JIS Z2248-2006</field>
+            <field name="chemis_standard">ASTM E415-15</field>
+            <field name="pull_standard">JIS Z2241-2011</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmmacthep_g14" model="iwmn.r81dmmacthep">
+            <field name="grade_id">G14</field>
+            <field name="grade_name">SD490.</field>
+            <field name="standard_id">27</field>
+            <field name="create_log">090915:120252:VR</field>
+            <field name="lastmodify_log">220716:161856:CUONGPN</field>
+            <field name="bend_standard">JIS Z2248-2006</field>
+            <field name="chemis_standard">ASTM E415-15</field>
+            <field name="pull_standard">JIS Z2241-2011</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmmacthep_g15" model="iwmn.r81dmmacthep">
+            <field name="grade_id">G15</field>
+            <field name="grade_name">GR40</field>
+            <field name="standard_id">12</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">200922:143204:VR</field>
+            <field name="bend_standard">ASTM A 370-15</field>
+            <field name="chemis_standard">ASTM E415-15</field>
+            <field name="pull_standard">ASTM A 370-15</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmmacthep_g16" model="iwmn.r81dmmacthep">
+            <field name="grade_id">G16</field>
+            <field name="grade_name">CB300-T</field>
+            <field name="standard_id">5</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">111022:160824:VR</field>
+            <field name="bend_standard" eval="False"/>
+            <field name="chemis_standard" eval="False"/>
+            <field name="pull_standard" eval="False"/>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmmacthep_g17" model="iwmn.r81dmmacthep">
+            <field name="grade_id">G17</field>
+            <field name="grade_name">500N</field>
+            <field name="standard_id">5</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">100626:145640:THANGNT</field>
+            <field name="bend_standard" eval="False"/>
+            <field name="chemis_standard" eval="False"/>
+            <field name="pull_standard" eval="False"/>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmmacthep_g18" model="iwmn.r81dmmacthep">
+            <field name="grade_id">G18</field>
+            <field name="grade_name">B500B</field>
+            <field name="standard_id">27</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">100626:144744:THANGNT</field>
+            <field name="bend_standard">JIS Z2248-2006</field>
+            <field name="chemis_standard">ASTM E415-15</field>
+            <field name="pull_standard">JIS Z2241-2011</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmmacthep_g19" model="iwmn.r81dmmacthep">
+            <field name="grade_id">G19</field>
+            <field name="grade_name">CT34</field>
+            <field name="standard_id">8</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">220716:161910:CUONGPN</field>
+            <field name="bend_standard">TCVN 198-2008</field>
+            <field name="chemis_standard">ASTM E415-15</field>
+            <field name="pull_standard">TCVN 197-2002</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmmacthep_g20" model="iwmn.r81dmmacthep">
+            <field name="grade_id">G20</field>
+            <field name="grade_name">CT38</field>
+            <field name="standard_id">4</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">220716:161916:CUONGPN</field>
+            <field name="bend_standard">TCVN 198-2008</field>
+            <field name="chemis_standard">ASTM E415-15</field>
+            <field name="pull_standard">TCVN 197-2002</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmmacthep_g21" model="iwmn.r81dmmacthep">
+            <field name="grade_id">G21</field>
+            <field name="grade_name">B500B</field>
+            <field name="standard_id">27</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">100626:144843:THANGNT</field>
+            <field name="bend_standard">JIS Z2248-2006</field>
+            <field name="chemis_standard">ASTM E415-15</field>
+            <field name="pull_standard">JIS Z2241-2011</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmmacthep_g22" model="iwmn.r81dmmacthep">
+            <field name="grade_id">G22</field>
+            <field name="grade_name">SS400</field>
+            <field name="standard_id">31</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">220716:161928:CUONGPN</field>
+            <field name="bend_standard">JIS Z2248-2006</field>
+            <field name="chemis_standard">ASTM E415-15</field>
+            <field name="pull_standard">JIS Z2241-2011</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmmacthep_g23" model="iwmn.r81dmmacthep">
+            <field name="grade_id">G23</field>
+            <field name="grade_name">CT51</field>
+            <field name="standard_id">18</field>
+            <field name="create_log">200616:091100:CUONGPN</field>
+            <field name="lastmodify_log">220716:160043:CUONGPN</field>
+            <field name="bend_standard">TCVN 7937-1:2013</field>
+            <field name="chemis_standard">ASTM E415-15</field>
+            <field name="pull_standard">TCVN 7937-1:2013</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmmacthep_g24" model="iwmn.r81dmmacthep">
+            <field name="grade_id">G24</field>
+            <field name="grade_name">CB 240-T</field>
+            <field name="standard_id">20</field>
+            <field name="create_log">250817:153759:CUONGPN</field>
+            <field name="lastmodify_log">220716:160043:CUONGPN</field>
+            <field name="bend_standard">TCVN 7937-1:2013</field>
+            <field name="chemis_standard">ASTM E415-15</field>
+            <field name="pull_standard">TCVN 7937-1:2013</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmmacthep_g25" model="iwmn.r81dmmacthep">
+            <field name="grade_id">G25</field>
+            <field name="grade_name">CB 400-V</field>
+            <field name="standard_id">18</field>
+            <field name="create_log">250817:153833:CUONGPN</field>
+            <field name="lastmodify_log">220716:160043:CUONGPN</field>
+            <field name="bend_standard">TCVN 7937-1:2013</field>
+            <field name="chemis_standard">ASTM E415-15</field>
+            <field name="pull_standard">TCVN 7937-1:2013</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmmacthep_g26" model="iwmn.r81dmmacthep">
+            <field name="grade_id">G26</field>
+            <field name="grade_name">CB 500-V</field>
+            <field name="standard_id">18</field>
+            <field name="create_log">250817:153849:CUONGPN</field>
+            <field name="lastmodify_log">220716:160043:CUONGPN</field>
+            <field name="bend_standard">TCVN 7937-1:2013</field>
+            <field name="chemis_standard">ASTM E415-15</field>
+            <field name="pull_standard">TCVN 7937-1:2013</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmmacthep_g27" model="iwmn.r81dmmacthep">
+            <field name="grade_id">G27</field>
+            <field name="grade_name">CB500-V.</field>
+            <field name="standard_id">27</field>
+            <field name="create_log">050620:141126:VR</field>
+            <field name="lastmodify_log">220716:161856:CUONGPN</field>
+            <field name="bend_standard">JIS Z2248-2006</field>
+            <field name="chemis_standard">ASTM E415-15</field>
+            <field name="pull_standard">JIS Z2241-2011</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmmacthep_g28" model="iwmn.r81dmmacthep">
+            <field name="grade_id">G28</field>
+            <field name="grade_name">SD295</field>
+            <field name="standard_id">20</field>
+            <field name="create_log">130720:110527:CUONGPN</field>
+            <field name="lastmodify_log">241120:085954:VR</field>
+            <field name="bend_standard">TCVN 7937-1:2013</field>
+            <field name="chemis_standard">ASTM E415-15</field>
+            <field name="pull_standard">TCVN 7937-1:2013</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmmacthep_g29" model="iwmn.r81dmmacthep">
+            <field name="grade_id">G29</field>
+            <field name="grade_name">SD295.</field>
+            <field name="standard_id">20</field>
+            <field name="create_log">241120:090002:VR</field>
+            <field name="lastmodify_log">241120:085954:VR</field>
+            <field name="bend_standard">TCVN 7937-1:2013</field>
+            <field name="chemis_standard">ASTM E415-15</field>
+            <field name="pull_standard">TCVN 7937-1:2013</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmmacthep_g30" model="iwmn.r81dmmacthep">
+            <field name="grade_id">G30</field>
+            <field name="grade_name">SAE 1006</field>
+            <field name="standard_id">20</field>
+            <field name="create_log">060821:153026:VR</field>
+            <field name="lastmodify_log">241120:085954:VR</field>
+            <field name="bend_standard">TCVN 7937-1:2013</field>
+            <field name="chemis_standard">ASTM E415-15</field>
+            <field name="pull_standard">TCVN 7937-1:2013</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmmacthep_g31" model="iwmn.r81dmmacthep">
+            <field name="grade_id">G31</field>
+            <field name="grade_name">SAE 1008</field>
+            <field name="standard_id">20</field>
+            <field name="create_log">060821:153037:VR</field>
+            <field name="lastmodify_log">241120:085954:VR</field>
+            <field name="bend_standard">TCVN 7937-1:2013</field>
+            <field name="chemis_standard">ASTM E415-15</field>
+            <field name="pull_standard">TCVN 7937-1:2013</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmmacthep_g32" model="iwmn.r81dmmacthep">
+            <field name="grade_id">G32</field>
+            <field name="grade_name">3SP</field>
+            <field name="standard_id">20</field>
+            <field name="create_log">270721:091141:VR</field>
+            <field name="lastmodify_log">300721:141146:VR</field>
+            <field name="bend_standard">TCVN 7937-1:2013</field>
+            <field name="chemis_standard">ASTM E415-15</field>
+            <field name="pull_standard">TCVN 7937-1:2013</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmmacthep_g33" model="iwmn.r81dmmacthep">
+            <field name="grade_id">G33</field>
+            <field name="grade_name">B500B</field>
+            <field name="standard_id">20</field>
+            <field name="create_log">040123:110521:THANGNT</field>
+            <field name="lastmodify_log">220716:160250:CUONGPN</field>
+            <field name="bend_standard">TCVN 7937-1:2013</field>
+            <field name="chemis_standard">ASTM E415-15</field>
+            <field name="pull_standard">TCVN 7937-1:2013</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmmacthep_g80" model="iwmn.r81dmmacthep">
+            <field name="grade_id">G80</field>
+            <field name="grade_name">N I - KLG</field>
+            <field name="standard_id">20</field>
+            <field name="create_log">130220:104522:VR</field>
+            <field name="lastmodify_log">220716:160250:CUONGPN</field>
+            <field name="bend_standard">TCVN 7937-1:2013</field>
+            <field name="chemis_standard">ASTM E415-15</field>
+            <field name="pull_standard">TCVN 7937-1:2013</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmmacthep_g81" model="iwmn.r81dmmacthep">
+            <field name="grade_id">G81</field>
+            <field name="grade_name">N I</field>
+            <field name="standard_id">20</field>
+            <field name="create_log">210417:095952:CUONGPN</field>
+            <field name="lastmodify_log">220716:160250:CUONGPN</field>
+            <field name="bend_standard">TCVN 7937-1:2013</field>
+            <field name="chemis_standard">ASTM E415-15</field>
+            <field name="pull_standard">TCVN 7937-1:2013</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmmacthep_g82" model="iwmn.r81dmmacthep">
+            <field name="grade_id">G82</field>
+            <field name="grade_name">N II</field>
+            <field name="standard_id">18</field>
+            <field name="create_log">210417:100122:CUONGPN</field>
+            <field name="lastmodify_log">220716:160250:CUONGPN</field>
+            <field name="bend_standard">TCVN 7937-1:2013</field>
+            <field name="chemis_standard">ASTM E415-15</field>
+            <field name="pull_standard">TCVN 7937-1:2013</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmmacthep_g83" model="iwmn.r81dmmacthep">
+            <field name="grade_id">G83</field>
+            <field name="grade_name">N III</field>
+            <field name="standard_id">18</field>
+            <field name="create_log">210417:100137:CUONGPN</field>
+            <field name="lastmodify_log">220716:160250:CUONGPN</field>
+            <field name="bend_standard">TCVN 7937-1:2013</field>
+            <field name="chemis_standard">ASTM E415-15</field>
+            <field name="pull_standard">TCVN 7937-1:2013</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmmacthep_g84" model="iwmn.r81dmmacthep">
+            <field name="grade_id">G84</field>
+            <field name="grade_name">N IV</field>
+            <field name="standard_id">18</field>
+            <field name="create_log">210417:100151:CUONGPN</field>
+            <field name="lastmodify_log">220716:160250:CUONGPN</field>
+            <field name="bend_standard">TCVN 7937-1:2013</field>
+            <field name="chemis_standard">ASTM E415-15</field>
+            <field name="pull_standard">TCVN 7937-1:2013</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmmacthep_g91" model="iwmn.r81dmmacthep">
+            <field name="grade_id">G91</field>
+            <field name="grade_name">NHOM1</field>
+            <field name="standard_id">20</field>
+            <field name="create_log">090915:174609:CUONGPN</field>
+            <field name="lastmodify_log">220716:160250:CUONGPN</field>
+            <field name="bend_standard">TCVN 7937-1:2013</field>
+            <field name="chemis_standard">ASTM E415-15</field>
+            <field name="pull_standard">TCVN 7937-1:2013</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmmacthep_g92" model="iwmn.r81dmmacthep">
+            <field name="grade_id">G92</field>
+            <field name="grade_name">NHOM2</field>
+            <field name="standard_id">18</field>
+            <field name="create_log">090915:174740:CUONGPN</field>
+            <field name="lastmodify_log">220716:160300:CUONGPN</field>
+            <field name="bend_standard">TCVN 7937-1:2013</field>
+            <field name="chemis_standard">ASTM E415-15</field>
+            <field name="pull_standard">TCVN 7937-1:2013</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmmacthep_g93" model="iwmn.r81dmmacthep">
+            <field name="grade_id">G93</field>
+            <field name="grade_name">NHOM3</field>
+            <field name="standard_id">18</field>
+            <field name="create_log">090915:174752:CUONGPN</field>
+            <field name="lastmodify_log">220716:160312:CUONGPN</field>
+            <field name="bend_standard">TCVN 7937-1:2013</field>
+            <field name="chemis_standard">ASTM E415-15</field>
+            <field name="pull_standard">TCVN 7937-1:2013</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmmacthep_g94" model="iwmn.r81dmmacthep">
+            <field name="grade_id">G94</field>
+            <field name="grade_name">NHOM4</field>
+            <field name="standard_id">18</field>
+            <field name="create_log">090915:174815:CUONGPN</field>
+            <field name="lastmodify_log">220716:160322:CUONGPN</field>
+            <field name="bend_standard">TCVN 7937-1:2013</field>
+            <field name="chemis_standard">ASTM E415-15</field>
+            <field name="pull_standard">TCVN 7937-1:2013</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmmacthep_g95" model="iwmn.r81dmmacthep">
+            <field name="grade_id">G95</field>
+            <field name="grade_name">NHOM5</field>
+            <field name="standard_id">18</field>
+            <field name="create_log">090915:174827:CUONGPN</field>
+            <field name="lastmodify_log">220716:160337:CUONGPN</field>
+            <field name="bend_standard">TCVN 7937-1:2013</field>
+            <field name="chemis_standard">ASTM E415-15</field>
+            <field name="pull_standard">TCVN 7937-1:2013</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmmacthep_g96" model="iwmn.r81dmmacthep">
+            <field name="grade_id">G96</field>
+            <field name="grade_name">5SP</field>
+            <field name="standard_id">18</field>
+            <field name="create_log">300925:081906:THANGNT</field>
+            <field name="lastmodify_log">220716:160337:CUONGPN</field>
+            <field name="bend_standard">TCVN 7937-1:2013</field>
+            <field name="chemis_standard">ASTM E415-15</field>
+            <field name="pull_standard">TCVN 7937-1:2013</field>
+            <field name="ngay_begin">1900-01-01 00:00:00</field>
+            <field name="ngay_end">1900-01-01 00:00:00</field>
+        </record>
+    </data>
+</odoo>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="iwmn_r81dmsuco_1_1" model="iwmn.r81dmsuco">
+            <field name="ma_su_co">1.1</field>
+            <field name="ten_su_co">Ngưng đổi size sản phẩm</field>
+            <field name="loai_su_co">BB</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_dvcs">A01</field>
+        </record>
+        <record id="iwmn_r81dmsuco_1_2" model="iwmn.r81dmsuco">
+            <field name="ma_su_co">1.2</field>
+            <field name="ten_su_co">Ngưng bảo trì chủ động trong ca</field>
+            <field name="loai_su_co">BB</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_dvcs">A01</field>
+        </record>
+        <record id="iwmn_r81dmsuco_2_1" model="iwmn.r81dmsuco">
+            <field name="ma_su_co">2.1</field>
+            <field name="ten_su_co">Do công nghệ</field>
+            <field name="loai_su_co">CN</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_dvcs">A01</field>
+        </record>
+        <record id="iwmn_r81dmsuco_2_2" model="iwmn.r81dmsuco">
+            <field name="ma_su_co">2.2</field>
+            <field name="ten_su_co">Do công nghệ (không rõ nguyên nhân)</field>
+            <field name="loai_su_co">CN</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_dvcs">A01</field>
+        </record>
+        <record id="iwmn_r81dmsuco_3_1" model="iwmn.r81dmsuco">
+            <field name="ma_su_co">3.1</field>
+            <field name="ten_su_co">Do thiết bị điện</field>
+            <field name="loai_su_co">TBD</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_dvcs">A01</field>
+        </record>
+        <record id="iwmn_r81dmsuco_3_2" model="iwmn.r81dmsuco">
+            <field name="ma_su_co">3.2</field>
+            <field name="ten_su_co">Do thiết bị cơ khí</field>
+            <field name="loai_su_co">TBC</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_dvcs">A01</field>
+        </record>
+        <record id="iwmn_r81dmsuco_3_3" model="iwmn.r81dmsuco">
+            <field name="ma_su_co">3.3</field>
+            <field name="ten_su_co">Do thiết bị CBSX</field>
+            <field name="loai_su_co">CBSX</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_dvcs">A01</field>
+        </record>
+        <record id="iwmn_r81dmsuco_4_1" model="iwmn.r81dmsuco">
+            <field name="ma_su_co">4.1</field>
+            <field name="ten_su_co">Do phôi (misroll, hết phôi, thiếu phôi, chờ phôi)</field>
+            <field name="loai_su_co">KHAC</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_dvcs">A01</field>
+        </record>
+        <record id="iwmn_r81dmsuco_4_2" model="iwmn.r81dmsuco">
+            <field name="ma_su_co">4.2</field>
+            <field name="ten_su_co">Do xử lý vật liệu lò nung</field>
+            <field name="loai_su_co">KHAC</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_dvcs">A01</field>
+        </record>
+        <record id="iwmn_r81dmsuco_4_3" model="iwmn.r81dmsuco">
+            <field name="ma_su_co">4.3</field>
+            <field name="ten_su_co">Do vấn đề khách quan: mất điện, mất khí N-Gas</field>
+            <field name="loai_su_co">KHAC</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_dvcs">A01</field>
+        </record>
+        <record id="iwmn_r81dmsuco_5" model="iwmn.r81dmsuco">
+            <field name="ma_su_co">5</field>
+            <field name="ten_su_co">Ngưng theo kế hoạch (bảo trì, nghỉ lễ tết, điều tiết sản xuất)</field>
+            <field name="loai_su_co">BTKH</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_dvcs">A01</field>
+        </record>
+        <record id="iwmn_r81dmsuco_cn" model="iwmn.r81dmsuco">
+            <field name="ma_su_co">CN</field>
+            <field name="ten_su_co">Sư cố công nghệ</field>
+            <field name="loai_su_co">LUYEN</field>
+            <field name="create_log">180219:154513:VR</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_dvcs">A01</field>
+        </record>
+        <record id="iwmn_r81dmsuco_cnbb" model="iwmn.r81dmsuco">
+            <field name="ma_su_co">CNBB</field>
+            <field name="ten_su_co">Sư cố công nghệ bắt buộc</field>
+            <field name="loai_su_co">LUYEN</field>
+            <field name="create_log">180219:154539:VR</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_dvcs">A01</field>
+        </record>
+        <record id="iwmn_r81dmsuco_gc" model="iwmn.r81dmsuco">
+            <field name="ma_su_co">GC</field>
+            <field name="ten_su_co">Ghi chú</field>
+            <field name="loai_su_co">LUYEN</field>
+            <field name="create_log">010620:083931:VR</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_dvcs">A01</field>
+        </record>
+        <record id="iwmn_r81dmsuco_k" model="iwmn.r81dmsuco">
+            <field name="ma_su_co">K</field>
+            <field name="ten_su_co">Sự cố khác</field>
+            <field name="loai_su_co">LUYEN</field>
+            <field name="create_log">220919:170231:VR</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_dvcs">A01</field>
+        </record>
+        <record id="iwmn_r81dmsuco_nkh" model="iwmn.r81dmsuco">
+            <field name="ma_su_co">NKH</field>
+            <field name="ten_su_co">Ngưng kế hoạch</field>
+            <field name="loai_su_co">LUYEN</field>
+            <field name="create_log">261219:143040:VR</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_dvcs">A01</field>
+        </record>
+        <record id="iwmn_r81dmsuco_tb" model="iwmn.r81dmsuco">
+            <field name="ma_su_co">TB</field>
+            <field name="ten_su_co">Sư cố thiết bị</field>
+            <field name="loai_su_co">LUYEN</field>
+            <field name="create_log">180219:154456:VR</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_dvcs">A01</field>
+        </record>
+    </data>
+</odoo>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_iwmn_r81equipment_list" model="ir.ui.view">
+        <field name="name">iwmn.r81equipment.list</field>
+        <field name="model">iwmn.r81equipment</field>
+        <field name="arch" type="xml">
+            <list string="R81Equipment - Host_IP">
+                <field name="host_ip"/>
+                <field name="host_name"/>
+                <field name="create_log"/>
+                <field name="lastmodify_log"/>
+                <field name="loai_can"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81equipment_form" model="ir.ui.view">
+        <field name="name">iwmn.r81equipment.form</field>
+        <field name="model">iwmn.r81equipment</field>
+        <field name="arch" type="xml">
+            <form string="R81Equipment - Host_IP">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="host_ip"/>
+                            <field name="host_name"/>
+                            <field name="create_log"/>
+                        </group>
+                        <group>
+                            <field name="lastmodify_log"/>
+                            <field name="loai_can"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81equipment_search" model="ir.ui.view">
+        <field name="name">iwmn.r81equipment.search</field>
+        <field name="model">iwmn.r81equipment</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="host_ip"/>
+                <field name="host_name"/>
+                <field name="create_log"/>
+                <field name="lastmodify_log"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_iwmn_r81equipment" model="ir.actions.act_window">
+        <field name="name">R81Equipment - Host_IP</field>
+        <field name="res_model">iwmn.r81equipment</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_iwmn_r81equipment_search"/>
+    </record>
+
+    <menuitem id="menu_iwmn_r81equipment" name="R81Equipment - Host_IP"
+              parent="menu_iwmn_master_equipment"
+              action="action_iwmn_r81equipment" sequence="63"/>
+</odoo>

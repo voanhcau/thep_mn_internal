@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_iwmn_r81dmtk_list" model="ir.ui.view">
+        <field name="name">iwmn.r81dmtk.list</field>
+        <field name="model">iwmn.r81dmtk</field>
+        <field name="arch" type="xml">
+            <list string="R81DMTK - Ten_Tk">
+                <field name="tk"/>
+                <field name="ten_tk"/>
+                <field name="ten_tke"/>
+                <field name="tk_parent"/>
+                <field name="tk_cuoi"/>
+                <field name="tk_sp"/>
+                <field name="tk_dt"/>
+                <field name="tk_km"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmtk_form" model="ir.ui.view">
+        <field name="name">iwmn.r81dmtk.form</field>
+        <field name="model">iwmn.r81dmtk</field>
+        <field name="arch" type="xml">
+            <form string="R81DMTK - Ten_Tk">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="tk"/>
+                            <field name="ten_tk"/>
+                            <field name="ten_tke"/>
+                            <field name="tk_parent"/>
+                            <field name="tk_cuoi"/>
+                            <field name="tk_sp"/>
+                            <field name="tk_dt"/>
+                            <field name="tk_km"/>
+                            <field name="so_tk_nh"/>
+                            <field name="ten_tk_nh"/>
+                            <field name="ten_tp_nh"/>
+                        </group>
+                        <group>
+                            <field name="ngay_begin"/>
+                            <field name="ngay_end"/>
+                            <field name="ma_data"/>
+                            <field name="create_log"/>
+                            <field name="lastmodify_log"/>
+                            <field name="ma_tte_goc"/>
+                            <field name="ident00"/>
+                            <field name="ten_tkc"/>
+                            <field name="ky_hieu_mau"/>
+                            <field name="ma_tap_doan"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmtk_search" model="ir.ui.view">
+        <field name="name">iwmn.r81dmtk.search</field>
+        <field name="model">iwmn.r81dmtk</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="ten_tk"/>
+                <field name="tk"/>
+                <field name="ten_tke"/>
+                <field name="tk_parent"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_iwmn_r81dmtk" model="ir.actions.act_window">
+        <field name="name">R81DMTK - Ten_Tk</field>
+        <field name="res_model">iwmn.r81dmtk</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_iwmn_r81dmtk_search"/>
+    </record>
+
+    <menuitem id="menu_iwmn_r81dmtk" name="R81DMTK - Ten_Tk"
+              parent="menu_iwmn_master_finance"
+              action="action_iwmn_r81dmtk" sequence="55"/>
+</odoo>

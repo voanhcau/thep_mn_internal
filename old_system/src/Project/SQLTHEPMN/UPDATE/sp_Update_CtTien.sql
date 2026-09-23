@@ -1,0 +1,260 @@
+﻿set ANSI_NULLS ON
+set QUOTED_IDENTIFIER ON
+go
+
+
+/*
+DROP PROCEDURE Sp_Update_CtTien
+
+--Tạo lại TVP
+EXEC sp_CreateTVPStructure 'R80PH', 'TVP_PHTien', 1
+EXEC sp_CreateTVPStructure 'R01CtTien', 'TVP_CtTien', 1
+
+EXEC sp_CreateTVPStructure 'R80HanTt0', 'TVP_HanTt0', 1
+
+--Test thủ tục cập nhật
+DECLARE @PH AS TVP_PHTien, @Ct TVP_CtTien
+INSERT INTO @PH SELECT * FROM R80PH WHERE Stt = 'A01010000010064-'
+INSERT INTO @Ct SELECT * FROM R01CtTien WHERE Stt = 'A01010000010064-'
+EXEC Sp_Update_CtTien 'E', @PH, @Ct, 'A01010000010064-', 'A01'
+*/
+IF OBJECT_ID('Sp_Update_CtTien') IS NOT NULL DROP PROCEDURE Sp_Update_CtTien
+GO 
+
+CREATE PROCEDURE [dbo].[Sp_Update_CtTien]
+(
+	@strNew_Edit CHAR(1),
+	@PH TVP_PHTien READONLY,
+	@Ct TVP_CtTien READONLY,
+	@Stt VARCHAR(15),
+	@Ma_Ct VARCHAR(5),
+	@Ma_DvCs VARCHAR(5)
+)
+WITH ENCRYPTION
+AS
+BEGIN
+
+	--Kiểm Tra tồn tại Stt khi thêm mới
+	IF (@strNew_Edit IN ('N','C') AND EXISTS(SELECT Stt FROM R80PH WHERE Stt = @Stt))
+	BEGIN
+		RAISERROR (N'Thêm mới trùng Stt [%s]', 16, 1, @Stt)
+		RETURN
+	END
+
+	DECLARE @_Stt0_Error INT
+
+	--Kiểm Tra Tien_Nt * Ty_Gia <> Tien
+	IF EXISTS(SELECT Stt0 FROM @Ct WHERE ABS((Tien_Nt * Ty_Gia) - Tien) > 1000 AND Tien_Nt <> 0 AND Ty_Gia <> 1)
+	BEGIN
+		SET @_Stt0_Error = (SELECT MAX(Stt0) FROM @Ct WHERE ABS((Tien_Nt * Ty_Gia) - Tien) > 1000 AND Tien_Nt <> 0 AND Ty_Gia <> 1)
+
+		RAISERROR (N'Tồn tại dòng [%d] (Tien_Nt * Ty_Gia) <> Tien)', 16, 1, @_Stt0_Error)
+		RETURN
+	END
+	--Kiểm Tra Tien_Nt <> 0
+	IF EXISTS(SELECT Stt0 FROM @Ct WHERE ABS(Tien_Nt9) = 0)
+	BEGIN
+		SET @_Stt0_Error = (SELECT MAX(Stt0) FROM @Ct WHERE ABS(Tien_Nt9) = 0)
+
+		RAISERROR (N'Tồn tại dòng [%d] (Tien_NT9) = 0', 16, 1, @_Stt0_Error)
+		RETURN
+	END
+	----Kiểm Tra ngày chứng từ và ngày hóa đơn
+	--IF EXISTS(SELECT Stt0 FROM @Ct WHERE Ngay_Ct < Ngay_Ct0)
+	--BEGIN
+	--	SET @_Stt0_Error = (SELECT MAX(Stt0) FROM @Ct WHERE Ngay_Ct < Ngay_Ct0)
+		
+	--	RAISERROR (N'Tồn tại dòng [%d] ngày chứng từ nhỏ hơn ngày hóa đơn', 16, 1, @_Stt0_Error)
+	--	RETURN
+	--END
+
+	DECLARE @_TablePHName VARCHAR(50) = '', @_TVPPHName VARCHAR(50) = '',
+			@_TableCtName VARCHAR(50) = '', @_TVPCtName VARCHAR(50) = '',
+			@_SQLExec NVARCHAR(MAX) = '', @_Params NVARCHAR(2000),
+			@_InsertPHScript VARCHAR(MAX) = '', @_InsertCtScript VARCHAR(MAX) = '',
+			@_UpdatePHScript VARCHAR(MAX) = '', @_UpdateCtScript VARCHAR(MAX) = '',
+			@_ColumnName VARCHAR(50) = ''
+
+	SELECT	@_TablePHName = Table_PH,
+			@_TableCtName = Table_Ct
+		FROM R00DmCt
+		WHERE Ma_Ct = @Ma_Ct
+
+	SELECT	@_TVPPHName = 'TVP_PHTien',
+			@_TVPCtName = 'TVP_CtTien'
+
+	SELECT * INTO #T_TablePH FROM @PH
+	SELECT * INTO #T_TableCt FROM @Ct
+	
+	-- Xử lý Is_Lock Có 131
+	IF EXISTS(SELECT Stt0 FROM #T_TableCt WHERE Tk_Co LIKE '131%' OR Tk_Co3 LIKE '131%')
+		UPDATE #T_TableCt SET Is_Lock = 1
+	ELSE
+		UPDATE #T_TableCt SET Is_Lock = 0
+	
+	UPDATE #T_TablePH SET Stt = @Stt, Ma_Ct = @Ma_Ct, Ma_DvCs = @Ma_DvCs
+	UPDATE #T_TableCt SET Stt = @Stt, Ma_Ct = @Ma_Ct, Ma_DvCs = @Ma_DvCs
+
+	IF EXISTS(SELECT * FROM #T_TableCt WHERE Ma_Hd <> '' AND Ma_Ct = 'BN')
+	BEGIN
+		DECLARE @_Ma_Hd VARCHAR(50), @_Ngay_Ct DATETIME, @_TTien MONEY
+		SET @_Ma_Hd = (SELECT MAX(Ma_Hd) FROM  #T_TableCt)
+		SET @_Ngay_Ct = (SELECT MAX(Ngay_Ct) FROM  #T_TableCt)
+		SET @_TTien = (SELECT TTien0 FROM  #T_TablePH)
+		EXEC sp_UpdateHDNgayGh @_Ma_Hd, @_Ngay_Ct, @_TTien
+
+	END
+	BEGIN TRY
+		BEGIN TRANSACTION
+
+		--PH
+		SELECT @_ColumnName = MIN(Name) 
+			FROM sys.columns T1
+			WHERE (T1.OBJECT_ID IN (SELECT Type_Table_object_id FROM sys.table_types where name = @_TVPPHName)) 
+				AND EXISTS(SELECT * FROM sys.columns T2 WHERE T2.Object_ID = Object_ID(@_TablePHName) AND T2.Is_Identity = 0 AND T2.Name = T1.Name)
+
+		WHILE @_ColumnName IS NOT NULL
+		BEGIN
+			SELECT @_InsertPHScript = CASE  
+										WHEN @_InsertPHScript = '' THEN '' 
+										ELSE @_InsertPHScript + ','
+									END + @_ColumnName
+										
+			SELECT @_UpdatePHScript = CASE  
+										WHEN @_UpdatePHScript = '' THEN '' 
+										ELSE @_UpdatePHScript + ','
+									END + @_ColumnName + '=T2.' + @_ColumnName
+			
+			SELECT @_ColumnName = MIN(Name) 
+				FROM sys.columns T1
+				WHERE (T1.OBJECT_ID IN (SELECT Type_Table_object_id FROM sys.table_types where name = @_TVPPHName)) 
+					AND EXISTS(SELECT * FROM sys.columns T2 WHERE T2.Object_ID = Object_ID(@_TablePHName) AND T2.Is_Identity = 0 AND T2.Name = T1.Name) AND T1.name > @_ColumnName
+		END
+
+		PRINT @_InsertPHScript
+		PRINT @_UpdatePHScript
+
+		--Ct
+		SELECT @_ColumnName = MIN(Name) 
+			FROM sys.columns T1
+			WHERE (T1.OBJECT_ID IN (SELECT Type_Table_object_id FROM sys.table_types where name = @_TVPCtName)) 
+				AND EXISTS(SELECT * FROM sys.columns T2 WHERE T2.Object_ID = Object_ID(@_TableCtName) AND T2.Is_Identity = 0 AND T2.Name = T1.Name)
+ 
+		WHILE @_ColumnName IS NOT NULL
+		BEGIN
+			SELECT @_InsertCtScript = CASE  
+										WHEN @_InsertCtScript = '' THEN '' 
+										ELSE @_InsertCtScript + ','
+									END + @_ColumnName
+
+			SELECT @_UpdateCtScript = CASE  
+										WHEN @_UpdateCtScript = '' THEN '' 
+										ELSE @_UpdateCtScript + ','
+									END + @_ColumnName + '=T2.' + @_ColumnName
+			
+			SELECT @_ColumnName = MIN(Name) 
+				FROM sys.columns T1
+				WHERE (T1.OBJECT_ID IN (SELECT Type_Table_object_id FROM sys.table_types where name = @_TVPCtName)) 
+					AND EXISTS(SELECT * FROM sys.columns T2 WHERE T2.Object_ID = Object_ID(@_TableCtName) AND T2.Is_Identity = 0 AND T2.Name = T1.Name) AND name > @_ColumnName
+		END
+
+		PRINT @_InsertCtScript
+		PRINT @_UpdateCtScript
+
+		IF (@strNew_Edit IN ('N','C')) --Thêm, Copy
+		BEGIN
+			PRINT @Stt
+
+			--PH
+			SELECT @_SQLExec = 
+				'INSERT INTO ' + @_TablePHName + ' (' + @_InsertPHScript + ')
+					SELECT ' + @_InsertPHScript + '
+						FROM #T_TablePH 
+						WHERE Stt = @Stt'
+
+			SELECT @_Params = N'@Stt VARCHAR(15)'
+
+			EXEC sp_executesql @_SQLExec, @_Params, @Stt
+
+			----CT
+			SELECT @_SQLExec = 
+				'INSERT INTO ' + @_TableCtName + ' (' + @_InsertCtScript + ')
+					SELECT ' + @_InsertCtScript + '
+						FROM #T_TableCT
+						WHERE Stt = @Stt'
+
+			SELECT @_Params = N'@Stt VARCHAR(15)'
+
+			EXEC sp_executesql @_SQLExec, @_Params, @Stt
+				
+		END
+		ELSE IF (@strNew_Edit IN ('E')) --Sửa
+		BEGIN
+			--PH
+			SELECT @_SQLExec = 
+				'UPDATE T1 SET ' + @_UpdatePHScript + '
+					FROM ' + @_TablePHName + ' T1 JOIN #T_TablePH T2 ON T1.Stt = T2.Stt
+					WHERE T1.Stt = @Stt'
+		
+			SELECT @_Params = N'@Stt VARCHAR(15)'
+
+			EXEC sp_executesql @_SQLExec, @_Params, @Stt
+
+			--Ct
+			SELECT @_SQLExec = '
+				--Delete những dòng không tồn tại trong bảng mới (Những dòng đã xóa)
+				DELETE T1
+					FROM ' + @_TableCtName + ' T1
+					WHERE NOT EXISTS (SELECT Stt, Stt0 FROM #T_TableCT T2 WHERE T2.Stt = T1.Stt AND T2.Stt0 = T1.Stt0)
+						AND T1.Stt = @Stt
+		
+				--Update những dòng đã tồn tại
+				UPDATE T1 SET ' + @_UpdateCtScript + '
+					FROM ' + @_TableCtName + ' T1 JOIN #T_TableCT T2 ON T1.Stt = T2.Stt AND T1.Stt0 = T2.Stt0
+					WHERE T1.Stt = @Stt
+
+				--Insert những dòng mới thêm vào
+				INSERT INTO ' + @_TableCtName + ' (' + @_InsertCtScript + ')
+					SELECT 	' + @_InsertCtScript + '
+						FROM #T_TableCT T2
+						WHERE Stt = @Stt AND NOT EXISTS (SELECT Stt, Stt0 FROM ' + @_TableCtName + ' T1 WHERE T2.Stt = T1.Stt AND T2.Stt0 = T1.Stt0)'
+
+			SELECT @_Params = N'@Stt VARCHAR(15)'
+
+			EXEC sp_executesql @_SQLExec, @_Params, @Stt
+		END
+
+		COMMIT TRANSACTION
+	END TRY
+	BEGIN CATCH
+		ROLLBACK TRANSACTION
+
+		DECLARE @ErrorMessage NVARCHAR(4000) = ERROR_MESSAGE() + CHAR(13) + @_SQLExec,
+				@ErrorSeverity INT = ERROR_SEVERITY(),
+				@ErrorState INT = ERROR_STATE()
+
+		RAISERROR (@ErrorMessage, @ErrorSeverity, @ErrorState);
+
+	END CATCH
+	
+	SELECT @Stt
+	--cập nhật thanh toán tự động với nợ tk 331
+	DECLARE @_Create_Log VARCHAR(50) = (SELECT CASE WHEN LastModify_Log <> '' THEN LastModify_Log ELSE Create_Log END FROM #T_TablePH)
+	DECLARE	@_Tk VARCHAR(20), @_Ma_Dt VARCHAR(20)
+	
+	SELECT TK_No, MA_DT, ROW_NUMBER() OVER(ORDER BY MA_DT) as Stt INTO #T_Ct FROM #T_TableCT GROUP BY TK_No, MA_DT
+	
+	DECLARE @_i INT = 1, @_j INT = (SELECT MAX(Stt) FROM #T_Ct)
+	
+	WHILE @_i <= @_j
+	BEGIN
+		SET @_Tk  = (SELECT (Tk_No) FROM #T_Ct WHERE Stt = @_i)
+		SET @_Ma_Dt  = (SELECT (Ma_Dt) FROM #T_Ct WHERE Stt = @_i)
+	
+		IF(@_Tk = '3311')
+			EXEC sp_CheckHanTTAuto @Stt, @_Ma_Dt , @_Tk, @_Create_Log, @Ma_DvCs
+		
+		SET @_i = @_i + 1
+	END
+	DROP TABLE #T_Ct
+END

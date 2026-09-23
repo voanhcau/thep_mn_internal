@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_iwmn_r81dmnhlopdt_list" model="ir.ui.view">
+        <field name="name">iwmn.r81dmnhlopdt.list</field>
+        <field name="model">iwmn.r81dmnhlopdt</field>
+        <field name="arch" type="xml">
+            <list string="R81DMNHLOPDT - Ten_Nh_LopDT">
+                <field name="ma_nh_lopdt"/>
+                <field name="ten_nh_lopdt"/>
+                <field name="ngay_begin"/>
+                <field name="ngay_end"/>
+                <field name="create_log"/>
+                <field name="lastmodify_log"/>
+                <field name="ma_data"/>
+                <field name="ma_nh_lopdt_parent"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmnhlopdt_form" model="ir.ui.view">
+        <field name="name">iwmn.r81dmnhlopdt.form</field>
+        <field name="model">iwmn.r81dmnhlopdt</field>
+        <field name="arch" type="xml">
+            <form string="R81DMNHLOPDT - Ten_Nh_LopDT">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="ma_nh_lopdt"/>
+                            <field name="ten_nh_lopdt"/>
+                            <field name="ngay_begin"/>
+                            <field name="ngay_end"/>
+                            <field name="create_log"/>
+                        </group>
+                        <group>
+                            <field name="lastmodify_log"/>
+                            <field name="ma_data"/>
+                            <field name="ma_nh_lopdt_parent"/>
+                            <field name="nh_cuoi"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmnhlopdt_search" model="ir.ui.view">
+        <field name="name">iwmn.r81dmnhlopdt.search</field>
+        <field name="model">iwmn.r81dmnhlopdt</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="ten_nh_lopdt"/>
+                <field name="ma_nh_lopdt"/>
+                <field name="ngay_begin"/>
+                <field name="ngay_end"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_iwmn_r81dmnhlopdt" model="ir.actions.act_window">
+        <field name="name">R81DMNHLOPDT - Ten_Nh_LopDT</field>
+        <field name="res_model">iwmn.r81dmnhlopdt</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_iwmn_r81dmnhlopdt_search"/>
+    </record>
+
+    <menuitem id="menu_iwmn_r81dmnhlopdt" name="R81DMNHLOPDT - Ten_Nh_LopDT"
+              parent="menu_iwmn_master_organization"
+              action="action_iwmn_r81dmnhlopdt" sequence="45"/>
+</odoo>

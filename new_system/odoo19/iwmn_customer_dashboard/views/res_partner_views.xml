@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_partner_form_credit_dashboard" model="ir.ui.view">
+        <field name="name">res.partner.form.credit.dashboard</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='vat']" position="after">
+                <label for="iwmn_credit_partner_id"
+                       string="Khách hàng ERP (hạn mức)"/>
+                <div class="o_row">
+                    <field name="iwmn_credit_partner_id"
+                           string="Khách hàng ERP (hạn mức)"
+                           options="{'no_create': True, 'no_create_edit': True}"/>
+                </div>
+            </xpath>
+        </field>
+    </record>
+</odoo>

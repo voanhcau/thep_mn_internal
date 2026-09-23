@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="iwmn_r81dmthue_20" model="iwmn.r81dmthue">
+            <field name="ma_thue">KCT</field>
+            <field name="ten_thue">Không chịu thuế</field>
+            <field name="thue_suat">0</field>
+            <field name="loai_thue">1</field>
+            <field name="tk">33311</field>
+            <field name="phan_loai_thue">V01</field>
+            <field name="create_log">070723:161426:VR</field>
+            <field name="lastmodify_log">140515:183720:VR</field>
+            <field name="ngay_begin">2008-01-01</field>
+            <field name="ngay_end">2014-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="ident00">20</field>
+        </record>
+        <record id="iwmn_r81dmthue_1" model="iwmn.r81dmthue">
+            <field name="ma_thue">R00</field>
+            <field name="ten_thue">Thuế GTGT ra vào 0%</field>
+            <field name="thue_suat">0</field>
+            <field name="loai_thue">2</field>
+            <field name="tk">33311</field>
+            <field name="phan_loai_thue">R02</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">140515:183720:VR</field>
+            <field name="ngay_begin">2008-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="ident00">1</field>
+        </record>
+        <record id="iwmn_r81dmthue_3" model="iwmn.r81dmthue">
+            <field name="ma_thue">R05</field>
+            <field name="ten_thue">Inputing VAT -  5%</field>
+            <field name="thue_suat">5</field>
+            <field name="loai_thue">2</field>
+            <field name="tk">33311</field>
+            <field name="phan_loai_thue">R03</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">201113:153952:VR</field>
+            <field name="ngay_begin">2008-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="ident00">3</field>
+        </record>
+        <record id="iwmn_r81dmthue_19" model="iwmn.r81dmthue">
+            <field name="ma_thue">R08</field>
+            <field name="ten_thue">Thuế GTGT đầu ra 8%</field>
+            <field name="thue_suat">8</field>
+            <field name="loai_thue">2</field>
+            <field name="tk">33311</field>
+            <field name="phan_loai_thue">R04</field>
+            <field name="create_log">250222:161931:VR</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_begin">2008-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="ident00">19</field>
+        </record>
+        <record id="iwmn_r81dmthue_4" model="iwmn.r81dmthue">
+            <field name="ma_thue">R10</field>
+            <field name="ten_thue">Thuế GTGT đầu ra 10%</field>
+            <field name="thue_suat">10</field>
+            <field name="loai_thue">2</field>
+            <field name="tk">33311</field>
+            <field name="phan_loai_thue">R04</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_begin">2008-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="ident00">4</field>
+        </record>
+        <record id="iwmn_r81dmthue_5" model="iwmn.r81dmthue">
+            <field name="ma_thue">RDC</field>
+            <field name="ten_thue">Thuế GTGT đầu ra điều chỉnh của các kỳ trước</field>
+            <field name="thue_suat">0</field>
+            <field name="loai_thue">2</field>
+            <field name="tk">33311</field>
+            <field name="phan_loai_thue" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_begin">2008-01-01</field>
+            <field name="ngay_end">2014-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="ident00">5</field>
+        </record>
+        <record id="iwmn_r81dmthue_21" model="iwmn.r81dmthue">
+            <field name="ma_thue">RKK</field>
+            <field name="ten_thue">Hàng hóa đầu ra không chịu thuế</field>
+            <field name="thue_suat">0</field>
+            <field name="loai_thue">2</field>
+            <field name="tk">33311</field>
+            <field name="phan_loai_thue">R01</field>
+            <field name="create_log">200326:150634:VR</field>
+            <field name="lastmodify_log">071011:000208:VR</field>
+            <field name="ngay_begin">2008-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="ident00">21</field>
+        </record>
+        <record id="iwmn_r81dmthue_6" model="iwmn.r81dmthue">
+            <field name="ma_thue">RKTK</field>
+            <field name="ten_thue">Hàng hóa, dịch vụ không phải tổng hợp trên tờ khai 01/GTGT</field>
+            <field name="thue_suat">10</field>
+            <field name="loai_thue">2</field>
+            <field name="tk">33311</field>
+            <field name="phan_loai_thue">R05</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_begin">2008-01-01</field>
+            <field name="ngay_end">2014-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="ident00">6</field>
+        </record>
+        <record id="iwmn_r81dmthue_7" model="iwmn.r81dmthue">
+            <field name="ma_thue">V00</field>
+            <field name="ten_thue">Thuế GTGT đầu vào 0%</field>
+            <field name="thue_suat">0</field>
+            <field name="loai_thue">1</field>
+            <field name="tk">1331</field>
+            <field name="phan_loai_thue">V02</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">130515:135802:VR</field>
+            <field name="ngay_begin">2008-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="ident00">7</field>
+        </record>
+        <record id="iwmn_r81dmthue_8" model="iwmn.r81dmthue">
+            <field name="ma_thue">V00K</field>
+            <field name="ten_thue">Hàng hóa đầu vào không đủ điều kiện khấu trừ</field>
+            <field name="thue_suat">0</field>
+            <field name="loai_thue">1</field>
+            <field name="tk">1331</field>
+            <field name="phan_loai_thue">V02</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_begin">2008-01-01</field>
+            <field name="ngay_end">2014-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="ident00">8</field>
+        </record>
+        <record id="iwmn_r81dmthue_9" model="iwmn.r81dmthue">
+            <field name="ma_thue">V05</field>
+            <field name="ten_thue">Thuế GTGT đầu vào 5%</field>
+            <field name="thue_suat">5</field>
+            <field name="loai_thue">1</field>
+            <field name="tk">1331</field>
+            <field name="phan_loai_thue">V01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_begin">2008-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="ident00">9</field>
+        </record>
+        <record id="iwmn_r81dmthue_10" model="iwmn.r81dmthue">
+            <field name="ma_thue">V05K</field>
+            <field name="ten_thue">Thuế GTGT đầu vào 5% không đủ điều kiện khấu trừ</field>
+            <field name="thue_suat">5</field>
+            <field name="loai_thue">1</field>
+            <field name="tk">1331</field>
+            <field name="phan_loai_thue">V02</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_begin">2008-01-01</field>
+            <field name="ngay_end">2014-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="ident00">10</field>
+        </record>
+        <record id="iwmn_r81dmthue_17" model="iwmn.r81dmthue">
+            <field name="ma_thue">V07</field>
+            <field name="ten_thue">Thuế GTGT đầu vào 7%</field>
+            <field name="thue_suat">7</field>
+            <field name="loai_thue">1</field>
+            <field name="tk">1331</field>
+            <field name="phan_loai_thue">V01</field>
+            <field name="create_log">221121:131441:VR</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_begin">2008-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="ident00">17</field>
+        </record>
+        <record id="iwmn_r81dmthue_18" model="iwmn.r81dmthue">
+            <field name="ma_thue">V08</field>
+            <field name="ten_thue">Thuế GTGT đầu vào 8%</field>
+            <field name="thue_suat">8</field>
+            <field name="loai_thue">1</field>
+            <field name="tk">1331</field>
+            <field name="phan_loai_thue">V01</field>
+            <field name="create_log">280122:124252:VR</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_begin">2008-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="ident00">18</field>
+        </record>
+        <record id="iwmn_r81dmthue_11" model="iwmn.r81dmthue">
+            <field name="ma_thue">V10</field>
+            <field name="ten_thue">Thuế GTGT đầu vào 10%</field>
+            <field name="thue_suat">10</field>
+            <field name="loai_thue">1</field>
+            <field name="tk">1331</field>
+            <field name="phan_loai_thue">V01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_begin">2008-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="ident00">11</field>
+        </record>
+        <record id="iwmn_r81dmthue_12" model="iwmn.r81dmthue">
+            <field name="ma_thue">V10K</field>
+            <field name="ten_thue">Thuế GTGT đầu vào 10% Không đủ điều kiện khấu trừ</field>
+            <field name="thue_suat">10</field>
+            <field name="loai_thue">1</field>
+            <field name="tk">1331</field>
+            <field name="phan_loai_thue">V02</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_begin">2008-01-01</field>
+            <field name="ngay_end">2014-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="ident00">12</field>
+        </record>
+        <record id="iwmn_r81dmthue_13" model="iwmn.r81dmthue">
+            <field name="ma_thue">VCHSX</field>
+            <field name="ten_thue">Thuế GTGT đầu vào dùng chung cho SXKD chịu thuế và không chịu thuế, đủ điều kiện khấu trừ</field>
+            <field name="thue_suat">0</field>
+            <field name="loai_thue">1</field>
+            <field name="tk">1331</field>
+            <field name="phan_loai_thue">V03</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_begin">2008-01-01</field>
+            <field name="ngay_end">2014-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="ident00">13</field>
+        </record>
+        <record id="iwmn_r81dmthue_14" model="iwmn.r81dmthue">
+            <field name="ma_thue">VDA</field>
+            <field name="ten_thue">Thuế GTGT đầu vào dùng cho dự án đầu tư, đủ điều kiện khấu trừ thuế</field>
+            <field name="thue_suat">0</field>
+            <field name="loai_thue">1</field>
+            <field name="tk">1331</field>
+            <field name="phan_loai_thue">V04</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_begin">2008-01-01</field>
+            <field name="ngay_end">2014-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="ident00">14</field>
+        </record>
+        <record id="iwmn_r81dmthue_15" model="iwmn.r81dmthue">
+            <field name="ma_thue">VDC</field>
+            <field name="ten_thue">Thuế GTGT đầu vào điều chỉnh của các kỳ trước</field>
+            <field name="thue_suat">0</field>
+            <field name="loai_thue">1</field>
+            <field name="tk">1331</field>
+            <field name="phan_loai_thue" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_begin">2008-01-01</field>
+            <field name="ngay_end">2014-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="ident00">15</field>
+        </record>
+        <record id="iwmn_r81dmthue_22" model="iwmn.r81dmthue">
+            <field name="ma_thue">VKK</field>
+            <field name="ten_thue">Thuế GTGT đầu vào 0%</field>
+            <field name="thue_suat">0</field>
+            <field name="loai_thue">1</field>
+            <field name="tk">1331</field>
+            <field name="phan_loai_thue">V02</field>
+            <field name="create_log">200326:150708:VR</field>
+            <field name="lastmodify_log">130515:135802:VR</field>
+            <field name="ngay_begin">2008-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="ident00">22</field>
+        </record>
+        <record id="iwmn_r81dmthue_16" model="iwmn.r81dmthue">
+            <field name="ma_thue">VKTK</field>
+            <field name="ten_thue">Thuế GTGT đầu vào không phải tổng hợp trên tờ khai GTGT</field>
+            <field name="thue_suat">10</field>
+            <field name="loai_thue">1</field>
+            <field name="tk">1331</field>
+            <field name="phan_loai_thue">V05</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_begin">2008-01-01</field>
+            <field name="ngay_end">2014-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="ident00">16</field>
+        </record>
+    </data>
+</odoo>

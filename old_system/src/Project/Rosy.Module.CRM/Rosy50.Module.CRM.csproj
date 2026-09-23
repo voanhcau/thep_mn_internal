@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9A21BA07-D230-4674-99B0-A8E30DBC7295}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RosyModule</RootNamespace>
+    <AssemblyName>Rosy.Module.CRM</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>
+    </StartupObject>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>Rosy.snk</AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Rosy\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v7.1, Version=7.1.4.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Rosy\DevExpress.Data.v7.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v7.1, Version=7.1.4.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Rosy\DevExpress.Utils.v7.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v7.1, Version=7.1.4.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Rosy\DevExpress.XtraEditors.v7.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v7.1, Version=7.1.4.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Rosy\DevExpress.XtraTreeList.v7.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v7.1.Design, Version=7.1.4.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Rosy\DevExpress.XtraTreeList.v7.1.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Office, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Rosy\Office.dll</HintPath>
+    </Reference>
+    <Reference Include="Rosy.Controller, Version=3.1.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Rosy\Rosy.Controller.dll</HintPath>
+    </Reference>
+    <Reference Include="Rosy.Controllers, Version=3.1.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Rosy\Rosy.Controllers.dll</HintPath>
+    </Reference>
+    <Reference Include="Rosy.List, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Rosy\Rosy.List.dll</HintPath>
+    </Reference>
+    <Reference Include="Rosy.Module.CRM">
+      <HintPath>..\Rosy\Rosy.Module.CRM.dll</HintPath>
+    </Reference>
+    <Reference Include="Rosy.System, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL" />
+    <Reference Include="Rosy.System.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL" />
+    <Reference Include="Rosy.System.Data, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL" />
+    <Reference Include="Rosy.System.Element, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL" />
+    <Reference Include="Rosy.System.Library, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL" />
+    <Reference Include="Rosy.System.Public, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmToDoBH_Dkl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmToDoBH_Dkl.Designer.cs">
+      <DependentUpon>frmToDoBH_Dkl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmToDoBH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmToDoBH.Designer.cs">
+      <DependentUpon>frmToDoBH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCRMState.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCRMState.Designer.cs">
+      <DependentUpon>frmCRMState.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmToDo_Dkl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmToDo_Dkl.Designer.cs">
+      <DependentUpon>frmToDo_Dkl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTask_CbNv_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTask_CbNv_Edit.Designer.cs">
+      <DependentUpon>frmTask_CbNv_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTask_Kh_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTask_Kh_Edit.Designer.cs">
+      <DependentUpon>frmTask_Kh_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFinish_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFinish_Edit.Designer.cs">
+      <DependentUpon>frmFinish_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPayment_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPayment_Edit.Designer.cs">
+      <DependentUpon>frmPayment_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmContract_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmContract_Edit.Designer.cs">
+      <DependentUpon>frmContract_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmContract.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmContract.Designer.cs">
+      <DependentUpon>frmContract.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmToDo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmToDo.Designer.cs">
+      <DependentUpon>frmToDo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCustomer_Dkl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustomer_Dkl.Designer.cs">
+      <DependentUpon>frmCustomer_Dkl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmContact_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmContact_Edit.Designer.cs">
+      <DependentUpon>frmContact_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRMLib.cs" />
+    <Compile Include="frmCustomer_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustomer_Edit.Designer.cs">
+      <DependentUpon>frmCustomer_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustomer.Designer.cs">
+      <DependentUpon>frmCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmToDo_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmToDo_Edit.Designer.cs">
+      <DependentUpon>frmToDo_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmToDoBH_Dkl.resx">
+      <DependentUpon>frmToDoBH_Dkl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmToDoBH.resx">
+      <DependentUpon>frmToDoBH.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCRMState.resx">
+      <DependentUpon>frmCRMState.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmToDo_Dkl.resx">
+      <DependentUpon>frmToDo_Dkl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTask_CbNv_Edit.resx">
+      <DependentUpon>frmTask_CbNv_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTask_Kh_Edit.resx">
+      <DependentUpon>frmTask_Kh_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFinish_Edit.resx">
+      <DependentUpon>frmFinish_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPayment_Edit.resx">
+      <DependentUpon>frmPayment_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmContract_Edit.resx">
+      <DependentUpon>frmContract_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmContract.resx">
+      <DependentUpon>frmContract.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmToDo.resx">
+      <DependentUpon>frmToDo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustomer_Dkl.resx">
+      <DependentUpon>frmCustomer_Dkl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmContact_Edit.resx">
+      <DependentUpon>frmContact_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustomer_Edit.resx">
+      <DependentUpon>frmCustomer_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustomer.resx">
+      <DependentUpon>frmCustomer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmToDo_Edit.resx">
+      <DependentUpon>frmToDo_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Rosy.snk" />
+  </ItemGroup>
+</Project>

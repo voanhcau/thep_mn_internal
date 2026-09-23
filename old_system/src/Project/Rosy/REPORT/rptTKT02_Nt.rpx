@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ActiveReportsLayout Version="3" PrintWidth="14925" DocumentName="ARNet Document" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-style: normal; text-decoration: none; font-weight: normal; color: Black; font-family: &quot;Times New Roman&quot;; font-size: 11pt; ddo-char-set: 204; " />
+    <Style Name="Heading1" Value="font-size: 16pt; font-weight: bold; ddo-char-set: 204; " />
+    <Style Name="Heading2" Value="font-family: Times New Roman; font-weight: bold; font-style: italic; font-size: 18pt; ddo-char-set: 204; " />
+    <Style Name="Heading3" Value="font-weight: bold; font-size: 20pt; ddo-char-set: 204; " />
+  </StyleSheet>
+  <Sections>
+    <Section Type="ReportHeader" Name="reportHeader" Height="2505" BackColor="16777215">
+      <Control Type="AR.Label" Name="Label2" Tag="Dia_Chi_Dv" Left="828" Top="756.0001" Width="6768" Height="288" Caption="Dia_Chi_Dv" HyperLink="" Style="ddo-char-set: 1; font-weight: bold; font-size: 10pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label3" Tag="SubTitle2" Left="792" Top="1872" Width="13320" Height="576" Caption="SubTitle2" HyperLink="" Style="ddo-char-set: 1; text-align: center; font-weight: bold; font-style: normal; font-size: 10pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label4" Tag="Ten_Dv" Left="828" Top="468" Width="6768" Height="252" Caption="Ten_Dv" HyperLink="" Style="ddo-char-set: 1; font-weight: bold; font-size: 10pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label7" Tag="Title" Left="792" Top="1080" Width="13320" Height="504.0001" Caption="Title" HyperLink="" Style="ddo-char-set: 1; text-align: center; font-weight: bold; font-size: 18pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label8" Tag="Ten_Dv_Cq" Left="828" Top="180" Width="6768" Height="252" Caption="Ten_Dv_Cq" HyperLink="" Style="ddo-char-set: 1; font-weight: bold; font-size: 10pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label9" Tag="SubTitle1" Left="792" Top="1584" Width="13320" Height="288" Caption="SubTitle1" HyperLink="" Style="ddo-char-set: 1; text-align: center; font-style: italic; font-size: 10pt; font-family: Times New Roman; " />
+    </Section>
+    <Section Type="PageHeader" Name="pageHeader" Height="1095" BackColor="16777215">
+      <Control Type="AR.Label" Name="lblNGAY_CT" Tag="" Left="1170" Top="549.0001" Width="1350" Height="270" Caption="Mã tổng hợp" Style="text-align: center; font-weight: bold; font-size: 9pt; " />
+      <Control Type="AR.Line" Name="lineHeaderNGAY_CT" Tag="" X1="900" Y1="360" X2="900" Y2="1080" />
+      <Control Type="AR.Line" Name="lineHeaderDIEN_GIAI" Tag="" X1="2790" Y1="360" X2="2790" Y2="1080" />
+      <Control Type="AR.Line" Name="lineHeaderDU_NO2" Tag="" X1="8460" Y1="360" X2="8460" Y2="1080" />
+      <Control Type="AR.Line" Name="lineHeaderEnd" Tag="" X1="11250" Y1="360" X2="11250" Y2="1080" />
+      <Control Type="AR.Line" Name="lineBarHeader1" Tag="" X1="900" Y1="360" X2="14112" Y2="360" />
+      <Control Type="AR.Line" Name="lineBarHeader2" Tag="" X1="900" Y1="1080" X2="14112" Y2="1080" />
+      <Control Type="AR.Line" Name="Line2" Tag="" X1="6930" Y1="360" X2="6930" Y2="1080" />
+      <Control Type="AR.Line" Name="Line4" Tag="" X1="9810" Y1="360" X2="9810" Y2="1080" />
+      <Control Type="AR.Label" Name="Label19" Tag="" Left="7200" Top="540.0001" Width="1188" Height="288" Caption="Số lượng" Style="text-align: center; font-weight: bold; font-size: 9pt; " />
+      <Control Type="AR.Label" Name="Label20" Tag="" Left="8820" Top="540" Width="810" Height="270" Caption="Đơn giá" Style="text-align: center; font-weight: bold; font-size: 9pt; " />
+      <Control Type="AR.Label" Name="Label21" Tag="" Left="4320" Top="540" Width="1296" Height="288.0001" Caption="Tên tổng hợp" Style="text-align: center; font-weight: bold; font-size: 9pt; " />
+      <Control Type="AR.Label" Name="Label22" Tag="" Left="9936" Top="576" Width="1152" Height="288" Caption="Thành tiền" Style="text-align: center; font-weight: bold; font-size: 9pt; " />
+      <Control Type="AR.Line" Name="Line1" Tag="" X1="14112" Y1="360" X2="14112" Y2="1080" />
+      <Control Type="AR.Line" Name="Line5" Tag="" X1="12672" Y1="360" X2="12672" Y2="1080" />
+      <Control Type="AR.Label" Name="Label5" Tag="" Left="12816" Top="576" Width="1152" Height="432" Caption="Thành tiền Nt" Style="text-align: center; font-weight: bold; font-size: 9pt; " />
+      <Control Type="AR.Label" Name="Label6" Tag="" Left="11592" Top="504" Width="936.0003" Height="432" Caption="Đơn giá Nt" Style="text-align: center; font-weight: bold; font-size: 9pt; " />
+    </Section>
+    <Section Type="Detail" Name="detail" Height="360" BackColor="16777215">
+      <Control Type="AR.Line" Name="lineDetailNGAY_CT" Tag="" X1="900.0001" Y1="0" X2="900.0001" Y2="360" />
+      <Control Type="AR.Field" Name="txtDien_Giai" DataField="Ten_Th" Tag="" Left="2880" Top="81.00001" Width="3960" Height="270" Text="Ten_Th" Style="ddo-char-set: 0; text-align: left; font-weight: normal; font-size: 8.25pt; white-space: inherit; " SummaryDistinct="" />
+      <Control Type="AR.Line" Name="lineDetailDIEN_GIAI" Tag="" X1="2790" Y1="0" X2="2790" Y2="360" />
+      <Control Type="AR.Field" Name="txtSl_Xuat" DataField="Gia" Visible="0" Tag="Gia_Nt" Left="8496" Top="72" Width="1260" Height="252" Text="Gia" OutputFormat="#,##0.00" Multiline="0" Style="ddo-char-set: 0; text-align: right; font-weight: normal; font-size: 8.25pt; white-space: nowrap; " SummaryDistinct="" />
+      <Control Type="AR.Line" Name="lineDetailDU_NO2" Tag="" X1="8460" Y1="0" X2="8460" Y2="360" />
+      <Control Type="AR.Field" Name="txtTon_Cuoi" DataField="Tien" Visible="0" Tag="Tien_Nt" Left="9849.001" Top="42" Width="1368" Height="288" Text="Tien" OutputFormat="#,##0" Multiline="0" Style="ddo-char-set: 0; text-align: right; font-weight: normal; font-size: 8.25pt; white-space: nowrap; " SummaryDistinct="" />
+      <Control Type="AR.Line" Name="lineDetailDU_CO2" Tag="" X1="9810" Y1="0" X2="9810" Y2="360" />
+      <Control Type="AR.Line" Name="lineDetailEnd" Tag="" X1="11250" Y1="0" X2="11250" Y2="360" />
+      <Control Type="AR.Line" Name="lineBarDetail" Tag="" X1="921" Y1="360" X2="14124" Y2="360" />
+      <Control Type="AR.Line" Name="Line3" Tag="" X1="6930" Y1="0" X2="6930" Y2="360" />
+      <Control Type="AR.Field" Name="txtSl_Nhap" DataField="so_luong" Visible="0" Tag="" Left="7056" Top="90.00001" Width="1296" Height="252" Text="so_luong" OutputFormat="#,##0.00" Multiline="0" Style="ddo-char-set: 0; text-align: right; font-weight: normal; font-size: 8.25pt; white-space: nowrap; " SummaryDistinct="" />
+      <Control Type="AR.Field" Name="TextBox1" DataField="Ma_Th" Tag="" Left="1008" Top="72" Width="1656" Height="216" Text="Ma_Th" Style="ddo-char-set: 0; text-align: left; font-weight: normal; font-size: 8.25pt; white-space: inherit; " SummaryDistinct="" />
+      <Control Type="AR.Field" Name="TextBox2" DataField="Gia_Nt" Visible="0" Tag="Gia_Nt" Left="11346" Top="42" Width="1260" Height="252" Text="Gia_Nt" OutputFormat="#,##0.00" Multiline="0" Style="ddo-char-set: 0; text-align: right; font-weight: normal; font-size: 8.25pt; white-space: nowrap; " SummaryDistinct="" />
+      <Control Type="AR.Line" Name="Line6" Tag="" X1="14112" Y1="0" X2="14112" Y2="360" />
+      <Control Type="AR.Field" Name="TextBox3" DataField="Tien_Nt" Visible="0" Tag="Tien_Nt" Left="12729" Top="27" Width="1368" Height="288" Text="Tien_Nt" OutputFormat="#,##0.00" Multiline="0" Style="ddo-char-set: 0; text-align: right; font-weight: normal; font-size: 8.25pt; white-space: nowrap; " SummaryDistinct="" />
+      <Control Type="AR.Line" Name="Line7" Tag="" X1="12672" Y1="0" X2="12672" Y2="360" />
+    </Section>
+    <Section Type="PageFooter" Name="pageFooter" Height="855" BackColor="16777215">
+      <Control Type="AR.ReportInfo" Name="ReportInfo1" Left="12528" Top="72" Width="1512" Height="288" FormatString="Trang: {PageNumber}/{PageCount}" Style="font-size: 10pt; " />
+    </Section>
+    <Section Type="ReportFooter" Name="reportFooter" Height="2895" BackColor="16777215">
+      <Control Type="AR.Label" Name="Label10" Left="1656" Top="792" Width="1152" Height="288" Caption="(Ký, họ tên)" HyperLink="" Style="ddo-char-set: 1; text-align: center; font-style: italic; font-size: 10pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label11" Left="10512" Top="216" Width="3150" Height="270" Caption="Ngày...... tháng...... năm..........." HyperLink="" Style="ddo-char-set: 1; text-align: left; font-style: italic; font-size: 10pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label12" Tag="Name3" Left="10728" Top="2376" Width="2807.999" Height="288" Caption="Name3" HyperLink="" Style="ddo-char-set: 1; text-align: center; font-weight: bold; font-size: 10pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label13" Tag="Sign3" Left="10872" Top="576" Width="2448" Height="288" Caption="Sign3" HyperLink="" Style="ddo-char-set: 1; text-align: center; font-weight: bold; font-size: 10pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label14" Tag="Sign1" Left="936.0001" Top="432" Width="2520" Height="288" Caption="Sign1" HyperLink="" Style="ddo-char-set: 1; text-align: center; font-weight: bold; font-size: 10pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label15" Left="11664" Top="936.0001" Width="1152" Height="288" Caption="(Ký, họ tên)" HyperLink="" Style="ddo-char-set: 1; text-align: center; font-style: italic; font-size: 10pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label16" Tag="Name1" Left="864.0001" Top="2304" Width="2736" Height="288" Caption="Name1" HyperLink="" Style="ddo-char-set: 1; text-align: center; font-weight: bold; font-size: 10pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label17" Left="6912" Top="792" Width="1152" Height="288" Caption="(Ký, họ tên)" HyperLink="" Style="ddo-char-set: 1; text-align: center; font-style: italic; font-size: 10pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label18" Tag="Name2" Left="6120" Top="2304" Width="2736" Height="288" Caption="Name2" HyperLink="" Style="ddo-char-set: 1; text-align: center; font-weight: bold; font-size: 10pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label23" Tag="Sign2" Left="6192" Top="432" Width="2520" Height="288" Caption="Sign2" HyperLink="" Style="ddo-char-set: 1; text-align: center; font-weight: bold; font-size: 10pt; font-family: Times New Roman; " />
+    </Section>
+  </Sections>
+  <ReportComponentTray />
+  <PageSettings LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" PaperSize="9" PaperWidth="11906" PaperHeight="16838" PaperName="" Orientation="2" />
+  <Parameters />
+</ActiveReportsLayout>

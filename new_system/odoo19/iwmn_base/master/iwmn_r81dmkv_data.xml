@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="iwmn_r81dmkv_117" model="iwmn.r81dmkv">
+            <field name="ma_kv">AG</field>
+            <field name="ten_kv">An Giang</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">041215:103557:HONGBT</field>
+            <field name="lastmodify_log">111115:155954:HONGBT</field>
+            <field name="ident00">117</field>
+            <field name="ma_kv_parent" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkv_94" model="iwmn.r81dmkv">
+            <field name="ma_kv">BD</field>
+            <field name="ten_kv">Bình Dương</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">280815:135856:SYNQ</field>
+            <field name="lastmodify_log">110515:175603:VR</field>
+            <field name="ident00">94</field>
+            <field name="ma_kv_parent">DNB</field>
+        </record>
+        <record id="iwmn_r81dmkv_111" model="iwmn.r81dmkv">
+            <field name="ma_kv">BD_BT</field>
+            <field name="ten_kv">BINH DƯƠNG - BÌNH THUẬN</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">051115:102737:HONGBT</field>
+            <field name="lastmodify_log">290216:084649:VR</field>
+            <field name="ident00">111</field>
+            <field name="ma_kv_parent">BD_BT</field>
+        </record>
+        <record id="iwmn_r81dmkv_99" model="iwmn.r81dmkv">
+            <field name="ma_kv">BIENHOA</field>
+            <field name="ten_kv">Biên Hòa</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">310815:152136:VR</field>
+            <field name="lastmodify_log">110515:175603:VR</field>
+            <field name="ident00">99</field>
+            <field name="ma_kv_parent" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkv_112" model="iwmn.r81dmkv">
+            <field name="ma_kv">BL</field>
+            <field name="ten_kv">Bạc Liêu</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">061115:110429:HONGBT</field>
+            <field name="lastmodify_log">110515:175603:VR</field>
+            <field name="ident00">112</field>
+            <field name="ma_kv_parent">MT</field>
+        </record>
+        <record id="iwmn_r81dmkv_123" model="iwmn.r81dmkv">
+            <field name="ma_kv">BP</field>
+            <field name="ten_kv">Bình Phước</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">200616:092058:TUTC</field>
+            <field name="lastmodify_log">111115:155954:HONGBT</field>
+            <field name="ident00">123</field>
+            <field name="ma_kv_parent" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkv_79" model="iwmn.r81dmkv">
+            <field name="ma_kv">BRVT</field>
+            <field name="ten_kv">Bà Rịa - Vũng Tàu</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">110515:175622:VR</field>
+            <field name="lastmodify_log">181115:085804:HONGBT</field>
+            <field name="ident00">79</field>
+            <field name="ma_kv_parent">DNB</field>
+        </record>
+        <record id="iwmn_r81dmkv_83" model="iwmn.r81dmkv">
+            <field name="ma_kv">BT</field>
+            <field name="ten_kv">BINH THUAN</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">110515:175810:VR</field>
+            <field name="lastmodify_log">110515:175603:VR</field>
+            <field name="ident00">83</field>
+            <field name="ma_kv_parent">MTR</field>
+        </record>
+        <record id="iwmn_r81dmkv_127" model="iwmn.r81dmkv">
+            <field name="ma_kv">BTH</field>
+            <field name="ten_kv">Bình Thuận</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">050816:095747:TUTC</field>
+            <field name="lastmodify_log">050816:095807:TUTC</field>
+            <field name="ident00">127</field>
+            <field name="ma_kv_parent">MT</field>
+        </record>
+        <record id="iwmn_r81dmkv_91" model="iwmn.r81dmkv">
+            <field name="ma_kv">BTR</field>
+            <field name="ten_kv">Bến Tre</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">150815:080322:SYNQ</field>
+            <field name="lastmodify_log">110515:175603:VR</field>
+            <field name="ident00">91</field>
+            <field name="ma_kv_parent">DNB</field>
+        </record>
+        <record id="iwmn_r81dmkv_118" model="iwmn.r81dmkv">
+            <field name="ma_kv">BÐ</field>
+            <field name="ten_kv">Bình Định</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">300116:104223:TUTC</field>
+            <field name="lastmodify_log">301015:113211:HONGBT</field>
+            <field name="ident00">118</field>
+            <field name="ma_kv_parent">MT</field>
+        </record>
+        <record id="iwmn_r81dmkv_132" model="iwmn.r81dmkv">
+            <field name="ma_kv">CB</field>
+            <field name="ten_kv">Cao Bằng</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">080221:085534:HONGBT</field>
+            <field name="lastmodify_log">110515:175603:VR</field>
+            <field name="ident00">132</field>
+            <field name="ma_kv_parent">CB</field>
+        </record>
+        <record id="iwmn_r81dmkv_108" model="iwmn.r81dmkv">
+            <field name="ma_kv">CM</field>
+            <field name="ten_kv">Cà Mau</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">271015:094347:HONGBT</field>
+            <field name="lastmodify_log">110515:175603:VR</field>
+            <field name="ident00">108</field>
+            <field name="ma_kv_parent">MTAY</field>
+        </record>
+        <record id="iwmn_r81dmkv_86" model="iwmn.r81dmkv">
+            <field name="ma_kv">COMBODIA</field>
+            <field name="ten_kv">COMBODIA</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">110515:175842:VR</field>
+            <field name="lastmodify_log">110515:175822:VR</field>
+            <field name="ident00">86</field>
+            <field name="ma_kv_parent">COMBODIA</field>
+        </record>
+        <record id="iwmn_r81dmkv_77" model="iwmn.r81dmkv">
+            <field name="ma_kv">CT</field>
+            <field name="ten_kv">CAN THO</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">110515:175333:VR</field>
+            <field name="lastmodify_log">110515:175557:VR</field>
+            <field name="ident00">77</field>
+            <field name="ma_kv_parent">MT</field>
+        </record>
+        <record id="iwmn_r81dmkv_96" model="iwmn.r81dmkv">
+            <field name="ma_kv">DALAT</field>
+            <field name="ten_kv">Đà Lạt</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">310815:150927:VR</field>
+            <field name="lastmodify_log">110515:175603:VR</field>
+            <field name="ident00">96</field>
+            <field name="ma_kv_parent" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkv_76" model="iwmn.r81dmkv">
+            <field name="ma_kv">DAN</field>
+            <field name="ten_kv">ĐA NANG</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">110515:175303:VR</field>
+            <field name="lastmodify_log">110515:175603:VR</field>
+            <field name="ident00">76</field>
+            <field name="ma_kv_parent">MTR</field>
+        </record>
+        <record id="iwmn_r81dmkv_109" model="iwmn.r81dmkv">
+            <field name="ma_kv">DL</field>
+            <field name="ten_kv">Đắc Lắk</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">281015:101902:HONGBT</field>
+            <field name="lastmodify_log">110515:175603:VR</field>
+            <field name="ident00">109</field>
+            <field name="ma_kv_parent">TN</field>
+        </record>
+        <record id="iwmn_r81dmkv_92" model="iwmn.r81dmkv">
+            <field name="ma_kv">DN</field>
+            <field name="ten_kv">Đồng Nai</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">240815:144256:HONGBT</field>
+            <field name="lastmodify_log">110515:175603:VR</field>
+            <field name="ident00">92</field>
+            <field name="ma_kv_parent">DNB</field>
+        </record>
+        <record id="iwmn_r81dmkv_128" model="iwmn.r81dmkv">
+            <field name="ma_kv">DNA</field>
+            <field name="ten_kv">Đà Nẵng</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">260816:094017:TUTC</field>
+            <field name="lastmodify_log">111115:155954:HONGBT</field>
+            <field name="ident00">128</field>
+            <field name="ma_kv_parent" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkv_85" model="iwmn.r81dmkv">
+            <field name="ma_kv">DT</field>
+            <field name="ten_kv">ĐONG THAP</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">110515:175829:VR</field>
+            <field name="lastmodify_log">110515:175822:VR</field>
+            <field name="ident00">85</field>
+            <field name="ma_kv_parent">MT</field>
+        </record>
+        <record id="iwmn_r81dmkv_113" model="iwmn.r81dmkv">
+            <field name="ma_kv">GL</field>
+            <field name="ten_kv">Gia lai</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">061115:144918:HONGBT</field>
+            <field name="lastmodify_log">110515:175603:VR</field>
+            <field name="ident00">113</field>
+            <field name="ma_kv_parent">TN</field>
+        </record>
+        <record id="iwmn_r81dmkv_82" model="iwmn.r81dmkv">
+            <field name="ma_kv">HAN</field>
+            <field name="ten_kv">Hà Nội</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">110515:175758:VR</field>
+            <field name="lastmodify_log">110515:175603:VR</field>
+            <field name="ident00">82</field>
+            <field name="ma_kv_parent">MB</field>
+        </record>
+        <record id="iwmn_r81dmkv_78" model="iwmn.r81dmkv">
+            <field name="ma_kv">HCM</field>
+            <field name="ten_kv">TPHCM</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">110515:175610:VR</field>
+            <field name="lastmodify_log">110515:175603:VR</field>
+            <field name="ident00">78</field>
+            <field name="ma_kv_parent">MTR</field>
+        </record>
+        <record id="iwmn_r81dmkv_106" model="iwmn.r81dmkv">
+            <field name="ma_kv">HCM_CT</field>
+            <field name="ten_kv">TPHCM- Cần Thơ</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">141015:085540:HONGBT</field>
+            <field name="lastmodify_log">290216:084700:VR</field>
+            <field name="ident00">106</field>
+            <field name="ma_kv_parent">HCM_CT</field>
+        </record>
+        <record id="iwmn_r81dmkv_120" model="iwmn.r81dmkv">
+            <field name="ma_kv">HCM_PQ</field>
+            <field name="ten_kv">TPHCM- Ba son-Phú quốc</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">170216:094710:CUONGPN</field>
+            <field name="lastmodify_log">290216:084706:VR</field>
+            <field name="ident00">120</field>
+            <field name="ma_kv_parent">HCM_PQ</field>
+        </record>
+        <record id="iwmn_r81dmkv_121" model="iwmn.r81dmkv">
+            <field name="ma_kv">HCM_VT_PQ_BT</field>
+            <field name="ten_kv">Hồ chí minh- Vủng Tảu - Phú Quốc- Bình Thuận</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">170216:102233:TUTC</field>
+            <field name="lastmodify_log">290216:084721:VR</field>
+            <field name="ident00">121</field>
+            <field name="ma_kv_parent">HCM_VT_PQ-BT</field>
+        </record>
+        <record id="iwmn_r81dmkv_98" model="iwmn.r81dmkv">
+            <field name="ma_kv">HG</field>
+            <field name="ten_kv">Hậu Giang</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">310815:151338:VR</field>
+            <field name="lastmodify_log">111115:155954:HONGBT</field>
+            <field name="ident00">98</field>
+            <field name="ma_kv_parent" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkv_130" model="iwmn.r81dmkv">
+            <field name="ma_kv">HP</field>
+            <field name="ten_kv">Hải Phòng</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">050218:082402:HONGBT</field>
+            <field name="lastmodify_log">111115:155954:HONGBT</field>
+            <field name="ident00">130</field>
+            <field name="ma_kv_parent" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkv_129" model="iwmn.r81dmkv">
+            <field name="ma_kv">HUE</field>
+            <field name="ten_kv">Thừa Thiên Huế</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">110217:090109:TUTC</field>
+            <field name="lastmodify_log">111115:155954:HONGBT</field>
+            <field name="ident00">129</field>
+            <field name="ma_kv_parent" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkv_137" model="iwmn.r81dmkv">
+            <field name="ma_kv">HY</field>
+            <field name="ten_kv">Hưng Yên</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">140525:111955:HONGBT</field>
+            <field name="lastmodify_log">111115:155954:HONGBT</field>
+            <field name="ident00">137</field>
+            <field name="ma_kv_parent" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkv_134" model="iwmn.r81dmkv">
+            <field name="ma_kv">JAPAN</field>
+            <field name="ten_kv">Japan</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">111223:105952:HONGBT</field>
+            <field name="lastmodify_log">111115:155954:HONGBT</field>
+            <field name="ident00">134</field>
+            <field name="ma_kv_parent" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkv_84" model="iwmn.r81dmkv">
+            <field name="ma_kv">KG</field>
+            <field name="ten_kv">KIEN GIANG</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">110515:175818:VR</field>
+            <field name="lastmodify_log">110515:175822:VR</field>
+            <field name="ident00">84</field>
+            <field name="ma_kv_parent">MT</field>
+        </record>
+        <record id="iwmn_r81dmkv_124" model="iwmn.r81dmkv">
+            <field name="ma_kv">KT</field>
+            <field name="ten_kv">Kon Tum</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">070716:114525:TUTC</field>
+            <field name="lastmodify_log">110515:175603:VR</field>
+            <field name="ident00">124</field>
+            <field name="ma_kv_parent">TN</field>
+        </record>
+        <record id="iwmn_r81dmkv_107" model="iwmn.r81dmkv">
+            <field name="ma_kv">LA</field>
+            <field name="ten_kv">Long An</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">271015:081206:HONGBT</field>
+            <field name="lastmodify_log">110515:175603:VR</field>
+            <field name="ident00">107</field>
+            <field name="ma_kv_parent">MT</field>
+        </record>
+        <record id="iwmn_r81dmkv_125" model="iwmn.r81dmkv">
+            <field name="ma_kv">LD</field>
+            <field name="ten_kv">Lâm Đồng</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">190716:091016:TUTC</field>
+            <field name="lastmodify_log">110515:175603:VR</field>
+            <field name="ident00">125</field>
+            <field name="ma_kv_parent">MT</field>
+        </record>
+        <record id="iwmn_r81dmkv_100" model="iwmn.r81dmkv">
+            <field name="ma_kv">MT_TN</field>
+            <field name="ten_kv">Miền Tây - Tây Nguên</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">090915:171601:HONGBT</field>
+            <field name="lastmodify_log">290216:084731:VR</field>
+            <field name="ident00">100</field>
+            <field name="ma_kv_parent">DNB</field>
+        </record>
+        <record id="iwmn_r81dmkv_90" model="iwmn.r81dmkv">
+            <field name="ma_kv">MTAY</field>
+            <field name="ten_kv">Khu vực Miền Tây</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">100815:142359:SYNQ</field>
+            <field name="lastmodify_log">110515:175603:VR</field>
+            <field name="ident00">90</field>
+            <field name="ma_kv_parent">MTAY</field>
+        </record>
+        <record id="iwmn_r81dmkv_102" model="iwmn.r81dmkv">
+            <field name="ma_kv">MTAY_HCM</field>
+            <field name="ten_kv">Khu vực Miền Tây- TP Hồ chí Minh</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">190915:083659:HONGBT</field>
+            <field name="lastmodify_log">290216:084737:VR</field>
+            <field name="ident00">102</field>
+            <field name="ma_kv_parent">MTAY- HCM</field>
+        </record>
+        <record id="iwmn_r81dmkv_104" model="iwmn.r81dmkv">
+            <field name="ma_kv">MTAY_HCM_MT</field>
+            <field name="ten_kv">Khu vực Miền Tây- TP Hồ chí Minh-Miền Trung</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">061015:172926:HONGBT</field>
+            <field name="lastmodify_log">110316:174129:VR</field>
+            <field name="ident00">104</field>
+            <field name="ma_kv_parent">MTAY_HCM_MT</field>
+        </record>
+        <record id="iwmn_r81dmkv_89" model="iwmn.r81dmkv">
+            <field name="ma_kv">MTRUNG</field>
+            <field name="ten_kv">Miền Trung</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">100815:080142:SYNQ</field>
+            <field name="lastmodify_log">110515:175603:VR</field>
+            <field name="ident00">89</field>
+            <field name="ma_kv_parent" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkv_135" model="iwmn.r81dmkv">
+            <field name="ma_kv">NA</field>
+            <field name="ten_kv">Nghệ An</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">020124:110427:HONGBT</field>
+            <field name="lastmodify_log">111115:155954:HONGBT</field>
+            <field name="ident00">135</field>
+            <field name="ma_kv_parent" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkv_80" model="iwmn.r81dmkv">
+            <field name="ma_kv">NAT</field>
+            <field name="ten_kv">Nha Trang</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">110515:175735:VR</field>
+            <field name="lastmodify_log">110515:175603:VR</field>
+            <field name="ident00">80</field>
+            <field name="ma_kv_parent">DNB</field>
+        </record>
+        <record id="iwmn_r81dmkv_110" model="iwmn.r81dmkv">
+            <field name="ma_kv">NT_BT</field>
+            <field name="ten_kv">Nha Trang- Bình Thuận</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">281015:110834:HONGBT</field>
+            <field name="lastmodify_log">290216:084753:VR</field>
+            <field name="ident00">110</field>
+            <field name="ma_kv_parent">MT</field>
+        </record>
+        <record id="iwmn_r81dmkv_97" model="iwmn.r81dmkv">
+            <field name="ma_kv">PHUQUOC</field>
+            <field name="ten_kv">Phú Quốc</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">310815:151221:VR</field>
+            <field name="lastmodify_log">110515:175603:VR</field>
+            <field name="ident00">97</field>
+            <field name="ma_kv_parent" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkv_101" model="iwmn.r81dmkv">
+            <field name="ma_kv">PR</field>
+            <field name="ten_kv">NINH THUẬN</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">120915:092807:HONGBT</field>
+            <field name="lastmodify_log">110515:175603:VR</field>
+            <field name="ident00">101</field>
+            <field name="ma_kv_parent">MTR</field>
+        </record>
+        <record id="iwmn_r81dmkv_103" model="iwmn.r81dmkv">
+            <field name="ma_kv">PT</field>
+            <field name="ten_kv">Phan Thiết</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">230915:112551:HONGBT</field>
+            <field name="lastmodify_log">110515:175603:VR</field>
+            <field name="ident00">103</field>
+            <field name="ma_kv_parent">DNB</field>
+        </record>
+        <record id="iwmn_r81dmkv_115" model="iwmn.r81dmkv">
+            <field name="ma_kv">PY</field>
+            <field name="ten_kv">Phú Yên</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">191115:104701:HONGBT</field>
+            <field name="lastmodify_log">110515:175603:VR</field>
+            <field name="ident00">115</field>
+            <field name="ma_kv_parent" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkv_119" model="iwmn.r81dmkv">
+            <field name="ma_kv">QN</field>
+            <field name="ten_kv">Quy Nhơn</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">010216:131226:TUTC</field>
+            <field name="lastmodify_log">111115:155954:HONGBT</field>
+            <field name="ident00">119</field>
+            <field name="ma_kv_parent" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkv_122" model="iwmn.r81dmkv">
+            <field name="ma_kv">QNAM</field>
+            <field name="ten_kv">Quảng Nam</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">100316:085125:TUTC</field>
+            <field name="lastmodify_log">111115:155954:HONGBT</field>
+            <field name="ident00">122</field>
+            <field name="ma_kv_parent" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkv_126" model="iwmn.r81dmkv">
+            <field name="ma_kv">QNG</field>
+            <field name="ten_kv">Quảng Ngãi</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">210716:082556:TUTC</field>
+            <field name="lastmodify_log">111115:155954:HONGBT</field>
+            <field name="ident00">126</field>
+            <field name="ma_kv_parent">MT</field>
+        </record>
+        <record id="iwmn_r81dmkv_136" model="iwmn.r81dmkv">
+            <field name="ma_kv">SIN</field>
+            <field name="ten_kv">SINGAPORE</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">111124:155532:HONGBT</field>
+            <field name="lastmodify_log">111115:155954:HONGBT</field>
+            <field name="ident00">136</field>
+            <field name="ma_kv_parent" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkv_87" model="iwmn.r81dmkv">
+            <field name="ma_kv">ST</field>
+            <field name="ten_kv">Sóc Trăng</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">290715:134451:SYNQ</field>
+            <field name="lastmodify_log">110515:175603:VR</field>
+            <field name="ident00">87</field>
+            <field name="ma_kv_parent" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkv_81" model="iwmn.r81dmkv">
+            <field name="ma_kv">TG</field>
+            <field name="ten_kv">TIEN GIANG</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">110515:175747:VR</field>
+            <field name="lastmodify_log">110515:175603:VR</field>
+            <field name="ident00">81</field>
+            <field name="ma_kv_parent">MT</field>
+        </record>
+        <record id="iwmn_r81dmkv_133" model="iwmn.r81dmkv">
+            <field name="ma_kv">TH</field>
+            <field name="ten_kv">Thanh Hóa</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">210922:155100:VR</field>
+            <field name="lastmodify_log">110515:175603:VR</field>
+            <field name="ident00">133</field>
+            <field name="ma_kv_parent">MT</field>
+        </record>
+        <record id="iwmn_r81dmkv_131" model="iwmn.r81dmkv">
+            <field name="ma_kv">THN</field>
+            <field name="ten_kv">Thái Nguyên</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">120219:112617:HONGBT</field>
+            <field name="lastmodify_log">120219:112723:HONGBT</field>
+            <field name="ident00">131</field>
+            <field name="ma_kv_parent" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkv_116" model="iwmn.r81dmkv">
+            <field name="ma_kv">TN</field>
+            <field name="ten_kv">Tây Ninh</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">271115:085003:HONGBT</field>
+            <field name="lastmodify_log">110515:175603:VR</field>
+            <field name="ident00">116</field>
+            <field name="ma_kv_parent">MTAY</field>
+        </record>
+        <record id="iwmn_r81dmkv_114" model="iwmn.r81dmkv">
+            <field name="ma_kv">TNINH</field>
+            <field name="ten_kv">Tây Ninh</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">161115:111358:HONGBT</field>
+            <field name="lastmodify_log">110515:175603:VR</field>
+            <field name="ident00">114</field>
+            <field name="ma_kv_parent" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkv_88" model="iwmn.r81dmkv">
+            <field name="ma_kv">TV</field>
+            <field name="ten_kv">Trà Vinh</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">300715:133612:SYNQ</field>
+            <field name="lastmodify_log">110515:175603:VR</field>
+            <field name="ident00">88</field>
+            <field name="ma_kv_parent">DNB</field>
+        </record>
+        <record id="iwmn_r81dmkv_93" model="iwmn.r81dmkv">
+            <field name="ma_kv">VL</field>
+            <field name="ten_kv">Vĩnh Long</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">250815:105849:HONGBT</field>
+            <field name="lastmodify_log">110515:175603:VR</field>
+            <field name="ident00">93</field>
+            <field name="ma_kv_parent">MTAY</field>
+        </record>
+        <record id="iwmn_r81dmkv_105" model="iwmn.r81dmkv">
+            <field name="ma_kv">VL_NT</field>
+            <field name="ten_kv">Vĩnh Long+ Nha Trang</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="create_log">131015:140529:HONGBT</field>
+            <field name="lastmodify_log">290216:084811:VR</field>
+            <field name="ident00">105</field>
+            <field name="ma_kv_parent">MTAY_MTRUNG</field>
+        </record>
+    </data>
+</odoo>

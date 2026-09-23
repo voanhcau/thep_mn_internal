@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_iwmn_r81dmvttt_list" model="ir.ui.view">
+        <field name="name">iwmn.r81dmvttt.list</field>
+        <field name="model">iwmn.r81dmvttt</field>
+        <field name="arch" type="xml">
+            <list string="R81DMVTTT - Ma_Nh_Tt">
+                <field name="ma_nh_tt"/>
+                <field name="ma_vt_list"/>
+                <field name="create_log"/>
+                <field name="lastmodify_log"/>
+                <field name="ma_data"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmvttt_form" model="ir.ui.view">
+        <field name="name">iwmn.r81dmvttt.form</field>
+        <field name="model">iwmn.r81dmvttt</field>
+        <field name="arch" type="xml">
+            <form string="R81DMVTTT - Ma_Nh_Tt">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="ma_nh_tt"/>
+                            <field name="ma_vt_list"/>
+                            <field name="create_log"/>
+                        </group>
+                        <group>
+                            <field name="lastmodify_log"/>
+                            <field name="ma_data"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmvttt_search" model="ir.ui.view">
+        <field name="name">iwmn.r81dmvttt.search</field>
+        <field name="model">iwmn.r81dmvttt</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="ma_nh_tt"/>
+                <field name="ma_vt_list"/>
+                <field name="create_log"/>
+                <field name="lastmodify_log"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_iwmn_r81dmvttt" model="ir.actions.act_window">
+        <field name="name">R81DMVTTT - Ma_Nh_Tt</field>
+        <field name="res_model">iwmn.r81dmvttt</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_iwmn_r81dmvttt_search"/>
+    </record>
+
+    <menuitem id="menu_iwmn_r81dmvttt" name="R81DMVTTT - Ma_Nh_Tt"
+              parent="menu_iwmn_master_materials"
+              action="action_iwmn_r81dmvttt" sequence="61"/>
+</odoo>

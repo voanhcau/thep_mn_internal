@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_iwmn_r81dmtphh_list" model="ir.ui.view">
+        <field name="name">iwmn.r81dmtphh.list</field>
+        <field name="model">iwmn.r81dmtphh</field>
+        <field name="arch" type="xml">
+            <list string="R81DMTPHH - Description">
+                <field name="ma_tphh"/>
+                <field name="description"/>
+                <field name="grade_id"/>
+                <field name="fe_min"/>
+                <field name="fe_max"/>
+                <field name="c_min"/>
+                <field name="c_max"/>
+                <field name="mn_min"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmtphh_form" model="ir.ui.view">
+        <field name="name">iwmn.r81dmtphh.form</field>
+        <field name="model">iwmn.r81dmtphh</field>
+        <field name="arch" type="xml">
+            <form string="R81DMTPHH - Description">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="ma_tphh"/>
+                            <field name="description"/>
+                            <field name="grade_id"/>
+                            <field name="fe_min"/>
+                            <field name="fe_max"/>
+                            <field name="c_min"/>
+                            <field name="c_max"/>
+                            <field name="mn_min"/>
+                            <field name="mn_max"/>
+                            <field name="si_min"/>
+                            <field name="si_max"/>
+                            <field name="p_min"/>
+                            <field name="p_max"/>
+                            <field name="s_min"/>
+                            <field name="s_max"/>
+                            <field name="cr_min"/>
+                            <field name="cr_max"/>
+                            <field name="ni_min"/>
+                            <field name="ni_max"/>
+                            <field name="mo_min"/>
+                            <field name="mo_max"/>
+                            <field name="cu_min"/>
+                        </group>
+                        <group>
+                            <field name="cu_max"/>
+                            <field name="al_min"/>
+                            <field name="al_max"/>
+                            <field name="v_min"/>
+                            <field name="v_max"/>
+                            <field name="w_min"/>
+                            <field name="w_max"/>
+                            <field name="sn_min"/>
+                            <field name="sn_max"/>
+                            <field name="ass_min"/>
+                            <field name="ass_max"/>
+                            <field name="cueq_min"/>
+                            <field name="cueq_max"/>
+                            <field name="ceq_min"/>
+                            <field name="ceq_max"/>
+                            <field name="c_mn_6_min"/>
+                            <field name="c_mn_6_max"/>
+                            <field name="create_log"/>
+                            <field name="lastmodify_log"/>
+                            <field name="ma_data"/>
+                            <field name="n_min"/>
+                            <field name="n_max"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmtphh_search" model="ir.ui.view">
+        <field name="name">iwmn.r81dmtphh.search</field>
+        <field name="model">iwmn.r81dmtphh</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="description"/>
+                <field name="ma_tphh"/>
+                <field name="grade_id"/>
+                <field name="fe_min"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_iwmn_r81dmtphh" model="ir.actions.act_window">
+        <field name="name">R81DMTPHH - Description</field>
+        <field name="res_model">iwmn.r81dmtphh</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_iwmn_r81dmtphh_search"/>
+    </record>
+
+    <menuitem id="menu_iwmn_r81dmtphh" name="R81DMTPHH - Description"
+              parent="menu_iwmn_master_quality"
+              action="action_iwmn_r81dmtphh" sequence="57"/>
+</odoo>

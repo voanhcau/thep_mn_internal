@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_iwmn_r81dmctauto_list" model="ir.ui.view">
+        <field name="name">iwmn.r81dmctauto.list</field>
+        <field name="model">iwmn.r81dmctauto</field>
+        <field name="arch" type="xml">
+            <list string="R81DMCTAUTO - Description">
+                <field name="ma_ct"/>
+                <field name="description"/>
+                <field name="so_xe"/>
+                <field name="so_xa_lan_tau"/>
+                <field name="ma_dt"/>
+                <field name="ma_vt_sp"/>
+                <field name="dien_giai"/>
+                <field name="create_log"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmctauto_form" model="ir.ui.view">
+        <field name="name">iwmn.r81dmctauto.form</field>
+        <field name="model">iwmn.r81dmctauto</field>
+        <field name="arch" type="xml">
+            <form string="R81DMCTAUTO - Description">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="ma_ct"/>
+                            <field name="description"/>
+                            <field name="so_xe"/>
+                            <field name="so_xa_lan_tau"/>
+                            <field name="ma_dt"/>
+                        </group>
+                        <group>
+                            <field name="ma_vt_sp"/>
+                            <field name="dien_giai"/>
+                            <field name="create_log"/>
+                            <field name="lastmodify_log"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmctauto_search" model="ir.ui.view">
+        <field name="name">iwmn.r81dmctauto.search</field>
+        <field name="model">iwmn.r81dmctauto</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="description"/>
+                <field name="ma_ct"/>
+                <field name="so_xe"/>
+                <field name="so_xa_lan_tau"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_iwmn_r81dmctauto" model="ir.actions.act_window">
+        <field name="name">R81DMCTAUTO - Description</field>
+        <field name="res_model">iwmn.r81dmctauto</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_iwmn_r81dmctauto_search"/>
+    </record>
+
+    <menuitem id="menu_iwmn_r81dmctauto" name="R81DMCTAUTO - Description"
+              parent="menu_iwmn_master_warehouse"
+              action="action_iwmn_r81dmctauto" sequence="19"/>
+</odoo>

@@ -1,0 +1,1715 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="iwmn_r81dmkhoct_kg_1" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">1</field>
+            <field name="ma_dt">1071160</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2024-01-01 00:00:00</field>
+            <field name="ngay_bd">2024-01-01 00:00:00</field>
+            <field name="ngay_kt">2024-07-01 00:00:00</field>
+            <field name="sl_dm_kg">380000.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_2" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">2</field>
+            <field name="ma_dt">1071097</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2024-01-01 00:00:00</field>
+            <field name="ngay_bd">2024-01-01 00:00:00</field>
+            <field name="ngay_kt">2024-03-17 00:00:00</field>
+            <field name="sl_dm_kg">350000.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_3" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">3</field>
+            <field name="ma_dt">1000001</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2024-01-01 00:00:00</field>
+            <field name="ngay_bd">2024-01-01 00:00:00</field>
+            <field name="ngay_kt">2024-03-19 00:00:00</field>
+            <field name="sl_dm_kg">700000.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_4" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">4</field>
+            <field name="ma_dt">1000002</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2024-01-01 00:00:00</field>
+            <field name="ngay_bd">2024-01-01 00:00:00</field>
+            <field name="ngay_kt">2024-03-19 00:00:00</field>
+            <field name="sl_dm_kg">1000000.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_5" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">5</field>
+            <field name="ma_dt">1071005</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2024-01-01 00:00:00</field>
+            <field name="ngay_bd">2024-01-01 00:00:00</field>
+            <field name="ngay_kt">2024-07-01 00:00:00</field>
+            <field name="sl_dm_kg">890000.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_6" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">6</field>
+            <field name="ma_dt">1071113</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2024-01-01 00:00:00</field>
+            <field name="ngay_bd">2024-01-01 00:00:00</field>
+            <field name="ngay_kt">2024-03-21 00:00:00</field>
+            <field name="sl_dm_kg">1240000.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_7" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">7</field>
+            <field name="ma_dt">1000014</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2024-01-01 00:00:00</field>
+            <field name="ngay_bd">2024-01-01 00:00:00</field>
+            <field name="ngay_kt">2024-07-01 00:00:00</field>
+            <field name="sl_dm_kg">300000.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_8" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">8</field>
+            <field name="ma_dt">1071109</field>
+            <field name="ma_nh_kg">PTHCMCUCB4</field>
+            <field name="ngay_ap">2026-06-22 00:00:00</field>
+            <field name="ngay_bd">2024-01-01 00:00:00</field>
+            <field name="ngay_kt">2024-03-21 00:00:00</field>
+            <field name="sl_dm_kg">300000.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">240626:141913:OANHNTK</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list">06PTCB4</field>
+            <field name="so_qd">1431/QD-TMN</field>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_9" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">9</field>
+            <field name="ma_dt">1071128</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2024-01-01 00:00:00</field>
+            <field name="ngay_bd">2024-01-01 00:00:00</field>
+            <field name="ngay_kt">2024-06-20 00:00:00</field>
+            <field name="sl_dm_kg">700000.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_10" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">10</field>
+            <field name="ma_dt">1071017</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2024-01-01 00:00:00</field>
+            <field name="ngay_bd">2024-01-01 00:00:00</field>
+            <field name="ngay_kt">2024-07-01 00:00:00</field>
+            <field name="sl_dm_kg">250000.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_11" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">11</field>
+            <field name="ma_dt">1071013</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2024-01-01 00:00:00</field>
+            <field name="ngay_bd">2024-01-01 00:00:00</field>
+            <field name="ngay_kt">2024-07-01 00:00:00</field>
+            <field name="sl_dm_kg">2700000.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_12" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">12</field>
+            <field name="ma_dt">1071101</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2024-01-01 00:00:00</field>
+            <field name="ngay_bd">2024-01-01 00:00:00</field>
+            <field name="ngay_kt">2024-07-01 00:00:00</field>
+            <field name="sl_dm_kg">1170000.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_13" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">13</field>
+            <field name="ma_dt">1071136</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2024-01-01 00:00:00</field>
+            <field name="ngay_bd">2024-01-01 00:00:00</field>
+            <field name="ngay_kt">2024-03-17 00:00:00</field>
+            <field name="sl_dm_kg">680000.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_14" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">14</field>
+            <field name="ma_dt">1078816</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2024-01-01 00:00:00</field>
+            <field name="ngay_bd">2024-01-01 00:00:00</field>
+            <field name="ngay_kt">2024-07-01 00:00:00</field>
+            <field name="sl_dm_kg">170000.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_15" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">15</field>
+            <field name="ma_dt">1071097</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2024-03-18 00:00:00</field>
+            <field name="ngay_bd">2024-03-18 00:00:00</field>
+            <field name="ngay_kt">2024-06-30 00:00:00</field>
+            <field name="sl_dm_kg">700000.0000</field>
+            <field name="create_log">190324:084704:TRANGDT</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_16" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">16</field>
+            <field name="ma_dt">1071097</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2024-07-01 00:00:00</field>
+            <field name="ngay_bd">2024-07-01 00:00:00</field>
+            <field name="ngay_kt">2024-12-31 00:00:00</field>
+            <field name="sl_dm_kg">350000.0000</field>
+            <field name="create_log">190324:084719:TRANGDT</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_17" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">17</field>
+            <field name="ma_dt">1071136</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2024-03-18 00:00:00</field>
+            <field name="ngay_bd">2024-03-18 00:00:00</field>
+            <field name="ngay_kt">2024-06-30 00:00:00</field>
+            <field name="sl_dm_kg">1180000.0000</field>
+            <field name="create_log">190324:084821:TRANGDT</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_18" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">18</field>
+            <field name="ma_dt">1071136</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2024-07-01 00:00:00</field>
+            <field name="ngay_bd">2024-07-01 00:00:00</field>
+            <field name="ngay_kt">2024-07-01 00:00:00</field>
+            <field name="sl_dm_kg">680000.0000</field>
+            <field name="create_log">190324:084840:TRANGDT</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_19" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">19</field>
+            <field name="ma_dt">1071136</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2025-01-01 00:00:00</field>
+            <field name="ngay_bd">2025-01-01 00:00:00</field>
+            <field name="ngay_kt">2026-01-04 00:00:00</field>
+            <field name="sl_dm_kg">755000.0000</field>
+            <field name="create_log">190324:085032:TRANGDT</field>
+            <field name="lastmodify_log">020125:131833:TRANGDT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_20" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">20</field>
+            <field name="ma_dt">1000001</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2024-03-20 00:00:00</field>
+            <field name="ngay_bd">2024-03-20 00:00:00</field>
+            <field name="ngay_kt">2024-04-14 00:00:00</field>
+            <field name="sl_dm_kg">500000.0000</field>
+            <field name="create_log">190324:085113:TRANGDT</field>
+            <field name="lastmodify_log">080424:100423:TRANGDT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_21" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">21</field>
+            <field name="ma_dt">1000002</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2024-03-20 00:00:00</field>
+            <field name="ngay_bd">2024-03-20 00:00:00</field>
+            <field name="ngay_kt">2024-04-14 00:00:00</field>
+            <field name="sl_dm_kg">1200000.0000</field>
+            <field name="create_log">190324:085134:TRANGDT</field>
+            <field name="lastmodify_log">080424:100401:TRANGDT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_22" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">22</field>
+            <field name="ma_dt">1000014</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2025-01-01 00:00:00</field>
+            <field name="ngay_bd">2025-01-01 00:00:00</field>
+            <field name="ngay_kt">2026-01-04 00:00:00</field>
+            <field name="sl_dm_kg">350000.0000</field>
+            <field name="create_log">190324:085150:TRANGDT</field>
+            <field name="lastmodify_log">140525:104055:TRANGDT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_23" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">23</field>
+            <field name="ma_dt">1071005</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2025-01-01 00:00:00</field>
+            <field name="ngay_bd">2025-01-01 00:00:00</field>
+            <field name="ngay_kt">2026-01-04 00:00:00</field>
+            <field name="sl_dm_kg">585000.0000</field>
+            <field name="create_log">190324:085236:TRANGDT</field>
+            <field name="lastmodify_log">020125:115717:TRANGDT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_24" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">24</field>
+            <field name="ma_dt">1071013</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2025-01-01 00:00:00</field>
+            <field name="ngay_bd">2025-01-01 00:00:00</field>
+            <field name="ngay_kt">2026-01-04 00:00:00</field>
+            <field name="sl_dm_kg">2100000.0000</field>
+            <field name="create_log">190324:085248:TRANGDT</field>
+            <field name="lastmodify_log">020125:115826:TRANGDT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_25" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">25</field>
+            <field name="ma_dt">1071017</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2025-01-01 00:00:00</field>
+            <field name="ngay_bd">2025-01-01 00:00:00</field>
+            <field name="ngay_kt">2026-01-04 00:00:00</field>
+            <field name="sl_dm_kg">425000.0000</field>
+            <field name="create_log">190324:085305:TRANGDT</field>
+            <field name="lastmodify_log">020125:115424:TRANGDT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_26" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">26</field>
+            <field name="ma_dt">1071097</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2025-01-01 00:00:00</field>
+            <field name="ngay_bd">2025-01-01 00:00:00</field>
+            <field name="ngay_kt">2026-01-04 00:00:00</field>
+            <field name="sl_dm_kg">350000.0000</field>
+            <field name="create_log">190324:085317:TRANGDT</field>
+            <field name="lastmodify_log">020125:115522:TRANGDT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_27" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">27</field>
+            <field name="ma_dt">1071101</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2025-01-01 00:00:00</field>
+            <field name="ngay_bd">2025-01-01 00:00:00</field>
+            <field name="ngay_kt">2026-01-04 00:00:00</field>
+            <field name="sl_dm_kg">960000.0000</field>
+            <field name="create_log">190324:085327:TRANGDT</field>
+            <field name="lastmodify_log">030125:134809:TRANGDT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_28" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">28</field>
+            <field name="ma_dt">1071109</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2024-03-22 00:00:00</field>
+            <field name="ngay_bd">2024-03-22 00:00:00</field>
+            <field name="ngay_kt">2024-06-30 00:00:00</field>
+            <field name="sl_dm_kg">1445000.0000</field>
+            <field name="create_log">190324:085337:TRANGDT</field>
+            <field name="lastmodify_log">220324:155508:TRANGDT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_29" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">29</field>
+            <field name="ma_dt">1071113</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2024-03-22 00:00:00</field>
+            <field name="ngay_bd">2024-03-22 00:00:00</field>
+            <field name="ngay_kt">2024-06-30 00:00:00</field>
+            <field name="sl_dm_kg">1740000.0000</field>
+            <field name="create_log">190324:085349:TRANGDT</field>
+            <field name="lastmodify_log">220324:135021:TRANGDT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_30" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">30</field>
+            <field name="ma_dt">1071128</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2024-06-21 00:00:00</field>
+            <field name="ngay_bd">2024-06-21 00:00:00</field>
+            <field name="ngay_kt">2024-06-30 00:00:00</field>
+            <field name="sl_dm_kg">0.0000</field>
+            <field name="create_log">190324:085358:TRANGDT</field>
+            <field name="lastmodify_log">010126:100402:TRANGDT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_31" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">31</field>
+            <field name="ma_dt">1071160</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2025-01-01 00:00:00</field>
+            <field name="ngay_bd">2025-01-01 00:00:00</field>
+            <field name="ngay_kt">2026-01-04 00:00:00</field>
+            <field name="sl_dm_kg">370000.0000</field>
+            <field name="create_log">190324:085413:TRANGDT</field>
+            <field name="lastmodify_log">030125:134958:TRANGDT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_32" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">32</field>
+            <field name="ma_dt">1078816</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2025-01-01 00:00:00</field>
+            <field name="ngay_bd">2025-01-01 00:00:00</field>
+            <field name="ngay_kt">2026-01-04 00:00:00</field>
+            <field name="sl_dm_kg">70000.0000</field>
+            <field name="create_log">190324:085425:TRANGDT</field>
+            <field name="lastmodify_log">140525:103805:TRANGDT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_33" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">33</field>
+            <field name="ma_dt">1000001</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2025-01-01 00:00:00</field>
+            <field name="ngay_bd">2025-01-01 00:00:00</field>
+            <field name="ngay_kt">2025-05-14 00:00:00</field>
+            <field name="sl_dm_kg">1000000.0000</field>
+            <field name="create_log">200324:141057:TRANGDT</field>
+            <field name="lastmodify_log">030125:085246:TRANGDT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_34" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">34</field>
+            <field name="ma_dt">1000002</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2025-01-01 00:00:00</field>
+            <field name="ngay_bd">2025-01-01 00:00:00</field>
+            <field name="ngay_kt">2025-05-14 00:00:00</field>
+            <field name="sl_dm_kg">1130000.0000</field>
+            <field name="create_log">200324:141143:TRANGDT</field>
+            <field name="lastmodify_log">140525:103559:TRANGDT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_35" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">35</field>
+            <field name="ma_dt">1071113</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2024-07-01 00:00:00</field>
+            <field name="ngay_bd">2024-07-01 00:00:00</field>
+            <field name="ngay_kt">2024-07-01 00:00:00</field>
+            <field name="sl_dm_kg">1240000.0000</field>
+            <field name="create_log">220324:135225:TRANGDT</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_36" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">36</field>
+            <field name="ma_dt">1071113</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2025-01-01 00:00:00</field>
+            <field name="ngay_bd">2025-01-01 00:00:00</field>
+            <field name="ngay_kt">2026-01-04 00:00:00</field>
+            <field name="sl_dm_kg">1240000.0000</field>
+            <field name="create_log">220324:135424:TRANGDT</field>
+            <field name="lastmodify_log">020125:154202:TRANGDT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_37" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">37</field>
+            <field name="ma_dt">1071109</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2024-07-01 00:00:00</field>
+            <field name="ngay_bd">2024-07-01 00:00:00</field>
+            <field name="ngay_kt">2024-12-31 00:00:00</field>
+            <field name="sl_dm_kg">1145000.0000</field>
+            <field name="create_log">220324:155536:TRANGDT</field>
+            <field name="lastmodify_log">220324:155508:TRANGDT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_38" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">38</field>
+            <field name="ma_dt">1071109</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2025-01-01 00:00:00</field>
+            <field name="ngay_bd">2025-01-01 00:00:00</field>
+            <field name="ngay_kt">2026-01-04 00:00:00</field>
+            <field name="sl_dm_kg">1110000.0000</field>
+            <field name="create_log">220324:155545:TRANGDT</field>
+            <field name="lastmodify_log">020125:115457:TRANGDT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_39" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">39</field>
+            <field name="ma_dt">1000001</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2024-04-15 00:00:00</field>
+            <field name="ngay_bd">2024-04-15 00:00:00</field>
+            <field name="ngay_kt">2024-04-21 00:00:00</field>
+            <field name="sl_dm_kg">400000.0000</field>
+            <field name="create_log">150424:092615:TRANGDT</field>
+            <field name="lastmodify_log">080424:100423:TRANGDT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_40" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">40</field>
+            <field name="ma_dt">1000002</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2024-04-15 00:00:00</field>
+            <field name="ngay_bd">2024-04-15 00:00:00</field>
+            <field name="ngay_kt">2024-04-21 00:00:00</field>
+            <field name="sl_dm_kg">1300000.0000</field>
+            <field name="create_log">150424:092655:TRANGDT</field>
+            <field name="lastmodify_log">080424:100401:TRANGDT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_41" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">41</field>
+            <field name="ma_dt">1000001</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2024-04-22 00:00:00</field>
+            <field name="ngay_bd">2024-04-22 00:00:00</field>
+            <field name="ngay_kt">2024-06-14 00:00:00</field>
+            <field name="sl_dm_kg">1.0000</field>
+            <field name="create_log">220424:095643:TRANGDT</field>
+            <field name="lastmodify_log">130526:155449:TRANGDT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_42" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">42</field>
+            <field name="ma_dt">1000002</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2024-04-22 00:00:00</field>
+            <field name="ngay_bd">2024-04-22 00:00:00</field>
+            <field name="ngay_kt">2024-05-14 00:00:00</field>
+            <field name="sl_dm_kg">1699999.0000</field>
+            <field name="create_log">220424:095726:TRANGDT</field>
+            <field name="lastmodify_log">080424:100401:TRANGDT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_43" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">43</field>
+            <field name="ma_dt">1000002</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2024-05-15 00:00:00</field>
+            <field name="ngay_bd">2024-05-15 00:00:00</field>
+            <field name="ngay_kt">2024-07-21 00:00:00</field>
+            <field name="sl_dm_kg">1200000.0000</field>
+            <field name="create_log">150624:080329:GIANGTT</field>
+            <field name="lastmodify_log">080424:100401:TRANGDT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_44" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">44</field>
+            <field name="ma_dt">1000001</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2024-06-15 00:00:00</field>
+            <field name="ngay_bd">2024-06-15 00:00:00</field>
+            <field name="ngay_kt">2024-07-01 00:00:00</field>
+            <field name="sl_dm_kg">500000.0000</field>
+            <field name="create_log">150624:080450:GIANGTT</field>
+            <field name="lastmodify_log">080424:100423:TRANGDT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_45" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">45</field>
+            <field name="ma_dt">1000001</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2024-07-02 00:00:00</field>
+            <field name="ngay_bd">2024-07-02 00:00:00</field>
+            <field name="ngay_kt">2024-07-21 00:00:00</field>
+            <field name="sl_dm_kg">660000.0000</field>
+            <field name="create_log">020724:145056:TRANGDT</field>
+            <field name="lastmodify_log">080424:100423:TRANGDT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_46" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">46</field>
+            <field name="ma_dt">1000014</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2024-07-02 00:00:00</field>
+            <field name="ngay_bd">2024-07-02 00:00:00</field>
+            <field name="ngay_kt">2024-12-31 00:00:00</field>
+            <field name="sl_dm_kg">290000.0000</field>
+            <field name="create_log">020724:145121:TRANGDT</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_47" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">47</field>
+            <field name="ma_dt">1071005</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2024-07-02 00:00:00</field>
+            <field name="ngay_bd">2024-07-02 00:00:00</field>
+            <field name="ngay_kt">2024-12-31 00:00:00</field>
+            <field name="sl_dm_kg">610000.0000</field>
+            <field name="create_log">020724:152746:TRANGDT</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_48" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">48</field>
+            <field name="ma_dt">1071013</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2024-07-02 00:00:00</field>
+            <field name="ngay_bd">2024-07-02 00:00:00</field>
+            <field name="ngay_kt">2024-12-31 00:00:00</field>
+            <field name="sl_dm_kg">2320000.0000</field>
+            <field name="create_log">020724:152902:TRANGDT</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_49" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">49</field>
+            <field name="ma_dt">1071017</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2024-07-02 00:00:00</field>
+            <field name="ngay_bd">2024-07-02 00:00:00</field>
+            <field name="ngay_kt">2024-12-31 00:00:00</field>
+            <field name="sl_dm_kg">260000.0000</field>
+            <field name="create_log">020724:152947:TRANGDT</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_50" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">50</field>
+            <field name="ma_dt">1071101</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2024-07-02 00:00:00</field>
+            <field name="ngay_bd">2024-07-02 00:00:00</field>
+            <field name="ngay_kt">2024-12-31 00:00:00</field>
+            <field name="sl_dm_kg">1150000.0000</field>
+            <field name="create_log">020724:153143:TRANGDT</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_51" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">51</field>
+            <field name="ma_dt">1071113</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2024-07-02 00:00:00</field>
+            <field name="ngay_bd">2024-07-02 00:00:00</field>
+            <field name="ngay_kt">2024-12-31 00:00:00</field>
+            <field name="sl_dm_kg">1170000.0000</field>
+            <field name="create_log">020724:153449:TRANGDT</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_52" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">52</field>
+            <field name="ma_dt">1071136</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2024-07-02 00:00:00</field>
+            <field name="ngay_bd">2024-07-02 00:00:00</field>
+            <field name="ngay_kt">2024-12-31 00:00:00</field>
+            <field name="sl_dm_kg">990000.0000</field>
+            <field name="create_log">020724:153524:TRANGDT</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_53" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">53</field>
+            <field name="ma_dt">1071160</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2024-07-02 00:00:00</field>
+            <field name="ngay_bd">2024-07-02 00:00:00</field>
+            <field name="ngay_kt">2024-12-31 00:00:00</field>
+            <field name="sl_dm_kg">360000.0000</field>
+            <field name="create_log">020724:153622:TRANGDT</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_54" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">54</field>
+            <field name="ma_dt">1078816</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2024-07-02 00:00:00</field>
+            <field name="ngay_bd">2024-07-02 00:00:00</field>
+            <field name="ngay_kt">2024-12-31 00:00:00</field>
+            <field name="sl_dm_kg">140000.0000</field>
+            <field name="create_log">020724:153657:TRANGDT</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_56" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">56</field>
+            <field name="ma_dt">1000002</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2024-07-22 00:00:00</field>
+            <field name="ngay_bd">2024-07-22 00:00:00</field>
+            <field name="ngay_kt">2024-09-09 00:00:00</field>
+            <field name="sl_dm_kg">960000.0000</field>
+            <field name="create_log">220724:161843:TRANGDT</field>
+            <field name="lastmodify_log">080424:100401:TRANGDT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_57" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">57</field>
+            <field name="ma_dt">1000001</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2024-07-22 00:00:00</field>
+            <field name="ngay_bd">2024-07-22 00:00:00</field>
+            <field name="ngay_kt">2024-09-09 00:00:00</field>
+            <field name="sl_dm_kg">900000.0000</field>
+            <field name="create_log">220724:161912:TRANGDT</field>
+            <field name="lastmodify_log">080424:100423:TRANGDT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_58" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">58</field>
+            <field name="ma_dt">1000001</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2024-09-10 00:00:00</field>
+            <field name="ngay_bd">2024-09-10 00:00:00</field>
+            <field name="ngay_kt">2024-09-10 00:00:00</field>
+            <field name="sl_dm_kg">970000.0000</field>
+            <field name="create_log">110924:141957:TRANGDT</field>
+            <field name="lastmodify_log">110924:142018:TRANGDT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_59" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">59</field>
+            <field name="ma_dt">1000002</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2024-09-10 00:00:00</field>
+            <field name="ngay_bd">2024-09-10 00:00:00</field>
+            <field name="ngay_kt">2024-09-10 00:00:00</field>
+            <field name="sl_dm_kg">890000.0000</field>
+            <field name="create_log">100924:113735:TRANGDT</field>
+            <field name="lastmodify_log">070924:092841:OANHNT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_60" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">60</field>
+            <field name="ma_dt">1000001</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2024-09-11 00:00:00</field>
+            <field name="ngay_bd">2024-09-11 00:00:00</field>
+            <field name="ngay_kt">2024-09-11 00:00:00</field>
+            <field name="sl_dm_kg">770000.0000</field>
+            <field name="create_log">110924:142036:TRANGDT</field>
+            <field name="lastmodify_log">110924:142018:TRANGDT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_61" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">61</field>
+            <field name="ma_dt">1000002</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2024-09-11 00:00:00</field>
+            <field name="ngay_bd">2024-09-11 00:00:00</field>
+            <field name="ngay_kt">2024-09-11 00:00:00</field>
+            <field name="sl_dm_kg">1090000.0000</field>
+            <field name="create_log">110924:142055:TRANGDT</field>
+            <field name="lastmodify_log">070924:092841:OANHNT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_62" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">62</field>
+            <field name="ma_dt">1000001</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2024-09-12 00:00:00</field>
+            <field name="ngay_bd">2024-09-12 00:00:00</field>
+            <field name="ngay_kt">2024-12-31 00:00:00</field>
+            <field name="sl_dm_kg">580000.0000</field>
+            <field name="create_log">120924:141342:DANGT</field>
+            <field name="lastmodify_log">160924:154436:DANGT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_63" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">63</field>
+            <field name="ma_dt">1000002</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2024-09-12 00:00:00</field>
+            <field name="ngay_bd">2024-09-12 00:00:00</field>
+            <field name="ngay_kt">2024-12-31 00:00:00</field>
+            <field name="sl_dm_kg">1280000.0000</field>
+            <field name="create_log">120924:141458:DANGT</field>
+            <field name="lastmodify_log">160924:154411:DANGT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_64" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">64</field>
+            <field name="ma_dt">1071136</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2026-01-05 00:00:00</field>
+            <field name="ngay_bd">2026-01-05 00:00:00</field>
+            <field name="ngay_kt">2026-12-31 00:00:00</field>
+            <field name="sl_dm_kg">994000.0000</field>
+            <field name="create_log">020125:131848:TRANGDT</field>
+            <field name="lastmodify_log">050126:095653:TRANGDT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_65" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">65</field>
+            <field name="ma_dt">1071113</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2026-01-05 00:00:00</field>
+            <field name="ngay_bd">2026-01-05 00:00:00</field>
+            <field name="ngay_kt">2026-06-21 00:00:00</field>
+            <field name="sl_dm_kg">1274000.0000</field>
+            <field name="create_log">020125:154237:TRANGDT</field>
+            <field name="lastmodify_log">090726:105126:VR</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_66" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">66</field>
+            <field name="ma_dt">1000001</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2026-01-05 00:00:00</field>
+            <field name="ngay_bd">2026-01-05 00:00:00</field>
+            <field name="ngay_kt">2026-12-31 00:00:00</field>
+            <field name="sl_dm_kg">2021000.0000</field>
+            <field name="create_log">030125:085253:TRANGDT</field>
+            <field name="lastmodify_log">170426:161858:TRANGDT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_67" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">67</field>
+            <field name="ma_dt">1000002</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2026-01-05 00:00:00</field>
+            <field name="ngay_bd">2026-01-05 00:00:00</field>
+            <field name="ngay_kt">2026-12-31 00:00:00</field>
+            <field name="sl_dm_kg">2000000.0000</field>
+            <field name="create_log">030125:085330:TRANGDT</field>
+            <field name="lastmodify_log">050126:101151:TRANGDT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_68" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">68</field>
+            <field name="ma_dt">1071101</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2026-01-05 00:00:00</field>
+            <field name="ngay_bd">2026-01-05 00:00:00</field>
+            <field name="ngay_kt">2026-12-31 00:00:00</field>
+            <field name="sl_dm_kg">2122000.0000</field>
+            <field name="create_log">030125:134819:TRANGDT</field>
+            <field name="lastmodify_log">050126:095739:TRANGDT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_69" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">69</field>
+            <field name="ma_dt">1071160</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2026-01-05 00:00:00</field>
+            <field name="ngay_bd">2026-01-05 00:00:00</field>
+            <field name="ngay_kt">2026-06-21 00:00:00</field>
+            <field name="sl_dm_kg">718000.0000</field>
+            <field name="create_log">030125:135010:TRANGDT</field>
+            <field name="lastmodify_log">090726:104421:VR</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_70" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">70</field>
+            <field name="ma_dt">1000001</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2025-05-15 00:00:00</field>
+            <field name="ngay_bd">2025-05-15 00:00:00</field>
+            <field name="ngay_kt">2026-01-03 00:00:00</field>
+            <field name="sl_dm_kg">850000.0000</field>
+            <field name="create_log">150525:122110:TRANGDT</field>
+            <field name="lastmodify_log">030125:085246:TRANGDT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_71" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">71</field>
+            <field name="ma_dt">1000002</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2025-05-15 00:00:00</field>
+            <field name="ngay_bd">2025-05-15 00:00:00</field>
+            <field name="ngay_kt">2026-01-04 00:00:00</field>
+            <field name="sl_dm_kg">1280000.0000</field>
+            <field name="create_log">150525:122158:TRANGDT</field>
+            <field name="lastmodify_log">140525:103559:TRANGDT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_72" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">72</field>
+            <field name="ma_dt">1071175</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2025-08-25 00:00:00</field>
+            <field name="ngay_bd">2025-08-25 00:00:00</field>
+            <field name="ngay_kt">2026-01-04 00:00:00</field>
+            <field name="sl_dm_kg">600000.0000</field>
+            <field name="create_log">250825:164234:TRANGDT</field>
+            <field name="lastmodify_log">250925:160725:DIEMLTT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_73" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">73</field>
+            <field name="ma_dt">1071175</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2026-01-05 00:00:00</field>
+            <field name="ngay_bd">2026-01-05 00:00:00</field>
+            <field name="ngay_kt">2026-12-31 00:00:00</field>
+            <field name="sl_dm_kg">600000.0000</field>
+            <field name="create_log">250825:164259:TRANGDT</field>
+            <field name="lastmodify_log">050126:101925:TRANGDT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_74" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">74</field>
+            <field name="ma_dt">1071177</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2025-09-10 00:00:00</field>
+            <field name="ngay_bd">2025-09-10 00:00:00</field>
+            <field name="ngay_kt">2026-01-04 00:00:00</field>
+            <field name="sl_dm_kg">500000.0000</field>
+            <field name="create_log">110925:143010:TRANGDT</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_75" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">75</field>
+            <field name="ma_dt">1071177</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2026-01-05 00:00:00</field>
+            <field name="ngay_bd">2026-01-05 00:00:00</field>
+            <field name="ngay_kt">2026-12-31 00:00:00</field>
+            <field name="sl_dm_kg">500000.0000</field>
+            <field name="create_log">110925:143021:TRANGDT</field>
+            <field name="lastmodify_log">050126:101953:TRANGDT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_76" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">76</field>
+            <field name="ma_dt">1071178</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2025-09-19 00:00:00</field>
+            <field name="ngay_bd">2025-09-19 00:00:00</field>
+            <field name="ngay_kt">2026-01-04 00:00:00</field>
+            <field name="sl_dm_kg">700000.0000</field>
+            <field name="create_log">240925:145723:TRANGDT</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_77" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">77</field>
+            <field name="ma_dt">1071155</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2025-09-19 00:00:00</field>
+            <field name="ngay_bd">2025-09-19 00:00:00</field>
+            <field name="ngay_kt">2026-01-04 00:00:00</field>
+            <field name="sl_dm_kg">500000.0000</field>
+            <field name="create_log">250925:153035:TRANGDT</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_78" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">78</field>
+            <field name="ma_dt">1071155</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2026-01-05 00:00:00</field>
+            <field name="ngay_bd">2026-01-05 00:00:00</field>
+            <field name="ngay_kt">2026-12-31 00:00:00</field>
+            <field name="sl_dm_kg">500000.0000</field>
+            <field name="create_log">051225:140432:TRANGDT</field>
+            <field name="lastmodify_log">050126:102122:TRANGDT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_79" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">79</field>
+            <field name="ma_dt">1000014</field>
+            <field name="ma_nh_kg">MTKHAC</field>
+            <field name="ngay_ap">2026-07-17 00:00:00</field>
+            <field name="ngay_bd">2026-01-05 00:00:00</field>
+            <field name="ngay_kt">2026-12-31 00:00:00</field>
+            <field name="sl_dm_kg">1423000.0000</field>
+            <field name="create_log">010126:100059:TRANGDT</field>
+            <field name="lastmodify_log">190726:195610:OANHNTK</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list">06MTG,06MTG.08,06MTGNT,06MTGNT.08</field>
+            <field name="so_qd">1674</field>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_80" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">80</field>
+            <field name="ma_dt">1071005</field>
+            <field name="ma_nh_kg">HGKHAC</field>
+            <field name="ngay_ap">2026-06-16 00:00:00</field>
+            <field name="ngay_bd">2026-01-05 00:00:00</field>
+            <field name="ngay_kt">2026-12-31 00:00:00</field>
+            <field name="sl_dm_kg">897000.0000</field>
+            <field name="create_log">010126:100115:TRANGDT</field>
+            <field name="lastmodify_log">250726:091258:OANHNTK</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list">06HGCT,06HGCT.08,06HGCT2,06HGCT2.08,06HGPQ,06HGPQ.08</field>
+            <field name="so_qd">1356</field>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_81" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">81</field>
+            <field name="ma_dt">1071013</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2026-01-05 00:00:00</field>
+            <field name="ngay_bd">2026-01-05 00:00:00</field>
+            <field name="ngay_kt">2026-12-31 00:00:00</field>
+            <field name="sl_dm_kg">1968000.0000</field>
+            <field name="create_log">010126:100212:TRANGDT</field>
+            <field name="lastmodify_log">050126:101844:TRANGDT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_82" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">82</field>
+            <field name="ma_dt">1071017</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2026-01-05 00:00:00</field>
+            <field name="ngay_bd">2026-01-05 00:00:00</field>
+            <field name="ngay_kt">2026-06-21 00:00:00</field>
+            <field name="sl_dm_kg">566000.0000</field>
+            <field name="create_log">010126:100226:TRANGDT</field>
+            <field name="lastmodify_log">090726:103911:VR</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_83" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">83</field>
+            <field name="ma_dt">1071097</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2026-01-05 00:00:00</field>
+            <field name="ngay_bd">2026-01-05 00:00:00</field>
+            <field name="ngay_kt">2026-12-31 00:00:00</field>
+            <field name="sl_dm_kg">387000.0000</field>
+            <field name="create_log">010126:100259:TRANGDT</field>
+            <field name="lastmodify_log">050126:101240:TRANGDT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_84" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">84</field>
+            <field name="ma_dt">1071109</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2026-01-05 00:00:00</field>
+            <field name="ngay_bd">2026-01-05 00:00:00</field>
+            <field name="ngay_kt">2026-12-31 00:00:00</field>
+            <field name="sl_dm_kg">1052000.0000</field>
+            <field name="create_log">010126:100341:TRANGDT</field>
+            <field name="lastmodify_log">050126:100039:TRANGDT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_85" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">85</field>
+            <field name="ma_dt">1078816</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2026-01-05 00:00:00</field>
+            <field name="ngay_bd">2026-01-05 00:00:00</field>
+            <field name="ngay_kt">2026-12-31 00:00:00</field>
+            <field name="sl_dm_kg">72000.0000</field>
+            <field name="create_log">010126:100455:TRANGDT</field>
+            <field name="lastmodify_log">050126:101809:TRANGDT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_86" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">86</field>
+            <field name="ma_dt">1071178</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2026-01-05 00:00:00</field>
+            <field name="ngay_bd">2026-01-05 00:00:00</field>
+            <field name="ngay_kt">2026-12-31 00:00:00</field>
+            <field name="sl_dm_kg">700000.0000</field>
+            <field name="create_log">010126:101549:TRANGDT</field>
+            <field name="lastmodify_log">050126:102050:TRANGDT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_104" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">104</field>
+            <field name="ma_dt">1071184</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2026-03-16 00:00:00</field>
+            <field name="ngay_bd">2026-03-16 00:00:00</field>
+            <field name="ngay_kt">2026-12-31 00:00:00</field>
+            <field name="sl_dm_kg">1000000.0000</field>
+            <field name="create_log">140426:161143:TRANGDT</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_106" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">106</field>
+            <field name="ma_dt">1080046</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2026-03-16 00:00:00</field>
+            <field name="ngay_bd">2026-03-16 00:00:00</field>
+            <field name="ngay_kt">2026-12-31 00:00:00</field>
+            <field name="sl_dm_kg">1000000.0000</field>
+            <field name="create_log">140426:161652:TRANGDT</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_108" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">108</field>
+            <field name="ma_dt">1071186</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2026-03-24 00:00:00</field>
+            <field name="ngay_bd">2026-03-24 00:00:00</field>
+            <field name="ngay_kt">2026-12-31 00:00:00</field>
+            <field name="sl_dm_kg">600000.0000</field>
+            <field name="create_log">170426:153102:TRANGDT</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_110" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">110</field>
+            <field name="ma_dt">1000001</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2026-01-04 00:00:00</field>
+            <field name="ngay_bd">2026-01-04 00:00:00</field>
+            <field name="ngay_kt">2026-01-04 00:00:00</field>
+            <field name="sl_dm_kg">0.0000</field>
+            <field name="create_log">170426:161143:TRANGDT</field>
+            <field name="lastmodify_log">170426:162046:TRANGDT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_112" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">112</field>
+            <field name="ma_dt">1075131</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2026-04-20 00:00:00</field>
+            <field name="ngay_bd">2026-04-20 00:00:00</field>
+            <field name="ngay_kt">2026-05-25 00:00:00</field>
+            <field name="sl_dm_kg">1000000.0000</field>
+            <field name="create_log">250426:120955:TRANGDT</field>
+            <field name="lastmodify_log">270526:080213:TRANGDT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_113" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">113</field>
+            <field name="ma_dt">1071183</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2026-03-24 00:00:00</field>
+            <field name="ngay_bd">2026-03-24 00:00:00</field>
+            <field name="ngay_kt">2026-12-31 00:00:00</field>
+            <field name="sl_dm_kg">600000.0000</field>
+            <field name="create_log">090526:102400:DANGT</field>
+            <field name="lastmodify_log">090526:102904:DANGT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_115" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">115</field>
+            <field name="ma_dt">1071170</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2026-05-13 00:00:00</field>
+            <field name="ngay_bd">2026-05-13 00:00:00</field>
+            <field name="ngay_kt">2026-12-31 00:00:00</field>
+            <field name="sl_dm_kg">600000.0000</field>
+            <field name="create_log">130526:154758:TRANGDT</field>
+            <field name="lastmodify_log">280526:094953:VR</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_118" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">118</field>
+            <field name="ma_dt">1075131</field>
+            <field name="ma_nh_kg" eval="False"/>
+            <field name="ngay_ap">2026-05-26 00:00:00</field>
+            <field name="ngay_bd">2026-05-26 00:00:00</field>
+            <field name="ngay_kt">2026-06-22 00:00:00</field>
+            <field name="sl_dm_kg">1500000.0000</field>
+            <field name="create_log">250526:143849:TRANGDT</field>
+            <field name="lastmodify_log">270526:080234:TRANGDT</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_119" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">119</field>
+            <field name="ma_dt">1000001</field>
+            <field name="ma_nh_kg">HCMBL</field>
+            <field name="ngay_ap">2026-06-20 00:00:00</field>
+            <field name="ngay_bd">2026-06-20 17:12:04</field>
+            <field name="ngay_kt">2026-12-31 00:00:00</field>
+            <field name="sl_dm_kg">600000.0000</field>
+            <field name="create_log">200626:171426:VR</field>
+            <field name="lastmodify_log">240626:093947:VR</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list">06HCMLD,06HCMLD.08</field>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_120" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">120</field>
+            <field name="ma_dt">1071160</field>
+            <field name="ma_nh_kg">CHHCMCUCB4</field>
+            <field name="ngay_ap">2026-06-22 00:00:00</field>
+            <field name="ngay_bd">2026-06-22 17:02:22</field>
+            <field name="ngay_kt">2026-12-31 00:00:00</field>
+            <field name="sl_dm_kg">300000.0000</field>
+            <field name="create_log">220626:170345:VR</field>
+            <field name="lastmodify_log">240626:142320:OANHNTK</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list">06CHCB4</field>
+            <field name="so_qd">1431/QD-TMN</field>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_121" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">121</field>
+            <field name="ma_dt">1075131</field>
+            <field name="ma_nh_kg">LKDN</field>
+            <field name="ngay_ap">2026-06-23 00:00:00</field>
+            <field name="ngay_bd">2026-06-23 19:30:03</field>
+            <field name="ngay_kt">2026-12-31 00:00:00</field>
+            <field name="sl_dm_kg">1500000.0000</field>
+            <field name="create_log">230626:193012:VR</field>
+            <field name="lastmodify_log">100726:131756:VR</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list">06LKDN10,06LKDN10.08,06LKDN12,06LKDN12.08,06LKDN13,06LKDN13.08,06LKDN9,06LKDN9.08,06LKLD14,06LKLD14.08</field>
+            <field name="so_qd">1455/QD-TMN</field>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_123" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">123</field>
+            <field name="ma_dt">1071113</field>
+            <field name="ma_nh_kg">HSHCMCU</field>
+            <field name="ngay_ap">2026-06-22 00:00:00</field>
+            <field name="ngay_bd">2026-06-24 13:26:30</field>
+            <field name="ngay_kt">2026-07-08 00:00:00</field>
+            <field name="sl_dm_kg">500000.0000</field>
+            <field name="create_log">240626:132733:OANHNTK</field>
+            <field name="lastmodify_log">090726:104814:VR</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list">06HS,06HS.08</field>
+            <field name="so_qd" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_124" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">124</field>
+            <field name="ma_dt">1071113</field>
+            <field name="ma_nh_kg">HSHCMCUCB4</field>
+            <field name="ngay_ap">2026-06-22 00:00:00</field>
+            <field name="ngay_bd">2026-06-24 13:27:43</field>
+            <field name="ngay_kt">2026-12-31 00:00:00</field>
+            <field name="sl_dm_kg">300000.0000</field>
+            <field name="create_log">240626:132904:OANHNTK</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list">06HSCB4</field>
+            <field name="so_qd">1431/QD-TMN</field>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_125" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">125</field>
+            <field name="ma_dt">1071113</field>
+            <field name="ma_nh_kg">HSKHAC</field>
+            <field name="ngay_ap">2026-06-22 00:00:00</field>
+            <field name="ngay_bd">2026-06-24 13:38:36</field>
+            <field name="ngay_kt">2026-12-31 00:00:00</field>
+            <field name="sl_dm_kg">1274000.0000</field>
+            <field name="create_log">240626:134010:OANHNTK</field>
+            <field name="lastmodify_log">090726:104747:VR</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list">06HSVL,06HSVL.08,06HS,06HS.08</field>
+            <field name="so_qd">1431/QD-TMN</field>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_126" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">126</field>
+            <field name="ma_dt">1071017</field>
+            <field name="ma_nh_kg">SLKHAC</field>
+            <field name="ngay_ap">2026-06-22 00:00:00</field>
+            <field name="ngay_bd">2026-06-24 13:41:50</field>
+            <field name="ngay_kt">2026-12-31 00:00:00</field>
+            <field name="sl_dm_kg">1066000.0000</field>
+            <field name="create_log">240626:134428:OANHNTK</field>
+            <field name="lastmodify_log">090726:111606:OANHNTK</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list">06SLLA1,06SLLA1.08,06SLLA2.08,06SLTN,06SLHCM1,06SLHCM1.08,06SLHCM2,06SLHCM2.08</field>
+            <field name="so_qd">1431/QD-TMN</field>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_128" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">128</field>
+            <field name="ma_dt">1071017</field>
+            <field name="ma_nh_kg">SLHCMCUCB4</field>
+            <field name="ngay_ap">2026-06-24 00:00:00</field>
+            <field name="ngay_bd">2026-06-24 13:45:57</field>
+            <field name="ngay_kt">2026-12-31 00:00:00</field>
+            <field name="sl_dm_kg">300000.0000</field>
+            <field name="create_log">240626:134645:OANHNTK</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list">06SLHCM1CB4</field>
+            <field name="so_qd">1431/QD-TMN</field>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_129" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">129</field>
+            <field name="ma_dt">1071109</field>
+            <field name="ma_nh_kg">PTKHAC</field>
+            <field name="ngay_ap">2026-06-22 00:00:00</field>
+            <field name="ngay_bd">2026-06-24 14:06:04</field>
+            <field name="ngay_kt">2026-12-31 00:00:00</field>
+            <field name="sl_dm_kg">1252000.0000</field>
+            <field name="create_log">240626:140958:OANHNTK</field>
+            <field name="lastmodify_log">090726:111514:OANHNTK</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list">06PTBL1,06PTBL1.08,06PTBT1,06PTBT1.08,06PTTG1,06PTTG1.08,06PT,06PT.08</field>
+            <field name="so_qd">1431/QD-TMN</field>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_130" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">130</field>
+            <field name="ma_dt">1071109</field>
+            <field name="ma_nh_kg">PTNT</field>
+            <field name="ngay_ap">2026-06-22 00:00:00</field>
+            <field name="ngay_bd">2026-06-24 14:10:25</field>
+            <field name="ngay_kt">2024-03-21 00:00:00</field>
+            <field name="sl_dm_kg">300000.0000</field>
+            <field name="create_log">240626:141223:OANHNTK</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list">06PTNT1,06PTNT1.08,06PTNT2,06PTNT2.08,06PTNT3,06PTNT3.08,06PTNT4,06PTNT4.08,06PTNT5,06PTNT5.08,06PTNT6,06PTNT6.08,06PTNT7,06PTNT7.08,06PTNT8,06PTNT8.08,06PTNT9,06PTNT9.08</field>
+            <field name="so_qd">1431/QD-TMN</field>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_132" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">132</field>
+            <field name="ma_dt">1071160</field>
+            <field name="ma_nh_kg">CHNT</field>
+            <field name="ngay_ap">2026-06-24 00:00:00</field>
+            <field name="ngay_bd">2026-06-24 14:23:55</field>
+            <field name="ngay_kt">2026-12-31 00:00:00</field>
+            <field name="sl_dm_kg">300000.0000</field>
+            <field name="create_log">240626:142514:OANHNTK</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list">06CHNT1,06CHNT1.08</field>
+            <field name="so_qd">1431/QD-TMN</field>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_133" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">133</field>
+            <field name="ma_dt">1071160</field>
+            <field name="ma_nh_kg">CHKHAC</field>
+            <field name="ngay_ap">2026-06-22 00:00:00</field>
+            <field name="ngay_bd">2026-06-24 14:25:20</field>
+            <field name="ngay_kt">2026-12-31 00:00:00</field>
+            <field name="sl_dm_kg">918000.0000</field>
+            <field name="create_log">240626:142717:OANHNTK</field>
+            <field name="lastmodify_log">090726:111701:OANHNTK</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list">06CHBL1,06CHBL1.08,06CHBL2,06CHBL2.08,06CHCM,06CHCM.08,06CHCM1,06CHCM1.08,06CHKG1,06CHKG1.08,06CHLA1,06CHLA1.08,06CHTG1,06CHTG1.08,06CHTV1,06CHTV1.08,06CHTV2,06CHTV2.08,06CHVL1,06CHVL1.08,06CHVL2,06CHVL2.08,06CH,06CH.08</field>
+            <field name="so_qd">1431/QD-TMN</field>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_135" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">135</field>
+            <field name="ma_dt">1075131</field>
+            <field name="ma_nh_kg">LKBRVTCU</field>
+            <field name="ngay_ap">2026-04-15 00:00:00</field>
+            <field name="ngay_bd">2026-06-24 14:44:02</field>
+            <field name="ngay_kt">2026-12-31 00:00:00</field>
+            <field name="sl_dm_kg">1000000.0000</field>
+            <field name="create_log">240626:144625:OANHNTK</field>
+            <field name="lastmodify_log">090726:074440:VR</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list">06LKHCM1,06LKHCM1.08,06LKHCM11,06LKHCM11.08,06LKHCM2,06LKHCM2.08,06LKHCM3,06LKHCM3.08,06LKHCM4,06LKHCM4.08,06LKHCM5,06LKHCM5.08,06LKHCM6,06LKHCM6.08,06LKHCM7,06LKHCM7.08,06LKHCM8,06LKHCM8.08</field>
+            <field name="so_qd">829/QD-TMN</field>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_136" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">136</field>
+            <field name="ma_dt">1071189</field>
+            <field name="ma_nh_kg">HSHCMCUMOICB4</field>
+            <field name="ngay_ap">2026-07-01 00:00:00</field>
+            <field name="ngay_bd">2026-07-01 11:30:22</field>
+            <field name="ngay_kt">2026-12-31 00:00:00</field>
+            <field name="sl_dm_kg">300000.0000</field>
+            <field name="create_log">010726:113522:OANHNTK</field>
+            <field name="lastmodify_log">170726:090245:OANHNTK</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list">06HSMCB4</field>
+            <field name="so_qd">1537/QÐ-TMN</field>
+            <field name="ghi_chu">Đổi tên cty</field>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_137" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">137</field>
+            <field name="ma_dt">1071189</field>
+            <field name="ma_nh_kg">HSKHACMOI</field>
+            <field name="ngay_ap">2026-07-01 00:00:00</field>
+            <field name="ngay_bd">2026-07-01 11:44:45</field>
+            <field name="ngay_kt">2026-12-31 00:00:00</field>
+            <field name="sl_dm_kg">1274000.0000</field>
+            <field name="create_log">010726:114831:OANHNTK</field>
+            <field name="lastmodify_log">220726:095459:OANHNTK</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list">06HSMVL,06HSMVL.08</field>
+            <field name="so_qd">1537/QÐ-TMN</field>
+            <field name="ghi_chu">Đổi tên cty</field>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_138" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">138</field>
+            <field name="ma_dt">1071013</field>
+            <field name="ma_nh_kg">KGHCM</field>
+            <field name="ngay_ap">2026-07-13 00:00:00</field>
+            <field name="ngay_bd">2026-07-13 11:33:22</field>
+            <field name="ngay_kt">2026-12-31 00:00:00</field>
+            <field name="sl_dm_kg">600000.0000</field>
+            <field name="create_log">130726:113730:OANHNTK</field>
+            <field name="lastmodify_log">130726:134014:OANHNTK</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list">06SMCHCMC1,06SMCHCMC1.08,06SMCHCMC2,06SMCHCMC2.08,06SMCHCMC3,06SMCHCMC3.08</field>
+            <field name="so_qd">1650</field>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_139" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">139</field>
+            <field name="ma_dt">1071013</field>
+            <field name="ma_nh_kg">KGHCMKHAC</field>
+            <field name="ngay_ap">2026-07-13 00:00:00</field>
+            <field name="ngay_bd">2026-07-13 11:37:33</field>
+            <field name="ngay_kt">2026-12-31 00:00:00</field>
+            <field name="sl_dm_kg">1968000.0000</field>
+            <field name="create_log">130726:113955:OANHNTK</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list">06SMC.08,06SMCBC1,06SMCBC1.08,06SMCBR1,06SMCBR1.08,06SMCBTR1,06SMCBTR1.08,06SMCBTR2,06SMCBTR2.08,06SMCCM1,06SMCCM1.08,06SMCCM2,06SMCCM2.08,06SMCCT1,06SMCCT1.08,06SMCCT2,06SMCCT2.08,06SMCDT1,06SMCDT1.08,06SMCDT2,06SMCDT2.08,06SMCDT3,06SMCDT3.08,06SMCDT4,06SMCDT4.08,06SMCDT5,06SMCDT5.08,06SMCDT6,06SMCDT6.08,06SMCDT7,06SMCDT7.08,06SMCKG1,06SMCKG1.08,06SMCLA1,06SMCLA1.08,06SMCLA2,06SMCLA2.08,06SMCST1,06SMCST1.08,06SMCTN1,06SMCTN1.08,06SMCVL1,06SMCVL1.08,06SMCVL2,06SMCVL2.08</field>
+            <field name="so_qd">1650</field>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_140" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">140</field>
+            <field name="ma_dt">1071136</field>
+            <field name="ma_nh_kg">THPCB4</field>
+            <field name="ngay_ap">2026-06-22 00:00:00</field>
+            <field name="ngay_bd">2026-07-16 16:16:39</field>
+            <field name="ngay_kt">2026-12-31 00:00:00</field>
+            <field name="sl_dm_kg">800000.0000</field>
+            <field name="create_log">160726:161832:OANHNTK</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list">06THPCB4,06THPTG1CB4,06THPVLCB4</field>
+            <field name="so_qd">1432</field>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_141" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">141</field>
+            <field name="ma_dt">1000014</field>
+            <field name="ma_nh_kg">MTDL</field>
+            <field name="ngay_ap">2026-07-16 00:00:00</field>
+            <field name="ngay_bd">2026-07-19 19:56:19</field>
+            <field name="ngay_kt">2026-12-31 00:00:00</field>
+            <field name="sl_dm_kg">600000.0000</field>
+            <field name="create_log">190726:195700:OANHNTK</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list">06MTGDL,06MTGDL.08</field>
+            <field name="so_qd">1674</field>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_142" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">142</field>
+            <field name="ma_dt">1071189</field>
+            <field name="ma_nh_kg">HSHCMCUMOI</field>
+            <field name="ngay_ap">2026-07-01 00:00:00</field>
+            <field name="ngay_bd">2026-07-22 09:55:04</field>
+            <field name="ngay_kt">2026-12-31 00:00:00</field>
+            <field name="sl_dm_kg">500000.0000</field>
+            <field name="create_log">220726:095617:OANHNTK</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list">06HSM,06HSM.08</field>
+            <field name="so_qd">1537/QÐ-TMN</field>
+            <field name="ghi_chu">Đổi tên cty</field>
+        </record>
+        <record id="iwmn_r81dmkhoct_kg_143" model="iwmn.r81dmkhoct_kg">
+            <field name="ident00">143</field>
+            <field name="ma_dt">1071005</field>
+            <field name="ma_nh_kg">HGBL</field>
+            <field name="ngay_ap">2026-06-01 00:00:00</field>
+            <field name="ngay_bd">2026-07-25 09:13:56</field>
+            <field name="ngay_kt">2026-12-31 00:00:00</field>
+            <field name="sl_dm_kg">1000000.0000</field>
+            <field name="create_log">250726:091437:OANHNTK</field>
+            <field name="lastmodify_log">250726:091716:OANHNTK</field>
+            <field name="ma_data">A01</field>
+            <field name="ma_kho_list">06HGBL,06HGBL.08</field>
+            <field name="so_qd">1356</field>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+    </data>
+</odoo>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ActiveReportsLayout Version="3" PrintWidth="11908.8" DocumentName="ARNet Document" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-style: normal; text-decoration: none; font-weight: normal; font-size: 10pt; color: Black; font-family: &quot;Microsoft Sans Serif&quot;; ddo-char-set: 204; " />
+    <Style Name="Heading1" Value="font-size: 16pt; font-weight: bold; ddo-char-set: 204; " />
+    <Style Name="Heading2" Value="font-size: 14pt; font-weight: bold; font-style: italic; font-family: &quot;Microsoft Sans Serif&quot;; ddo-char-set: 204; " />
+    <Style Name="Heading3" Value="font-size: 13pt; font-weight: bold; ddo-char-set: 204; " />
+  </StyleSheet>
+  <Sections>
+    <Section Type="PageHeader" Name="pageHeader" Height="8038" BackColor="16777215">
+      <Control Type="AR.Label" Name="label1" Tag="Dia_Chi_Dv" Left="720" Top="720" Width="5940" Height="270" Caption="Dia_Chi_Dv" HyperLink="" Style="ddo-char-set: 0; font-weight: bold; font-size: 9.75pt; font-family: Microsoft Sans Serif; " />
+      <Control Type="AR.Label" Name="label2" Tag="Ten_Dv_Cq" Left="720" Top="180" Width="5940" Height="270" Caption="Ten_Dv_Cq" HyperLink="" Style="ddo-char-set: 0; font-weight: bold; font-size: 9.75pt; font-family: Microsoft Sans Serif; " />
+      <Control Type="AR.Label" Name="label3" Tag="Ten_Dv" Left="720" Top="450" Width="5940" Height="270" Caption="Ten_Dv" HyperLink="" Style="ddo-char-set: 0; font-weight: bold; font-size: 9.75pt; font-family: Microsoft Sans Serif; " />
+      <Control Type="AR.Label" Name="label4" Tag="Title" Left="4050" Top="1080" Width="4140" Height="450" Caption="Title" Style="ddo-char-set: 0; font-weight: bold; font-size: 14pt; font-family: Microsoft Sans Serif; " />
+      <Control Type="AR.Label" Name="label5" Tag="Ngay_Ct" Left="4050" Top="1620" Width="4140" Height="270" Caption="Ngay_Ct" Style="ddo-char-set: 0; font-style: italic; font-size: 9.75pt; font-family: Microsoft Sans Serif; " />
+      <Control Type="AR.Label" Name="label6" Tag="Mau_So" Left="7020" Top="90" Width="1440" Height="285.0001" Caption="Mau_So" Style="ddo-char-set: 0; font-weight: bold; font-size: 9.75pt; font-family: Microsoft Sans Serif; " />
+      <Control Type="AR.Label" Name="label9" Tag="So_Ct" Left="9000" Top="1485" Width="1440" Height="270" Caption="So_Ct" Style="ddo-char-set: 0; font-size: 9.75pt; font-family: Microsoft Sans Serif; " />
+      <Control Type="AR.Label" Name="label12" Left="990" Top="2520" Width="2430" Height="270" Caption="Họ và tên :" Style="ddo-char-set: 0; font-size: 9.75pt; font-family: Microsoft Sans Serif; " />
+      <Control Type="AR.Label" Name="label13" Left="1008" Top="2880" Width="936.0001" Height="288.0001" Caption="Địa chỉ:" Style="ddo-char-set: 0; font-size: 9.75pt; font-family: Microsoft Sans Serif; " />
+      <Control Type="AR.Label" Name="label14" Left="1008" Top="3240" Width="936.0001" Height="287.9999" Caption="Lý do :" Style="ddo-char-set: 0; font-size: 9.75pt; font-family: Microsoft Sans Serif; " />
+      <Control Type="AR.Label" Name="label15" Left="1008" Top="3600" Width="936.0001" Height="287.9999" Caption="Số tiền:" Style="ddo-char-set: 0; font-size: 9.75pt; font-family: Microsoft Sans Serif; " />
+      <Control Type="AR.Label" Name="label16" Left="1008" Top="3960" Width="936.0001" Height="288.0002" Caption="Kèm theo:" Style="ddo-char-set: 0; font-size: 9.75pt; font-family: Microsoft Sans Serif; " />
+      <Control Type="AR.Label" Name="label17" Left="7650" Top="5040" Width="3150" Height="270" Caption="Ngày...... tháng...... năm......" Style="ddo-char-set: 0; font-style: normal; font-size: 9.75pt; font-family: Microsoft Sans Serif; " />
+      <Control Type="AR.Label" Name="label18" Left="990" Top="5490" Width="990" Height="270" Caption="Giám đốc" Style="ddo-char-set: 1; font-weight: bold; font-size: 9.75pt; font-family: Microsoft Sans Serif; " />
+      <Control Type="AR.Label" Name="label19" Left="540" Top="5850" Width="2070" Height="270" Caption="(Ký, họ tên, đóng dấu)" Style="ddo-char-set: 1; font-style: italic; font-size: 9.75pt; font-family: Microsoft Sans Serif; " />
+      <Control Type="AR.Label" Name="label20" Left="2970" Top="5490" Width="1530" Height="270" Caption="Kế toán trưởng" Style="ddo-char-set: 1; font-weight: bold; font-size: 9.75pt; font-family: Microsoft Sans Serif; " />
+      <Control Type="AR.Label" Name="label21" Left="3060" Top="5850" Width="1080" Height="270" Caption="(Ký, họ tên)" HyperLink="" Style="ddo-char-set: 1; font-style: italic; font-size: 9.75pt; font-family: Microsoft Sans Serif; " />
+      <Control Type="AR.Label" Name="label22" Left="5400" Top="5490" Width="1530" Height="270" Caption="Người nộp tiền" Style="ddo-char-set: 1; font-weight: bold; font-size: 9.75pt; font-family: Microsoft Sans Serif; " />
+      <Control Type="AR.Label" Name="label23" Left="7380" Top="5490" Width="1620" Height="270" Caption="Người lập phiếu" Style="ddo-char-set: 1; font-weight: bold; font-size: 9.75pt; font-family: Microsoft Sans Serif; " />
+      <Control Type="AR.Label" Name="label24" Left="9810" Top="5490" Width="900" Height="270" Caption="Thủ qũy" Style="ddo-char-set: 1; font-weight: bold; font-size: 9.75pt; font-family: Microsoft Sans Serif; " />
+      <Control Type="AR.Label" Name="label25" Left="5670" Top="5850" Width="1080" Height="270" Caption="(Ký, họ tên)" HyperLink="" Style="ddo-char-set: 1; font-style: italic; font-size: 9.75pt; font-family: Microsoft Sans Serif; " />
+      <Control Type="AR.Label" Name="label26" Left="7470" Top="5850" Width="1080" Height="270" Caption="(Ký, họ tên)" HyperLink="" Style="ddo-char-set: 1; font-style: italic; font-size: 9.75pt; font-family: Microsoft Sans Serif; " />
+      <Control Type="AR.Label" Name="label27" Left="9810" Top="5850" Width="1080" Height="270" Caption="(Ký, họ tên)" HyperLink="" Style="ddo-char-set: 1; font-style: italic; font-size: 9.75pt; font-family: Microsoft Sans Serif; " />
+      <Control Type="AR.Label" Name="label28" Left="990" Top="4320" Width="9810" Height="270" Caption="Đã nhận đủ số tiền(viết bằng chữ): . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ." Style="ddo-char-set: 0; font-size: 9.75pt; font-family: Microsoft Sans Serif; " />
+      <Control Type="AR.Line" Name="line1" X1="720" Y1="8010" X2="11160" Y2="8010" />
+      <Control Type="AR.Label" Name="label32" Tag="Ong_Ba" Left="3600" Top="2520" Width="1440" Height="285.0001" Caption="Ong_Ba" Style="ddo-char-set: 0; font-size: 9.75pt; font-family: Microsoft Sans Serif; " />
+      <Control Type="AR.Label" Name="label33" Tag="Dia_Chi" Left="2088" Top="2880" Width="1440" Height="285.0001" Caption="Dia_Chi" Style="ddo-char-set: 0; font-size: 9.75pt; font-family: Microsoft Sans Serif; " />
+      <Control Type="AR.Label" Name="label34" Tag="Dien_Giai" Left="2088" Top="3240" Width="1440" Height="285.0001" Caption="Dien_Giai" Style="ddo-char-set: 0; font-size: 9.75pt; font-family: Microsoft Sans Serif; " />
+      <Control Type="AR.Label" Name="label35" Tag="TTien_Nt" Left="2088" Top="3600" Width="1440" Height="285.0001" Caption="TTien_Nt" Style="ddo-char-set: 0; font-size: 9.75pt; font-family: Microsoft Sans Serif; " />
+      <Control Type="AR.Label" Name="label36" Tag="Ct_Di_Kem" Left="2088" Top="3960" Width="1440" Height="285.0001" Caption="Ct_Di_Kem" Style="ddo-char-set: 0; font-size: 9.75pt; font-family: Microsoft Sans Serif; " />
+      <Control Type="AR.Label" Name="label37" Left="8460" Top="1485" Width="450" Height="270" Caption="Số:" />
+      <Control Type="AR.Label" Name="label8" Tag="Tien_Nt_List" Left="9720" Top="1890" Width="1670.4" Height="1260" Caption="Tien_Nt_List" HyperLink="" Style="ddo-char-set: 0; text-align: right; font-size: 9.75pt; font-family: Microsoft Sans Serif; " />
+      <Control Type="AR.Label" Name="label7" Tag="Tk_List" Left="8460" Top="1890" Width="1166.4" Height="1260" Caption="Tk_List" HyperLink="" Style="ddo-char-set: 0; font-size: 9.75pt; font-family: Microsoft Sans Serif; " />
+      <Control Type="AR.Label" Name="Label10" Tag="Ma_Tte" Left="3600" Top="3600" Width="576" Height="287.9998" Caption="Ma_Tte" Style="ddo-char-set: 0; font-size: 9.75pt; font-family: Microsoft Sans Serif; " />
+      <Control Type="AR.Label" Name="Label11" Left="4248" Top="3600" Width="1368" Height="287.9998" Caption="(viết bằng chữ)" Style="ddo-char-set: 0; font-size: 9.75pt; font-family: Microsoft Sans Serif; " />
+      <Control Type="AR.Label" Name="Label29" Tag="Thanh_Tien" Left="5688" Top="3600" Width="5976" Height="287.9998" Caption="Thanh_Tien" Style="ddo-char-set: 0; font-size: 9.75pt; font-family: Microsoft Sans Serif; " />
+    </Section>
+    <Section Type="Detail" Name="detail" Height="0" BackColor="16777215" />
+    <Section Type="PageFooter" Name="pageFooter" Height="15" BackColor="16777215" />
+  </Sections>
+  <ReportComponentTray />
+  <PageSettings LeftMargin="0" TopMargin="0" PaperBin="15" />
+  <Parameters />
+</ActiveReportsLayout>

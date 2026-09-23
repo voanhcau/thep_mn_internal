@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="iwmn_r81dmcksl_1" model="iwmn.r81dmcksl">
+            <field name="ident00">1</field>
+            <field name="tu_sl">300000.0000</field>
+            <field name="den_sl">1000000.0000</field>
+            <field name="gia">150.0000</field>
+            <field name="ngay_ap">2016-02-01 00:00:00</field>
+            <field name="ma_dt_list" eval="False"/>
+            <field name="so_qd_gia" eval="False"/>
+            <field name="ngay_kthuc">1900-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmcksl_2" model="iwmn.r81dmcksl">
+            <field name="ident00">2</field>
+            <field name="tu_sl">1000000.0000</field>
+            <field name="den_sl">1500000.0000</field>
+            <field name="gia">170.0000</field>
+            <field name="ngay_ap">2016-02-01 00:00:00</field>
+            <field name="ma_dt_list" eval="False"/>
+            <field name="so_qd_gia" eval="False"/>
+            <field name="ngay_kthuc">1900-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmcksl_3" model="iwmn.r81dmcksl">
+            <field name="ident00">3</field>
+            <field name="tu_sl">1500000.0000</field>
+            <field name="den_sl">2000000.0000</field>
+            <field name="gia">190.0000</field>
+            <field name="ngay_ap">2016-02-01 00:00:00</field>
+            <field name="ma_dt_list" eval="False"/>
+            <field name="so_qd_gia" eval="False"/>
+            <field name="ngay_kthuc">1900-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmcksl_4" model="iwmn.r81dmcksl">
+            <field name="ident00">4</field>
+            <field name="tu_sl">2000000.0000</field>
+            <field name="den_sl">100000000.0000</field>
+            <field name="gia">210.0000</field>
+            <field name="ngay_ap">2016-02-01 00:00:00</field>
+            <field name="ma_dt_list" eval="False"/>
+            <field name="so_qd_gia" eval="False"/>
+            <field name="ngay_kthuc">1900-01-01 00:00:00</field>
+        </record>
+    </data>
+</odoo>

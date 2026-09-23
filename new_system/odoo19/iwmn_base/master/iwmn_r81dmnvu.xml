@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_iwmn_r81dmnvu_list" model="ir.ui.view">
+        <field name="name">iwmn.r81dmnvu.list</field>
+        <field name="model">iwmn.r81dmnvu</field>
+        <field name="arch" type="xml">
+            <list string="R81DMNVU - Ten_Nvu">
+                <field name="ma_nvu"/>
+                <field name="ten_nvu"/>
+                <field name="ma_nvu_parent"/>
+                <field name="ma_ct"/>
+                <field name="ma_ct_rule"/>
+                <field name="ma_dt"/>
+                <field name="ma_dt_rule"/>
+                <field name="tk_no"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmnvu_form" model="ir.ui.view">
+        <field name="name">iwmn.r81dmnvu.form</field>
+        <field name="model">iwmn.r81dmnvu</field>
+        <field name="arch" type="xml">
+            <form string="R81DMNVU - Ten_Nvu">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="ma_nvu"/>
+                            <field name="ten_nvu"/>
+                            <field name="ma_nvu_parent"/>
+                            <field name="ma_ct"/>
+                            <field name="ma_ct_rule"/>
+                            <field name="ma_dt"/>
+                            <field name="ma_dt_rule"/>
+                            <field name="tk_no"/>
+                            <field name="tk_no_rule"/>
+                            <field name="tk_co"/>
+                            <field name="tk_co_rule"/>
+                            <field name="ma_bp"/>
+                            <field name="ma_bp_rule"/>
+                            <field name="ma_km"/>
+                            <field name="ma_km_rule"/>
+                            <field name="ma_vt_sp"/>
+                            <field name="ma_vt_sp_rule"/>
+                            <field name="ma_hd"/>
+                            <field name="ma_hd_rule"/>
+                            <field name="ma_job"/>
+                            <field name="ma_job_rule"/>
+                            <field name="ma_thue"/>
+                            <field name="ma_thue_rule"/>
+                        </group>
+                        <group>
+                            <field name="ma_kho"/>
+                            <field name="ma_kho_rule"/>
+                            <field name="ma_dt_cbnv"/>
+                            <field name="ma_dt_cbnv_rule"/>
+                            <field name="posted"/>
+                            <field name="create_log"/>
+                            <field name="lastmodify_log"/>
+                            <field name="ngay_begin"/>
+                            <field name="ngay_end"/>
+                            <field name="ma_data"/>
+                            <field name="tk_no2"/>
+                            <field name="tk_no2_rule"/>
+                            <field name="tk_co2"/>
+                            <field name="tk_co2_rule"/>
+                            <field name="default_duyet"/>
+                            <field name="default_autocost"/>
+                            <field name="ma_khon"/>
+                            <field name="is_not_lock"/>
+                            <field name="ma_nvu_px"/>
+                            <field name="ma_nvu_hd"/>
+                            <field name="isautohd"/>
+                            <field name="ma_ky_hieu_hd"/>
+                            <field name="so_seri0"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmnvu_search" model="ir.ui.view">
+        <field name="name">iwmn.r81dmnvu.search</field>
+        <field name="model">iwmn.r81dmnvu</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="ten_nvu"/>
+                <field name="ma_nvu"/>
+                <field name="ma_nvu_parent"/>
+                <field name="ma_ct"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_iwmn_r81dmnvu" model="ir.actions.act_window">
+        <field name="name">R81DMNVU - Ten_Nvu</field>
+        <field name="res_model">iwmn.r81dmnvu</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_iwmn_r81dmnvu_search"/>
+    </record>
+
+    <menuitem id="menu_iwmn_r81dmnvu" name="R81DMNVU - Ten_Nvu"
+              parent="menu_iwmn_master_finance"
+              action="action_iwmn_r81dmnvu" sequence="47"/>
+</odoo>

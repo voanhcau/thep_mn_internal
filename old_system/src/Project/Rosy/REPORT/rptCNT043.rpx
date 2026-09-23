@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ActiveReportsLayout Version="3.1" PrintWidth="11805" DocumentName="ARNet Document" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-style: normal; text-decoration: none; font-weight: normal; color: Black; font-family: &quot;Times New Roman&quot;; font-size: 11pt; ddo-char-set: 204" />
+    <Style Name="Heading1" Value="font-size: 16pt; font-weight: bold; ddo-char-set: 204" />
+    <Style Name="Heading2" Value="font-size: 14pt; font-weight: bold; font-style: italic; font-family: &quot;Times New Roman&quot;; ddo-char-set: 204" />
+    <Style Name="Heading3" Value="font-size: 13pt; font-weight: bold; ddo-char-set: 204" />
+  </StyleSheet>
+  <Sections>
+    <Section Type="ReportHeader" Name="ReportHeader" Height="344" BackColor="16777215" CanShrink="1" />
+    <Section Type="PageHeader" Name="PageHeader1" Height="1558" BackColor="16777215">
+      <Control Type="AR.Label" Name="Label33" Left="764.7875" Top="503.921" Width="10500.1" Height="599.8155" Caption="Bảng kê chi tiết số dư cuối kỳ" Style="text-align: center; ddo-char-set: 1; font-size: 15.75pt; font-family: Times New Roman; font-weight: bold" />
+      <Control Type="AR.Line" Name="Line4" X1="1584" Y1="1134.913" X2="10925.85" Y2="1134.913" />
+      <Control Type="AR.Label" Name="Label34" Left="1936.063" Top="1189.338" Width="1163.906" Height="300" Caption="Ngày Ct" Style="ddo-char-set: 0; font-size: 12pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="Label37" Left="3345.12" Top="1189.44" Width="1163.906" Height="300" Caption="Số Ct" Style="ddo-char-set: 0; font-size: 12pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="Label40" Left="6240.189" Top="1189.338" Width="1314.141" Height="300" Caption="Nội dung" Style="ddo-char-set: 0; font-size: 12pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="Label41" Left="9611.718" Top="1189.338" Width="1314.141" Height="300" Caption="Số tiền" Style="ddo-char-set: 0; font-size: 12pt; font-family: Times New Roman" />
+      <Control Type="AR.Line" Name="Line5" X1="1583.999" Y1="1538" X2="10925.84" Y2="1538" />
+      <Control Type="AR.Line" Name="Line6" X1="1584" Y1="1524.96" X2="1584" Y2="1134.96" />
+      <Control Type="AR.Line" Name="Line7" X1="3139.2" Y1="1533.416" X2="3139.2" Y2="1130.377" />
+      <Control Type="AR.Line" Name="Line8" X1="4753.44" Y1="1533.464" X2="4753.44" Y2="1130.425" />
+      <Control Type="AR.Line" Name="Line9" X1="9103.181" Y1="1533.464" X2="9103.181" Y2="1130.424" />
+      <Control Type="AR.Line" Name="Line10" X1="10925.86" Y1="1533.464" X2="10925.86" Y2="1130.424" />
+    </Section>
+    <Section Type="Detail" Name="detail" Height="354" BackColor="16777215">
+      <Control Type="AR.Line" Name="Line11" X1="1584" Y1="391.748" X2="1584" Y2="0.04767895" />
+      <Control Type="AR.Line" Name="Line12" X1="1583.999" Y1="391.748" X2="10925.84" Y2="391.748" />
+      <Control Type="AR.Line" Name="Line13" X1="3139.2" Y1="391.7002" X2="3139.2" Y2="0" />
+      <Control Type="AR.Line" Name="Line14" X1="4753.44" Y1="391.7002" X2="4753.44" Y2="0" />
+      <Control Type="AR.Line" Name="Line15" X1="9103.182" Y1="391.748" X2="9103.182" Y2="0.04785061" />
+      <Control Type="AR.Line" Name="Line17" X1="10925.86" Y1="391.748" X2="10925.86" Y2="0.04785061" />
+      <Control Type="AR.Field" Name="TextBox1" DataField="Ngay_Ct0" Left="1716.661" Top="73.7008" Width="1471.748" Height="240" Text="Ngay_Ct0" OutputFormat="dd/MM/yyyy" Multiline="0" Style="ddo-char-set: 0; font-size: 9.75pt; font-family: Times New Roman; white-space: nowrap" />
+      <Control Type="AR.Field" Name="textBox4" DataField="So_Ct0" Left="3188.16" Top="73.7008" Width="1565.28" Height="240" Text="So_Ct0" Multiline="0" Style="ddo-char-set: 0; font-size: 9.75pt; white-space: nowrap" />
+      <Control Type="AR.Field" Name="textBox3" DataField="Dien_Giai" Tag="" Left="4753.44" Top="73.7008" Width="4350.241" Height="240" Text="Dien_Giai" Style="ddo-char-set: 0; font-size: 9.75pt; white-space: inherit" />
+      <Control Type="AR.Field" Name="textBox9" DataField="Du_Cuoi" Left="9104.883" Top="73.7008" Width="1690.583" Height="240" Text="Du_Cuoi" OutputFormat="#,##0" Multiline="0" Style="ddo-char-set: 0; text-align: right; font-size: 9.75pt; white-space: nowrap" />
+    </Section>
+    <Section Type="PageFooter" Name="PageFooter1" Height="299" BackColor="16777215">
+      <Control Type="AR.ReportInfo" Name="ReportInfo1" Left="9753.12" Top="0" Width="1512" Height="288" FormatString="Trang: {PageNumber}/{PageCount}" Style="ddo-char-set: 1; font-size: 10pt" />
+    </Section>
+    <Section Type="ReportFooter" Name="ReportFooter" Height="225" BackColor="16777215" />
+  </Sections>
+  <ReportComponentTray />
+  <Script><![CDATA[public void ActiveReport_ReportStart()
+{
+	 //string strSo_Tien =((Label)rpt.Sections["reportHeader"].Controls["lblTTien_Nt"]).Text;
+	 
+	// ((Label)rpt.Sections["reportHeader"].Controls["lblDoc_TienC"]).Text = Rosy.Systems.Publics.Public.ReadMoneyC(Convert.ToDouble(strSo_Tien));
+	 	
+//		Label Ma_Tte = ((Label)rpt.Sections["reportHeader"].Controls["lblMa_Tte"]);
+//		Label Ty_Gia = ((Label)rpt.Sections["reportHeader"].Controls["lblTy_Gia"]);
+//		Label TTien = ((Label)rpt.Sections["reportHeader"].Controls["lblTTien"]);
+
+//        string str =((Label)rpt.Sections["reportHeader"].Controls["lblTTien_Nt"]).Text;
+//		double dbSo_Du = Convert.ToDouble(rpt.Sections["reportFooter"].Controls["lblDu_Cuoi"].Text);
+		
+//		if (dbSo_Du > 0)
+//		{
+		 
+//		}
+}]]></Script>
+  <PageSettings LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" PaperSize="9" PaperWidth="11906" PaperHeight="16838" PaperName="" Orientation="1" />
+  <Parameters />
+</ActiveReportsLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="iwmn_r81ngaylecty_ct_1" model="iwmn.r81ngaylecty_ct">
+            <field name="ident00">1</field>
+            <field name="ngay_cham_cong">2026-02-13 00:00:00</field>
+            <field name="ma_bp_list_lam">SX-C3,SX-C4,SX-L2,SX-L3,SX-L4</field>
+            <field name="kip" eval="False"/>
+        </record>
+        <record id="iwmn_r81ngaylecty_ct_2" model="iwmn.r81ngaylecty_ct">
+            <field name="ident00">2</field>
+            <field name="ngay_cham_cong">2026-02-14 00:00:00</field>
+            <field name="ma_bp_list_lam">SX-C3,SX-C4,SX-L2,SX-L3,SX-L4</field>
+            <field name="kip" eval="False"/>
+        </record>
+        <record id="iwmn_r81ngaylecty_ct_3" model="iwmn.r81ngaylecty_ct">
+            <field name="ident00">3</field>
+            <field name="ngay_cham_cong">2026-02-15 00:00:00</field>
+            <field name="ma_bp_list_lam">SX-C3,SX-C4</field>
+            <field name="kip" eval="False"/>
+        </record>
+        <record id="iwmn_r81ngaylecty_ct_4" model="iwmn.r81ngaylecty_ct">
+            <field name="ident00">4</field>
+            <field name="ngay_cham_cong">2026-02-15 00:00:00</field>
+            <field name="ma_bp_list_lam">SX-L2-SX-A</field>
+            <field name="kip">1</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_ct_5" model="iwmn.r81ngaylecty_ct">
+            <field name="ident00">5</field>
+            <field name="ngay_cham_cong">2026-02-16 00:00:00</field>
+            <field name="ma_bp_list_lam">SX-C3,SX-C4</field>
+            <field name="kip" eval="False"/>
+        </record>
+        <record id="iwmn_r81ngaylecty_ct_6" model="iwmn.r81ngaylecty_ct">
+            <field name="ident00">6</field>
+            <field name="ngay_cham_cong">2026-02-17 00:00:00</field>
+            <field name="ma_bp_list_lam">SX-C3,SX-C4</field>
+            <field name="kip" eval="False"/>
+        </record>
+        <record id="iwmn_r81ngaylecty_ct_7" model="iwmn.r81ngaylecty_ct">
+            <field name="ident00">7</field>
+            <field name="ngay_cham_cong">2026-02-18 00:00:00</field>
+            <field name="ma_bp_list_lam">SX-C3,SX-C4</field>
+            <field name="kip" eval="False"/>
+        </record>
+        <record id="iwmn_r81ngaylecty_ct_8" model="iwmn.r81ngaylecty_ct">
+            <field name="ident00">8</field>
+            <field name="ngay_cham_cong">2026-02-19 00:00:00</field>
+            <field name="ma_bp_list_lam">SX-C3,SX-C4</field>
+            <field name="kip" eval="False"/>
+        </record>
+        <record id="iwmn_r81ngaylecty_ct_9" model="iwmn.r81ngaylecty_ct">
+            <field name="ident00">9</field>
+            <field name="ngay_cham_cong">2026-02-20 00:00:00</field>
+            <field name="ma_bp_list_lam">SX-C3,SX-C4</field>
+            <field name="kip" eval="False"/>
+        </record>
+        <record id="iwmn_r81ngaylecty_ct_10" model="iwmn.r81ngaylecty_ct">
+            <field name="ident00">10</field>
+            <field name="ngay_cham_cong">2026-02-21 00:00:00</field>
+            <field name="ma_bp_list_lam">SX-C3,SX-C4,SX-L2,SX-L3,SX-L4</field>
+            <field name="kip" eval="False"/>
+        </record>
+        <record id="iwmn_r81ngaylecty_ct_11" model="iwmn.r81ngaylecty_ct">
+            <field name="ident00">11</field>
+            <field name="ngay_cham_cong">2026-02-22 00:00:00</field>
+            <field name="ma_bp_list_lam">SX-C3,SX-C4,SX-L2,SX-L3,SX-L4</field>
+            <field name="kip" eval="False"/>
+        </record>
+        <record id="iwmn_r81ngaylecty_ct_12" model="iwmn.r81ngaylecty_ct">
+            <field name="ident00">12</field>
+            <field name="ngay_cham_cong">2026-02-23 00:00:00</field>
+            <field name="ma_bp_list_lam">SX-C3,SX-C4,SX-L2,SX-L3,SX-L4</field>
+            <field name="kip" eval="False"/>
+        </record>
+        <record id="iwmn_r81ngaylecty_ct_13" model="iwmn.r81ngaylecty_ct">
+            <field name="ident00">13</field>
+            <field name="ngay_cham_cong">2026-04-26 00:00:00</field>
+            <field name="ma_bp_list_lam">SX-C3,SX-C4,SX-L2,SX-L3,SX-L4</field>
+            <field name="kip" eval="False"/>
+        </record>
+        <record id="iwmn_r81ngaylecty_ct_14" model="iwmn.r81ngaylecty_ct">
+            <field name="ident00">14</field>
+            <field name="ngay_cham_cong">2026-04-27 00:00:00</field>
+            <field name="ma_bp_list_lam">SX-C3,SX-C4,SX-L2,SX-L3,SX-L4</field>
+            <field name="kip" eval="False"/>
+        </record>
+        <record id="iwmn_r81ngaylecty_ct_15" model="iwmn.r81ngaylecty_ct">
+            <field name="ident00">15</field>
+            <field name="ngay_cham_cong">2026-04-30 00:00:00</field>
+            <field name="ma_bp_list_lam">SX-C3,SX-C4,SX-L2,SX-L3,SX-L4</field>
+            <field name="kip" eval="False"/>
+        </record>
+        <record id="iwmn_r81ngaylecty_ct_16" model="iwmn.r81ngaylecty_ct">
+            <field name="ident00">16</field>
+            <field name="ngay_cham_cong">2026-05-01 00:00:00</field>
+            <field name="ma_bp_list_lam">SX-C3,SX-C4,SX-L2,SX-L3,SX-L4</field>
+            <field name="kip" eval="False"/>
+        </record>
+    </data>
+</odoo>

@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="iwmn_r81bangcandoi_211" model="iwmn.r81bangcandoi">
+            <field name="ident00">211</field>
+            <field name="nam">2015</field>
+            <field name="loai_ps">1</field>
+            <field name="ma_vt">21080009</field>
+            <field name="thang01">42000.0000</field>
+            <field name="thang02">38000.0000</field>
+            <field name="thang03">42000.0000</field>
+            <field name="thang04">42000.0000</field>
+            <field name="thang05">42000.0000</field>
+            <field name="thang06">42000.0000</field>
+            <field name="thang07">42000.0000</field>
+            <field name="thang08">42000.0000</field>
+            <field name="thang09">42000.0000</field>
+            <field name="thang10">42000.0000</field>
+            <field name="thang11">42000.0000</field>
+            <field name="thang12">42000.0000</field>
+            <field name="ma_dvcs">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="tieu_hao">15.0000</field>
+        </record>
+        <record id="iwmn_r81bangcandoi_212" model="iwmn.r81bangcandoi">
+            <field name="ident00">212</field>
+            <field name="nam">2015</field>
+            <field name="loai_ps">2</field>
+            <field name="ma_vt">21080009</field>
+            <field name="thang01">17000.0000</field>
+            <field name="thang02">9000.0000</field>
+            <field name="thang03">3000.0000</field>
+            <field name="thang04">15000.0000</field>
+            <field name="thang05">7000.0000</field>
+            <field name="thang06">19000.0000</field>
+            <field name="thang07">11000.0000</field>
+            <field name="thang08">3000.0000</field>
+            <field name="thang09">-5000.0000</field>
+            <field name="thang10">-13000.0000</field>
+            <field name="thang11">-21000.0000</field>
+            <field name="thang12">-29000.0000</field>
+            <field name="ma_dvcs">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="tieu_hao">15.0000</field>
+        </record>
+        <record id="iwmn_r81bangcandoi_213" model="iwmn.r81bangcandoi">
+            <field name="ident00">213</field>
+            <field name="nam">2015</field>
+            <field name="loai_ps">3</field>
+            <field name="ma_vt">21080009</field>
+            <field name="thang01">0.0000</field>
+            <field name="thang02">0.0000</field>
+            <field name="thang03">20000.0000</field>
+            <field name="thang04">0.0000</field>
+            <field name="thang05">20000.0000</field>
+            <field name="thang06">0.0000</field>
+            <field name="thang07">0.0000</field>
+            <field name="thang08">0.0000</field>
+            <field name="thang09">0.0000</field>
+            <field name="thang10">0.0000</field>
+            <field name="thang11">0.0000</field>
+            <field name="thang12">0.0000</field>
+            <field name="ma_dvcs">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="tieu_hao">15.0000</field>
+        </record>
+        <record id="iwmn_r81bangcandoi_214" model="iwmn.r81bangcandoi">
+            <field name="ident00">214</field>
+            <field name="nam">2015</field>
+            <field name="loai_ps">4</field>
+            <field name="ma_vt">21080009</field>
+            <field name="thang01">8000.0000</field>
+            <field name="thang02">6000.0000</field>
+            <field name="thang03">8000.0000</field>
+            <field name="thang04">8000.0000</field>
+            <field name="thang05">8000.0000</field>
+            <field name="thang06">8000.0000</field>
+            <field name="thang07">8000.0000</field>
+            <field name="thang08">8000.0000</field>
+            <field name="thang09">8000.0000</field>
+            <field name="thang10">8000.0000</field>
+            <field name="thang11">8000.0000</field>
+            <field name="thang12">8000.0000</field>
+            <field name="ma_dvcs">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="tieu_hao">15.0000</field>
+        </record>
+        <record id="iwmn_r81bangcandoi_215" model="iwmn.r81bangcandoi">
+            <field name="ident00">215</field>
+            <field name="nam">2015</field>
+            <field name="loai_ps">5</field>
+            <field name="ma_vt">21080009</field>
+            <field name="thang01">9000.0000</field>
+            <field name="thang02">3000.0000</field>
+            <field name="thang03">15000.0000</field>
+            <field name="thang04">7000.0000</field>
+            <field name="thang05">19000.0000</field>
+            <field name="thang06">11000.0000</field>
+            <field name="thang07">3000.0000</field>
+            <field name="thang08">-5000.0000</field>
+            <field name="thang09">-13000.0000</field>
+            <field name="thang10">-21000.0000</field>
+            <field name="thang11">-29000.0000</field>
+            <field name="thang12">-37000.0000</field>
+            <field name="ma_dvcs">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="tieu_hao">15.0000</field>
+        </record>
+        <record id="iwmn_r81bangcandoi_216" model="iwmn.r81bangcandoi">
+            <field name="ident00">216</field>
+            <field name="nam">2015</field>
+            <field name="loai_ps">6</field>
+            <field name="ma_vt">21080009</field>
+            <field name="thang01">0.0000</field>
+            <field name="thang02">0.0000</field>
+            <field name="thang03">20000.0000</field>
+            <field name="thang04">0.0000</field>
+            <field name="thang05">20000.0000</field>
+            <field name="thang06">0.0000</field>
+            <field name="thang07">0.0000</field>
+            <field name="thang08">0.0000</field>
+            <field name="thang09">0.0000</field>
+            <field name="thang10">0.0000</field>
+            <field name="thang11">0.0000</field>
+            <field name="thang12">0.0000</field>
+            <field name="ma_dvcs">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="tieu_hao">15.0000</field>
+        </record>
+        <record id="iwmn_r81bangcandoi_217" model="iwmn.r81bangcandoi">
+            <field name="ident00">217</field>
+            <field name="nam">2015</field>
+            <field name="loai_ps">1</field>
+            <field name="ma_vt">38011010</field>
+            <field name="thang01">46612.6800</field>
+            <field name="thang02">31655.0490</field>
+            <field name="thang03">38000.0000</field>
+            <field name="thang04">42000.0000</field>
+            <field name="thang05">42000.0000</field>
+            <field name="thang06">42000.0000</field>
+            <field name="thang07">42000.0000</field>
+            <field name="thang08">42000.0000</field>
+            <field name="thang09">42000.0000</field>
+            <field name="thang10">42000.0000</field>
+            <field name="thang11">42000.0000</field>
+            <field name="thang12">42000.0000</field>
+            <field name="ma_dvcs">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="tieu_hao">1.3000</field>
+        </record>
+        <record id="iwmn_r81bangcandoi_218" model="iwmn.r81bangcandoi">
+            <field name="ident00">218</field>
+            <field name="nam">2015</field>
+            <field name="loai_ps">2</field>
+            <field name="ma_vt">38011010</field>
+            <field name="thang01">65593.0000</field>
+            <field name="thang02">68687.0000</field>
+            <field name="thang03">24522.0000</field>
+            <field name="thang04">35122.0000</field>
+            <field name="thang05">100522.0000</field>
+            <field name="thang06">105922.0000</field>
+            <field name="thang07">51322.0000</field>
+            <field name="thang08">-3278.0000</field>
+            <field name="thang09">-57878.0000</field>
+            <field name="thang10">-112478.0000</field>
+            <field name="thang11">-167078.0000</field>
+            <field name="thang12">-221678.0000</field>
+            <field name="ma_dvcs">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="tieu_hao">1.3000</field>
+        </record>
+        <record id="iwmn_r81bangcandoi_219" model="iwmn.r81bangcandoi">
+            <field name="ident00">219</field>
+            <field name="nam">2015</field>
+            <field name="loai_ps">3</field>
+            <field name="ma_vt">38011010</field>
+            <field name="thang01">63454.0000</field>
+            <field name="thang02">0.0000</field>
+            <field name="thang03">60000.0000</field>
+            <field name="thang04">120000.0000</field>
+            <field name="thang05">60000.0000</field>
+            <field name="thang06">0.0000</field>
+            <field name="thang07">0.0000</field>
+            <field name="thang08">0.0000</field>
+            <field name="thang09">0.0000</field>
+            <field name="thang10">0.0000</field>
+            <field name="thang11">0.0000</field>
+            <field name="thang12">0.0000</field>
+            <field name="ma_dvcs">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="tieu_hao">1.3000</field>
+        </record>
+        <record id="iwmn_r81bangcandoi_220" model="iwmn.r81bangcandoi">
+            <field name="ident00">220</field>
+            <field name="nam">2015</field>
+            <field name="loai_ps">4</field>
+            <field name="ma_vt">38011010</field>
+            <field name="thang01">60360.0000</field>
+            <field name="thang02">44165.0000</field>
+            <field name="thang03">49400.0000</field>
+            <field name="thang04">54600.0000</field>
+            <field name="thang05">54600.0000</field>
+            <field name="thang06">54600.0000</field>
+            <field name="thang07">54600.0000</field>
+            <field name="thang08">54600.0000</field>
+            <field name="thang09">54600.0000</field>
+            <field name="thang10">54600.0000</field>
+            <field name="thang11">54600.0000</field>
+            <field name="thang12">54600.0000</field>
+            <field name="ma_dvcs">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="tieu_hao">1.3000</field>
+        </record>
+        <record id="iwmn_r81bangcandoi_221" model="iwmn.r81bangcandoi">
+            <field name="ident00">221</field>
+            <field name="nam">2015</field>
+            <field name="loai_ps">5</field>
+            <field name="ma_vt">38011010</field>
+            <field name="thang01">68687.0000</field>
+            <field name="thang02">24522.0000</field>
+            <field name="thang03">35122.0000</field>
+            <field name="thang04">100522.0000</field>
+            <field name="thang05">105922.0000</field>
+            <field name="thang06">51322.0000</field>
+            <field name="thang07">-3278.0000</field>
+            <field name="thang08">-57878.0000</field>
+            <field name="thang09">-112478.0000</field>
+            <field name="thang10">-167078.0000</field>
+            <field name="thang11">-221678.0000</field>
+            <field name="thang12">-276278.0000</field>
+            <field name="ma_dvcs">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="tieu_hao">1.3000</field>
+        </record>
+        <record id="iwmn_r81bangcandoi_222" model="iwmn.r81bangcandoi">
+            <field name="ident00">222</field>
+            <field name="nam">2015</field>
+            <field name="loai_ps">6</field>
+            <field name="ma_vt">38011010</field>
+            <field name="thang01">0.0000</field>
+            <field name="thang02">0.0000</field>
+            <field name="thang03">60000.0000</field>
+            <field name="thang04">120000.0000</field>
+            <field name="thang05">60000.0000</field>
+            <field name="thang06">0.0000</field>
+            <field name="thang07">0.0000</field>
+            <field name="thang08">0.0000</field>
+            <field name="thang09">0.0000</field>
+            <field name="thang10">0.0000</field>
+            <field name="thang11">0.0000</field>
+            <field name="thang12">0.0000</field>
+            <field name="ma_dvcs">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="tieu_hao">1.3000</field>
+        </record>
+    </data>
+</odoo>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_iwmn_r81ngaylecty_ct_list" model="ir.ui.view">
+        <field name="name">iwmn.r81ngaylecty_ct.list</field>
+        <field name="model">iwmn.r81ngaylecty_ct</field>
+        <field name="arch" type="xml">
+            <list string="R81NGAYLECTY_CT - Ma_Bp_List_Lam">
+                <field name="ident00"/>
+                <field name="ngay_cham_cong"/>
+                <field name="ma_bp_list_lam"/>
+                <field name="kip"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81ngaylecty_ct_form" model="ir.ui.view">
+        <field name="name">iwmn.r81ngaylecty_ct.form</field>
+        <field name="model">iwmn.r81ngaylecty_ct</field>
+        <field name="arch" type="xml">
+            <form string="R81NGAYLECTY_CT - Ma_Bp_List_Lam">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="ident00"/>
+                            <field name="ngay_cham_cong"/>
+                        </group>
+                        <group>
+                            <field name="ma_bp_list_lam"/>
+                            <field name="kip"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81ngaylecty_ct_search" model="ir.ui.view">
+        <field name="name">iwmn.r81ngaylecty_ct.search</field>
+        <field name="model">iwmn.r81ngaylecty_ct</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="ma_bp_list_lam"/>
+                <field name="ident00"/>
+                <field name="ngay_cham_cong"/>
+                <field name="kip"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_iwmn_r81ngaylecty_ct" model="ir.actions.act_window">
+        <field name="name">R81NGAYLECTY_CT - Ma_Bp_List_Lam</field>
+        <field name="res_model">iwmn.r81ngaylecty_ct</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_iwmn_r81ngaylecty_ct_search"/>
+    </record>
+
+    <menuitem id="menu_iwmn_r81ngaylecty_ct" name="R81NGAYLECTY_CT - Ma_Bp_List_Lam"
+              parent="menu_iwmn_master_organization"
+              action="action_iwmn_r81ngaylecty_ct" sequence="71"/>
+</odoo>

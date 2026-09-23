@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_iwmn_r81dmlaisuat_list" model="ir.ui.view">
+        <field name="name">iwmn.r81dmlaisuat.list</field>
+        <field name="model">iwmn.r81dmlaisuat</field>
+        <field name="arch" type="xml">
+            <list string="R81DMLAISUAT - So_Ngay_Ck_Thang">
+                <field name="ident00"/>
+                <field name="lai_suat"/>
+                <field name="create_log"/>
+                <field name="lastmodify_log"/>
+                <field name="thang"/>
+                <field name="nam" options="{'enable_formatting': false}"/>
+                <field name="so_ngay_ck_thang"/>
+                <field name="gia_ck_thang"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmlaisuat_form" model="ir.ui.view">
+        <field name="name">iwmn.r81dmlaisuat.form</field>
+        <field name="model">iwmn.r81dmlaisuat</field>
+        <field name="arch" type="xml">
+            <form string="R81DMLAISUAT - So_Ngay_Ck_Thang">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="ident00"/>
+                            <field name="lai_suat"/>
+                            <field name="create_log"/>
+                            <field name="lastmodify_log"/>
+                        </group>
+                        <group>
+                            <field name="thang"/>
+                            <field name="nam" options="{'enable_formatting': false}"/>
+                            <field name="so_ngay_ck_thang"/>
+                            <field name="gia_ck_thang"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmlaisuat_search" model="ir.ui.view">
+        <field name="name">iwmn.r81dmlaisuat.search</field>
+        <field name="model">iwmn.r81dmlaisuat</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="so_ngay_ck_thang"/>
+                <field name="ident00"/>
+                <field name="lai_suat"/>
+                <field name="create_log"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_iwmn_r81dmlaisuat" model="ir.actions.act_window">
+        <field name="name">R81DMLAISUAT - So_Ngay_Ck_Thang</field>
+        <field name="res_model">iwmn.r81dmlaisuat</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_iwmn_r81dmlaisuat_search"/>
+    </record>
+
+    <menuitem id="menu_iwmn_r81dmlaisuat" name="R81DMLAISUAT - So_Ngay_Ck_Thang"
+              parent="menu_iwmn_master_finance"
+              action="action_iwmn_r81dmlaisuat" sequence="32"/>
+</odoo>

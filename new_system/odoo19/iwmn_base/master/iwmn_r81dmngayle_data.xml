@@ -1,0 +1,1512 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="iwmn_r81dmngayle_1" model="iwmn.r81dmngayle">
+            <field name="ident00">1</field>
+            <field name="ngay_ct1">2016-02-08 00:00:00</field>
+            <field name="ngay_ct2">2016-02-12 00:00:00</field>
+            <field name="ghi_chu">nghĩ tết âm lịch</field>
+            <field name="create_log">200216:152000:VR</field>
+            <field name="nam">2016</field>
+            <field name="lastmodify_log">050416:142620:CUONGPN</field>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmngayle_2" model="iwmn.r81dmngayle">
+            <field name="ident00">2</field>
+            <field name="ngay_ct1">2016-01-01 00:00:00</field>
+            <field name="ngay_ct2">2016-01-01 00:00:00</field>
+            <field name="ghi_chu">nghĩ tết tây</field>
+            <field name="create_log">220216:133507:VR</field>
+            <field name="nam">2016</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmngayle_3" model="iwmn.r81dmngayle">
+            <field name="ident00">3</field>
+            <field name="ngay_ct1">2016-05-02 00:00:00</field>
+            <field name="ngay_ct2">2016-05-03 00:00:00</field>
+            <field name="ghi_chu">nghĩ lễ bù 30/4</field>
+            <field name="create_log">310316:092622:DUNGPA</field>
+            <field name="nam">2016</field>
+            <field name="lastmodify_log">210616:083912:VR</field>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmngayle_4" model="iwmn.r81dmngayle">
+            <field name="ident00">4</field>
+            <field name="ngay_ct1">2016-04-18 00:00:00</field>
+            <field name="ngay_ct2">2016-04-18 00:00:00</field>
+            <field name="ghi_chu">nghĩ lễ giỗ tổ Hùng Vương</field>
+            <field name="create_log">050416:142731:CUONGPN</field>
+            <field name="nam">2016</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmngayle_5" model="iwmn.r81dmngayle">
+            <field name="ident00">5</field>
+            <field name="ngay_ct1">2016-01-02 00:00:00</field>
+            <field name="ngay_ct2">2016-01-02 00:00:00</field>
+            <field name="ghi_chu">nghĩ bù tết dương lịch</field>
+            <field name="create_log">050117:112515:VR</field>
+            <field name="nam">2017</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmngayle_6" model="iwmn.r81dmngayle">
+            <field name="ident00">6</field>
+            <field name="ngay_ct1">2017-01-26 00:00:00</field>
+            <field name="ngay_ct2">2017-02-01 00:00:00</field>
+            <field name="ghi_chu">nghỉ tết âm lịch 2017</field>
+            <field name="create_log">170117:084918:DUNGTT</field>
+            <field name="nam">2017</field>
+            <field name="lastmodify_log">210117:092421:VR</field>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmngayle_8" model="iwmn.r81dmngayle">
+            <field name="ident00">8</field>
+            <field name="ngay_ct1">2017-04-06 00:00:00</field>
+            <field name="ngay_ct2">2017-04-06 00:00:00</field>
+            <field name="ghi_chu">nghỉ lễ giỗ tổ Hùng Vương</field>
+            <field name="create_log">170117:085050:DUNGTT</field>
+            <field name="nam">2017</field>
+            <field name="lastmodify_log">170117:085658:DUNGTT</field>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmngayle_9" model="iwmn.r81dmngayle">
+            <field name="ident00">9</field>
+            <field name="ngay_ct1">2017-05-01 00:00:00</field>
+            <field name="ngay_ct2">2017-05-02 00:00:00</field>
+            <field name="ghi_chu">nghĩ bù lễ 30/4 &amp; 1/5</field>
+            <field name="create_log">170117:085424:DUNGTT</field>
+            <field name="nam">2017</field>
+            <field name="lastmodify_log">120417:155323:VR</field>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmngayle_10" model="iwmn.r81dmngayle">
+            <field name="ident00">10</field>
+            <field name="ngay_ct1">2017-09-04 00:00:00</field>
+            <field name="ngay_ct2">2017-09-04 00:00:00</field>
+            <field name="ghi_chu">nghỉ bù lễ 2/9</field>
+            <field name="create_log">170117:085538:DUNGTT</field>
+            <field name="nam">2017</field>
+            <field name="lastmodify_log">170117:085717:DUNGTT</field>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmngayle_11" model="iwmn.r81dmngayle">
+            <field name="ident00">11</field>
+            <field name="ngay_ct1">2018-01-01 00:00:00</field>
+            <field name="ngay_ct2">2018-01-01 00:00:00</field>
+            <field name="ghi_chu">nghỉ tết dương lịch 2018</field>
+            <field name="create_log">170117:085621:DUNGTT</field>
+            <field name="nam">2017</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmngayle_12" model="iwmn.r81dmngayle">
+            <field name="ident00">12</field>
+            <field name="ngay_ct1">2018-02-14 00:00:00</field>
+            <field name="ngay_ct2">2018-02-20 00:00:00</field>
+            <field name="ghi_chu">nghỉ tết âm lịch 2018</field>
+            <field name="create_log">230118:110054:VR</field>
+            <field name="nam">2018</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmngayle_13" model="iwmn.r81dmngayle">
+            <field name="ident00">13</field>
+            <field name="ngay_ct1">2018-04-25 00:00:00</field>
+            <field name="ngay_ct2">2018-04-25 00:00:00</field>
+            <field name="ghi_chu">nghĩ lễ giỗ tổ Hùng Vương 2018</field>
+            <field name="create_log">230118:110114:VR</field>
+            <field name="nam">2018</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmngayle_14" model="iwmn.r81dmngayle">
+            <field name="ident00">14</field>
+            <field name="ngay_ct1">2018-04-30 00:00:00</field>
+            <field name="ngay_ct2">2018-05-01 00:00:00</field>
+            <field name="ghi_chu">nghĩ lễ 30/4 và 1/5 - 2018</field>
+            <field name="create_log">230118:110135:VR</field>
+            <field name="nam">2018</field>
+            <field name="lastmodify_log">030518:102214:VR</field>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmngayle_15" model="iwmn.r81dmngayle">
+            <field name="ident00">15</field>
+            <field name="ngay_ct1">2018-09-03 00:00:00</field>
+            <field name="ngay_ct2">2018-09-03 00:00:00</field>
+            <field name="ghi_chu">nghỉ lễ 2/9 - 2018</field>
+            <field name="create_log">230118:110152:VR</field>
+            <field name="nam">2018</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmngayle_16" model="iwmn.r81dmngayle">
+            <field name="ident00">16</field>
+            <field name="ngay_ct1">2019-02-04 00:00:00</field>
+            <field name="ngay_ct2">2019-02-10 00:00:00</field>
+            <field name="ghi_chu">nghỉ tết âm lịch 2019</field>
+            <field name="create_log">261218:105501:DUNGTT</field>
+            <field name="nam">2019</field>
+            <field name="lastmodify_log">300119:110425:VR</field>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmngayle_17" model="iwmn.r81dmngayle">
+            <field name="ident00">17</field>
+            <field name="ngay_ct1">2018-12-31 00:00:00</field>
+            <field name="ngay_ct2">2019-01-01 00:00:00</field>
+            <field name="ghi_chu">nghỉ tết dương lịch 2019</field>
+            <field name="create_log">240119:073659:DUNGTT</field>
+            <field name="nam">2019</field>
+            <field name="lastmodify_log">240119:073609:DUNGTT</field>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmngayle_18" model="iwmn.r81dmngayle">
+            <field name="ident00">18</field>
+            <field name="ngay_ct1">2019-04-29 00:00:00</field>
+            <field name="ngay_ct2">2019-05-01 00:00:00</field>
+            <field name="ghi_chu">nghĩ lễ 30/4 và 1/5 - 2019</field>
+            <field name="create_log">100419:162505:DUNGTT</field>
+            <field name="nam">2019</field>
+            <field name="lastmodify_log">030518:102214:VR</field>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmngayle_19" model="iwmn.r81dmngayle">
+            <field name="ident00">19</field>
+            <field name="ngay_ct1">2019-04-15 00:00:00</field>
+            <field name="ngay_ct2">2019-04-15 00:00:00</field>
+            <field name="ghi_chu">nghĩ lễ giỗ tổ Hùng Vương 2019</field>
+            <field name="create_log">120419:153405:DUNGTT</field>
+            <field name="nam">2019</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmngayle_20" model="iwmn.r81dmngayle">
+            <field name="ident00">20</field>
+            <field name="ngay_ct1">2019-09-02 00:00:00</field>
+            <field name="ngay_ct2">2019-09-02 00:00:00</field>
+            <field name="ghi_chu">nghĩ lễ 2/9/2019</field>
+            <field name="create_log">210819:131416:DUNGTT</field>
+            <field name="nam">2019</field>
+            <field name="lastmodify_log">030518:102214:VR</field>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmngayle_24" model="iwmn.r81dmngayle">
+            <field name="ident00">24</field>
+            <field name="ngay_ct1">2019-10-15 00:00:00</field>
+            <field name="ngay_ct2">2019-10-15 00:00:00</field>
+            <field name="ghi_chu">Commemoration Day of Former King Norodom Sihanouk - 2019</field>
+            <field name="create_log">231019:084633:DUNGTT</field>
+            <field name="nam">2019</field>
+            <field name="lastmodify_log">231019:084900:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_25" model="iwmn.r81dmngayle">
+            <field name="ident00">25</field>
+            <field name="ngay_ct1">2025-12-29 00:00:00</field>
+            <field name="ngay_ct2">2025-12-29 00:00:00</field>
+            <field name="ghi_chu">Peace Day Cambodia</field>
+            <field name="create_log">091224:114935:TRANGDT</field>
+            <field name="nam">2024</field>
+            <field name="lastmodify_log">231019:084907:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_26" model="iwmn.r81dmngayle">
+            <field name="ident00">26</field>
+            <field name="ngay_ct1">2019-10-29 00:00:00</field>
+            <field name="ngay_ct2">2019-10-29 00:00:00</field>
+            <field name="ghi_chu">King Norodom Sihamoni's Coronation Day - 2019</field>
+            <field name="create_log">231019:084848:DUNGTT</field>
+            <field name="nam">2019</field>
+            <field name="lastmodify_log">231019:084913:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_27" model="iwmn.r81dmngayle">
+            <field name="ident00">27</field>
+            <field name="ngay_ct1">2019-11-09 00:00:00</field>
+            <field name="ngay_ct2">2019-11-09 00:00:00</field>
+            <field name="ghi_chu">National Independence Day - 2019</field>
+            <field name="create_log">231019:085011:DUNGTT</field>
+            <field name="nam">2019</field>
+            <field name="lastmodify_log">231019:084913:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_28" model="iwmn.r81dmngayle">
+            <field name="ident00">28</field>
+            <field name="ngay_ct1">2019-11-11 00:00:00</field>
+            <field name="ngay_ct2">2019-11-12 00:00:00</field>
+            <field name="ghi_chu">Water Festival Days - 2019</field>
+            <field name="create_log">231019:085044:DUNGTT</field>
+            <field name="nam">2019</field>
+            <field name="lastmodify_log">231019:084913:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_29" model="iwmn.r81dmngayle">
+            <field name="ident00">29</field>
+            <field name="ngay_ct1">2019-11-13 00:00:00</field>
+            <field name="ngay_ct2">2019-11-13 00:00:00</field>
+            <field name="ghi_chu">Substitution for Water Festival Day on November 10,Sunday - 2019</field>
+            <field name="create_log">231019:085153:DUNGTT</field>
+            <field name="nam">2019</field>
+            <field name="lastmodify_log">231019:084913:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_30" model="iwmn.r81dmngayle">
+            <field name="ident00">30</field>
+            <field name="ngay_ct1">2019-12-10 00:00:00</field>
+            <field name="ngay_ct2">2019-12-10 00:00:00</field>
+            <field name="ghi_chu">International Human Rights Day - 2019</field>
+            <field name="create_log">231019:085247:DUNGTT</field>
+            <field name="nam">2019</field>
+            <field name="lastmodify_log">231019:084913:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_31" model="iwmn.r81dmngayle">
+            <field name="ident00">31</field>
+            <field name="ngay_ct1">2020-01-23 00:00:00</field>
+            <field name="ngay_ct2">2020-01-29 00:00:00</field>
+            <field name="ghi_chu">nghỉ tết âm lịch 2020</field>
+            <field name="create_log">030120:181836:DUNGTT</field>
+            <field name="nam">2020</field>
+            <field name="lastmodify_log">140220:075737:VR</field>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmngayle_35" model="iwmn.r81dmngayle">
+            <field name="ident00">35</field>
+            <field name="ngay_ct1">2021-01-01 00:00:00</field>
+            <field name="ngay_ct2">2021-01-02 00:00:00</field>
+            <field name="ghi_chu">nghỉ tết dương lịch 2021</field>
+            <field name="create_log">261220:124448:DUNGTT</field>
+            <field name="nam">2020</field>
+            <field name="lastmodify_log">210120:133548:VR</field>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmngayle_37" model="iwmn.r81dmngayle">
+            <field name="ident00">37</field>
+            <field name="ngay_ct1">2020-01-01 00:00:00</field>
+            <field name="ngay_ct2">2020-01-01 00:00:00</field>
+            <field name="ghi_chu">International New Year Day - 2020</field>
+            <field name="create_log">030320:142835:DUNGTT</field>
+            <field name="nam">2020</field>
+            <field name="lastmodify_log">231019:084913:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_38" model="iwmn.r81dmngayle">
+            <field name="ident00">38</field>
+            <field name="ngay_ct1">2020-01-07 00:00:00</field>
+            <field name="ngay_ct2">2020-01-07 00:00:00</field>
+            <field name="ghi_chu">Victory Day Over Genocide Regime - 2020</field>
+            <field name="create_log">030320:142937:DUNGTT</field>
+            <field name="nam">2020</field>
+            <field name="lastmodify_log">231019:084913:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_39" model="iwmn.r81dmngayle">
+            <field name="ident00">39</field>
+            <field name="ngay_ct1">2020-01-25 00:00:00</field>
+            <field name="ngay_ct2">2020-01-28 00:00:00</field>
+            <field name="ghi_chu">Chines New Year Day - 2020</field>
+            <field name="create_log">030320:143054:DUNGTT</field>
+            <field name="nam">2020</field>
+            <field name="lastmodify_log">231019:084913:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_40" model="iwmn.r81dmngayle">
+            <field name="ident00">40</field>
+            <field name="ngay_ct1">2020-03-09 00:00:00</field>
+            <field name="ngay_ct2">2020-03-09 00:00:00</field>
+            <field name="ghi_chu">Substitute for International Women's Day - 2020</field>
+            <field name="create_log">030320:143243:DUNGTT</field>
+            <field name="nam">2020</field>
+            <field name="lastmodify_log">231019:084913:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_41" model="iwmn.r81dmngayle">
+            <field name="ident00">41</field>
+            <field name="ngay_ct1">2020-04-10 00:00:00</field>
+            <field name="ngay_ct2">2020-04-10 00:00:00</field>
+            <field name="ghi_chu">Family Day - 2020</field>
+            <field name="create_log">030320:143333:DUNGTT</field>
+            <field name="nam">2020</field>
+            <field name="lastmodify_log">231019:084913:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_42" model="iwmn.r81dmngayle">
+            <field name="ident00">42</field>
+            <field name="ngay_ct1">2020-04-13 00:00:00</field>
+            <field name="ngay_ct2">2020-04-17 00:00:00</field>
+            <field name="ghi_chu">Khmer New Year Days - 2020</field>
+            <field name="create_log">030320:143406:DUNGTT</field>
+            <field name="nam">2020</field>
+            <field name="lastmodify_log">030320:143538:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_43" model="iwmn.r81dmngayle">
+            <field name="ident00">43</field>
+            <field name="ngay_ct1">2020-05-01 00:00:00</field>
+            <field name="ngay_ct2">2020-05-01 00:00:00</field>
+            <field name="ghi_chu">International Labour Day - 2020</field>
+            <field name="create_log">030320:143638:DUNGTT</field>
+            <field name="nam">2020</field>
+            <field name="lastmodify_log">030320:143538:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_44" model="iwmn.r81dmngayle">
+            <field name="ident00">44</field>
+            <field name="ngay_ct1">2020-05-14 00:00:00</field>
+            <field name="ngay_ct2">2020-05-14 00:00:00</field>
+            <field name="ghi_chu">King Norodom Sihamoni's Birthday - 2020</field>
+            <field name="create_log">030320:143903:DUNGTT</field>
+            <field name="nam">2020</field>
+            <field name="lastmodify_log">030320:143538:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_45" model="iwmn.r81dmngayle">
+            <field name="ident00">45</field>
+            <field name="ngay_ct1">2020-06-18 00:00:00</field>
+            <field name="ngay_ct2">2020-06-18 00:00:00</field>
+            <field name="ghi_chu">Queen Norodom Monineath Sihanouk's Birthday - 2020</field>
+            <field name="create_log">030320:144030:DUNGTT</field>
+            <field name="nam">2020</field>
+            <field name="lastmodify_log">030320:143538:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_46" model="iwmn.r81dmngayle">
+            <field name="ident00">46</field>
+            <field name="ngay_ct1">2020-09-16 00:00:00</field>
+            <field name="ngay_ct2">2020-09-18 00:00:00</field>
+            <field name="ghi_chu">Pchum Ben Days - 2020</field>
+            <field name="create_log">030320:144119:DUNGTT</field>
+            <field name="nam">2020</field>
+            <field name="lastmodify_log">030320:143538:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_47" model="iwmn.r81dmngayle">
+            <field name="ident00">47</field>
+            <field name="ngay_ct1">2020-10-15 00:00:00</field>
+            <field name="ngay_ct2">2020-10-15 00:00:00</field>
+            <field name="ghi_chu">Commemoration Day of Former King Norodom Sihanouk - 2020</field>
+            <field name="create_log">030320:144236:DUNGTT</field>
+            <field name="nam">2020</field>
+            <field name="lastmodify_log">030320:143538:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_48" model="iwmn.r81dmngayle">
+            <field name="ident00">48</field>
+            <field name="ngay_ct1">2020-10-29 00:00:00</field>
+            <field name="ngay_ct2">2020-10-29 00:00:00</field>
+            <field name="ghi_chu">King Norodom Sihamoni's Coranation Day - 2020</field>
+            <field name="create_log">030320:144325:DUNGTT</field>
+            <field name="nam">2020</field>
+            <field name="lastmodify_log">030320:143538:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_49" model="iwmn.r81dmngayle">
+            <field name="ident00">49</field>
+            <field name="ngay_ct1">2020-10-30 00:00:00</field>
+            <field name="ngay_ct2">2020-11-02 00:00:00</field>
+            <field name="ghi_chu">Water Festival Days - 2020</field>
+            <field name="create_log">030320:144401:DUNGTT</field>
+            <field name="nam">2020</field>
+            <field name="lastmodify_log">030320:144418:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_50" model="iwmn.r81dmngayle">
+            <field name="ident00">50</field>
+            <field name="ngay_ct1">2020-11-09 00:00:00</field>
+            <field name="ngay_ct2">2020-11-09 00:00:00</field>
+            <field name="ghi_chu">National Independence Day - 2020</field>
+            <field name="create_log">030320:144527:DUNGTT</field>
+            <field name="nam">2020</field>
+            <field name="lastmodify_log">030320:144418:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_51" model="iwmn.r81dmngayle">
+            <field name="ident00">51</field>
+            <field name="ngay_ct1">2021-04-21 00:00:00</field>
+            <field name="ngay_ct2">2021-04-21 00:00:00</field>
+            <field name="ghi_chu">nghỉ giỗ tổ Hùng Vương 2021</field>
+            <field name="create_log">190421:145444:DUNGTT</field>
+            <field name="nam">2021</field>
+            <field name="lastmodify_log">140220:075737:VR</field>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmngayle_52" model="iwmn.r81dmngayle">
+            <field name="ident00">52</field>
+            <field name="ngay_ct1">2020-04-30 00:00:00</field>
+            <field name="ngay_ct2">2020-05-01 00:00:00</field>
+            <field name="ghi_chu">nghĩ lễ 30/4 và 1/5 - 2020</field>
+            <field name="create_log">280420:080846:DUNGTT</field>
+            <field name="nam">2020</field>
+            <field name="lastmodify_log">040520:082723:VR</field>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmngayle_53" model="iwmn.r81dmngayle">
+            <field name="ident00">53</field>
+            <field name="ngay_ct1">2020-08-17 00:00:00</field>
+            <field name="ngay_ct2">2020-08-21 00:00:00</field>
+            <field name="ghi_chu">Khmer News Year Compensation Holidays - 2020</field>
+            <field name="create_log">180820:094837:DUNGTT</field>
+            <field name="nam">2020</field>
+            <field name="lastmodify_log">030320:143538:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_54" model="iwmn.r81dmngayle">
+            <field name="ident00">54</field>
+            <field name="ngay_ct1">2020-09-02 00:00:00</field>
+            <field name="ngay_ct2">2020-09-02 00:00:00</field>
+            <field name="ghi_chu">nghĩ lễ 2/9 - 2020</field>
+            <field name="create_log">180820:094920:DUNGTT</field>
+            <field name="nam">2020</field>
+            <field name="lastmodify_log">040520:082723:VR</field>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmngayle_55" model="iwmn.r81dmngayle">
+            <field name="ident00">55</field>
+            <field name="ngay_ct1">2021-01-01 00:00:00</field>
+            <field name="ngay_ct2">2021-01-02 00:00:00</field>
+            <field name="ghi_chu">Internationa New Year Day - 2021</field>
+            <field name="create_log">120121:083710:DUNGTT</field>
+            <field name="nam">2021</field>
+            <field name="lastmodify_log">120121:084609:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_56" model="iwmn.r81dmngayle">
+            <field name="ident00">56</field>
+            <field name="ngay_ct1">2021-01-07 00:00:00</field>
+            <field name="ngay_ct2">2021-01-07 00:00:00</field>
+            <field name="ghi_chu">Victory Day Over Genocide Regime - 2021</field>
+            <field name="create_log">120121:083826:DUNGTT</field>
+            <field name="nam">2021</field>
+            <field name="lastmodify_log">120121:084622:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_57" model="iwmn.r81dmngayle">
+            <field name="ident00">57</field>
+            <field name="ngay_ct1">2021-03-08 00:00:00</field>
+            <field name="ngay_ct2">2021-03-08 00:00:00</field>
+            <field name="ghi_chu">International Women's Day - 2021</field>
+            <field name="create_log">120121:084040:DUNGTT</field>
+            <field name="nam">2021</field>
+            <field name="lastmodify_log">120121:084632:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_58" model="iwmn.r81dmngayle">
+            <field name="ident00">58</field>
+            <field name="ngay_ct1">2021-04-02 00:00:00</field>
+            <field name="ngay_ct2">2021-04-03 00:00:00</field>
+            <field name="ghi_chu">Family Day - 2021</field>
+            <field name="create_log">120121:084446:DUNGTT</field>
+            <field name="nam">2021</field>
+            <field name="lastmodify_log">120121:084647:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_59" model="iwmn.r81dmngayle">
+            <field name="ident00">59</field>
+            <field name="ngay_ct1">2021-04-14 00:00:00</field>
+            <field name="ngay_ct2">2021-04-16 00:00:00</field>
+            <field name="ghi_chu">Khmer New Year Days - 2021</field>
+            <field name="create_log">120121:084534:DUNGTT</field>
+            <field name="nam">2021</field>
+            <field name="lastmodify_log">120121:084658:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_60" model="iwmn.r81dmngayle">
+            <field name="ident00">60</field>
+            <field name="ngay_ct1">2021-05-14 00:00:00</field>
+            <field name="ngay_ct2">2021-05-14 00:00:00</field>
+            <field name="ghi_chu">King Norodom Sihamoni's Birthday - 2021</field>
+            <field name="create_log">120121:084908:DUNGTT</field>
+            <field name="nam">2021</field>
+            <field name="lastmodify_log">030320:143538:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_61" model="iwmn.r81dmngayle">
+            <field name="ident00">61</field>
+            <field name="ngay_ct1">2021-06-18 00:00:00</field>
+            <field name="ngay_ct2">2021-06-18 00:00:00</field>
+            <field name="ghi_chu">Queen Norodom Monineath Sihanouk's Birthday - 2021</field>
+            <field name="create_log">120121:084939:DUNGTT</field>
+            <field name="nam">2021</field>
+            <field name="lastmodify_log">030320:143538:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_62" model="iwmn.r81dmngayle">
+            <field name="ident00">62</field>
+            <field name="ngay_ct1">2021-10-04 00:00:00</field>
+            <field name="ngay_ct2">2021-10-07 00:00:00</field>
+            <field name="ghi_chu">Pchum Ben Days - 2021</field>
+            <field name="create_log">120121:085311:DUNGTT</field>
+            <field name="nam">2021</field>
+            <field name="lastmodify_log">030320:143538:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_63" model="iwmn.r81dmngayle">
+            <field name="ident00">63</field>
+            <field name="ngay_ct1">2021-09-24 00:00:00</field>
+            <field name="ngay_ct2">2021-09-24 00:00:00</field>
+            <field name="ghi_chu">Constitution Day - 2021</field>
+            <field name="create_log">120121:085422:DUNGTT</field>
+            <field name="nam">2021</field>
+            <field name="lastmodify_log">030320:143538:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_64" model="iwmn.r81dmngayle">
+            <field name="ident00">64</field>
+            <field name="ngay_ct1">2021-10-15 00:00:00</field>
+            <field name="ngay_ct2">2021-10-15 00:00:00</field>
+            <field name="ghi_chu">Commemoration Day of Former King Norodom Sihanouk - 2021</field>
+            <field name="create_log">120121:085451:DUNGTT</field>
+            <field name="nam">2021</field>
+            <field name="lastmodify_log">030320:143538:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_65" model="iwmn.r81dmngayle">
+            <field name="ident00">65</field>
+            <field name="ngay_ct1">2021-10-29 00:00:00</field>
+            <field name="ngay_ct2">2021-10-29 00:00:00</field>
+            <field name="ghi_chu">King Norodom Sihamoni's Coranation Day - 2021</field>
+            <field name="create_log">120121:085518:DUNGTT</field>
+            <field name="nam">2021</field>
+            <field name="lastmodify_log">030320:143538:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_66" model="iwmn.r81dmngayle">
+            <field name="ident00">66</field>
+            <field name="ngay_ct1">2021-11-09 00:00:00</field>
+            <field name="ngay_ct2">2021-11-09 00:00:00</field>
+            <field name="ghi_chu">National Independence Day - 2021</field>
+            <field name="create_log">120121:085541:DUNGTT</field>
+            <field name="nam">2021</field>
+            <field name="lastmodify_log">030320:144418:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_67" model="iwmn.r81dmngayle">
+            <field name="ident00">67</field>
+            <field name="ngay_ct1">2021-11-18 00:00:00</field>
+            <field name="ngay_ct2">2021-11-20 00:00:00</field>
+            <field name="ghi_chu">Water Festival Day3 days - 2021</field>
+            <field name="create_log">120121:090605:DUNGTT</field>
+            <field name="nam">2021</field>
+            <field name="lastmodify_log">030320:144418:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_68" model="iwmn.r81dmngayle">
+            <field name="ident00">68</field>
+            <field name="ngay_ct1">2021-02-11 00:00:00</field>
+            <field name="ngay_ct2">2021-02-14 00:00:00</field>
+            <field name="ghi_chu">Chines New Year Day - 2021</field>
+            <field name="create_log">120121:090822:DUNGTT</field>
+            <field name="nam">2021</field>
+            <field name="lastmodify_log">240221:081116:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_69" model="iwmn.r81dmngayle">
+            <field name="ident00">69</field>
+            <field name="ngay_ct1">2021-02-10 00:00:00</field>
+            <field name="ngay_ct2">2021-02-16 00:00:00</field>
+            <field name="ghi_chu">nghỉ tết âm lịch 2021</field>
+            <field name="create_log">210121:091531:DUNGTT</field>
+            <field name="nam">2021</field>
+            <field name="lastmodify_log">140220:075737:VR</field>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmngayle_70" model="iwmn.r81dmngayle">
+            <field name="ident00">70</field>
+            <field name="ngay_ct1">2021-04-15 00:00:00</field>
+            <field name="ngay_ct2">2021-04-28 00:00:00</field>
+            <field name="ghi_chu">The Lockdown of Phnom Penh and Ta Khmao City of Kanda! Province to curb the spread of COVID-19</field>
+            <field name="create_log">200421:113115:DUNGTT</field>
+            <field name="nam">2021</field>
+            <field name="lastmodify_log">120121:084658:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_72" model="iwmn.r81dmngayle">
+            <field name="ident00">72</field>
+            <field name="ngay_ct1">2021-04-30 00:00:00</field>
+            <field name="ngay_ct2">2021-04-30 00:00:00</field>
+            <field name="ghi_chu">nghĩ lễ 30/4 - 2021</field>
+            <field name="create_log">010621:092211:DUNGTT</field>
+            <field name="nam">2021</field>
+            <field name="lastmodify_log">040520:082723:VR</field>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmngayle_73" model="iwmn.r81dmngayle">
+            <field name="ident00">73</field>
+            <field name="ngay_ct1">2021-05-03 00:00:00</field>
+            <field name="ngay_ct2">2021-05-03 00:00:00</field>
+            <field name="ghi_chu">nghỉ lễ bù 1/5 - 2021</field>
+            <field name="create_log">010621:092239:DUNGTT</field>
+            <field name="nam">2021</field>
+            <field name="lastmodify_log">040520:082723:VR</field>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmngayle_74" model="iwmn.r81dmngayle">
+            <field name="ident00">74</field>
+            <field name="ngay_ct1">2021-04-30 00:00:00</field>
+            <field name="ngay_ct2">2021-05-03 00:00:00</field>
+            <field name="ghi_chu">nghĩ lễ 30/4 &amp; 1/5- 2021</field>
+            <field name="create_log">010621:133614:DUNGTT</field>
+            <field name="nam">2021</field>
+            <field name="lastmodify_log">040520:082723:VR</field>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmngayle_75" model="iwmn.r81dmngayle">
+            <field name="ident00">75</field>
+            <field name="ngay_ct1">2020-09-02 00:00:00</field>
+            <field name="ngay_ct2">2020-09-03 00:00:00</field>
+            <field name="ghi_chu">nghĩ lễ 2/9 - 2021</field>
+            <field name="create_log">090821:144139:DUNGTT</field>
+            <field name="nam">2021</field>
+            <field name="lastmodify_log">040520:082723:VR</field>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmngayle_76" model="iwmn.r81dmngayle">
+            <field name="ident00">76</field>
+            <field name="ngay_ct1">2021-09-02 00:00:00</field>
+            <field name="ngay_ct2">2021-09-03 00:00:00</field>
+            <field name="ghi_chu">nghỉ lễ 2/9 - 2021</field>
+            <field name="create_log">060921:153122:DUNGTT</field>
+            <field name="nam">2021</field>
+            <field name="lastmodify_log">040520:082723:VR</field>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmngayle_77" model="iwmn.r81dmngayle">
+            <field name="ident00">77</field>
+            <field name="ngay_ct1">2022-01-01 00:00:00</field>
+            <field name="ngay_ct2">2022-01-03 00:00:00</field>
+            <field name="ghi_chu">nghỉ tết dương lịch 2022</field>
+            <field name="create_log">311221:142957:DUNGTT</field>
+            <field name="nam">2022</field>
+            <field name="lastmodify_log">050122:152413:DUNGTT</field>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmngayle_78" model="iwmn.r81dmngayle">
+            <field name="ident00">78</field>
+            <field name="ngay_ct1">2022-12-31 00:00:00</field>
+            <field name="ngay_ct2">2023-01-02 00:00:00</field>
+            <field name="ghi_chu">International New Year Day - 2023</field>
+            <field name="create_log">291222:090947:TRANGDT</field>
+            <field name="nam">2022</field>
+            <field name="lastmodify_log">120121:084609:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_79" model="iwmn.r81dmngayle">
+            <field name="ident00">79</field>
+            <field name="ngay_ct1">2024-02-08 00:00:00</field>
+            <field name="ngay_ct2">2024-02-14 00:00:00</field>
+            <field name="ghi_chu">nghỉ Tết âm lịch 2024</field>
+            <field name="create_log">190124:094750:TRANGDT</field>
+            <field name="nam">2024</field>
+            <field name="lastmodify_log">290124:141241:TRANGDT</field>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmngayle_80" model="iwmn.r81dmngayle">
+            <field name="ident00">80</field>
+            <field name="ngay_ct1">2022-01-07 00:00:00</field>
+            <field name="ngay_ct2">2022-01-07 00:00:00</field>
+            <field name="ghi_chu">Victory Day Over Genocide Regime - 2022</field>
+            <field name="create_log">260122:090404:TRANGDT</field>
+            <field name="nam">2022</field>
+            <field name="lastmodify_log">120121:084622:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_81" model="iwmn.r81dmngayle">
+            <field name="ident00">81</field>
+            <field name="ngay_ct1">2022-02-01 00:00:00</field>
+            <field name="ngay_ct2">2022-02-03 00:00:00</field>
+            <field name="ghi_chu">Chines New Year - 2022</field>
+            <field name="create_log">260122:090555:TRANGDT</field>
+            <field name="nam">2022</field>
+            <field name="lastmodify_log">260122:090619:TRANGDT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_82" model="iwmn.r81dmngayle">
+            <field name="ident00">82</field>
+            <field name="ngay_ct1">2022-04-14 00:00:00</field>
+            <field name="ngay_ct2">2022-04-16 00:00:00</field>
+            <field name="ghi_chu">Khmer New Year Days - 2022</field>
+            <field name="create_log">260122:090716:TRANGDT</field>
+            <field name="nam">2022</field>
+            <field name="lastmodify_log">120121:084658:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_83" model="iwmn.r81dmngayle">
+            <field name="ident00">83</field>
+            <field name="ngay_ct1">2022-05-01 00:00:00</field>
+            <field name="ngay_ct2">2022-05-01 00:00:00</field>
+            <field name="ghi_chu">International Labor Day</field>
+            <field name="create_log">260122:090823:TRANGDT</field>
+            <field name="nam">2023</field>
+            <field name="lastmodify_log">020223:095230:TRANGDT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_84" model="iwmn.r81dmngayle">
+            <field name="ident00">84</field>
+            <field name="ngay_ct1">2022-05-14 00:00:00</field>
+            <field name="ngay_ct2">2022-05-14 00:00:00</field>
+            <field name="ghi_chu">King Norodom Sihamoni's Birthday - 2022</field>
+            <field name="create_log">260122:090901:TRANGDT</field>
+            <field name="nam">2022</field>
+            <field name="lastmodify_log">030320:143538:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_85" model="iwmn.r81dmngayle">
+            <field name="ident00">85</field>
+            <field name="ngay_ct1">2022-05-15 00:00:00</field>
+            <field name="ngay_ct2">2022-05-15 00:00:00</field>
+            <field name="ghi_chu">Visak Bochea Ceremony - 2022</field>
+            <field name="create_log">260122:091834:TRANGDT</field>
+            <field name="nam">2022</field>
+            <field name="lastmodify_log">030320:143538:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_86" model="iwmn.r81dmngayle">
+            <field name="ident00">86</field>
+            <field name="ngay_ct1">2022-06-18 00:00:00</field>
+            <field name="ngay_ct2">2022-06-18 00:00:00</field>
+            <field name="ghi_chu">Queen Norodom Monineath Sihanouk's Birthday - 2022</field>
+            <field name="create_log">260122:091955:TRANGDT</field>
+            <field name="nam">2022</field>
+            <field name="lastmodify_log">030320:143538:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_87" model="iwmn.r81dmngayle">
+            <field name="ident00">87</field>
+            <field name="ngay_ct1">2022-09-24 00:00:00</field>
+            <field name="ngay_ct2">2022-09-24 00:00:00</field>
+            <field name="ghi_chu">Constitution Day - 2022</field>
+            <field name="create_log">260122:092041:TRANGDT</field>
+            <field name="nam">2022</field>
+            <field name="lastmodify_log">030320:143538:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_88" model="iwmn.r81dmngayle">
+            <field name="ident00">88</field>
+            <field name="ngay_ct1">2022-09-24 00:00:00</field>
+            <field name="ngay_ct2">2022-09-26 00:00:00</field>
+            <field name="ghi_chu">Pchum Ben Days - 2022</field>
+            <field name="create_log">260122:092149:TRANGDT</field>
+            <field name="nam">2022</field>
+            <field name="lastmodify_log">030320:143538:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_89" model="iwmn.r81dmngayle">
+            <field name="ident00">89</field>
+            <field name="ngay_ct1">2022-10-29 00:00:00</field>
+            <field name="ngay_ct2">2022-10-29 00:00:00</field>
+            <field name="ghi_chu">King Norodom Sihamoni's Coronation Day - 2022</field>
+            <field name="create_log">260122:092333:TRANGDT</field>
+            <field name="nam">2022</field>
+            <field name="lastmodify_log">030320:143538:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_90" model="iwmn.r81dmngayle">
+            <field name="ident00">90</field>
+            <field name="ngay_ct1">2022-11-07 00:00:00</field>
+            <field name="ngay_ct2">2022-11-08 00:00:00</field>
+            <field name="ghi_chu">Water Festival Day - 2022 (7-9/11)</field>
+            <field name="create_log">260122:093139:TRANGDT</field>
+            <field name="nam">2022</field>
+            <field name="lastmodify_log">030320:144418:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_91" model="iwmn.r81dmngayle">
+            <field name="ident00">91</field>
+            <field name="ngay_ct1">2022-11-09 00:00:00</field>
+            <field name="ngay_ct2">2022-11-09 00:00:00</field>
+            <field name="ghi_chu">Independence Day - 2022</field>
+            <field name="create_log">260122:093258:TRANGDT</field>
+            <field name="nam">2022</field>
+            <field name="lastmodify_log">030320:144418:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_92" model="iwmn.r81dmngayle">
+            <field name="ident00">92</field>
+            <field name="ngay_ct1">2022-04-11 00:00:00</field>
+            <field name="ngay_ct2">2022-04-11 00:00:00</field>
+            <field name="ghi_chu">nghỉ giỗ tổ Hùng Vương 2022</field>
+            <field name="create_log">080422:141536:TRANGDT</field>
+            <field name="nam">2022</field>
+            <field name="lastmodify_log">140220:075737:VR</field>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmngayle_93" model="iwmn.r81dmngayle">
+            <field name="ident00">93</field>
+            <field name="ngay_ct1">2022-04-30 00:00:00</field>
+            <field name="ngay_ct2">2022-05-03 00:00:00</field>
+            <field name="ghi_chu">nghĩ lễ 30/4 &amp; 01/5- 2022</field>
+            <field name="create_log">260422:151956:TRANGDT</field>
+            <field name="nam">2022</field>
+            <field name="lastmodify_log">040520:082723:VR</field>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmngayle_94" model="iwmn.r81dmngayle">
+            <field name="ident00">94</field>
+            <field name="ngay_ct1">2022-09-01 00:00:00</field>
+            <field name="ngay_ct2">2022-09-02 00:00:00</field>
+            <field name="ghi_chu">nghỉ lễ 2/9 - 2022</field>
+            <field name="create_log">260822:162318:TRANGDT</field>
+            <field name="nam">2022</field>
+            <field name="lastmodify_log">040520:082723:VR</field>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmngayle_95" model="iwmn.r81dmngayle">
+            <field name="ident00">95</field>
+            <field name="ngay_ct1">2022-12-31 00:00:00</field>
+            <field name="ngay_ct2">2023-01-02 00:00:00</field>
+            <field name="ghi_chu">nghỉ tết dương lịch 2023</field>
+            <field name="create_log">211222:083410:TRANGDT</field>
+            <field name="nam">2022</field>
+            <field name="lastmodify_log">050122:152413:DUNGTT</field>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmngayle_96" model="iwmn.r81dmngayle">
+            <field name="ident00">96</field>
+            <field name="ngay_ct1">2023-01-07 00:00:00</field>
+            <field name="ngay_ct2">2023-01-07 00:00:00</field>
+            <field name="ghi_chu">Victory Day Over Genocide Regime</field>
+            <field name="create_log">020223:093746:TRANGDT</field>
+            <field name="nam">2023</field>
+            <field name="lastmodify_log">120121:084622:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_97" model="iwmn.r81dmngayle">
+            <field name="ident00">97</field>
+            <field name="ngay_ct1">2023-03-08 00:00:00</field>
+            <field name="ngay_ct2">2023-03-08 00:00:00</field>
+            <field name="ghi_chu">International Women's Day</field>
+            <field name="create_log">020223:094011:TRANGDT</field>
+            <field name="nam">2023</field>
+            <field name="lastmodify_log">120121:084632:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_98" model="iwmn.r81dmngayle">
+            <field name="ident00">98</field>
+            <field name="ngay_ct1">2023-04-13 00:00:00</field>
+            <field name="ngay_ct2">2023-04-16 00:00:00</field>
+            <field name="ghi_chu">Khmer New Year Days</field>
+            <field name="create_log">020223:095054:TRANGDT</field>
+            <field name="nam">2023</field>
+            <field name="lastmodify_log">120121:084658:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_99" model="iwmn.r81dmngayle">
+            <field name="ident00">99</field>
+            <field name="ngay_ct1">2023-05-01 00:00:00</field>
+            <field name="ngay_ct2">2023-05-01 00:00:00</field>
+            <field name="ghi_chu">International Labor Day</field>
+            <field name="create_log">020223:095157:TRANGDT</field>
+            <field name="nam">2023</field>
+            <field name="lastmodify_log">030320:143538:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_100" model="iwmn.r81dmngayle">
+            <field name="ident00">100</field>
+            <field name="ngay_ct1">2025-05-14 00:00:00</field>
+            <field name="ngay_ct2">2025-05-14 00:00:00</field>
+            <field name="ghi_chu">King Norodom Sihamoni's Birthday</field>
+            <field name="create_log">091224:113722:TRANGDT</field>
+            <field name="nam">2024</field>
+            <field name="lastmodify_log">030320:143538:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_101" model="iwmn.r81dmngayle">
+            <field name="ident00">101</field>
+            <field name="ngay_ct1">2023-06-18 00:00:00</field>
+            <field name="ngay_ct2">2023-06-18 00:00:00</field>
+            <field name="ghi_chu">Queen Norodom Monineath Sihanouk's Birthday</field>
+            <field name="create_log">020223:095426:TRANGDT</field>
+            <field name="nam">2023</field>
+            <field name="lastmodify_log">030320:143538:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_102" model="iwmn.r81dmngayle">
+            <field name="ident00">102</field>
+            <field name="ngay_ct1">2023-09-24 00:00:00</field>
+            <field name="ngay_ct2">2023-09-24 00:00:00</field>
+            <field name="ghi_chu">Constitutional Day</field>
+            <field name="create_log">020223:095543:TRANGDT</field>
+            <field name="nam">2023</field>
+            <field name="lastmodify_log">030320:143538:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_103" model="iwmn.r81dmngayle">
+            <field name="ident00">103</field>
+            <field name="ngay_ct1">2023-10-12 00:00:00</field>
+            <field name="ngay_ct2">2023-10-14 00:00:00</field>
+            <field name="ghi_chu">Pchum Ben Day (12-15/10)</field>
+            <field name="create_log">020223:095710:TRANGDT</field>
+            <field name="nam">2023</field>
+            <field name="lastmodify_log">020223:100054:TRANGDT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_104" model="iwmn.r81dmngayle">
+            <field name="ident00">104</field>
+            <field name="ngay_ct1">2023-10-29 00:00:00</field>
+            <field name="ngay_ct2">2023-10-29 00:00:00</field>
+            <field name="ghi_chu">King Norodom Sihamoni's Coronation Day</field>
+            <field name="create_log">020223:095828:TRANGDT</field>
+            <field name="nam">2023</field>
+            <field name="lastmodify_log">030320:143538:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_105" model="iwmn.r81dmngayle">
+            <field name="ident00">105</field>
+            <field name="ngay_ct1">2023-11-09 00:00:00</field>
+            <field name="ngay_ct2">2023-11-09 00:00:00</field>
+            <field name="ghi_chu">National Independence Day</field>
+            <field name="create_log">020223:095911:TRANGDT</field>
+            <field name="nam">2023</field>
+            <field name="lastmodify_log">030320:144418:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_106" model="iwmn.r81dmngayle">
+            <field name="ident00">106</field>
+            <field name="ngay_ct1">2022-11-26 00:00:00</field>
+            <field name="ngay_ct2">2022-11-28 00:00:00</field>
+            <field name="ghi_chu">Water Festival</field>
+            <field name="create_log">020223:100029:TRANGDT</field>
+            <field name="nam">2023</field>
+            <field name="lastmodify_log">030320:144418:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_107" model="iwmn.r81dmngayle">
+            <field name="ident00">107</field>
+            <field name="ngay_ct1">2023-10-15 00:00:00</field>
+            <field name="ngay_ct2">2023-10-15 00:00:00</field>
+            <field name="ghi_chu">Respect the Spirit of the Late King Father</field>
+            <field name="create_log">091224:114043:TRANGDT</field>
+            <field name="nam">2024</field>
+            <field name="lastmodify_log">091224:114652:TRANGDT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_108" model="iwmn.r81dmngayle">
+            <field name="ident00">108</field>
+            <field name="ngay_ct1">2023-04-29 00:00:00</field>
+            <field name="ngay_ct2">2023-05-03 00:00:00</field>
+            <field name="ghi_chu">nghỉ giỗ tổ hùng Vương, lễ 30/4 &amp; 01/5- 2023</field>
+            <field name="create_log">200423:155630:TRANGDT</field>
+            <field name="nam">2024</field>
+            <field name="lastmodify_log">100424:134754:TRANGDT</field>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmngayle_109" model="iwmn.r81dmngayle">
+            <field name="ident00">109</field>
+            <field name="ngay_ct1">2023-09-01 00:00:00</field>
+            <field name="ngay_ct2">2023-09-04 00:00:00</field>
+            <field name="ghi_chu">nghỉ lễ 2/9 - 2023</field>
+            <field name="create_log">280823:154903:TRANGDT</field>
+            <field name="nam">2023</field>
+            <field name="lastmodify_log">040520:082723:VR</field>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmngayle_110" model="iwmn.r81dmngayle">
+            <field name="ident00">110</field>
+            <field name="ngay_ct1">2026-01-01 00:00:00</field>
+            <field name="ngay_ct2">2026-01-04 00:00:00</field>
+            <field name="ghi_chu">nghỉ tết dương lịch 2026  theo 1162/TB-TMN ngày 26/12/2025</field>
+            <field name="create_log">291225:145700:TRANGDT</field>
+            <field name="nam">2026</field>
+            <field name="lastmodify_log">120126:105358:TRANGDT</field>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmngayle_111" model="iwmn.r81dmngayle">
+            <field name="ident00">111</field>
+            <field name="ngay_ct1">2024-04-29 00:00:00</field>
+            <field name="ngay_ct2">2024-05-01 00:00:00</field>
+            <field name="ghi_chu">nghỉ lễ 30/4 &amp; 01/5- 2024</field>
+            <field name="create_log">010424:100149:TRANGDT</field>
+            <field name="nam">2024</field>
+            <field name="lastmodify_log">170424:095745:TRANGDT</field>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmngayle_112" model="iwmn.r81dmngayle">
+            <field name="ident00">112</field>
+            <field name="ngay_ct1">2024-04-18 00:00:00</field>
+            <field name="ngay_ct2">2024-04-18 00:00:00</field>
+            <field name="ghi_chu">nghỉ giỗ tổ Hùng Vương 2023</field>
+            <field name="create_log">100424:134537:TRANGDT</field>
+            <field name="nam">2024</field>
+            <field name="lastmodify_log">140220:075737:VR</field>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmngayle_113" model="iwmn.r81dmngayle">
+            <field name="ident00">113</field>
+            <field name="ngay_ct1">2025-01-01 00:00:00</field>
+            <field name="ngay_ct2">2025-01-01 00:00:00</field>
+            <field name="ghi_chu">International New Year Day - 2025</field>
+            <field name="create_log">091224:091016:TRANGDT</field>
+            <field name="nam">2024</field>
+            <field name="lastmodify_log">120121:084609:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_114" model="iwmn.r81dmngayle">
+            <field name="ident00">114</field>
+            <field name="ngay_ct1">2025-01-07 00:00:00</field>
+            <field name="ngay_ct2">2025-01-07 00:00:00</field>
+            <field name="ghi_chu">Victory Day Over Genocide Regime</field>
+            <field name="create_log">091224:091108:TRANGDT</field>
+            <field name="nam">2024</field>
+            <field name="lastmodify_log">120121:084622:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_115" model="iwmn.r81dmngayle">
+            <field name="ident00">115</field>
+            <field name="ngay_ct1">2025-01-29 00:00:00</field>
+            <field name="ngay_ct2">2025-01-31 00:00:00</field>
+            <field name="ghi_chu">Chines New Year Day</field>
+            <field name="create_log">091224:091203:TRANGDT</field>
+            <field name="nam">2024</field>
+            <field name="lastmodify_log">240221:081116:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_116" model="iwmn.r81dmngayle">
+            <field name="ident00">116</field>
+            <field name="ngay_ct1">2025-03-08 00:00:00</field>
+            <field name="ngay_ct2">2025-03-08 00:00:00</field>
+            <field name="ghi_chu">International Women's Day</field>
+            <field name="create_log">091224:092010:TRANGDT</field>
+            <field name="nam">2024</field>
+            <field name="lastmodify_log">120121:084632:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_117" model="iwmn.r81dmngayle">
+            <field name="ident00">117</field>
+            <field name="ngay_ct1">2025-04-14 00:00:00</field>
+            <field name="ngay_ct2">2025-04-17 00:00:00</field>
+            <field name="ghi_chu">Khmer New Year Days</field>
+            <field name="create_log">091224:113044:TRANGDT</field>
+            <field name="nam">2024</field>
+            <field name="lastmodify_log">120121:084658:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_118" model="iwmn.r81dmngayle">
+            <field name="ident00">118</field>
+            <field name="ngay_ct1">2026-05-01 00:00:00</field>
+            <field name="ngay_ct2">2026-05-01 00:00:00</field>
+            <field name="ghi_chu">International Labor Day</field>
+            <field name="create_log">120126:150921:TRANGDT</field>
+            <field name="nam">2026</field>
+            <field name="lastmodify_log">020223:095230:TRANGDT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_119" model="iwmn.r81dmngayle">
+            <field name="ident00">119</field>
+            <field name="ngay_ct1">2024-05-14 00:00:00</field>
+            <field name="ngay_ct2">2024-05-14 00:00:00</field>
+            <field name="ghi_chu">King Norodom Sihamoni's Birthday - 2024</field>
+            <field name="create_log">130424:092738:TRANGDT</field>
+            <field name="nam">2024</field>
+            <field name="lastmodify_log">030320:143538:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_120" model="iwmn.r81dmngayle">
+            <field name="ident00">120</field>
+            <field name="ngay_ct1">2024-05-22 00:00:00</field>
+            <field name="ngay_ct2">2024-05-22 00:00:00</field>
+            <field name="ghi_chu">Visak Bochea Ceremony - 2024</field>
+            <field name="create_log">130424:092835:TRANGDT</field>
+            <field name="nam">2024</field>
+            <field name="lastmodify_log">030320:143538:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_121" model="iwmn.r81dmngayle">
+            <field name="ident00">121</field>
+            <field name="ngay_ct1">2024-05-26 00:00:00</field>
+            <field name="ngay_ct2">2024-05-26 00:00:00</field>
+            <field name="ghi_chu">Royal Plowing Ceremony - 2024</field>
+            <field name="create_log">130424:093100:TRANGDT</field>
+            <field name="nam">2024</field>
+            <field name="lastmodify_log">030320:143538:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_122" model="iwmn.r81dmngayle">
+            <field name="ident00">122</field>
+            <field name="ngay_ct1">2024-06-18 00:00:00</field>
+            <field name="ngay_ct2">2024-06-18 00:00:00</field>
+            <field name="ghi_chu">Queen Norodom Monineath Sihanouk's Birthday - 2024</field>
+            <field name="create_log">130424:093219:TRANGDT</field>
+            <field name="nam">2024</field>
+            <field name="lastmodify_log">030320:143538:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_123" model="iwmn.r81dmngayle">
+            <field name="ident00">123</field>
+            <field name="ngay_ct1">2025-09-24 00:00:00</field>
+            <field name="ngay_ct2">2025-09-24 00:00:00</field>
+            <field name="ghi_chu">Constitutional Day</field>
+            <field name="create_log">091224:113822:TRANGDT</field>
+            <field name="nam">2024</field>
+            <field name="lastmodify_log">030320:143538:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_124" model="iwmn.r81dmngayle">
+            <field name="ident00">124</field>
+            <field name="ngay_ct1">2025-09-20 00:00:00</field>
+            <field name="ngay_ct2">2025-09-23 00:00:00</field>
+            <field name="ghi_chu">Pchum Ben Day</field>
+            <field name="create_log">091224:113804:TRANGDT</field>
+            <field name="nam">2024</field>
+            <field name="lastmodify_log">020223:100054:TRANGDT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_125" model="iwmn.r81dmngayle">
+            <field name="ident00">125</field>
+            <field name="ngay_ct1">2025-10-15 00:00:00</field>
+            <field name="ngay_ct2">2025-10-15 00:00:00</field>
+            <field name="ghi_chu">King Father's Commemoration Day</field>
+            <field name="create_log">091224:114733:TRANGDT</field>
+            <field name="nam">2024</field>
+            <field name="lastmodify_log">030320:143538:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_126" model="iwmn.r81dmngayle">
+            <field name="ident00">126</field>
+            <field name="ngay_ct1">2024-10-29 00:00:00</field>
+            <field name="ngay_ct2">2024-10-29 00:00:00</field>
+            <field name="ghi_chu">King Norodom Sihamoni's Coronation Day</field>
+            <field name="create_log">130424:093558:TRANGDT</field>
+            <field name="nam">2024</field>
+            <field name="lastmodify_log">030320:143538:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_127" model="iwmn.r81dmngayle">
+            <field name="ident00">127</field>
+            <field name="ngay_ct1">2025-11-09 00:00:00</field>
+            <field name="ngay_ct2">2025-11-09 00:00:00</field>
+            <field name="ghi_chu">National Independence Day</field>
+            <field name="create_log">091224:114825:TRANGDT</field>
+            <field name="nam">2024</field>
+            <field name="lastmodify_log">030320:144418:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_128" model="iwmn.r81dmngayle">
+            <field name="ident00">128</field>
+            <field name="ngay_ct1">2025-11-04 00:00:00</field>
+            <field name="ngay_ct2">2025-11-06 00:00:00</field>
+            <field name="ghi_chu">Water Festival Days</field>
+            <field name="create_log">091224:114814:TRANGDT</field>
+            <field name="nam">2024</field>
+            <field name="lastmodify_log">030320:144418:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_129" model="iwmn.r81dmngayle">
+            <field name="ident00">129</field>
+            <field name="ngay_ct1">2024-09-02 00:00:00</field>
+            <field name="ngay_ct2">2024-09-03 00:00:00</field>
+            <field name="ghi_chu">nghỉ lễ 2/9 - 2024</field>
+            <field name="create_log">190824:105125:TRANGDT</field>
+            <field name="nam">2024</field>
+            <field name="lastmodify_log">260824:142345:TRANGDT</field>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmngayle_130" model="iwmn.r81dmngayle">
+            <field name="ident00">130</field>
+            <field name="ngay_ct1">2025-01-25 00:00:00</field>
+            <field name="ngay_ct2">2025-02-02 00:00:00</field>
+            <field name="ghi_chu">nghỉ Tết âm lịch 2025</field>
+            <field name="create_log">150125:132619:TRANGDT</field>
+            <field name="nam">2025</field>
+            <field name="lastmodify_log">290124:141241:TRANGDT</field>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmngayle_131" model="iwmn.r81dmngayle">
+            <field name="ident00">131</field>
+            <field name="ngay_ct1">2025-04-07 00:00:00</field>
+            <field name="ngay_ct2">2025-04-07 00:00:00</field>
+            <field name="ghi_chu">nghỉ giỗ tổ Hùng Vương 2025</field>
+            <field name="create_log">110325:105652:TRANGDT</field>
+            <field name="nam">2025</field>
+            <field name="lastmodify_log">140220:075737:VR</field>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmngayle_132" model="iwmn.r81dmngayle">
+            <field name="ident00">132</field>
+            <field name="ngay_ct1">2025-04-30 00:00:00</field>
+            <field name="ngay_ct2">2025-05-04 00:00:00</field>
+            <field name="ghi_chu">nghỉ lễ 30/4 &amp; 01/5- 2025</field>
+            <field name="create_log">040425:083913:TRANGDT</field>
+            <field name="nam">2025</field>
+            <field name="lastmodify_log">210425:092134:TRANGDT</field>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmngayle_133" model="iwmn.r81dmngayle">
+            <field name="ident00">133</field>
+            <field name="ngay_ct1">2025-09-01 00:00:00</field>
+            <field name="ngay_ct2">2025-09-02 00:00:00</field>
+            <field name="ghi_chu">nghỉ lễ 2/9 - 2025</field>
+            <field name="create_log">200825:145820:TRANGDT</field>
+            <field name="nam">2025</field>
+            <field name="lastmodify_log">260824:142345:TRANGDT</field>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmngayle_134" model="iwmn.r81dmngayle">
+            <field name="ident00">134</field>
+            <field name="ngay_ct1">2026-02-13 00:00:00</field>
+            <field name="ngay_ct2">2026-02-23 00:00:00</field>
+            <field name="ghi_chu">nghỉ Tết âm lịch 2026</field>
+            <field name="create_log">120126:105024:TRANGDT</field>
+            <field name="nam">2026</field>
+            <field name="lastmodify_log">010326:215143:TRANGDT</field>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmngayle_135" model="iwmn.r81dmngayle">
+            <field name="ident00">135</field>
+            <field name="ngay_ct1">2026-01-01 00:00:00</field>
+            <field name="ngay_ct2">2026-01-01 00:00:00</field>
+            <field name="ghi_chu">International New Year's Day - 2026</field>
+            <field name="create_log">120126:145728:TRANGDT</field>
+            <field name="nam">2026</field>
+            <field name="lastmodify_log">120121:084609:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_136" model="iwmn.r81dmngayle">
+            <field name="ident00">136</field>
+            <field name="ngay_ct1">2026-02-16 00:00:00</field>
+            <field name="ngay_ct2">2026-02-19 00:00:00</field>
+            <field name="ghi_chu">Chinese New Year Day</field>
+            <field name="create_log">120126:145823:TRANGDT</field>
+            <field name="nam">2026</field>
+            <field name="lastmodify_log">240221:081116:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_137" model="iwmn.r81dmngayle">
+            <field name="ident00">137</field>
+            <field name="ngay_ct1">2026-03-08 00:00:00</field>
+            <field name="ngay_ct2">2026-03-08 00:00:00</field>
+            <field name="ghi_chu">International Women's Day</field>
+            <field name="create_log">120126:150813:TRANGDT</field>
+            <field name="nam">2026</field>
+            <field name="lastmodify_log">120121:084632:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_138" model="iwmn.r81dmngayle">
+            <field name="ident00">138</field>
+            <field name="ngay_ct1">2026-04-13 00:00:00</field>
+            <field name="ngay_ct2">2026-04-17 00:00:00</field>
+            <field name="ghi_chu">Khmer New Year Days</field>
+            <field name="create_log">120126:150855:TRANGDT</field>
+            <field name="nam">2026</field>
+            <field name="lastmodify_log">120121:084658:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_139" model="iwmn.r81dmngayle">
+            <field name="ident00">139</field>
+            <field name="ngay_ct1">2026-10-06 00:00:00</field>
+            <field name="ngay_ct2">2026-10-12 00:00:00</field>
+            <field name="ghi_chu">Pchum Ben Day</field>
+            <field name="create_log">120126:151036:TRANGDT</field>
+            <field name="nam">2026</field>
+            <field name="lastmodify_log">020223:100054:TRANGDT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_140" model="iwmn.r81dmngayle">
+            <field name="ident00">140</field>
+            <field name="ngay_ct1">2026-11-09 00:00:00</field>
+            <field name="ngay_ct2">2026-11-09 00:00:00</field>
+            <field name="ghi_chu">National Independence Day</field>
+            <field name="create_log">120126:151113:TRANGDT</field>
+            <field name="nam">2026</field>
+            <field name="lastmodify_log">030320:144418:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_141" model="iwmn.r81dmngayle">
+            <field name="ident00">141</field>
+            <field name="ngay_ct1">2026-11-23 00:00:00</field>
+            <field name="ngay_ct2">2026-11-25 00:00:00</field>
+            <field name="ghi_chu">Water Festival Ceremony</field>
+            <field name="create_log">120126:151231:TRANGDT</field>
+            <field name="nam">2026</field>
+            <field name="lastmodify_log">030320:144418:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_142" model="iwmn.r81dmngayle">
+            <field name="ident00">142</field>
+            <field name="ngay_ct1">2026-12-29 00:00:00</field>
+            <field name="ngay_ct2">2026-12-29 00:00:00</field>
+            <field name="ghi_chu">Peace Day</field>
+            <field name="create_log">120126:151254:TRANGDT</field>
+            <field name="nam">2026</field>
+            <field name="lastmodify_log">231019:084907:DUNGTT</field>
+            <field name="ma_dt">1070000</field>
+            <field name="tk">1312</field>
+        </record>
+        <record id="iwmn_r81dmngayle_143" model="iwmn.r81dmngayle">
+            <field name="ident00">143</field>
+            <field name="ngay_ct1">2026-04-26 00:00:00</field>
+            <field name="ngay_ct2">2026-04-27 00:00:00</field>
+            <field name="ghi_chu">nghỉ Giỗ tổ Hùng Vương 2026</field>
+            <field name="create_log">140126:110914:TRANGDT</field>
+            <field name="nam">2026</field>
+            <field name="lastmodify_log">240426:084519:TRANGDT</field>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmngayle_144" model="iwmn.r81dmngayle">
+            <field name="ident00">144</field>
+            <field name="ngay_ct1">2026-04-30 00:00:00</field>
+            <field name="ngay_ct2">2026-05-01 00:00:00</field>
+            <field name="ghi_chu">nghỉ lễ 30/4 và 01/5/2026</field>
+            <field name="create_log">140126:143759:TRANGDT</field>
+            <field name="nam">2026</field>
+            <field name="lastmodify_log">210425:092134:TRANGDT</field>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmngayle_145" model="iwmn.r81dmngayle">
+            <field name="ident00">145</field>
+            <field name="ngay_ct1">2026-11-22 00:00:00</field>
+            <field name="ngay_ct2">2026-11-22 00:00:00</field>
+            <field name="ghi_chu">Ngày Văn hóa Việt Nam</field>
+            <field name="create_log">140126:143945:TRANGDT</field>
+            <field name="nam">2026</field>
+            <field name="lastmodify_log">240426:084756:TRANGDT</field>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmngayle_146" model="iwmn.r81dmngayle">
+            <field name="ident00">146</field>
+            <field name="ngay_ct1">2026-09-02 00:00:00</field>
+            <field name="ngay_ct2">2026-09-02 00:00:00</field>
+            <field name="ghi_chu">Quốc khánh 2/9 năm 2026</field>
+            <field name="create_log">140126:144126:TRANGDT</field>
+            <field name="nam">2026</field>
+            <field name="lastmodify_log">240426:084725:TRANGDT</field>
+            <field name="ma_dt" eval="False"/>
+            <field name="tk" eval="False"/>
+        </record>
+    </data>
+</odoo>

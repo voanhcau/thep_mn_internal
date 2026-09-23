@@ -1,0 +1,959 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B973DBE5-40C3-4EC9-AD76-905E691154A1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RosyModule</RootNamespace>
+    <AssemblyName>Rosy.Module</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>Rosy.snk</AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Rosy\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Rosy\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ActiveReports.Viewer6, Version=6.0.2019.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Rosy\ActiveReports.Viewer6.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.85.1.271, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Rosy\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\Rosy\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Outlook, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\Rosy\Microsoft.Office.Interop.Outlook.dll</HintPath>
+    </Reference>
+    <Reference Include="Office, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\Rosy\Office.dll</HintPath>
+    </Reference>
+    <Reference Include="Rosy.CommonTMN, Version=1.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Rosy\Rosy.CommonTMN.dll</HintPath>
+    </Reference>
+    <Reference Include="Rosy.Controller, Version=3.1.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Rosy\Rosy.Controller.dll</HintPath>
+    </Reference>
+    <Reference Include="Rosy.Report, Version=3.1.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Rosy\Rosy.Report.dll</HintPath>
+    </Reference>
+    <Reference Include="Rosy.ReportTMN, Version=3.1.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Rosy\Rosy.ReportTMN.dll</HintPath>
+    </Reference>
+    <Reference Include="Rosy.System, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Rosy\Rosy.System.dll</HintPath>
+    </Reference>
+    <Reference Include="Rosy.System.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Rosy\Rosy.System.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Rosy.System.Data, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL" />
+    <Reference Include="Rosy.System.Element, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL" />
+    <Reference Include="Rosy.System.Library, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Rosy\Rosy.System.Library.dll</HintPath>
+    </Reference>
+    <Reference Include="Rosy.System.Public, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmInherit_LCAN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInherit_LCAN.designer.cs">
+      <DependentUpon>frmInherit_LCAN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKQCalLaiGop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKQCalLaiGop.designer.cs">
+      <DependentUpon>frmKQCalLaiGop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSendMailXNCN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSendMailXNCN.Designer.cs">
+      <DependentUpon>frmSendMailXNCN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmXacNhanCN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmXacNhanCN.Designer.cs">
+      <DependentUpon>frmXacNhanCN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuery_Permission.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuery_Permission.Designer.cs">
+      <DependentUpon>frmQuery_Permission.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XulyTonKhoBarcode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XulyTonKhoBarcode.designer.cs">
+      <DependentUpon>XulyTonKhoBarcode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNotVAT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNotVAT.designer.cs">
+      <DependentUpon>frmNotVAT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNotVAT_NotUse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNotVAT_NotUse.designer.cs">
+      <DependentUpon>frmNotVAT_NotUse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCheckVTTD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCheckVTTD.Designer.cs">
+      <DependentUpon>frmCheckVTTD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHanTtAuto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHanTtAuto.Designer.cs">
+      <DependentUpon>frmHanTtAuto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCall\frmCtNXDNX_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCall\frmCtNXDNX_Edit.Designer.cs">
+      <DependentUpon>frmCtNXDNX_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCall\frmCtNXNX_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCall\frmCtNXNX_Edit.Designer.cs">
+      <DependentUpon>frmCtNXNX_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReadExcel_BangCong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReadExcel_BangCong.designer.cs">
+      <DependentUpon>frmReadExcel_BangCong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInherit_MonAn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInherit_MonAn.Designer.cs">
+      <DependentUpon>frmInherit_MonAn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIn_GRVC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIn_GRVC.Designer.cs">
+      <DependentUpon>frmIn_GRVC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIn_BarcodeKKV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIn_BarcodeKKV.Designer.cs">
+      <DependentUpon>frmIn_BarcodeKKV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInherit_LXHKKV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInherit_LXHKKV.designer.cs">
+      <DependentUpon>frmInherit_LXHKKV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIn_BBBG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIn_BBBG.Designer.cs">
+      <DependentUpon>frmIn_BBBG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIn_Ct_PNPT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIn_Ct_PNPT.Designer.cs">
+      <DependentUpon>frmIn_Ct_PNPT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCall\frmCtXBarcodePT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCall\frmCtXBarcodePT.Designer.cs">
+      <DependentUpon>frmCtXBarcodePT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInherit_LyLichTB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInherit_LyLichTB.Designer.cs">
+      <DependentUpon>frmInherit_LyLichTB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReadExcel_ToFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReadExcel_ToFrom.designer.cs">
+      <DependentUpon>frmReadExcel_ToFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInherit_LXH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInherit_LXH.designer.cs">
+      <DependentUpon>frmInherit_LXH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIn_Cham_Cong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIn_Cham_Cong.Designer.cs">
+      <DependentUpon>frmIn_Cham_Cong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmExportExcel_.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmExportExcel_.designer.cs">
+      <DependentUpon>frmExportExcel_.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSendMailCNXX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSendMailCNXX.Designer.cs">
+      <DependentUpon>frmSendMailCNXX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUnLock_KT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUnLock_KT.designer.cs">
+      <DependentUpon>frmUnLock_KT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDuyetQLMMTB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDuyetQLMMTB.designer.cs">
+      <DependentUpon>frmDuyetQLMMTB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAttachFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAttachFile.designer.cs">
+      <DependentUpon>frmAttachFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUpdate_ThongTin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdate_ThongTin.designer.cs">
+      <DependentUpon>frmUpdate_ThongTin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUpdate_Program.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdate_Program.Designer.cs">
+      <DependentUpon>frmUpdate_Program.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCheckDinhMucBHLD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCheckDinhMucBHLD.Designer.cs">
+      <DependentUpon>frmCheckDinhMucBHLD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDongDhAll.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDongDhAll.designer.cs">
+      <DependentUpon>frmDongDhAll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIn_Ct_PXCP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIn_Ct_PXCP.Designer.cs">
+      <DependentUpon>frmIn_Ct_PXCP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIn_Ct_NM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIn_Ct_NM.Designer.cs">
+      <DependentUpon>frmIn_Ct_NM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInherit_CtSO_Scale_KKV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInherit_CtSO_Scale_KKV.designer.cs">
+      <DependentUpon>frmInherit_CtSO_Scale_KKV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDong_Dh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDong_Dh.designer.cs">
+      <DependentUpon>frmDong_Dh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIn_Ct_PXKV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIn_Ct_PXKV.Designer.cs">
+      <DependentUpon>frmIn_Ct_PXKV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIn_Ct_DNX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIn_Ct_DNX.Designer.cs">
+      <DependentUpon>frmIn_Ct_DNX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInherit_CtSO_Scale_TTKH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInherit_CtSO_Scale_TTKH.designer.cs">
+      <DependentUpon>frmInherit_CtSO_Scale_TTKH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCheck_Gia_Mua.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCheck_Gia_Mua.designer.cs">
+      <DependentUpon>frmCheck_Gia_Mua.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCt_YeuCau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCt_YeuCau.Designer.cs">
+      <DependentUpon>frmCt_YeuCau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDNX_View.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDNX_View.designer.cs">
+      <DependentUpon>frmDNX_View.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGhi_Chu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGhi_Chu.designer.cs">
+      <DependentUpon>frmGhi_Chu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExportExcel.cs" />
+    <Compile Include="frmIn_Ct_PNK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIn_Ct_PNK.Designer.cs">
+      <DependentUpon>frmIn_Ct_PNK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDuyet_PKTTC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDuyet_PKTTC.designer.cs">
+      <DependentUpon>frmDuyet_PKTTC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDuyet_PKD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDuyet_PKD.designer.cs">
+      <DependentUpon>frmDuyet_PKD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInherit_CtSO_Scale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInherit_CtSO_Scale.designer.cs">
+      <DependentUpon>frmInherit_CtSO_Scale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCheckInventory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCheckInventory.designer.cs">
+      <DependentUpon>frmCheckInventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCheckInventory_Barcode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCheckInventory_Barcode.Designer.cs">
+      <DependentUpon>frmCheckInventory_Barcode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDuyetYeuCau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDuyetYeuCau.designer.cs">
+      <DependentUpon>frmDuyetYeuCau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmChon_In_KCS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChon_In_KCS.designer.cs">
+      <DependentUpon>frmChon_In_KCS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDuyet_BTHCG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDuyet_BTHCG.designer.cs">
+      <DependentUpon>frmDuyet_BTHCG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIn_Ct_SO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIn_Ct_SO.Designer.cs">
+      <DependentUpon>frmIn_Ct_SO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmChon_In_Scale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChon_In_Scale.Designer.cs">
+      <DependentUpon>frmChon_In_Scale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInherit_Nhap_Barcode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInherit_Nhap_Barcode.designer.cs">
+      <DependentUpon>frmInherit_Nhap_Barcode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInherit_PNSB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInherit_PNSB.designer.cs">
+      <DependentUpon>frmInherit_PNSB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDuyet_Huy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDuyet_Huy.designer.cs">
+      <DependentUpon>frmDuyet_Huy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIn_Ct_BB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIn_Ct_BB.Designer.cs">
+      <DependentUpon>frmIn_Ct_BB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBangKTTauHangGD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBangKTTauHangGD.designer.cs">
+      <DependentUpon>frmBangKTTauHangGD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBangKTTauHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBangKTTauHang.designer.cs">
+      <DependentUpon>frmBangKTTauHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHanTt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHanTt.Designer.cs">
+      <DependentUpon>frmHanTt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIn_Ct_DT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIn_Ct_DT.Designer.cs">
+      <DependentUpon>frmIn_Ct_DT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIn_Ct_HD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIn_Ct_HD.Designer.cs">
+      <DependentUpon>frmIn_Ct_HD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDanhSo_Ct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDanhSo_Ct.designer.cs">
+      <DependentUpon>frmDanhSo_Ct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDuyet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDuyet.designer.cs">
+      <DependentUpon>frmDuyet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFilter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFilter.Designer.cs">
+      <DependentUpon>frmFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInheritVoucher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInheritVoucher.designer.cs">
+      <DependentUpon>frmInheritVoucher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIn_Ct_PX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIn_Ct_PX.Designer.cs">
+      <DependentUpon>frmIn_Ct_PX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIn_CT_Tien_NT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIn_CT_Tien_NT.Designer.cs">
+      <DependentUpon>frmIn_CT_Tien_NT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIn_CT_UNC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIn_CT_UNC.Designer.cs">
+      <DependentUpon>frmIn_CT_UNC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIn_Ct_UNC_ChonMau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIn_Ct_UNC_ChonMau.designer.cs">
+      <DependentUpon>frmIn_Ct_UNC_ChonMau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPhan_Hoi_KHVT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPhan_Hoi_KHVT.designer.cs">
+      <DependentUpon>frmPhan_Hoi_KHVT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuickLookup_Customize.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuickLookup_Customize.designer.cs">
+      <DependentUpon>frmQuickLookup_Customize.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReadExcel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReadExcel.designer.cs">
+      <DependentUpon>frmReadExcel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSendMail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSendMail.designer.cs">
+      <DependentUpon>frmSendMail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTestCom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTestCom.Designer.cs">
+      <DependentUpon>frmTestCom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewDataDuyet_Ct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewDataDuyet_Ct.Designer.cs">
+      <DependentUpon>frmViewDataDuyet_Ct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewDataLog_Ct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewDataLog_Ct.Designer.cs">
+      <DependentUpon>frmViewDataLog_Ct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVoucher_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVoucher_Edit.designer.cs">
+      <DependentUpon>frmVoucher_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVoucher_View.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVoucher_View.designer.cs">
+      <DependentUpon>frmVoucher_View.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmXuatVTriKho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmXuatVTriKho.designer.cs">
+      <DependentUpon>frmXuatVTriKho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hardware\HardwareInterfaceScale6080.cs" />
+    <Compile Include="Hardware\DataEventHandler.cs" />
+    <Compile Include="Hardware\HardwareInterface.cs" />
+    <Compile Include="Hardware\StateEventHandler.cs" />
+    <Compile Include="Hardware\StateType.cs" />
+    <Compile Include="Hardware\Variables.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Tool.cs" />
+    <Compile Include="txtTime.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Voucher.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmInherit_LCAN.resx">
+      <DependentUpon>frmInherit_LCAN.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKQCalLaiGop.resx">
+      <DependentUpon>frmKQCalLaiGop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSendMailXNCN.resx">
+      <DependentUpon>frmSendMailXNCN.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmXacNhanCN.resx">
+      <DependentUpon>frmXacNhanCN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuery_Permission.resx">
+      <DependentUpon>frmQuery_Permission.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XulyTonKhoBarcode.resx">
+      <DependentUpon>XulyTonKhoBarcode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNotVAT.resx">
+      <DependentUpon>frmNotVAT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNotVAT_NotUse.resx">
+      <DependentUpon>frmNotVAT_NotUse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCheckVTTD.resx">
+      <DependentUpon>frmCheckVTTD.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHanTtAuto.resx">
+      <DependentUpon>frmHanTtAuto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCall\frmCtNXDNX_Edit.resx">
+      <DependentUpon>frmCtNXDNX_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCall\frmCtNXNX_Edit.resx">
+      <DependentUpon>frmCtNXNX_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReadExcel_BangCong.resx">
+      <DependentUpon>frmReadExcel_BangCong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInherit_MonAn.resx">
+      <DependentUpon>frmInherit_MonAn.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIn_GRVC.resx">
+      <DependentUpon>frmIn_GRVC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIn_BarcodeKKV.resx">
+      <DependentUpon>frmIn_BarcodeKKV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInherit_LXHKKV.resx">
+      <DependentUpon>frmInherit_LXHKKV.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIn_BBBG.resx">
+      <DependentUpon>frmIn_BBBG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIn_Ct_PNPT.resx">
+      <DependentUpon>frmIn_Ct_PNPT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCall\frmCtXBarcodePT.resx">
+      <DependentUpon>frmCtXBarcodePT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInherit_LyLichTB.resx">
+      <DependentUpon>frmInherit_LyLichTB.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReadExcel_ToFrom.resx">
+      <DependentUpon>frmReadExcel_ToFrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInherit_LXH.resx">
+      <DependentUpon>frmInherit_LXH.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIn_Cham_Cong.resx">
+      <DependentUpon>frmIn_Cham_Cong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmExportExcel_.resx">
+      <DependentUpon>frmExportExcel_.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSendMailCNXX.resx">
+      <DependentUpon>frmSendMailCNXX.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUnLock_KT.resx">
+      <DependentUpon>frmUnLock_KT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDuyetQLMMTB.resx">
+      <DependentUpon>frmDuyetQLMMTB.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAttachFile.resx">
+      <DependentUpon>frmAttachFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdate_ThongTin.resx">
+      <DependentUpon>frmUpdate_ThongTin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdate_Program.resx">
+      <DependentUpon>frmUpdate_Program.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCheckDinhMucBHLD.resx">
+      <DependentUpon>frmCheckDinhMucBHLD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDongDhAll.resx">
+      <DependentUpon>frmDongDhAll.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIn_Ct_PXCP.resx">
+      <DependentUpon>frmIn_Ct_PXCP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIn_Ct_NM.resx">
+      <DependentUpon>frmIn_Ct_NM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInherit_CtSO_Scale_KKV.resx">
+      <DependentUpon>frmInherit_CtSO_Scale_KKV.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDong_Dh.resx">
+      <DependentUpon>frmDong_Dh.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIn_Ct_PXKV.resx">
+      <DependentUpon>frmIn_Ct_PXKV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIn_Ct_DNX.resx">
+      <DependentUpon>frmIn_Ct_DNX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInherit_CtSO_Scale_TTKH.resx">
+      <DependentUpon>frmInherit_CtSO_Scale_TTKH.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCheck_Gia_Mua.resx">
+      <DependentUpon>frmCheck_Gia_Mua.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCt_YeuCau.resx">
+      <DependentUpon>frmCt_YeuCau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDNX_View.resx">
+      <DependentUpon>frmDNX_View.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGhi_Chu.resx">
+      <DependentUpon>frmGhi_Chu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIn_Ct_PNK.resx">
+      <DependentUpon>frmIn_Ct_PNK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDuyet_PKTTC.resx">
+      <DependentUpon>frmDuyet_PKTTC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDuyet_PKD.resx">
+      <DependentUpon>frmDuyet_PKD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInherit_CtSO_Scale.resx">
+      <DependentUpon>frmInherit_CtSO_Scale.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCheckInventory.resx">
+      <DependentUpon>frmCheckInventory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCheckInventory_Barcode.resx">
+      <DependentUpon>frmCheckInventory_Barcode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDuyetYeuCau.resx">
+      <DependentUpon>frmDuyetYeuCau.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChon_In_KCS.resx">
+      <DependentUpon>frmChon_In_KCS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDuyet_BTHCG.resx">
+      <DependentUpon>frmDuyet_BTHCG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIn_Ct_SO.resx">
+      <DependentUpon>frmIn_Ct_SO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChon_In_Scale.resx">
+      <DependentUpon>frmChon_In_Scale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInherit_Nhap_Barcode.resx">
+      <DependentUpon>frmInherit_Nhap_Barcode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInherit_PNSB.resx">
+      <DependentUpon>frmInherit_PNSB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIn_Ct_DT.resx">
+      <DependentUpon>frmIn_Ct_DT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDuyet_Huy.resx">
+      <DependentUpon>frmDuyet_Huy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIn_Ct_BB.resx">
+      <DependentUpon>frmIn_Ct_BB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBangKTTauHangGD.resx">
+      <DependentUpon>frmBangKTTauHangGD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBangKTTauHang.resx">
+      <DependentUpon>frmBangKTTauHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHanTt.resx">
+      <DependentUpon>frmHanTt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIn_Ct_HD.resx">
+      <DependentUpon>frmIn_Ct_HD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDanhSo_Ct.resx">
+      <DependentUpon>frmDanhSo_Ct.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDuyet.resx">
+      <DependentUpon>frmDuyet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFilter.resx">
+      <DependentUpon>frmFilter.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInheritVoucher.resx">
+      <DependentUpon>frmInheritVoucher.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIn_Ct_PX.resx">
+      <DependentUpon>frmIn_Ct_PX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIn_CT_Tien_NT.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmIn_CT_Tien_NT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIn_CT_UNC.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmIn_CT_UNC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIn_Ct_UNC_ChonMau.resx">
+      <DependentUpon>frmIn_Ct_UNC_ChonMau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPhan_Hoi_KHVT.resx">
+      <DependentUpon>frmPhan_Hoi_KHVT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuickLookup_Customize.resx">
+      <DependentUpon>frmQuickLookup_Customize.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReadExcel.resx">
+      <DependentUpon>frmReadExcel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSendMail.resx">
+      <DependentUpon>frmSendMail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTestCom.resx">
+      <DependentUpon>frmTestCom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewDataDuyet_Ct.resx">
+      <DependentUpon>frmViewDataDuyet_Ct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewDataLog_Ct.resx">
+      <DependentUpon>frmViewDataLog_Ct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVoucher_Edit.resx">
+      <DependentUpon>frmVoucher_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVoucher_View.resx">
+      <DependentUpon>frmVoucher_View.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmXuatVTriKho.resx">
+      <DependentUpon>frmXuatVTriKho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Rosy.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Log.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Rosy.List\Rosy50.List.csproj">
+      <Project>{2224CC58-5200-4537-BBE3-B57044BCD8D5}</Project>
+      <Name>Rosy50.List</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

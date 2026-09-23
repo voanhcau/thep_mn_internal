@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_iwmn_r81hschayhao_list" model="ir.ui.view">
+        <field name="name">iwmn.r81hschayhao.list</field>
+        <field name="model">iwmn.r81hschayhao</field>
+        <field name="arch" type="xml">
+            <list string="R81HSCHAYHAO - Ma_Size">
+                <field name="ident00"/>
+                <field name="ma_size"/>
+                <field name="loai_nap"/>
+                <field name="he_so"/>
+                <field name="ngay_ap"/>
+                <field name="ma_dvcs"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81hschayhao_form" model="ir.ui.view">
+        <field name="name">iwmn.r81hschayhao.form</field>
+        <field name="model">iwmn.r81hschayhao</field>
+        <field name="arch" type="xml">
+            <form string="R81HSCHAYHAO - Ma_Size">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="ident00"/>
+                            <field name="ma_size"/>
+                            <field name="loai_nap"/>
+                        </group>
+                        <group>
+                            <field name="he_so"/>
+                            <field name="ngay_ap"/>
+                            <field name="ma_dvcs"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81hschayhao_search" model="ir.ui.view">
+        <field name="name">iwmn.r81hschayhao.search</field>
+        <field name="model">iwmn.r81hschayhao</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="ma_size"/>
+                <field name="ident00"/>
+                <field name="loai_nap"/>
+                <field name="he_so"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_iwmn_r81hschayhao" model="ir.actions.act_window">
+        <field name="name">R81HSCHAYHAO - Ma_Size</field>
+        <field name="res_model">iwmn.r81hschayhao</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_iwmn_r81hschayhao_search"/>
+    </record>
+
+    <menuitem id="menu_iwmn_r81hschayhao" name="R81HSCHAYHAO - Ma_Size"
+              parent="menu_iwmn_master_production"
+              action="action_iwmn_r81hschayhao" sequence="68"/>
+</odoo>

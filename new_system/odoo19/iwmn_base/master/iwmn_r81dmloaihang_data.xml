@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="iwmn_r81dmloaihang_bot_va_lo" model="iwmn.r81dmloaihang">
+            <field name="ma_loai_hang">BOT VA LO</field>
+            <field name="ten_loai_hang">Bột vá Lò Magmix 6DT
+Không ẩm</field>
+            <field name="quy_cach" eval="False"/>
+            <field name="ma_dvcs">A01</field>
+            <field name="create_log">140916:160637:HONGBT</field>
+            <field name="lastmodify_log">140916:161001:HONGBT</field>
+            <field name="giah2_nhat">0.0000</field>
+            <field name="giah2_my">0.0000</field>
+            <field name="giah2_namphi">0.0000</field>
+            <field name="giah2_uc">0.0000</field>
+            <field name="giah2_kored">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmloaihang_chat_tao_xi" model="iwmn.r81dmloaihang">
+            <field name="ma_loai_hang">CHAT TAO XI</field>
+            <field name="ten_loai_hang">REFLAG A3911-PM
+Al2O3 : 39 %
+SiO2 : 4 %
+CaO : 40%
+MgO : 11%
+Cỡ hạt :0-25mm</field>
+            <field name="quy_cach" eval="False"/>
+            <field name="ma_dvcs">A01</field>
+            <field name="create_log">230915:094609:TUTC</field>
+            <field name="lastmodify_log">230915:095834:TUTC</field>
+            <field name="giah2_nhat">0.0000</field>
+            <field name="giah2_my">0.0000</field>
+            <field name="giah2_namphi">0.0000</field>
+            <field name="giah2_uc">0.0000</field>
+            <field name="giah2_kored">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmloaihang_chat_tao_xi_1" model="iwmn.r81dmloaihang">
+            <field name="ma_loai_hang">CHAT TAO XI 1</field>
+            <field name="ten_loai_hang">REFLAG A3911-01
+Al2O3 : 38 %
+SiO2 : 4 %
+CaO : 40%
+MgO : &lt;16%
+Cỡ hạt 5-25mm</field>
+            <field name="quy_cach" eval="False"/>
+            <field name="ma_dvcs">A01</field>
+            <field name="create_log">250915:111131:TUTC</field>
+            <field name="lastmodify_log">161215:101249:TUTC</field>
+            <field name="giah2_nhat">0.0000</field>
+            <field name="giah2_my">0.0000</field>
+            <field name="giah2_namphi">0.0000</field>
+            <field name="giah2_uc">0.0000</field>
+            <field name="giah2_kored">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmloaihang_chat_tao_xi_mgo" model="iwmn.r81dmloaihang">
+            <field name="ma_loai_hang">CHAT TAO XI MGO</field>
+            <field name="ten_loai_hang">%MgO ≥55
+% CaO ≤ 10
+% C ≤ 10</field>
+            <field name="quy_cach" eval="False"/>
+            <field name="ma_dvcs">A01</field>
+            <field name="create_log">220216:082405:HONGBT</field>
+            <field name="lastmodify_log">220216:082811:HONGBT</field>
+            <field name="giah2_nhat">0.0000</field>
+            <field name="giah2_my">0.0000</field>
+            <field name="giah2_namphi">0.0000</field>
+            <field name="giah2_uc">0.0000</field>
+            <field name="giah2_kored">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmloaihang_dolomite" model="iwmn.r81dmloaihang">
+            <field name="ma_loai_hang">DOLOMITE</field>
+            <field name="ten_loai_hang">-Hàm lượng CaO : 50% min
+-Hàm lượng SiO2 : 2% max
+-Hàm lượng MgO : 32% min
+-Hàm lượng Fe2O3 : 3% max
+-Hàm lượng S : 0.05% max
+-Cở cục : 10-50mm. hàng đóng rời trong cont</field>
+            <field name="quy_cach" eval="False"/>
+            <field name="ma_dvcs">A01</field>
+            <field name="create_log">210715:093833:TU</field>
+            <field name="lastmodify_log">210715:094144:TU</field>
+            <field name="giah2_nhat">0.0000</field>
+            <field name="giah2_my">0.0000</field>
+            <field name="giah2_namphi">0.0000</field>
+            <field name="giah2_uc">0.0000</field>
+            <field name="giah2_kored">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmloaihang_ferro_silic_72" model="iwmn.r81dmloaihang">
+            <field name="ma_loai_hang">FERRO SILIC 72%</field>
+            <field name="ten_loai_hang">-Hàm lượng Si : 72% min
+- Hàm lượng S : 0.05 % max
+-Hàm lượng P : 0.4% max
+- Kích thước 10-60mm (90% min)
+-Đóng bao khối lượng khoảng 1-1.5 tấn/ bao</field>
+            <field name="quy_cach" eval="False"/>
+            <field name="ma_dvcs">A01</field>
+            <field name="create_log">210715:083243:TU</field>
+            <field name="lastmodify_log">190516:080106:HONGBT</field>
+            <field name="giah2_nhat">0.0000</field>
+            <field name="giah2_my">0.0000</field>
+            <field name="giah2_namphi">0.0000</field>
+            <field name="giah2_uc">0.0000</field>
+            <field name="giah2_kored">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmloaihang_ferro_silic_75" model="iwmn.r81dmloaihang">
+            <field name="ma_loai_hang">FERRO SILIC 75%</field>
+            <field name="ten_loai_hang">-Hàm lượng Si : 75% min
+- Hàm lượng S : 0.05 % max
+-Hàm lượng P : 0.4% max
+- Kích thước 10-60mm (90% min)
+-Đóng bao khối lượng khoảng 1-1.5 tấn/ bao</field>
+            <field name="quy_cach" eval="False"/>
+            <field name="ma_dvcs">A01</field>
+            <field name="create_log">180516:161553:HONGBT</field>
+            <field name="lastmodify_log">190516:080124:HONGBT</field>
+            <field name="giah2_nhat">0.0000</field>
+            <field name="giah2_my">0.0000</field>
+            <field name="giah2_namphi">0.0000</field>
+            <field name="giah2_uc">0.0000</field>
+            <field name="giah2_kored">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmloaihang_ferro_vanadi" model="iwmn.r81dmloaihang">
+            <field name="ma_loai_hang">FERRO VANADI</field>
+            <field name="ten_loai_hang">-Va ; 50% min</field>
+            <field name="quy_cach" eval="False"/>
+            <field name="ma_dvcs">A01</field>
+            <field name="create_log">210715:085146:TU</field>
+            <field name="lastmodify_log">210715:084613:TU</field>
+            <field name="giah2_nhat">0.0000</field>
+            <field name="giah2_my">0.0000</field>
+            <field name="giah2_namphi">0.0000</field>
+            <field name="giah2_uc">0.0000</field>
+            <field name="giah2_kored">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmloaihang_gach_chiu_lua" model="iwmn.r81dmloaihang">
+            <field name="ma_loai_hang">GACH CHIU LUA</field>
+            <field name="ten_loai_hang">Gạch chịu lửa - Refdel ta 80
+Lò EAF</field>
+            <field name="quy_cach" eval="False"/>
+            <field name="ma_dvcs">A01</field>
+            <field name="create_log">080317:135925:HONGBT</field>
+            <field name="lastmodify_log">080317:140104:HONGBT</field>
+            <field name="giah2_nhat">0.0000</field>
+            <field name="giah2_my">0.0000</field>
+            <field name="giah2_namphi">0.0000</field>
+            <field name="giah2_uc">0.0000</field>
+            <field name="giah2_kored">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmloaihang_gang_thoi_tn" model="iwmn.r81dmloaihang">
+            <field name="ma_loai_hang">GANG THOI TN</field>
+            <field name="ten_loai_hang">C: 3,3-4.5%
+Si:1.5% max
+P: 0.18% max
+S: 0.08% max
+Mn: 2-4%</field>
+            <field name="quy_cach">Tối đa 12 kg/ múi, tối đa 4 múi trên 1 thỏi gang</field>
+            <field name="ma_dvcs">A01</field>
+            <field name="create_log">100516:143309:HONGBT</field>
+            <field name="lastmodify_log">190716:114506:HONGBT</field>
+            <field name="giah2_nhat">0.0000</field>
+            <field name="giah2_my">0.0000</field>
+            <field name="giah2_namphi">0.0000</field>
+            <field name="giah2_uc">0.0000</field>
+            <field name="giah2_kored">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmloaihang_h1_100" model="iwmn.r81dmloaihang">
+            <field name="ma_loai_hang">H1 100</field>
+            <field name="ten_loai_hang">H1 100%</field>
+            <field name="quy_cach" eval="False"/>
+            <field name="ma_dvcs">A01</field>
+            <field name="create_log">200715:114845:VR</field>
+            <field name="lastmodify_log">200715:114818:VR</field>
+            <field name="giah2_nhat">0.0000</field>
+            <field name="giah2_my">0.0000</field>
+            <field name="giah2_namphi">0.0000</field>
+            <field name="giah2_uc">0.0000</field>
+            <field name="giah2_kored">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmloaihang_h1_h2_50_50" model="iwmn.r81dmloaihang">
+            <field name="ma_loai_hang">H1/H2 50:50</field>
+            <field name="ten_loai_hang">HMS1&amp;2 (50:50)</field>
+            <field name="quy_cach" eval="False"/>
+            <field name="ma_dvcs">A01</field>
+            <field name="create_log">200715:114810:VR</field>
+            <field name="lastmodify_log">200715:115055:VR</field>
+            <field name="giah2_nhat">0.0000</field>
+            <field name="giah2_my">0.0000</field>
+            <field name="giah2_namphi">0.0000</field>
+            <field name="giah2_uc">0.0000</field>
+            <field name="giah2_kored">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmloaihang_h1_h2_80_20" model="iwmn.r81dmloaihang">
+            <field name="ma_loai_hang">H1/H2 80:20</field>
+            <field name="ten_loai_hang">HMS1&amp;2 (80:20)</field>
+            <field name="quy_cach" eval="False"/>
+            <field name="ma_dvcs">A01</field>
+            <field name="create_log">030315:083538:VR</field>
+            <field name="lastmodify_log">200715:115120:VR</field>
+            <field name="giah2_nhat">0.0000</field>
+            <field name="giah2_my">0.0000</field>
+            <field name="giah2_namphi">0.0000</field>
+            <field name="giah2_uc">0.0000</field>
+            <field name="giah2_kored">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmloaihang_h2_100" model="iwmn.r81dmloaihang">
+            <field name="ma_loai_hang">H2 100</field>
+            <field name="ten_loai_hang">H2 100%</field>
+            <field name="quy_cach" eval="False"/>
+            <field name="ma_dvcs">A01</field>
+            <field name="create_log">200715:114834:VR</field>
+            <field name="lastmodify_log">200715:114818:VR</field>
+            <field name="giah2_nhat">0.0000</field>
+            <field name="giah2_my">0.0000</field>
+            <field name="giah2_namphi">0.0000</field>
+            <field name="giah2_uc">0.0000</field>
+            <field name="giah2_kored">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmloaihang_hat_reftap_so" model="iwmn.r81dmloaihang">
+            <field name="ma_loai_hang">HAT REFTAP SO</field>
+            <field name="ten_loai_hang">HẠT REFTAP SO
+SiO2 &gt;50 %
+FeO3 &lt;8 %
+CaO &lt;2%
+MgO &lt;38%
+Cỡ hạt :0-25mm</field>
+            <field name="quy_cach" eval="False"/>
+            <field name="ma_dvcs">A01</field>
+            <field name="create_log">110316:084518:HONGBT</field>
+            <field name="lastmodify_log">230915:095834:TUTC</field>
+            <field name="giah2_nhat">0.0000</field>
+            <field name="giah2_my">0.0000</field>
+            <field name="giah2_namphi">0.0000</field>
+            <field name="giah2_uc">0.0000</field>
+            <field name="giah2_kored">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmloaihang_hp" model="iwmn.r81dmloaihang">
+            <field name="ma_loai_hang">HP</field>
+            <field name="ten_loai_hang">HP</field>
+            <field name="quy_cach" eval="False"/>
+            <field name="ma_dvcs">A01</field>
+            <field name="create_log">130715:111941:VR</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="giah2_nhat">0.0000</field>
+            <field name="giah2_my">0.0000</field>
+            <field name="giah2_namphi">0.0000</field>
+            <field name="giah2_uc">0.0000</field>
+            <field name="giah2_kored">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmloaihang_hs" model="iwmn.r81dmloaihang">
+            <field name="ma_loai_hang">HS</field>
+            <field name="ten_loai_hang">HS</field>
+            <field name="quy_cach" eval="False"/>
+            <field name="ma_dvcs">A01</field>
+            <field name="create_log">200715:114921:VR</field>
+            <field name="lastmodify_log">200715:114818:VR</field>
+            <field name="giah2_nhat">0.0000</field>
+            <field name="giah2_my">0.0000</field>
+            <field name="giah2_namphi">0.0000</field>
+            <field name="giah2_uc">0.0000</field>
+            <field name="giah2_kored">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmloaihang_hu_nh_th_ch" model="iwmn.r81dmloaihang">
+            <field name="ma_loai_hang">HU?NH TH?CH</field>
+            <field name="ten_loai_hang">-Hàm lượng CaF2 : 65% min
+-Hàm lượng SiO2 : 20% max
+-Cở cục : 10-50mm 90% min
+- Đóng bao : 1-1.5 tấn/bao</field>
+            <field name="quy_cach" eval="False"/>
+            <field name="ma_dvcs">A01</field>
+            <field name="create_log">210715:094106:TU</field>
+            <field name="lastmodify_log">210715:084613:TU</field>
+            <field name="giah2_nhat">0.0000</field>
+            <field name="giah2_my">0.0000</field>
+            <field name="giah2_namphi">0.0000</field>
+            <field name="giah2_uc">0.0000</field>
+            <field name="giah2_kored">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmloaihang_khu_n_ng" model="iwmn.r81dmloaihang">
+            <field name="ma_loai_hang">KHUÔN Ð?NG</field>
+            <field name="ten_loai_hang">120x120x1000-R9</field>
+            <field name="quy_cach" eval="False"/>
+            <field name="ma_dvcs">A01</field>
+            <field name="create_log">080616:094218:MAITP</field>
+            <field name="lastmodify_log">230915:095834:TUTC</field>
+            <field name="giah2_nhat">0.0000</field>
+            <field name="giah2_my">0.0000</field>
+            <field name="giah2_namphi">0.0000</field>
+            <field name="giah2_uc">0.0000</field>
+            <field name="giah2_kored">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmloaihang_khu_n_ng_c_th_p" model="iwmn.r81dmloaihang">
+            <field name="ma_loai_hang">KHUÔN Ð?NG ÐÚC THÉP</field>
+            <field name="ten_loai_hang">150x150x1000-R9</field>
+            <field name="quy_cach" eval="False"/>
+            <field name="ma_dvcs">A01</field>
+            <field name="create_log">080616:094016:MAITP</field>
+            <field name="lastmodify_log">230915:095834:TUTC</field>
+            <field name="giah2_nhat">0.0000</field>
+            <field name="giah2_my">0.0000</field>
+            <field name="giah2_namphi">0.0000</field>
+            <field name="giah2_uc">0.0000</field>
+            <field name="giah2_kored">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmloaihang_nhom_thoi" model="iwmn.r81dmloaihang">
+            <field name="ma_loai_hang">NHOM THOI</field>
+            <field name="ten_loai_hang">AL ≥ 95%
+Trọng lượng 8-12 kg/ thỏi</field>
+            <field name="quy_cach" eval="False"/>
+            <field name="ma_dvcs">A01</field>
+            <field name="create_log">290416:152222:HONGBT</field>
+            <field name="lastmodify_log">290416:152902:HONGBT</field>
+            <field name="giah2_nhat">0.0000</field>
+            <field name="giah2_my">0.0000</field>
+            <field name="giah2_namphi">0.0000</field>
+            <field name="giah2_uc">0.0000</field>
+            <field name="giah2_kored">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmloaihang_pns" model="iwmn.r81dmloaihang">
+            <field name="ma_loai_hang">PNS</field>
+            <field name="ten_loai_hang">PNS</field>
+            <field name="quy_cach" eval="False"/>
+            <field name="ma_dvcs">A01</field>
+            <field name="create_log">200715:114907:VR</field>
+            <field name="lastmodify_log">200715:115157:VR</field>
+            <field name="giah2_nhat">0.0000</field>
+            <field name="giah2_my">23.0000</field>
+            <field name="giah2_namphi">0.0000</field>
+            <field name="giah2_uc">23.0000</field>
+            <field name="giah2_kored">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmloaihang_shd" model="iwmn.r81dmloaihang">
+            <field name="ma_loai_hang">SHD</field>
+            <field name="ten_loai_hang">SHD</field>
+            <field name="quy_cach" eval="False"/>
+            <field name="ma_dvcs">A01</field>
+            <field name="create_log">200715:114854:VR</field>
+            <field name="lastmodify_log">200715:115142:VR</field>
+            <field name="giah2_nhat">0.0000</field>
+            <field name="giah2_my">18.0000</field>
+            <field name="giah2_namphi">0.0000</field>
+            <field name="giah2_uc">18.0000</field>
+            <field name="giah2_kored">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmloaihang_shp" model="iwmn.r81dmloaihang">
+            <field name="ma_loai_hang">SHP</field>
+            <field name="ten_loai_hang">SHP</field>
+            <field name="quy_cach" eval="False"/>
+            <field name="ma_dvcs">A01</field>
+            <field name="create_log">251115:093735:MAITP</field>
+            <field name="lastmodify_log">251115:093755:MAITP</field>
+            <field name="giah2_nhat">0.0000</field>
+            <field name="giah2_my">0.0000</field>
+            <field name="giah2_namphi">0.0000</field>
+            <field name="giah2_uc">0.0000</field>
+            <field name="giah2_kored">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmloaihang_sic" model="iwmn.r81dmloaihang">
+            <field name="ma_loai_hang">SIC</field>
+            <field name="ten_loai_hang">Cac bit Silic
+ Hàm lượng Sic : min 65 %
+Độ ẩm : max 2%
+Cỡ cục : 0.5-3 mm 90% min</field>
+            <field name="quy_cach" eval="False"/>
+            <field name="ma_dvcs">A01</field>
+            <field name="create_log">120116:093143:TUTC</field>
+            <field name="lastmodify_log">120116:093213:TUTC</field>
+            <field name="giah2_nhat">0.0000</field>
+            <field name="giah2_my">0.0000</field>
+            <field name="giah2_namphi">0.0000</field>
+            <field name="giah2_uc">0.0000</field>
+            <field name="giah2_kored">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmloaihang_silicon_mangan" model="iwmn.r81dmloaihang">
+            <field name="ma_loai_hang">SILICON MANGAN</field>
+            <field name="ten_loai_hang">-Hàm lượng Mn : 60% min
+-Hàm lượng Si : 14% min
+-Hàm lượng S : 0.035% max
+-Hàm lượng P : 0.4% max
+- Cỡ cục : 10-60mm 90% min
+-Đóng bao khối lượng khoảng 1-1.5 tấn/bao</field>
+            <field name="quy_cach" eval="False"/>
+            <field name="ma_dvcs">A01</field>
+            <field name="create_log">210715:084850:TU</field>
+            <field name="lastmodify_log">210715:100354:TU</field>
+            <field name="giah2_nhat">0.0000</field>
+            <field name="giah2_my">0.0000</field>
+            <field name="giah2_namphi">0.0000</field>
+            <field name="giah2_uc">0.0000</field>
+            <field name="giah2_kored">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmloaihang_than_coc" model="iwmn.r81dmloaihang">
+            <field name="ma_loai_hang">THAN COC</field>
+            <field name="ten_loai_hang">Hàm lượng C: 88% min
+Hàm lượng chất bốc V: 3% max
+Hàm lượng tro A: 8,5% max
+Hàm lượng S: 0.5% max
+Độ ẩm toàn phần W: 2.5% max
+Cỡ hạt 1-5mm 90% min
+Đóng bao: 1-1.5 tấn/bao</field>
+            <field name="quy_cach" eval="False"/>
+            <field name="ma_dvcs">A01</field>
+            <field name="create_log">160216:135425:HONGBT</field>
+            <field name="lastmodify_log">160216:135640:HONGBT</field>
+            <field name="giah2_nhat">0.0000</field>
+            <field name="giah2_my">0.0000</field>
+            <field name="giah2_namphi">0.0000</field>
+            <field name="giah2_uc">0.0000</field>
+            <field name="giah2_kored">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmloaihang_thandc" model="iwmn.r81dmloaihang">
+            <field name="ma_loai_hang">THANDC</field>
+            <field name="ten_loai_hang">Than điện cực đã qua sử dụng</field>
+            <field name="quy_cach" eval="False"/>
+            <field name="ma_dvcs">A01</field>
+            <field name="create_log">300317:093919:HONGBT</field>
+            <field name="lastmodify_log">300317:094012:HONGBT</field>
+            <field name="giah2_nhat">0.0000</field>
+            <field name="giah2_my">0.0000</field>
+            <field name="giah2_namphi">0.0000</field>
+            <field name="giah2_uc">0.0000</field>
+            <field name="giah2_kored">0.0000</field>
+        </record>
+        <record id="iwmn_r81dmloaihang_uhp" model="iwmn.r81dmloaihang">
+            <field name="ma_loai_hang">UHP</field>
+            <field name="ten_loai_hang">UHP</field>
+            <field name="quy_cach" eval="False"/>
+            <field name="ma_dvcs">A01</field>
+            <field name="create_log">130715:104737:VR</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="giah2_nhat">0.0000</field>
+            <field name="giah2_my">0.0000</field>
+            <field name="giah2_namphi">0.0000</field>
+            <field name="giah2_uc">0.0000</field>
+            <field name="giah2_kored">0.0000</field>
+        </record>
+    </data>
+</odoo>

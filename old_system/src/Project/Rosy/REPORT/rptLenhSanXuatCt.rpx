@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ActiveReportsLayout Version="3.1" PrintWidth="15418.8" DocumentName="ARNet Document" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-style: normal; text-decoration: none; font-weight: normal; font-size: 10pt; color: Black; font-family: &quot;Tahoma&quot;; ddo-char-set: 204" />
+    <Style Name="Heading1" Value="font-size: 16pt; font-weight: bold; ddo-char-set: 204" />
+    <Style Name="Heading2" Value="font-size: 14pt; font-weight: bold; font-style: italic; font-family: &quot;Tahoma&quot;; ddo-char-set: 204" />
+    <Style Name="Heading3" Value="font-size: 13pt; font-weight: bold; ddo-char-set: 204" />
+  </StyleSheet>
+  <Sections>
+    <Section Type="ReportHeader" Name="ReportHeader1" Height="3645" BackColor="16777215">
+      <Control Type="AR.Label" Name="Label49" Tag="Ly_Do_Tt" Left="648" Top="2167.2" Width="10980" Height="1428.48" Caption="Ly_Do_Tt" Style="font-weight: normal; ddo-char-set: 1; font-size: 12pt" />
+      <Control Type="AR.Label" Name="Label51" Tag="" Left="12712.33" Top="833.7602" Width="2325.601" Height="311.04" Caption="QT-KD-01/03" Style="font-weight: normal; ddo-char-set: 1; font-size: 11.25pt; vertical-align: middle; text-align: center" />
+      <Control Type="AR.Shape" Name="Shape1" Left="12703.69" Top="417.6001" Width="2355.84" Height="825" BackColor="16777215" RoundingRadius="9.999999" />
+      <Control Type="AR.Label" Name="Label10" Tag="" Left="666.72" Top="511.2001" Width="4826.88" Height="311.04" Caption="CÔNG TY TNHH MỘT THÀNH VIÊN" Style="font-weight: bold; ddo-char-set: 0; font-size: 11.25pt; vertical-align: middle; text-align: center" />
+      <Control Type="AR.Label" Name="Label11" Left="1763.999" Top="1419.84" Width="12656.16" Height="519.84" Caption="KẾ HOẠCH SẢN XUẤT CÁN THÉP, LUYỆN THÉP" Style="vertical-align: middle; text-align: center; font-size: 20pt; ddo-char-set: 1; font-weight: bold" />
+      <Control Type="AR.Label" Name="Label52" Tag="" Left="12712.33" Top="516.9601" Width="2325.601" Height="311.04" Caption="BM :02" Style="font-weight: normal; ddo-char-set: 1; font-size: 11.25pt; vertical-align: middle; text-align: center" />
+      <Control Type="AR.Label" Name="Label21" Tag="So_Ct" Left="13658.42" Top="2167.2" Width="1730.88" Height="287.9999" Caption="So_Ct" HyperLink="" Style="font-size: 11pt; font-weight: bold; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Label19" Tag="" Left="666.7198" Top="828.0002" Width="4826.88" Height="311.04" Caption="THÉP MIỀN NAM" Style="font-weight: bold; ddo-char-set: 0; font-size: 11.25pt; vertical-align: middle; text-align: center" />
+      <Control Type="AR.Label" Name="Label20" Left="11754.74" Top="2167.2" Width="1971.361" Height="288" Caption="Kèm theo LSX số:" Style="font-weight: bold; ddo-char-set: 1; font-size: 12pt" />
+      <Control Type="AR.Field" Name="TextBox7" Tag="Ngay_Ct" Left="13078.09" Top="2636.64" Width="1421.28" Height="288.0001" Text="Ngay_Ct" OutputFormat="dd/MM/yyyy" Style="font-style: italic; font-size: 12pt; text-align: center" />
+      <Control Type="AR.Label" Name="Label13" Left="11800.81" Top="2636.64" Width="1260" Height="288.0001" Caption="TỪ NGÀY:" Style="text-align: left; font-size: 12pt; ddo-char-set: 1" />
+    </Section>
+    <Section Type="PageHeader" Name="pageHeader" Height="254" BackColor="16777215" />
+    <Section Type="GroupHeader" Name="groupHeader1" Height="1166" BackColor="16777215">
+      <Control Type="AR.Line" Name="Line10" X1="15302.88" Y1="1.439981" X2="15302.62" Y2="1169.072" />
+      <Control Type="AR.Line" Name="Line9" X1="547.8207" Y1="0.7372427" X2="547.5607" Y2="1168.37" />
+      <Control Type="AR.Field" Name="TextBox28" Left="3290.4" Top="250.56" Width="3067.201" Height="283.4646" Text="PX Cán thép" Style="ddo-char-set: 1; font-size: 11.25pt; font-family: Tahoma; white-space: inherit; text-align: center; font-weight: bold" />
+      <Control Type="AR.Line" Name="Line5" X1="7349.757" Y1="0" X2="7348.726" Y2="1166.193" />
+      <Control Type="AR.Line" Name="Line6" X1="2013.12" Y1="0" X2="2012.861" Y2="1167.632" />
+      <Control Type="AR.Line" Name="Line13" X1="6357.599" Y1="2.880006" X2="6357.339" Y2="1169.073" />
+      <Control Type="AR.Line" Name="Line3" X1="563.04" Y1="780.4801" X2="15295.29" Y2="779.8799" />
+      <Control Type="AR.Line" Name="Line4" X1="563.04" Y1="3.755093E-05" X2="15295.29" Y2="0" />
+      <Control Type="AR.Field" Name="TextBox8" Left="2134.08" Top="249.1199" Width="1127.52" Height="270" Text="Mã SP" Multiline="0" Style="ddo-char-set: 1; text-align: center; font-size: 11.25pt; font-family: Tahoma; white-space: nowrap; font-weight: bold" />
+      <Control Type="AR.Line" Name="Line21" X1="3290.397" Y1="0" X2="3290.138" Y2="1167.632" />
+      <Control Type="AR.Field" Name="TextBox3" Left="6412.32" Top="7.2" Width="918.7203" Height="744.4799" Text="Sản lượng dự kiến" Style="font-weight: bold; ddo-char-set: 1; text-align: center" />
+      <Control Type="AR.Field" Name="TextBox9" Left="7413.12" Top="50.4" Width="961.9206" Height="730.08" Text="Sản lượng thực hiện" Style="font-weight: bold; ddo-char-set: 1; text-align: center; font-size: 9pt" />
+      <Control Type="AR.Line" Name="Line7" X1="8366.4" Y1="0" X2="8366.4" Y2="1166.193" />
+      <Control Type="AR.Field" Name="TextBox10" Left="8362.08" Top="136.8" Width="918.7203" Height="600" Text="Lũy kế" Style="font-weight: bold; ddo-char-set: 1; text-align: center" />
+      <Control Type="AR.Line" Name="Line8" X1="9299.517" Y1="0" X2="9298.486" Y2="1166.193" />
+      <Control Type="AR.Field" Name="TextBox11" Left="9299.521" Top="250.56" Width="3012.48" Height="283.4646" Text="PX Luyện thép" Style="ddo-char-set: 1; font-size: 11.25pt; font-family: Tahoma; white-space: inherit; text-align: center; font-weight: bold" />
+      <Control Type="AR.Line" Name="Line11" X1="14352.48" Y1="0" X2="14351.45" Y2="1166.193" />
+      <Control Type="AR.Line" Name="Line22" X1="12359.52" Y1="2.880049" X2="12359.26" Y2="1169.073" />
+      <Control Type="AR.Field" Name="TextBox12" Left="14364" Top="136.8" Width="918.7203" Height="600" Text="Lũy kế" Style="font-weight: bold; ddo-char-set: 1; text-align: center" />
+      <Control Type="AR.Line" Name="Line24" X1="15301.44" Y1="0" X2="15300.41" Y2="1166.193" />
+      <Control Type="AR.Line" Name="Line25" X1="13351.68" Y1="0" X2="13350.65" Y2="1166.193" />
+      <Control Type="AR.Field" Name="TextBox19" Left="13415.04" Top="21.6" Width="918.7203" Height="787.6801" Text="Sản lượng thực hiện" Style="font-weight: bold; ddo-char-set: 1; text-align: center; font-size: 9pt" />
+      <Control Type="AR.Field" Name="TextBox20" Left="12414.24" Top="21.6" Width="918.7203" Height="787.6801" Text="Sản lượng dự kiến" Style="font-weight: bold; ddo-char-set: 1; text-align: center" />
+      <Control Type="AR.Line" Name="Line26" X1="563.04" Y1="1159.2" X2="15295.29" Y2="1158.6" />
+      <Control Type="AR.Field" Name="TextBox21" Left="702.72" Top="136.8" Width="1235.52" Height="571.68" Text="Kế hoạch sản xuất" Style="font-weight: bold; ddo-char-set: 1; text-align: center" />
+      <Control Type="AR.Field" Name="TextBox22" Left="580.3201" Top="823.6801" Width="889.9202" Height="296.64" Text="Ngày" Style="font-weight: bold; ddo-char-set: 1; text-align: center; text-decoration: underline" />
+      <Control Type="AR.Field" Name="TextBox23" Left="1566.72" Top="823.6801" Width="437.76" Height="296.64" Text="Ca" Style="font-weight: bold; ddo-char-set: 1; text-align: center; text-decoration: underline" />
+      <Control Type="AR.Line" Name="Line27" X1="1578.24" Y1="777.6" X2="1577.981" Y2="1167.632" />
+      <Control Type="AR.Field" Name="TextBox25" Left="6415.201" Top="823.6801" Width="933.1204" Height="296.64" Text="Tấn" Style="font-weight: bold; ddo-char-set: 1; text-align: center; font-style: normal; text-decoration: underline" />
+      <Control Type="AR.Field" Name="TextBox26" Left="3873.6" Top="823.6801" Width="1653.12" Height="296.64" Text="Sản phẩm" Style="font-weight: bold; ddo-char-set: 1; text-align: center; text-decoration: underline" />
+      <Control Type="AR.Field" Name="TextBox27" Left="7428.961" Top="823.6801" Width="933.1204" Height="296.64" Text="Tấn" Style="font-weight: bold; ddo-char-set: 1; text-align: center; font-style: normal; text-decoration: underline" />
+      <Control Type="AR.Field" Name="TextBox29" Left="8366.4" Top="823.6801" Width="933.1204" Height="296.64" Text="Tấn" Style="font-weight: bold; ddo-char-set: 1; text-align: center; font-style: normal; text-decoration: underline" />
+      <Control Type="AR.Field" Name="TextBox30" Left="12418.56" Top="823.6801" Width="933.1204" Height="296.64" Text="Tấn" Style="font-weight: bold; ddo-char-set: 1; text-align: center; font-style: normal; text-decoration: underline" />
+      <Control Type="AR.Field" Name="TextBox31" Left="13430.88" Top="823.6801" Width="933.1204" Height="296.64" Text="Tấn" Style="font-weight: bold; ddo-char-set: 1; text-align: center; font-style: normal; text-decoration: underline" />
+      <Control Type="AR.Field" Name="TextBox32" Left="14369.76" Top="806.4" Width="933.1204" Height="296.64" Text="Tấn" Style="font-weight: bold; ddo-char-set: 1; text-align: center; font-style: normal; text-decoration: underline" />
+      <Control Type="AR.Field" Name="TextBox33" Left="10003.67" Top="823.6801" Width="1653.12" Height="296.64" Text="Sản phẩm" Style="font-weight: bold; ddo-char-set: 1; text-align: center; text-decoration: underline" />
+    </Section>
+    <Section Type="Detail" Name="detail" Height="368" BackColor="16777215">
+      <Control Type="AR.Field" Name="textBox1" DataField="Ma_Vt_Sp" Left="2075.04" Top="44.64" Width="1186.56" Height="288" Text="Ma_Vt_Sp" Multiline="0" Style="text-align: left; white-space: nowrap; font-size: 9pt; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="textBox5" DataField="So_Luong_Can" Left="6415.2" Top="44.64" Width="901.4179" Height="288" Text="So_Luong_Can" OutputFormat="#,##0" Multiline="0" Style="text-align: right; white-space: nowrap; font-size: 10pt; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="textBox2" DataField="Ten_Vt_Sp" Left="3290.4" Top="44.64" Width="3019.68" Height="288" Text="Ten_Vt_Sp" Style="font-size: 9pt; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="TextBox4" DataField="So_Luong_Nt_Can" Left="7460.64" Top="44.64" Width="871.2003" Height="288" Text="So_Luong_Nt_Can" OutputFormat="#,##0" Multiline="0" Style="text-align: right; white-space: nowrap; font-size: 10pt; ddo-char-set: 1" />
+      <Control Type="AR.Line" Name="Line12" X1="9300.96" Y1="0" X2="9299.929" Y2="361.2334" />
+      <Control Type="AR.Line" Name="Line14" X1="547.2001" Y1="0.0001099706" X2="546.9399" Y2="362.6729" />
+      <Control Type="AR.Line" Name="Line15" X1="15301.44" Y1="2.430756E-05" X2="15301.18" Y2="362.6728" />
+      <Control Type="AR.Line" Name="Line16" X1="6350.4" Y1="1.44" X2="6357.342" Y2="362.6728" />
+      <Control Type="AR.Line" Name="Line17" X1="561.6" Y1="361.44" X2="15308.25" Y2="360.8399" />
+      <Control Type="AR.Line" Name="Line18" X1="8367.841" Y1="0" X2="8366.81" Y2="361.2334" />
+      <Control Type="AR.Line" Name="Line19" X1="7344" Y1="1.440003" X2="7344" Y2="362.6733" />
+      <Control Type="AR.Line" Name="Line20" X1="3283.2" Y1="0" X2="3283.2" Y2="362.6726" />
+      <Control Type="AR.Line" Name="Line23" X1="2004.48" Y1="0" X2="2004.221" Y2="362.6726" />
+      <Control Type="AR.Line" Name="Line28" X1="1578.24" Y1="0" X2="1577.981" Y2="362.6726" />
+      <Control Type="AR.Field" Name="TextBox14" DataField="Ngay_Sx" Tag="" Left="580.3198" Top="44.64003" Width="986.4003" Height="288" Text="Ngay_Sx" OutputFormat="dd/MM/yyyy" Style="font-style: normal; font-size: 9pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="TextBox24" DataField="Ca_Sx" Left="1578.24" Top="44.64" Width="434.8802" Height="288" Text="Ca_Sx" Multiline="0" Style="text-align: center; white-space: nowrap; font-size: 9pt; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="TextBox6" DataField="Ten_Vt_Sp_Luyen" Left="9384.48" Top="44.64" Width="2927.519" Height="288" Text="Ten_Vt_Sp_Luyen" Style="font-size: 9pt; ddo-char-set: 1" />
+      <Control Type="AR.Line" Name="Line29" X1="12355.2" Y1="1.44" X2="12355.2" Y2="362.6728" />
+      <Control Type="AR.Line" Name="Line30" X1="14356.8" Y1="0" X2="14356.8" Y2="361.2334" />
+      <Control Type="AR.Line" Name="Line31" X1="13348.8" Y1="1.440003" X2="13348.8" Y2="362.6733" />
+      <Control Type="AR.Field" Name="TextBox34" DataField="So_Luong_Nt_Luyen" Left="13403.52" Top="44.64" Width="871.2003" Height="288" Text="So_Luong_Nt_Luyen" OutputFormat="#,##0" Multiline="0" Style="text-align: right; white-space: nowrap; font-size: 10pt; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="TextBox35" DataField="So_Luong_Luyen" Left="12418.56" Top="44.64" Width="855.3598" Height="288" Text="So_Luong_Luyen" OutputFormat="#,##0" Multiline="0" Style="text-align: right; white-space: nowrap; font-size: 10pt; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="TextBox13" DataField="So_Luong_Lk_Can" Left="8429.76" Top="44.64" Width="871.2003" Height="288" Text="So_Luong_Lk_Can" OutputFormat="#,##0" Multiline="0" Style="text-align: right; white-space: nowrap; font-size: 10pt; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="TextBox15" DataField="So_Luong_Lk_Luyen" Left="14398.56" Top="44.64" Width="871.2003" Height="288" Text="So_Luong_Lk_Luyen" OutputFormat="#,##0" Multiline="0" Style="text-align: right; white-space: nowrap; font-size: 10pt; ddo-char-set: 1" />
+    </Section>
+    <Section Type="GroupFooter" Name="groupFooter1" Height="8204" BackColor="16777215">
+      <Control Type="AR.Line" Name="Line32" X1="1607.04" Y1="565.92" X2="12834.28" Y2="566.7598" />
+      <Control Type="AR.Line" Name="Line33" X1="1592.64" Y1="162.72" X2="1592.38" Y2="1719.153" />
+      <Control Type="AR.Line" Name="Line34" X1="1607.04" Y1="162.72" X2="12834.28" Y2="163.559" />
+      <Control Type="AR.Line" Name="Line35" X1="1607.04" Y1="956.16" X2="12834.28" Y2="956.9999" />
+      <Control Type="AR.Line" Name="Line36" X1="1607.04" Y1="1343.52" X2="12834.28" Y2="1344.36" />
+      <Control Type="AR.Line" Name="Line37" X1="1607.04" Y1="1722.24" X2="12834.28" Y2="1723.08" />
+      <Control Type="AR.Line" Name="Line38" X1="9300.96" Y1="167.04" X2="9300.7" Y2="1723.473" />
+      <Control Type="AR.Line" Name="Line39" X1="11115.36" Y1="162.72" X2="11115.1" Y2="1719.153" />
+      <Control Type="AR.Line" Name="Line40" X1="12840.48" Y1="167.04" X2="12840.22" Y2="1723.473" />
+      <Control Type="AR.Field" Name="TextBox16" Left="9545.761" Top="241.92" Width="1324.8" Height="296.64" Text="SX Cán" Style="font-weight: bold; ddo-char-set: 1; text-align: center; text-decoration: none" />
+      <Control Type="AR.Field" Name="TextBox17" Left="11368.8" Top="241.92" Width="1324.8" Height="296.64" Text="SX Luyện" Style="font-weight: bold; ddo-char-set: 1; text-align: center; text-decoration: none" />
+      <Control Type="AR.Field" Name="TextBox18" Left="1765.44" Top="1393.92" Width="6664.32" Height="296.64" Text="Tỷ lệ thực hiện" Style="font-weight: bold; ddo-char-set: 1; text-align: left; text-decoration: none" />
+      <Control Type="AR.Field" Name="TextBox36" Left="1765.44" Top="986.4001" Width="4929.121" Height="296.64" Text="Ước thực hiện trong tháng theo LSX số:" Style="font-weight: bold; ddo-char-set: 1; text-align: left; text-decoration: none" />
+      <Control Type="AR.Field" Name="TextBox37" Tag="So_Ct" Left="5842.08" Top="986.4001" Width="3303.36" Height="296.64" Text="So_Ct" Style="font-weight: bold; ddo-char-set: 1; text-align: left; text-decoration: none" />
+      <Control Type="AR.Field" Name="TextBox38" Left="1779.84" Top="630.72" Width="3873.6" Height="296.64" Text="Kế hoạch tháng " Style="font-weight: bold; ddo-char-set: 1; text-align: left; text-decoration: none" />
+      <Control Type="AR.Field" Name="TextBox39" Tag="Thang_Nam" Left="3506.4" Top="630.72" Width="3873.6" Height="296.64" Text="Thang_Nam" Style="font-weight: bold; ddo-char-set: 1; text-align: left; text-decoration: none" />
+      <Control Type="AR.Field" Name="TextBox41" Tag="SL_LK_Luyen" Left="11135.52" Top="995.04" Width="1576.8" Height="288" Text="SL_LK_Luyen" OutputFormat="#,##0" Multiline="0" Style="text-align: right; white-space: nowrap; font-size: 10pt; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="TextBox40" Tag="SL_LK_Can" Left="9300.959" Top="995.04" Width="1674.721" Height="288" Text="SL_LK_Can" OutputFormat="#,##0" Multiline="0" Style="text-align: right; white-space: nowrap; font-size: 10pt; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="TextBox43" Left="2820.96" Top="3064.32" Width="3873.6" Height="296.64" Text="Sản phẩm" Style="font-weight: bold; ddo-char-set: 1; text-align: center; text-decoration: none" />
+      <Control Type="AR.Line" Name="Line41" X1="469.44" Y1="3571.2" X2="14015.11" Y2="3572.04" />
+      <Control Type="AR.Line" Name="Line42" X1="469.44" Y1="3985.92" X2="14015.11" Y2="3986.76" />
+      <Control Type="AR.Line" Name="Line43" X1="8362.08" Y1="2851.2" X2="8361.819" Y2="6610.851" />
+      <Control Type="AR.Line" Name="Line44" X1="2429.28" Y1="2880" X2="2429.019" Y2="6639.653" />
+      <Control Type="AR.Field" Name="TextBox45" Tag="SL_Phoi_Sx1" Left="10298.88" Top="3630.24" Width="1787.04" Height="288" Text="SL_Phoi_Sx1" OutputFormat="#,##0" Multiline="0" Style="text-align: right; white-space: nowrap; font-size: 10pt; ddo-char-set: 1" />
+      <Control Type="AR.Line" Name="Line46" X1="469.4402" Y1="2880" X2="469.1801" Y2="6639.652" />
+      <Control Type="AR.Line" Name="Line47" X1="469.44" Y1="4440.603" X2="14015.11" Y2="4441.442" />
+      <Control Type="AR.Field" Name="TextBox46" Tag="Tu_Den_Ngay" Left="8429.76" Top="2887.2" Width="3774.24" Height="296.64" Text="Từ ngày" Style="font-weight: bold; ddo-char-set: 1; text-align: center; text-decoration: none" />
+      <Control Type="AR.Field" Name="TextBox47" Left="599.04" Top="2944.8" Width="1535.04" Height="498.2398" Text="Tồn phôi cây đầu ngày" Style="font-weight: bold; ddo-char-set: 1; text-align: center; text-decoration: none" />
+      <Control Type="AR.Line" Name="Line48" X1="469.44" Y1="2865.601" X2="14015.11" Y2="2866.439" />
+      <Control Type="AR.Field" Name="TextBox48" Left="6863.041" Top="2930.4" Width="1324.8" Height="296.64" Text="Tồn sáng" Style="font-weight: bold; ddo-char-set: 1; text-align: center; text-decoration: none" />
+      <Control Type="AR.Line" Name="Line49" X1="14014.08" Y1="2880" X2="14013.82" Y2="6639.653" />
+      <Control Type="AR.Field" Name="TextBox49" Tag="SL_Phoi_LSX1" Left="8331.841" Top="3630.24" Width="1674.721" Height="288" Text="SL_Phoi_LSX1" OutputFormat="#,##0" Multiline="0" Style="text-align: right; white-space: nowrap; font-size: 10pt; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Label3" Left="1343.52" Top="2244.96" Width="12656.16" Height="384.4801" Caption="BÁO CÁO TỒN PHÔI (Tấn)" Style="vertical-align: middle; text-align: center; font-size: 11pt; ddo-char-set: 1; font-weight: bold" />
+      <Control Type="AR.Line" Name="Line50" X1="6694.56" Y1="2901.6" X2="6694.299" Y2="6661.252" />
+      <Control Type="AR.Field" Name="TextBox50" Left="8487.36" Top="3276" Width="1509.12" Height="296.64" Text="SX Luyện" Style="font-weight: bold; ddo-char-set: 1; text-align: center; text-decoration: none" />
+      <Control Type="AR.Line" Name="Line51" X1="8360.641" Y1="3183.84" X2="12204.01" Y2="3183.84" />
+      <Control Type="AR.Line" Name="Line52" X1="12204" Y1="2901.6" X2="12203.74" Y2="6661.254" />
+      <Control Type="AR.Field" Name="TextBox51" Left="10205.28" Top="3218.4" Width="1955.521" Height="325.44" Text="Phôi SX Cán / Bán" Style="font-weight: bold; ddo-char-set: 1; text-align: center; text-decoration: none" />
+      <Control Type="AR.Line" Name="Line53" X1="10118.88" Y1="3198.24" X2="10118.62" Y2="6661.254" />
+      <Control Type="AR.Line" Name="Line45" X1="469.44" Y1="4934.642" X2="14015.11" Y2="4935.481" />
+      <Control Type="AR.Line" Name="Line54" X1="469.44" Y1="5356.8" X2="14015.11" Y2="5357.639" />
+      <Control Type="AR.Line" Name="Line55" X1="469.44" Y1="5793.12" X2="14015.11" Y2="5793.959" />
+      <Control Type="AR.Line" Name="Line56" X1="469.44" Y1="6213.6" X2="14015.11" Y2="6214.438" />
+      <Control Type="AR.Line" Name="Line57" X1="469.44" Y1="6634.081" X2="14015.11" Y2="6634.918" />
+      <Control Type="AR.Field" Name="TextBox42" Left="12204" Top="3064.32" Width="1795.68" Height="479.5203" Text="Tồn cuối tháng" Style="font-weight: bold; ddo-char-set: 1; text-align: center; text-decoration: none" />
+      <Control Type="AR.Field" Name="TextBox52" Left="10474.56" Top="6984" Width="3391.2" Height="564.481" Text="TỔNG GIÁM ĐỐC" Style="font-weight: bold; ddo-char-set: 1; text-align: center; text-decoration: none; font-size: 14pt" />
+      <Control Type="AR.Field" Name="TextBox53" Tag="Ten_Vt_Sp1" Left="2649.6" Top="3630.24" Width="3898.08" Height="288" Text="Ten_Vt_Sp1" Style="font-size: 9pt; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="TextBox54" Tag="Ton_Dau_Cay1" Left="580.3198" Top="3630.24" Width="1674.721" Height="288" Text="Ton_Dau_Cay1" OutputFormat="#,##0" Multiline="0" Style="text-align: right; white-space: nowrap; font-size: 10pt; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="TextBox55" Tag="Ton_Dau1" Left="6609.601" Top="3630.24" Width="1674.72" Height="288" Text="Ton_Dau1" OutputFormat="#,##0" Multiline="0" Style="text-align: right; white-space: nowrap; font-size: 10pt; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="TextBox56" Tag="Ton_Cuoi1" Left="12312" Top="3630.24" Width="1576.8" Height="288" Text="Ton_Cuoi1" OutputFormat="#,##0" Multiline="0" Style="text-align: right; white-space: nowrap; font-size: 10pt; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="TextBox57" Tag="SL_Phoi_LSX2" Left="8331.841" Top="4066.56" Width="1674.721" Height="288" Text="SL_Phoi_LSX2" OutputFormat="#,##0" Multiline="0" Style="text-align: right; white-space: nowrap; font-size: 10pt; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="TextBox58" Tag="Ton_Dau_Cay2" Left="580.3192" Top="4066.56" Width="1674.721" Height="288" Text="Ton_Dau_Cay2" OutputFormat="#,##0" Multiline="0" Style="text-align: right; white-space: nowrap; font-size: 10pt; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="TextBox59" Tag="Ten_Vt_Sp2" Left="2649.6" Top="4066.56" Width="3898.08" Height="288" Text="Ten_Vt_Sp2" Style="font-size: 9pt; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="TextBox60" Tag="Ton_Cuoi2" Left="12312" Top="4066.56" Width="1576.8" Height="288" Text="Ton_Cuoi2" OutputFormat="#,##0" Multiline="0" Style="text-align: right; white-space: nowrap; font-size: 10pt; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="TextBox61" Tag="Ton_Dau2" Left="6609.6" Top="4066.56" Width="1674.72" Height="288" Text="Ton_Dau2" OutputFormat="#,##0" Multiline="0" Style="text-align: right; white-space: nowrap; font-size: 10pt; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="TextBox62" Tag="SL_Phoi_Sx2" Left="10298.88" Top="4066.56" Width="1787.04" Height="288" Text="SL_Phoi_Sx2" OutputFormat="#,##0" Multiline="0" Style="text-align: right; white-space: nowrap; font-size: 10pt; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="TextBox63" Tag="SL_Phoi_LSX3" Left="8331.842" Top="4546.08" Width="1674.721" Height="288" Text="SL_Phoi_LSX3" OutputFormat="#,##0" Multiline="0" Style="text-align: right; white-space: nowrap; font-size: 10pt; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="TextBox64" Tag="Ton_Dau_Cay3" Left="580.3205" Top="4546.08" Width="1674.721" Height="288" Text="Ton_Dau_Cay3" OutputFormat="#,##0" Multiline="0" Style="text-align: right; white-space: nowrap; font-size: 10pt; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="TextBox65" Tag="Ten_Vt_Sp3" Left="2649.601" Top="4546.08" Width="3898.08" Height="288" Text="Ten_Vt_Sp3" Style="font-size: 9pt; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="TextBox66" Tag="Ton_Cuoi3" Left="12312" Top="4546.08" Width="1576.8" Height="288" Text="Ton_Cuoi3" OutputFormat="#,##0" Multiline="0" Style="text-align: right; white-space: nowrap; font-size: 10pt; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="TextBox67" Tag="Ton_Dau3" Left="6609.602" Top="4546.08" Width="1674.72" Height="288" Text="Ton_Dau3" OutputFormat="#,##0" Multiline="0" Style="text-align: right; white-space: nowrap; font-size: 10pt; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="TextBox68" Tag="SL_Phoi_Sx3" Left="10298.88" Top="4546.08" Width="1787.04" Height="288" Text="SL_Phoi_Sx3" OutputFormat="#,##0" Multiline="0" Style="text-align: right; white-space: nowrap; font-size: 10pt; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="TextBox69" Tag="SL_Phoi_LSX4" Left="8331.842" Top="4982.4" Width="1674.721" Height="288" Text="SL_Phoi_LSX4" OutputFormat="#,##0" Multiline="0" Style="text-align: right; white-space: nowrap; font-size: 10pt; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="TextBox70" Tag="Ton_Dau_Cay4" Left="580.3205" Top="4982.4" Width="1674.721" Height="288" Text="Ton_Dau_Cay4" OutputFormat="#,##0" Multiline="0" Style="text-align: right; white-space: nowrap; font-size: 10pt; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="TextBox71" Tag="Ten_Vt_Sp4" Left="2649.601" Top="4982.4" Width="3898.08" Height="288" Text="Ten_Vt_Sp4" Style="font-size: 9pt; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="TextBox72" Tag="Ton_Cuoi4" Left="12312" Top="4982.4" Width="1576.8" Height="288" Text="Ton_Cuoi4" OutputFormat="#,##0" Multiline="0" Style="text-align: right; white-space: nowrap; font-size: 10pt; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="TextBox73" Tag="Ton_Dau4" Left="6609.602" Top="4982.4" Width="1674.72" Height="288" Text="Ton_Dau4" OutputFormat="#,##0" Multiline="0" Style="text-align: right; white-space: nowrap; font-size: 10pt; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="TextBox74" Tag="SL_Phoi_Sx4" Left="10298.88" Top="4982.4" Width="1787.04" Height="288" Text="SL_Phoi_Sx4" OutputFormat="#,##0" Multiline="0" Style="text-align: right; white-space: nowrap; font-size: 10pt; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="TextBox75" Tag="SL_Phoi_LSX5" Left="8331.841" Top="5433.12" Width="1674.721" Height="288" Text="SL_Phoi_LSX5" OutputFormat="#,##0" Multiline="0" Style="text-align: right; white-space: nowrap; font-size: 10pt; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="TextBox76" Tag="Ton_Dau_Cay5" Left="580.3192" Top="5433.12" Width="1674.721" Height="288" Text="Ton_Dau_Cay5" OutputFormat="#,##0" Multiline="0" Style="text-align: right; white-space: nowrap; font-size: 10pt; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="TextBox77" Tag="Ten_Vt_Sp5" Left="2649.6" Top="5433.12" Width="3898.08" Height="288" Text="Ten_Vt_Sp5" Style="font-size: 9pt; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="TextBox78" Tag="Ton_Cuoi5" Left="12312" Top="5433.12" Width="1576.8" Height="288" Text="Ton_Cuoi5" OutputFormat="#,##0" Multiline="0" Style="text-align: right; white-space: nowrap; font-size: 10pt; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="TextBox79" Tag="Ton_Dau5" Left="6609.6" Top="5433.12" Width="1674.72" Height="288" Text="Ton_Dau5" OutputFormat="#,##0" Multiline="0" Style="text-align: right; white-space: nowrap; font-size: 10pt; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="TextBox80" Tag="SL_Phoi_Sx5" Left="10298.88" Top="5433.12" Width="1787.04" Height="288" Text="SL_Phoi_Sx5" OutputFormat="#,##0" Multiline="0" Style="text-align: right; white-space: nowrap; font-size: 10pt; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="TextBox44" Tag="Ton_Dau_Cay7" Left="580.3201" Top="5869.439" Width="1674.721" Height="288" Text="Ton_Dau_Cay7" OutputFormat="#,##0" Multiline="0" Style="text-align: right; white-space: nowrap; font-size: 10pt; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="TextBox81" Tag="Ten_Vt_Sp6" Left="2649.601" Top="5869.439" Width="3898.08" Height="288" Text="Ten_Vt_Sp6" Style="font-size: 9pt; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="TextBox82" Tag="SL_Phoi_Sx6" Left="10298.88" Top="5869.439" Width="1787.04" Height="288" Text="SL_Phoi_Sx6" OutputFormat="#,##0" Multiline="0" Style="text-align: right; white-space: nowrap; font-size: 10pt; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="TextBox83" Tag="SL_Phoi_LSX6" Left="8331.842" Top="5869.439" Width="1674.721" Height="288" Text="SL_Phoi_LSX6" OutputFormat="#,##0" Multiline="0" Style="text-align: right; white-space: nowrap; font-size: 10pt; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="TextBox84" Tag="Ton_Cuoi6" Left="12312" Top="5869.439" Width="1576.8" Height="288" Text="Ton_Cuoi6" OutputFormat="#,##0" Multiline="0" Style="text-align: right; white-space: nowrap; font-size: 10pt; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="TextBox85" Tag="Ton_Dau6" Left="6609.601" Top="5869.439" Width="1674.72" Height="288" Text="Ton_Dau6" OutputFormat="#,##0" Multiline="0" Style="text-align: right; white-space: nowrap; font-size: 10pt; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="TextBox86" Tag="Ton_Dau_Cay7" Left="580.3201" Top="6305.76" Width="1674.721" Height="288" Text="Ton_Dau_Cay7" OutputFormat="#,##0" Multiline="0" Style="text-align: right; white-space: nowrap; font-size: 10pt; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="TextBox87" Tag="Ten_Vt_Sp7" Left="2649.601" Top="6305.76" Width="3898.08" Height="288" Text="Ten_Vt_Sp7" Style="font-size: 9pt; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="TextBox88" Tag="SL_Phoi_Sx7" Left="10298.88" Top="6305.76" Width="1787.04" Height="288" Text="SL_Phoi_Sx7" OutputFormat="#,##0" Multiline="0" Style="text-align: right; white-space: nowrap; font-size: 10pt; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="TextBox89" Tag="SL_Phoi_LSX7" Left="8331.842" Top="6305.76" Width="1674.721" Height="288" Text="SL_Phoi_LSX7" OutputFormat="#,##0" Multiline="0" Style="text-align: right; white-space: nowrap; font-size: 10pt; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="TextBox90" Tag="Ton_Cuoi7" Left="12312" Top="6305.76" Width="1576.8" Height="288" Text="Ton_Cuoi7" OutputFormat="#,##0" Multiline="0" Style="text-align: right; white-space: nowrap; font-size: 10pt; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="TextBox91" Tag="Ton_Dau7" Left="6609.601" Top="6305.76" Width="1674.72" Height="288" Text="Ton_Dau7" OutputFormat="#,##0" Multiline="0" Style="text-align: right; white-space: nowrap; font-size: 10pt; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="TextBox92" Tag="Ngay_Current" Left="6795.36" Top="3276" Width="1421.28" Height="288.0001" Text="Ngay_Current" OutputFormat="dd/MM/yyyy" Style="font-style: normal; font-size: 10pt; text-align: center; font-weight: normal; ddo-char-set: 1" />
+    </Section>
+    <Section Type="PageFooter" Name="pageFooter" Height="0" BackColor="16777215" />
+    <Section Type="ReportFooter" Name="ReportFooter1" Height="0" BackColor="16777215" />
+  </Sections>
+  <ReportComponentTray />
+  <PageSettings LeftMargin="567" RightMargin="567" TopMargin="283" BottomMargin="567" PaperSize="9" PaperWidth="11906" PaperHeight="16838" PaperName="" Orientation="2" />
+  <Parameters />
+</ActiveReportsLayout>

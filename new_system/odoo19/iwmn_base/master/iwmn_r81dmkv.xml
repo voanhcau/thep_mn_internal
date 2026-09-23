@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_iwmn_r81dmkv_list" model="ir.ui.view">
+        <field name="name">iwmn.r81dmkv.list</field>
+        <field name="model">iwmn.r81dmkv</field>
+        <field name="arch" type="xml">
+            <list string="R81DMKV - Ten_Kv">
+                <field name="ma_kv"/>
+                <field name="ten_kv"/>
+                <field name="ngay_begin"/>
+                <field name="ngay_end"/>
+                <field name="ma_data"/>
+                <field name="create_log"/>
+                <field name="lastmodify_log"/>
+                <field name="ident00"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmkv_form" model="ir.ui.view">
+        <field name="name">iwmn.r81dmkv.form</field>
+        <field name="model">iwmn.r81dmkv</field>
+        <field name="arch" type="xml">
+            <form string="R81DMKV - Ten_Kv">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="ma_kv"/>
+                            <field name="ten_kv"/>
+                            <field name="ngay_begin"/>
+                            <field name="ngay_end"/>
+                            <field name="ma_data"/>
+                        </group>
+                        <group>
+                            <field name="create_log"/>
+                            <field name="lastmodify_log"/>
+                            <field name="ident00"/>
+                            <field name="ma_kv_parent"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmkv_search" model="ir.ui.view">
+        <field name="name">iwmn.r81dmkv.search</field>
+        <field name="model">iwmn.r81dmkv</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="ten_kv"/>
+                <field name="ma_kv"/>
+                <field name="ngay_begin"/>
+                <field name="ngay_end"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_iwmn_r81dmkv" model="ir.actions.act_window">
+        <field name="name">R81DMKV - Ten_Kv</field>
+        <field name="res_model">iwmn.r81dmkv</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_iwmn_r81dmkv_search"/>
+    </record>
+
+    <menuitem id="menu_iwmn_r81dmkv" name="R81DMKV - Ten_Kv"
+              parent="menu_iwmn_master_finance"
+              action="action_iwmn_r81dmkv" sequence="31"/>
+</odoo>

@@ -1,0 +1,580 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B789F6F7-5276-48E1-95BC-D2B5869A5671}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RosyModule.Machinery</RootNamespace>
+    <AssemblyName>Rosy.Module.Machinery</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Rosy\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v7.1, Version=7.1.4.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Rosy\DevExpress.Data.v7.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v7.1, Version=7.1.4.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Rosy\DevExpress.Utils.v7.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v7.1, Version=7.1.4.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Rosy\DevExpress.XtraEditors.v7.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v7.1, Version=7.1.4.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Rosy\DevExpress.XtraTreeList.v7.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v7.1.Design, Version=7.1.4.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Rosy\DevExpress.XtraTreeList.v7.1.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Rosy.List, Version=3.1.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Rosy\Rosy.List.dll</HintPath>
+    </Reference>
+    <Reference Include="Rosy.Module, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Rosy\Rosy.Module.dll</HintPath>
+    </Reference>
+    <Reference Include="Rosy.Report, Version=3.1.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Rosy\Rosy.Report.dll</HintPath>
+    </Reference>
+    <Reference Include="Rosy.System, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Rosy\Rosy.System.dll</HintPath>
+    </Reference>
+    <Reference Include="Rosy.System.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Rosy\Rosy.System.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Rosy.System.Data, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Rosy\Rosy.System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Rosy.System.Element, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Rosy\Rosy.System.Element.dll</HintPath>
+    </Reference>
+    <Reference Include="Rosy.System.Library, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL" />
+    <Reference Include="Rosy.System.Public, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Rosy\Rosy.System.Public.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmDKSuatComNT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDKSuatComNT.Designer.cs">
+      <DependentUpon>frmDKSuatComNT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCopyCVBT_Nam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCopyCVBT_Nam.Designer.cs">
+      <DependentUpon>frmCopyCVBT_Nam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDienNuocTTCT_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDienNuocTTCT_Edit.Designer.cs">
+      <DependentUpon>frmDienNuocTTCT_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDienNuocTTCT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDienNuocTTCT.Designer.cs">
+      <DependentUpon>frmDienNuocTTCT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDienNuocTT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDienNuocTT.Designer.cs">
+      <DependentUpon>frmDienNuocTT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNhanVienTB_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNhanVienTB_Edit.Designer.cs">
+      <DependentUpon>frmNhanVienTB_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCopyCVBT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCopyCVBT.Designer.cs">
+      <DependentUpon>frmCopyCVBT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDmNhCCKQKD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDmNhCCKQKD.Designer.cs">
+      <DependentUpon>frmDmNhCCKQKD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDmNhCCKQKD_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDmNhCCKQKD_Edit.Designer.cs">
+      <DependentUpon>frmDmNhCCKQKD_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDmCCKQKD_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDmCCKQKD_Edit.Designer.cs">
+      <DependentUpon>frmDmCCKQKD_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmChonImpTB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChonImpTB.Designer.cs">
+      <DependentUpon>frmChonImpTB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLyLichTb_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLyLichTb_Edit.Designer.cs">
+      <DependentUpon>frmLyLichTb_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDmCCKQKD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDmCCKQKD.designer.cs">
+      <DependentUpon>frmDmCCKQKD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTHBTDK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTHBTDK.Designer.cs">
+      <DependentUpon>frmTHBTDK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIn_KHTBDK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIn_KHTBDK.Designer.cs">
+      <DependentUpon>frmIn_KHTBDK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKHVTPT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKHVTPT.designer.cs">
+      <DependentUpon>frmKHVTPT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKHVTPT_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKHVTPT_Edit.Designer.cs">
+      <DependentUpon>frmKHVTPT_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDuyetKHBT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDuyetKHBT.Designer.cs">
+      <DependentUpon>frmDuyetKHBT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKHBTTB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKHBTTB.designer.cs">
+      <DependentUpon>frmKHBTTB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDmCongViecBTDK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDmCongViecBTDK.Designer.cs">
+      <DependentUpon>frmDmCongViecBTDK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKet_Qua_BTTB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKet_Qua_BTTB.designer.cs">
+      <DependentUpon>frmKet_Qua_BTTB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKHBTDK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKHBTDK.Designer.cs">
+      <DependentUpon>frmKHBTDK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTaiLieu_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTaiLieu_Edit.Designer.cs">
+      <DependentUpon>frmTaiLieu_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDmTb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDmTb.Designer.cs">
+      <DependentUpon>frmDmTb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDmNhTb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDmNhTb.Designer.cs">
+      <DependentUpon>frmDmNhTb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMachinery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMachinery.designer.cs">
+      <DependentUpon>frmMachinery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIn_LyLichTB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIn_LyLichTB.Designer.cs">
+      <DependentUpon>frmIn_LyLichTB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPTBTTB_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPTBTTB_Edit.Designer.cs">
+      <DependentUpon>frmPTBTTB_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDuyetYeuCauBTTB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDuyetYeuCauBTTB.designer.cs">
+      <DependentUpon>frmDuyetYeuCauBTTB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMachinery_View.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMachinery_View.designer.cs">
+      <DependentUpon>frmMachinery_View.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInherit_VTTB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInherit_VTTB.Designer.cs">
+      <DependentUpon>frmInherit_VTTB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPhuTungBTDK_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPhuTungBTDK_Edit.Designer.cs">
+      <DependentUpon>frmPhuTungBTDK_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCongViecBTDK_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCongViecBTDK_Edit.Designer.cs">
+      <DependentUpon>frmCongViecBTDK_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuickLookup_Customize_Machinery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuickLookup_Customize_Machinery.designer.cs">
+      <DependentUpon>frmQuickLookup_Customize_Machinery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddList_VTTB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddList_VTTB.Designer.cs">
+      <DependentUpon>frmAddList_VTTB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCtBTTB_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCtBTTB_Edit.Designer.cs">
+      <DependentUpon>frmCtBTTB_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIn_ListTB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIn_ListTB.Designer.cs">
+      <DependentUpon>frmIn_ListTB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKHBTTB_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKHBTTB_Edit.Designer.cs">
+      <DependentUpon>frmKHBTTB_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMoTaChung_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMoTaChung_Edit.Designer.cs">
+      <DependentUpon>frmMoTaChung_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMachinery_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMachinery_Edit.Designer.cs">
+      <DependentUpon>frmMachinery_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddList_VTTB_.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddList_VTTB_.Designer.cs">
+      <DependentUpon>frmAddList_VTTB_.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCreateBTTBDK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCreateBTTBDK.Designer.cs">
+      <DependentUpon>frmCreateBTTBDK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDuyet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDuyet.Designer.cs">
+      <DependentUpon>frmDuyet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIn_YCBT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIn_YCBT.Designer.cs">
+      <DependentUpon>frmIn_YCBT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMachineryCT_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMachineryCT_Edit.Designer.cs">
+      <DependentUpon>frmMachineryCT_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPTKT_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPTKT_Edit.Designer.cs">
+      <DependentUpon>frmPTKT_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmResource_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmResource_Edit.Designer.cs">
+      <DependentUpon>frmResource_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVTDP_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVTDP_Edit.Designer.cs">
+      <DependentUpon>frmVTDP_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmDKSuatComNT.resx">
+      <DependentUpon>frmDKSuatComNT.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCopyCVBT_Nam.resx">
+      <DependentUpon>frmCopyCVBT_Nam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDienNuocTTCT_Edit.resx">
+      <DependentUpon>frmDienNuocTTCT_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDienNuocTTCT.resx">
+      <DependentUpon>frmDienNuocTTCT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDienNuocTT.resx">
+      <DependentUpon>frmDienNuocTT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNhanVienTB_Edit.resx">
+      <DependentUpon>frmNhanVienTB_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCopyCVBT.resx">
+      <DependentUpon>frmCopyCVBT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDmNhCCKQKD.resx">
+      <DependentUpon>frmDmNhCCKQKD.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDmNhCCKQKD_Edit.resx">
+      <DependentUpon>frmDmNhCCKQKD_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDmCCKQKD_Edit.resx">
+      <DependentUpon>frmDmCCKQKD_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChonImpTB.resx">
+      <DependentUpon>frmChonImpTB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLyLichTb_Edit.resx">
+      <DependentUpon>frmLyLichTb_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDmCCKQKD.resx">
+      <DependentUpon>frmDmCCKQKD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTHBTDK.resx">
+      <DependentUpon>frmTHBTDK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIn_KHTBDK.resx">
+      <DependentUpon>frmIn_KHTBDK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKHVTPT.resx">
+      <DependentUpon>frmKHVTPT.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKHVTPT_Edit.resx">
+      <DependentUpon>frmKHVTPT_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDuyetKHBT.resx">
+      <DependentUpon>frmDuyetKHBT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKHBTTB.resx">
+      <DependentUpon>frmKHBTTB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDmCongViecBTDK.resx">
+      <DependentUpon>frmDmCongViecBTDK.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKet_Qua_BTTB.resx">
+      <DependentUpon>frmKet_Qua_BTTB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKHBTDK.resx">
+      <DependentUpon>frmKHBTDK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTaiLieu_Edit.resx">
+      <DependentUpon>frmTaiLieu_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDmTb.resx">
+      <DependentUpon>frmDmTb.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDmNhTb.resx">
+      <DependentUpon>frmDmNhTb.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMachinery.resx">
+      <DependentUpon>frmMachinery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIn_LyLichTB.resx">
+      <DependentUpon>frmIn_LyLichTB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPTBTTB_Edit.resx">
+      <DependentUpon>frmPTBTTB_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDuyetYeuCauBTTB.resx">
+      <DependentUpon>frmDuyetYeuCauBTTB.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMachinery_View.resx">
+      <DependentUpon>frmMachinery_View.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInherit_VTTB.resx">
+      <DependentUpon>frmInherit_VTTB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPhuTungBTDK_Edit.resx">
+      <DependentUpon>frmPhuTungBTDK_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCongViecBTDK_Edit.resx">
+      <DependentUpon>frmCongViecBTDK_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuickLookup_Customize_Machinery.resx">
+      <DependentUpon>frmQuickLookup_Customize_Machinery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddList_VTTB.resx">
+      <DependentUpon>frmAddList_VTTB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCtBTTB_Edit.resx">
+      <DependentUpon>frmCtBTTB_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIn_ListTB.resx">
+      <DependentUpon>frmIn_ListTB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKHBTTB_Edit.resx">
+      <DependentUpon>frmKHBTTB_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMoTaChung_Edit.resx">
+      <DependentUpon>frmMoTaChung_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMachinery_Edit.resx">
+      <DependentUpon>frmMachinery_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddList_VTTB_.resx">
+      <DependentUpon>frmAddList_VTTB_.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCreateBTTBDK.resx">
+      <DependentUpon>frmCreateBTTBDK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDuyet.resx">
+      <DependentUpon>frmDuyet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIn_YCBT.resx">
+      <DependentUpon>frmIn_YCBT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMachineryCT_Edit.resx">
+      <DependentUpon>frmMachineryCT_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPTKT_Edit.resx">
+      <DependentUpon>frmPTKT_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmResource_Edit.resx">
+      <DependentUpon>frmResource_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVTDP_Edit.resx">
+      <DependentUpon>frmVTDP_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

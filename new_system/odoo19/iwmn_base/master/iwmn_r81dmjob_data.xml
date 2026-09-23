@@ -1,0 +1,3047 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="iwmn_r81dmjob_33" model="iwmn.r81dmjob">
+            <field name="ma_job">001</field>
+            <field name="ten_job">TL - Xe ôtô 52M-3184</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">220621:111459:BANGNH</field>
+            <field name="ident00">33</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_34" model="iwmn.r81dmjob">
+            <field name="ma_job">002</field>
+            <field name="ten_job">TL - Xe ôtô 52M-3370</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">220621:145157:BANGNH</field>
+            <field name="ident00">34</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_46" model="iwmn.r81dmjob">
+            <field name="ma_job">00293</field>
+            <field name="ten_job">Xe ôtô 72B-002.93</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">060925:214532:BANGNH</field>
+            <field name="ident00">46</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe">F006010</field>
+        </record>
+        <record id="iwmn_r81dmjob_35" model="iwmn.r81dmjob">
+            <field name="ma_job">003</field>
+            <field name="ten_job">Xe ôtô 7 chỗ 72A-453.43 (52S-9433)</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">261121:074429:BANGNH</field>
+            <field name="ident00">35</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_265" model="iwmn.r81dmjob">
+            <field name="ma_job">004</field>
+            <field name="ten_job">Xe ôtô 7 chỗ 72A-528.66</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">261121:074406:BANGNH</field>
+            <field name="lastmodify_log">050225:135258:VR</field>
+            <field name="ident00">265</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe">F006018</field>
+        </record>
+        <record id="iwmn_r81dmjob_36" model="iwmn.r81dmjob">
+            <field name="ma_job">005</field>
+            <field name="ten_job">Xe ôtô 5 chỗ 72A-455.13 (52Y-5710)</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">261121:074442:BANGNH</field>
+            <field name="ident00">36</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_37" model="iwmn.r81dmjob">
+            <field name="ma_job">006</field>
+            <field name="ten_job">Xe ôtô 5 chỗ 72A-455.15 (52Y-5711)</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">050225:135336:VR</field>
+            <field name="ident00">37</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe">F006003</field>
+        </record>
+        <record id="iwmn_r81dmjob_38" model="iwmn.r81dmjob">
+            <field name="ma_job">009</field>
+            <field name="ten_job">Xe ôtô 53L-4460</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">38</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_39" model="iwmn.r81dmjob">
+            <field name="ma_job">010</field>
+            <field name="ten_job">TL - Xe ôtô 53N-6617</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">220621:111532:BANGNH</field>
+            <field name="ident00">39</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_40" model="iwmn.r81dmjob">
+            <field name="ma_job">011</field>
+            <field name="ten_job">TL - Xe ôtô 53N-6618</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">220621:111539:BANGNH</field>
+            <field name="ident00">40</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_41" model="iwmn.r81dmjob">
+            <field name="ma_job">012</field>
+            <field name="ten_job">Xe ôtô 72B-035.48 (53N-6690)</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">031120:131819:BANGNH</field>
+            <field name="ident00">41</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_42" model="iwmn.r81dmjob">
+            <field name="ma_job">015</field>
+            <field name="ten_job">Xe ôtô 72N-7196</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">42</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_43" model="iwmn.r81dmjob">
+            <field name="ma_job">016</field>
+            <field name="ten_job">Xe ôtô 72N-7617</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">050225:135425:VR</field>
+            <field name="ident00">43</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe">F006009</field>
+        </record>
+        <record id="iwmn_r81dmjob_44" model="iwmn.r81dmjob">
+            <field name="ma_job">020</field>
+            <field name="ten_job">TL - Xe ôtô 72M-7181</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">220621:145224:BANGNH</field>
+            <field name="ident00">44</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_45" model="iwmn.r81dmjob">
+            <field name="ma_job">021</field>
+            <field name="ten_job">TL - Xe ôtô 72M-8875</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">220621:145231:BANGNH</field>
+            <field name="ident00">45</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_47" model="iwmn.r81dmjob">
+            <field name="ma_job">023</field>
+            <field name="ten_job">TL - Xe ôtô 52M-2667</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">220621:111633:BANGNH</field>
+            <field name="ident00">47</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_48" model="iwmn.r81dmjob">
+            <field name="ma_job">024</field>
+            <field name="ten_job">Xe ôtô 72A-455.26 (52V-2007)</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">031120:131924:BANGNH</field>
+            <field name="ident00">48</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_49" model="iwmn.r81dmjob">
+            <field name="ma_job">025</field>
+            <field name="ten_job">Xe ôtô 72A-478.56 (52T-3547)</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">170321:094937:VR</field>
+            <field name="ident00">49</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_127" model="iwmn.r81dmjob">
+            <field name="ma_job">026</field>
+            <field name="ten_job">Xe ôtô 72A-14577</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">010915:162018:GIANGTT</field>
+            <field name="lastmodify_log">050225:135546:VR</field>
+            <field name="ident00">127</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe">F006005</field>
+        </record>
+        <record id="iwmn_r81dmjob_205" model="iwmn.r81dmjob">
+            <field name="ma_job">029</field>
+            <field name="ten_job">TL - Xe ôtô 52M - 2667</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">191016:144508:GIANGTT</field>
+            <field name="lastmodify_log">220621:111654:BANGNH</field>
+            <field name="ident00">205</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_50" model="iwmn.r81dmjob">
+            <field name="ma_job">030</field>
+            <field name="ten_job">Xe tải 72C-17912 (54V-6356)</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">070121:085204:BANGNH</field>
+            <field name="ident00">50</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_51" model="iwmn.r81dmjob">
+            <field name="ma_job">031</field>
+            <field name="ten_job">Xe tải 54V-6357</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">51</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_175" model="iwmn.r81dmjob">
+            <field name="ma_job">032</field>
+            <field name="ten_job">Xe tải 72C - 075.63</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">280116:095206:GIANGTT</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">175</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_246" model="iwmn.r81dmjob">
+            <field name="ma_job">03374</field>
+            <field name="ten_job">Xe ôtô 16 chỗ 72B-033.74 (72LD-00647)</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">041018:131032:BANGNH</field>
+            <field name="lastmodify_log">060925:214555:BANGNH</field>
+            <field name="ident00">246</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe">F006013</field>
+        </record>
+        <record id="iwmn_r81dmjob_261" model="iwmn.r81dmjob">
+            <field name="ma_job">034</field>
+            <field name="ten_job">Xe ô tô 52S-9532</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">121020:091204:GIANGTT</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">261</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_262" model="iwmn.r81dmjob">
+            <field name="ma_job">03421</field>
+            <field name="ten_job">Xe ôtô 72B-034.21</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">220621:111311:BANGNH</field>
+            <field name="lastmodify_log">060925:214505:BANGNH</field>
+            <field name="ident00">262</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe">F006015</field>
+        </record>
+        <record id="iwmn_r81dmjob_247" model="iwmn.r81dmjob">
+            <field name="ma_job">03473</field>
+            <field name="ten_job">Xe ôtô 16 chỗ 72B-034.73 (72LD-00693)</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">041018:131049:BANGNH</field>
+            <field name="lastmodify_log">060925:214547:BANGNH</field>
+            <field name="ident00">247</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe">F006012</field>
+        </record>
+        <record id="iwmn_r81dmjob_52" model="iwmn.r81dmjob">
+            <field name="ma_job">051</field>
+            <field name="ten_job">Xe tải ben 57K-9085</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">52</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_53" model="iwmn.r81dmjob">
+            <field name="ma_job">052</field>
+            <field name="ten_job">Xe tải ben 57K-9186</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">53</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_54" model="iwmn.r81dmjob">
+            <field name="ma_job">053</field>
+            <field name="ten_job">Xe tải ben 57K-9188</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">54</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_55" model="iwmn.r81dmjob">
+            <field name="ma_job">071</field>
+            <field name="ten_job">Xe đầu kéo 57K-9086</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">55</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_56" model="iwmn.r81dmjob">
+            <field name="ma_job">072</field>
+            <field name="ten_job">Xe đầu kéo 57K-9187</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">56</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_117" model="iwmn.r81dmjob">
+            <field name="ma_job">073</field>
+            <field name="ten_job">Xe đầu kéo 57K-9087</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">270715:085139:NINHPS</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">117</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_57" model="iwmn.r81dmjob">
+            <field name="ma_job">081</field>
+            <field name="ten_job">Xe bồn 57H-2435</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">57</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_97" model="iwmn.r81dmjob">
+            <field name="ma_job">1110</field>
+            <field name="ten_job">Hồ sơ mua hàng</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">310315:164239:BANGNH</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">97</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_job_parent" eval="False"/>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_58" model="iwmn.r81dmjob">
+            <field name="ma_job">121</field>
+            <field name="ten_job">XT01 - Xe tải 01</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">58</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_59" model="iwmn.r81dmjob">
+            <field name="ma_job">122</field>
+            <field name="ten_job">XT02 - Xe tải 02</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">59</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_60" model="iwmn.r81dmjob">
+            <field name="ma_job">123</field>
+            <field name="ten_job">XT03 - Xe tải 03</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">60</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_61" model="iwmn.r81dmjob">
+            <field name="ma_job">124</field>
+            <field name="ten_job">XT04 - Xe tải 04</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">61</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_62" model="iwmn.r81dmjob">
+            <field name="ma_job">125</field>
+            <field name="ten_job">XT05 - Xe tải 05</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">62</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_63" model="iwmn.r81dmjob">
+            <field name="ma_job">126</field>
+            <field name="ten_job">XT06 - Xe tải 06</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">63</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_64" model="iwmn.r81dmjob">
+            <field name="ma_job">127</field>
+            <field name="ten_job">XT07 - Xe tải 07</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">64</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_65" model="iwmn.r81dmjob">
+            <field name="ma_job">128</field>
+            <field name="ten_job">XT08 - Xe tải 08</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">65</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_66" model="iwmn.r81dmjob">
+            <field name="ma_job">129</field>
+            <field name="ten_job">XT09 - Xe tải 09</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">66</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_67" model="iwmn.r81dmjob">
+            <field name="ma_job">141</field>
+            <field name="ten_job">TL - XĐ01 - Xe đào 01</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">220621:145253:BANGNH</field>
+            <field name="ident00">67</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_128" model="iwmn.r81dmjob">
+            <field name="ma_job">14138</field>
+            <field name="ten_job">Xe ôtô 72A- 14138</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">010915:162043:GIANGTT</field>
+            <field name="lastmodify_log">060925:214411:BANGNH</field>
+            <field name="ident00">128</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe">F006004</field>
+        </record>
+        <record id="iwmn_r81dmjob_68" model="iwmn.r81dmjob">
+            <field name="ma_job">142</field>
+            <field name="ten_job">XĐ02 - Xe đào 02</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">68</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_69" model="iwmn.r81dmjob">
+            <field name="ma_job">143</field>
+            <field name="ten_job">XĐ03 - Xe đào 03</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">69</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_70" model="iwmn.r81dmjob">
+            <field name="ma_job">144</field>
+            <field name="ten_job">XĐ04 - Xe đào 04</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">70</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_71" model="iwmn.r81dmjob">
+            <field name="ma_job">145</field>
+            <field name="ten_job">XĐ05 - Xe đào 05</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">71</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_72" model="iwmn.r81dmjob">
+            <field name="ma_job">146</field>
+            <field name="ten_job">XĐ06 - Xe đào 06</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">72</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_73" model="iwmn.r81dmjob">
+            <field name="ma_job">147</field>
+            <field name="ten_job">XĐ07 - Xe đào 07</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">73</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_130" model="iwmn.r81dmjob">
+            <field name="ma_job">14711</field>
+            <field name="ten_job">Xe ôtô 72A- 14711</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">070915:111824:GIANGTT</field>
+            <field name="lastmodify_log">060925:214422:BANGNH</field>
+            <field name="ident00">130</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe">F006006</field>
+        </record>
+        <record id="iwmn_r81dmjob_74" model="iwmn.r81dmjob">
+            <field name="ma_job">148</field>
+            <field name="ten_job">XĐ08 - Xe đào 08</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">74</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_75" model="iwmn.r81dmjob">
+            <field name="ma_job">149</field>
+            <field name="ten_job">XĐ09 - Xe đào 09</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">75</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_215" model="iwmn.r81dmjob">
+            <field name="ma_job">150</field>
+            <field name="ten_job">XĐ10 - Xe đào 10</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">200217:102754:BANGNH</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">215</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_216" model="iwmn.r81dmjob">
+            <field name="ma_job">151</field>
+            <field name="ten_job">XĐ11 - Xe đào 11</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">110122:134751:BANGNH</field>
+            <field name="lastmodify_log">110122:134805:BANGNH</field>
+            <field name="ident00">216</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_266" model="iwmn.r81dmjob">
+            <field name="ma_job">152</field>
+            <field name="ten_job">XĐ12 - Xe đào 12</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">110122:134823:BANGNH</field>
+            <field name="lastmodify_log">110122:134805:BANGNH</field>
+            <field name="ident00">266</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_267" model="iwmn.r81dmjob">
+            <field name="ma_job">153</field>
+            <field name="ten_job">XĐ13 - Xe đào 13</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">110122:134848:BANGNH</field>
+            <field name="lastmodify_log">110122:134805:BANGNH</field>
+            <field name="ident00">267</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_76" model="iwmn.r81dmjob">
+            <field name="ma_job">161</field>
+            <field name="ten_job">XX01 - Xe xúc 01</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">76</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_77" model="iwmn.r81dmjob">
+            <field name="ma_job">162</field>
+            <field name="ten_job">XX02 - Xe xúc 02</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">77</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_78" model="iwmn.r81dmjob">
+            <field name="ma_job">163</field>
+            <field name="ten_job">XX03 - Xe xúc xỉ nóng 03</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">150920:100020:BANGNH</field>
+            <field name="ident00">78</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_79" model="iwmn.r81dmjob">
+            <field name="ma_job">164</field>
+            <field name="ten_job">XX04 - Xe xúc xỉ nóng 04</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">150920:100026:BANGNH</field>
+            <field name="ident00">79</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_260" model="iwmn.r81dmjob">
+            <field name="ma_job">165</field>
+            <field name="ten_job">XX05 - Xe xúc xỉ nóng 05</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">150920:095940:BANGNH</field>
+            <field name="lastmodify_log">150920:095951:BANGNH</field>
+            <field name="ident00">260</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_269" model="iwmn.r81dmjob">
+            <field name="ma_job">17014</field>
+            <field name="ten_job">Xe ôtô 8 chỗ 51M17014</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">011125:121814:GIANGTT</field>
+            <field name="lastmodify_log">180526:112345:GIANGTT</field>
+            <field name="ident00">269</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe">F006020</field>
+        </record>
+        <record id="iwmn_r81dmjob_272" model="iwmn.r81dmjob">
+            <field name="ma_job">17021</field>
+            <field name="ten_job">Xe ôtô 8 chỗ 51M17021</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">180526:112507:GIANGTT</field>
+            <field name="lastmodify_log">180526:112345:GIANGTT</field>
+            <field name="ident00">272</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe">F006022</field>
+        </record>
+        <record id="iwmn_r81dmjob_80" model="iwmn.r81dmjob">
+            <field name="ma_job">171</field>
+            <field name="ten_job">XN01 - Xe nâng 01</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">80</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_81" model="iwmn.r81dmjob">
+            <field name="ma_job">172</field>
+            <field name="ten_job">XN02 - Xe nâng 02</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">81</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_82" model="iwmn.r81dmjob">
+            <field name="ma_job">173</field>
+            <field name="ten_job">XN03 - Xe nâng 03</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">82</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_83" model="iwmn.r81dmjob">
+            <field name="ma_job">174</field>
+            <field name="ten_job">XN04 - Xe nâng 04</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">83</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_84" model="iwmn.r81dmjob">
+            <field name="ma_job">175</field>
+            <field name="ten_job">XN05 - Xe nâng 05</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">84</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_237" model="iwmn.r81dmjob">
+            <field name="ma_job">176</field>
+            <field name="ten_job">XN06 - Xe nâng 06</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">260318:075304:VR</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">237</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_85" model="iwmn.r81dmjob">
+            <field name="ma_job">180</field>
+            <field name="ten_job">HY20 - Xe nâng Hyster 2 tấn</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">85</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_86" model="iwmn.r81dmjob">
+            <field name="ma_job">184</field>
+            <field name="ten_job">HY30 - Xe nâng Hyster 3 tấn</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">86</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_87" model="iwmn.r81dmjob">
+            <field name="ma_job">186</field>
+            <field name="ten_job">HY40 - Xe nâng Hyster 4 tấn</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">87</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_104" model="iwmn.r81dmjob">
+            <field name="ma_job">187</field>
+            <field name="ten_job">DAEWOO 12 - xe nâng 12 tấn</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">300415:112141:NINHPS</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">104</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_88" model="iwmn.r81dmjob">
+            <field name="ma_job">191</field>
+            <field name="ten_job">XC01 - Xe cẩu 01</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">88</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_89" model="iwmn.r81dmjob">
+            <field name="ma_job">192</field>
+            <field name="ten_job">XC02 - Xe cẩu 02</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">89</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_90" model="iwmn.r81dmjob">
+            <field name="ma_job">193</field>
+            <field name="ten_job">XC03 - Xe cẩu 03</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">90</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_91" model="iwmn.r81dmjob">
+            <field name="ma_job">194</field>
+            <field name="ten_job">XC04 - Xe cẩu 04</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">91</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_102" model="iwmn.r81dmjob">
+            <field name="ma_job">2015 -155</field>
+            <field name="ten_job">Quyết định công tác Đăklăk-khảo sát và làm việc trực tiếp tại công trình</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">170415:111439:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">102</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_103" model="iwmn.r81dmjob">
+            <field name="ma_job">2015 -172</field>
+            <field name="ten_job">Quyết định công tácMiền Tây - đối chiếu lượng hàng thực tế tại các kho với nhà phân phối</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">170415:111633:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">103</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_98" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-0117/QD-VNS</field>
+            <field name="ten_job">Quyết định công tác Campuchia-đi thăm và làm việc với chipmong</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">160415:094952:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">98</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_100" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-0182</field>
+            <field name="ten_job">Quyết định công tácHà Nội - Tham dự hội thảo</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">160415:095857:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">100</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_101" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-0197</field>
+            <field name="ten_job">Quyết định công tác Hà Nội - Tham dự hội nghị</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">160415:100113:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">101</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_156" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-1044</field>
+            <field name="ten_job">Quyết định công tác Campuchia--gặp gỡ và làm việc với chipmong</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">181115:144611:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">156</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_153" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-1048</field>
+            <field name="ten_job">Quyết định công tác Kiên Giang- khảo sát thị trường</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">121115:131241:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">153</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_166" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-1053A</field>
+            <field name="ten_job">Quyết định công tác Cần Thơ- đi khảo sát và kiểm tra chất lượng</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">091215:110853:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">166</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_158" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-1083</field>
+            <field name="ten_job">Quyết định công tác Malaysia-dự hội thảo</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">071215:140002:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">158</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_164" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-1091A</field>
+            <field name="ten_job">Quyết định công tác Miền Tây-khảo sát thị trường</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">091215:095506:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">164</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_163" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-1091B</field>
+            <field name="ten_job">Quyết định công tác SG, Nha Trang, Đà Nẵng-mơ kho chung chuyển</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">091215:095433:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">163</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_167" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-1097</field>
+            <field name="ten_job">Quyết định công tác Ninh Thuận- khảo sát thị trường</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">101215:082341:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">167</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_173" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-1109/QÐ-TMN</field>
+            <field name="ten_job">Quyết định công tác Nha Trang-mở kho trung chuyển</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">070116:092438:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">173</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_172" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-1116A/QÐ-TMN</field>
+            <field name="ten_job">Quyết định công tác Nha Trang-đi khảo sát việc mở kho trung chuyển</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">311215:165032:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">172</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_165" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-1167</field>
+            <field name="ten_job">Quyết định công tác Hà Nội-dự lễ tuyên dương các tập thể</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">091215:095640:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">165</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_161" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-1190</field>
+            <field name="ten_job">Quyết định công tác Tiền Giang- khảo sát thị trường</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">081215:114232:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">161</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_169" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-1263</field>
+            <field name="ten_job">Quyết định công tác Sóc Trăng- Cần Thơ- Khảo sát thị trường</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">181215:103332:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">169</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_170" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-1303A</field>
+            <field name="ten_job">Quyết định công tác Hà Nội</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">251215:111651:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">170</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_171" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-1371</field>
+            <field name="ten_job">Quyết định công tác Hà Nội</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">301215:095427:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">171</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_121" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-174/QD-VNS</field>
+            <field name="ten_job">Quyết định công tác Trung Quốc- khoa đào tạo quản lý và kiểm soát an toàn máy móc</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">280715:153855:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">121</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_113" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-174/QÐ-VNS</field>
+            <field name="ten_job">Quyết định đi công tác Trung Quốc - tham gia đào tạo ngắn hạn về quản lý công nghiệp</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">160615:142228:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">113</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_108" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-216</field>
+            <field name="ten_job">Quyết định công tác  Hà Nội -đại hội cô đông 2015</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">070515:111740:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">108</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_115" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-217</field>
+            <field name="ten_job">Quyết định đi công tác Hà Giang-Hội Nghị Khách Hàng</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">030715:160837:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">115</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_107" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-225</field>
+            <field name="ten_job">Quyết định công tác Miền Tây- thăm khách hàng và khảo sát thị trường để lập kho trung chuyển</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">050515:151707:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">107</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_138" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-235</field>
+            <field name="ten_job">Quyết định công tác Campuchia-khao sát thị trường</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">220915:082807:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">138</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_109" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-258</field>
+            <field name="ten_job">Quyết định công tác Đà Lạt-đi tham dự hội nghị "pháp quy hạt nhân lần 2"</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">210515:100921:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">109</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_157" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-270/QD-VNS</field>
+            <field name="ten_job">Quyết định công tác Đài Loan-tham gia khoa đào tạo quản lý trong các nhà máy sx thép</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">191115:111330:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">157</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_110" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-281</field>
+            <field name="ten_job">Quyết định công tác Bình Dương - khảo sát thị trường &amp; quảng bá thương hiệu thép V</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">210515:101135:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">110</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_143" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-307/QD-VNS</field>
+            <field name="ten_job">Quyết định công tác Hoa Kỳ - Thăm quan và khảo sát</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">201015:094355:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">143</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_155" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-316.QD.VNS</field>
+            <field name="ten_job">Quyết định công tác Mexico-hội thảo</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">181115:144517:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">155</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_159" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-316/QÐ-VNS</field>
+            <field name="ten_job">Quyết định công tác Mixico- dự hội thảo</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">081215:085019:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">159</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_154" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-333.QD.VNS</field>
+            <field name="ten_job">Quyết định công tác canpuchia-thăm và làm việc tập đoàn chipmong</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">181115:144445:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">154</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_112" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-350 A</field>
+            <field name="ten_job">Quyết định đi công tác Hà Nội</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">160615:104352:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">112</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_114" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-365</field>
+            <field name="ten_job">Quyết định công tácMiền Tây - đi làm việc với khách hàng</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">030715:155607:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">114</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_116" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-477A</field>
+            <field name="ten_job">Quyết định công tác Nha Trang- khiếu nại  khách hàng</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">150715:154842:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">116</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_122" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-501</field>
+            <field name="ten_job">Quyết định công tác Hà Nội- tập huấn lớp PWC</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">280715:154603:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">122</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_123" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-557</field>
+            <field name="ten_job">Quyết định công tác Nha Trang-Đà Nẵng - khảo sát thị trường</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">050815:094826:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">123</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_125" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-557A</field>
+            <field name="ten_job">Quyết định công tác Miền Tây- đi kiểm kê</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">130815:103440:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">125</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_124" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-603</field>
+            <field name="ten_job">Quyết định công tác Hà Nội - tham dự lớp tập huấn</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">110815:160236:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">124</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_135" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-650</field>
+            <field name="ten_job">Quyết định công tác Hà Nội-tham dự đại đảng bộ TCty</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">150915:104005:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">135</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_142" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-662</field>
+            <field name="ten_job">Quyết định công tác Sóc Trăng-khiếu nại khách hàng</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">091015:102908:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">142</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_126" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-663</field>
+            <field name="ten_job">Quyết định công tác Cần Thơ_tập huấn công tác tuyên truyền</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">210815:154340:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">126</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_133" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-674A</field>
+            <field name="ten_job">Quyết định công tác Bình Thuận, Khánh Hòa-Tìm hiểu thị trường, đối chiếu lượng hàng thực tế</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">090915:085244:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">133</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_132" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-684</field>
+            <field name="ten_job">Quyết định công tác Cần Thơ- gặp gỡ và làm việc với các đại lý</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">090915:082254:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">132</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_129" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-715A</field>
+            <field name="ten_job">Quyết định công tác An Giang-làm việc với cục hải quan</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">040915:110452:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">129</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_134" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-727</field>
+            <field name="ten_job">Quyết định công tác Hà Nội-Họp nghe bao cáo (1161/TB-VNS)</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">090915:151743:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">134</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_131" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-738</field>
+            <field name="ten_job">Quyết định công tác Hà Nội-Tập huấn quản lý lao động</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">080915:101216:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">131</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_136" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-754</field>
+            <field name="ten_job">Quyết định công tác Hà Nội-dự hội thảo vận hành ,bảo trì bảo dưỡng</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">150915:150830:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">136</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_137" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-759</field>
+            <field name="ten_job">Quyết định công tác Hà Nội-đại hội thi đua yêu nước</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">150915:150906:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">137</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_139" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-789</field>
+            <field name="ten_job">Quyết định công tác Cần Thơ-khao sát thi trường</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">280915:133926:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">139</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_162" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-798</field>
+            <field name="ten_job">Quyết định công tác Kiên Giang -khảo sát thị trường</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">091215:095334:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">162</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_144" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-799A</field>
+            <field name="ten_job">Quyết định công tác Kiên Giang - khảo sát thị trường</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">201015:094443:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">144</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_141" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-800A</field>
+            <field name="ten_job">Quyết định công tác Hà Nội- đi làm việc với tổng cục thuế</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">011015:113021:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">141</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_140" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-804A</field>
+            <field name="ten_job">Quyết định công tác Campuchia- giai quyết hàng kém chất lượng</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">011015:112936:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">140</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_147" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-829</field>
+            <field name="ten_job">Quyết định công tác Miền Tây - khảo sát thị trường</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">301015:152703:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">147</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_146" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-849A</field>
+            <field name="ten_job">Quyết định công tác Miền Tây - khảo sát thị trường và quảng bá thương hiệu</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">201015:094643:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">146</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_145" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-866</field>
+            <field name="ten_job">Quyết định công tác Đà Nẵng - hội nghị khách hàng</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">201015:094552:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">145</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_149" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-881A</field>
+            <field name="ten_job">Quyết định công tác Phú Quốc- khiếu nại khách hàng</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">091115:102814:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">149</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_150" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-894</field>
+            <field name="ten_job">Quyết định công tác Hà Nội- thủ tục cấp giấy xác nhận đủ điều kiện nhập khấu phế liệu</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">091115:102922:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">150</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_152" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-943</field>
+            <field name="ten_job">Quyết định công tác Bình thuận,Khánh Hòa- tim hiểu thị trường</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">111115:135010:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">152</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_148" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-955</field>
+            <field name="ten_job">Quyết định công tác Hà Nội- Tham dự hội thảo</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">091115:084808:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">148</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_151" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-984</field>
+            <field name="ten_job">Quyết định công tác Cần Thơ- đi khảo sát và kiểm tra chất lượng</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">101115:082305:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">151</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_168" model="iwmn.r81dmjob">
+            <field name="ma_job">2015-999A</field>
+            <field name="ten_job">Quyết định công tác Nha Trang-đi khảo sát việc mở kho trung chuyển</field>
+            <field name="ngay_begin">2015-04-02</field>
+            <field name="ngay_end">2015-04-04</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">151215:091844:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">168</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_189" model="iwmn.r81dmjob">
+            <field name="ma_job">2016 - 354/QÐ</field>
+            <field name="ten_job">Quyết định công tác Phú Quốc</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">080316:145926:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">189</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_187" model="iwmn.r81dmjob">
+            <field name="ma_job">2016 - 359/QÐ</field>
+            <field name="ten_job">Quyết định công tác Hà Nội</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">080316:145818:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">187</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_188" model="iwmn.r81dmjob">
+            <field name="ma_job">2016 - 360/QÐ</field>
+            <field name="ten_job">Quyết định công tác Đà Nẵng</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">080316:145859:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">188</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_179" model="iwmn.r81dmjob">
+            <field name="ma_job">2016- 123A/QÐ</field>
+            <field name="ten_job">Quyết định công tác Nha Trang, Đà Nằng- Khảo sát thị trường</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">010216:095259:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">179</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_180" model="iwmn.r81dmjob">
+            <field name="ma_job">2016- 171/QÐ</field>
+            <field name="ten_job">Quyết định công tác Miền trung</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">010216:095405:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">180</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_177" model="iwmn.r81dmjob">
+            <field name="ma_job">2016-01A/QÐ</field>
+            <field name="ten_job">Quyết định công tác Bình Thuận</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">010216:095128:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">177</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_218" model="iwmn.r81dmjob">
+            <field name="ma_job">2016-101/QÐ</field>
+            <field name="ten_job">Quyết định công tác Trung Quốc</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">220217:142735:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">218</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_220" model="iwmn.r81dmjob">
+            <field name="ma_job">2016-106/QÐ</field>
+            <field name="ten_job">Quyết định công tác Thái Nguyên-học tập mô hình cung cấp bữa ăn</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">060317:150411:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">220</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_201" model="iwmn.r81dmjob">
+            <field name="ma_job">2016-1063/QÐ</field>
+            <field name="ten_job">Quyết định công tác Hà Nội-Hội tuyên dương lao động giỏi</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">020816:075042:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">201</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_202" model="iwmn.r81dmjob">
+            <field name="ma_job">2016-1362/QÐ</field>
+            <field name="ten_job">Quyết định công tác Nha Trang -chuẩn bị công tác tổ chức giải Tennis</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">010916:141707:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">202</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_176" model="iwmn.r81dmjob">
+            <field name="ma_job">2016-146B/QÐ</field>
+            <field name="ten_job">Quyết định công tác Cần Thơ, Kiên Giang-khảo sát thị trường</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">280116:103056:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">176</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_203" model="iwmn.r81dmjob">
+            <field name="ma_job">2016-1481/QÐ</field>
+            <field name="ten_job">Quyết định công tác Cần Thơ-hoàn thiện văn phòng</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">290916:145649:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">203</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_204" model="iwmn.r81dmjob">
+            <field name="ma_job">2016-1542/QÐ</field>
+            <field name="ten_job">Quyết định công tác Nha Trang - tham gia giải tennis</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">031016:142339:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">204</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_206" model="iwmn.r81dmjob">
+            <field name="ma_job">2016-1707/QÐ</field>
+            <field name="ten_job">Quyết định công tác Hà Nội</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">261016:111451:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">206</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_208" model="iwmn.r81dmjob">
+            <field name="ma_job">2016-1894/QÐ</field>
+            <field name="ten_job">Quyết định công tác Quảng Bình- tập huấn</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">291116:160113:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">208</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_209" model="iwmn.r81dmjob">
+            <field name="ma_job">2016-1913/QÐ</field>
+            <field name="ten_job">Quyết định công tác Thái Lan-dự hội thảo</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">091216:090129:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">209</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_207" model="iwmn.r81dmjob">
+            <field name="ma_job">2016-1953/QÐ</field>
+            <field name="ten_job">Quyết định công tác Miền Trung-đi cứu trợ lũ lụt</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">171116:135129:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">207</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_210" model="iwmn.r81dmjob">
+            <field name="ma_job">2016-2052/QÐ</field>
+            <field name="ten_job">Quyết định công tác Campuchia-diễn đàn Mekong thường niên lần thứ 7</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">191216:134557:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">210</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_211" model="iwmn.r81dmjob">
+            <field name="ma_job">2016-2081/QÐ</field>
+            <field name="ten_job">Quyết định công tácvũng tàu- công tác về đấu thầu</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">221216:150644:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">211</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_181" model="iwmn.r81dmjob">
+            <field name="ma_job">2016-213/QÐ</field>
+            <field name="ten_job">Quyết định công tác Campuchia-dự hội nghị khách hàng</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">160216:143621:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">181</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_212" model="iwmn.r81dmjob">
+            <field name="ma_job">2016-2165/QÐ</field>
+            <field name="ten_job">Quyết định công tác Nha Trang -Đà Nẵng-Kiểm kê</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">301216:075412:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">212</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_213" model="iwmn.r81dmjob">
+            <field name="ma_job">2016-2201/QÐ</field>
+            <field name="ten_job">Quyết định công tác Hà Nội dự hội nghị</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">190117:135102:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">213</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_219" model="iwmn.r81dmjob">
+            <field name="ma_job">2016-244/QÐ</field>
+            <field name="ten_job">Quyết định công tác Miền Bắc- tìm hiểu máy hàn phôi</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">020317:140741:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">219</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_183" model="iwmn.r81dmjob">
+            <field name="ma_job">2016-253/QÐ</field>
+            <field name="ten_job">Quyết định công tác Hà Nội- triển khai kinh doanh thép V</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">260216:091218:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">183</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_186" model="iwmn.r81dmjob">
+            <field name="ma_job">2016-282/QÐ</field>
+            <field name="ten_job">Quyết định công tác Hà Nội</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">010316:085704:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">186</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_185" model="iwmn.r81dmjob">
+            <field name="ma_job">2016-285/QÐ</field>
+            <field name="ten_job">Quyết định công tác Miền Tây-Kiểm kê</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">290216:102252:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">185</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_184" model="iwmn.r81dmjob">
+            <field name="ma_job">2016-286/QÐ</field>
+            <field name="ten_job">Quyết định công tác Miền Trung, Tây Nguyên</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">290216:102217:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">184</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_190" model="iwmn.r81dmjob">
+            <field name="ma_job">2016-516/QÐ</field>
+            <field name="ten_job">Quyết định công tác Hà Nội-Họp hội đồng quản trị</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">310316:073648:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">190</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_191" model="iwmn.r81dmjob">
+            <field name="ma_job">2016-524/QÐ</field>
+            <field name="ten_job">Quyết định công tác Miền Tây-khảo sát thị trường</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">310316:094140:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">191</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_174" model="iwmn.r81dmjob">
+            <field name="ma_job">2016-54/QÐ</field>
+            <field name="ten_job">Quyết định công tác Nha Trang-Kiểm kê</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">200116:102549:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">174</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_192" model="iwmn.r81dmjob">
+            <field name="ma_job">2016-572/QÐ</field>
+            <field name="ten_job">Quyết định công tác Cần Thơ- giải tennis</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">280416:153300:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">192</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_193" model="iwmn.r81dmjob">
+            <field name="ma_job">2016-573/QÐ</field>
+            <field name="ten_job">Quyết định công tác Nha Trang -Hội nghị phổ biến văn bản</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">280416:160536:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">193</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_194" model="iwmn.r81dmjob">
+            <field name="ma_job">2016-574/QÐ</field>
+            <field name="ten_job">Quyết định công tác Hà Nội-đại hội cổ đông</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">280416:160610:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">194</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_195" model="iwmn.r81dmjob">
+            <field name="ma_job">2016-621/QÐ</field>
+            <field name="ten_job">Quyết định công tácHà Nội- tập huấn</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">250516:110950:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">195</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_197" model="iwmn.r81dmjob">
+            <field name="ma_job">2016-638/QÐ</field>
+            <field name="ten_job">Quyết định công tác Hà Tĩnh, Hà Hội-Tham dự khóa đào tạo SEIASI</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">090616:084927:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">197</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_196" model="iwmn.r81dmjob">
+            <field name="ma_job">2016-643/QÐ</field>
+            <field name="ten_job">Quyết định công tác Miền Tây-khảo sát thị trường</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">300516:161308:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">196</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_198" model="iwmn.r81dmjob">
+            <field name="ma_job">2016-671/QÐ</field>
+            <field name="ten_job">Quyết định công tác Miền Tây-đi tham dự giải Tennis</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">090616:111550:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">198</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_214" model="iwmn.r81dmjob">
+            <field name="ma_job">2016-69,68,19/QÐ</field>
+            <field name="ten_job">Quyết định công tác Indonexia</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">150217:144328:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">214</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_199" model="iwmn.r81dmjob">
+            <field name="ma_job">2016-773/QÐ</field>
+            <field name="ten_job">Quyết định công tác Nha Trang -Đà Nẵng-kiểm kê</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">290616:113915:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">199</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_217" model="iwmn.r81dmjob">
+            <field name="ma_job">2016-79/QÐ</field>
+            <field name="ten_job">Quyết định công tác Thái Lan -kiểm tra chất lượng hàng trước khi đưa về</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">210217:101230:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">217</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_200" model="iwmn.r81dmjob">
+            <field name="ma_job">2016-794A/QÐ</field>
+            <field name="ten_job">Quyết định CBCNV đi tập huấn ở BRVT</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">210716:154721:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">200</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_182" model="iwmn.r81dmjob">
+            <field name="ma_job">2016-90/QÐ</field>
+            <field name="ten_job">Quyết định công tác Hà Nội- dự hội nghị</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">230216:155730:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">182</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_178" model="iwmn.r81dmjob">
+            <field name="ma_job">2016-94/QÐ</field>
+            <field name="ten_job">Quyết định công tác Nha Trang -Đà Nẵng-khảo sát thị trường</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">010216:095207:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">178</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_223" model="iwmn.r81dmjob">
+            <field name="ma_job">2017- 553/QÐ</field>
+            <field name="ten_job">Quyết định công tác Singapore tham dự cuộc họp</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">140617:081154:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">223</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_225" model="iwmn.r81dmjob">
+            <field name="ma_job">2017-1123/QÐ</field>
+            <field name="ten_job">Quyết định công tác Đà Nẵng</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">200717:130612:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">225</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_232" model="iwmn.r81dmjob">
+            <field name="ma_job">2017-1354/QÐ</field>
+            <field name="ten_job">Quyết định công tác Nhật Bản - tham dự trương trình đào tạo</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">091117:100410:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">232</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_226" model="iwmn.r81dmjob">
+            <field name="ma_job">2017-1473/QÐ</field>
+            <field name="ten_job">Quyết định công tác Nha Trang - nâng cấp cổng trục</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">210917:084338:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">226</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_227" model="iwmn.r81dmjob">
+            <field name="ma_job">2017-1509/QÐ</field>
+            <field name="ten_job">Quyết định công tác Hà Nôi</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">021017:155630:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">227</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_228" model="iwmn.r81dmjob">
+            <field name="ma_job">2017-1536/QÐ</field>
+            <field name="ten_job">Quyết định đi công tác Đà Nẵng</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">021017:161239:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">228</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_229" model="iwmn.r81dmjob">
+            <field name="ma_job">2017-1608/QÐ</field>
+            <field name="ten_job">Quyết định công tácHà Nội - Hội thảo</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">231017:091329:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">229</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_231" model="iwmn.r81dmjob">
+            <field name="ma_job">2017-1678/QÐ</field>
+            <field name="ten_job">Quyết định công tác Miền Trung</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">091117:092044:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">231</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_233" model="iwmn.r81dmjob">
+            <field name="ma_job">2017-1737/QÐ</field>
+            <field name="ten_job">Quyết định công tác Philippines-tham dự diễn đàn sắt thép</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">271217:150753:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">233</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_234" model="iwmn.r81dmjob">
+            <field name="ma_job">2017-2084/QÐ</field>
+            <field name="ten_job">Quyết định công tác Lào Cai - hỗ trợ căn chỉnh máy đúc</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">050118:111313:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">234</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_230" model="iwmn.r81dmjob">
+            <field name="ma_job">2017-230/QÐ-VNS</field>
+            <field name="ten_job">Quyết định công tác Italia- hội thảo</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">231017:095532:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">230</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_221" model="iwmn.r81dmjob">
+            <field name="ma_job">2017-295/QÐ</field>
+            <field name="ten_job">Quyết định công tác Thanh Hóa- dự lễ kỷ niệm 60 năm</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">210317:134232:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">221</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_222" model="iwmn.r81dmjob">
+            <field name="ma_job">2017-460/QÐ</field>
+            <field name="ten_job">Quyết định công tác Hà Nội- dự đại hội đoàn thanh niên</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">050517:111300:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">222</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_224" model="iwmn.r81dmjob">
+            <field name="ma_job">2017-934/QÐ</field>
+            <field name="ten_job">Quyết định công tác Phú Quốc- làm việc với chủ đầu tư</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">300617:131735:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">224</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_242" model="iwmn.r81dmjob">
+            <field name="ma_job">2018-1070/QÐ</field>
+            <field name="ten_job">Quyết định công tác Miền Bắc</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">020718:112807:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">242</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_241" model="iwmn.r81dmjob">
+            <field name="ma_job">2018-1109/QÐ</field>
+            <field name="ten_job">Quyết định công tác Đà Nẵng</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">290618:145634:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">241</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_235" model="iwmn.r81dmjob">
+            <field name="ma_job">2018-119/QÐ</field>
+            <field name="ten_job">Quyết định công tác Hà Nội</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">290118:132705:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">235</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_245" model="iwmn.r81dmjob">
+            <field name="ma_job">2018-1307/QÐ</field>
+            <field name="ten_job">Quyết định công tác Quảng Ninh- Hội nghị</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">020818:132134:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">245</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_244" model="iwmn.r81dmjob">
+            <field name="ma_job">2018-1375/QÐ</field>
+            <field name="ten_job">Quyết định công tác Hà Nội</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">010818:112840:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">244</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_249" model="iwmn.r81dmjob">
+            <field name="ma_job">2018-2105/QÐ</field>
+            <field name="ten_job">Quyết định công tác Đà Nẵng tập huấn y tế</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">281118:084756:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">249</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_250" model="iwmn.r81dmjob">
+            <field name="ma_job">2018-2186/QÐ</field>
+            <field name="ten_job">Quyết định công tác Miền Bắc</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">041218:133712:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">250</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_251" model="iwmn.r81dmjob">
+            <field name="ma_job">2018-2311/QÐ</field>
+            <field name="ten_job">Quyết định công tác Lào Cai</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">261218:142928:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">251</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_236" model="iwmn.r81dmjob">
+            <field name="ma_job">2018-340/QÐ</field>
+            <field name="ten_job">Quyết định công tác Hà Nội- hội thảo</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">130318:081438:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">236</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_238" model="iwmn.r81dmjob">
+            <field name="ma_job">2018-641, 646/QÐ</field>
+            <field name="ten_job">Quyết định công tác Phía Bắc- giao lưu khách hàng</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">040518:150901:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">238</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_239" model="iwmn.r81dmjob">
+            <field name="ma_job">2018-644, 647/QÐ</field>
+            <field name="ten_job">Quyết định công tác Phía Bắc- giao lưu khách hàng</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">040518:151010:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">239</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_240" model="iwmn.r81dmjob">
+            <field name="ma_job">2018-824/QÐ</field>
+            <field name="ten_job">Quyết định công tác Miền Trung</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">290518:153800:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">240</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_243" model="iwmn.r81dmjob">
+            <field name="ma_job">2018-968/QÐ</field>
+            <field name="ten_job">Quyết định công tác Indonesia-dự hội thảo</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">050718:100617:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">243</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_257" model="iwmn.r81dmjob">
+            <field name="ma_job">2019-1326/QÐ</field>
+            <field name="ten_job">Quyết định công tác Miền Tây khảo sát CLSP</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">240919:101208:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">257</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_258" model="iwmn.r81dmjob">
+            <field name="ma_job">2019-1646/QÐ</field>
+            <field name="ten_job">Quyết định công tác học tại Miền Tây</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">191119:145449:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">258</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_259" model="iwmn.r81dmjob">
+            <field name="ma_job">2019-1681/QÐ</field>
+            <field name="ten_job">Quyết định công tác học tại Phú Yên</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">211119:135203:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">259</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_254" model="iwmn.r81dmjob">
+            <field name="ma_job">2019-205A/QÐ</field>
+            <field name="ten_job">Quyết định công tác Miền Tây</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">190419:094554:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">254</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_253" model="iwmn.r81dmjob">
+            <field name="ma_job">2019-236/QÐ</field>
+            <field name="ten_job">Quyết định công tác Miền Trung</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">210319:104350:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">253</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_252" model="iwmn.r81dmjob">
+            <field name="ma_job">2019-71/QÐ</field>
+            <field name="ten_job">Quyết định công tác Hà Nội</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">230119:084140:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">252</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_255" model="iwmn.r81dmjob">
+            <field name="ma_job">2019-812/QÐ</field>
+            <field name="ten_job">Quyết định công tác Thai Lan- hội nghị</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">250619:141428:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">255</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_256" model="iwmn.r81dmjob">
+            <field name="ma_job">2019-887/QÐ</field>
+            <field name="ten_job">Quyết định công tác học tại Vũng Tàu</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">010719:111426:GIANGTT</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">256</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7710</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_92" model="iwmn.r81dmjob">
+            <field name="ma_job">210</field>
+            <field name="ten_job">BC01 - Xe Bobcat 01</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">92</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_93" model="iwmn.r81dmjob">
+            <field name="ma_job">211</field>
+            <field name="ten_job">BC02 - Xe Bobcat 02</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">93</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_94" model="iwmn.r81dmjob">
+            <field name="ma_job">310</field>
+            <field name="ten_job">Xe goong số 1(chở liệu)</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">94</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_105" model="iwmn.r81dmjob">
+            <field name="ma_job">311</field>
+            <field name="ten_job">MPĐ DP- Máy phát điện dự phòng</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">010515:071611:NINHPS</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">105</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_118" model="iwmn.r81dmjob">
+            <field name="ma_job">312</field>
+            <field name="ten_job">Vệ sinh thiết bị</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">270715:085241:NINHPS</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">118</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_111" model="iwmn.r81dmjob">
+            <field name="ma_job">500</field>
+            <field name="ten_job">Xe thuê ngoài</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">100615:085946:BANGNH</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">111</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_264" model="iwmn.r81dmjob">
+            <field name="ma_job">51848</field>
+            <field name="ten_job">Xe ôtô 72A-518.48</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">220621:113223:BANGNH</field>
+            <field name="lastmodify_log">060925:214522:BANGNH</field>
+            <field name="ident00">264</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe">F006016</field>
+        </record>
+        <record id="iwmn_r81dmjob_263" model="iwmn.r81dmjob">
+            <field name="ma_job">51996</field>
+            <field name="ten_job">Xe ôtô 72A-519.96</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">220621:113209:BANGNH</field>
+            <field name="lastmodify_log">060925:214513:BANGNH</field>
+            <field name="ident00">263</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe">F006017</field>
+        </record>
+        <record id="iwmn_r81dmjob_96" model="iwmn.r81dmjob">
+            <field name="ma_job">7710</field>
+            <field name="ten_job">Quyết định công tác</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">310315:163535:BANGNH</field>
+            <field name="lastmodify_log">310315:163944:BANGNH</field>
+            <field name="ident00">96</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_job_parent" eval="False"/>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_95" model="iwmn.r81dmjob">
+            <field name="ma_job">7722</field>
+            <field name="ten_job">Quản lý xe</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">310315:162738:VR</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ident00">95</field>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmjob_268" model="iwmn.r81dmjob">
+            <field name="ma_job">79585</field>
+            <field name="ten_job">Xe đầu kéo 72A-795.85</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">040725:085657:VR</field>
+            <field name="lastmodify_log">060925:214436:BANGNH</field>
+            <field name="ident00">268</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe">F001020</field>
+        </record>
+        <record id="iwmn_r81dmjob_271" model="iwmn.r81dmjob">
+            <field name="ma_job">93995</field>
+            <field name="ten_job">Xe ôtô 29 chỗ 72A93995</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">011225:092938:GIANGTT</field>
+            <field name="lastmodify_log">180526:112319:GIANGTT</field>
+            <field name="ident00">271</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe">F006021</field>
+        </record>
+        <record id="iwmn_r81dmjob_270" model="iwmn.r81dmjob">
+            <field name="ma_job">94132</field>
+            <field name="ten_job">Xe ôtô 8 chỗ 72A94132</field>
+            <field name="ngay_begin">1900-01-01</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">A01</field>
+            <field name="create_log">011125:121903:GIANGTT</field>
+            <field name="lastmodify_log">180526:112331:GIANGTT</field>
+            <field name="ident00">270</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="ma_job_parent">7722</field>
+            <field name="ma_xe">F006019</field>
+        </record>
+    </data>
+</odoo>

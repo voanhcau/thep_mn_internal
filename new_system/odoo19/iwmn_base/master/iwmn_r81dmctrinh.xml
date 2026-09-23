@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_iwmn_r81dmctrinh_list" model="ir.ui.view">
+        <field name="name">iwmn.r81dmctrinh.list</field>
+        <field name="model">iwmn.r81dmctrinh</field>
+        <field name="arch" type="xml">
+            <list string="Công trình">
+                <field name="ma_ctrinh"/>
+                <field name="ten_ctrinh"/>
+                <field name="ma_ctrinh_parent"/>
+                <field name="ma_kv"/>
+                <field name="nh_cuoi"/>
+                <field name="ngay_begin"/>
+                <field name="ngay_end"/>
+                <field name="ma_data"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmctrinh_form" model="ir.ui.view">
+        <field name="name">iwmn.r81dmctrinh.form</field>
+        <field name="model">iwmn.r81dmctrinh</field>
+        <field name="arch" type="xml">
+            <form string="Công trình">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="ma_ctrinh"/>
+                            <field name="ten_ctrinh"/>
+                            <field name="ma_ctrinh_parent"/>
+                            <field name="ma_kv"/>
+                            <field name="nh_cuoi"/>
+                        </group>
+                        <group>
+                            <field name="ngay_begin"/>
+                            <field name="ngay_end"/>
+                            <field name="ma_data"/>
+                            <field name="create_log"/>
+                            <field name="lastmodify_log"/>
+                            <field name="ident00"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmctrinh_search" model="ir.ui.view">
+        <field name="name">iwmn.r81dmctrinh.search</field>
+        <field name="model">iwmn.r81dmctrinh</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="ten_ctrinh"/>
+                <field name="ma_ctrinh"/>
+                <field name="ma_ctrinh_parent"/>
+                <field name="ma_kv"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_iwmn_r81dmctrinh" model="ir.actions.act_window">
+        <field name="name">Công trình</field>
+        <field name="res_model">iwmn.r81dmctrinh</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_iwmn_r81dmctrinh_search"/>
+    </record>
+
+    <menuitem id="menu_iwmn_r81dmctrinh"
+              name="Công trình"
+              parent="menu_iwmn_master_finance"
+              action="action_iwmn_r81dmctrinh"
+              sequence="26"/>
+</odoo>

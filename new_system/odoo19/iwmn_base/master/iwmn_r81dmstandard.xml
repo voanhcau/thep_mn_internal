@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_iwmn_r81dmstandard_list" model="ir.ui.view">
+        <field name="name">iwmn.r81dmstandard.list</field>
+        <field name="model">iwmn.r81dmstandard</field>
+        <field name="arch" type="xml">
+            <list string="R81DMSTANDARD - Standard_Name">
+                <field name="standard_id"/>
+                <field name="standard_name"/>
+                <field name="used"/>
+                <field name="create_log"/>
+                <field name="lastmodify_log"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmstandard_form" model="ir.ui.view">
+        <field name="name">iwmn.r81dmstandard.form</field>
+        <field name="model">iwmn.r81dmstandard</field>
+        <field name="arch" type="xml">
+            <form string="R81DMSTANDARD - Standard_Name">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="standard_id"/>
+                            <field name="standard_name"/>
+                            <field name="used"/>
+                        </group>
+                        <group>
+                            <field name="create_log"/>
+                            <field name="lastmodify_log"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmstandard_search" model="ir.ui.view">
+        <field name="name">iwmn.r81dmstandard.search</field>
+        <field name="model">iwmn.r81dmstandard</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="standard_name"/>
+                <field name="standard_id"/>
+                <field name="used"/>
+                <field name="create_log"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_iwmn_r81dmstandard" model="ir.actions.act_window">
+        <field name="name">R81DMSTANDARD - Standard_Name</field>
+        <field name="res_model">iwmn.r81dmstandard</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_iwmn_r81dmstandard_search"/>
+    </record>
+
+    <menuitem id="menu_iwmn_r81dmstandard" name="R81DMSTANDARD - Standard_Name"
+              parent="menu_iwmn_master_quality"
+              action="action_iwmn_r81dmstandard" sequence="52"/>
+</odoo>

@@ -1,0 +1,81 @@
+from odoo import fields, models
+
+
+class iwmn_r81bangcandoithep(models.Model):
+    """Steel balance master data from legacy table dbo.R81BANGCANDOITHEP."""
+
+    _inherit = "iwmn.r81bangcandoithep"
+    _rec_name = "ten_chi_tieu"
+    _order = "nam desc, stt, id"
+
+    ident00 = fields.Integer(
+        string="Ident00",
+        index=True,
+        copy=False,
+        help="ID của bản ghi tương ứng trong bảng MSSQL dbo.R81BANGCANDOITHEP.",
+    )
+    nam = fields.Integer(string="Năm", required=True)
+    stt = fields.Char(string="STT", size=5, required=True)
+    chi_tieu = fields.Char(string="Chỉ tiêu", size=200, required=True)
+    ten_chi_tieu = fields.Char(string="Tên chỉ tiêu", size=200, required=True)
+    thang01_01 = fields.Float(string="Tháng 01 - 01", digits=(19, 4), required=True)
+    thang01_02 = fields.Float(string="Tháng 01 - 02", digits=(19, 4), required=True)
+    thang01_03 = fields.Float(string="Tháng 01 - 03", digits=(19, 4), required=True)
+    thang01_04 = fields.Float(string="Tháng 01 - 04", digits=(19, 4), required=True)
+    thang01_05 = fields.Float(string="Tháng 01 - 05", digits=(19, 4), required=True)
+    thang02_01 = fields.Float(string="Tháng 02 - 01", digits=(19, 4), required=True)
+    thang02_02 = fields.Float(string="Tháng 02 - 02", digits=(19, 4), required=True)
+    thang02_03 = fields.Float(string="Tháng 02 - 03", digits=(19, 4), required=True)
+    thang02_04 = fields.Float(string="Tháng 02 - 04", digits=(19, 4), required=True)
+    thang02_05 = fields.Float(string="Tháng 02 - 05", digits=(19, 4), required=True)
+    thang03_01 = fields.Float(string="Tháng 03 - 01", digits=(19, 4), required=True)
+    thang03_02 = fields.Float(string="Tháng 03 - 02", digits=(19, 4), required=True)
+    thang03_03 = fields.Float(string="Tháng 03 - 03", digits=(19, 4), required=True)
+    thang03_04 = fields.Float(string="Tháng 03 - 04", digits=(19, 4), required=True)
+    thang03_05 = fields.Float(string="Tháng 03 - 05", digits=(19, 4), required=True)
+    thang04_01 = fields.Float(string="Tháng 04 - 01", digits=(19, 4), required=True)
+    thang04_02 = fields.Float(string="Tháng 04 - 02", digits=(19, 4), required=True)
+    thang04_03 = fields.Float(string="Tháng 04 - 03", digits=(19, 4), required=True)
+    thang04_04 = fields.Float(string="Tháng 04 - 04", digits=(19, 4), required=True)
+    thang04_05 = fields.Float(string="Tháng 04 - 05", digits=(19, 4), required=True)
+    thang05_01 = fields.Float(string="Tháng 05 - 01", digits=(19, 4), required=True)
+    thang05_02 = fields.Float(string="Tháng 05 - 02", digits=(19, 4), required=True)
+    thang05_03 = fields.Float(string="Tháng 05 - 03", digits=(19, 4), required=True)
+    thang05_04 = fields.Float(string="Tháng 05 - 04", digits=(19, 4), required=True)
+    thang05_05 = fields.Float(string="Tháng 05 - 05", digits=(19, 4), required=True)
+    thang06_01 = fields.Float(string="Tháng 06 - 01", digits=(19, 4), required=True)
+    thang06_02 = fields.Float(string="Tháng 06 - 02", digits=(19, 4), required=True)
+    thang06_03 = fields.Float(string="Tháng 06 - 03", digits=(19, 4), required=True)
+    thang06_04 = fields.Float(string="Tháng 06 - 04", digits=(19, 4), required=True)
+    thang06_05 = fields.Float(string="Tháng 06 - 05", digits=(19, 4), required=True)
+    thang07_01 = fields.Float(string="Tháng 07 - 01", digits=(19, 4), required=True)
+    thang07_02 = fields.Float(string="Tháng 07 - 02", digits=(19, 4), required=True)
+    thang07_03 = fields.Float(string="Tháng 07 - 03", digits=(19, 4), required=True)
+    thang07_04 = fields.Float(string="Tháng 07 - 04", digits=(19, 4), required=True)
+    thang07_05 = fields.Float(string="Tháng 07 - 05", digits=(19, 4), required=True)
+    thang08_01 = fields.Float(string="Tháng 08 - 01", digits=(19, 4), required=True)
+    thang08_02 = fields.Float(string="Tháng 08 - 02", digits=(19, 4), required=True)
+    thang08_03 = fields.Float(string="Tháng 08 - 03", digits=(19, 4), required=True)
+    thang08_04 = fields.Float(string="Tháng 08 - 04", digits=(19, 4), required=True)
+    thang08_05 = fields.Float(string="Tháng 08 - 05", digits=(19, 4), required=True)
+    thang09_01 = fields.Float(string="Tháng 09 - 01", digits=(19, 4), required=True)
+    thang09_02 = fields.Float(string="Tháng 09 - 02", digits=(19, 4), required=True)
+    thang09_03 = fields.Float(string="Tháng 09 - 03", digits=(19, 4), required=True)
+    thang09_04 = fields.Float(string="Tháng 09 - 04", digits=(19, 4), required=True)
+    thang09_05 = fields.Float(string="Tháng 09 - 05", digits=(19, 4), required=True)
+    thang10_01 = fields.Float(string="Tháng 10 - 01", digits=(19, 4), required=True)
+    thang10_02 = fields.Float(string="Tháng 10 - 02", digits=(19, 4), required=True)
+    thang10_03 = fields.Float(string="Tháng 10 - 03", digits=(19, 4), required=True)
+    thang10_04 = fields.Float(string="Tháng 10 - 04", digits=(19, 4), required=True)
+    thang10_05 = fields.Float(string="Tháng 10 - 05", digits=(19, 4), required=True)
+    thang11_01 = fields.Float(string="Tháng 11 - 01", digits=(19, 4), required=True)
+    thang11_02 = fields.Float(string="Tháng 11 - 02", digits=(19, 4), required=True)
+    thang11_03 = fields.Float(string="Tháng 11 - 03", digits=(19, 4), required=True)
+    thang11_04 = fields.Float(string="Tháng 11 - 04", digits=(19, 4), required=True)
+    thang11_05 = fields.Float(string="Tháng 11 - 05", digits=(19, 4), required=True)
+    thang12_01 = fields.Float(string="Tháng 12 - 01", digits=(19, 4), required=True)
+    thang12_02 = fields.Float(string="Tháng 12 - 02", digits=(19, 4), required=True)
+    thang12_03 = fields.Float(string="Tháng 12 - 03", digits=(19, 4), required=True)
+    thang12_04 = fields.Float(string="Tháng 12 - 04", digits=(19, 4), required=True)
+    thang12_05 = fields.Float(string="Tháng 12 - 05", digits=(19, 4), required=True)
+    ma_dvcs = fields.Char(string="Mã đơn vị cơ sở", size=10, required=True)

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="iwmn_r81dmctauto_pxth" model="iwmn.r81dmctauto">
+            <field name="ma_ct">PXTH</field>
+            <field name="description">Phiếu kho kho lẻ</field>
+            <field name="so_xe">XNB</field>
+            <field name="so_xa_lan_tau" eval="False"/>
+            <field name="ma_dt">1000043</field>
+            <field name="ma_vt_sp">CP</field>
+            <field name="dien_giai">XUẤT KHO CHẲN SANG KHO LẺ</field>
+            <field name="create_log">190615:113913:VR</field>
+            <field name="lastmodify_log" eval="False"/>
+        </record>
+    </data>
+</odoo>

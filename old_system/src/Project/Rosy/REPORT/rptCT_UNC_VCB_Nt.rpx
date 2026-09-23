@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ActiveReportsLayout Version="3.1" PrintWidth="11908.8" DocumentName="ARNet Document" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-style: normal; text-decoration: none; font-weight: normal; font-size: 10pt; color: Black; font-family: &quot;Times New Roman&quot;; ddo-char-set: 204" />
+    <Style Name="Heading1" Value="font-size: 16pt; font-weight: bold; ddo-char-set: 204" />
+    <Style Name="Heading2" Value="font-size: 14pt; font-weight: bold; font-style: italic; font-family: &quot;Times New Roman&quot;; ddo-char-set: 204" />
+    <Style Name="Heading3" Value="font-size: 13pt; font-weight: bold; ddo-char-set: 204" />
+  </StyleSheet>
+  <Sections>
+    <Section Type="ReportHeader" Name="reportHeader" Height="8429" BackColor="16777215">
+      <Control Type="AR.Label" Name="Label8" Left="6264" Top="5040" Width="1188" Height="252.0001" Caption="Chief account" HyperLink="" Style="ddo-char-set: 1; font-weight: normal; font-style: italic; font-size: 8.25pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Label" Name="Label9" Left="6912" Top="3456" Width="1908" Height="288" Caption="(Detail of Payment):   " Style="ddo-char-set: 1; font-weight: normal; font-style: italic" />
+      <Control Type="AR.Label" Name="Label10" Left="1584" Top="5076" Width="828" Height="288" Caption="(Address):" Style="ddo-char-set: 1; font-weight: normal; font-style: italic; font-size: 8.25pt" />
+      <Control Type="AR.Line" Name="Line1" X1="792" Y1="4104" X2="792" Y2="5940" />
+      <Control Type="AR.Label" Name="Label11" Left="6552" Top="1332" Width="1404" Height="288.0001" Caption="(With amount )" HyperLink="" Style="ddo-char-set: 1; font-style: italic; font-size: 9pt; white-space: inherit" />
+      <Control Type="AR.Line" Name="Line2" X1="648" Y1="6012" X2="11484" Y2="6012" />
+      <Control Type="AR.Line" Name="Line3" X1="792" Y1="5940" X2="5580" Y2="5940" />
+      <Control Type="AR.Label" Name="Label12" Left="9036" Top="5040" Width="1692" Height="252.0002" Caption=" Acc. Holder &amp; Stamp" HyperLink="" Style="ddo-char-set: 1; font-weight: normal; font-style: italic; font-size: 8.25pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Line" Name="Line4" X1="5796" Y1="1800" X2="5796" Y2="3312" />
+      <Control Type="AR.Label" Name="Label13" Left="1440" Top="4176" Width="828.0002" Height="288" Caption="(A/C No):" Style="ddo-char-set: 1; font-weight: normal; font-style: italic; font-size: 8.25pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Label" Name="Label14" Left="9900" Top="2412" Width="792.0004" Height="216" Caption="Phí ngoài " HyperLink="" Style="ddo-char-set: 1; font-weight: bold; font-size: 8.25pt; white-space: inherit" />
+      <Control Type="AR.Label" Name="Label15" Left="5904" Top="2376" Width="936.0002" Height="216.0001" Caption="BẰNG CHỮ " Style="ddo-char-set: 0; font-weight: bold; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label16" Left="5904" Top="1908" Width="828.0002" Height="216.0001" Caption="BẰNG SỐ " Style="ddo-char-set: 0; font-weight: bold; font-size: 8.25pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Line" Name="Line5" X1="5796" Y1="1800" X2="9720" Y2="1800" />
+      <Control Type="AR.Label" Name="Label17" Tag="Ten_NH_B" Left="2520" Top="5508" Width="3024" Height="396" Caption="Ten_NH_B" Style="ddo-char-set: 0; font-size: 8.25pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Label" Name="Label18" Left="864.0001" Top="1872" Width="575.9999" Height="288" Caption="SỐ TK " Style="ddo-char-set: 0; font-weight: bold; font-size: 8.25pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Line" Name="Line6" X1="11268" Y1="1800" X2="11268" Y2="2844" />
+      <Control Type="AR.Label" Name="Label22" Tag="" Left="4392" Top="432" Width="2196" Height="396" Caption="ỦY NHIỆM CHI" Style="ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 14pt; font-family: Microsoft Sans Serif; vertical-align: middle" />
+      <Control Type="AR.Label" Name="Label24" Tag="Tk_NH_A" Left="2520" Top="1851.024" Width="3060" Height="450" Caption="Tk_NH_A" Style="ddo-char-set: 0; font-size: 8.25pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Line" Name="Line7" X1="10728" Y1="2340" X2="11268" Y2="2340" />
+      <Control Type="AR.Line" Name="Line8" X1="792" Y1="1800" X2="5580" Y2="1800" />
+      <Control Type="AR.Label" Name="Label28" Left="5796" Top="1332" Width="791.9998" Height="288.0001" Caption="SỐ TIỀN " HyperLink="" Style="ddo-char-set: 1; font-weight: bold; font-size: 9pt; white-space: inherit" />
+      <Control Type="AR.Label" Name="Label32" Left="3384" Top="1332" Width="1944" Height="288.0001" Caption="(Please Debit account):" HyperLink="" Style="ddo-char-set: 1; font-weight: normal; font-style: italic; font-size: 9pt; white-space: inherit" />
+      <Control Type="AR.Line" Name="Line9" X1="792" Y1="3636" X2="5580" Y2="3636" />
+      <Control Type="AR.Label" Name="Label33" Left="2844" Top="3744" Width="1584" Height="288.0001" Caption="(&amp; Credit account):" HyperLink="" Style="ddo-char-set: 1; font-weight: normal; font-style: italic; font-size: 9pt; white-space: inherit" />
+      <Control Type="AR.Label" Name="Label34" Tag="Doc_Tien" Left="5904" Top="2592" Width="3744" Height="684" Caption="Doc_Tien" Style="ddo-char-set: 0; font-size: 9.75pt; font-family: Times New Roman" />
+      <Control Type="AR.Line" Name="Line10" X1="792" Y1="4572" X2="5580" Y2="4572" />
+      <Control Type="AR.Label" Name="Label36" Tag="" Left="6516" Top="432" Width="2484" Height="396" Caption="- PAYMENT ORDER" Style="ddo-char-set: 1; text-align: center; font-weight: normal; font-style: italic; font-size: 13pt; font-family: Microsoft Sans Serif; vertical-align: middle" />
+      <Control Type="AR.Line" Name="Line11" X1="5796" Y1="2268" X2="9720" Y2="2268" />
+      <Control Type="AR.Label" Name="Label37" Tag="Tk_NH_B" Left="2520" Top="4176" Width="3024" Height="360" Caption="Tk_NH_B" Style="ddo-char-set: 0; font-size: 8.25pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Label" Name="Label39" Left="1512" Top="3204" Width="936.0001" Height="360" Caption="(With Bank)" Style="ddo-char-set: 1; font-weight: normal; font-style: italic; font-size: 8.25pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Label" Name="Label40" Left="864.0001" Top="5544" Width="647.9999" Height="288.0001" Caption="TẠI NH" Style="ddo-char-set: 0; font-weight: bold; font-size: 8.25pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Label" Name="Label41" Left="1440" Top="1872" Width="828.0002" Height="288" Caption="(A/C No):" Style="ddo-char-set: 1; font-weight: normal; font-style: italic; font-size: 8.25pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Label" Name="Label56" Left="864.0001" Top="4644" Width="684.0001" Height="288.0001" Caption="TÊN TK" Style="ddo-char-set: 0; font-weight: bold; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label57" Left="5220" Top="6480" Width="1296" Height="251.9999" Caption="Thanh toán viên" HyperLink="" Style="ddo-char-set: 0; font-weight: bold; font-size: 8.25pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Label" Name="Label59" Left="864.0001" Top="4176" Width="575.9999" Height="288.0002" Caption="SỐ TK " Style="ddo-char-set: 0; font-weight: bold; font-size: 8.25pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Label" Name="Label60" Left="10260" Top="6480" Width="827.9998" Height="215.9999" Caption="Giám đốc" HyperLink="" Style="ddo-char-set: 0; font-weight: bold; font-size: 8.25pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Line" Name="Line12" X1="9036" Y1="1800" X2="9036" Y2="2268" />
+      <Control Type="AR.Label" Name="Label61" Left="1512" Top="4644" Width="1008" Height="324" Caption="(A/C Name):" Style="ddo-char-set: 1; font-weight: normal; font-style: italic; font-size: 8.25pt" />
+      <Control Type="AR.Line" Name="Line13" X1="10728" Y1="1800" X2="10728" Y2="2844" />
+      <Control Type="AR.Label" Name="Label62" Left="1476" Top="2340" Width="1008" Height="324" Caption="(A/C Name):" Style="ddo-char-set: 1; font-weight: normal; font-style: italic; font-size: 8.25pt" />
+      <Control Type="AR.Line" Name="Line14" X1="5796" Y1="3312" X2="9720" Y2="3312" />
+      <Control Type="AR.Line" Name="Line15" X1="10728" Y1="2844" X2="11268" Y2="2844" />
+      <Control Type="AR.Label" Name="Label64" Left="792" Top="1332" Width="2628" Height="288.0001" Caption="ĐỀ NGHỊ GHI NỢ TÀI KHOẢN " HyperLink="" Style="ddo-char-set: 1; font-weight: bold; font-style: normal; font-size: 9pt; white-space: inherit" />
+      <Control Type="AR.Line" Name="Line16" X1="792" Y1="1800" X2="792" Y2="3636" />
+      <Control Type="AR.Label" Name="Label65" Left="792" Top="3744" Width="2016" Height="288.0001" Caption="&amp; GHI CÓ TÀI KHOẢN " HyperLink="" Style="ddo-char-set: 1; font-weight: bold; font-size: 9pt; white-space: inherit" />
+      <Control Type="AR.Label" Name="Label66" Left="5904" Top="4752" Width="1908" Height="251.9998" Caption="KẾ TOÁN TRƯỞNG KÝ " HyperLink="" Style="ddo-char-set: 0; font-weight: bold; font-size: 8.25pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Label" Name="Label67" Tag="Ten_Dv_B" Left="2520" Top="4622.741" Width="3024" Height="395.9999" Caption="Ten_Dv_B" Style="ddo-char-set: 0; font-size: 8.25pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Label" Name="Label68" Left="8460" Top="4752" Width="2844" Height="251.9998" Caption="CHỦ TÀI KHOẢN KÝ &amp; ĐÓNG DẤU" HyperLink="" Style="ddo-char-set: 0; font-weight: bold; font-size: 8.25pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Line" Name="Line17" X1="5580" Y1="4104" X2="5580" Y2="5940" />
+      <Control Type="AR.Label" Name="Label69" Left="864.0001" Top="2772" Width="720" Height="288.0001" Caption="ĐỊA CHỈ " Style="ddo-char-set: 0; font-weight: bold; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label70" Tag="Ten_NH_A" Left="2520" Top="3204" Width="3060" Height="396.0001" Caption="Ten_NH_A" Style="ddo-char-set: 0; font-size: 8.25pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Label" Name="Label71" Left="9396" Top="1332" Width="684.0004" Height="288.0001" Caption="PHÍ NH " HyperLink="" Style="ddo-char-set: 1; font-weight: bold; font-size: 9pt; white-space: inherit" />
+      <Control Type="AR.Label" Name="Label72" Tag="Ma_Tte" Left="9036" Top="1908" Width="647.9999" Height="216.0001" Caption="Ma_Tte" Style="ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 8.25pt; font-family: Microsoft Sans Serif; vertical-align: middle" />
+      <Control Type="AR.Line" Name="Line18" X1="648" Y1="7560" X2="11484" Y2="7560" />
+      <Control Type="AR.Label" Name="Label73" Left="9936" Top="2628" Width="756.0004" Height="216" Caption="Excluding" HyperLink="" Style="ddo-char-set: 1; font-style: italic; font-size: 8.25pt; white-space: inherit" />
+      <Control Type="AR.Line" Name="Line19" X1="792" Y1="3168" X2="5580" Y2="3168" />
+      <Control Type="AR.Line" Name="Line20" X1="792" Y1="5472" X2="5580" Y2="5472" />
+      <Control Type="AR.Label" Name="Label74" Tag="Dia_Chi_Dv" Left="2520" Top="5040" Width="3024" Height="396.0002" Caption="Dia_Chi_Dv" Style="ddo-char-set: 0; font-size: 8.25pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Label" Name="Label75" Left="1584" Top="2772" Width="828" Height="288" Caption="(Address):" Style="ddo-char-set: 1; font-weight: normal; font-style: italic; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label76" Left="9900" Top="1836" Width="756.0004" Height="216.0001" Caption="Phí trong " HyperLink="" Style="ddo-char-set: 1; font-weight: bold; font-size: 8.25pt; white-space: inherit" />
+      <Control Type="AR.Line" Name="Line21" X1="5580" Y1="1800" X2="5580" Y2="3636" />
+      <Control Type="AR.Label" Name="Label77" Left="864.0001" Top="5076" Width="720" Height="288.0002" Caption="ĐỊA CHỈ" Style="ddo-char-set: 0; font-weight: bold; font-size: 8.25pt" />
+      <Control Type="AR.Line" Name="Line22" X1="792" Y1="4104" X2="5580" Y2="4104" />
+      <Control Type="AR.Label" Name="Label78" Left="864.0001" Top="2340" Width="684.0001" Height="324.0001" Caption="TÊN TK" Style="ddo-char-set: 0; font-weight: bold; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label79" Left="828" Top="648" Width="1620" Height="324" Caption="Vietcombank" HyperLink="" Style="ddo-char-set: 1; font-style: italic; font-size: 12pt" />
+      <Control Type="AR.Line" Name="Line24" X1="648" Y1="324" X2="11484" Y2="324" />
+      <Control Type="AR.Label" Name="Label80" Left="5796" Top="3456" Width="1116" Height="287.9999" Caption="NỘI DUNG " Style="ddo-char-set: 1; font-weight: bold" />
+      <Control Type="AR.Line" Name="Line25" X1="792" Y1="2268" X2="5580" Y2="2268" />
+      <Control Type="AR.Label" Name="Label81" Tag="Dia_chi_DV" Left="2520" Top="2736" Width="3024" Height="396.0001" Caption="Dia_chi" Style="ddo-char-set: 0; font-size: 8.25pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Label" Name="Label82" Left="6876" Top="2376" Width="936.0002" Height="216.0001" Caption="(In words)" Style="ddo-char-set: 1; font-weight: normal; font-style: italic; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label83" Left="5112" Top="900.0001" Width="1224" Height="288" Caption="Ngày (Date):" HyperLink="" />
+      <Control Type="AR.Line" Name="Line26" X1="648" Y1="324" X2="648" Y2="7560" />
+      <Control Type="AR.Line" Name="Line27" X1="11484" Y1="324" X2="11484" Y2="7560" />
+      <Control Type="AR.Line" Name="Line28" X1="9720" Y1="1800" X2="9720" Y2="3312" />
+      <Control Type="AR.Label" Name="Label84" Left="1476" Top="5544" Width="936.0001" Height="360" Caption="(With Bank)" Style="ddo-char-set: 1; font-weight: normal; font-style: italic; font-size: 8.25pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Line" Name="Line29" X1="10728" Y1="1800" X2="11268" Y2="1800" />
+      <Control Type="AR.Label" Name="Label85" Left="6768" Top="1908" Width="828.0002" Height="216.0001" Caption="(In figure)" Style="ddo-char-set: 1; font-weight: normal; font-style: italic; font-size: 8.25pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Label" Name="Label86" Left="7668" Top="6480" Width="864.0002" Height="215.9999" Caption="Kiểm soát" HyperLink="" Style="ddo-char-set: 0; font-weight: bold; font-size: 8.25pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Label" Name="Label87" Left="10080" Top="1332" Width="1296" Height="288.0001" Caption="(Bank charges)" HyperLink="" Style="ddo-char-set: 1; font-style: italic; font-size: 9pt; white-space: inherit" />
+      <Control Type="AR.Label" Name="Label88" Left="9900" Top="2052" Width="756.0004" Height="216.0001" Caption="Including" HyperLink="" Style="ddo-char-set: 1; font-weight: normal; font-style: italic; font-size: 8.25pt; white-space: inherit" />
+      <Control Type="AR.Line" Name="Line30" X1="648" Y1="1260" X2="11484" Y2="1260" />
+      <Control Type="AR.Label" Name="Label89" Tag="Ten_Dv_A" Left="2520" Top="2312.504" Width="3024" Height="395.9999" Caption="Ten_Dv_A" Style="ddo-char-set: 0; font-size: 8.25pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Label" Name="Label90" Left="864.0001" Top="3204" Width="648" Height="360" Caption="TẠI NH " Style="ddo-char-set: 0; font-weight: bold; font-size: 8.25pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Label" Name="Label91" Tag="Dien_Giai" Left="5832" Top="3780" Width="5256" Height="756.0001" Caption="Dien_Giai" Style="ddo-char-set: 0; font-size: 9.75pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="Label20" Left="3132" Top="6048" Width="1980" Height="252" Caption="(For Bank's Use only)  " Style="ddo-char-set: 1; font-weight: normal; font-style: italic" />
+      <Control Type="AR.Label" Name="Label58" Left="792" Top="6048" Width="2448" Height="252" Caption="DÀNH CHO NGÂN HÀNG" Style="ddo-char-set: 1; font-weight: bold" />
+      <Control Type="AR.Label" Name="Label129" Left="5112" Top="6048" Width="971.9998" Height="252" Caption="MÃ VAT:" Style="ddo-char-set: 1; font-weight: bold" />
+      <Control Type="AR.Field" Name="TextBox1" Tag="TTien_Nt" Left="7416.001" Top="1892.976" Width="1584" Height="243.7794" Text="TTien_Nt" OutputFormat="#,##0" Style="text-align: right" />
+      <Control Type="AR.Label" Name="Label92" Tag="Ngay_Ct" Left="6371.717" Top="900.2835" Width="1584" Height="288" Caption="Ngay_Ct" Style="ddo-char-set: 1; font-style: normal; font-size: 9.75pt; font-family: Times New Roman" />
+    </Section>
+    <Section Type="PageHeader" Name="pageHeader" Height="0" BackColor="16777215" />
+    <Section Type="Detail" Name="detail" Height="15" BackColor="16777215" />
+    <Section Type="PageFooter" Name="pageFooter" Height="0" BackColor="16777215" />
+    <Section Type="ReportFooter" Name="reportFooter" Height="7394" BackColor="16777215">
+      <Control Type="AR.Label" Name="Label19" Left="6264" Top="4788" Width="1188" Height="252.0001" Caption="Chief account" HyperLink="" Style="ddo-char-set: 1; font-weight: normal; font-style: italic; font-size: 8.25pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Label" Name="Label21" Left="6912" Top="3204" Width="1908" Height="288" Caption="(Detail of Payment):   " Style="ddo-char-set: 1; font-weight: normal; font-style: italic" />
+      <Control Type="AR.Label" Name="Label23" Left="1584" Top="4824" Width="828" Height="288" Caption="(Address):" Style="ddo-char-set: 1; font-weight: normal; font-style: italic; font-size: 8.25pt" />
+      <Control Type="AR.Line" Name="Line31" X1="792" Y1="3852" X2="792" Y2="5724" />
+      <Control Type="AR.Label" Name="Label25" Left="6552" Top="1116" Width="1404" Height="288.0001" Caption="(With amount )" HyperLink="" Style="ddo-char-set: 1; font-style: italic; font-size: 9pt; white-space: inherit" />
+      <Control Type="AR.Line" Name="Line32" X1="648" Y1="5760" X2="11484" Y2="5760" />
+      <Control Type="AR.Line" Name="Line33" X1="792" Y1="5724" X2="5580" Y2="5724" />
+      <Control Type="AR.Label" Name="Label26" Left="9036" Top="4788" Width="1692" Height="252.0002" Caption=" Acc. Holder &amp; Stamp" HyperLink="" Style="ddo-char-set: 1; font-weight: normal; font-style: italic; font-size: 8.25pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Line" Name="Line34" X1="5796" Y1="1548" X2="5796" Y2="3060" />
+      <Control Type="AR.Label" Name="Label27" Left="1440" Top="3924" Width="828.0002" Height="288" Caption="(A/C No):" Style="ddo-char-set: 1; font-weight: normal; font-style: italic; font-size: 8.25pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Label" Name="Label29" Left="9900" Top="2196" Width="792.0004" Height="216" Caption="Phí ngoài " HyperLink="" Style="ddo-char-set: 1; font-weight: bold; font-size: 8.25pt; white-space: inherit" />
+      <Control Type="AR.Label" Name="Label30" Left="5904" Top="2124" Width="936.0002" Height="216.0001" Caption="BẰNG CHỮ " Style="ddo-char-set: 0; font-weight: bold; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label31" Left="5904" Top="1692" Width="828.0002" Height="216.0001" Caption="BẰNG SỐ " Style="ddo-char-set: 0; font-weight: bold; font-size: 8.25pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Line" Name="Line35" X1="5796" Y1="1548" X2="9720" Y2="1548" />
+      <Control Type="AR.Label" Name="Label35" Tag="Ten_NH_B" Left="2520" Top="5256" Width="3024" Height="396" Caption="Ten_NH_B" Style="ddo-char-set: 0; font-size: 8.25pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Label" Name="Label38" Left="864.0001" Top="1656" Width="575.9999" Height="288" Caption="SỐ TK " Style="ddo-char-set: 0; font-weight: bold; font-size: 8.25pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Label" Name="Label42" Left="756.0001" Top="5832" Width="2448" Height="252" Caption="DÀNH CHO NGÂN HÀNG" Style="ddo-char-set: 1; font-weight: bold" />
+      <Control Type="AR.Line" Name="Line36" X1="11268" Y1="1548" X2="11268" Y2="2628" />
+      <Control Type="AR.Label" Name="Label43" Tag="" Left="4392" Top="180" Width="2196" Height="396" Caption="ỦY NHIỆM CHI" Style="ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 14pt; font-family: Microsoft Sans Serif; vertical-align: middle" />
+      <Control Type="AR.Label" Name="Label44" Tag="Tk_NH_A" Left="2520" Top="1584" Width="3060" Height="450" Caption="Tk_NH_A" Style="ddo-char-set: 0; font-size: 8.25pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Line" Name="Line37" X1="10728" Y1="2088" X2="11268" Y2="2088" />
+      <Control Type="AR.Line" Name="Line38" X1="792" Y1="1548" X2="5580" Y2="1548" />
+      <Control Type="AR.Label" Name="Label45" Left="5796" Top="1116" Width="791.9998" Height="288.0001" Caption="SỐ TIỀN " HyperLink="" Style="ddo-char-set: 1; font-weight: bold; font-size: 9pt; white-space: inherit" />
+      <Control Type="AR.Label" Name="Label46" Left="3384" Top="1116" Width="1944" Height="288.0001" Caption="(Please Debit account):" HyperLink="" Style="ddo-char-set: 1; font-weight: normal; font-style: italic; font-size: 9pt; white-space: inherit" />
+      <Control Type="AR.Line" Name="Line39" X1="792" Y1="3420" X2="5580" Y2="3420" />
+      <Control Type="AR.Label" Name="Label47" Left="2772" Top="3492" Width="1944" Height="288" Caption="(&amp; Credit account):" HyperLink="" Style="ddo-char-set: 1; font-weight: normal; font-style: italic; font-size: 9pt; white-space: inherit" />
+      <Control Type="AR.Label" Name="Label48" Tag="Thanh_Tien" Left="5904" Top="2376" Width="3744" Height="684" Caption="Thanh_Tien" Style="ddo-char-set: 0; font-size: 9.75pt; font-family: Times New Roman" />
+      <Control Type="AR.Line" Name="Line40" X1="792" Y1="4320" X2="5580" Y2="4320" />
+      <Control Type="AR.Label" Name="Label49" Tag="" Left="6516" Top="180" Width="2484" Height="396" Caption="- PAYMENT ORDER" Style="ddo-char-set: 1; text-align: center; font-weight: normal; font-style: italic; font-size: 13pt; font-family: Microsoft Sans Serif; vertical-align: middle" />
+      <Control Type="AR.Line" Name="Line41" X1="5796" Y1="2052" X2="9720" Y2="2052" />
+      <Control Type="AR.Label" Name="Label50" Tag="Tk_NH_B" Left="2520" Top="3924" Width="3024" Height="360" Caption="Tk_NH_B" Style="ddo-char-set: 0; font-size: 8.25pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Label" Name="Label51" Left="1512" Top="2952" Width="936.0001" Height="360" Caption="(With Bank)" Style="ddo-char-set: 1; font-weight: normal; font-style: italic; font-size: 8.25pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Label" Name="Label52" Left="864.0001" Top="5292" Width="647.9999" Height="288.0001" Caption="TẠI NH" Style="ddo-char-set: 0; font-weight: bold; font-size: 8.25pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Label" Name="Label53" Left="1440" Top="1656" Width="828.0002" Height="288" Caption="(A/C No):" Style="ddo-char-set: 1; font-weight: normal; font-style: italic; font-size: 8.25pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Label" Name="Label54" Left="864.0001" Top="4392" Width="684.0001" Height="287.9999" Caption="TÊN TK" Style="ddo-char-set: 0; font-weight: bold; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label55" Left="5220" Top="6264" Width="1296" Height="251.9999" Caption="Thanh toán viên" HyperLink="" Style="ddo-char-set: 0; font-weight: bold; font-size: 8.25pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Label" Name="Label93" Left="3096" Top="5832" Width="1980" Height="252" Caption="(For Bank's Use only)  " Style="ddo-char-set: 1; font-weight: normal; font-style: italic" />
+      <Control Type="AR.Label" Name="Label94" Left="864.0001" Top="3924" Width="575.9999" Height="288.0002" Caption="SỐ TK " Style="ddo-char-set: 0; font-weight: bold; font-size: 8.25pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Label" Name="Label95" Left="10260" Top="6264" Width="827.9998" Height="215.9999" Caption="Giám đốc" HyperLink="" Style="ddo-char-set: 0; font-weight: bold; font-size: 8.25pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Line" Name="Line42" X1="9036" Y1="1548" X2="9036" Y2="2052" />
+      <Control Type="AR.Label" Name="Label96" Left="1512" Top="4392" Width="1008" Height="324" Caption="(A/C Name):" Style="ddo-char-set: 1; font-weight: normal; font-style: italic; font-size: 8.25pt" />
+      <Control Type="AR.Line" Name="Line43" X1="10728" Y1="1548" X2="10728" Y2="2628" />
+      <Control Type="AR.Label" Name="Label97" Left="1476" Top="2088" Width="1008" Height="324" Caption="(A/C Name):" Style="ddo-char-set: 1; font-weight: normal; font-style: italic; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label98" Tag="TTien_Nt" Left="7596" Top="1692" Width="1368" Height="216" Caption="TTien_Nt" Style="ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 8.25pt; font-family: Microsoft Sans Serif; vertical-align: middle" />
+      <Control Type="AR.Line" Name="Line44" X1="5796" Y1="3060" X2="9720" Y2="3060" />
+      <Control Type="AR.Line" Name="Line45" X1="10728" Y1="2628" X2="11268" Y2="2628" />
+      <Control Type="AR.Label" Name="Label99" Left="792" Top="1116" Width="2628" Height="288.0001" Caption="ĐỀ NGHỊ GHI NỢ TÀI KHOẢN " HyperLink="" Style="ddo-char-set: 1; font-weight: bold; font-style: normal; font-size: 9pt; white-space: inherit" />
+      <Control Type="AR.Line" Name="Line46" X1="792" Y1="1548" X2="792" Y2="3420" />
+      <Control Type="AR.Label" Name="Label100" Left="792" Top="3492" Width="2016" Height="288.0001" Caption="&amp; GHI CÓ TÀI KHOẢN " HyperLink="" Style="ddo-char-set: 1; font-weight: bold; font-size: 9pt; white-space: inherit" />
+      <Control Type="AR.Label" Name="Label101" Left="5904" Top="4500" Width="1908" Height="251.9998" Caption="KẾ TOÁN TRƯỞNG KÝ " HyperLink="" Style="ddo-char-set: 0; font-weight: bold; font-size: 8.25pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Label" Name="Label102" Tag="Ten_Dv_B" Left="2520" Top="4356" Width="3024" Height="395.9999" Caption="Ten_Dv_B" Style="ddo-char-set: 0; font-size: 8.25pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Label" Name="Label103" Left="8460" Top="4500" Width="2844" Height="251.9998" Caption="CHỦ TÀI KHOẢN KÝ &amp; ĐÓNG DẤU" HyperLink="" Style="ddo-char-set: 0; font-weight: bold; font-size: 8.25pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Line" Name="Line47" X1="5580" Y1="3852" X2="5580" Y2="5724" />
+      <Control Type="AR.Label" Name="Label104" Left="864.0001" Top="2556" Width="720" Height="288" Caption="ĐỊA CHỈ " Style="ddo-char-set: 0; font-weight: bold; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label105" Tag="Ten_NH_A" Left="2520" Top="2952" Width="3060" Height="396.0001" Caption="Ten_NH_A" Style="ddo-char-set: 0; font-size: 8.25pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Label" Name="Label106" Left="9396" Top="1116" Width="684.0004" Height="288.0001" Caption="PHÍ NH " HyperLink="" Style="ddo-char-set: 1; font-weight: bold; font-size: 9pt; white-space: inherit" />
+      <Control Type="AR.Label" Name="Label107" Tag="Ma_Tte" Left="9036" Top="1692" Width="647.9999" Height="216.0001" Caption="Ma_Tte" Style="ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 8.25pt; font-family: Microsoft Sans Serif; vertical-align: middle" />
+      <Control Type="AR.Line" Name="Line48" X1="648" Y1="7344" X2="11484" Y2="7344" />
+      <Control Type="AR.Label" Name="Label108" Left="9936" Top="2376" Width="756.0004" Height="216" Caption="Excluding" HyperLink="" Style="ddo-char-set: 1; font-style: italic; font-size: 8.25pt; white-space: inherit" />
+      <Control Type="AR.Line" Name="Line49" X1="792" Y1="2916" X2="5580" Y2="2916" />
+      <Control Type="AR.Line" Name="Line50" X1="792" Y1="5220" X2="5580" Y2="5220" />
+      <Control Type="AR.Label" Name="Label109" Tag="Dia_chi_Dv_B" Left="2520" Top="4788" Width="3024" Height="432" Caption="Dia_chi_Dv_B" Style="ddo-char-set: 0; font-size: 8.25pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Label" Name="Label110" Left="1584" Top="2556" Width="828" Height="288" Caption="(Address):" Style="ddo-char-set: 1; font-weight: normal; font-style: italic; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label111" Left="9900" Top="1584" Width="756.0004" Height="216.0001" Caption="Phí trong " HyperLink="" Style="ddo-char-set: 1; font-weight: bold; font-size: 8.25pt; white-space: inherit" />
+      <Control Type="AR.Line" Name="Line51" X1="5580" Y1="1548" X2="5580" Y2="3420" />
+      <Control Type="AR.Label" Name="Label112" Left="864.0001" Top="4824" Width="720" Height="288.0002" Caption="ĐỊA CHỈ" Style="ddo-char-set: 0; font-weight: bold; font-size: 8.25pt" />
+      <Control Type="AR.Line" Name="Line52" X1="792" Y1="3852" X2="5580" Y2="3852" />
+      <Control Type="AR.Label" Name="Label113" Left="864.0001" Top="2088" Width="684.0001" Height="323.9999" Caption="TÊN TK" Style="ddo-char-set: 0; font-weight: bold; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label114" Left="1008" Top="504" Width="1620" Height="324" Caption="Vietcombank" HyperLink="" Style="ddo-char-set: 1; font-style: italic; font-size: 12pt" />
+      <Control Type="AR.Line" Name="Line54" X1="648" Y1="72" X2="11484" Y2="72" />
+      <Control Type="AR.Label" Name="Label115" Left="5796" Top="3204" Width="1116" Height="287.9999" Caption="NỘI DUNG " Style="ddo-char-set: 1; font-weight: bold" />
+      <Control Type="AR.Line" Name="Line55" X1="792" Y1="2052" X2="5580" Y2="2052" />
+      <Control Type="AR.Label" Name="Label116" Tag="Dia_chi_Dv_A" Left="2520" Top="2484" Width="3024" Height="396.0001" Caption="Dia_chi_Dv_A" Style="ddo-char-set: 0; font-size: 8.25pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Label" Name="Label117" Left="6876" Top="2124" Width="936.0002" Height="216.0001" Caption="(In words)" Style="ddo-char-set: 1; font-weight: normal; font-style: italic; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label118" Left="5112" Top="648" Width="1224" Height="288" Caption="Ngày (Date):" HyperLink="" />
+      <Control Type="AR.Line" Name="Line56" X1="648" Y1="72" X2="648" Y2="7344" />
+      <Control Type="AR.Line" Name="Line57" X1="11484" Y1="72" X2="11484" Y2="7344" />
+      <Control Type="AR.Line" Name="Line58" X1="9720" Y1="1548" X2="9720" Y2="3060" />
+      <Control Type="AR.Label" Name="Label119" Left="1476" Top="5292" Width="936.0001" Height="360" Caption="(With Bank)" Style="ddo-char-set: 1; font-weight: normal; font-style: italic; font-size: 8.25pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Line" Name="Line59" X1="10728" Y1="1548" X2="11268" Y2="1548" />
+      <Control Type="AR.Label" Name="Label120" Left="6768" Top="1692" Width="828.0002" Height="216.0001" Caption="(In figure)" Style="ddo-char-set: 1; font-weight: normal; font-style: italic; font-size: 8.25pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Label" Name="Label121" Left="7668" Top="6264" Width="864.0002" Height="215.9999" Caption="Kiểm soát" HyperLink="" Style="ddo-char-set: 0; font-weight: bold; font-size: 8.25pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Label" Name="Label122" Left="10080" Top="1116" Width="1296" Height="288.0001" Caption="(Bank charges)" HyperLink="" Style="ddo-char-set: 1; font-style: italic; font-size: 9pt; white-space: inherit" />
+      <Control Type="AR.Label" Name="Label123" Left="9900" Top="1800" Width="756.0004" Height="216.0001" Caption="Including" HyperLink="" Style="ddo-char-set: 1; font-weight: normal; font-style: italic; font-size: 8.25pt; white-space: inherit" />
+      <Control Type="AR.Line" Name="Line60" X1="648" Y1="1008" X2="11484" Y2="1008" />
+      <Control Type="AR.Label" Name="Label124" Tag="Ten_Dv_A" Left="2520" Top="2052" Width="3024" Height="395.9999" Caption="Ten_Dv_A" Style="ddo-char-set: 0; font-size: 8.25pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Label" Name="Label125" Left="864.0001" Top="2952" Width="612" Height="360" Caption="TẠI NH " Style="ddo-char-set: 0; font-weight: bold; font-size: 8.25pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Label" Name="Label126" Tag="Dien_Giai" Left="5832" Top="3528" Width="5256" Height="756.0001" Caption="Dien_Giai" Style="ddo-char-set: 0; font-size: 9.75pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="Label127" Tag="Ngay_Ct" Left="6300" Top="648" Width="1200" Height="299.9999" Caption="Ngay_Ct" Style="ddo-char-set: 0; font-style: normal; font-size: 9.75pt; font-family: Microsoft Sans Serif" />
+      <Control Type="AR.Label" Name="Label128" Left="5184" Top="5832" Width="971.9998" Height="252" Caption="MÃ VAT:" Style="ddo-char-set: 1; font-weight: bold" />
+    </Section>
+  </Sections>
+  <ReportComponentTray />
+  <PageSettings LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" />
+  <Parameters />
+</ActiveReportsLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_iwmn_r81dmkhoct_kg_list" model="ir.ui.view">
+        <field name="name">iwmn.r81dmkhoct_kg.list</field>
+        <field name="model">iwmn.r81dmkhoct_kg</field>
+        <field name="arch" type="xml">
+            <list string="R81DMKHOCT_KG - So_Qd">
+                <field name="ident00"/>
+                <field name="ma_dt"/>
+                <field name="ma_nh_kg"/>
+                <field name="ngay_ap"/>
+                <field name="ngay_bd"/>
+                <field name="ngay_kt"/>
+                <field name="sl_dm_kg"/>
+                <field name="create_log"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmkhoct_kg_form" model="ir.ui.view">
+        <field name="name">iwmn.r81dmkhoct_kg.form</field>
+        <field name="model">iwmn.r81dmkhoct_kg</field>
+        <field name="arch" type="xml">
+            <form string="R81DMKHOCT_KG - So_Qd">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="ident00"/>
+                            <field name="ma_dt"/>
+                            <field name="ma_nh_kg"/>
+                            <field name="ngay_ap"/>
+                            <field name="ngay_bd"/>
+                            <field name="ngay_kt"/>
+                            <field name="sl_dm_kg"/>
+                        </group>
+                        <group>
+                            <field name="create_log"/>
+                            <field name="lastmodify_log"/>
+                            <field name="ma_data"/>
+                            <field name="ma_kho_list"/>
+                            <field name="so_qd"/>
+                            <field name="ghi_chu"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmkhoct_kg_search" model="ir.ui.view">
+        <field name="name">iwmn.r81dmkhoct_kg.search</field>
+        <field name="model">iwmn.r81dmkhoct_kg</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="so_qd"/>
+                <field name="ident00"/>
+                <field name="ma_dt"/>
+                <field name="ma_nh_kg"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_iwmn_r81dmkhoct_kg" model="ir.actions.act_window">
+        <field name="name">R81DMKHOCT_KG - So_Qd</field>
+        <field name="res_model">iwmn.r81dmkhoct_kg</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_iwmn_r81dmkhoct_kg_search"/>
+    </record>
+
+    <menuitem id="menu_iwmn_r81dmkhoct_kg" name="R81DMKHOCT_KG - So_Qd"
+              parent="menu_iwmn_master_warehouse"
+              action="action_iwmn_r81dmkhoct_kg" sequence="28"/>
+</odoo>

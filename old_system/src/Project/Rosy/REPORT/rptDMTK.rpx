@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ActiveReportsLayout Version="3" PrintWidth="16833.6" DocumentName="ARNet Document" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-style: normal; text-decoration: none; font-weight: normal; color: Black; font-family: &quot;Times New Roman&quot;; font-size: 11pt; ddo-char-set: 204; " />
+    <Style Name="Heading1" Value="font-size: 16pt; font-weight: bold; ddo-char-set: 204; " />
+    <Style Name="Heading2" Value="font-family: Times New Roman; font-weight: bold; font-style: italic; font-size: 18pt; ddo-char-set: 204; " />
+    <Style Name="Heading3" Value="font-weight: bold; font-size: 20pt; ddo-char-set: 204; " />
+  </StyleSheet>
+  <Sections>
+    <Section Type="PageHeader" Name="pageHeader" Height="2819" BackColor="16777215">
+      <Control Type="AR.Label" Name="lblTieu_De" Tag="Tieu_De" Left="2800.799" Top="1296" Width="11232" Height="576" Caption="HỆ THỐNG TÀI KHOẢN " Style="ddo-char-set: 1; text-align: center; font-weight: bold; font-size: 20.25pt; " />
+      <Control Type="AR.Label" Name="label2" Tag="Dia_Chi_Dv" Left="216" Top="792" Width="5940" Height="270" Caption="Quận Bình Thạnh, TP Hồ Chí Minh" Style="ddo-char-set: 1; font-weight: bold; font-size: 11.25pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="label3" Tag="Ten_Dv_Cq" Left="216" Top="144" Width="5940" Height="270" Style="ddo-char-set: 1; font-weight: bold; font-size: 11.25pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="label4" Tag="Ten_Dv" Left="216" Top="468" Width="5940" Height="270" Caption="CÔNG TY GIẢI PHÁP PHẦN MỀM VIETROAD" Style="ddo-char-set: 1; font-weight: bold; font-size: 11.25pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="lblTK" Tag="" Left="0" Top="2532" Width="2764.8" Height="288" Caption="Tài khoản" Style="text-align: center; font-weight: bold; " />
+      <Control Type="AR.Line" Name="lineHeaderTK" Tag="" X1="0" Y1="2474.399" X2="0" Y2="2820" />
+      <Control Type="AR.Label" Name="lblTEN_TK" Tag="" Left="2764.8" Top="2532" Width="7012.8" Height="288" Caption="Tên tài khoản" Style="text-align: center; font-weight: bold; " />
+      <Control Type="AR.Line" Name="lineHeaderTEN_TK" Tag="" X1="2764.8" Y1="2474.399" X2="2764.8" Y2="2820" />
+      <Control Type="AR.Label" Name="lblTK_CHA" Tag="" Left="9777.6" Top="2532" Width="1440" Height="288" Caption="Tài khoản cha" Style="text-align: center; font-weight: bold; " />
+      <Control Type="AR.Line" Name="lineHeaderTK_CHA" Tag="" X1="9777.6" Y1="2474.399" X2="9777.6" Y2="2820" />
+      <Control Type="AR.Label" Name="lblTK_CUOI" Tag="" Left="11217.6" Top="2532" Width="720" Height="288" Caption="Tài khoản cuối" Style="text-align: center; font-weight: bold; " />
+      <Control Type="AR.Line" Name="lineHeaderTK_CUOI" Tag="" X1="11217.6" Y1="2474.399" X2="11217.6" Y2="2820" />
+      <Control Type="AR.Label" Name="lblMA_DATA" Tag="" Left="11937.6" Top="2532" Width="2332.8" Height="288" Caption="Mã Data" Style="text-align: center; font-weight: bold; " />
+      <Control Type="AR.Line" Name="lineHeaderMA_DATA" Tag="" X1="11937.6" Y1="2474.399" X2="11937.6" Y2="2820" />
+      <Control Type="AR.Line" Name="lineHeaderEnd" Tag="" X1="14270.4" Y1="2474.399" X2="14270.4" Y2="2820" />
+      <Control Type="AR.Line" Name="lineBarHeader1" Tag="" X1="0" Y1="2460" X2="14270.4" Y2="2460" />
+      <Control Type="AR.Line" Name="lineBarHeader2" Tag="" X1="0" Y1="2805.6" X2="14270.4" Y2="2805.6" />
+    </Section>
+    <Section Type="Detail" Name="detail" Height="360" BackColor="16777215">
+      <Control Type="AR.Field" Name="txtTK" DataField="TK" Tag="" Left="28.8" Top="28.8" Width="2707.2" Height="292.9785" Text="N008" Multiline="0" Style="text-align: left; white-space: nowrap; " SummaryDistinct="" />
+      <Control Type="AR.Line" Name="lineDetailTK" Tag="" X1="0" Y1="0" X2="0" Y2="345.6" />
+      <Control Type="AR.Field" Name="txtTEN_TK" DataField="TEN_TK" Tag="" Left="2793.6" Top="28.8" Width="6955.2" Height="292.9785" Text="Dự toán chi sự nghiệp, dự án" Multiline="0" Style="text-align: left; white-space: nowrap; " SummaryDistinct="" />
+      <Control Type="AR.Line" Name="lineDetailTEN_TK" Tag="" X1="2764.8" Y1="0" X2="2764.8" Y2="345.6" />
+      <Control Type="AR.Field" Name="txtTK_CHA" DataField="TK_CHA" Tag="" Left="9806.4" Top="28.8" Width="1382.4" Height="288" Text=" " Multiline="0" Style="text-align: left; white-space: nowrap; " SummaryDistinct="" />
+      <Control Type="AR.Line" Name="lineDetailTK_CHA" Tag="" X1="9777.6" Y1="0" X2="9777.6" Y2="345.6" />
+      <Control Type="AR.Field" Name="txtTK_CUOI" DataField="TK_CUOI" Tag="" Left="11246.4" Top="28.8" Width="662.4" Height="292.9785" Text="True" Multiline="0" Style="text-align: left; white-space: nowrap; " SummaryDistinct="" />
+      <Control Type="AR.Line" Name="lineDetailTK_CUOI" Tag="" X1="11217.6" Y1="0" X2="11217.6" Y2="345.6" />
+      <Control Type="AR.Field" Name="txtMA_DATA" DataField="MA_DATA" Tag="" Left="11966.4" Top="28.8" Width="2275.2" Height="292.9785" Text="*" Multiline="0" Style="text-align: left; white-space: nowrap; " SummaryDistinct="" />
+      <Control Type="AR.Line" Name="lineDetailMA_DATA" Tag="" X1="11937.6" Y1="0" X2="11937.6" Y2="345.6" />
+      <Control Type="AR.Line" Name="lineDetailEnd" Tag="" X1="14270.4" Y1="0" X2="14270.4" Y2="360" />
+      <Control Type="AR.Line" Name="lineBarDetail" Tag="" X1="0" Y1="345.6" X2="14270.4" Y2="345.6" />
+    </Section>
+    <Section Type="PageFooter" Name="pageFooter" Height="360" BackColor="16777215" />
+  </Sections>
+  <PageSettings LeftMargin="432" RightMargin="432" TopMargin="288" BottomMargin="720" PaperSize="9" PaperWidth="11906" PaperHeight="16838" PaperName="" />
+  <Parameters />
+</ActiveReportsLayout>

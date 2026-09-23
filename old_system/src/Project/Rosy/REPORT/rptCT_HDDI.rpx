@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ActiveReportsLayout Version="3.1" PrintWidth="11010" DocumentName="ARNet Document" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-style: normal; text-decoration: none; font-weight: normal; color: Black; font-family: &quot;Times New Roman&quot;; font-size: 11pt; ddo-char-set: 204" />
+    <Style Name="Heading1" Value="font-size: 16pt; font-weight: bold; ddo-char-set: 204" />
+    <Style Name="Heading2" Value="font-size: 14pt; font-weight: bold; font-style: italic; font-family: &quot;Times New Roman&quot;; ddo-char-set: 204" />
+    <Style Name="Heading3" Value="font-size: 13pt; font-weight: bold; ddo-char-set: 204" />
+  </StyleSheet>
+  <Sections>
+    <Section Type="ReportHeader" Name="ReportHeader1" Height="0" BackColor="16777215" />
+    <Section Type="PageHeader" Name="pageHeader" Height="5062" BackColor="16777215">
+      <Control Type="AR.Label" Name="Ma_So_Thue" DataField="Ma_So_Thue" Tag="" Left="9169.921" Top="3612.96" Width="1755.359" Height="270" Caption="Ma_So_Thue" HyperLink="" Style="ddo-char-set: 1; font-size: 12pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="lblMa_So_Thue" DataField="Ma_Thue" Visible="0" Tag="Ma_Thue" Left="8615.521" Top="1291.68" Width="1951.2" Height="270" Caption="Ma_Thue" HyperLink="" Style="ddo-char-set: 1; font-size: 9pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="Label14" Tag="Pt_Tt" Left="2731.68" Top="4294.08" Width="1260" Height="270" Caption="Pt_Tt" />
+      <Control Type="AR.Label" Name="Label17" Tag="Dia_Chi" Left="1504.8" Top="3991.68" Width="9247.681" Height="323.9999" Caption="Dia_Chi" Style="font-size: 9.75pt" />
+      <Control Type="AR.Field" Name="TextBox10" Tag="Ngay_Ct" Left="9345.599" Top="1519.2" Width="1163.52" Height="283.6801" Text="Ngay_Ct" OutputFormat="dd/MM/yyyy" Multiline="0" Style="color: Black; ddo-char-set: 1; text-align: center; font-weight: normal; font-size: 12pt; white-space: nowrap" />
+      <Control Type="AR.Field" Name="TextBox15" DataField="Ma_Hd" Tag="" Left="5135.041" Top="4294.08" Width="2670.236" Height="290.8799" Text="Ma_Hd" OutputFormat="" Multiline="0" Style="color: Black; ddo-char-set: 1; text-align: left; font-weight: normal; font-size: 11pt; white-space: nowrap" />
+      <Control Type="AR.Label" Name="Label4" Tag="Ong_Ba" Left="1789.92" Top="3641.76" Width="7499.521" Height="288" Caption="Ong_Ba" />
+      <Control Type="AR.Field" Name="TextBox18" DataField="So_Qd" Tag="" Left="8844.48" Top="4294.08" Width="2080.801" Height="290.8797" Text="So_Qd" OutputFormat="" Style="color: Black; ddo-char-set: 1; text-align: left; font-weight: normal; font-size: 11pt; white-space: inherit" />
+    </Section>
+    <Section Type="GroupHeader" Name="groupHeader1" Height="0" BackColor="16777215" />
+    <Section Type="Detail" Name="detail" Height="374" BackColor="16777215">
+      <Control Type="AR.Field" Name="textBox1" DataField="Stt_In" Left="440.64" Top="0" Width="540" Height="385.92" Text="Stt_In" Multiline="0" Style="ddo-char-set: 0; text-align: right; font-size: 11.25pt; font-family: Times New Roman; white-space: nowrap; vertical-align: bottom" />
+      <Control Type="AR.Field" Name="textBox2" DataField="Ten_Vt" Left="1245.6" Top="0" Width="3889.44" Height="384.2646" Text="Ten_Vt" Style="ddo-char-set: 0; font-size: 11.25pt; font-family: Times New Roman; white-space: inherit; text-align: left; vertical-align: bottom" />
+      <Control Type="AR.Field" Name="textBox5" DataField="So_Luong" Left="6044.399" Top="0" Width="1424.88" Height="385.92" Text="So_Luong" OutputFormat="#,##0" Multiline="0" Style="ddo-char-set: 0; text-align: right; font-size: 11.25pt; font-family: Times New Roman; white-space: nowrap; vertical-align: bottom" />
+      <Control Type="AR.Field" Name="textBox6" DataField="Gia_Nt" Left="7466.4" Top="0" Width="1345.628" Height="385.92" Text="Gia_Nt" OutputFormat="#,##0" Multiline="0" Style="ddo-char-set: 0; text-align: right; font-size: 11.25pt; font-family: Times New Roman; white-space: nowrap; vertical-align: bottom" />
+      <Control Type="AR.Field" Name="textBox7" DataField="Tien_Nt" Left="8811.36" Top="0" Width="1984.32" Height="388.8" Text="Tien_Nt" OutputFormat="#,##0" Multiline="0" Style="ddo-char-set: 0; text-align: right; font-size: 11.25pt; font-family: Times New Roman; white-space: nowrap; vertical-align: bottom" />
+      <Control Type="AR.Field" Name="textBox4" DataField="Dvt" Left="5315.041" Top="0" Width="727.2005" Height="381.6" Text="Dvt" Multiline="0" Style="ddo-char-set: 0; text-align: center; font-size: 11.25pt; font-family: Times New Roman; white-space: nowrap; vertical-align: bottom" />
+    </Section>
+    <Section Type="GroupFooter" Name="groupFooter1" Height="0" BackColor="16777215" />
+    <Section Type="PageFooter" Name="pageFooter" Height="6404" BackColor="16777215">
+      <Control Type="AR.Label" Name="Label12" Tag="Doc_Tien" Left="2057.76" Top="1935.36" Width="8737.921" Height="658.0802" Caption="Doc_Tien" Style="ddo-char-set: 1; font-size: 12pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="Label7" DataField="Ma_Thue" Tag="Ma_Thue" Left="2934.72" Top="1238.4" Width="900" Height="270" Caption="Thue_GtGt" HyperLink="" Style="ddo-char-set: 0; font-size: 11.25pt; font-family: Times New Roman" />
+      <Control Type="AR.Field" Name="textBox9" Tag="TTien_Nt0" Left="8877.601" Top="917.2803" Width="1892.16" Height="240" Text="TTien_Nt0" OutputFormat="#,##0" Multiline="0" Style="color: Black; ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 11.25pt; white-space: nowrap" />
+      <Control Type="AR.Field" Name="TextBox3" Tag="TTien_Nt3" Left="8877.601" Top="1267.2" Width="1892.16" Height="240" Text="TTien_Nt3" OutputFormat="#,##0" Multiline="0" Style="color: Black; ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 11.25pt; white-space: nowrap" />
+      <Control Type="AR.Field" Name="TextBox8" Tag="TTien_Nt" Left="8877.601" Top="1621.44" Width="1892.16" Height="240" Text="TTien_Nt" OutputFormat="#,##0" Multiline="0" Style="color: Black; ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 11.25pt; white-space: nowrap" />
+      <Control Type="AR.Field" Name="TextBox14" Tag="TSo_Luong1" Left="6114.24" Top="72" Width="1355.04" Height="270" Text="So_Luong" OutputFormat="#,##0" Multiline="0" Style="ddo-char-set: 0; text-align: right; font-size: 11.25pt; font-family: Times New Roman; white-space: nowrap" />
+      <Control Type="AR.Field" Name="TextBox19" Tag="Pt_Vc_List" Left="8179.2" Top="2688.48" Width="2861.28" Height="711.3601" Text="Pt_Vc_List" OutputFormat="" Style="color: Black; ddo-char-set: 1; text-align: left; font-weight: normal; font-size: 11pt; white-space: inherit" />
+      <Control Type="AR.Field" Name="TextBox21" Tag="Ten_User_Tao" Left="3532.32" Top="5192.64" Width="2047.68" Height="290.8802" Text="Ten_User_Tao" OutputFormat="" Multiline="0" Style="color: Black; ddo-char-set: 1; text-align: center; font-weight: normal; font-size: 11pt; white-space: nowrap" />
+      <Control Type="AR.Field" Name="TextBox20" Tag="TTien_Nt4_Str" Left="8877.26" Top="529.9202" Width="1892.501" Height="240" Text="TTien_Nt4_Str" OutputFormat="#,##0" Multiline="0" Style="color: Black; ddo-char-set: 1; text-align: right; font-weight: bold; font-size: 11.25pt; white-space: nowrap" />
+      <Control Type="AR.Field" Name="TextBox25" Tag="BanDt" Left="1160.64" Top="5063.041" Width="1644.48" Height="607.6799" Text="BanDt" OutputFormat="" Style="color: Black; ddo-char-set: 1; text-align: center; font-weight: normal; font-size: 10pt; white-space: inherit" />
+      <Control Type="AR.Field" Name="TextBox26" Tag="Ten_Kt_Truong" Left="6204.96" Top="5192.64" Width="1802.88" Height="276.4802" Text="Ten_Kt_Truong" OutputFormat="" Multiline="0" Style="color: Black; ddo-char-set: 1; text-align: center; font-weight: normal; font-size: 11pt; white-space: nowrap" />
+      <Control Type="AR.Field" Name="TextBox27" Tag="Ten_Thu_Truong" Left="8508.961" Top="5192.64" Width="2286.721" Height="290.8802" Text="Ten_Thu_Truong" OutputFormat="" Multiline="0" Style="color: Black; ddo-char-set: 1; text-align: center; font-weight: normal; font-size: 11pt; white-space: nowrap" />
+      <Control Type="AR.Field" Name="TextBox17" DataField="So_LXH" Tag="" Left="2439.359" Top="2760.48" Width="2639.52" Height="711.3603" Text="So_LXH" OutputFormat="" Style="color: Black; ddo-char-set: 1; text-align: left; font-weight: normal; font-size: 11pt; white-space: inherit" />
+      <Control Type="AR.Field" Name="TextBox11" DataField="Ma_Kho" Tag="" Left="5880.96" Top="2760.48" Width="1604.161" Height="290.8802" Text="Ma_Kho" OutputFormat="" Multiline="0" Style="color: Black; ddo-char-set: 1; text-align: left; font-weight: normal; font-size: 11pt; white-space: nowrap" />
+      <Control Type="AR.Field" Name="TextBox12" Tag="Ghi_Chu_HD" Left="2439.36" Top="3129.12" Width="8069.762" Height="426.9603" Text="Ghi_Chu_HD" OutputFormat="" Style="color: Black; ddo-char-set: 1; text-align: left; font-weight: normal; font-size: 11pt; white-space: inherit" />
+    </Section>
+    <Section Type="ReportFooter" Name="ReportFooter1" Height="0" BackColor="16777215" />
+  </Sections>
+  <ReportComponentTray />
+  <Script><![CDATA[public void ActiveReport_PageStart()
+{
+//		if(((Label)rpt.Sections["pageHeader"].Controls["Ma_So_Thue"]).Text != "")
+//		 { 
+//		 		Label  lblMa_So_Thue = (Label)rpt.Sections["pageHeader"].Controls["Ma_So_Thue"];
+//		 		
+//		 		for(int i = 0; i<= 13; i++)
+//		 			{
+//				 		if(lblMa_So_Thue.Text.Length >i)
+//				 				((Label)rpt.Sections["pageHeader"].Controls["L"+ (i + 1) ]).Text = 	lblMa_So_Thue.Text.Substring(i, 1);
+//				 		else
+//				 				((Label)rpt.Sections["pageHeader"].Controls["L"+ (i + 1) ]).Text ="";
+//				 	}
+//			 }
+
+		 
+	 //if(((Label)rpt.Sections["pageHeader"].Controls["Label9"]).Text == "R05C")
+	//	{
+			//		((Label)rpt.Sections["pageFooter"].Controls["Label7" ]).Text = "10%x 50";
+		//}
+	}public void pageFooter_Format()
+{
+	
+}
+
+
+public void pageHeader_Format()
+{
+	
+}
+
+
+public void detail_Format()
+{
+	
+}
+
+
+]]></Script>
+  <PageSettings LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" PaperSize="0" PaperWidth="11894" PaperHeight="17294" PaperName="Fanfold 210 x 305 mm" />
+  <Parameters />
+</ActiveReportsLayout>

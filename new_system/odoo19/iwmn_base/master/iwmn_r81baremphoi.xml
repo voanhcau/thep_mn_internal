@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_iwmn_r81baremphoi_list" model="ir.ui.view">
+        <field name="name">iwmn.r81baremphoi.list</field>
+        <field name="model">iwmn.r81baremphoi</field>
+        <field name="arch" type="xml">
+            <list string="Barem phôi" default_order="ngay_ap desc, id desc">
+                <field name="ident00"/>
+                <field name="loai_phoi"/>
+                <field name="ngay_ap"/>
+                <field name="barem"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81baremphoi_form" model="ir.ui.view">
+        <field name="name">iwmn.r81baremphoi.form</field>
+        <field name="model">iwmn.r81baremphoi</field>
+        <field name="arch" type="xml">
+            <form string="Barem phôi">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="loai_phoi"/>
+                            <field name="ngay_ap"/>
+                            <field name="barem"/>
+                        </group>
+                        <group string="Dữ liệu hệ thống cũ">
+                            <field name="ident00"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81baremphoi_search" model="ir.ui.view">
+        <field name="name">iwmn.r81baremphoi.search</field>
+        <field name="model">iwmn.r81baremphoi</field>
+        <field name="arch" type="xml">
+            <search>
+    <field name="loai_phoi"/>
+    <field name="ngay_ap"/>
+    <field name="ident00"/>
+
+    <group>
+        <filter
+            name="group_by_loai_phoi"
+            string="Loại phôi"
+            context="{'group_by': 'loai_phoi'}"
+        />
+    </group>
+</search>
+        </field>
+    </record>
+
+    <record id="action_iwmn_r81baremphoi" model="ir.actions.act_window">
+        <field name="name">Barem phôi</field>
+        <field name="res_model">iwmn.r81baremphoi</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_iwmn_r81baremphoi_search"/>
+    </record>
+    <menuitem
+        id="menu_iwmn_r81baremphoi"
+        name="Barem phôi"
+        parent="menu_iwmn_master_production"
+        action="action_iwmn_r81baremphoi"
+        sequence="10"
+    />
+</odoo>

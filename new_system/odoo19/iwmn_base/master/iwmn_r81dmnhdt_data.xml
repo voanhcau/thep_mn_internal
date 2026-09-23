@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="iwmn_r81dmnhdt_100" model="iwmn.r81dmnhdt">
+            <field name="ma_nh_dt">100</field>
+            <field name="ten_nh_dt">Trong nước</field>
+            <field name="ma_nh_dt_parent" eval="False"/>
+            <field name="nh_cuoi">1</field>
+            <field name="ngay_begin">2007-10-23</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="loai_nh_dt">KH</field>
+            <field name="create_log">160825:182608:BANGNH</field>
+            <field name="lastmodify_log">071025:204529:BANGNH</field>
+        </record>
+        <record id="iwmn_r81dmnhdt_110" model="iwmn.r81dmnhdt">
+            <field name="ma_nh_dt">110</field>
+            <field name="ten_nh_dt">Nhóm VNSTEEL</field>
+            <field name="ma_nh_dt_parent" eval="False"/>
+            <field name="nh_cuoi">1</field>
+            <field name="ngay_begin">2007-10-23</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="loai_nh_dt">KH</field>
+            <field name="create_log">080925:135112:BANGNH</field>
+            <field name="lastmodify_log">071025:204518:BANGNH</field>
+        </record>
+        <record id="iwmn_r81dmnhdt_120" model="iwmn.r81dmnhdt">
+            <field name="ma_nh_dt">120</field>
+            <field name="ten_nh_dt">Ngân hàng</field>
+            <field name="ma_nh_dt_parent" eval="False"/>
+            <field name="nh_cuoi">1</field>
+            <field name="ngay_begin">2007-10-23</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="loai_nh_dt">CH</field>
+            <field name="create_log">280515:141351:VR</field>
+            <field name="lastmodify_log">221025:150325:BANGNH</field>
+        </record>
+        <record id="iwmn_r81dmnhdt_130" model="iwmn.r81dmnhdt">
+            <field name="ma_nh_dt">130</field>
+            <field name="ten_nh_dt">Cửa khẩu hải quan</field>
+            <field name="ma_nh_dt_parent" eval="False"/>
+            <field name="nh_cuoi">1</field>
+            <field name="ngay_begin">2007-10-23</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="loai_nh_dt">NCC</field>
+            <field name="create_log">061023:084508:VR</field>
+            <field name="lastmodify_log">221025:150632:BANGNH</field>
+        </record>
+        <record id="iwmn_r81dmnhdt_300" model="iwmn.r81dmnhdt">
+            <field name="ma_nh_dt">300</field>
+            <field name="ten_nh_dt">Nước ngoài</field>
+            <field name="ma_nh_dt_parent" eval="False"/>
+            <field name="nh_cuoi">1</field>
+            <field name="ngay_begin">2007-10-23</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="loai_nh_dt">KH</field>
+            <field name="create_log">160825:182637:BANGNH</field>
+            <field name="lastmodify_log">190925:195249:BANGNH</field>
+        </record>
+        <record id="iwmn_r81dmnhdt_400" model="iwmn.r81dmnhdt">
+            <field name="ma_nh_dt">400</field>
+            <field name="ten_nh_dt">Phòng ban - Phân xưởng</field>
+            <field name="ma_nh_dt_parent" eval="False"/>
+            <field name="nh_cuoi">1</field>
+            <field name="ngay_begin">2007-10-23</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="loai_nh_dt">CH</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">231025:212100:BANGNH</field>
+        </record>
+        <record id="iwmn_r81dmnhdt_900" model="iwmn.r81dmnhdt">
+            <field name="ma_nh_dt">900</field>
+            <field name="ten_nh_dt">Đối tượng quản lý</field>
+            <field name="ma_nh_dt_parent" eval="False"/>
+            <field name="nh_cuoi">1</field>
+            <field name="ngay_begin">2007-10-23</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="loai_nh_dt">KH</field>
+            <field name="create_log">160825:223345:BANGNH</field>
+            <field name="lastmodify_log">131025:122401:BANGNH</field>
+        </record>
+        <record id="iwmn_r81dmnhdt_nhomqd" model="iwmn.r81dmnhdt">
+            <field name="ma_nh_dt">NHOMQD</field>
+            <field name="ten_nh_dt">Nhóm đối tượng Quyết định</field>
+            <field name="ma_nh_dt_parent" eval="False"/>
+            <field name="nh_cuoi">1</field>
+            <field name="ngay_begin">2007-10-23</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="loai_nh_dt">KH</field>
+            <field name="create_log">070415:104619:VR</field>
+            <field name="lastmodify_log" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmnhdt_nv" model="iwmn.r81dmnhdt">
+            <field name="ma_nh_dt">NV</field>
+            <field name="ten_nh_dt">Cán bộ nhân viên</field>
+            <field name="ma_nh_dt_parent" eval="False"/>
+            <field name="nh_cuoi">1</field>
+            <field name="ngay_begin">2007-10-23</field>
+            <field name="ngay_end">1900-01-01</field>
+            <field name="ma_data">*</field>
+            <field name="loai_nh_dt">NV</field>
+            <field name="create_log">290112:114547:VR</field>
+            <field name="lastmodify_log">010916:093603:VR</field>
+        </record>
+    </data>
+</odoo>

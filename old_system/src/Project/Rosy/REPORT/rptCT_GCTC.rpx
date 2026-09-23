@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ActiveReportsLayout Version="3.1" PrintWidth="11849.76" DocumentName="ARNet Document" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-style: normal; text-decoration: none; font-weight: normal; color: Black; font-family: &quot;Times New Roman&quot;; font-size: 11pt; ddo-char-set: 204" />
+    <Style Name="Heading1" Value="font-size: 16pt; font-weight: bold; ddo-char-set: 204" />
+    <Style Name="Heading2" Value="font-family: Times New Roman; font-weight: bold; font-style: italic; font-size: 18pt; ddo-char-set: 204" />
+    <Style Name="Heading3" Value="font-weight: bold; font-size: 20pt; ddo-char-set: 204" />
+  </StyleSheet>
+  <Sections>
+    <Section Type="ReportHeader" Name="reportHeader" Height="6184" BackColor="16777215">
+      <Control Type="AR.Label" Name="Label7" Tag="Ten_Bp" Left="904.32" Top="2109.6" Width="10722.24" Height="456.8759" Caption="Ten_Bp" HyperLink="" Style="ddo-char-set: 1; text-align: center; font-weight: bold; font-size: 16pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="Label22" Tag="" Left="858.2401" Top="718.5602" Width="3885.12" Height="603.3599" Caption="CÔNG TY TNHH MỘT THÀNH VIÊN THÉP MIỀN NAM - VNSTEEL" Style="ddo-char-set: 1; text-align: center; font-weight: bold; font-size: 11pt" />
+      <Control Type="AR.Label" Name="Label25" Tag="" Left="986.4" Top="1321.92" Width="974.8799" Height="288" Caption="Số:" Style="ddo-char-set: 0; text-align: left; font-weight: normal; font-size: 11.25pt" />
+      <Control Type="AR.Label" Name="Label26" Tag="Ten_Dt" Left="2363.04" Top="2816.64" Width="9263.521" Height="288.0002" Caption="Ten_Dt" Style="ddo-char-set: 1; text-align: left; font-weight: normal; font-size: 11.25pt" />
+      <Control Type="AR.Label" Name="Label27" Tag="So_Ct" Left="1363.68" Top="1321.92" Width="2655.36" Height="288.0001" Caption="So_Ct" Style="ddo-char-set: 0; text-align: left; font-weight: normal; font-size: 11.25pt" />
+      <Control Type="AR.Label" Name="Label8" Tag="Ngay_Thang_Nam" Left="986.3999" Top="3895.2" Width="5961.601" Height="288.0001" Caption="Ngay_Thang_Nam" Style="ddo-char-set: 0; text-align: left; font-weight: normal; font-size: 11.25pt" />
+      <Control Type="AR.Label" Name="Label9" Tag="" Left="974.8805" Top="2816.64" Width="1388.159" Height="288" Caption="Đơn vị xử lý:" Style="ddo-char-set: 1; text-align: left; font-weight: normal; font-size: 11.25pt" />
+      <Control Type="AR.Line" Name="Line3" X1="1445.757" Y1="5156.638" X2="1443.838" Y2="6167.645" />
+      <Control Type="AR.Line" Name="Line4" X1="992.1584" Y1="5156.638" X2="990.239" Y2="6167.645" />
+      <Control Type="AR.Line" Name="Line5" X1="1005.12" Y1="5168.16" X2="11751.84" Y2="5179.681" />
+      <Control Type="AR.Line" Name="Line6" X1="5387.043" Y1="5185.437" X2="5385.121" Y2="6167.647" />
+      <Control Type="AR.Line" Name="Line7" X1="6724.8" Y1="5597.28" X2="6727.203" Y2="6156.127" />
+      <Control Type="AR.Line" Name="Line8" X1="8033.761" Y1="5608.8" X2="8036.161" Y2="6167.647" />
+      <Control Type="AR.Line" Name="Line10" X1="11715.84" Y1="5176.8" X2="11713.92" Y2="6173.406" />
+      <Control Type="AR.Label" Name="Label58" Tag="" Left="1023.84" Top="5539.68" Width="344.16" Height="288.0004" Caption="Stt" Style="ddo-char-set: 1; text-align: center; font-weight: normal; font-size: 11.25pt" />
+      <Control Type="AR.Label" Name="Label60" Tag="" Left="1553.761" Top="5402.88" Width="3623.04" Height="619.1973" Caption="Tên chất thải" Style="ddo-char-set: 1; text-align: center; font-weight: normal; font-size: 11.25pt" />
+      <Control Type="AR.Label" Name="Label62" Tag="" Left="10575.36" Top="5391.36" Width="1160.64" Height="630.7206" Caption="Số lượng" Style="ddo-char-set: 1; text-align: center; font-weight: normal; font-size: 11.25pt" />
+      <Control Type="AR.Line" Name="Line18" X1="995.0414" Y1="6158.883" X2="11727.36" Y2="6156" />
+      <Control Type="AR.Label" Name="Label10" Tag="" Left="995.04" Top="4638.24" Width="5376.96" Height="288" Caption="THÔNG TIN VỀ  CHẤT THẢI:" Style="ddo-char-set: 1; text-align: left; font-weight: bold; font-size: 10pt" />
+      <Control Type="AR.Label" Name="Label21" Tag="" Left="5492.16" Top="718.56" Width="6134.399" Height="288.0001" Caption="CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM" Style="ddo-char-set: 1; text-align: center; font-weight: bold; font-size: 11pt" />
+      <Control Type="AR.Label" Name="Label28" Tag="" Left="5492.16" Top="1006.56" Width="6134.399" Height="288.0001" Caption="Độc lập - Tự do - Hạnh phúc" Style="ddo-char-set: 1; text-align: center; font-weight: bold; font-size: 11pt" />
+      <Control Type="AR.Label" Name="Label29" Tag="" Left="974.8803" Top="3539.52" Width="3044.16" Height="288" Caption="Họ và tên người mang ra cổng:" Style="ddo-char-set: 1; text-align: left; font-weight: normal; font-size: 11.25pt" />
+      <Control Type="AR.Label" Name="Label31" DataField="Ten_Dt_CbNv" Tag="" Left="3906.72" Top="3539.52" Width="7620.479" Height="288.0004" Caption="Ten_Dt_CbNv" Style="ddo-char-set: 1; text-align: left; font-weight: normal; font-size: 11.25pt" />
+      <Control Type="AR.Label" Name="Label4" Tag="" Left="6107.04" Top="5191.2" Width="2623.68" Height="424.8004" Caption="Trạng thái tồn tại" Style="ddo-char-set: 1; text-align: center; font-weight: normal; font-size: 11.25pt" />
+      <Control Type="AR.Label" Name="Label19" DataField="Ma_Hd" Tag="" Left="2642.4" Top="3165.12" Width="5538.241" Height="288.0001" Caption="Ma_Hd" Style="ddo-char-set: 1; text-align: left; font-weight: normal; font-size: 11.25pt" />
+      <Control Type="AR.Label" Name="Label20" Tag="" Left="974.8801" Top="3165.12" Width="2377.44" Height="288" Caption="Theo hợp đồng:" Style="ddo-char-set: 1; text-align: left; font-weight: normal; font-size: 11.25pt" />
+      <Control Type="AR.Label" Name="Label30" Tag="" Left="974.8809" Top="4154.4" Width="2088" Height="288" Caption="Số xe:" Style="ddo-char-set: 1; text-align: left; font-weight: normal; font-size: 11.25pt" />
+      <Control Type="AR.Label" Name="Label32" DataField="Noi_Dung" Tag="" Left="3062.88" Top="4154.4" Width="8464.32" Height="331.2" Caption="Noi_Dung" Style="ddo-char-set: 1; text-align: left; font-weight: normal; font-size: 11.25pt" />
+      <Control Type="AR.Line" Name="Line9" X1="9286.563" Y1="5191.198" X2="9284.642" Y2="6173.407" />
+      <Control Type="AR.Line" Name="Line17" X1="5387.04" Y1="5597.28" X2="9286.561" Y2="5597.28" />
+      <Control Type="AR.Line" Name="Line19" X1="10576.8" Y1="5156.64" X2="10574.88" Y2="6138.849" />
+      <Control Type="AR.Label" Name="Label14" Tag="" Left="9401.761" Top="5391.36" Width="1160.64" Height="630.7206" Caption="Mã số" Style="ddo-char-set: 1; text-align: center; font-weight: normal; font-size: 11.25pt" />
+      <Control Type="AR.Label" Name="Label15" Tag="" Left="5492.16" Top="5713.92" Width="1110.24" Height="424.8004" Caption="Rắn" Style="ddo-char-set: 1; text-align: center; font-weight: normal; font-size: 11.25pt" />
+      <Control Type="AR.Label" Name="Label16" Tag="" Left="6827.04" Top="5713.92" Width="1110.24" Height="424.8004" Caption="Lỏng" Style="ddo-char-set: 1; text-align: center; font-weight: normal; font-size: 11.25pt" />
+      <Control Type="AR.Label" Name="Label17" Tag="" Left="8040.96" Top="5713.92" Width="1110.24" Height="424.8004" Caption="Khí" Style="ddo-char-set: 1; text-align: center; font-weight: normal; font-size: 11.25pt" />
+    </Section>
+    <Section Type="PageHeader" Name="pageHeader" Height="0" BackColor="16777215" />
+    <Section Type="Detail" Name="detail" Height="346" BackColor="16777215">
+      <Control Type="AR.Line" Name="Line1" X1="1005.12" Y1="5.364418E-06" X2="1003.2" Y2="334.2004" />
+      <Control Type="AR.Line" Name="Line2" X1="1444.32" Y1="5.364418E-06" X2="1442.4" Y2="334.2004" />
+      <Control Type="AR.Line" Name="Line11" X1="992.1603" Y1="351.36" X2="11724.48" Y2="348.4782" />
+      <Control Type="AR.Line" Name="Line12" X1="5382.72" Y1="5.364418E-06" X2="5380.8" Y2="334.2004" />
+      <Control Type="AR.Line" Name="Line13" X1="6729.121" Y1="0" X2="6727.201" Y2="334.2004" />
+      <Control Type="AR.Line" Name="Line14" X1="8035.201" Y1="0" X2="8033.281" Y2="334.2004" />
+      <Control Type="AR.Line" Name="Line16" X1="11727.36" Y1="0" X2="11727.36" Y2="334.2004" />
+      <Control Type="AR.Label" Name="Label64" DataField="Stt_In" Tag="" Left="987.8403" Top="28.8" Width="437.76" Height="273.6" Caption="Stt_In" Style="ddo-char-set: 1; text-align: center; font-weight: normal; font-size: 10pt" />
+      <Control Type="AR.Label" Name="Label65" DataField="Ten_Vt" Tag="" Left="1553.76" Top="28.8" Width="3833.28" Height="273.6" Caption="Ten_Vt" Style="ddo-char-set: 1; text-align: left; font-weight: normal; font-size: 10pt" />
+      <Control Type="AR.Label" Name="Label66" DataField="Ma_Vt" Tag="" Left="9286.561" Top="28.8" Width="1274.403" Height="273.6" Caption="Ma_Vt" Style="ddo-char-set: 1; text-align: left; font-weight: normal; font-size: 10pt" />
+      <Control Type="AR.Field" Name="TextBox1" DataField="So_Luong" Left="10560.96" Top="0" Width="1153.437" Height="274.1994" Text="So_Luong" OutputFormat="#,##0.00" Style="text-align: right; font-size: 10pt; ddo-char-set: 1" />
+      <Control Type="AR.Line" Name="Line15" X1="9285.121" Y1="0" X2="9285.121" Y2="334.2004" />
+      <Control Type="AR.Line" Name="Line20" X1="10578.24" Y1="0" X2="10576.32" Y2="334.2004" />
+      <Control Type="AR.Label" Name="Label18" DataField="HBUI" Tag="" Left="5434.56" Top="28.8" Width="1274.403" Height="273.6" Caption="HBUI" Style="ddo-char-set: 1; text-align: center; font-weight: normal; font-size: 10pt" />
+      <Control Type="AR.Label" Name="Label33" DataField="Lo" Tag="" Left="6662.88" Top="28.8" Width="1274.403" Height="273.6" Caption="Lo" Style="ddo-char-set: 1; text-align: center; font-weight: normal; font-size: 10pt" />
+      <Control Type="AR.Label" Name="Label36" DataField="Duc" Tag="" Left="8040.959" Top="28.8" Width="1274.403" Height="273.6" Caption="Duc" Style="ddo-char-set: 1; text-align: center; font-weight: normal; font-size: 10pt" />
+    </Section>
+    <Section Type="PageFooter" Name="pageFooter" Height="360" BackColor="16777215">
+      <Control Type="AR.ReportInfo" Name="ReportInfo1" Left="9894.24" Top="0" Width="1512" Height="288" FormatString="Trang: {PageNumber}/{PageCount}" Style="ddo-char-set: 1; font-size: 10pt" />
+    </Section>
+    <Section Type="ReportFooter" Name="reportFooter" Height="3681" BackColor="16777215">
+      <Control Type="AR.Label" Name="Label23" Tag="" Left="904.32" Top="115.2" Width="2448" Height="288" Caption="TỔNG GIÁM ĐỐC" Style="ddo-char-set: 1; text-align: left; font-weight: bold; font-size: 11.25pt" />
+      <Control Type="AR.Label" Name="Label24" Tag="" Left="3906.72" Top="115.2" Width="2448" Height="288" Caption="TRƯỞNG ĐƠN VỊ" Style="ddo-char-set: 1; text-align: left; font-weight: bold; font-size: 11.25pt" />
+      <Control Type="AR.Label" Name="Label34" Tag="" Left="6602.4" Top="115.2" Width="2548.801" Height="288" Caption="NGƯỜI XIN RA CỔNG" Style="ddo-char-set: 1; text-align: left; font-weight: bold; font-size: 11.25pt" />
+      <Control Type="AR.Label" Name="Label35" Tag="" Left="9401.761" Top="115.2" Width="2347.2" Height="288" Caption="BẢO VỆ (A2)" Style="ddo-char-set: 1; text-align: center; font-weight: bold; font-size: 11.25pt" />
+      <Control Type="AR.Label" Name="Label11" DataField="Ten_Dt_CbNv" Tag="" Left="6605.281" Top="1550.881" Width="2448" Height="288" Caption="Ten_Dt_CbNv" Style="ddo-char-set: 1; text-align: center; font-weight: bold; font-size: 11.25pt" />
+      <Control Type="AR.Label" Name="Label12" Tag="Ten_Tp" Left="3909.601" Top="1550.881" Width="2448" Height="288" Caption="Ten_Tp" Style="ddo-char-set: 1; text-align: center; font-weight: bold; font-size: 11.25pt" />
+      <Control Type="AR.Label" Name="Label13" Tag="Ten_Gd" Left="1087.2" Top="1550.881" Width="2448" Height="288" Caption="Ten_Gd" Style="ddo-char-set: 1; text-align: center; font-weight: bold; font-size: 11.25pt" />
+    </Section>
+  </Sections>
+  <ReportComponentTray />
+  <Script><![CDATA[public void reportHeader_Format()
+{
+
+}
+
+
+]]></Script>
+  <PageSettings LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" PaperSize="9" PaperWidth="11906" PaperHeight="16838" PaperName="" />
+  <Parameters />
+</ActiveReportsLayout>

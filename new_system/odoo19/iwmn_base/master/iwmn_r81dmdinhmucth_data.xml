@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="iwmn_r81dmdinhmucth_1" model="iwmn.r81dmdinhmucth">
+            <field name="ident00">1</field>
+            <field name="ma_chi_tieu">THPHOI</field>
+            <field name="ten_chi_tieu">Phế liệu</field>
+            <field name="dvt">Kg/tấn</field>
+            <field name="dinh_muc">1115.0000</field>
+            <field name="ngay_ap">2020-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucth_2" model="iwmn.r81dmdinhmucth">
+            <field name="ident00">2</field>
+            <field name="ma_chi_tieu">SLMG</field>
+            <field name="ten_chi_tieu"> - SiMn 60-14%</field>
+            <field name="dvt">Kg/tấn</field>
+            <field name="dinh_muc">12.7200</field>
+            <field name="ngay_ap">2020-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucth_3" model="iwmn.r81dmdinhmucth">
+            <field name="ident00">3</field>
+            <field name="ma_chi_tieu">FRSI</field>
+            <field name="ten_chi_tieu"> - FeSi 72%</field>
+            <field name="dvt">Kg/tấn</field>
+            <field name="dinh_muc">1.1300</field>
+            <field name="ngay_ap">2020-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucth_4" model="iwmn.r81dmdinhmucth">
+            <field name="ident00">4</field>
+            <field name="ma_chi_tieu">BOTC</field>
+            <field name="ten_chi_tieu"> - Bột cốc</field>
+            <field name="dvt">Kg/tấn</field>
+            <field name="dinh_muc">1.3328</field>
+            <field name="ngay_ap">2020-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucth_5" model="iwmn.r81dmdinhmucth">
+            <field name="ident00">5</field>
+            <field name="ma_chi_tieu">VOI7</field>
+            <field name="ten_chi_tieu"> - Vôi</field>
+            <field name="dvt">Kg/tấn</field>
+            <field name="dinh_muc">58.4898</field>
+            <field name="ngay_ap">2020-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucth_6" model="iwmn.r81dmdinhmucth">
+            <field name="ident00">6</field>
+            <field name="ma_chi_tieu">TPLO</field>
+            <field name="ten_chi_tieu"> - Than phun lò (kíp lê)</field>
+            <field name="dvt">Kg/tấn</field>
+            <field name="dinh_muc">28.1144</field>
+            <field name="ngay_ap">2020-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucth_7" model="iwmn.r81dmdinhmucth">
+            <field name="ident00">7</field>
+            <field name="ma_chi_tieu">OX</field>
+            <field name="ten_chi_tieu"> - Oxy thổi lò</field>
+            <field name="dvt">M3/tấn</field>
+            <field name="dinh_muc">31.5287</field>
+            <field name="ngay_ap">2020-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucth_8" model="iwmn.r81dmdinhmucth">
+            <field name="ident00">8</field>
+            <field name="ma_chi_tieu">MGO8</field>
+            <field name="ten_chi_tieu"> - Chất tạo xỉ lò EAF MgO</field>
+            <field name="dvt">M3/tấn</field>
+            <field name="dinh_muc">1.3000</field>
+            <field name="ngay_ap">2020-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucth_9" model="iwmn.r81dmdinhmucth">
+            <field name="ident00">9</field>
+            <field name="ma_chi_tieu">CL01</field>
+            <field name="ten_chi_tieu">   + Gạch chịu lửa</field>
+            <field name="dvt">Kg/tấn</field>
+            <field name="dinh_muc">2.8464</field>
+            <field name="ngay_ap">2020-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucth_10" model="iwmn.r81dmdinhmucth">
+            <field name="ident00">10</field>
+            <field name="ma_chi_tieu">CL06</field>
+            <field name="ten_chi_tieu">   + Bột vá lò</field>
+            <field name="dvt">Kg/tấn</field>
+            <field name="dinh_muc">4.1102</field>
+            <field name="ngay_ap">2020-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucth_11" model="iwmn.r81dmdinhmucth">
+            <field name="ident00">11</field>
+            <field name="ma_chi_tieu">HUYH</field>
+            <field name="ten_chi_tieu"> - Huỳnh thạch CF2</field>
+            <field name="dvt">Kg/tấn</field>
+            <field name="dinh_muc">1.7919</field>
+            <field name="ngay_ap">2020-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucth_12" model="iwmn.r81dmdinhmucth">
+            <field name="ident00">12</field>
+            <field name="ma_chi_tieu">04508</field>
+            <field name="ten_chi_tieu"> - Khuôn đồng</field>
+            <field name="dvt">kg/tấn</field>
+            <field name="dinh_muc">0.1834</field>
+            <field name="ngay_ap">2020-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucth_13" model="iwmn.r81dmdinhmucth">
+            <field name="ident00">13</field>
+            <field name="ma_chi_tieu">D300</field>
+            <field name="ten_chi_tieu">   + Điện cực lò LF D300</field>
+            <field name="dvt">"</field>
+            <field name="dinh_muc">0.4185</field>
+            <field name="ngay_ap">2020-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucth_14" model="iwmn.r81dmdinhmucth">
+            <field name="ident00">14</field>
+            <field name="ma_chi_tieu">D500</field>
+            <field name="ten_chi_tieu">   + Điện cực lò EAF D500</field>
+            <field name="dvt">"</field>
+            <field name="dinh_muc">1.3433</field>
+            <field name="ngay_ap">2020-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucth_15" model="iwmn.r81dmdinhmucth">
+            <field name="ident00">15</field>
+            <field name="ma_chi_tieu">KH</field>
+            <field name="ten_chi_tieu"> - Khí tự nhiên</field>
+            <field name="dvt">mmBTU/tấn</field>
+            <field name="dinh_muc">0.1296</field>
+            <field name="ngay_ap">2020-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucth_16" model="iwmn.r81dmdinhmucth">
+            <field name="ident00">16</field>
+            <field name="ma_chi_tieu">DN</field>
+            <field name="ten_chi_tieu"> - Điện năng</field>
+            <field name="dvt">Kwh/tsp</field>
+            <field name="dinh_muc">504.0000</field>
+            <field name="ngay_ap">2020-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucth_17" model="iwmn.r81dmdinhmucth">
+            <field name="ident00">17</field>
+            <field name="ma_chi_tieu">THTHEP</field>
+            <field name="ten_chi_tieu">Tiêu hao kim loại</field>
+            <field name="dvt">Kg/tsp</field>
+            <field name="dinh_muc">1025.5000</field>
+            <field name="ngay_ap">2020-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucth_18" model="iwmn.r81dmdinhmucth">
+            <field name="ident00">18</field>
+            <field name="ma_chi_tieu">THKHI</field>
+            <field name="ten_chi_tieu">Tiêu hao khí</field>
+            <field name="dvt">mmBTU/tsp</field>
+            <field name="dinh_muc">0.8755</field>
+            <field name="ngay_ap">2020-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucth_19" model="iwmn.r81dmdinhmucth">
+            <field name="ident00">19</field>
+            <field name="ma_chi_tieu">THDIEN</field>
+            <field name="ten_chi_tieu">Tiêu hao điện năng</field>
+            <field name="dvt">Kwh/tsp</field>
+            <field name="dinh_muc">110.8220</field>
+            <field name="ngay_ap">2020-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucth_20" model="iwmn.r81dmdinhmucth">
+            <field name="ident00">20</field>
+            <field name="ma_chi_tieu">D01260002</field>
+            <field name="ten_chi_tieu"> Dầu DO 0,05% S</field>
+            <field name="dvt">Lít/tháng</field>
+            <field name="dinh_muc">79095.8000</field>
+            <field name="ngay_ap">2020-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucth_21" model="iwmn.r81dmdinhmucth">
+            <field name="ident00">21</field>
+            <field name="ma_chi_tieu">K00100002</field>
+            <field name="ten_chi_tieu">Dầu thuỷ lực Delo Silver SAE 10W  Caltex</field>
+            <field name="dvt">Lít/tháng</field>
+            <field name="dinh_muc">815.3600</field>
+            <field name="ngay_ap">2020-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucth_22" model="iwmn.r81dmdinhmucth">
+            <field name="ident00">22</field>
+            <field name="ma_chi_tieu">K00100004</field>
+            <field name="ten_chi_tieu">Dầu thuỷ lực FUCHS HFDU-46 (200L/Phuy)  </field>
+            <field name="dvt">Lít/tháng</field>
+            <field name="dinh_muc">228.6667</field>
+            <field name="ngay_ap">2020-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucth_23" model="iwmn.r81dmdinhmucth">
+            <field name="ident00">23</field>
+            <field name="ma_chi_tieu">K00100006</field>
+            <field name="ten_chi_tieu">Dầu thuỷ lực tellus S2MX46 (209L/phuy)</field>
+            <field name="dvt">Lít/tháng</field>
+            <field name="dinh_muc">1331.3300</field>
+            <field name="ngay_ap">2020-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucth_24" model="iwmn.r81dmdinhmucth">
+            <field name="ident00">24</field>
+            <field name="ma_chi_tieu">K00160002</field>
+            <field name="ten_chi_tieu">Mỡ Gadus S2V220.1(180Kg/01 phuy)</field>
+            <field name="dvt">Lít/tháng</field>
+            <field name="dinh_muc">1455.3000</field>
+            <field name="ngay_ap">2020-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucth_25" model="iwmn.r81dmdinhmucth">
+            <field name="ident00">25</field>
+            <field name="ma_chi_tieu">K00090002</field>
+            <field name="ten_chi_tieu">Dầu bôi trơn hộp số Delo Gold Ultra SAE 15W-40  Caltex</field>
+            <field name="dvt">Lít/tháng</field>
+            <field name="dinh_muc">849.3333</field>
+            <field name="ngay_ap">2020-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucth_26" model="iwmn.r81dmdinhmucth">
+            <field name="ident00">26</field>
+            <field name="ma_chi_tieu">K00090003</field>
+            <field name="ten_chi_tieu">Dầu bôi trơn Morlina S2 B(A)100, 209L/phuy  </field>
+            <field name="dvt">Lít/tháng</field>
+            <field name="dinh_muc">563.2550</field>
+            <field name="ngay_ap">2020-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucth_27" model="iwmn.r81dmdinhmucth">
+            <field name="ident00">27</field>
+            <field name="ma_chi_tieu">K00090006</field>
+            <field name="ten_chi_tieu">Dầu bôi trơn Omala S2 G(X)220, 209L/ phuy  </field>
+            <field name="dvt">Lít/tháng</field>
+            <field name="dinh_muc">546.1867</field>
+            <field name="ngay_ap">2020-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucth_28" model="iwmn.r81dmdinhmucth">
+            <field name="ident00">28</field>
+            <field name="ma_chi_tieu">NLUYEN</field>
+            <field name="ten_chi_tieu">Nước sản xuất luyện</field>
+            <field name="dvt">M3/tấn</field>
+            <field name="dinh_muc">0.5000</field>
+            <field name="ngay_ap">2020-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucth_29" model="iwmn.r81dmdinhmucth">
+            <field name="ident00">29</field>
+            <field name="ma_chi_tieu">NCAN</field>
+            <field name="ten_chi_tieu">Nước sản xuất cán</field>
+            <field name="dvt">M3/tấn</field>
+            <field name="dinh_muc">0.4200</field>
+            <field name="ngay_ap">2020-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucth_30" model="iwmn.r81dmdinhmucth">
+            <field name="ident00">30</field>
+            <field name="ma_chi_tieu" eval="False"/>
+            <field name="ten_chi_tieu">Phòng TCHC</field>
+            <field name="dvt" eval="False"/>
+            <field name="dinh_muc" eval="False"/>
+            <field name="ngay_ap">2020-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucth_31" model="iwmn.r81dmdinhmucth">
+            <field name="ident00">31</field>
+            <field name="ma_chi_tieu">NVP</field>
+            <field name="ten_chi_tieu">Nước Văn phòng (sinh hoạt và tưới cây)</field>
+            <field name="dvt">m3/tháng</field>
+            <field name="dinh_muc">3990.0000</field>
+            <field name="ngay_ap">2020-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucth_32" model="iwmn.r81dmdinhmucth">
+            <field name="ident00">32</field>
+            <field name="ma_chi_tieu">GIAY</field>
+            <field name="ten_chi_tieu">Giấy in &amp; photocopy A4</field>
+            <field name="dvt">xấp/tháng</field>
+            <field name="dinh_muc">100.0000</field>
+            <field name="ngay_ap">2020-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucth_33" model="iwmn.r81dmdinhmucth">
+            <field name="ident00">33</field>
+            <field name="ma_chi_tieu">NCCAY</field>
+            <field name="ten_chi_tieu">Nhân công - Chăm sóc, trồng cây xanh</field>
+            <field name="dvt">VNĐ/tháng</field>
+            <field name="dinh_muc">82500000.0000</field>
+            <field name="ngay_ap">2020-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucth_34" model="iwmn.r81dmdinhmucth">
+            <field name="ident00">34</field>
+            <field name="ma_chi_tieu">NCVSINH</field>
+            <field name="ten_chi_tieu">Nhân công - Vệ sinh, công nhật</field>
+            <field name="dvt">VNĐ/tháng</field>
+            <field name="dinh_muc">114000000.0000</field>
+            <field name="ngay_ap">2020-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucth_35" model="iwmn.r81dmdinhmucth">
+            <field name="ident00">35</field>
+            <field name="ma_chi_tieu">NCTHEP</field>
+            <field name="ten_chi_tieu">Nhân công - Chỉnh cẩu, móc mở cáp, bẻ, bốc thép bán</field>
+            <field name="dvt">vnđ/tấn</field>
+            <field name="dinh_muc">4000.0000</field>
+            <field name="ngay_ap">2020-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucth_36" model="iwmn.r81dmdinhmucth">
+            <field name="ident00">36</field>
+            <field name="ma_chi_tieu">NCVCPHOI</field>
+            <field name="ten_chi_tieu">Vận chuyển - Phôi</field>
+            <field name="dvt">vnđ/tấn</field>
+            <field name="dinh_muc">9500.0000</field>
+            <field name="ngay_ap">2020-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucth_37" model="iwmn.r81dmdinhmucth">
+            <field name="ident00">37</field>
+            <field name="ma_chi_tieu">NCCAN</field>
+            <field name="ten_chi_tieu">Xếp dỡ, nâng hạ thép cán</field>
+            <field name="dvt">vnđ/tấn </field>
+            <field name="dinh_muc">19700.0000</field>
+            <field name="ngay_ap">2020-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucth_38" model="iwmn.r81dmdinhmucth">
+            <field name="ident00">38</field>
+            <field name="ma_chi_tieu">NCVCCAN</field>
+            <field name="ten_chi_tieu">Vận chuyển - Thép cán</field>
+            <field name="dvt">vnđ/tấn </field>
+            <field name="dinh_muc">10300.0000</field>
+            <field name="ngay_ap">2020-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucth_39" model="iwmn.r81dmdinhmucth">
+            <field name="ident00">39</field>
+            <field name="ma_chi_tieu">CL</field>
+            <field name="ten_chi_tieu"> - Vật liệu chịu lửa (gạch, bột)</field>
+            <field name="dvt">Kg/tấn</field>
+            <field name="dinh_muc">6.9566</field>
+            <field name="ngay_ap">2020-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucth_40" model="iwmn.r81dmdinhmucth">
+            <field name="ident00">40</field>
+            <field name="ma_chi_tieu">DC</field>
+            <field name="ten_chi_tieu">  - Điện cực</field>
+            <field name="dvt">"</field>
+            <field name="dinh_muc">1.7618</field>
+            <field name="ngay_ap">2020-01-01 00:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+    </data>
+</odoo>

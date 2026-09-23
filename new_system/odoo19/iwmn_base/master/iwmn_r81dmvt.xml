@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_iwmn_r81dmvt_list" model="ir.ui.view">
+        <field name="name">iwmn.r81dmvt.list</field>
+        <field name="model">iwmn.r81dmvt</field>
+        <field name="arch" type="xml">
+            <list string="Sản phẩm">
+                <field name="ma_vt"/>
+                <field name="ten_vt"/>
+                <field name="ma_nh_vt"/>
+                <field name="ma_size"/>
+                <field name="grade_id"/>
+                <field name="length"/>
+                <field name="is_default"/>
+                <field name="dvt"/>
+                <field name="dvt1"/>
+                <field name="he_so1"/>
+                <field name="dvt2"/>
+                <field name="he_so2"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmvt_form" model="ir.ui.view">
+        <field name="name">iwmn.r81dmvt.form</field>
+        <field name="model">iwmn.r81dmvt</field>
+        <field name="arch" type="xml">
+            <form string="Sản phẩm">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="ma_vt"/>
+                            <field name="ten_vt"/>
+                            <field name="ma_nh_vt"/>
+                            <field name="dvt"/>
+                            <field name="dvt1"/>
+                            <field name="he_so1"/>
+                            <field name="dvt2"/>
+                            <field name="he_so2"/>
+                            <field name="dvt3"/>
+                            <field name="he_so3"/>
+                            <field name="sl_ton_min"/>
+                            <field name="sl_ton_max"/>
+                            <field name="loai_vt"/>
+                            <field name="tk_vtu"/>
+                            <field name="tk_gvon"/>
+                            <field name="tk_dthu"/>
+                            <field name="tk_hbtl"/>
+                            <field name="ma_vt_sp"/>
+                            <field name="ma_vt_gt"/>
+                            <field name="ngay_begin"/>
+                            <field name="ngay_end"/>
+                            <field name="ma_data"/>
+                            <field name="create_log"/>
+                            <field name="lastmodify_log"/>
+                            <field name="so_the"/>
+                            <field name="cong_suat"/>
+                            <field name="nam_sx"/>
+                            <field name="nuoc_sx"/>
+                            <field name="ident00"/>
+                            <field name="length"/>
+                            <field name="is_default"/>
+                            <field name="diameter"/>
+                            <field name="dmax"/>
+                            <field name="dmin"/>
+                            <field name="barweight"/>
+                            <field name="minweight"/>
+                            <field name="maxweight"/>
+                            <field name="num_bars"/>
+                            <field name="loai_phoi"/>
+                        </group>
+                        <group>
+                            <field name="mac_thep"/>
+                            <field name="khu_vuc"/>
+                            <field name="don_trong"/>
+                            <field name="tg_duyet_dh"/>
+                            <field name="thang_ton_kho"/>
+                            <field name="quy_cach_dk"/>
+                            <field name="thong_so_kt"/>
+                            <field name="ma_tb_nha_sx"/>
+                            <field name="ten_nha_sx"/>
+                            <field name="vi_tri_ld"/>
+                            <field name="barem"/>
+                            <field name="ma_vt_chung"/>
+                            <field name="ma_vt_ap"/>
+                            <field name="ma_nhom"/>
+                            <field name="ma_dv_sd"/>
+                            <field name="ma_cum"/>
+                            <field name="ma_tb"/>
+                            <field name="ten_vt_old"/>
+                            <field name="vat_tu_old"/>
+                            <field name="ten_vt_chuan"/>
+                            <field name="ma_tb_nhom"/>
+                            <field name="ma_size"/>
+                            <field name="grade_id"/>
+                            <field name="barem_standard"/>
+                            <field name="tieu_hao"/>
+                            <field name="ten_vte"/>
+                            <field name="phan_loai_sp"/>
+                            <field name="ma_nhom_cu"/>
+                            <field name="ma_tb_nhom_cu"/>
+                            <field name="is_hide"/>
+                            <field name="is_tieuhao"/>
+                            <field name="barem_bo"/>
+                            <field name="barem_cay"/>
+                            <field name="mo_ta_bs"/>
+                            <field name="is_ptro"/>
+                            <field name="muc_dich_ptro"/>
+                            <field name="ly_do"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmvt_search" model="ir.ui.view">
+        <field name="name">iwmn.r81dmvt.search</field>
+        <field name="model">iwmn.r81dmvt</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="ten_vt"/>
+                <field name="ma_vt"/>
+                <field name="ma_nh_vt"/>
+                <field name="dvt"/>
+                <field name="is_default"/>
+                <filter string="Chiều dài mặc định" name="is_default" domain="[('is_default', '=', True)]"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_iwmn_r81dmvt" model="ir.actions.act_window">
+        <field name="name">Sản phẩm</field>
+        <field name="res_model">iwmn.r81dmvt</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_iwmn_r81dmvt_search"/>
+    </record>
+
+    <menuitem id="menu_iwmn_r81dmvt" name="Sản phẩm"
+              parent="menu_iwmn_master_materials"
+              action="action_iwmn_r81dmvt" sequence="75"/>
+</odoo>

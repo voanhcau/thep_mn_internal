@@ -1,0 +1,2597 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="iwmn_r81dmqdcan_1" model="iwmn.r81dmqdcan">
+            <field name="ident00">1</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">05</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">166.0000</field>
+            <field name="tieu_hao_phoi">1030.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_4" model="iwmn.r81dmqdcan">
+            <field name="ident00">4</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">06</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">166.0000</field>
+            <field name="tieu_hao_phoi">1030.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_6" model="iwmn.r81dmqdcan">
+            <field name="ident00">6</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">07</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">120.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_7" model="iwmn.r81dmqdcan">
+            <field name="ident00">7</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">08</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">120.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_8" model="iwmn.r81dmqdcan">
+            <field name="ident00">8</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">09</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">120.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_9" model="iwmn.r81dmqdcan">
+            <field name="ident00">9</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">10</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">120.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_10" model="iwmn.r81dmqdcan">
+            <field name="ident00">10</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">11</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">120.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_11" model="iwmn.r81dmqdcan">
+            <field name="ident00">11</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">12</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">120.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_12" model="iwmn.r81dmqdcan">
+            <field name="ident00">12</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">13</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">120.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_13" model="iwmn.r81dmqdcan">
+            <field name="ident00">13</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">14</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">120.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_14" model="iwmn.r81dmqdcan">
+            <field name="ident00">14</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">15</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">120.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_15" model="iwmn.r81dmqdcan">
+            <field name="ident00">15</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">16</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">120.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_16" model="iwmn.r81dmqdcan">
+            <field name="ident00">16</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">17</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">120.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_17" model="iwmn.r81dmqdcan">
+            <field name="ident00">17</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">18</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">120.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_18" model="iwmn.r81dmqdcan">
+            <field name="ident00">18</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">19</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">120.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_19" model="iwmn.r81dmqdcan">
+            <field name="ident00">19</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">20</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">120.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_20" model="iwmn.r81dmqdcan">
+            <field name="ident00">20</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">21</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">120.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_21" model="iwmn.r81dmqdcan">
+            <field name="ident00">21</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">22</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">120.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_22" model="iwmn.r81dmqdcan">
+            <field name="ident00">22</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">23</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">120.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_23" model="iwmn.r81dmqdcan">
+            <field name="ident00">23</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">24</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">120.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_24" model="iwmn.r81dmqdcan">
+            <field name="ident00">24</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">25</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">120.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_25" model="iwmn.r81dmqdcan">
+            <field name="ident00">25</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">26</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">120.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_26" model="iwmn.r81dmqdcan">
+            <field name="ident00">26</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">27</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">120.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_27" model="iwmn.r81dmqdcan">
+            <field name="ident00">27</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">28</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">120.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_28" model="iwmn.r81dmqdcan">
+            <field name="ident00">28</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">29</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">120.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_29" model="iwmn.r81dmqdcan">
+            <field name="ident00">29</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">30</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">120.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_30" model="iwmn.r81dmqdcan">
+            <field name="ident00">30</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">31</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">120.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_31" model="iwmn.r81dmqdcan">
+            <field name="ident00">31</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">32</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">120.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_32" model="iwmn.r81dmqdcan">
+            <field name="ident00">32</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">36</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">120.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_33" model="iwmn.r81dmqdcan">
+            <field name="ident00">33</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">10</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">131.0000</field>
+            <field name="tieu_hao_phoi">1034.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_34" model="iwmn.r81dmqdcan">
+            <field name="ident00">34</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">11</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">131.0000</field>
+            <field name="tieu_hao_phoi">1034.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_35" model="iwmn.r81dmqdcan">
+            <field name="ident00">35</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">12</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">131.0000</field>
+            <field name="tieu_hao_phoi">1034.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_36" model="iwmn.r81dmqdcan">
+            <field name="ident00">36</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">14</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">131.0000</field>
+            <field name="tieu_hao_phoi">1034.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_37" model="iwmn.r81dmqdcan">
+            <field name="ident00">37</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">16</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">86.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_38" model="iwmn.r81dmqdcan">
+            <field name="ident00">38</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">17</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">86.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_39" model="iwmn.r81dmqdcan">
+            <field name="ident00">39</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">18</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">86.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_40" model="iwmn.r81dmqdcan">
+            <field name="ident00">40</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">19</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">86.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_41" model="iwmn.r81dmqdcan">
+            <field name="ident00">41</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">20</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">86.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_42" model="iwmn.r81dmqdcan">
+            <field name="ident00">42</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">21</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">86.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_43" model="iwmn.r81dmqdcan">
+            <field name="ident00">43</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">22</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">86.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_44" model="iwmn.r81dmqdcan">
+            <field name="ident00">44</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">23</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">86.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_45" model="iwmn.r81dmqdcan">
+            <field name="ident00">45</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">24</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">86.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_46" model="iwmn.r81dmqdcan">
+            <field name="ident00">46</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">25</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">86.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_47" model="iwmn.r81dmqdcan">
+            <field name="ident00">47</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">26</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">86.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_48" model="iwmn.r81dmqdcan">
+            <field name="ident00">48</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">27</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">86.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_49" model="iwmn.r81dmqdcan">
+            <field name="ident00">49</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">28</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">86.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_50" model="iwmn.r81dmqdcan">
+            <field name="ident00">50</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">29</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">86.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_51" model="iwmn.r81dmqdcan">
+            <field name="ident00">51</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">30</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">86.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_52" model="iwmn.r81dmqdcan">
+            <field name="ident00">52</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">32</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">86.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_53" model="iwmn.r81dmqdcan">
+            <field name="ident00">53</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">36</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">86.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_54" model="iwmn.r81dmqdcan">
+            <field name="ident00">54</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">38</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">86.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_55" model="iwmn.r81dmqdcan">
+            <field name="ident00">55</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">40</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">86.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_56" model="iwmn.r81dmqdcan">
+            <field name="ident00">56</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">41</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">86.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_57" model="iwmn.r81dmqdcan">
+            <field name="ident00">57</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">43</field>
+            <field name="tieu_hao_gas">0.6500</field>
+            <field name="tieu_hao_dien">86.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_58" model="iwmn.r81dmqdcan">
+            <field name="ident00">58</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">05</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">155.0000</field>
+            <field name="tieu_hao_phoi">1030.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_59" model="iwmn.r81dmqdcan">
+            <field name="ident00">59</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">06</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">155.0000</field>
+            <field name="tieu_hao_phoi">1030.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_60" model="iwmn.r81dmqdcan">
+            <field name="ident00">60</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">07</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">128.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_61" model="iwmn.r81dmqdcan">
+            <field name="ident00">61</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">08</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">128.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_62" model="iwmn.r81dmqdcan">
+            <field name="ident00">62</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">09</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">128.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_63" model="iwmn.r81dmqdcan">
+            <field name="ident00">63</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">10</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">128.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_64" model="iwmn.r81dmqdcan">
+            <field name="ident00">64</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">11</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">128.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_65" model="iwmn.r81dmqdcan">
+            <field name="ident00">65</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">12</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">128.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_66" model="iwmn.r81dmqdcan">
+            <field name="ident00">66</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">13</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">128.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_67" model="iwmn.r81dmqdcan">
+            <field name="ident00">67</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">14</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">128.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_68" model="iwmn.r81dmqdcan">
+            <field name="ident00">68</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">15</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">128.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_69" model="iwmn.r81dmqdcan">
+            <field name="ident00">69</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">16</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">128.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_70" model="iwmn.r81dmqdcan">
+            <field name="ident00">70</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">17</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">128.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_71" model="iwmn.r81dmqdcan">
+            <field name="ident00">71</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">18</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">128.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_72" model="iwmn.r81dmqdcan">
+            <field name="ident00">72</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">19</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">128.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_73" model="iwmn.r81dmqdcan">
+            <field name="ident00">73</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">20</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">128.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_74" model="iwmn.r81dmqdcan">
+            <field name="ident00">74</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">21</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">128.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_75" model="iwmn.r81dmqdcan">
+            <field name="ident00">75</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">22</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">128.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_76" model="iwmn.r81dmqdcan">
+            <field name="ident00">76</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">23</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">128.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_77" model="iwmn.r81dmqdcan">
+            <field name="ident00">77</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">24</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">128.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_78" model="iwmn.r81dmqdcan">
+            <field name="ident00">78</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">25</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">128.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_79" model="iwmn.r81dmqdcan">
+            <field name="ident00">79</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">26</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">128.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_80" model="iwmn.r81dmqdcan">
+            <field name="ident00">80</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">27</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">128.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_81" model="iwmn.r81dmqdcan">
+            <field name="ident00">81</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">28</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">128.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_82" model="iwmn.r81dmqdcan">
+            <field name="ident00">82</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">29</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">128.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_83" model="iwmn.r81dmqdcan">
+            <field name="ident00">83</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">30</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">128.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_84" model="iwmn.r81dmqdcan">
+            <field name="ident00">84</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">31</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">128.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_85" model="iwmn.r81dmqdcan">
+            <field name="ident00">85</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">32</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">128.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_86" model="iwmn.r81dmqdcan">
+            <field name="ident00">86</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">36</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">128.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_108" model="iwmn.r81dmqdcan">
+            <field name="ident00">108</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">10</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">121.0000</field>
+            <field name="tieu_hao_phoi">1034.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_109" model="iwmn.r81dmqdcan">
+            <field name="ident00">109</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">11</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">121.0000</field>
+            <field name="tieu_hao_phoi">1034.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_110" model="iwmn.r81dmqdcan">
+            <field name="ident00">110</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">12</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">121.0000</field>
+            <field name="tieu_hao_phoi">1034.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_111" model="iwmn.r81dmqdcan">
+            <field name="ident00">111</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">14</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">121.0000</field>
+            <field name="tieu_hao_phoi">1034.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_112" model="iwmn.r81dmqdcan">
+            <field name="ident00">112</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">16</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">96.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_113" model="iwmn.r81dmqdcan">
+            <field name="ident00">113</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">17</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">96.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_114" model="iwmn.r81dmqdcan">
+            <field name="ident00">114</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">18</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">96.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_115" model="iwmn.r81dmqdcan">
+            <field name="ident00">115</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">19</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">96.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_116" model="iwmn.r81dmqdcan">
+            <field name="ident00">116</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">20</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">96.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_117" model="iwmn.r81dmqdcan">
+            <field name="ident00">117</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">21</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">96.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_118" model="iwmn.r81dmqdcan">
+            <field name="ident00">118</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">22</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">96.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_119" model="iwmn.r81dmqdcan">
+            <field name="ident00">119</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">23</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">96.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_120" model="iwmn.r81dmqdcan">
+            <field name="ident00">120</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">24</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">96.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_121" model="iwmn.r81dmqdcan">
+            <field name="ident00">121</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">25</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">96.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_122" model="iwmn.r81dmqdcan">
+            <field name="ident00">122</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">26</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">96.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_123" model="iwmn.r81dmqdcan">
+            <field name="ident00">123</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">27</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">96.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_124" model="iwmn.r81dmqdcan">
+            <field name="ident00">124</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">28</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">96.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_125" model="iwmn.r81dmqdcan">
+            <field name="ident00">125</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">29</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">96.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_126" model="iwmn.r81dmqdcan">
+            <field name="ident00">126</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">30</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">96.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_127" model="iwmn.r81dmqdcan">
+            <field name="ident00">127</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">32</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">96.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_128" model="iwmn.r81dmqdcan">
+            <field name="ident00">128</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">36</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">96.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_129" model="iwmn.r81dmqdcan">
+            <field name="ident00">129</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">38</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">96.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_130" model="iwmn.r81dmqdcan">
+            <field name="ident00">130</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">40</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">96.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_131" model="iwmn.r81dmqdcan">
+            <field name="ident00">131</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">41</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">96.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_132" model="iwmn.r81dmqdcan">
+            <field name="ident00">132</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">43</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">96.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_133" model="iwmn.r81dmqdcan">
+            <field name="ident00">133</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">10</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_134" model="iwmn.r81dmqdcan">
+            <field name="ident00">134</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">11</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_135" model="iwmn.r81dmqdcan">
+            <field name="ident00">135</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">12</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_136" model="iwmn.r81dmqdcan">
+            <field name="ident00">136</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">14</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_137" model="iwmn.r81dmqdcan">
+            <field name="ident00">137</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">16</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_138" model="iwmn.r81dmqdcan">
+            <field name="ident00">138</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">17</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_139" model="iwmn.r81dmqdcan">
+            <field name="ident00">139</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">18</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_140" model="iwmn.r81dmqdcan">
+            <field name="ident00">140</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">19</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_141" model="iwmn.r81dmqdcan">
+            <field name="ident00">141</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">20</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_142" model="iwmn.r81dmqdcan">
+            <field name="ident00">142</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">21</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_143" model="iwmn.r81dmqdcan">
+            <field name="ident00">143</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">22</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_144" model="iwmn.r81dmqdcan">
+            <field name="ident00">144</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">23</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_145" model="iwmn.r81dmqdcan">
+            <field name="ident00">145</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">24</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_146" model="iwmn.r81dmqdcan">
+            <field name="ident00">146</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">25</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_147" model="iwmn.r81dmqdcan">
+            <field name="ident00">147</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">26</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_148" model="iwmn.r81dmqdcan">
+            <field name="ident00">148</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">27</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_149" model="iwmn.r81dmqdcan">
+            <field name="ident00">149</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">28</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_150" model="iwmn.r81dmqdcan">
+            <field name="ident00">150</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">29</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_151" model="iwmn.r81dmqdcan">
+            <field name="ident00">151</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">30</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_152" model="iwmn.r81dmqdcan">
+            <field name="ident00">152</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">32</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_153" model="iwmn.r81dmqdcan">
+            <field name="ident00">153</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">36</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_154" model="iwmn.r81dmqdcan">
+            <field name="ident00">154</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">38</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_155" model="iwmn.r81dmqdcan">
+            <field name="ident00">155</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">40</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_156" model="iwmn.r81dmqdcan">
+            <field name="ident00">156</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">41</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_157" model="iwmn.r81dmqdcan">
+            <field name="ident00">157</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">43</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_158" model="iwmn.r81dmqdcan">
+            <field name="ident00">158</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">05</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_159" model="iwmn.r81dmqdcan">
+            <field name="ident00">159</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">06</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_160" model="iwmn.r81dmqdcan">
+            <field name="ident00">160</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">07</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_161" model="iwmn.r81dmqdcan">
+            <field name="ident00">161</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">08</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_162" model="iwmn.r81dmqdcan">
+            <field name="ident00">162</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">09</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_163" model="iwmn.r81dmqdcan">
+            <field name="ident00">163</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">10</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_164" model="iwmn.r81dmqdcan">
+            <field name="ident00">164</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">11</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_165" model="iwmn.r81dmqdcan">
+            <field name="ident00">165</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">12</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_166" model="iwmn.r81dmqdcan">
+            <field name="ident00">166</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">13</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_167" model="iwmn.r81dmqdcan">
+            <field name="ident00">167</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">14</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_168" model="iwmn.r81dmqdcan">
+            <field name="ident00">168</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">15</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_169" model="iwmn.r81dmqdcan">
+            <field name="ident00">169</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">16</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_170" model="iwmn.r81dmqdcan">
+            <field name="ident00">170</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">17</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_171" model="iwmn.r81dmqdcan">
+            <field name="ident00">171</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">18</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_172" model="iwmn.r81dmqdcan">
+            <field name="ident00">172</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">19</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_173" model="iwmn.r81dmqdcan">
+            <field name="ident00">173</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">20</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_174" model="iwmn.r81dmqdcan">
+            <field name="ident00">174</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">21</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_175" model="iwmn.r81dmqdcan">
+            <field name="ident00">175</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">22</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_176" model="iwmn.r81dmqdcan">
+            <field name="ident00">176</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">23</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_177" model="iwmn.r81dmqdcan">
+            <field name="ident00">177</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">24</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_178" model="iwmn.r81dmqdcan">
+            <field name="ident00">178</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">25</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_179" model="iwmn.r81dmqdcan">
+            <field name="ident00">179</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">26</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_180" model="iwmn.r81dmqdcan">
+            <field name="ident00">180</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">27</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_181" model="iwmn.r81dmqdcan">
+            <field name="ident00">181</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">28</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_182" model="iwmn.r81dmqdcan">
+            <field name="ident00">182</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">29</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_183" model="iwmn.r81dmqdcan">
+            <field name="ident00">183</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">30</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_184" model="iwmn.r81dmqdcan">
+            <field name="ident00">184</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">31</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_185" model="iwmn.r81dmqdcan">
+            <field name="ident00">185</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">32</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_186" model="iwmn.r81dmqdcan">
+            <field name="ident00">186</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">36</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1028.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_187" model="iwmn.r81dmqdcan">
+            <field name="ident00">187</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">10</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_188" model="iwmn.r81dmqdcan">
+            <field name="ident00">188</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">11</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_189" model="iwmn.r81dmqdcan">
+            <field name="ident00">189</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">12</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_190" model="iwmn.r81dmqdcan">
+            <field name="ident00">190</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">14</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_191" model="iwmn.r81dmqdcan">
+            <field name="ident00">191</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">16</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_192" model="iwmn.r81dmqdcan">
+            <field name="ident00">192</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">17</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_193" model="iwmn.r81dmqdcan">
+            <field name="ident00">193</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">18</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_194" model="iwmn.r81dmqdcan">
+            <field name="ident00">194</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">19</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_195" model="iwmn.r81dmqdcan">
+            <field name="ident00">195</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">20</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_196" model="iwmn.r81dmqdcan">
+            <field name="ident00">196</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">21</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_197" model="iwmn.r81dmqdcan">
+            <field name="ident00">197</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">22</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_198" model="iwmn.r81dmqdcan">
+            <field name="ident00">198</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">23</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_199" model="iwmn.r81dmqdcan">
+            <field name="ident00">199</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">24</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_200" model="iwmn.r81dmqdcan">
+            <field name="ident00">200</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">25</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_201" model="iwmn.r81dmqdcan">
+            <field name="ident00">201</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">26</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_202" model="iwmn.r81dmqdcan">
+            <field name="ident00">202</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">27</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_203" model="iwmn.r81dmqdcan">
+            <field name="ident00">203</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">28</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_204" model="iwmn.r81dmqdcan">
+            <field name="ident00">204</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">29</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_205" model="iwmn.r81dmqdcan">
+            <field name="ident00">205</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">30</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_206" model="iwmn.r81dmqdcan">
+            <field name="ident00">206</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">32</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_207" model="iwmn.r81dmqdcan">
+            <field name="ident00">207</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">36</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_208" model="iwmn.r81dmqdcan">
+            <field name="ident00">208</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">38</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_209" model="iwmn.r81dmqdcan">
+            <field name="ident00">209</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">40</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_210" model="iwmn.r81dmqdcan">
+            <field name="ident00">210</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">41</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_211" model="iwmn.r81dmqdcan">
+            <field name="ident00">211</field>
+            <field name="loai_thep">BD</field>
+            <field name="duong_kinh">43</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_212" model="iwmn.r81dmqdcan">
+            <field name="ident00">212</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">05</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_213" model="iwmn.r81dmqdcan">
+            <field name="ident00">213</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">06</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_214" model="iwmn.r81dmqdcan">
+            <field name="ident00">214</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">07</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_215" model="iwmn.r81dmqdcan">
+            <field name="ident00">215</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">08</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_216" model="iwmn.r81dmqdcan">
+            <field name="ident00">216</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">09</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_217" model="iwmn.r81dmqdcan">
+            <field name="ident00">217</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">10</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_218" model="iwmn.r81dmqdcan">
+            <field name="ident00">218</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">11</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_219" model="iwmn.r81dmqdcan">
+            <field name="ident00">219</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">12</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_220" model="iwmn.r81dmqdcan">
+            <field name="ident00">220</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">13</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_221" model="iwmn.r81dmqdcan">
+            <field name="ident00">221</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">14</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_222" model="iwmn.r81dmqdcan">
+            <field name="ident00">222</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">15</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_223" model="iwmn.r81dmqdcan">
+            <field name="ident00">223</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">16</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_224" model="iwmn.r81dmqdcan">
+            <field name="ident00">224</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">17</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_225" model="iwmn.r81dmqdcan">
+            <field name="ident00">225</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">18</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_226" model="iwmn.r81dmqdcan">
+            <field name="ident00">226</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">19</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_227" model="iwmn.r81dmqdcan">
+            <field name="ident00">227</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">20</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_228" model="iwmn.r81dmqdcan">
+            <field name="ident00">228</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">21</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_229" model="iwmn.r81dmqdcan">
+            <field name="ident00">229</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">22</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_230" model="iwmn.r81dmqdcan">
+            <field name="ident00">230</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">23</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_231" model="iwmn.r81dmqdcan">
+            <field name="ident00">231</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">24</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_232" model="iwmn.r81dmqdcan">
+            <field name="ident00">232</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">25</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_233" model="iwmn.r81dmqdcan">
+            <field name="ident00">233</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">26</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_234" model="iwmn.r81dmqdcan">
+            <field name="ident00">234</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">27</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_235" model="iwmn.r81dmqdcan">
+            <field name="ident00">235</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">28</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_236" model="iwmn.r81dmqdcan">
+            <field name="ident00">236</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">29</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_237" model="iwmn.r81dmqdcan">
+            <field name="ident00">237</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">30</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_238" model="iwmn.r81dmqdcan">
+            <field name="ident00">238</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">31</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_239" model="iwmn.r81dmqdcan">
+            <field name="ident00">239</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">32</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmqdcan_240" model="iwmn.r81dmqdcan">
+            <field name="ident00">240</field>
+            <field name="loai_thep">BR</field>
+            <field name="duong_kinh">36</field>
+            <field name="tieu_hao_gas">0.9100</field>
+            <field name="tieu_hao_dien">112.0000</field>
+            <field name="tieu_hao_phoi">1026.0000</field>
+            <field name="ghi_chu" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+    </data>
+</odoo>

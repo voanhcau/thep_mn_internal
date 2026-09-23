@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ActiveReportsLayout Version="3.1" PrintWidth="15418.8" DocumentName="ARNet Document" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-style: normal; text-decoration: none; font-weight: normal; font-size: 10pt; color: Black; font-family: &quot;Times New Roman&quot;; ddo-char-set: 204" />
+    <Style Name="Heading1" Value="font-size: 16pt; font-weight: bold; ddo-char-set: 204" />
+    <Style Name="Heading2" Value="font-size: 14pt; font-weight: bold; font-style: italic; font-family: &quot;Times New Roman&quot;; ddo-char-set: 204" />
+    <Style Name="Heading3" Value="font-size: 13pt; font-weight: bold; ddo-char-set: 204" />
+  </StyleSheet>
+  <Sections>
+    <Section Type="ReportHeader" Name="ReportHeader1" Height="4590" BackColor="16777215">
+      <Control Type="AR.Label" Name="Label51" Tag="" Left="12712.33" Top="833.7602" Width="2325.601" Height="311.04" Caption="QT-KD-01/03" Style="font-weight: normal; ddo-char-set: 1; font-size: 11.25pt; vertical-align: middle; text-align: center; font-family: Tahoma" />
+      <Control Type="AR.Shape" Name="Shape1" Left="12703.69" Top="417.6001" Width="2355.84" Height="825" BackColor="16777215" RoundingRadius="9.999999" />
+      <Control Type="AR.Label" Name="Label10" Tag="" Left="666.72" Top="511.2001" Width="4826.88" Height="311.04" Caption="CÔNG TY TNHH MỘT THÀNH VIÊN" Style="font-weight: bold; ddo-char-set: 0; font-size: 11.25pt; vertical-align: middle; text-align: center; font-family: Tahoma" />
+      <Control Type="AR.Label" Name="Label11" Left="1763.991" Top="2183.04" Width="12656.16" Height="519.84" Caption="LỆNH SẢN XUẤT" Style="vertical-align: middle; text-align: center; font-size: 20pt; ddo-char-set: 1; font-weight: bold; font-family: Tahoma" />
+      <Control Type="AR.Label" Name="Label52" Tag="" Left="12712.33" Top="516.9601" Width="2325.601" Height="311.04" Caption="BM :01" Style="font-weight: normal; ddo-char-set: 1; font-size: 11.25pt; vertical-align: middle; text-align: center; font-family: Tahoma" />
+      <Control Type="AR.Label" Name="Label21" Tag="So_Ct" Left="2321.28" Top="1581.12" Width="2187.361" Height="287.9999" Caption="So_Ct" HyperLink="" Style="font-size: 14pt; font-weight: normal; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Label19" Tag="" Left="666.7198" Top="828.0002" Width="4826.88" Height="311.04" Caption="THÉP MIỀN NAM - VNSTEEL" Style="font-weight: bold; ddo-char-set: 0; font-size: 11.25pt; vertical-align: middle; text-align: center; font-family: Tahoma" />
+      <Control Type="AR.Label" Name="Label20" Left="1764.012" Top="1581.12" Width="557.2681" Height="288" Caption="Số:" Style="font-weight: normal; ddo-char-set: 1; font-size: 14pt" />
+      <Control Type="AR.Field" Name="TextBox7" Tag="Ngay_Ct" Left="8236.801" Top="4194.72" Width="1421.28" Height="288.0001" Text="Ngay_Ct" OutputFormat="dd/MM/yyyy" Style="font-style: normal; font-size: 12pt; text-align: center; ddo-char-set: 1; font-family: Tahoma" />
+      <Control Type="AR.Label" Name="Label13" Left="1044" Top="4194.72" Width="14225.76" Height="331.2" Caption="Kế hoạch sản xuất của Phân xưởng Luyện thép, Cán thép từ ngày                              như sau:" Style="text-align: left; font-size: 12pt; ddo-char-set: 1; font-family: Tahoma" />
+      <Control Type="AR.Label" Name="Label3" Tag="" Left="666.72" Top="1170.72" Width="4826.88" Height="311.04" Caption="PHÒNG KINH DOANH" Style="font-weight: bold; ddo-char-set: 0; font-size: 11.25pt; vertical-align: middle; text-align: center; font-family: Tahoma" />
+      <Control Type="AR.Line" Name="Line41" X1="2008.8" Y1="1504.8" X2="4190.4" Y2="1504.8" />
+      <Control Type="AR.Label" Name="Label6" Left="2665.438" Top="3111.84" Width="1320.482" Height="393.12" Caption="Kính gửi:" Style="text-align: left; font-size: 12pt; ddo-char-set: 0; font-weight: bold; font-family: Tahoma" />
+      <Control Type="AR.Label" Name="Label7" Left="3790.08" Top="3111.84" Width="6315.839" Height="393.12" Caption="Phân xưởng sản xuất ;" Style="text-align: left; font-size: 12pt; ddo-char-set: 0; font-weight: bold; font-family: Tahoma" />
+      <Control Type="AR.Label" Name="Label8" Left="3790.08" Top="3504.96" Width="6315.839" Height="393.12" Caption="Phòng QLCL." Style="text-align: left; font-size: 12pt; ddo-char-set: 0; font-weight: bold; font-family: Tahoma" />
+    </Section>
+    <Section Type="PageHeader" Name="pageHeader" Height="1153" BackColor="16777215">
+      <Control Type="AR.Field" Name="TextBox10" Left="11115.36" Top="370.08" Width="1592.64" Height="480.9601" Text="Sản lượng tháng" Style="font-weight: bold; ddo-char-set: 1; text-align: center; font-family: Tahoma; font-size: 9pt" />
+      <Control Type="AR.Line" Name="Line4" X1="563.04" Y1="360" X2="15295.3" Y2="360" />
+      <Control Type="AR.Line" Name="Line6" X1="1287.36" Y1="360" X2="1287.722" Y2="1151.826" />
+      <Control Type="AR.Line" Name="Line5" X1="9298.912" Y1="360" X2="9298.501" Y2="1150.387" />
+      <Control Type="AR.Line" Name="Line8" X1="12692.99" Y1="360" X2="12692.58" Y2="1150.387" />
+      <Control Type="AR.Line" Name="Line10" X1="15308.03" Y1="360" X2="15308.65" Y2="1150.387" />
+      <Control Type="AR.Field" Name="TextBox8" Left="13489.93" Top="468" Width="1293.119" Height="600" Text="Ghi chú" Style="font-weight: bold; ddo-char-set: 1; text-align: center; font-family: Tahoma" />
+      <Control Type="AR.Line" Name="Line7" X1="11134.91" Y1="362.88" X2="11135.53" Y2="1153.267" />
+      <Control Type="AR.Field" Name="TextBox28" Left="1431.36" Top="519.84" Width="4207.681" Height="326.8799" Text="Tên - Quy cách sản phẩm" Style="ddo-char-set: 1; font-size: 11.25pt; font-family: Tahoma; white-space: inherit; text-align: center; font-weight: bold" />
+      <Control Type="AR.Line" Name="Line3" X1="563.04" Y1="1140.48" X2="15295.3" Y2="1139.879" />
+      <Control Type="AR.Line" Name="Line13" X1="7460.033" Y1="360" X2="7460.393" Y2="1150.387" />
+      <Control Type="AR.Field" Name="TextBox3" Left="7668.014" Top="468" Width="1573.906" Height="600" Text="Sản lượng đã sản xuất" Style="font-weight: bold; ddo-char-set: 1; text-align: center; font-family: Tahoma" />
+      <Control Type="AR.Field" Name="TextBox11" Tag="Thang_Nam" Left="11113.92" Top="717.1201" Width="1578.24" Height="336.9601" Text="Thang_Nam" Style="font-weight: bold; ddo-char-set: 1; text-align: center; font-family: Tahoma" />
+      <Control Type="AR.Line" Name="Line11" X1="6530.414" Y1="364.32" X2="6530.772" Y2="1154.708" />
+      <Control Type="AR.Line" Name="Line9" X1="547.2001" Y1="360.7372" X2="547.5609" Y2="1152.564" />
+      <Control Type="AR.Field" Name="TextBox12" Left="6530.412" Top="468" Width="930.2405" Height="600" Text="ĐVT" Style="font-weight: bold; ddo-char-set: 1; text-align: center; font-family: Tahoma" />
+      <Control Type="AR.Field" Name="TextBox9" Left="9444.961" Top="424.8" Width="1540.8" Height="672.48" Text="Sản lượng chưa sản xuất" Style="font-weight: bold; ddo-char-set: 1; text-align: center; font-family: Tahoma" />
+      <Control Type="AR.Field" Name="TextBox21" Left="623.5201" Top="468" Width="620.64" Height="571.68" Text="STT" Style="font-weight: bold; ddo-char-set: 1; text-align: center; font-family: Tahoma" />
+    </Section>
+    <Section Type="GroupHeader" Name="groupHeader1" Height="0" BackColor="16777215" />
+    <Section Type="Detail" Name="detail" Height="390" BackColor="16777215">
+      <Control Type="AR.Field" Name="textBox2" DataField="Ten_Vt_Sp" Left="1431.36" Top="44.64" Width="5014.081" Height="288" Text="Ten_Vt_Sp" Style="font-size: 10pt; ddo-char-set: 1; font-family: Tahoma" />
+      <Control Type="AR.Line" Name="Line12" X1="6531.84" Y1="0" X2="6530.809" Y2="361.2334" />
+      <Control Type="AR.Line" Name="Line14" X1="547.2001" Y1="0.0001099706" X2="546.9399" Y2="362.6729" />
+      <Control Type="AR.Line" Name="Line15" X1="15301.44" Y1="2.430756E-05" X2="15301.18" Y2="362.6728" />
+      <Control Type="AR.Line" Name="Line17" X1="561.6" Y1="361.44" X2="15308.25" Y2="360.8399" />
+      <Control Type="AR.Line" Name="Line28" X1="1287.36" Y1="0" X2="1287.101" Y2="362.6726" />
+      <Control Type="AR.Field" Name="TextBox24" DataField="Stt" Left="666.72" Top="44.64" Width="434.8802" Height="288" Text="Stt" Multiline="0" Style="text-align: center; white-space: nowrap; font-size: 10pt; ddo-char-set: 1; font-family: Tahoma" />
+      <Control Type="AR.Line" Name="Line29" X1="7460.64" Y1="1.860783E-05" X2="7460.64" Y2="361.2328" />
+      <Control Type="AR.Line" Name="Line30" X1="11135.52" Y1="0" X2="11135.52" Y2="361.2334" />
+      <Control Type="AR.Line" Name="Line31" X1="9298.08" Y1="0" X2="9298.08" Y2="360" />
+      <Control Type="AR.Field" Name="TextBox34" DataField="So_Luong_Kh" Left="9545.761" Top="44.64" Width="1411.2" Height="288" Text="So_Luong_Kh" OutputFormat="#,##0" Multiline="0" Style="text-align: right; white-space: nowrap; font-size: 10pt; ddo-char-set: 1; font-family: Tahoma" />
+      <Control Type="AR.Field" Name="TextBox35" DataField="So_Luong_Sx" Left="7603.2" Top="44.64" Width="1537.92" Height="288" Text="So_Luong_Sx" OutputFormat="#,##0" Multiline="0" Style="text-align: right; white-space: nowrap; font-size: 10pt; ddo-char-set: 1; font-family: Tahoma" />
+      <Control Type="AR.Field" Name="TextBox15" DataField="So_Luong_Cl" Left="11263.68" Top="44.64" Width="1336.319" Height="288" Text="So_Luong_Cl" OutputFormat="#,##0" Multiline="0" Style="text-align: right; white-space: nowrap; font-size: 10pt; ddo-char-set: 1; font-family: Tahoma" />
+      <Control Type="AR.Line" Name="Line16" X1="12692.16" Y1="0" X2="12692.16" Y2="361.2334" />
+      <Control Type="AR.Field" Name="TextBox4" Left="6696" Top="44.64" Width="434.8802" Height="288" Text="Tấn" Multiline="0" Style="text-align: center; white-space: nowrap; font-size: 10pt; ddo-char-set: 1; font-family: Tahoma" />
+      <Control Type="AR.Field" Name="TextBox5" DataField="Ghi_Chu" Left="12817.44" Top="44.64" Width="2478.242" Height="288" Text="Ghi_Chu" Style="font-size: 10pt; ddo-char-set: 1; font-family: Tahoma" />
+    </Section>
+    <Section Type="GroupFooter" Name="groupFooter1" Height="4948" BackColor="16777215">
+      <Control Type="AR.Field" Name="TextBox6" Left="561.6" Top="84.95998" Width="1372.32" Height="283.4646" Text="* Ghi chú" Style="ddo-char-set: 1; font-size: 11.25pt; font-family: Tahoma; white-space: inherit; text-align: left; font-weight: bold; text-decoration: underline" />
+      <Control Type="AR.Field" Name="TextBox13" Left="547.2" Top="444.96" Width="14761.44" Height="283.4646" Text="- Lệnh sản xuất (LSX) số                                       cho kế hoạch sản xuất từ ngày" Style="ddo-char-set: 1; font-size: 11.25pt; font-family: Tahoma; white-space: inherit; text-align: left; font-weight: normal; text-decoration: none" />
+      <Control Type="AR.Field" Name="TextBox14" Tag="Ngay_Ct" Left="8858.881" Top="440.64" Width="1421.28" Height="345.6001" Text="Ngay_Ct" OutputFormat="dd/MM/yyyy" Style="font-style: normal; font-size: 12pt; text-align: center; ddo-char-set: 1; font-family: Tahoma" />
+      <Control Type="AR.Label" Name="Label4" Tag="So_Ct" Left="3015.36" Top="440.64" Width="2187.361" Height="345.5999" Caption="So_Ct" HyperLink="" Style="font-size: 11pt; font-weight: normal; ddo-char-set: 1; font-family: Tahoma" />
+      <Control Type="AR.Field" Name="TextBox16" Left="547.2" Top="861.1202" Width="14761.44" Height="567.36" Text="- Thép thành phẩm nội địa sản xuất theo Quy định tiêu chuẩn sản phẩm nội bộ của Phòng QLCL (QĐ-QLCL-01 ngày 20/11/2018), Barem sản xuất thép thanh vằn theo Quyết định 518/QĐ-TMN ngày 17/04/2019." Style="ddo-char-set: 0; font-size: 11.25pt; font-family: Tahoma; white-space: inherit; text-align: left; font-weight: normal; text-decoration: none" />
+      <Control Type="AR.Field" Name="TextBox17" Left="547.2" Top="1518.48" Width="14761.44" Height="293.0398" Text="- Thép thành phẩm xuất khẩu sản xuất theo biên bản thỏa thuận với Chip mong ngày" Style="ddo-char-set: 0; font-size: 11.25pt; font-family: Tahoma; white-space: inherit; text-align: left; font-weight: normal; text-decoration: none" />
+      <Control Type="AR.Field" Name="TextBox18" Left="547.2" Top="1916.64" Width="14761.44" Height="357.12" Text="- Phôi dùng sản xuất size D25 có trọng lượng 2.105 kg/cây; phôi dùng sản xuất size D32 có trọng lượng 2.060 kg/cây. " Style="ddo-char-set: 0; font-size: 11.25pt; font-family: Tahoma; white-space: inherit; text-align: left; font-weight: normal; text-decoration: none" />
+      <Control Type="AR.Field" Name="TextBox19" Left="547.2" Top="2334.24" Width="14761.44" Height="866.88" Text="- Tùy theo tình hình sản xuất thực tế, PXSX có thể điều chỉnh linh hoạt sản lượng các nhóm phôi đáp ứng đủ cho sản xuất thép thành phẩm, duy trì cân đối tồn phôi thời điểm đảm bảo theo tỷ lệ: Nhóm I: 40% (trong đó phôi CB240T 50% ), Nhóm II: 10%, Nhóm III: 50%. Đề nghị PXSX nạp nóng tối đa theo Lệnh sản xuất ban hành." Style="ddo-char-set: 0; font-size: 11.25pt; font-family: Tahoma; white-space: inherit; text-align: left; font-weight: normal; text-decoration: none" />
+      <Control Type="AR.Field" Name="TextBox20" Left="547.2" Top="3291.12" Width="14761.44" Height="326.16" Text="- Yêu cầu các đơn vị thực hiện nghiêm túc Lệnh sản xuất trên." Style="ddo-char-set: 0; font-size: 11.25pt; font-family: Tahoma; white-space: inherit; text-align: left; font-weight: normal; text-decoration: none" />
+      <Control Type="AR.Field" Name="TextBox22" Left="547.2" Top="3707.28" Width="14761.44" Height="326.16" Text="* Đánh giá tác động ảnh hưởng:" Style="ddo-char-set: 1; font-size: 11.25pt; font-family: Tahoma; white-space: inherit; text-align: left; font-weight: bold; text-decoration: none" />
+      <Control Type="AR.Field" Name="TextBox23" Left="11737.44" Top="4527.36" Width="2881.441" Height="326.16" Text="TỔNG GIÁM ĐỐC" Style="ddo-char-set: 1; font-size: 11.25pt; font-family: Tahoma; white-space: inherit; text-align: center; font-weight: bold; text-decoration: none" />
+    </Section>
+    <Section Type="PageFooter" Name="pageFooter" Height="419" BackColor="16777215" />
+    <Section Type="ReportFooter" Name="ReportFooter1" Height="0" BackColor="16777215" />
+  </Sections>
+  <ReportComponentTray />
+  <Script><![CDATA[public void groupFooter1_Format()
+{
+	
+}
+
+
+]]></Script>
+  <PageSettings LeftMargin="567" RightMargin="567" TopMargin="283" BottomMargin="567" PaperSize="9" PaperWidth="11906" PaperHeight="16838" PaperName="" Orientation="2" />
+  <Parameters />
+</ActiveReportsLayout>

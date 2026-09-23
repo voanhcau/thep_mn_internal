@@ -1,0 +1,917 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="iwmn_r81dmcotinh_10" model="iwmn.r81dmcotinh">
+            <field name="ma_co_tinh">10</field>
+            <field name="description" eval="False"/>
+            <field name="grade_id">28</field>
+            <field name="dmin">10.0000</field>
+            <field name="dmax">50.0000</field>
+            <field name="yeildp_min">300.0000</field>
+            <field name="yeildp_max">500.0000</field>
+            <field name="yeildh_min">300.0000</field>
+            <field name="yeildh_max">0.0000</field>
+            <field name="yeild24h_min">300.0000</field>
+            <field name="yeild24h_max">0.0000</field>
+            <field name="tensionp_min">500.0000</field>
+            <field name="tensionp_max">800.0000</field>
+            <field name="tensionh_min">500.0000</field>
+            <field name="tensionh_max">0.0000</field>
+            <field name="tension24h_min">500.0000</field>
+            <field name="tension24h_max">0.0000</field>
+            <field name="elong_min">19.0000</field>
+            <field name="elong_max">40.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmcotinh_11" model="iwmn.r81dmcotinh">
+            <field name="ma_co_tinh">11</field>
+            <field name="description" eval="False"/>
+            <field name="grade_id">G20</field>
+            <field name="dmin">5.0000</field>
+            <field name="dmax">16.0000</field>
+            <field name="yeildp_min">240.0000</field>
+            <field name="yeildp_max">500.0000</field>
+            <field name="yeildh_min">240.0000</field>
+            <field name="yeildh_max">0.0000</field>
+            <field name="yeild24h_min">240.0000</field>
+            <field name="yeild24h_max">0.0000</field>
+            <field name="tensionp_min">380.0000</field>
+            <field name="tensionp_max">600.0000</field>
+            <field name="tensionh_min">380.0000</field>
+            <field name="tensionh_max">0.0000</field>
+            <field name="tension24h_min">380.0000</field>
+            <field name="tension24h_max">0.0000</field>
+            <field name="elong_min">25.0000</field>
+            <field name="elong_max">40.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmcotinh_12" model="iwmn.r81dmcotinh">
+            <field name="ma_co_tinh">12</field>
+            <field name="description">12m xuất khẩu</field>
+            <field name="grade_id">G13</field>
+            <field name="dmin">25.0000</field>
+            <field name="dmax">51.0000</field>
+            <field name="yeildp_min">390.0000</field>
+            <field name="yeildp_max">510.0000</field>
+            <field name="yeildh_min">390.0000</field>
+            <field name="yeildh_max">0.0000</field>
+            <field name="yeild24h_min">390.0000</field>
+            <field name="yeild24h_max">0.0000</field>
+            <field name="tensionp_min">560.0000</field>
+            <field name="tensionp_max">800.0000</field>
+            <field name="tensionh_min">560.0000</field>
+            <field name="tensionh_max">0.0000</field>
+            <field name="tension24h_min">560.0000</field>
+            <field name="tension24h_max">0.0000</field>
+            <field name="elong_min">17.0000</field>
+            <field name="elong_max">40.0000</field>
+            <field name="create_log">210915:080714:CUONGPN</field>
+            <field name="lastmodify_log">100820:123453:THANGNT</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmcotinh_13" model="iwmn.r81dmcotinh">
+            <field name="ma_co_tinh">13</field>
+            <field name="description" eval="False"/>
+            <field name="grade_id">G08</field>
+            <field name="dmin">10.0000</field>
+            <field name="dmax">24.0000</field>
+            <field name="yeildp_min">390.0000</field>
+            <field name="yeildp_max">510.0000</field>
+            <field name="yeildh_min">400.0000</field>
+            <field name="yeildh_max">0.0000</field>
+            <field name="yeild24h_min">400.0000</field>
+            <field name="yeild24h_max">0.0000</field>
+            <field name="tensionp_min">560.0000</field>
+            <field name="tensionp_max">800.0000</field>
+            <field name="tensionh_min">590.0000</field>
+            <field name="tensionh_max">0.0000</field>
+            <field name="tension24h_min">560.0000</field>
+            <field name="tension24h_max">0.0000</field>
+            <field name="elong_min">16.0000</field>
+            <field name="elong_max">40.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">100820:123411:THANGNT</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmcotinh_14" model="iwmn.r81dmcotinh">
+            <field name="ma_co_tinh">14</field>
+            <field name="description" eval="False"/>
+            <field name="grade_id">G08</field>
+            <field name="dmin">10.0000</field>
+            <field name="dmax">51.0000</field>
+            <field name="yeildp_min">390.0000</field>
+            <field name="yeildp_max">510.0000</field>
+            <field name="yeildh_min">390.0000</field>
+            <field name="yeildh_max">0.0000</field>
+            <field name="yeild24h_min">390.0000</field>
+            <field name="yeild24h_max">0.0000</field>
+            <field name="tensionp_min">560.0000</field>
+            <field name="tensionp_max">800.0000</field>
+            <field name="tensionh_min">560.0000</field>
+            <field name="tensionh_max">0.0000</field>
+            <field name="tension24h_min">560.0000</field>
+            <field name="tension24h_max">0.0000</field>
+            <field name="elong_min">17.0000</field>
+            <field name="elong_max">40.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">050820:083254:THANGNT</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmcotinh_15" model="iwmn.r81dmcotinh">
+            <field name="ma_co_tinh">15</field>
+            <field name="description" eval="False"/>
+            <field name="grade_id">G13</field>
+            <field name="dmin">10.0000</field>
+            <field name="dmax">24.0000</field>
+            <field name="yeildp_min">390.0000</field>
+            <field name="yeildp_max">510.0000</field>
+            <field name="yeildh_min">400.0000</field>
+            <field name="yeildh_max">0.0000</field>
+            <field name="yeild24h_min">400.0000</field>
+            <field name="yeild24h_max">0.0000</field>
+            <field name="tensionp_min">560.0000</field>
+            <field name="tensionp_max">800.0000</field>
+            <field name="tensionh_min">590.0000</field>
+            <field name="tensionh_max">0.0000</field>
+            <field name="tension24h_min">560.0000</field>
+            <field name="tension24h_max">0.0000</field>
+            <field name="elong_min">16.0000</field>
+            <field name="elong_max">40.0000</field>
+            <field name="create_log">210915:080350:CUONGPN</field>
+            <field name="lastmodify_log">100820:123520:THANGNT</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmcotinh_16" model="iwmn.r81dmcotinh">
+            <field name="ma_co_tinh">16</field>
+            <field name="description" eval="False"/>
+            <field name="grade_id">66</field>
+            <field name="dmin">10.0000</field>
+            <field name="dmax">24.0000</field>
+            <field name="yeildp_min">390.0000</field>
+            <field name="yeildp_max">510.0000</field>
+            <field name="yeildh_min">390.0000</field>
+            <field name="yeildh_max">0.0000</field>
+            <field name="yeild24h_min">390.0000</field>
+            <field name="yeild24h_max">0.0000</field>
+            <field name="tensionp_min">560.0000</field>
+            <field name="tensionp_max">800.0000</field>
+            <field name="tensionh_min">560.0000</field>
+            <field name="tensionh_max">0.0000</field>
+            <field name="tension24h_min">560.0000</field>
+            <field name="tension24h_max">0.0000</field>
+            <field name="elong_min">16.0000</field>
+            <field name="elong_max">40.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmcotinh_17" model="iwmn.r81dmcotinh">
+            <field name="ma_co_tinh">17</field>
+            <field name="description" eval="False"/>
+            <field name="grade_id">66</field>
+            <field name="dmin">25.0000</field>
+            <field name="dmax">50.0000</field>
+            <field name="yeildp_min">390.0000</field>
+            <field name="yeildp_max">510.0000</field>
+            <field name="yeildh_min">390.0000</field>
+            <field name="yeildh_max">0.0000</field>
+            <field name="yeild24h_min">390.0000</field>
+            <field name="yeild24h_max">0.0000</field>
+            <field name="tensionp_min">560.0000</field>
+            <field name="tensionp_max">800.0000</field>
+            <field name="tensionh_min">560.0000</field>
+            <field name="tensionh_max">0.0000</field>
+            <field name="tension24h_min">560.0000</field>
+            <field name="tension24h_max">0.0000</field>
+            <field name="elong_min">17.0000</field>
+            <field name="elong_max">40.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmcotinh_18" model="iwmn.r81dmcotinh">
+            <field name="ma_co_tinh">18</field>
+            <field name="description" eval="False"/>
+            <field name="grade_id">G01</field>
+            <field name="dmin">6.0000</field>
+            <field name="dmax">50.0000</field>
+            <field name="yeildp_min">300.0000</field>
+            <field name="yeildp_max">500.0000</field>
+            <field name="yeildh_min">300.0000</field>
+            <field name="yeildh_max">0.0000</field>
+            <field name="yeild24h_min">300.0000</field>
+            <field name="yeild24h_max">0.0000</field>
+            <field name="tensionp_min">450.0000</field>
+            <field name="tensionp_max">700.0000</field>
+            <field name="tensionh_min">450.0000</field>
+            <field name="tensionh_max">0.0000</field>
+            <field name="tension24h_min">450.0000</field>
+            <field name="tension24h_max">0.0000</field>
+            <field name="elong_min">16.0000</field>
+            <field name="elong_max">40.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">111022:162519:THANGNT</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmcotinh_19" model="iwmn.r81dmcotinh">
+            <field name="ma_co_tinh">19</field>
+            <field name="description" eval="False"/>
+            <field name="grade_id">G10</field>
+            <field name="dmin">10.0000</field>
+            <field name="dmax">24.0000</field>
+            <field name="yeildp_min">390.0000</field>
+            <field name="yeildp_max">510.0000</field>
+            <field name="yeildh_min">400.0000</field>
+            <field name="yeildh_max">0.0000</field>
+            <field name="yeild24h_min">400.0000</field>
+            <field name="yeild24h_max">0.0000</field>
+            <field name="tensionp_min">560.0000</field>
+            <field name="tensionp_max">800.0000</field>
+            <field name="tensionh_min">590.0000</field>
+            <field name="tensionh_max">0.0000</field>
+            <field name="tension24h_min">560.0000</field>
+            <field name="tension24h_max">0.0000</field>
+            <field name="elong_min">16.0000</field>
+            <field name="elong_max">40.0000</field>
+            <field name="create_log">210915:080922:CUONGPN</field>
+            <field name="lastmodify_log">100820:123325:THANGNT</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmcotinh_2" model="iwmn.r81dmcotinh">
+            <field name="ma_co_tinh">2</field>
+            <field name="description" eval="False"/>
+            <field name="grade_id">G09</field>
+            <field name="dmin">25.0000</field>
+            <field name="dmax">50.0000</field>
+            <field name="yeildp_min">490.0000</field>
+            <field name="yeildp_max">625.0000</field>
+            <field name="yeildh_min">490.0000</field>
+            <field name="yeildh_max">0.0000</field>
+            <field name="yeild24h_min">490.0000</field>
+            <field name="yeild24h_max">0.0000</field>
+            <field name="tensionp_min">620.0000</field>
+            <field name="tensionp_max">800.0000</field>
+            <field name="tensionh_min">620.0000</field>
+            <field name="tensionh_max">0.0000</field>
+            <field name="tension24h_min">620.0000</field>
+            <field name="tension24h_max">0.0000</field>
+            <field name="elong_min">13.0000</field>
+            <field name="elong_max">40.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmcotinh_20" model="iwmn.r81dmcotinh">
+            <field name="ma_co_tinh">20</field>
+            <field name="description" eval="False"/>
+            <field name="grade_id">G04</field>
+            <field name="dmin">0.0000</field>
+            <field name="dmax">40.0000</field>
+            <field name="yeildp_min">240.0000</field>
+            <field name="yeildp_max">500.0000</field>
+            <field name="yeildh_min">240.0000</field>
+            <field name="yeildh_max">0.0000</field>
+            <field name="yeild24h_min">240.0000</field>
+            <field name="yeild24h_max">0.0000</field>
+            <field name="tensionp_min">380.0000</field>
+            <field name="tensionp_max">600.0000</field>
+            <field name="tensionh_min">380.0000</field>
+            <field name="tensionh_max">0.0000</field>
+            <field name="tension24h_min">380.0000</field>
+            <field name="tension24h_max">0.0000</field>
+            <field name="elong_min">20.0000</field>
+            <field name="elong_max">50.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">260626:095504:THANGNT</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmcotinh_21" model="iwmn.r81dmcotinh">
+            <field name="ma_co_tinh">21</field>
+            <field name="description" eval="False"/>
+            <field name="grade_id">G02</field>
+            <field name="dmin">10.0000</field>
+            <field name="dmax">43.0000</field>
+            <field name="yeildp_min">400.0000</field>
+            <field name="yeildp_max">680.0000</field>
+            <field name="yeildh_min">400.0000</field>
+            <field name="yeildh_max">0.0000</field>
+            <field name="yeild24h_min">400.0000</field>
+            <field name="yeild24h_max">0.0000</field>
+            <field name="tensionp_min">570.0000</field>
+            <field name="tensionp_max">800.0000</field>
+            <field name="tensionh_min">570.0000</field>
+            <field name="tensionh_max">0.0000</field>
+            <field name="tension24h_min">570.0000</field>
+            <field name="tension24h_max">0.0000</field>
+            <field name="elong_min">14.0000</field>
+            <field name="elong_max">40.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">160723:115405:THANGNT</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmcotinh_22" model="iwmn.r81dmcotinh">
+            <field name="ma_co_tinh">22</field>
+            <field name="description" eval="False"/>
+            <field name="grade_id">G10</field>
+            <field name="dmin">25.0000</field>
+            <field name="dmax">50.0000</field>
+            <field name="yeildp_min">390.0000</field>
+            <field name="yeildp_max">510.0000</field>
+            <field name="yeildh_min">390.0000</field>
+            <field name="yeildh_max">0.0000</field>
+            <field name="yeild24h_min">390.0000</field>
+            <field name="yeild24h_max">0.0000</field>
+            <field name="tensionp_min">560.0000</field>
+            <field name="tensionp_max">800.0000</field>
+            <field name="tensionh_min">560.0000</field>
+            <field name="tensionh_max">0.0000</field>
+            <field name="tension24h_min">560.0000</field>
+            <field name="tension24h_max">0.0000</field>
+            <field name="elong_min">17.0000</field>
+            <field name="elong_max">40.0000</field>
+            <field name="create_log">210915:081011:CUONGPN</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmcotinh_23" model="iwmn.r81dmcotinh">
+            <field name="ma_co_tinh">23</field>
+            <field name="description" eval="False"/>
+            <field name="grade_id">G03</field>
+            <field name="dmin">10.0000</field>
+            <field name="dmax">50.0000</field>
+            <field name="yeildp_min">500.0000</field>
+            <field name="yeildp_max">750.0000</field>
+            <field name="yeildh_min">500.0000</field>
+            <field name="yeildh_max">0.0000</field>
+            <field name="yeild24h_min">600.0000</field>
+            <field name="yeild24h_max">0.0000</field>
+            <field name="tensionp_min">650.0000</field>
+            <field name="tensionp_max">850.0000</field>
+            <field name="tensionh_min">650.0000</field>
+            <field name="tensionh_max">0.0000</field>
+            <field name="tension24h_min">800.0000</field>
+            <field name="tension24h_max">0.0000</field>
+            <field name="elong_min">14.0000</field>
+            <field name="elong_max">40.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">100823:080656:THANGNT</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmcotinh_24" model="iwmn.r81dmcotinh">
+            <field name="ma_co_tinh">24</field>
+            <field name="description">Không logo</field>
+            <field name="grade_id">G24</field>
+            <field name="dmin">0.0000</field>
+            <field name="dmax">40.0000</field>
+            <field name="yeildp_min">240.0000</field>
+            <field name="yeildp_max">500.0000</field>
+            <field name="yeildh_min">240.0000</field>
+            <field name="yeildh_max">0.0000</field>
+            <field name="yeild24h_min">240.0000</field>
+            <field name="yeild24h_max">0.0000</field>
+            <field name="tensionp_min">380.0000</field>
+            <field name="tensionp_max">600.0000</field>
+            <field name="tensionh_min">380.0000</field>
+            <field name="tensionh_max">0.0000</field>
+            <field name="tension24h_min">380.0000</field>
+            <field name="tension24h_max">0.0000</field>
+            <field name="elong_min">20.0000</field>
+            <field name="elong_max">45.0000</field>
+            <field name="create_log">300817:105316:VR</field>
+            <field name="lastmodify_log">270721:092108:THANGNT</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmcotinh_25" model="iwmn.r81dmcotinh">
+            <field name="ma_co_tinh">25</field>
+            <field name="description">Không Quenching</field>
+            <field name="grade_id">G25</field>
+            <field name="dmin">10.0000</field>
+            <field name="dmax">43.0000</field>
+            <field name="yeildp_min">400.0000</field>
+            <field name="yeildp_max">510.0000</field>
+            <field name="yeildh_min">400.0000</field>
+            <field name="yeildh_max">0.0000</field>
+            <field name="yeild24h_min">400.0000</field>
+            <field name="yeild24h_max">0.0000</field>
+            <field name="tensionp_min">570.0000</field>
+            <field name="tensionp_max">800.0000</field>
+            <field name="tensionh_min">570.0000</field>
+            <field name="tensionh_max">0.0000</field>
+            <field name="tension24h_min">570.0000</field>
+            <field name="tension24h_max">0.0000</field>
+            <field name="elong_min">14.0000</field>
+            <field name="elong_max">40.0000</field>
+            <field name="create_log">300817:105349:VR</field>
+            <field name="lastmodify_log">270721:092100:THANGNT</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmcotinh_26" model="iwmn.r81dmcotinh">
+            <field name="ma_co_tinh">26</field>
+            <field name="description">Không Quenching</field>
+            <field name="grade_id">G26</field>
+            <field name="dmin">10.0000</field>
+            <field name="dmax">50.0000</field>
+            <field name="yeildp_min">500.0000</field>
+            <field name="yeildp_max">625.0000</field>
+            <field name="yeildh_min">500.0000</field>
+            <field name="yeildh_max">0.0000</field>
+            <field name="yeild24h_min">650.0000</field>
+            <field name="yeild24h_max">0.0000</field>
+            <field name="tensionp_min">650.0000</field>
+            <field name="tensionp_max">800.0000</field>
+            <field name="tensionh_min">650.0000</field>
+            <field name="tensionh_max">0.0000</field>
+            <field name="tension24h_min">800.0000</field>
+            <field name="tension24h_max">0.0000</field>
+            <field name="elong_min">14.0000</field>
+            <field name="elong_max">40.0000</field>
+            <field name="create_log">300817:105403:VR</field>
+            <field name="lastmodify_log">270721:092136:THANGNT</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmcotinh_27" model="iwmn.r81dmcotinh">
+            <field name="ma_co_tinh">27</field>
+            <field name="description" eval="False"/>
+            <field name="grade_id">G27</field>
+            <field name="dmin">0.0000</field>
+            <field name="dmax">50.0000</field>
+            <field name="yeildp_min">500.0000</field>
+            <field name="yeildp_max">700.0000</field>
+            <field name="yeildh_min">500.0000</field>
+            <field name="yeildh_max">0.0000</field>
+            <field name="yeild24h_min">650.0000</field>
+            <field name="yeild24h_max">0.0000</field>
+            <field name="tensionp_min">650.0000</field>
+            <field name="tensionp_max">850.0000</field>
+            <field name="tensionh_min">650.0000</field>
+            <field name="tensionh_max">0.0000</field>
+            <field name="tension24h_min">800.0000</field>
+            <field name="tension24h_max">0.0000</field>
+            <field name="elong_min">14.0000</field>
+            <field name="elong_max">40.0000</field>
+            <field name="create_log">050620:145559:VR</field>
+            <field name="lastmodify_log">220422:095756:THANGNT</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmcotinh_28" model="iwmn.r81dmcotinh">
+            <field name="ma_co_tinh">28</field>
+            <field name="description" eval="False"/>
+            <field name="grade_id">G16</field>
+            <field name="dmin">6.0000</field>
+            <field name="dmax">50.0000</field>
+            <field name="yeildp_min">300.0000</field>
+            <field name="yeildp_max">500.0000</field>
+            <field name="yeildh_min">300.0000</field>
+            <field name="yeildh_max">0.0000</field>
+            <field name="yeild24h_min">300.0000</field>
+            <field name="yeild24h_max">0.0000</field>
+            <field name="tensionp_min">440.0000</field>
+            <field name="tensionp_max">650.0000</field>
+            <field name="tensionh_min">440.0000</field>
+            <field name="tensionh_max">0.0000</field>
+            <field name="tension24h_min">440.0000</field>
+            <field name="tension24h_max">0.0000</field>
+            <field name="elong_min">16.0000</field>
+            <field name="elong_max">40.0000</field>
+            <field name="create_log">111022:162347:THANGNT</field>
+            <field name="lastmodify_log">121022:081029:THANGNT</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmcotinh_3" model="iwmn.r81dmcotinh">
+            <field name="ma_co_tinh">3</field>
+            <field name="description" eval="False"/>
+            <field name="grade_id">G11</field>
+            <field name="dmin">10.0000</field>
+            <field name="dmax">19.0000</field>
+            <field name="yeildp_min">420.0000</field>
+            <field name="yeildp_max">600.0000</field>
+            <field name="yeildh_min">420.0000</field>
+            <field name="yeildh_max">0.0000</field>
+            <field name="yeild24h_min">420.0000</field>
+            <field name="yeild24h_max">0.0000</field>
+            <field name="tensionp_min">550.0000</field>
+            <field name="tensionp_max">800.0000</field>
+            <field name="tensionh_min">600.0000</field>
+            <field name="tensionh_max">0.0000</field>
+            <field name="tension24h_min">550.0000</field>
+            <field name="tension24h_max">0.0000</field>
+            <field name="elong_min">9.0000</field>
+            <field name="elong_max">40.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">200922:161449:THANGNT</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmcotinh_31" model="iwmn.r81dmcotinh">
+            <field name="ma_co_tinh">31</field>
+            <field name="description" eval="False"/>
+            <field name="grade_id">G28</field>
+            <field name="dmin">10.0000</field>
+            <field name="dmax">24.0000</field>
+            <field name="yeildp_min">295.0000</field>
+            <field name="yeildp_max">500.0000</field>
+            <field name="yeildh_min">295.0000</field>
+            <field name="yeildh_max">0.0000</field>
+            <field name="yeild24h_min">295.0000</field>
+            <field name="yeild24h_max">0.0000</field>
+            <field name="tensionp_min">440.0000</field>
+            <field name="tensionp_max">600.0000</field>
+            <field name="tensionh_min">440.0000</field>
+            <field name="tensionh_max">0.0000</field>
+            <field name="tension24h_min">440.0000</field>
+            <field name="tension24h_max">0.0000</field>
+            <field name="elong_min">16.0000</field>
+            <field name="elong_max">40.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">270721:092539:THANGNT</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmcotinh_32" model="iwmn.r81dmcotinh">
+            <field name="ma_co_tinh">32</field>
+            <field name="description" eval="False"/>
+            <field name="grade_id">G28</field>
+            <field name="dmin">25.0000</field>
+            <field name="dmax">43.0000</field>
+            <field name="yeildp_min">295.0000</field>
+            <field name="yeildp_max">500.0000</field>
+            <field name="yeildh_min">295.0000</field>
+            <field name="yeildh_max">0.0000</field>
+            <field name="yeild24h_min">295.0000</field>
+            <field name="yeild24h_max">0.0000</field>
+            <field name="tensionp_min">440.0000</field>
+            <field name="tensionp_max">600.0000</field>
+            <field name="tensionh_min">440.0000</field>
+            <field name="tensionh_max">0.0000</field>
+            <field name="tension24h_min">440.0000</field>
+            <field name="tension24h_max">0.0000</field>
+            <field name="elong_min">17.0000</field>
+            <field name="elong_max">40.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmcotinh_33" model="iwmn.r81dmcotinh">
+            <field name="ma_co_tinh">33</field>
+            <field name="description" eval="False"/>
+            <field name="grade_id">G29</field>
+            <field name="dmin">10.0000</field>
+            <field name="dmax">24.0000</field>
+            <field name="yeildp_min">295.0000</field>
+            <field name="yeildp_max">550.0000</field>
+            <field name="yeildh_min">295.0000</field>
+            <field name="yeildh_max">0.0000</field>
+            <field name="yeild24h_min">295.0000</field>
+            <field name="yeild24h_max">0.0000</field>
+            <field name="tensionp_min">440.0000</field>
+            <field name="tensionp_max">600.0000</field>
+            <field name="tensionh_min">440.0000</field>
+            <field name="tensionh_max">0.0000</field>
+            <field name="tension24h_min">440.0000</field>
+            <field name="tension24h_max">0.0000</field>
+            <field name="elong_min">16.0000</field>
+            <field name="elong_max">40.0000</field>
+            <field name="create_log">210915:081439:CUONGPN</field>
+            <field name="lastmodify_log">100820:122737:THANGNT</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmcotinh_34" model="iwmn.r81dmcotinh">
+            <field name="ma_co_tinh">34</field>
+            <field name="description" eval="False"/>
+            <field name="grade_id">G29</field>
+            <field name="dmin">25.0000</field>
+            <field name="dmax">43.0000</field>
+            <field name="yeildp_min">295.0000</field>
+            <field name="yeildp_max">550.0000</field>
+            <field name="yeildh_min">295.0000</field>
+            <field name="yeildh_max">0.0000</field>
+            <field name="yeild24h_min">295.0000</field>
+            <field name="yeild24h_max">0.0000</field>
+            <field name="tensionp_min">440.0000</field>
+            <field name="tensionp_max">600.0000</field>
+            <field name="tensionh_min">440.0000</field>
+            <field name="tensionh_max">0.0000</field>
+            <field name="tension24h_min">440.0000</field>
+            <field name="tension24h_max">0.0000</field>
+            <field name="elong_min">17.0000</field>
+            <field name="elong_max">40.0000</field>
+            <field name="create_log">210915:081502:CUONGPN</field>
+            <field name="lastmodify_log">100820:122745:THANGNT</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmcotinh_35" model="iwmn.r81dmcotinh">
+            <field name="ma_co_tinh">35</field>
+            <field name="description" eval="False"/>
+            <field name="grade_id">G31</field>
+            <field name="dmin">5.0000</field>
+            <field name="dmax">16.0000</field>
+            <field name="yeildp_min">240.0000</field>
+            <field name="yeildp_max">500.0000</field>
+            <field name="yeildh_min">240.0000</field>
+            <field name="yeildh_max">0.0000</field>
+            <field name="yeild24h_min">240.0000</field>
+            <field name="yeild24h_max">0.0000</field>
+            <field name="tensionp_min">380.0000</field>
+            <field name="tensionp_max">600.0000</field>
+            <field name="tensionh_min">380.0000</field>
+            <field name="tensionh_max">0.0000</field>
+            <field name="tension24h_min">380.0000</field>
+            <field name="tension24h_max">0.0000</field>
+            <field name="elong_min">20.0000</field>
+            <field name="elong_max">40.0000</field>
+            <field name="create_log">230821:154029:THANGNT</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmcotinh_36" model="iwmn.r81dmcotinh">
+            <field name="ma_co_tinh">36</field>
+            <field name="description" eval="False"/>
+            <field name="grade_id">G33</field>
+            <field name="dmin">10.0000</field>
+            <field name="dmax">40.0000</field>
+            <field name="yeildp_min">500.0000</field>
+            <field name="yeildp_max">650.0000</field>
+            <field name="yeildh_min">540.0000</field>
+            <field name="yeildh_max">650.0000</field>
+            <field name="yeild24h_min">500.0000</field>
+            <field name="yeild24h_max">650.0000</field>
+            <field name="tensionp_min">540.0000</field>
+            <field name="tensionp_max">850.0000</field>
+            <field name="tensionh_min">580.0000</field>
+            <field name="tensionh_max">850.0000</field>
+            <field name="tension24h_min">540.0000</field>
+            <field name="tension24h_max">850.0000</field>
+            <field name="elong_min">5.0000</field>
+            <field name="elong_max">15.0000</field>
+            <field name="create_log">040123:133432:THANGNT</field>
+            <field name="lastmodify_log">310123:095109:THANGNT</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmcotinh_4" model="iwmn.r81dmcotinh">
+            <field name="ma_co_tinh">4</field>
+            <field name="description" eval="False"/>
+            <field name="grade_id">G11</field>
+            <field name="dmin">20.0000</field>
+            <field name="dmax">25.0000</field>
+            <field name="yeildp_min">420.0000</field>
+            <field name="yeildp_max">600.0000</field>
+            <field name="yeildh_min">420.0000</field>
+            <field name="yeildh_max">0.0000</field>
+            <field name="yeild24h_min">420.0000</field>
+            <field name="yeild24h_max">0.0000</field>
+            <field name="tensionp_min">620.0000</field>
+            <field name="tensionp_max">800.0000</field>
+            <field name="tensionh_min">620.0000</field>
+            <field name="tensionh_max">0.0000</field>
+            <field name="tension24h_min">620.0000</field>
+            <field name="tension24h_max">0.0000</field>
+            <field name="elong_min">8.0000</field>
+            <field name="elong_max">40.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmcotinh_42" model="iwmn.r81dmcotinh">
+            <field name="ma_co_tinh">42</field>
+            <field name="description" eval="False"/>
+            <field name="grade_id">G14</field>
+            <field name="dmin">25.0000</field>
+            <field name="dmax">50.0000</field>
+            <field name="yeildp_min">490.0000</field>
+            <field name="yeildp_max">625.0000</field>
+            <field name="yeildh_min">490.0000</field>
+            <field name="yeildh_max">0.0000</field>
+            <field name="yeild24h_min">490.0000</field>
+            <field name="yeild24h_max">0.0000</field>
+            <field name="tensionp_min">620.0000</field>
+            <field name="tensionp_max">800.0000</field>
+            <field name="tensionh_min">620.0000</field>
+            <field name="tensionh_max">0.0000</field>
+            <field name="tension24h_min">620.0000</field>
+            <field name="tension24h_max">0.0000</field>
+            <field name="elong_min">13.0000</field>
+            <field name="elong_max">40.0000</field>
+            <field name="create_log">210915:081858:CUONGPN</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmcotinh_43" model="iwmn.r81dmcotinh">
+            <field name="ma_co_tinh">43</field>
+            <field name="description" eval="False"/>
+            <field name="grade_id">G14</field>
+            <field name="dmin">10.0000</field>
+            <field name="dmax">24.0000</field>
+            <field name="yeildp_min">490.0000</field>
+            <field name="yeildp_max">625.0000</field>
+            <field name="yeildh_min">490.0000</field>
+            <field name="yeildh_max">0.0000</field>
+            <field name="yeild24h_min">490.0000</field>
+            <field name="yeild24h_max">0.0000</field>
+            <field name="tensionp_min">620.0000</field>
+            <field name="tensionp_max">800.0000</field>
+            <field name="tensionh_min">620.0000</field>
+            <field name="tensionh_max">0.0000</field>
+            <field name="tension24h_min">620.0000</field>
+            <field name="tension24h_max">0.0000</field>
+            <field name="elong_min">12.0000</field>
+            <field name="elong_max">40.0000</field>
+            <field name="create_log">210915:082132:CUONGPN</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmcotinh_44" model="iwmn.r81dmcotinh">
+            <field name="ma_co_tinh">44</field>
+            <field name="description" eval="False"/>
+            <field name="grade_id">G09</field>
+            <field name="dmin">10.0000</field>
+            <field name="dmax">24.0000</field>
+            <field name="yeildp_min">490.0000</field>
+            <field name="yeildp_max">625.0000</field>
+            <field name="yeildh_min">490.0000</field>
+            <field name="yeildh_max">0.0000</field>
+            <field name="yeild24h_min">490.0000</field>
+            <field name="yeild24h_max">0.0000</field>
+            <field name="tensionp_min">620.0000</field>
+            <field name="tensionp_max">800.0000</field>
+            <field name="tensionh_min">620.0000</field>
+            <field name="tensionh_max">0.0000</field>
+            <field name="tension24h_min">620.0000</field>
+            <field name="tension24h_max">0.0000</field>
+            <field name="elong_min">12.0000</field>
+            <field name="elong_max">40.0000</field>
+            <field name="create_log">210915:082200:CUONGPN</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmcotinh_5" model="iwmn.r81dmcotinh">
+            <field name="ma_co_tinh">5</field>
+            <field name="description" eval="False"/>
+            <field name="grade_id">G11</field>
+            <field name="dmin">26.0000</field>
+            <field name="dmax">50.0000</field>
+            <field name="yeildp_min">420.0000</field>
+            <field name="yeildp_max">600.0000</field>
+            <field name="yeildh_min">420.0000</field>
+            <field name="yeildh_max">0.0000</field>
+            <field name="yeild24h_min">420.0000</field>
+            <field name="yeild24h_max">0.0000</field>
+            <field name="tensionp_min">620.0000</field>
+            <field name="tensionp_max">800.0000</field>
+            <field name="tensionh_min">620.0000</field>
+            <field name="tensionh_max">0.0000</field>
+            <field name="tension24h_min">620.0000</field>
+            <field name="tension24h_max">0.0000</field>
+            <field name="elong_min">7.0000</field>
+            <field name="elong_max">40.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmcotinh_6" model="iwmn.r81dmcotinh">
+            <field name="ma_co_tinh">6</field>
+            <field name="description" eval="False"/>
+            <field name="grade_id">G15</field>
+            <field name="dmin">10.0000</field>
+            <field name="dmax">19.0000</field>
+            <field name="yeildp_min">280.0000</field>
+            <field name="yeildp_max">500.0000</field>
+            <field name="yeildh_min">320.0000</field>
+            <field name="yeildh_max">0.0000</field>
+            <field name="yeild24h_min">280.0000</field>
+            <field name="yeild24h_max">0.0000</field>
+            <field name="tensionp_min">420.0000</field>
+            <field name="tensionp_max">800.0000</field>
+            <field name="tensionh_min">460.0000</field>
+            <field name="tensionh_max">0.0000</field>
+            <field name="tension24h_min">420.0000</field>
+            <field name="tension24h_max">0.0000</field>
+            <field name="elong_min">12.0000</field>
+            <field name="elong_max">40.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">140726:073709:THANGNT</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmcotinh_7" model="iwmn.r81dmcotinh">
+            <field name="ma_co_tinh">7</field>
+            <field name="description" eval="False"/>
+            <field name="grade_id">G07</field>
+            <field name="dmin">10.0000</field>
+            <field name="dmax">24.0000</field>
+            <field name="yeildp_min">295.0000</field>
+            <field name="yeildp_max">500.0000</field>
+            <field name="yeildh_min">295.0000</field>
+            <field name="yeildh_max">0.0000</field>
+            <field name="yeild24h_min">295.0000</field>
+            <field name="yeild24h_max">0.0000</field>
+            <field name="tensionp_min">440.0000</field>
+            <field name="tensionp_max">600.0000</field>
+            <field name="tensionh_min">440.0000</field>
+            <field name="tensionh_max">0.0000</field>
+            <field name="tension24h_min">440.0000</field>
+            <field name="tension24h_max">0.0000</field>
+            <field name="elong_min">16.0000</field>
+            <field name="elong_max">40.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmcotinh_70" model="iwmn.r81dmcotinh">
+            <field name="ma_co_tinh">70</field>
+            <field name="description" eval="False"/>
+            <field name="grade_id">G12</field>
+            <field name="dmin">10.0000</field>
+            <field name="dmax">24.0000</field>
+            <field name="yeildp_min">295.0000</field>
+            <field name="yeildp_max">550.0000</field>
+            <field name="yeildh_min">295.0000</field>
+            <field name="yeildh_max">0.0000</field>
+            <field name="yeild24h_min">295.0000</field>
+            <field name="yeild24h_max">0.0000</field>
+            <field name="tensionp_min">440.0000</field>
+            <field name="tensionp_max">600.0000</field>
+            <field name="tensionh_min">440.0000</field>
+            <field name="tensionh_max">0.0000</field>
+            <field name="tension24h_min">440.0000</field>
+            <field name="tension24h_max">0.0000</field>
+            <field name="elong_min">16.0000</field>
+            <field name="elong_max">40.0000</field>
+            <field name="create_log">210915:081439:CUONGPN</field>
+            <field name="lastmodify_log">100820:122737:THANGNT</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmcotinh_8" model="iwmn.r81dmcotinh">
+            <field name="ma_co_tinh">8</field>
+            <field name="description" eval="False"/>
+            <field name="grade_id">G07</field>
+            <field name="dmin">25.0000</field>
+            <field name="dmax">43.0000</field>
+            <field name="yeildp_min">295.0000</field>
+            <field name="yeildp_max">500.0000</field>
+            <field name="yeildh_min">295.0000</field>
+            <field name="yeildh_max">0.0000</field>
+            <field name="yeild24h_min">295.0000</field>
+            <field name="yeild24h_max">0.0000</field>
+            <field name="tensionp_min">440.0000</field>
+            <field name="tensionp_max">600.0000</field>
+            <field name="tensionh_min">440.0000</field>
+            <field name="tensionh_max">0.0000</field>
+            <field name="tension24h_min">440.0000</field>
+            <field name="tension24h_max">0.0000</field>
+            <field name="elong_min">17.0000</field>
+            <field name="elong_max">40.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmcotinh_80" model="iwmn.r81dmcotinh">
+            <field name="ma_co_tinh">80</field>
+            <field name="description" eval="False"/>
+            <field name="grade_id">G12</field>
+            <field name="dmin">25.0000</field>
+            <field name="dmax">43.0000</field>
+            <field name="yeildp_min">295.0000</field>
+            <field name="yeildp_max">550.0000</field>
+            <field name="yeildh_min">295.0000</field>
+            <field name="yeildh_max">0.0000</field>
+            <field name="yeild24h_min">295.0000</field>
+            <field name="yeild24h_max">0.0000</field>
+            <field name="tensionp_min">440.0000</field>
+            <field name="tensionp_max">600.0000</field>
+            <field name="tensionh_min">440.0000</field>
+            <field name="tensionh_max">0.0000</field>
+            <field name="tension24h_min">440.0000</field>
+            <field name="tension24h_max">0.0000</field>
+            <field name="elong_min">17.0000</field>
+            <field name="elong_max">40.0000</field>
+            <field name="create_log">210915:081502:CUONGPN</field>
+            <field name="lastmodify_log">100820:122745:THANGNT</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmcotinh_9" model="iwmn.r81dmcotinh">
+            <field name="ma_co_tinh">9</field>
+            <field name="description" eval="False"/>
+            <field name="grade_id">G19</field>
+            <field name="dmin">5.0000</field>
+            <field name="dmax">16.0000</field>
+            <field name="yeildp_min">226.0000</field>
+            <field name="yeildp_max">500.0000</field>
+            <field name="yeildh_min">226.0000</field>
+            <field name="yeildh_max">0.0000</field>
+            <field name="yeild24h_min">226.0000</field>
+            <field name="yeild24h_max">0.0000</field>
+            <field name="tensionp_min">334.0000</field>
+            <field name="tensionp_max">600.0000</field>
+            <field name="tensionh_min">334.0000</field>
+            <field name="tensionh_max">0.0000</field>
+            <field name="tension24h_min">334.0000</field>
+            <field name="tension24h_max">0.0000</field>
+            <field name="elong_min">32.0000</field>
+            <field name="elong_max">40.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+    </data>
+</odoo>

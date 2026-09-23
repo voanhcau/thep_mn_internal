@@ -1,0 +1,975 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="iwmn_r81dmdinhmucnl_1" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">1</field>
+            <field name="ma_nh_vt">10PL</field>
+            <field name="mac_thep" eval="False"/>
+            <field name="dinh_muc">1135.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="grade_id" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_2" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">2</field>
+            <field name="ma_nh_vt">DC</field>
+            <field name="mac_thep" eval="False"/>
+            <field name="dinh_muc">1.9000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="grade_id" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_3" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">3</field>
+            <field name="ma_nh_vt">SLMG</field>
+            <field name="mac_thep">SS400</field>
+            <field name="dinh_muc">8.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">140717:081823:VR</field>
+            <field name="grade_id">G22</field>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_4" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">4</field>
+            <field name="ma_nh_vt">SLMG</field>
+            <field name="mac_thep">CT51</field>
+            <field name="dinh_muc">12.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">140717:081844:VR</field>
+            <field name="grade_id">G23</field>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_5" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">5</field>
+            <field name="ma_nh_vt">SLMG</field>
+            <field name="mac_thep">5SP/PS</field>
+            <field name="dinh_muc">12.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="grade_id" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_6" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">6</field>
+            <field name="ma_nh_vt">SLMG</field>
+            <field name="mac_thep">CB400-V</field>
+            <field name="dinh_muc">15.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">140717:081858:VR</field>
+            <field name="grade_id">G02</field>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_8" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">8</field>
+            <field name="ma_nh_vt">FRSI</field>
+            <field name="mac_thep">SS400</field>
+            <field name="dinh_muc">2.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">130717:163750:VR</field>
+            <field name="grade_id">G22</field>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_9" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">9</field>
+            <field name="ma_nh_vt">FRSI</field>
+            <field name="mac_thep">CB400-V</field>
+            <field name="dinh_muc">2.2000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">130717:163813:VR</field>
+            <field name="grade_id">G02</field>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_10" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">10</field>
+            <field name="ma_nh_vt">FRSI</field>
+            <field name="mac_thep">CT51</field>
+            <field name="dinh_muc">2.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">130717:163826:VR</field>
+            <field name="grade_id">G23</field>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_11" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">11</field>
+            <field name="ma_nh_vt">FRSI</field>
+            <field name="mac_thep">5SP/PS</field>
+            <field name="dinh_muc">2.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="grade_id" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_12" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">12</field>
+            <field name="ma_nh_vt">FRSI</field>
+            <field name="mac_thep">SD390</field>
+            <field name="dinh_muc">4.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">130717:163839:VR</field>
+            <field name="grade_id">G08</field>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_13" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">13</field>
+            <field name="ma_nh_vt">VOI7</field>
+            <field name="mac_thep" eval="False"/>
+            <field name="dinh_muc">60.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="grade_id" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_14" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">14</field>
+            <field name="ma_nh_vt">TPLO</field>
+            <field name="mac_thep" eval="False"/>
+            <field name="dinh_muc">39.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="grade_id" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_15" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">15</field>
+            <field name="ma_nh_vt">OX</field>
+            <field name="mac_thep" eval="False"/>
+            <field name="dinh_muc">39.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="grade_id" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_17" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">17</field>
+            <field name="ma_nh_vt">KH</field>
+            <field name="mac_thep" eval="False"/>
+            <field name="dinh_muc">0.3000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="grade_id" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_18" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">18</field>
+            <field name="ma_nh_vt">SLMG</field>
+            <field name="mac_thep">CB240-T</field>
+            <field name="dinh_muc">8.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">140717:081737:VR</field>
+            <field name="grade_id">G04</field>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_19" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">19</field>
+            <field name="ma_nh_vt">SLMG</field>
+            <field name="mac_thep">CB300-V</field>
+            <field name="dinh_muc">12.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">140717:081747:VR</field>
+            <field name="grade_id">G01</field>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_20" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">20</field>
+            <field name="ma_nh_vt">SLMG</field>
+            <field name="mac_thep">SD295A</field>
+            <field name="dinh_muc">12.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">140717:081759:VR</field>
+            <field name="grade_id">G07</field>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_21" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">21</field>
+            <field name="ma_nh_vt">SLMG</field>
+            <field name="mac_thep">SD390Q</field>
+            <field name="dinh_muc">15.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="grade_id" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_22" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">22</field>
+            <field name="ma_nh_vt">SLMG</field>
+            <field name="mac_thep">CB500Q</field>
+            <field name="dinh_muc">15.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="grade_id" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_23" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">23</field>
+            <field name="ma_nh_vt">FRSI</field>
+            <field name="mac_thep">SD295A</field>
+            <field name="dinh_muc">2.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">140717:081921:VR</field>
+            <field name="grade_id">G07</field>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_24" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">24</field>
+            <field name="ma_nh_vt">FRSI</field>
+            <field name="mac_thep">CB300-V</field>
+            <field name="dinh_muc">2.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">140717:081950:VR</field>
+            <field name="grade_id">G01</field>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_25" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">25</field>
+            <field name="ma_nh_vt">FRSI</field>
+            <field name="mac_thep">CB240-T</field>
+            <field name="dinh_muc">2.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">140717:082004:VR</field>
+            <field name="grade_id">G04</field>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_26" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">26</field>
+            <field name="ma_nh_vt">FRSI</field>
+            <field name="mac_thep">SD390Q</field>
+            <field name="dinh_muc">2.2000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="grade_id" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_27" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">27</field>
+            <field name="ma_nh_vt">FRSI</field>
+            <field name="mac_thep">CB500Q</field>
+            <field name="dinh_muc">2.2000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="grade_id" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_29" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">29</field>
+            <field name="ma_nh_vt">TO01</field>
+            <field name="mac_thep" eval="False"/>
+            <field name="dinh_muc">530.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="grade_id" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_33" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">33</field>
+            <field name="ma_nh_vt">HUYH</field>
+            <field name="mac_thep" eval="False"/>
+            <field name="dinh_muc">1.2000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="grade_id" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_34" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">34</field>
+            <field name="ma_nh_vt">04508</field>
+            <field name="mac_thep" eval="False"/>
+            <field name="dinh_muc">0.0100</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="grade_id" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_35" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">35</field>
+            <field name="ma_nh_vt">FRSI</field>
+            <field name="mac_thep">GR60</field>
+            <field name="dinh_muc">4.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">130717:162837:VR</field>
+            <field name="grade_id">G11</field>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_36" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">36</field>
+            <field name="ma_nh_vt">SLMG</field>
+            <field name="mac_thep">GR60</field>
+            <field name="dinh_muc">20.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="grade_id" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_37" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">37</field>
+            <field name="ma_nh_vt">SLMG</field>
+            <field name="mac_thep">SD390</field>
+            <field name="dinh_muc">20.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">140717:082109:VR</field>
+            <field name="grade_id">G08</field>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_38" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">38</field>
+            <field name="ma_nh_vt">16VL</field>
+            <field name="mac_thep" eval="False"/>
+            <field name="dinh_muc">7.5000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="grade_id" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_39" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">39</field>
+            <field name="ma_nh_vt">TG</field>
+            <field name="mac_thep" eval="False"/>
+            <field name="dinh_muc">1.4000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="grade_id" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_40" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">40</field>
+            <field name="ma_nh_vt">EAF</field>
+            <field name="mac_thep" eval="False"/>
+            <field name="dinh_muc">2.9000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="grade_id" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_41" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">41</field>
+            <field name="ma_nh_vt">LF</field>
+            <field name="mac_thep" eval="False"/>
+            <field name="dinh_muc">3.2000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="grade_id" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_42" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">42</field>
+            <field name="ma_nh_vt">DN</field>
+            <field name="mac_thep" eval="False"/>
+            <field name="dinh_muc">520.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="grade_id" eval="False"/>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_43" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">43</field>
+            <field name="ma_nh_vt">FRSI</field>
+            <field name="mac_thep">NHOM1</field>
+            <field name="dinh_muc">2.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">130717:162328:VR</field>
+            <field name="grade_id">G91</field>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_44" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">44</field>
+            <field name="ma_nh_vt">FRSI</field>
+            <field name="mac_thep">NHOM2</field>
+            <field name="dinh_muc">2.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">130717:162342:VR</field>
+            <field name="grade_id">G92</field>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_45" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">45</field>
+            <field name="ma_nh_vt">FRSI</field>
+            <field name="mac_thep">NHOM3</field>
+            <field name="dinh_muc">2.2000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">130717:162734:VR</field>
+            <field name="grade_id">G93</field>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_46" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">46</field>
+            <field name="ma_nh_vt">FRSI</field>
+            <field name="mac_thep">NHOM4</field>
+            <field name="dinh_muc">2.2000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">130717:162757:VR</field>
+            <field name="grade_id">G94</field>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_47" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">47</field>
+            <field name="ma_nh_vt">FRSI</field>
+            <field name="mac_thep">NHOM5</field>
+            <field name="dinh_muc">4.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">130717:162806:VR</field>
+            <field name="grade_id">G95</field>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_48" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">48</field>
+            <field name="ma_nh_vt">SLMG</field>
+            <field name="mac_thep">NHOM1</field>
+            <field name="dinh_muc">8.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">140717:081634:VR</field>
+            <field name="grade_id">G91</field>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_49" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">49</field>
+            <field name="ma_nh_vt">SLMG</field>
+            <field name="mac_thep">NHOM2</field>
+            <field name="dinh_muc">12.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">140717:081642:VR</field>
+            <field name="grade_id">G92</field>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_50" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">50</field>
+            <field name="ma_nh_vt">SLMG</field>
+            <field name="mac_thep">NHOM3</field>
+            <field name="dinh_muc">15.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">140717:081649:VR</field>
+            <field name="grade_id">G93</field>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_51" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">51</field>
+            <field name="ma_nh_vt">SLMG</field>
+            <field name="mac_thep">NHOM4</field>
+            <field name="dinh_muc">15.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">140717:081656:VR</field>
+            <field name="grade_id">G94</field>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_52" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">52</field>
+            <field name="ma_nh_vt">SLMG</field>
+            <field name="mac_thep">NHOM5</field>
+            <field name="dinh_muc">20.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">140717:081707:VR</field>
+            <field name="grade_id">G95</field>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_53" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">53</field>
+            <field name="ma_nh_vt">SLMG</field>
+            <field name="mac_thep">SD390</field>
+            <field name="dinh_muc">15.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">140717:081724:VR</field>
+            <field name="grade_id">G08</field>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_54" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">54</field>
+            <field name="ma_nh_vt">FRSI</field>
+            <field name="mac_thep">N I</field>
+            <field name="dinh_muc">1.8000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">130717:162216:VR</field>
+            <field name="grade_id">G81</field>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_55" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">55</field>
+            <field name="ma_nh_vt">FRSI</field>
+            <field name="mac_thep">N II</field>
+            <field name="dinh_muc">1.8000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">130717:162232:VR</field>
+            <field name="grade_id">G82</field>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_56" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">56</field>
+            <field name="ma_nh_vt">FRSI</field>
+            <field name="mac_thep">N III</field>
+            <field name="dinh_muc">3.6000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">130717:162248:VR</field>
+            <field name="grade_id">G83</field>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_57" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">57</field>
+            <field name="ma_nh_vt">FRSI</field>
+            <field name="mac_thep">N IV</field>
+            <field name="dinh_muc">1.8000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">130717:162301:VR</field>
+            <field name="grade_id">G84</field>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_58" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">58</field>
+            <field name="ma_nh_vt">SLMG</field>
+            <field name="mac_thep">N I</field>
+            <field name="dinh_muc">8.3000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">130717:165320:VR</field>
+            <field name="grade_id">G81</field>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_59" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">59</field>
+            <field name="ma_nh_vt">SLMG</field>
+            <field name="mac_thep">N II</field>
+            <field name="dinh_muc">12.5000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">130717:165329:VR</field>
+            <field name="grade_id">G82</field>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_60" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">60</field>
+            <field name="ma_nh_vt">SLMG</field>
+            <field name="mac_thep">N III</field>
+            <field name="dinh_muc">20.7000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">130717:165341:VR</field>
+            <field name="grade_id">G83</field>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_61" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">61</field>
+            <field name="ma_nh_vt">SLMG</field>
+            <field name="mac_thep">N IV</field>
+            <field name="dinh_muc">12.5000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">130717:165355:VR</field>
+            <field name="grade_id">G84</field>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_62" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">62</field>
+            <field name="ma_nh_vt">10PL</field>
+            <field name="mac_thep" eval="False"/>
+            <field name="dinh_muc">1130.0000</field>
+            <field name="create_log">050318:113622:VR</field>
+            <field name="lastmodify_log">050318:114710:VR</field>
+            <field name="grade_id" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_63" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">63</field>
+            <field name="ma_nh_vt">FRSI</field>
+            <field name="mac_thep">N III</field>
+            <field name="dinh_muc">2.0000</field>
+            <field name="create_log">060318:082433:VR</field>
+            <field name="lastmodify_log">130717:162248:VR</field>
+            <field name="grade_id">G83</field>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_64" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">64</field>
+            <field name="ma_nh_vt">FRSI</field>
+            <field name="mac_thep">GR60</field>
+            <field name="dinh_muc">3.0000</field>
+            <field name="create_log">060318:082502:VR</field>
+            <field name="lastmodify_log">130717:162837:VR</field>
+            <field name="grade_id">G11</field>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_65" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">65</field>
+            <field name="ma_nh_vt">FRSI</field>
+            <field name="mac_thep">SS400</field>
+            <field name="dinh_muc">1.8000</field>
+            <field name="create_log">060318:082524:VR</field>
+            <field name="lastmodify_log">130717:163750:VR</field>
+            <field name="grade_id">G22</field>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_66" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">66</field>
+            <field name="ma_nh_vt">FRSI</field>
+            <field name="mac_thep">CB400-V</field>
+            <field name="dinh_muc">3.0000</field>
+            <field name="create_log">060318:082555:VR</field>
+            <field name="lastmodify_log">130717:163813:VR</field>
+            <field name="grade_id">G02</field>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_67" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">67</field>
+            <field name="ma_nh_vt">FRSI</field>
+            <field name="mac_thep">CT51</field>
+            <field name="dinh_muc">1.8000</field>
+            <field name="create_log">060318:082613:VR</field>
+            <field name="lastmodify_log">130717:163826:VR</field>
+            <field name="grade_id">G23</field>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_68" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">68</field>
+            <field name="ma_nh_vt">FRSI</field>
+            <field name="mac_thep">5SP/PS</field>
+            <field name="dinh_muc">1.8000</field>
+            <field name="create_log">060318:082642:VR</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="grade_id" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_69" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">69</field>
+            <field name="ma_nh_vt">FRSI</field>
+            <field name="mac_thep">SD390</field>
+            <field name="dinh_muc">3.0000</field>
+            <field name="create_log">060318:082700:VR</field>
+            <field name="lastmodify_log">130717:163839:VR</field>
+            <field name="grade_id">G08</field>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_70" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">70</field>
+            <field name="ma_nh_vt">FRSI</field>
+            <field name="mac_thep">SD295A</field>
+            <field name="dinh_muc">1.8000</field>
+            <field name="create_log">060318:082722:VR</field>
+            <field name="lastmodify_log">140717:081921:VR</field>
+            <field name="grade_id">G07</field>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_71" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">71</field>
+            <field name="ma_nh_vt">FRSI</field>
+            <field name="mac_thep">CB300-V</field>
+            <field name="dinh_muc">1.8000</field>
+            <field name="create_log">060318:082746:VR</field>
+            <field name="lastmodify_log">140717:081950:VR</field>
+            <field name="grade_id">G01</field>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_72" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">72</field>
+            <field name="ma_nh_vt">FRSI</field>
+            <field name="mac_thep">CB240-T</field>
+            <field name="dinh_muc">1.8000</field>
+            <field name="create_log">060318:082800:VR</field>
+            <field name="lastmodify_log">140717:082004:VR</field>
+            <field name="grade_id">G04</field>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_73" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">73</field>
+            <field name="ma_nh_vt">SLMG</field>
+            <field name="mac_thep">GR60</field>
+            <field name="dinh_muc">23.5000</field>
+            <field name="create_log">060318:082836:VR</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="grade_id" eval="False"/>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_74" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">74</field>
+            <field name="ma_nh_vt">SLMG</field>
+            <field name="mac_thep">SD390</field>
+            <field name="dinh_muc">23.5000</field>
+            <field name="create_log">060318:082855:VR</field>
+            <field name="lastmodify_log">140717:082109:VR</field>
+            <field name="grade_id">G08</field>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_76" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">76</field>
+            <field name="ma_nh_vt">SLMG</field>
+            <field name="mac_thep">CB240-T</field>
+            <field name="dinh_muc">8.3000</field>
+            <field name="create_log">060318:083040:VR</field>
+            <field name="lastmodify_log">140717:081737:VR</field>
+            <field name="grade_id">G04</field>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_77" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">77</field>
+            <field name="ma_nh_vt">SLMG</field>
+            <field name="mac_thep">CB300-V</field>
+            <field name="dinh_muc">12.5000</field>
+            <field name="create_log">060318:083101:VR</field>
+            <field name="lastmodify_log">140717:081747:VR</field>
+            <field name="grade_id">G01</field>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_78" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">78</field>
+            <field name="ma_nh_vt">SLMG</field>
+            <field name="mac_thep">SD295A</field>
+            <field name="dinh_muc">12.5000</field>
+            <field name="create_log">060318:083117:VR</field>
+            <field name="lastmodify_log">140717:081759:VR</field>
+            <field name="grade_id">G07</field>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_79" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">79</field>
+            <field name="ma_nh_vt">SLMG</field>
+            <field name="mac_thep">CB400-V</field>
+            <field name="dinh_muc">23.5000</field>
+            <field name="create_log">060318:083158:VR</field>
+            <field name="lastmodify_log">140717:081858:VR</field>
+            <field name="grade_id">G02</field>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_80" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">80</field>
+            <field name="ma_nh_vt">SLMG</field>
+            <field name="mac_thep">N III</field>
+            <field name="dinh_muc">17.5000</field>
+            <field name="create_log">060318:083236:VR</field>
+            <field name="lastmodify_log">130717:165341:VR</field>
+            <field name="grade_id">G83</field>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_81" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">81</field>
+            <field name="ma_nh_vt">10PL</field>
+            <field name="mac_thep" eval="False"/>
+            <field name="dinh_muc">1125.0000</field>
+            <field name="create_log">100620:151332:VR</field>
+            <field name="lastmodify_log">100620:151717:VR</field>
+            <field name="grade_id" eval="False"/>
+            <field name="ngay_ap">2020-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_82" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">82</field>
+            <field name="ma_nh_vt">OX</field>
+            <field name="mac_thep" eval="False"/>
+            <field name="dinh_muc">36.0000</field>
+            <field name="create_log">100620:152040:VR</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="grade_id" eval="False"/>
+            <field name="ngay_ap">2020-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_83" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">83</field>
+            <field name="ma_nh_vt">KH</field>
+            <field name="mac_thep" eval="False"/>
+            <field name="dinh_muc">0.2000</field>
+            <field name="create_log">100620:152121:VR</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="grade_id" eval="False"/>
+            <field name="ngay_ap">2020-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_84" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">84</field>
+            <field name="ma_nh_vt">SLMG</field>
+            <field name="mac_thep">N III</field>
+            <field name="dinh_muc">17.5000</field>
+            <field name="create_log">100620:152437:VR</field>
+            <field name="lastmodify_log">130717:165341:VR</field>
+            <field name="grade_id">G83</field>
+            <field name="ngay_ap">2020-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_85" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">85</field>
+            <field name="ma_nh_vt">SLMG</field>
+            <field name="mac_thep">G28</field>
+            <field name="dinh_muc">12.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">140717:081759:VR</field>
+            <field name="grade_id">G07</field>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_86" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">86</field>
+            <field name="ma_nh_vt">FRSI</field>
+            <field name="mac_thep">G28</field>
+            <field name="dinh_muc">2.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">140717:081921:VR</field>
+            <field name="grade_id">G07</field>
+            <field name="ngay_ap">2015-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_87" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">87</field>
+            <field name="ma_nh_vt">FRSI</field>
+            <field name="mac_thep">G28</field>
+            <field name="dinh_muc">1.8000</field>
+            <field name="create_log">060318:082722:VR</field>
+            <field name="lastmodify_log">140717:081921:VR</field>
+            <field name="grade_id">G07</field>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_88" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">88</field>
+            <field name="ma_nh_vt">SLMG</field>
+            <field name="mac_thep">G28</field>
+            <field name="dinh_muc">12.5000</field>
+            <field name="create_log">060318:083117:VR</field>
+            <field name="lastmodify_log">140717:081759:VR</field>
+            <field name="grade_id">G07</field>
+            <field name="ngay_ap">2018-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_89" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">89</field>
+            <field name="ma_nh_vt">DN</field>
+            <field name="mac_thep" eval="False"/>
+            <field name="dinh_muc">510.0000</field>
+            <field name="create_log">050421:102238:VR</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="grade_id" eval="False"/>
+            <field name="ngay_ap">2021-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_90" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">90</field>
+            <field name="ma_nh_vt">SLMG</field>
+            <field name="mac_thep">N IV</field>
+            <field name="dinh_muc">23.5000</field>
+            <field name="create_log">301221:135038:VR</field>
+            <field name="lastmodify_log">130717:165355:VR</field>
+            <field name="grade_id">G84</field>
+            <field name="ngay_ap">2021-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_91" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">91</field>
+            <field name="ma_nh_vt">FRSI</field>
+            <field name="mac_thep">N IV</field>
+            <field name="dinh_muc">3.0000</field>
+            <field name="create_log">301221:135152:VR</field>
+            <field name="lastmodify_log">130717:162301:VR</field>
+            <field name="grade_id">G84</field>
+            <field name="ngay_ap">2021-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_92" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">92</field>
+            <field name="ma_nh_vt">SLMG</field>
+            <field name="mac_thep">SAE 1006</field>
+            <field name="dinh_muc">8.3000</field>
+            <field name="create_log">301221:140405:VR</field>
+            <field name="lastmodify_log">301221:140556:VR</field>
+            <field name="grade_id">G30</field>
+            <field name="ngay_ap">2021-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_93" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">93</field>
+            <field name="ma_nh_vt">SLMG</field>
+            <field name="mac_thep">SAE 1008</field>
+            <field name="dinh_muc">8.3000</field>
+            <field name="create_log">301221:140418:VR</field>
+            <field name="lastmodify_log">301221:140547:VR</field>
+            <field name="grade_id">G31</field>
+            <field name="ngay_ap">2021-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_94" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">94</field>
+            <field name="ma_nh_vt">FRSI</field>
+            <field name="mac_thep">SAE 1006</field>
+            <field name="dinh_muc">1.8000</field>
+            <field name="create_log">301221:140515:VR</field>
+            <field name="lastmodify_log">301221:140601:VR</field>
+            <field name="grade_id">G30</field>
+            <field name="ngay_ap">2021-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_95" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">95</field>
+            <field name="ma_nh_vt">FRSI</field>
+            <field name="mac_thep">SAE 1008</field>
+            <field name="dinh_muc">1.8000</field>
+            <field name="create_log">301221:140530:VR</field>
+            <field name="lastmodify_log">130717:162216:VR</field>
+            <field name="grade_id">G31</field>
+            <field name="ngay_ap">2021-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_96" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">96</field>
+            <field name="ma_nh_vt">SLMG</field>
+            <field name="mac_thep">3SP</field>
+            <field name="dinh_muc">8.3000</field>
+            <field name="create_log">301221:143627:VR</field>
+            <field name="lastmodify_log">130717:165320:VR</field>
+            <field name="grade_id">G32</field>
+            <field name="ngay_ap">2021-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_97" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">97</field>
+            <field name="ma_nh_vt">SLMG</field>
+            <field name="mac_thep">N I - KLG</field>
+            <field name="dinh_muc">8.3000</field>
+            <field name="create_log">301221:143713:VR</field>
+            <field name="lastmodify_log">301221:144219:VR</field>
+            <field name="grade_id">G80</field>
+            <field name="ngay_ap">2021-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_98" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">98</field>
+            <field name="ma_nh_vt">FRSI</field>
+            <field name="mac_thep">3SP</field>
+            <field name="dinh_muc">1.8000</field>
+            <field name="create_log">301221:143747:VR</field>
+            <field name="lastmodify_log">130717:162216:VR</field>
+            <field name="grade_id">G32</field>
+            <field name="ngay_ap">2021-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_99" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">99</field>
+            <field name="ma_nh_vt">FRSI</field>
+            <field name="mac_thep">N I - KLG</field>
+            <field name="dinh_muc">1.8000</field>
+            <field name="create_log">301221:143758:VR</field>
+            <field name="lastmodify_log">301221:144213:VR</field>
+            <field name="grade_id">G80</field>
+            <field name="ngay_ap">2021-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_100" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">100</field>
+            <field name="ma_nh_vt">TPLO</field>
+            <field name="mac_thep" eval="False"/>
+            <field name="dinh_muc">20.0000</field>
+            <field name="create_log">050422:094534:VR</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="grade_id" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_101" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">101</field>
+            <field name="ma_nh_vt">10PL</field>
+            <field name="mac_thep" eval="False"/>
+            <field name="dinh_muc">1128.0000</field>
+            <field name="create_log">050422:094646:VR</field>
+            <field name="lastmodify_log">100620:151717:VR</field>
+            <field name="grade_id" eval="False"/>
+            <field name="ngay_ap">2022-03-29 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_102" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">102</field>
+            <field name="ma_nh_vt">10PL</field>
+            <field name="mac_thep" eval="False"/>
+            <field name="dinh_muc">1131.0000</field>
+            <field name="create_log">050423:084540:SANGNT</field>
+            <field name="lastmodify_log">100620:151717:VR</field>
+            <field name="grade_id" eval="False"/>
+            <field name="ngay_ap">2023-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_103" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">103</field>
+            <field name="ma_nh_vt">10PL</field>
+            <field name="mac_thep" eval="False"/>
+            <field name="dinh_muc">1138.0000</field>
+            <field name="create_log">290124:145154:VR</field>
+            <field name="lastmodify_log">100620:151717:VR</field>
+            <field name="grade_id" eval="False"/>
+            <field name="ngay_ap">2024-01-01 00:00:00</field>
+        </record>
+        <record id="iwmn_r81dmdinhmucnl_104" model="iwmn.r81dmdinhmucnl">
+            <field name="ident00">104</field>
+            <field name="ma_nh_vt">DC</field>
+            <field name="mac_thep" eval="False"/>
+            <field name="dinh_muc">1.7500</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="grade_id" eval="False"/>
+            <field name="ngay_ap">2026-03-01 00:00:00</field>
+        </record>
+    </data>
+</odoo>

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ActiveReportsLayout Version="3" PrintWidth="12825" DocumentName="ARNet Document" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-family: Times New Roman; font-style: normal; text-decoration: none; font-weight: normal; font-size: 10pt; color: Black; " />
+    <Style Name="Heading1" Value="font-size: 16pt; font-weight: bold; " />
+    <Style Name="Heading2" Value="font-family: Times New Roman; font-size: 14pt; font-weight: bold; font-style: italic; " />
+    <Style Name="Heading3" Value="font-size: 13pt; font-weight: bold; " />
+  </StyleSheet>
+  <Sections>
+    <Section Type="ReportHeader" Name="ReportHeader1" Height="2295" BackColor="16777215">
+      <Control Type="AR.Label" Name="Label1" Tag="Ten_Dv" Left="810" Top="270" Width="5940" Height="270" Caption="Ten_Dv" Style="ddo-char-set: 0; font-weight: bold; font-size: 10pt; font-family: Microsoft Sans Serif; " />
+      <Control Type="AR.Label" Name="Label2" DataField="SubTitle1" Tag="SubTitle1" Left="2070" Top="1800" Width="9389.764" Height="283.4645" Caption="SubTitle1" Style="ddo-char-set: 0; text-align: center; font-weight: normal; font-style: italic; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label3" Tag="" Left="8010" Top="450" Width="3472.441" Height="425.1969" Caption="Ban hành theo QĐ số 15/2006/QĐ-BTC ngày 20/3/2006 của Bộ trưởng BTC" Style="ddo-char-set: 0; text-align: center; font-weight: normal; font-style: italic; font-size: 8.25pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label4" Tag="" Left="8010" Top="180" Width="3472.441" Height="248.0315" Caption="Mẫu số B02-D" Style="ddo-char-set: 0; text-align: center; font-weight: bold; font-style: normal; font-size: 8.25pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label5" Tag="Title" Left="2160" Top="1260" Width="9389.764" Height="496.063" Caption="Title" Style="ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 18pt; font-family: Times New Roman Narrow; " />
+      <Control Type="AR.Label" Name="Label6" Tag="Ten_Dv_Cq" Left="810" Top="0" Width="5940" Height="270" Caption="Ten_Dv_Cq" Style="ddo-char-set: 0; font-weight: bold; font-size: 10pt; font-family: Microsoft Sans Serif; " />
+      <Control Type="AR.Label" Name="Label7" Tag="Dia_Chi_Dv" Left="810" Top="540" Width="5940" Height="270" Caption="Dia_Chi_Dv" Style="ddo-char-set: 0; font-weight: bold; font-size: 10pt; font-family: Microsoft Sans Serif; " />
+    </Section>
+    <Section Type="PageHeader" Name="PageHeader1" Height="825" BackColor="16777215">
+      <Control Type="AR.Line" Name="Line1" Tag="" X1="630" Y1="810" X2="630" Y2="180" />
+      <Control Type="AR.Label" Name="Label9" Tag="" Left="8730" Top="180" Width="1260" Height="270" Caption="Giá trị HHDV" Style="ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9.75pt; font-family: Microsoft Sans Serif; vertical-align: middle; " />
+      <Control Type="AR.Line" Name="Line2" Tag="" X1="630" Y1="810" X2="11970" Y2="810" />
+      <Control Type="AR.Label" Name="Label12" Tag="" Left="1620" Top="270" Width="5490" Height="450" Caption="Chỉ tiêu" Style="ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9.75pt; font-family: Microsoft Sans Serif; vertical-align: middle; " />
+      <Control Type="AR.Line" Name="Line6" Tag="" X1="11970" Y1="810" X2="11970" Y2="180" />
+      <Control Type="AR.Line" Name="Line7" Tag="" X1="8010" Y1="810" X2="8010" Y2="180" />
+      <Control Type="AR.Line" Name="Line8" Tag="" X1="630" Y1="180" X2="11970" Y2="180" />
+      <Control Type="AR.Line" Name="Line9" Tag="" X1="1260" Y1="810" X2="1260" Y2="180" />
+      <Control Type="AR.Label" Name="Label13" Tag="" Left="720" Top="270" Width="450" Height="450" Caption="STT" Style="ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9.75pt; font-family: Microsoft Sans Serif; vertical-align: middle; " />
+      <Control Type="AR.Label" Name="Label14" Tag="" Left="8550" Top="450" Width="1530" Height="270" Caption="(Chưa có thuế)" Style="ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9.75pt; font-family: Microsoft Sans Serif; vertical-align: middle; " />
+      <Control Type="AR.Label" Name="Label15" Tag="" Left="10440" Top="360" Width="1350" Height="270" Caption="Thuế GTGT" Style="ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9.75pt; font-family: Microsoft Sans Serif; vertical-align: middle; " />
+      <Control Type="AR.Line" Name="Line5" Tag="" X1="10170" Y1="810" X2="10170" Y2="180" />
+    </Section>
+    <Section Type="Detail" Name="Detail1" Height="240" BackColor="16777215">
+      <Control Type="AR.Field" Name="TextBox1" DataField="STT_IN" Left="810" Top="0" Width="360" Height="270" Text="STT" OutputFormat="" Style="text-align: center; vertical-align: middle; " />
+      <Control Type="AR.Field" Name="TextBox3" DataField="MA_SO_DT" Left="8010" Top="0" Width="450" Height="270" Text="Mã số doanh thu" Style="text-align: center; vertical-align: middle; " />
+      <Control Type="AR.Field" Name="TextBox4" DataField="TIEN" Left="8730" Top="0" Width="1440" Height="285" Text="tiền" OutputFormat="#,##0" Style="text-align: right; vertical-align: middle; " />
+      <Control Type="AR.Field" Name="TextBox2" DataField="ITEM_NAME" Left="1260" Top="0" Width="6750" Height="270" Text="Chỉ tiêu" Style="text-align: left; vertical-align: middle; " />
+      <Control Type="AR.Field" Name="TextBox5" DataField="MA_SO_VAT" Left="10170" Top="0" Width="450" Height="270" Text="Mã số VAT" Style="text-align: center; vertical-align: middle; " />
+      <Control Type="AR.Field" Name="TextBox6" DataField="TIEN3" Left="10620" Top="0" Width="1350" Height="270" Text="Tiền" OutputFormat="#,##0" Style="text-align: right; vertical-align: middle; " />
+      <Control Type="AR.Line" Name="Line10" Tag="" X1="630" Y1="270" X2="11970" Y2="270" />
+      <Control Type="AR.Line" Name="Line11" Tag="" X1="11970" Y1="270" X2="11970" Y2="0" />
+      <Control Type="AR.Line" Name="Line13" Tag="" X1="1260" Y1="270" X2="1260" Y2="0" />
+      <Control Type="AR.Line" Name="Line15" Tag="" X1="8010" Y1="270" X2="8010" Y2="0" />
+      <Control Type="AR.Line" Name="Line16" Tag="" X1="630" Y1="270" X2="630" Y2="0" />
+      <Control Type="AR.Line" Name="Line17" Tag="" X1="8460" Y1="270" X2="8460" Y2="0" />
+      <Control Type="AR.Line" Name="Line18" Tag="" X1="10170" Y1="270" X2="10170" Y2="0" />
+      <Control Type="AR.Line" Name="Line3" Tag="" X1="10620" Y1="270" X2="10620" Y2="0" />
+    </Section>
+    <Section Type="PageFooter" Name="PageFooter1" Height="554" BackColor="16777215">
+      <Control Type="AR.ReportInfo" Name="ReportInfo2" Left="10080" Top="180" Width="1512" Height="288" FormatString="Trang: {PageNumber}/{PageCount}" />
+    </Section>
+    <Section Type="ReportFooter" Name="ReportFooter1" Height="3870" BackColor="16777215">
+      <Control Type="AR.Label" Name="Label27" Left="8370" Top="450" Width="3150" Height="270" Caption="Ngày...... tháng...... năm..........." HyperLink="" Style="ddo-char-set: 1; text-align: center; font-style: italic; font-size: 10pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label29" Tag="Name3" Left="8730" Top="2880" Width="2807.999" Height="288" Caption="Name3" HyperLink="" Style="ddo-char-set: 1; text-align: center; font-weight: bold; font-size: 10pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label8" Left="810" Top="90" Width="9900" Height="270" Caption="Tôi cam đoan số liệu khai trên là đúng và chịu trách nhiệm trước pháp luật về những số liệu đã khai./." Style="font-weight: bold; " />
+      <Control Type="AR.Label" Name="Label10" Left="8820" Top="810" Width="2520" Height="270" Caption="NGƯỜI NỘP THUẾ hoặc" Style="font-weight: bold; " />
+      <Control Type="AR.Label" Name="Label16" Left="7650" Top="1170" Width="4500" Height="270" Caption="ĐẠI DIỆN HỢP PHÁP CỦA NGƯỜI NỘP THUẾ" Style="font-weight: bold; " />
+      <Control Type="AR.Label" Name="Label11" Left="7920" Top="1440" Width="3960" Height="270" Caption="Ký tên, đóng dấu (ghi rõ họ tên và chức vụ)" Style="font-style: italic; " />
+    </Section>
+  </Sections>
+  <ReportComponentTray />
+  <PageSettings LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" Orientation="1" />
+  <Parameters />
+</ActiveReportsLayout>

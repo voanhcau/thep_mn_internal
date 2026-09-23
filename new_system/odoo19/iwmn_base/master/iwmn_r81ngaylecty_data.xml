@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="iwmn_r81ngaylecty_1" model="iwmn.r81ngaylecty">
+            <field name="ident00">1</field>
+            <field name="tu_ngay">2021-12-31 19:30:00</field>
+            <field name="den_ngay">2022-01-01 00:00:00</field>
+            <field name="ghi_chu">Tết tây</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+            <field name="loai">L</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_2" model="iwmn.r81ngaylecty">
+            <field name="ident00">2</field>
+            <field name="tu_ngay">2022-01-01 00:00:00</field>
+            <field name="den_ngay">2022-01-01 00:00:00</field>
+            <field name="ghi_chu">Tết tây</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+            <field name="loai">L</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_3" model="iwmn.r81ngaylecty">
+            <field name="ident00">3</field>
+            <field name="tu_ngay">2022-01-31 00:00:00</field>
+            <field name="den_ngay">2022-02-04 00:00:00</field>
+            <field name="ghi_chu">Tết âm</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+            <field name="loai">L</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_4" model="iwmn.r81ngaylecty">
+            <field name="ident00">4</field>
+            <field name="tu_ngay">2022-01-30 19:30:00</field>
+            <field name="den_ngay">2022-01-31 00:00:00</field>
+            <field name="ghi_chu">Tết âm</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+            <field name="loai">L</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_5" model="iwmn.r81ngaylecty">
+            <field name="ident00">5</field>
+            <field name="tu_ngay">2022-04-09 19:30:00</field>
+            <field name="den_ngay">2022-04-10 00:00:00</field>
+            <field name="ghi_chu">Giỗ tổ Hùng Vương</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+            <field name="loai">L</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_6" model="iwmn.r81ngaylecty">
+            <field name="ident00">6</field>
+            <field name="tu_ngay">2022-04-10 00:00:00</field>
+            <field name="den_ngay">2022-04-10 00:00:00</field>
+            <field name="ghi_chu">Giỗ tổ Hùng Vương</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+            <field name="loai">L</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_7" model="iwmn.r81ngaylecty">
+            <field name="ident00">7</field>
+            <field name="tu_ngay">2022-04-29 19:30:00</field>
+            <field name="den_ngay">2022-05-01 00:00:00</field>
+            <field name="ghi_chu">Lễ 30/4, 1/5</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+            <field name="loai">L</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_8" model="iwmn.r81ngaylecty">
+            <field name="ident00">8</field>
+            <field name="tu_ngay">2022-04-30 00:00:00</field>
+            <field name="den_ngay">2022-05-01 00:00:00</field>
+            <field name="ghi_chu">Lễ 30/4, 1/5</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+            <field name="loai">L</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_9" model="iwmn.r81ngaylecty">
+            <field name="ident00">9</field>
+            <field name="tu_ngay">2022-09-01 00:00:00</field>
+            <field name="den_ngay">2022-09-02 00:00:00</field>
+            <field name="ghi_chu">Lễ quốc khánh</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+            <field name="loai">L</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_10" model="iwmn.r81ngaylecty">
+            <field name="ident00">10</field>
+            <field name="tu_ngay">2022-08-31 19:30:00</field>
+            <field name="den_ngay">2022-09-02 00:00:00</field>
+            <field name="ghi_chu">Lễ quốc khánh</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+            <field name="loai">L</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_11" model="iwmn.r81ngaylecty">
+            <field name="ident00">11</field>
+            <field name="tu_ngay">2022-12-31 19:30:00</field>
+            <field name="den_ngay">2023-01-01 00:00:00</field>
+            <field name="ghi_chu">Tết tây</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+            <field name="loai">L</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_12" model="iwmn.r81ngaylecty">
+            <field name="ident00">12</field>
+            <field name="tu_ngay">2023-01-01 00:00:00</field>
+            <field name="den_ngay">2023-01-01 00:00:00</field>
+            <field name="ghi_chu">Tết tây</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+            <field name="loai">L</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_13" model="iwmn.r81ngaylecty">
+            <field name="ident00">13</field>
+            <field name="tu_ngay">2023-01-20 19:30:00</field>
+            <field name="den_ngay">2023-01-21 00:00:00</field>
+            <field name="ghi_chu">Tết âm</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+            <field name="loai">L</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_14" model="iwmn.r81ngaylecty">
+            <field name="ident00">14</field>
+            <field name="tu_ngay">2023-01-21 00:00:00</field>
+            <field name="den_ngay">2023-01-25 00:00:00</field>
+            <field name="ghi_chu">Tết âm</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+            <field name="loai">L</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_15" model="iwmn.r81ngaylecty">
+            <field name="ident00">15</field>
+            <field name="tu_ngay">2023-04-28 19:30:00</field>
+            <field name="den_ngay">2023-04-29 00:00:00</field>
+            <field name="ghi_chu">Giỗ tổ Hùng Vương,30/4,1/5</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+            <field name="loai">L</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_16" model="iwmn.r81ngaylecty">
+            <field name="ident00">16</field>
+            <field name="tu_ngay">2023-04-29 00:00:00</field>
+            <field name="den_ngay">2023-05-01 00:00:00</field>
+            <field name="ghi_chu">Giỗ tổ Hùng Vương,30/4,1/5</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+            <field name="loai">L</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_17" model="iwmn.r81ngaylecty">
+            <field name="ident00">17</field>
+            <field name="tu_ngay">2023-05-02 00:00:00</field>
+            <field name="den_ngay">2023-05-03 00:00:00</field>
+            <field name="ghi_chu">nghỉ bù</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="loai">NB</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_18" model="iwmn.r81ngaylecty">
+            <field name="ident00">18</field>
+            <field name="tu_ngay">2023-08-31 19:30:00</field>
+            <field name="den_ngay">2023-09-02 00:00:00</field>
+            <field name="ghi_chu">Lễ quốc khánh</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="loai">L</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_19" model="iwmn.r81ngaylecty">
+            <field name="ident00">19</field>
+            <field name="tu_ngay">2023-09-01 00:00:00</field>
+            <field name="den_ngay">2023-09-02 00:00:00</field>
+            <field name="ghi_chu">Lễ quốc khánh</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="loai">L</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_20" model="iwmn.r81ngaylecty">
+            <field name="ident00">20</field>
+            <field name="tu_ngay">2023-12-31 19:30:00</field>
+            <field name="den_ngay">2024-01-01 00:00:00</field>
+            <field name="ghi_chu">Tết tây</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+            <field name="loai">L</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_21" model="iwmn.r81ngaylecty">
+            <field name="ident00">21</field>
+            <field name="tu_ngay">2024-01-01 00:00:00</field>
+            <field name="den_ngay">2024-01-01 00:00:00</field>
+            <field name="ghi_chu">TẾT TÂY</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+            <field name="loai">L</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_22" model="iwmn.r81ngaylecty">
+            <field name="ident00">22</field>
+            <field name="tu_ngay">2024-02-09 00:00:00</field>
+            <field name="den_ngay">2024-02-14 00:00:00</field>
+            <field name="ghi_chu">TẾT âm</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+            <field name="loai">L</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_23" model="iwmn.r81ngaylecty">
+            <field name="ident00">23</field>
+            <field name="tu_ngay">2024-02-08 19:30:00</field>
+            <field name="den_ngay">2024-02-09 00:00:00</field>
+            <field name="ghi_chu">TẾT âm</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+            <field name="loai">L</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_24" model="iwmn.r81ngaylecty">
+            <field name="ident00">24</field>
+            <field name="tu_ngay">2024-02-05 00:00:00</field>
+            <field name="den_ngay">2024-02-07 00:00:00</field>
+            <field name="ghi_chu">NLĐ nghỉ tết trước 3 ngày theo lịch làm việc</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+            <field name="loai">N1</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_25" model="iwmn.r81ngaylecty">
+            <field name="ident00">25</field>
+            <field name="tu_ngay">2024-04-18 00:00:00</field>
+            <field name="den_ngay">2024-04-18 00:00:00</field>
+            <field name="ghi_chu">Giỗ tổ Hùng Vương</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="loai">L</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_26" model="iwmn.r81ngaylecty">
+            <field name="ident00">26</field>
+            <field name="tu_ngay">2024-04-17 19:30:00</field>
+            <field name="den_ngay">2024-04-18 00:00:00</field>
+            <field name="ghi_chu">Giỗ tổ Hùng Vương</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="loai">L</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_27" model="iwmn.r81ngaylecty">
+            <field name="ident00">27</field>
+            <field name="tu_ngay">2024-04-29 19:30:00</field>
+            <field name="den_ngay">2024-05-01 00:00:00</field>
+            <field name="ghi_chu">Lễ 30/4, 1/5</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="loai">L</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_28" model="iwmn.r81ngaylecty">
+            <field name="ident00">28</field>
+            <field name="tu_ngay">2024-04-30 00:00:00</field>
+            <field name="den_ngay">2024-05-01 00:00:00</field>
+            <field name="ghi_chu">Lễ 30/4, 1/5</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="loai">L</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_29" model="iwmn.r81ngaylecty">
+            <field name="ident00">29</field>
+            <field name="tu_ngay">2024-04-29 00:00:00</field>
+            <field name="den_ngay">2024-04-29 00:00:00</field>
+            <field name="ghi_chu">nghỉ theo quy định cty</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="loai">N1</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_30" model="iwmn.r81ngaylecty">
+            <field name="ident00">30</field>
+            <field name="tu_ngay">2024-09-01 19:30:00</field>
+            <field name="den_ngay">2024-09-03 00:00:00</field>
+            <field name="ghi_chu">Lễ quốc khánh 2/9</field>
+            <field name="create_log">100924:093926:VR</field>
+            <field name="lastmodify_log">130924:085510:VR</field>
+            <field name="ma_data">A01</field>
+            <field name="loai">L</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_31" model="iwmn.r81ngaylecty">
+            <field name="ident00">31</field>
+            <field name="tu_ngay">2025-01-01 00:00:00</field>
+            <field name="den_ngay">2025-01-01 00:00:00</field>
+            <field name="ghi_chu">tết dương lịch</field>
+            <field name="create_log">100924:094211:VR</field>
+            <field name="lastmodify_log">130924:085535:VR</field>
+            <field name="ma_data">A01</field>
+            <field name="loai">L</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_32" model="iwmn.r81ngaylecty">
+            <field name="ident00">32</field>
+            <field name="tu_ngay">2024-12-31 19:30:00</field>
+            <field name="den_ngay">2025-01-01 00:00:00</field>
+            <field name="ghi_chu">Tết tây</field>
+            <field name="create_log">020125:184906:VR</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+            <field name="loai">L</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_33" model="iwmn.r81ngaylecty">
+            <field name="ident00">33</field>
+            <field name="tu_ngay">2025-01-26 19:30:00</field>
+            <field name="den_ngay">2025-01-31 00:00:00</field>
+            <field name="ghi_chu">Tết âm lịch</field>
+            <field name="create_log">160125:152745:VR</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+            <field name="loai">L</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_34" model="iwmn.r81ngaylecty">
+            <field name="ident00">34</field>
+            <field name="tu_ngay">2025-01-27 00:00:00</field>
+            <field name="den_ngay">2025-01-31 00:00:00</field>
+            <field name="ghi_chu">tết âm lịch</field>
+            <field name="create_log">160125:152923:VR</field>
+            <field name="lastmodify_log">200125:112900:VR</field>
+            <field name="ma_data">A01</field>
+            <field name="loai">L</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_35" model="iwmn.r81ngaylecty">
+            <field name="ident00">35</field>
+            <field name="tu_ngay">2025-01-23 00:00:00</field>
+            <field name="den_ngay">2025-01-26 00:00:00</field>
+            <field name="ghi_chu">Công ty tổ chức nghỉ lễ, tết ngoài quy định Nhà nướ</field>
+            <field name="create_log">210125:111357:VR</field>
+            <field name="lastmodify_log">130924:085535:VR</field>
+            <field name="ma_data">A01</field>
+            <field name="loai">N2</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_36" model="iwmn.r81ngaylecty">
+            <field name="ident00">36</field>
+            <field name="tu_ngay">2025-02-01 00:00:00</field>
+            <field name="den_ngay">2025-02-02 00:00:00</field>
+            <field name="ghi_chu">Công ty tổ chức nghỉ lễ, tết ngoài quy định Nhà nướ</field>
+            <field name="create_log">220125:123528:VR</field>
+            <field name="lastmodify_log">130924:085535:VR</field>
+            <field name="ma_data">A01</field>
+            <field name="loai">N2</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_37" model="iwmn.r81ngaylecty">
+            <field name="ident00">37</field>
+            <field name="tu_ngay">2025-04-06 19:30:00</field>
+            <field name="den_ngay">2025-04-07 00:00:00</field>
+            <field name="ghi_chu">giỗ tổ Hùng Vương</field>
+            <field name="create_log">040425:085438:VR</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+            <field name="loai">L</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_38" model="iwmn.r81ngaylecty">
+            <field name="ident00">38</field>
+            <field name="tu_ngay">2025-04-07 00:00:00</field>
+            <field name="den_ngay">2025-04-07 00:00:00</field>
+            <field name="ghi_chu">giỗ tổ Hùng Vương</field>
+            <field name="create_log">040425:085503:VR</field>
+            <field name="lastmodify_log">130924:085535:VR</field>
+            <field name="ma_data">A01</field>
+            <field name="loai">L</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_39" model="iwmn.r81ngaylecty">
+            <field name="ident00">39</field>
+            <field name="tu_ngay">2025-04-29 19:30:00</field>
+            <field name="den_ngay">2025-05-01 00:00:00</field>
+            <field name="ghi_chu">nghỉ lễ 30/4</field>
+            <field name="create_log">040425:134645:VR</field>
+            <field name="lastmodify_log">040425:134723:VR</field>
+            <field name="ma_data" eval="False"/>
+            <field name="loai">L</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_40" model="iwmn.r81ngaylecty">
+            <field name="ident00">40</field>
+            <field name="tu_ngay">2025-04-30 00:00:00</field>
+            <field name="den_ngay">2025-05-01 00:00:00</field>
+            <field name="ghi_chu">lễ 30/4</field>
+            <field name="create_log">040425:134706:VR</field>
+            <field name="lastmodify_log">040425:134730:VR</field>
+            <field name="ma_data">A01</field>
+            <field name="loai">L</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_41" model="iwmn.r81ngaylecty">
+            <field name="ident00">41</field>
+            <field name="tu_ngay">2025-05-02 00:00:00</field>
+            <field name="den_ngay">2025-05-02 00:00:00</field>
+            <field name="ghi_chu">Công ty tổ chức nghỉ lễ, tết ngoài quy định Nhà nướ</field>
+            <field name="create_log">040425:134755:VR</field>
+            <field name="lastmodify_log">130924:085535:VR</field>
+            <field name="ma_data">A01</field>
+            <field name="loai">N2</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_42" model="iwmn.r81ngaylecty">
+            <field name="ident00">42</field>
+            <field name="tu_ngay">2025-08-31 19:30:00</field>
+            <field name="den_ngay">2025-09-02 00:00:00</field>
+            <field name="ghi_chu">nghỉ lễ 2/9</field>
+            <field name="create_log">250825:141548:VR</field>
+            <field name="lastmodify_log">270825:095011:VR</field>
+            <field name="ma_data" eval="False"/>
+            <field name="loai">L</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_43" model="iwmn.r81ngaylecty">
+            <field name="ident00">43</field>
+            <field name="tu_ngay">2025-09-01 00:00:00</field>
+            <field name="den_ngay">2025-09-02 00:00:00</field>
+            <field name="ghi_chu">lễ 2/9</field>
+            <field name="create_log">250825:141604:VR</field>
+            <field name="lastmodify_log">040425:134730:VR</field>
+            <field name="ma_data">A01</field>
+            <field name="loai">L</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_44" model="iwmn.r81ngaylecty">
+            <field name="ident00">44</field>
+            <field name="tu_ngay">2025-12-31 19:30:00</field>
+            <field name="den_ngay">2026-01-01 00:00:00</field>
+            <field name="ghi_chu">Tết tây</field>
+            <field name="create_log">301225:112515:VR</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+            <field name="loai">L</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_45" model="iwmn.r81ngaylecty">
+            <field name="ident00">45</field>
+            <field name="tu_ngay">2026-01-01 00:00:00</field>
+            <field name="den_ngay">2026-01-01 00:00:00</field>
+            <field name="ghi_chu">tết dương lịch</field>
+            <field name="create_log">301225:112523:VR</field>
+            <field name="lastmodify_log">130924:085535:VR</field>
+            <field name="ma_data">A01</field>
+            <field name="loai">L</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_46" model="iwmn.r81ngaylecty">
+            <field name="ident00">46</field>
+            <field name="tu_ngay">2026-01-29 00:00:00</field>
+            <field name="den_ngay">2026-01-29 00:00:00</field>
+            <field name="ghi_chu">ăn tiệc tất niên cty</field>
+            <field name="create_log">260126:134741:VR</field>
+            <field name="lastmodify_log">130924:085535:VR</field>
+            <field name="ma_data">A01</field>
+            <field name="loai">CT</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_47" model="iwmn.r81ngaylecty">
+            <field name="ident00">47</field>
+            <field name="tu_ngay">2026-02-12 19:30:00</field>
+            <field name="den_ngay">2026-02-23 00:00:00</field>
+            <field name="ghi_chu">Tết âm lịch</field>
+            <field name="create_log">090226:080403:VR</field>
+            <field name="lastmodify_log">090226:104811:VR</field>
+            <field name="ma_data" eval="False"/>
+            <field name="loai">L</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_48" model="iwmn.r81ngaylecty">
+            <field name="ident00">48</field>
+            <field name="tu_ngay">2026-02-13 00:00:00</field>
+            <field name="den_ngay">2026-02-23 00:00:00</field>
+            <field name="ghi_chu">tết âm lịch</field>
+            <field name="create_log">090226:080444:VR</field>
+            <field name="lastmodify_log">090226:104818:VR</field>
+            <field name="ma_data">A01</field>
+            <field name="loai">L</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_49" model="iwmn.r81ngaylecty">
+            <field name="ident00">49</field>
+            <field name="tu_ngay">2026-04-25 19:30:00</field>
+            <field name="den_ngay">2026-04-26 00:00:00</field>
+            <field name="ghi_chu">nghỉ lễ giổ tổ 10/3 26/3 tây</field>
+            <field name="create_log">220426:082116:VR</field>
+            <field name="lastmodify_log">220426:083234:VR</field>
+            <field name="ma_data" eval="False"/>
+            <field name="loai">L</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_50" model="iwmn.r81ngaylecty">
+            <field name="ident00">50</field>
+            <field name="tu_ngay">2026-04-26 00:00:00</field>
+            <field name="den_ngay">2026-04-26 00:00:00</field>
+            <field name="ghi_chu">nghỉ lễ giổ tổ 10/3 26/4</field>
+            <field name="create_log">220426:082143:VR</field>
+            <field name="lastmodify_log">220426:083305:VR</field>
+            <field name="ma_data">A01</field>
+            <field name="loai">L</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_51" model="iwmn.r81ngaylecty">
+            <field name="ident00">51</field>
+            <field name="tu_ngay">2026-04-29 19:30:00</field>
+            <field name="den_ngay">2026-05-01 00:00:00</field>
+            <field name="ghi_chu">nghỉ lễ chiến thắng</field>
+            <field name="create_log">220426:082225:VR</field>
+            <field name="lastmodify_log">090226:104811:VR</field>
+            <field name="ma_data" eval="False"/>
+            <field name="loai">L</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_52" model="iwmn.r81ngaylecty">
+            <field name="ident00">52</field>
+            <field name="tu_ngay">2026-04-30 00:00:00</field>
+            <field name="den_ngay">2026-05-01 00:00:00</field>
+            <field name="ghi_chu">nghỉ lễ chiến thắng</field>
+            <field name="create_log">220426:082246:VR</field>
+            <field name="lastmodify_log">090226:104818:VR</field>
+            <field name="ma_data">A01</field>
+            <field name="loai">L</field>
+        </record>
+        <record id="iwmn_r81ngaylecty_53" model="iwmn.r81ngaylecty">
+            <field name="ident00">53</field>
+            <field name="tu_ngay">2026-04-27 00:00:00</field>
+            <field name="den_ngay">2026-04-27 00:00:00</field>
+            <field name="ghi_chu">nghỉ bù  lễ giổ tổ 10/3 27/4</field>
+            <field name="create_log">220426:083340:VR</field>
+            <field name="lastmodify_log">220426:083305:VR</field>
+            <field name="ma_data">A01</field>
+            <field name="loai">NB</field>
+        </record>
+    </data>
+</odoo>

@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ActiveReportsLayout Version="3.1" PrintWidth="12787.2" DocumentName="ARNet Document" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-style: normal; text-decoration: none; font-weight: normal; color: Black; font-family: &quot;Times New Roman&quot;; font-size: 11pt; ddo-char-set: 204" />
+    <Style Name="Heading1" Value="font-size: 16pt; font-weight: bold; ddo-char-set: 204" />
+    <Style Name="Heading2" Value="font-size: 14pt; font-weight: bold; font-style: italic; font-family: &quot;Times New Roman&quot;; ddo-char-set: 204" />
+    <Style Name="Heading3" Value="font-size: 13pt; font-weight: bold; ddo-char-set: 204" />
+  </StyleSheet>
+  <Sections>
+    <Section Type="ReportHeader" Name="ReportHeader" Height="2946" BackColor="16777215">
+      <Control Type="AR.Label" Name="Label5" Tag="" Left="630.72" Top="264.96" Width="7054.56" Height="296.64" Caption="CÔNG TY TNHH MỘT THÀNH VIÊN THÉP MIỀN NAM-VNSTEEL" HyperLink="" Style="ddo-char-set: 1; text-align: left; font-weight: bold; font-size: 10pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="Label12" Tag="Thang_Nam" Left="2491.2" Top="911.52" Width="7174.081" Height="239.04" Caption="Thang_Nam" HyperLink="" Style="ddo-char-set: 1; text-align: center; font-weight: normal; font-size: 10pt; font-family: Times New Roman; font-style: italic" />
+      <Control Type="AR.Label" Name="Label23" Tag="Ten_Dt_CbNv" Left="1532.16" Top="1185.12" Width="5662.08" Height="223.92" Caption="Ten_Dt_CbNv" HyperLink="" Style="ddo-char-set: 0; text-align: justify; font-weight: normal; font-size: 8.25pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="Label28" Tag="" Left="630.7214" Top="1185.84" Width="1504.8" Height="223.92" Caption="- Họ và tên:" HyperLink="" Style="ddo-char-set: 0; text-align: justify; font-weight: normal; font-size: 8.25pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="Label8" Tag="" Left="2491.2" Top="603.36" Width="7174.081" Height="285.1201" Caption="PHIẾU CẤP PHÁT SỮA BỒI DƯỠNG ĐỘC HẠI" HyperLink="" Style="ddo-char-set: 1; text-align: center; font-weight: bold; font-size: 12pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="Label9" Tag="" Left="7480.8" Top="1185.84" Width="784.8015" Height="223.92" Caption="MSNV:" HyperLink="" Style="ddo-char-set: 0; text-align: justify; font-weight: normal; font-size: 8.25pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="Label10" Tag="Ma_Dt_CbNv" Left="8248.321" Top="1185.84" Width="1699.2" Height="223.92" Caption="Ma_Dt_CbNv" HyperLink="" Style="ddo-char-set: 0; text-align: justify; font-weight: normal; font-size: 8.25pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="Label13" Tag="Ten_Muc_BDDH" Left="2492.64" Top="1630.08" Width="5342.4" Height="209.5199" Caption="Ten_Muc_BDDH" HyperLink="" Style="ddo-char-set: 0; text-align: justify; font-weight: normal; font-size: 8.25pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="Label14" Tag="" Left="630.7211" Top="1629.36" Width="2610.72" Height="209.5201" Caption="- Mức bồi dưỡng độc hại:" HyperLink="" Style="ddo-char-set: 0; text-align: justify; font-weight: normal; font-size: 8.25pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="Label16" Tag="" Left="630.7211" Top="1841.76" Width="7506.72" Height="209.5201" Caption="- Loại sữa bồi dưỡng độc hại được nhận trong ca làm việc:" HyperLink="" Style="ddo-char-set: 0; text-align: justify; font-weight: normal; font-size: 8.25pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="Label17" Tag="" Left="1185.125" Top="2073.599" Width="3712.321" Height="209.5199" Caption="+ sữa chua vinamilk 100g" HyperLink="" Style="ddo-char-set: 0; text-align: justify; font-weight: normal; font-size: 8.25pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="Label18" Tag="" Left="1185.122" Top="2301.12" Width="3712.32" Height="209.5199" Caption="+ sữa tiệt trùng vinamilk F220ml" HyperLink="" Style="ddo-char-set: 0; text-align: justify; font-weight: normal; font-size: 8.25pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="Label19" Tag="" Left="1185.118" Top="2499.842" Width="3712.32" Height="209.5199" Caption="+ sữa tiệt trùng vinamilk 110ml" HyperLink="" Style="ddo-char-set: 0; text-align: justify; font-weight: normal; font-size: 8.25pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="Label29" Tag="" Left="1185.121" Top="2726.64" Width="3712.32" Height="209.5199" Caption="+ sữa tiệt trùng vinamilk ADM 180ml" HyperLink="" Style="ddo-char-set: 0; text-align: justify; font-weight: normal; font-size: 8.25pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="Label30" Tag="" Left="5941.443" Top="2073.599" Width="5837.76" Height="209.5199" Caption="hộp, nhận trực tiếp trong ca làm việc tại nhà ăn công ty" HyperLink="" Style="ddo-char-set: 0; text-align: justify; font-weight: normal; font-size: 8.25pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="Label31" Tag="" Left="5941.439" Top="2301.84" Width="5837.76" Height="209.5199" Caption="bịch" HyperLink="" Style="ddo-char-set: 0; text-align: justify; font-weight: normal; font-size: 8.25pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="Label32" Tag="" Left="5941.437" Top="2499.841" Width="5837.76" Height="209.5199" Caption="hộp" HyperLink="" Style="ddo-char-set: 0; text-align: justify; font-weight: normal; font-size: 8.25pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="Label34" Tag="" Left="5941.439" Top="2725.921" Width="5837.76" Height="209.5199" Caption="hộp" HyperLink="" Style="ddo-char-set: 0; text-align: justify; font-weight: normal; font-size: 8.25pt; font-family: Times New Roman" />
+      <Control Type="AR.Field" Name="TextBox3" Tag="SL_SuaChua" Left="5126.4" Top="2073.6" Width="728.64" Height="216" Text="SL_SuaChua" OutputFormat="#,##0" Style="text-align: center; font-size: 8.25pt; font-family: Times New Roman; ddo-char-set: 0" />
+      <Control Type="AR.Label" Name="Label43" Tag="Chuc_Vu" Left="2676.96" Top="1412.64" Width="4999.681" Height="209.5199" Caption="Chuc_Vu" HyperLink="" Style="ddo-char-set: 0; text-align: justify; font-weight: normal; font-size: 8.25pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="Label44" Tag="" Left="630.7214" Top="1414.08" Width="2924.64" Height="209.5201" Caption="- Vị trí/ chức danh công việc:" HyperLink="" Style="ddo-char-set: 0; text-align: justify; font-weight: normal; font-size: 8.25pt; font-family: Times New Roman" />
+      <Control Type="AR.Field" Name="TextBox10" Tag="SL_SuaBich_220" Left="5126.396" Top="2276.641" Width="728.64" Height="230.3998" Text="SL_SuaBich_220" OutputFormat="#,##0" Style="text-align: center; font-size: 8.25pt; font-family: Times New Roman; ddo-char-set: 0" />
+      <Control Type="AR.Field" Name="TextBox11" Tag="SL_SuaHop_110" Left="5126.396" Top="2466.721" Width="728.64" Height="259.2001" Text="SL_SuaHop_110" OutputFormat="#,##0" Style="text-align: center; font-size: 8.25pt; font-family: Times New Roman; ddo-char-set: 0" />
+      <Control Type="AR.Field" Name="TextBox12" Tag="SL_SuaHop_180" Left="5126.4" Top="2714.4" Width="728.64" Height="259.2001" Text="SL_SuaHop_180" OutputFormat="#,##0" Style="text-align: center; font-size: 8.25pt; font-family: Times New Roman; ddo-char-set: 0" />
+    </Section>
+    <Section Type="PageHeader" Name="PageHeader1" Height="0" BackColor="16777215" />
+    <Section Type="GroupHeader" Name="GroupHeader1" Height="973" BackColor="16777215">
+      <Control Type="AR.Label" Name="Label15" Left="662.4007" Top="640.8" Width="642.2401" Height="257.76" Caption="Ngày" HyperLink="" Style="ddo-char-set: 0; text-align: center; font-weight: normal; font-size: 8.25pt; font-family: Times New Roman" />
+      <Control Type="AR.Line" Name="line2" X1="570.2401" Y1="0" X2="570.2422" Y2="979.2001" />
+      <Control Type="AR.Line" Name="line1" X1="570.2401" Y1="0" X2="11743.68" Y2="1.44058" />
+      <Control Type="AR.Label" Name="Label33" Left="2049.121" Top="640.8" Width="987.8401" Height="257.76" Caption="Ca làm việc" HyperLink="" Style="ddo-char-set: 0; text-align: center; font-weight: normal; font-size: 8.25pt; font-family: Times New Roman" />
+      <Control Type="AR.Line" Name="Line15" X1="11743.2" Y1="0" X2="11743.22" Y2="979.2" />
+      <Control Type="AR.Line" Name="line8" X1="3646.081" Y1="302.4" X2="3646.081" Y2="979.2" />
+      <Control Type="AR.Line" Name="line22" X1="570.2401" Y1="305.28" X2="11743.68" Y2="306.7096" />
+      <Control Type="AR.Label" Name="Label76" Left="3617.281" Top="570.2399" Width="1467.359" Height="385.9207" Caption="sữa chua vinamilk 100g" HyperLink="" Style="ddo-char-set: 0; text-align: center; font-weight: normal; font-size: 8.25pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="Label20" Left="4695.84" Top="33.12" Width="4805.28" Height="298.0801" Caption="Số ca làm việc trong tháng" HyperLink="" Style="ddo-char-set: 1; text-align: center; font-weight: bold; font-size: 8pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="Label35" Left="5307.84" Top="583.1999" Width="1405.44" Height="367.2004" Caption="sữa tiệt trùng vinamilk F220ml" HyperLink="" Style="ddo-char-set: 0; text-align: center; font-weight: normal; font-size: 8.25pt; font-family: Times New Roman" />
+      <Control Type="AR.Line" Name="Line4" X1="5199.84" Y1="604.8" X2="5199.841" Y2="979.2" />
+      <Control Type="AR.Label" Name="Label36" Left="6901.92" Top="568.8" Width="1614.24" Height="375.8401" Caption="sữa tiệt trùng vinamilk 110ml" HyperLink="" Style="ddo-char-set: 0; text-align: center; font-weight: normal; font-size: 8.25pt; font-family: Times New Roman" />
+      <Control Type="AR.Line" Name="Line5" X1="6805.44" Y1="604.8" X2="6805.441" Y2="979.2" />
+      <Control Type="AR.Label" Name="Label37" Left="8759.521" Top="583.1999" Width="1946.88" Height="387.3602" Caption="sữa tiệt trùng vinamilk ADM 180ml" HyperLink="" Style="ddo-char-set: 0; text-align: center; font-weight: normal; font-size: 8.25pt; font-family: Times New Roman" />
+      <Control Type="AR.Line" Name="Line6" X1="8654.401" Y1="604.8" X2="8654.401" Y2="979.2" />
+      <Control Type="AR.Line" Name="Line7" X1="1296.001" Y1="306.72" X2="1296.001" Y2="979.2" />
+      <Control Type="AR.Label" Name="Label38" Left="10710.72" Top="640.8" Width="956.1602" Height="316.8" Caption="Ghi chú" HyperLink="" Style="ddo-char-set: 0; text-align: center; font-weight: normal; font-size: 8.25pt; font-family: Times New Roman" />
+      <Control Type="AR.Line" Name="Line9" X1="10692" Y1="302.4" X2="10692" Y2="979.2" />
+      <Control Type="AR.Line" Name="Line10" X1="570.2401" Y1="599.04" X2="11743.68" Y2="600.4697" />
+      <Control Type="AR.Label" Name="Label39" Left="4860" Top="328.32" Width="4805.279" Height="283.6801" Caption="Số lượng sữa bồi dưỡng độc hại được nhận" HyperLink="" Style="ddo-char-set: 1; text-align: center; font-weight: normal; font-size: 8pt; font-family: Times New Roman" />
+      <Control Type="AR.Line" Name="Line30" X1="570.2401" Y1="959.04" X2="11743.68" Y2="956.16" />
+    </Section>
+    <Section Type="Detail" Name="detail" Height="291" BackColor="16777215">
+      <Control Type="AR.Line" Name="line13" X1="576" Y1="0" X2="575.9979" Y2="282.3307" />
+      <Control Type="AR.Line" Name="line21" X1="11743.2" Y1="0" X2="11743.2" Y2="268.8" />
+      <Control Type="AR.Line" Name="line11" X1="1296.003" Y1="0" X2="1296.001" Y2="253.92" />
+      <Control Type="AR.Line" Name="line3" X1="570.2401" Y1="267.84" X2="11743.68" Y2="264.96" />
+      <Control Type="AR.Line" Name="line19" X1="5202.722" Y1="0" X2="5202.72" Y2="264" />
+      <Control Type="AR.Label" Name="Label11" DataField="Ngay" Left="627.8394" Top="4.157424E-05" Width="642.2401" Height="216.0002" Caption="Ngay" HyperLink="" Style="ddo-char-set: 1; text-align: center; font-weight: normal; font-size: 10pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="Label48" DataField="Ten_Ca" Left="1668.959" Top="4.157424E-05" Width="1091.52" Height="230.3999" Caption="Ten_Ca" HyperLink="" Style="ddo-char-set: 1; text-align: left; font-weight: normal; font-size: 10pt; font-family: Times New Roman" />
+      <Control Type="AR.Field" Name="TextBox1" DataField="SL_SuaChua" Left="3749.76" Top="14.40004" Width="1411.2" Height="201.6" Text="SL_SuaChua" OutputFormat="#,##0" Style="text-align: right; font-size: 10pt; ddo-char-set: 1" />
+      <Control Type="AR.Line" Name="Line12" X1="3646.082" Y1="0" X2="3646.08" Y2="264" />
+      <Control Type="AR.Field" Name="TextBox4" DataField="SL_SuaBich_220" Left="5307.839" Top="14.40004" Width="1411.2" Height="201.6" Text="SL_SuaBich_220" OutputFormat="#,##0" Style="text-align: right; font-size: 10pt; ddo-char-set: 1" />
+      <Control Type="AR.Line" Name="Line14" X1="6825.601" Y1="0" X2="6825.598" Y2="264.0001" />
+      <Control Type="AR.Field" Name="TextBox5" DataField="SL_SuaHop_110" Left="7165.439" Top="18.72003" Width="1411.2" Height="201.6" Text="SL_SuaHop_110" OutputFormat="#,##0" Style="text-align: right; font-size: 10pt; ddo-char-set: 1" />
+      <Control Type="AR.Line" Name="Line16" X1="8654.402" Y1="4.319944" X2="8654.4" Y2="268.32" />
+      <Control Type="AR.Field" Name="TextBox6" DataField="SL_SuaHop_180" Left="9125.28" Top="14.4" Width="1411.2" Height="201.6" Text="SL_SuaHop_180" OutputFormat="#,##0" Style="text-align: right; font-size: 9.75pt; ddo-char-set: 0" />
+      <Control Type="AR.Line" Name="Line17" X1="10692" Y1="0" X2="10692" Y2="264" />
+    </Section>
+    <Section Type="GroupFooter" Name="GroupFooter1" Height="386" BackColor="16777215">
+      <Control Type="AR.Line" Name="Line18" X1="590.4" Y1="374.4" X2="11763.85" Y2="371.52" />
+      <Control Type="AR.Line" Name="Line20" X1="11743.2" Y1="0" X2="11743.2" Y2="369.6" />
+      <Control Type="AR.Line" Name="Line23" X1="570.2365" Y1="0" X2="570.2399" Y2="369.6" />
+      <Control Type="AR.Line" Name="Line24" X1="3646.078" Y1="0" X2="3646.081" Y2="369.6" />
+      <Control Type="AR.Line" Name="Line25" X1="1295.998" Y1="0" X2="1296.001" Y2="369.6" />
+      <Control Type="AR.Label" Name="Label40" Left="1247.04" Top="0" Width="2416.32" Height="385.92" Caption="Cộng SL sữa BDDH được nhận trong tháng" HyperLink="" Style="ddo-char-set: 1; text-align: center; font-weight: bold; font-size: 8pt; font-family: Times New Roman" />
+      <Control Type="AR.Line" Name="Line26" X1="10692" Y1="0" X2="10692" Y2="369.6" />
+      <Control Type="AR.Line" Name="Line27" X1="8654.4" Y1="0" X2="8654.403" Y2="369.6" />
+      <Control Type="AR.Line" Name="Line28" X1="6825.598" Y1="0" X2="6825.601" Y2="369.6" />
+      <Control Type="AR.Line" Name="Line29" X1="5202.718" Y1="0" X2="5202.722" Y2="369.6" />
+      <Control Type="AR.Field" Name="TextBox2" DataField="SL_SuaChua" Left="3929.76" Top="0" Width="1230" Height="355.68" Text="SL_SuaChua" Style="font-weight: bold; ddo-char-set: 1; text-align: right" SummaryType="1" SummaryRunning="1" SummaryGroup="GroupHeader1" />
+      <Control Type="AR.Field" Name="TextBox7" DataField="SL_SuaHop_110" Left="7346.88" Top="0" Width="1230" Height="355.68" Text="SL_SuaHop_110" Style="font-weight: bold; ddo-char-set: 1; text-align: right" SummaryType="1" SummaryRunning="1" SummaryGroup="GroupHeader1" />
+      <Control Type="AR.Field" Name="TextBox8" DataField="SL_SuaBich_220" Left="5489.28" Top="0" Width="1230" Height="355.68" Text="SL_SuaBich_220" Style="font-weight: bold; ddo-char-set: 1; text-align: right" SummaryType="1" SummaryRunning="1" SummaryGroup="GroupHeader1" />
+      <Control Type="AR.Field" Name="TextBox9" DataField="SL_SuaHop_180" Left="9125.28" Top="0" Width="1411.44" Height="355.68" Text="SL_SuaHop_180" Style="font-weight: bold; ddo-char-set: 1; text-align: right" SummaryType="1" SummaryRunning="1" SummaryGroup="GroupHeader1" />
+    </Section>
+    <Section Type="PageFooter" Name="PageFooter1" Height="0" BackColor="16777215" />
+    <Section Type="ReportFooter" Name="ReportFooter" Height="2046" BackColor="16777215">
+      <Control Type="AR.Label" Name="Label67" Tag="" Left="8759.521" Top="1664.64" Width="2907.361" Height="312.4803" Caption="BAN TỔNG GIÁM ĐỐC" HyperLink="" Style="ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9.75pt; font-family: Times New Roman; font-style: normal" />
+      <Control Type="AR.Label" Name="Label26" Tag="" Left="4860" Top="1664.64" Width="3036.961" Height="312.4803" Caption="PHÒNG TCHC" HyperLink="" Style="ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9.75pt; font-family: Times New Roman; font-style: normal" />
+      <Control Type="AR.Label" Name="Label72" Tag="" Left="753.1217" Top="1664.64" Width="3080.16" Height="312.4803" Caption="ĐƠN VỊ QUẢN LÝ TRỰC TIẾP" HyperLink="" Style="ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9.75pt; font-family: Times New Roman; font-style: normal" />
+      <Control Type="AR.Label" Name="Label21" Tag="" Left="777.6024" Top="0" Width="10889.28" Height="253.44" Caption="Lưu ý:" HyperLink="" Style="ddo-char-set: 0; text-align: justify; font-weight: normal; font-size: 8.25pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="Label22" Tag="" Left="777.6028" Top="239.04" Width="10900.8" Height="282.24" Caption="1   Phiếu có giá trị từ ngày 02 đến hết ngày 12 của tháng kế tiếp" HyperLink="" Style="ddo-char-set: 0; text-align: justify; font-weight: normal; font-size: 8.25pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="Label24" Tag="" Left="777.6024" Top="481.6803" Width="10900.8" Height="223.9197" Caption="2   Sữa chua vinamilk 100g: CBCNV nhận trực tiếp tại nhà ăn tại bữa ăn giữa ca (mỗi bữa ăn giữa ca nhận 01 hộp)" HyperLink="" Style="ddo-char-set: 0; text-align: justify; font-weight: normal; font-size: 8.25pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="Label25" Tag="" Left="777.6024" Top="694.8002" Width="10900.8" Height="211.679" Caption="3   Các loại sữa khác: CBCNV liên hệ đơn vị cấp phát sữa BDDH để nhận:" HyperLink="" Style="ddo-char-set: 0; text-align: justify; font-weight: normal; font-size: 8.25pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="Label27" Tag="" Left="766.0799" Top="907.2002" Width="10900.8" Height="211.679" Caption="   + Tên đơn vị cấp phát: Công ty TNHH PM HOME" HyperLink="" Style="ddo-char-set: 0; text-align: justify; font-weight: normal; font-size: 8.25pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="Label41" Tag="" Left="766.0799" Top="1137.601" Width="10900.8" Height="211.679" Caption="   + Địa chỉ đơn vị cấp phát: 134 Tôn Thất Tùng, KP Tân Hạnh, Phường Phú Mỹ, TX Phú Mỹ, Bà Rịa Vũng Tàu" HyperLink="" Style="ddo-char-set: 0; text-align: justify; font-weight: normal; font-size: 8.25pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="Label42" Tag="" Left="766.0813" Top="1368.001" Width="10900.8" Height="211.679" Caption="   + Thời gian nhận:    - Buổi sáng: từ 06h00 - 08h30         - buổi chiều: từ 16h30 - 20h30" HyperLink="" Style="ddo-char-set: 0; text-align: justify; font-weight: normal; font-size: 8.25pt; font-family: Times New Roman" />
+    </Section>
+  </Sections>
+  <ReportComponentTray />
+  <Script><![CDATA[public void ReportHeader_Format()
+{
+	
+}
+
+
+public void GroupFooter1_Format()
+{
+	
+}
+
+
+public void GroupHeader1_Format()
+{
+	
+}
+
+
+]]></Script>
+  <PageSettings LeftMargin="0" TopMargin="0" Orientation="1" />
+  <Parameters />
+</ActiveReportsLayout>

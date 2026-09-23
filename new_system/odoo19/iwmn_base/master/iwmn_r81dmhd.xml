@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_iwmn_r81dmhd_list" model="ir.ui.view">
+        <field name="name">iwmn.r81dmhd.list</field>
+        <field name="model">iwmn.r81dmhd</field>
+        <field name="arch" type="xml">
+            <list string="Hợp đồng">
+                <field name="ma_hd"/>
+                <field name="ten_hd"/>
+                <field name="ngay_ky"/>
+                <field name="so_hd"/>
+                <field name="tk"/>
+                <field name="ma_dt"/>
+                <field name="tien_hd"/>
+                <field name="ngay_begin"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmhd_form" model="ir.ui.view">
+        <field name="name">iwmn.r81dmhd.form</field>
+        <field name="model">iwmn.r81dmhd</field>
+        <field name="arch" type="xml">
+            <form string="Hợp đồng">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="ma_hd"/>
+                            <field name="ten_hd"/>
+                            <field name="ngay_ky"/>
+                            <field name="so_hd"/>
+                            <field name="tk"/>
+                            <field name="ma_dt"/>
+                            <field name="tien_hd"/>
+                            <field name="ngay_begin"/>
+                            <field name="ngay_end"/>
+                            <field name="ma_data"/>
+                            <field name="loai_hd"/>
+                            <field name="tien_hd_nt"/>
+                            <field name="tien_no0"/>
+                            <field name="tien_no_nt0"/>
+                            <field name="tien_tt0"/>
+                            <field name="tien_tt_nt0"/>
+                            <field name="tien_no"/>
+                            <field name="tien_no_nt"/>
+                            <field name="ngay_hd_bd"/>
+                            <field name="ngay_hd_kt"/>
+                            <field name="lai_suat_th"/>
+                            <field name="lai_suat_qh"/>
+                            <field name="ngay_chd_tgd"/>
+                            <field name="ngay_nhd_khvt"/>
+                            <field name="ngay_chd_kttc"/>
+                            <field name="note"/>
+                            <field name="type"/>
+                            <field name="deleted"/>
+                            <field name="auto_number"/>
+                            <field name="nguoi_ky"/>
+                            <field name="ngay_tl"/>
+                            <field name="ngay_phai_thu1"/>
+                            <field name="ngay_phai_thu2"/>
+                            <field name="ngay_phai_thu3"/>
+                            <field name="ngay_phai_thu4"/>
+                            <field name="ngay_phai_thu5"/>
+                            <field name="tien_phai_thu1"/>
+                            <field name="nhan_hieu"/>
+                            <field name="tien_phai_thu2"/>
+                            <field name="dieu_khoan_tt2"/>
+                            <field name="tien_phai_thu3"/>
+                            <field name="dieu_khoan_tt3"/>
+                            <field name="tien_phai_thu4"/>
+                            <field name="dieu_khoan_tt4"/>
+                            <field name="tien_phai_thu5"/>
+                        </group>
+                        <group>
+                            <field name="dieu_khoan_tt5"/>
+                            <field name="ma_nh_hd"/>
+                            <field name="ky_han_tt"/>
+                            <field name="create_log"/>
+                            <field name="lastmodify_log"/>
+                            <field name="ident00"/>
+                            <field name="tien_bao_lanh"/>
+                            <field name="ma_dt_nhbl"/>
+                            <field name="ngay_ship_hd"/>
+                            <field name="ngay_tu"/>
+                            <field name="thoi_gian_gh"/>
+                            <field name="ngay_gh"/>
+                            <field name="file_name"/>
+                            <field name="file_tag"/>
+                            <field name="so_luong"/>
+                            <field name="don_gia"/>
+                            <field name="tien_cam_co"/>
+                            <field name="tien_tin_chap"/>
+                            <field name="dieu_kien_tt"/>
+                            <field name="dia_diem_gh"/>
+                            <field name="ma_hd_goc"/>
+                            <field name="nuocnk_xk"/>
+                            <field name="stt_dt"/>
+                            <field name="ma_ctrinh"/>
+                            <field name="so_qd"/>
+                            <field name="lock"/>
+                            <field name="user_lock"/>
+                            <field name="ghi_chu_lock"/>
+                            <field name="tien_tin_chap_nt"/>
+                            <field name="tien_cam_co_nt"/>
+                            <field name="file_path"/>
+                            <field name="last_tien_log"/>
+                            <field name="note_tien"/>
+                            <field name="is_hd_nt"/>
+                            <field name="ma_bp"/>
+                            <field name="ma_dt_cbnv"/>
+                            <field name="dia_diem_bh"/>
+                            <field name="don_gia_nt"/>
+                            <field name="is_giaon"/>
+                            <field name="dgoi"/>
+                            <field name="ptien"/>
+                            <field name="htttoan"/>
+                            <field name="is_nhan"/>
+                            <field name="user_nhan"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmhd_search" model="ir.ui.view">
+        <field name="name">iwmn.r81dmhd.search</field>
+        <field name="model">iwmn.r81dmhd</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="ten_hd"/>
+                <field name="ma_hd"/>
+                <field name="ngay_ky"/>
+                <field name="so_hd"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_iwmn_r81dmhd" model="ir.actions.act_window">
+        <field name="name">Hợp đồng</field>
+        <field name="res_model">iwmn.r81dmhd</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_iwmn_r81dmhd_search"/>
+    </record>
+
+    <menuitem id="menu_iwmn_r81dmhd" name="Hợp đồng"
+              parent="menu_iwmn_master_finance"
+              action="action_iwmn_r81dmhd" sequence="25"/>
+</odoo>

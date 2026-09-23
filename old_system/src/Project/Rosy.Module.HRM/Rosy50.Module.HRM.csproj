@@ -1,0 +1,1104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AD5177D8-D989-4BE1-A3F7-D3834F610E89}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RosyModule</RootNamespace>
+    <AssemblyName>Rosy.Module.HRM</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Rosy\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.XtraEditors.v7.1, Version=7.1.4.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Rosy\DevExpress.XtraEditors.v7.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v7.1, Version=7.1.4.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Rosy\DevExpress.XtraTreeList.v7.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v7.1.Design, Version=7.1.4.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Rosy\DevExpress.XtraTreeList.v7.1.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Rosy.Module, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Rosy\Rosy.Module.dll</HintPath>
+    </Reference>
+    <Reference Include="Rosy.Report, Version=3.1.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Rosy\Rosy.Report.dll</HintPath>
+    </Reference>
+    <Reference Include="Rosy.System">
+      <HintPath>..\Rosy\Rosy.System.dll</HintPath>
+    </Reference>
+    <Reference Include="Rosy.System.Common">
+      <HintPath>..\Rosy\Rosy.System.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Rosy.System.Data">
+      <HintPath>..\Rosy\Rosy.System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Rosy.System.Element">
+      <HintPath>..\Rosy\Rosy.System.Element.dll</HintPath>
+    </Reference>
+    <Reference Include="Rosy.System.Library">
+      <HintPath>..\Rosy\Rosy.System.Library.dll</HintPath>
+    </Reference>
+    <Reference Include="Rosy.System.Public">
+      <HintPath>..\Rosy\Rosy.System.Public.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Human\frmChuyenBP_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Human\frmChuyenBP_Edit.Designer.cs">
+      <DependentUpon>frmChuyenBP_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Human\frmIn_TuyenDung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Human\frmIn_TuyenDung.Designer.cs">
+      <DependentUpon>frmIn_TuyenDung.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Human\frmUngVien_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Human\frmUngVien_Edit.Designer.cs">
+      <DependentUpon>frmUngVien_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Human\frmTuyenDung_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Human\frmTuyenDung_Edit.Designer.cs">
+      <DependentUpon>frmTuyenDung_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Human\frmTuyenDung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Human\frmTuyenDung.designer.cs">
+      <DependentUpon>frmTuyenDung.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Human\frmChuyenBPCT_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Human\frmChuyenBPCT_Edit.Designer.cs">
+      <DependentUpon>frmChuyenBPCT_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Human\frmQLHSCB_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Human\frmQLHSCB_Edit.Designer.cs">
+      <DependentUpon>frmQLHSCB_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Human\frmAddCBNV_QLDT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Human\frmAddCBNV_QLDT.Designer.cs">
+      <DependentUpon>frmAddCBNV_QLDT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Human\frmLopDT_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Human\frmLopDT_Edit.Designer.cs">
+      <DependentUpon>frmLopDT_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Human\frmNhomLopDT_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Human\frmNhomLopDT_Edit.Designer.cs">
+      <DependentUpon>frmNhomLopDT_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Human\frmQLKSK_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Human\frmQLKSK_Edit.Designer.cs">
+      <DependentUpon>frmQLKSK_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLNhaAn\frmQuerySuatAn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLNhaAn\frmQuerySuatAn.Designer.cs">
+      <DependentUpon>frmQuerySuatAn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RaVaoCong\frmXeCong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RaVaoCong\frmXeCong.designer.cs">
+      <DependentUpon>frmXeCong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RaVaoCong\frmDLRaVaoCong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RaVaoCong\frmDLRaVaoCong.Designer.cs">
+      <DependentUpon>frmDLRaVaoCong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RaVaoCong\frmCtDT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RaVaoCong\frmCtDT.designer.cs">
+      <DependentUpon>frmCtDT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmChamCongNT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmChamCongNT.designer.cs">
+      <DependentUpon>frmChamCongNT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmDmNgayLeCty_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmDmNgayLeCty_Edit.designer.cs">
+      <DependentUpon>frmDmNgayLeCty_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmSuaCongCom_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmSuaCongCom_Edit.Designer.cs">
+      <DependentUpon>frmSuaCongCom_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmSuaCongCom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmSuaCongCom.Designer.cs">
+      <DependentUpon>frmSuaCongCom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmChamCongCom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmChamCongCom.Designer.cs">
+      <DependentUpon>frmChamCongCom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmLuongTTCT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmLuongTTCT.Designer.cs">
+      <DependentUpon>frmLuongTTCT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmHsABC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmHsABC.Designer.cs">
+      <DependentUpon>frmHsABC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmHsABC_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmHsABC_Edit.Designer.cs">
+      <DependentUpon>frmHsABC_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Human\frmQuery_Employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Human\frmQuery_Employee.designer.cs">
+      <DependentUpon>frmQuery_Employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Human\frmDmBpCt_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Human\frmDmBpCt_Edit.designer.cs">
+      <DependentUpon>frmDmBpCt_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Human\frmEmployee_View.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Human\frmEmployee_View.designer.cs">
+      <DependentUpon>frmEmployee_View.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Human\frmHDLD_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Human\frmHDLD_Edit.Designer.cs">
+      <DependentUpon>frmHDLD_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Human\frmEmployee_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Human\frmEmployee_Edit.designer.cs">
+      <DependentUpon>frmEmployee_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Human\frmEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Human\frmEmployee.Designer.cs">
+      <DependentUpon>frmEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Human\frmNghiPhep_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Human\frmNghiPhep_Edit.Designer.cs">
+      <DependentUpon>frmNghiPhep_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Human\frmQLBL_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Human\frmQLBL_Edit.Designer.cs">
+      <DependentUpon>frmQLBL_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Human\frmQLCT_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Human\frmQLCT_Edit.Designer.cs">
+      <DependentUpon>frmQLCT_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Human\frmTNLD_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Human\frmTNLD_Edit.Designer.cs">
+      <DependentUpon>frmTNLD_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Human\frmQLTS_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Human\frmQLTS_Edit.Designer.cs">
+      <DependentUpon>frmQLTS_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Human\frmQTCT_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Human\frmQTCT_Edit.Designer.cs">
+      <DependentUpon>frmQTCT_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Human\frmQTDT_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Human\frmQTDT_Edit.Designer.cs">
+      <DependentUpon>frmQTDT_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Human\frmQHGD_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Human\frmQHGD_Edit.Designer.cs">
+      <DependentUpon>frmQHGD_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Human\frmQTKTKL_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Human\frmQTKTKL_Edit.Designer.cs">
+      <DependentUpon>frmQTKTKL_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Human\frmTsTn0_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Human\frmTsTn0_Edit.Designer.cs">
+      <DependentUpon>frmTsTn0_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Human\frmChuyenBP_Edit.resx">
+      <DependentUpon>frmChuyenBP_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Human\frmIn_TuyenDung.resx">
+      <DependentUpon>frmIn_TuyenDung.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Human\frmUngVien_Edit.resx">
+      <DependentUpon>frmUngVien_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Human\frmTuyenDung_Edit.resx">
+      <DependentUpon>frmTuyenDung_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Human\frmTuyenDung.resx">
+      <DependentUpon>frmTuyenDung.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Human\frmChuyenBPCT_Edit.resx">
+      <DependentUpon>frmChuyenBPCT_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Human\frmQLHSCB_Edit.resx">
+      <DependentUpon>frmQLHSCB_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Human\frmAddCBNV_QLDT.resx">
+      <DependentUpon>frmAddCBNV_QLDT.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Human\frmLopDT_Edit.resx">
+      <DependentUpon>frmLopDT_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Human\frmNhomLopDT_Edit.resx">
+      <DependentUpon>frmNhomLopDT_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Human\frmQLKSK_Edit.resx">
+      <DependentUpon>frmQLKSK_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLNhaAn\frmQuerySuatAn.resx">
+      <DependentUpon>frmQuerySuatAn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RaVaoCong\frmXeCong.resx">
+      <DependentUpon>frmXeCong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RaVaoCong\frmDLRaVaoCong.resx">
+      <DependentUpon>frmDLRaVaoCong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RaVaoCong\frmCtDT.resx">
+      <DependentUpon>frmCtDT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmChamCongNT.resx">
+      <DependentUpon>frmChamCongNT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmDmNgayLeCty_Edit.resx">
+      <DependentUpon>frmDmNgayLeCty_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmSuaCongCom_Edit.resx">
+      <DependentUpon>frmSuaCongCom_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmSuaCongCom.resx">
+      <DependentUpon>frmSuaCongCom.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmChamCongCom.resx">
+      <DependentUpon>frmChamCongCom.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmLuongTTCT.resx">
+      <DependentUpon>frmLuongTTCT.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmHsABC.resx">
+      <DependentUpon>frmHsABC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmHsABC_Edit.resx">
+      <DependentUpon>frmHsABC_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Human\frmQuery_Employee.resx">
+      <DependentUpon>frmQuery_Employee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Human\frmDmBpCt_Edit.resx">
+      <DependentUpon>frmDmBpCt_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Human\frmEmployee_View.resx">
+      <DependentUpon>frmEmployee_View.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Human\frmHDLD_Edit.resx">
+      <DependentUpon>frmHDLD_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Human\frmEmployee_Edit.resx">
+      <DependentUpon>frmEmployee_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Human\frmEmployee.resx">
+      <DependentUpon>frmEmployee.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Human\frmNghiPhep_Edit.resx">
+      <DependentUpon>frmNghiPhep_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Human\frmQLBL_Edit.resx">
+      <DependentUpon>frmQLBL_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Human\frmQLCT_Edit.resx">
+      <DependentUpon>frmQLCT_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Human\frmTNLD_Edit.resx">
+      <DependentUpon>frmTNLD_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Human\frmQLTS_Edit.resx">
+      <DependentUpon>frmQLTS_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Human\frmQTDT_Edit.resx">
+      <DependentUpon>frmQTDT_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Human\frmQHGD_Edit.resx">
+      <DependentUpon>frmQHGD_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Human\frmQTCT_Edit.resx">
+      <DependentUpon>frmQTCT_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Human\frmQTKTKL_Edit.resx">
+      <DependentUpon>frmQTKTKL_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Human\frmTsTn0_Edit.resx">
+      <DependentUpon>frmTsTn0_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLNhaAn\frmInThucDon.resx">
+      <DependentUpon>frmInThucDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLNhaAn\frmSuatAn_Edit.resx">
+      <DependentUpon>frmSuatAn_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLNhaAn\frmDinhMucMonAn_Edit.resx">
+      <DependentUpon>frmDinhMucMonAn_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLNhaAn\frmDinhMucMonAn.resx">
+      <DependentUpon>frmDinhMucMonAn.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLNhaAn\frmThucDon.resx">
+      <DependentUpon>frmThucDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLNhaAn\frmDmMonAn.resx">
+      <DependentUpon>frmDmMonAn.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLNhaAn\frmDmMonAn_Edit.resx">
+      <DependentUpon>frmDmMonAn_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLNhaAn\frmThucDon_Edit.resx">
+      <DependentUpon>frmThucDon_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RaVaoCong\frmVTPTVao.resx">
+      <DependentUpon>frmVTPTVao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RaVaoCong\frmGiayRaVaoCong.resx">
+      <DependentUpon>frmGiayRaVaoCong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RaVaoCong\frmInheritThongTinCan.resx">
+      <DependentUpon>frmInheritThongTinCan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RaVaoCong\frmCBNV.resx">
+      <DependentUpon>frmCBNV.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RaVaoCong\frmThongTinCan.resx">
+      <DependentUpon>frmThongTinCan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RaVaoCong\frmThongTinCan_Edit.resx">
+      <DependentUpon>frmThongTinCan_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RaVaoCong\frmXaLan_Edit.resx">
+      <DependentUpon>frmXaLan_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RaVaoCong\frmUpdateRVC.resx">
+      <DependentUpon>frmUpdateRVC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RaVaoCong\frmXePKD_Edit.resx">
+      <DependentUpon>frmXePKD_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RaVaoCong\frmXeKhachLH_Edit.resx">
+      <DependentUpon>frmXeKhachLH_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RaVaoCong\frmXeKhach_Edit.resx">
+      <DependentUpon>frmXeKhach_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RaVaoCong\frmXeNbRVC_Edit.resx">
+      <DependentUpon>frmXeNbRVC_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RaVaoCong\frmNhanVienRVC_Edit.resx">
+      <DependentUpon>frmNhanVienRVC_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmSuaDLChamCong.resx">
+      <DependentUpon>frmSuaDLChamCong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmDCChamCong_Edit.resx">
+      <DependentUpon>frmDCChamCong_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmPhuongAn_Edit.resx">
+      <DependentUpon>frmPhuongAn_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmBangCong_Edit.resx">
+      <DependentUpon>frmBangCong_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmPhanQuyenXepCa.resx">
+      <DependentUpon>frmPhanQuyenXepCa.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmPhanQuyenXepCa_Edit.resx">
+      <DependentUpon>frmPhanQuyenXepCa_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmChamCongCheck.resx">
+      <DependentUpon>frmChamCongCheck.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmChamCongSX.resx">
+      <DependentUpon>frmChamCongSX.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmDuyet_PTCHC.resx">
+      <DependentUpon>frmDuyet_PTCHC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmInBangLuong.resx">
+      <DependentUpon>frmInBangLuong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmBangLuongKy1.resx">
+      <DependentUpon>frmBangLuongKy1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmBangLuongSP.resx">
+      <DependentUpon>frmBangLuongSP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmBangCong.resx">
+      <DependentUpon>frmBangCong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmIn_QTLuong.resx">
+      <DependentUpon>frmIn_QTLuong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmLuongTT.resx">
+      <DependentUpon>frmLuongTT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmLuong_Edit.resx">
+      <DependentUpon>frmLuong_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmIn_ChamCong.resx">
+      <DependentUpon>frmIn_ChamCong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmLuongTT_Edit.resx">
+      <DependentUpon>frmLuongTT_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmDGBPCT.resx">
+      <DependentUpon>frmDGBPCT.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmDGBPCT_Edit.resx">
+      <DependentUpon>frmDGBPCT_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmSLTinhLuong_Edit.resx">
+      <DependentUpon>frmSLTinhLuong_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmSLTinhLuong.resx">
+      <DependentUpon>frmSLTinhLuong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmCongTangCa_Edit.resx">
+      <DependentUpon>frmCongTangCa_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmHinhThucCC_Edit.resx">
+      <DependentUpon>frmHinhThucCC_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmNVKChamCong_Edit.resx">
+      <DependentUpon>frmNVKChamCong_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmBangLuong.resx">
+      <DependentUpon>frmBangLuong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmBangLuong_Create.resx">
+      <DependentUpon>frmBangLuong_Create.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmBangLuong_Edit.resx">
+      <DependentUpon>frmBangLuong_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmBangLuong_Posted.resx">
+      <DependentUpon>frmBangLuong_Posted.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmChamCong.resx">
+      <DependentUpon>frmChamCong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmHieuQua.resx">
+      <DependentUpon>frmHieuQua.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmHieuQua_Edit.resx">
+      <DependentUpon>frmHieuQua_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmDmTn.resx">
+      <DependentUpon>frmDmTn.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmDmTn_Edit.resx">
+      <DependentUpon>frmDmTn_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmDuyetCongTangCa.resx">
+      <DependentUpon>frmDuyetCongTangCa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmThueTn.resx">
+      <DependentUpon>frmThueTn.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmThueTn_Edit.resx">
+      <DependentUpon>frmThueTn_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmTsTn.resx">
+      <DependentUpon>frmTsTn.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmTsTn_Edit.resx">
+      <DependentUpon>frmTsTn_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="QLNhaAn\frmInThucDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLNhaAn\frmInThucDon.Designer.cs">
+      <DependentUpon>frmInThucDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLNhaAn\frmSuatAn_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLNhaAn\frmSuatAn_Edit.Designer.cs">
+      <DependentUpon>frmSuatAn_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLNhaAn\frmDinhMucMonAn_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLNhaAn\frmDinhMucMonAn_Edit.Designer.cs">
+      <DependentUpon>frmDinhMucMonAn_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLNhaAn\frmDinhMucMonAn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLNhaAn\frmDinhMucMonAn.Designer.cs">
+      <DependentUpon>frmDinhMucMonAn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLNhaAn\frmThucDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLNhaAn\frmThucDon.Designer.cs">
+      <DependentUpon>frmThucDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLNhaAn\frmDmMonAn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLNhaAn\frmDmMonAn.Designer.cs">
+      <DependentUpon>frmDmMonAn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLNhaAn\frmDmMonAn_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLNhaAn\frmDmMonAn_Edit.Designer.cs">
+      <DependentUpon>frmDmMonAn_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLNhaAn\frmThucDon_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLNhaAn\frmThucDon_Edit.Designer.cs">
+      <DependentUpon>frmThucDon_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RaVaoCong\frmVTPTVao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RaVaoCong\frmVTPTVao.designer.cs">
+      <DependentUpon>frmVTPTVao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RaVaoCong\frmGiayRaVaoCong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RaVaoCong\frmGiayRaVaoCong.designer.cs">
+      <DependentUpon>frmGiayRaVaoCong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RaVaoCong\frmInheritThongTinCan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RaVaoCong\frmInheritThongTinCan.designer.cs">
+      <DependentUpon>frmInheritThongTinCan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RaVaoCong\frmCBNV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RaVaoCong\frmCBNV.Designer.cs">
+      <DependentUpon>frmCBNV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RaVaoCong\frmThongTinCan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RaVaoCong\frmThongTinCan.designer.cs">
+      <DependentUpon>frmThongTinCan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RaVaoCong\frmThongTinCan_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RaVaoCong\frmThongTinCan_Edit.Designer.cs">
+      <DependentUpon>frmThongTinCan_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RaVaoCong\frmXaLan_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RaVaoCong\frmXaLan_Edit.Designer.cs">
+      <DependentUpon>frmXaLan_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RaVaoCong\frmUpdateRVC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RaVaoCong\frmUpdateRVC.Designer.cs">
+      <DependentUpon>frmUpdateRVC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RaVaoCong\frmXePKD_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RaVaoCong\frmXePKD_Edit.Designer.cs">
+      <DependentUpon>frmXePKD_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RaVaoCong\frmXeKhachLH_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RaVaoCong\frmXeKhachLH_Edit.Designer.cs">
+      <DependentUpon>frmXeKhachLH_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RaVaoCong\frmXeKhach_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RaVaoCong\frmXeKhach_Edit.Designer.cs">
+      <DependentUpon>frmXeKhach_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RaVaoCong\frmXeNbRVC_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RaVaoCong\frmXeNbRVC_Edit.Designer.cs">
+      <DependentUpon>frmXeNbRVC_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RaVaoCong\frmNhanVienRVC_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RaVaoCong\frmNhanVienRVC_Edit.Designer.cs">
+      <DependentUpon>frmNhanVienRVC_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmSuaDLChamCong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmSuaDLChamCong.designer.cs">
+      <DependentUpon>frmSuaDLChamCong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmDCChamCong_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmDCChamCong_Edit.Designer.cs">
+      <DependentUpon>frmDCChamCong_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmPhuongAn_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmPhuongAn_Edit.Designer.cs">
+      <DependentUpon>frmPhuongAn_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmBangCong_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmBangCong_Edit.Designer.cs">
+      <DependentUpon>frmBangCong_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmPhanQuyenXepCa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmPhanQuyenXepCa.Designer.cs">
+      <DependentUpon>frmPhanQuyenXepCa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmPhanQuyenXepCa_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmPhanQuyenXepCa_Edit.Designer.cs">
+      <DependentUpon>frmPhanQuyenXepCa_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmChamCongCheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmChamCongCheck.Designer.cs">
+      <DependentUpon>frmChamCongCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmChamCongSX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmChamCongSX.Designer.cs">
+      <DependentUpon>frmChamCongSX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmDuyet_PTCHC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmDuyet_PTCHC.designer.cs">
+      <DependentUpon>frmDuyet_PTCHC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmInBangLuong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmInBangLuong.Designer.cs">
+      <DependentUpon>frmInBangLuong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmBangLuongKy1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmBangLuongKy1.Designer.cs">
+      <DependentUpon>frmBangLuongKy1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmBangLuongSP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmBangLuongSP.Designer.cs">
+      <DependentUpon>frmBangLuongSP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmBangCong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmBangCong.Designer.cs">
+      <DependentUpon>frmBangCong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmIn_QTLuong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmIn_QTLuong.Designer.cs">
+      <DependentUpon>frmIn_QTLuong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmLuongTT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmLuongTT.Designer.cs">
+      <DependentUpon>frmLuongTT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmLuong_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmLuong_Edit.Designer.cs">
+      <DependentUpon>frmLuong_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmIn_ChamCong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmIn_ChamCong.Designer.cs">
+      <DependentUpon>frmIn_ChamCong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmLuongTT_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmLuongTT_Edit.Designer.cs">
+      <DependentUpon>frmLuongTT_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmDGBPCT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmDGBPCT.Designer.cs">
+      <DependentUpon>frmDGBPCT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmDGBPCT_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmDGBPCT_Edit.Designer.cs">
+      <DependentUpon>frmDGBPCT_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmSLTinhLuong_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmSLTinhLuong_Edit.Designer.cs">
+      <DependentUpon>frmSLTinhLuong_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmSLTinhLuong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmSLTinhLuong.designer.cs">
+      <DependentUpon>frmSLTinhLuong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmCongTangCa_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmCongTangCa_Edit.Designer.cs">
+      <DependentUpon>frmCongTangCa_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmHinhThucCC_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmHinhThucCC_Edit.Designer.cs">
+      <DependentUpon>frmHinhThucCC_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmNVKChamCong_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmNVKChamCong_Edit.Designer.cs">
+      <DependentUpon>frmNVKChamCong_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmBangLuong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmBangLuong.Designer.cs">
+      <DependentUpon>frmBangLuong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmBangLuong_Create.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmBangLuong_Create.Designer.cs">
+      <DependentUpon>frmBangLuong_Create.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmBangLuong_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmBangLuong_Edit.designer.cs">
+      <DependentUpon>frmBangLuong_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmBangLuong_Posted.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmBangLuong_Posted.Designer.cs">
+      <DependentUpon>frmBangLuong_Posted.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmChamCong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmChamCong.designer.cs">
+      <DependentUpon>frmChamCong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmHieuQua.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmHieuQua.Designer.cs">
+      <DependentUpon>frmHieuQua.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmHieuQua_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmHieuQua_Edit.Designer.cs">
+      <DependentUpon>frmHieuQua_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmDmTn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmDmTn.Designer.cs">
+      <DependentUpon>frmDmTn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmDmTn_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmDmTn_Edit.Designer.cs">
+      <DependentUpon>frmDmTn_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmDuyetCongTangCa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmDuyetCongTangCa.designer.cs">
+      <DependentUpon>frmDuyetCongTangCa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmThueTn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmThueTn.Designer.cs">
+      <DependentUpon>frmThueTn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmThueTn_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmThueTn_Edit.Designer.cs">
+      <DependentUpon>frmThueTn_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmTsTn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmTsTn.Designer.cs">
+      <DependentUpon>frmTsTn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmTsTn_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmTsTn_Edit.Designer.cs">
+      <DependentUpon>frmTsTn_Edit.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Rosy.List\Rosy50.List.csproj">
+      <Project>{2224CC58-5200-4537-BBE3-B57044BCD8D5}</Project>
+      <Name>Rosy50.List</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

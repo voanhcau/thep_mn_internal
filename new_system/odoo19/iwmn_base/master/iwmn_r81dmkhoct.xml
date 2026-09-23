@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_iwmn_r81dmkhoct_list" model="ir.ui.view">
+        <field name="name">iwmn.r81dmkhoct.list</field>
+        <field name="model">iwmn.r81dmkhoct</field>
+        <field name="arch" type="xml">
+            <list string="R81DMKHOCT - Ma_Kho">
+                <field name="ident00"/>
+                <field name="ma_kho"/>
+                <field name="ma_dt"/>
+                <field name="ngay_ap"/>
+                <field name="sl_dm_kg"/>
+                <field name="create_log"/>
+                <field name="lastmodify_log"/>
+                <field name="ma_data"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmkhoct_form" model="ir.ui.view">
+        <field name="name">iwmn.r81dmkhoct.form</field>
+        <field name="model">iwmn.r81dmkhoct</field>
+        <field name="arch" type="xml">
+            <form string="R81DMKHOCT - Ma_Kho">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="ident00"/>
+                            <field name="ma_kho"/>
+                            <field name="ma_dt"/>
+                            <field name="ngay_ap"/>
+                        </group>
+                        <group>
+                            <field name="sl_dm_kg"/>
+                            <field name="create_log"/>
+                            <field name="lastmodify_log"/>
+                            <field name="ma_data"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmkhoct_search" model="ir.ui.view">
+        <field name="name">iwmn.r81dmkhoct.search</field>
+        <field name="model">iwmn.r81dmkhoct</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="ma_kho"/>
+                <field name="ident00"/>
+                <field name="ma_dt"/>
+                <field name="ngay_ap"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_iwmn_r81dmkhoct" model="ir.actions.act_window">
+        <field name="name">R81DMKHOCT - Ma_Kho</field>
+        <field name="res_model">iwmn.r81dmkhoct</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_iwmn_r81dmkhoct_search"/>
+    </record>
+
+    <menuitem id="menu_iwmn_r81dmkhoct" name="R81DMKHOCT - Ma_Kho"
+              parent="menu_iwmn_master_warehouse"
+              action="action_iwmn_r81dmkhoct" sequence="27"/>
+</odoo>

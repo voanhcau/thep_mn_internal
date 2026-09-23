@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_iwmn_r81dmsize_list" model="ir.ui.view">
+        <field name="name">iwmn.r81dmsize.list</field>
+        <field name="model">iwmn.r81dmsize</field>
+        <field name="arch" type="xml">
+            <list string="R81DMSIZE - Ten_Size">
+                <field name="ma_size"/>
+                <field name="ten_size"/>
+                <field name="length"/>
+                <field name="diameter"/>
+                <field name="dmin"/>
+                <field name="dmax"/>
+                <field name="barweight_bk"/>
+                <field name="minweight"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmsize_form" model="ir.ui.view">
+        <field name="name">iwmn.r81dmsize.form</field>
+        <field name="model">iwmn.r81dmsize</field>
+        <field name="arch" type="xml">
+            <form string="R81DMSIZE - Ten_Size">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="ma_size"/>
+                            <field name="ten_size"/>
+                            <field name="length"/>
+                            <field name="diameter"/>
+                            <field name="dmin"/>
+                            <field name="dmax"/>
+                            <field name="barweight_bk"/>
+                        </group>
+                        <group>
+                            <field name="minweight"/>
+                            <field name="maxweight"/>
+                            <field name="ngay_begin"/>
+                            <field name="ngay_end"/>
+                            <field name="create_log"/>
+                            <field name="lastmodify_log"/>
+                            <field name="ma_data"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmsize_search" model="ir.ui.view">
+        <field name="name">iwmn.r81dmsize.search</field>
+        <field name="model">iwmn.r81dmsize</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="ten_size"/>
+                <field name="ma_size"/>
+                <field name="length"/>
+                <field name="diameter"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_iwmn_r81dmsize" model="ir.actions.act_window">
+        <field name="name">R81DMSIZE - Ten_Size</field>
+        <field name="res_model">iwmn.r81dmsize</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_iwmn_r81dmsize_search"/>
+    </record>
+
+    <menuitem id="menu_iwmn_r81dmsize" name="R81DMSIZE - Ten_Size"
+              parent="menu_iwmn_master_materials"
+              action="action_iwmn_r81dmsize" sequence="50"/>
+</odoo>

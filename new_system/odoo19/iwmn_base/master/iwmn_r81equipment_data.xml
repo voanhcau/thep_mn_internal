@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="iwmn_r81equipment_192_168_0_14" model="iwmn.r81equipment">
+            <field name="host_ip">192.168.0.14</field>
+            <field name="host_name">TRAM CAN 60TB</field>
+            <field name="create_log">310818:125409:CUONGPN</field>
+            <field name="lastmodify_log">270918:140109:VR</field>
+            <field name="loai_can">QLCL</field>
+        </record>
+        <record id="iwmn_r81equipment_192_168_0_15" model="iwmn.r81equipment">
+            <field name="host_ip">192.168.0.15</field>
+            <field name="host_name">TRAM CAN 60TB DU PHONG</field>
+            <field name="create_log">070920:094128:KHANHHD</field>
+            <field name="lastmodify_log">270918:140109:VR</field>
+            <field name="loai_can">QLCL</field>
+        </record>
+        <record id="iwmn_r81equipment_192_168_0_60" model="iwmn.r81equipment">
+            <field name="host_ip">192.168.0.60</field>
+            <field name="host_name">khophutung</field>
+            <field name="create_log">050918:142204:VR</field>
+            <field name="lastmodify_log">040817:143707:CUONGPN</field>
+            <field name="loai_can">QLCL</field>
+        </record>
+        <record id="iwmn_r81equipment_192_168_10_25" model="iwmn.r81equipment">
+            <field name="host_ip">192.168.10.25</field>
+            <field name="host_name">TRẠM CÂN 1B</field>
+            <field name="create_log">030315:122543:VR</field>
+            <field name="lastmodify_log">301120:114724:CUONGPN</field>
+            <field name="loai_can">QLCL</field>
+        </record>
+        <record id="iwmn_r81equipment_192_168_10_26" model="iwmn.r81equipment">
+            <field name="host_ip">192.168.10.26</field>
+            <field name="host_name">TRAM CAN 1A</field>
+            <field name="create_log">140515:134516:PHUONGTQ</field>
+            <field name="lastmodify_log">301120:114740:CUONGPN</field>
+            <field name="loai_can">QLCL</field>
+        </record>
+        <record id="iwmn_r81equipment_192_168_10_30" model="iwmn.r81equipment">
+            <field name="host_ip">192.168.10.30</field>
+            <field name="host_name">Trạm Thép Thanh</field>
+            <field name="create_log">060315:144713:VR</field>
+            <field name="lastmodify_log">120121:080026:CUONGPN</field>
+            <field name="loai_can">PXCAN</field>
+        </record>
+        <record id="iwmn_r81equipment_192_168_10_31" model="iwmn.r81equipment">
+            <field name="host_ip">192.168.10.31</field>
+            <field name="host_name">Trạm Thép Cuộn</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">111023:112007:VR</field>
+            <field name="loai_can">PXCAN</field>
+        </record>
+        <record id="iwmn_r81equipment_192_168_10_37" model="iwmn.r81equipment">
+            <field name="host_ip">192.168.10.37</field>
+            <field name="host_name">TRAM CAN 60T</field>
+            <field name="create_log">290515:113219:PHUONGTQ</field>
+            <field name="lastmodify_log">301120:145641:CUONGPN</field>
+            <field name="loai_can">QLCL</field>
+        </record>
+        <record id="iwmn_r81equipment_192_168_10_38" model="iwmn.r81equipment">
+            <field name="host_ip">192.168.10.38</field>
+            <field name="host_name">TRAM CAN 60TB (TRAMCAN3-PC)</field>
+            <field name="create_log">310818:125409:CUONGPN</field>
+            <field name="lastmodify_log">230924:093643:VR</field>
+            <field name="loai_can">QLCL</field>
+        </record>
+        <record id="iwmn_r81equipment_192_168_11_150" model="iwmn.r81equipment">
+            <field name="host_ip">192.168.11.150</field>
+            <field name="host_name">TEST CAN</field>
+            <field name="create_log">281123:081628:VR</field>
+            <field name="lastmodify_log">280422:151335:VR</field>
+            <field name="loai_can">PXCAN</field>
+        </record>
+        <record id="iwmn_r81equipment_192_168_12_11" model="iwmn.r81equipment">
+            <field name="host_ip">192.168.12.11</field>
+            <field name="host_name">Trạm cân phôi thép</field>
+            <field name="create_log">270422:133551:VR</field>
+            <field name="lastmodify_log">280422:151335:VR</field>
+            <field name="loai_can">PXCAN</field>
+        </record>
+    </data>
+</odoo>

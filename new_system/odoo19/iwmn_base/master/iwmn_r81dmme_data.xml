@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="iwmn_r81dmme_1" model="iwmn.r81dmme">
+            <field name="ident00">1</field>
+            <field name="nam">2019</field>
+            <field name="me">P</field>
+        </record>
+        <record id="iwmn_r81dmme_2" model="iwmn.r81dmme">
+            <field name="ident00">2</field>
+            <field name="nam">2020</field>
+            <field name="me">Q</field>
+        </record>
+        <record id="iwmn_r81dmme_3" model="iwmn.r81dmme">
+            <field name="ident00">3</field>
+            <field name="nam">2021</field>
+            <field name="me">R</field>
+        </record>
+        <record id="iwmn_r81dmme_4" model="iwmn.r81dmme">
+            <field name="ident00">4</field>
+            <field name="nam">2022</field>
+            <field name="me">S</field>
+        </record>
+        <record id="iwmn_r81dmme_5" model="iwmn.r81dmme">
+            <field name="ident00">5</field>
+            <field name="nam">2023</field>
+            <field name="me">T</field>
+        </record>
+        <record id="iwmn_r81dmme_6" model="iwmn.r81dmme">
+            <field name="ident00">6</field>
+            <field name="nam">2024</field>
+            <field name="me">U</field>
+        </record>
+        <record id="iwmn_r81dmme_7" model="iwmn.r81dmme">
+            <field name="ident00">7</field>
+            <field name="nam">2025</field>
+            <field name="me">V</field>
+        </record>
+        <record id="iwmn_r81dmme_8" model="iwmn.r81dmme">
+            <field name="ident00">8</field>
+            <field name="nam">2026</field>
+            <field name="me">W</field>
+        </record>
+        <record id="iwmn_r81dmme_9" model="iwmn.r81dmme">
+            <field name="ident00">9</field>
+            <field name="nam">2027</field>
+            <field name="me">X</field>
+        </record>
+        <record id="iwmn_r81dmme_10" model="iwmn.r81dmme">
+            <field name="ident00">10</field>
+            <field name="nam">2028</field>
+            <field name="me">Y</field>
+        </record>
+        <record id="iwmn_r81dmme_11" model="iwmn.r81dmme">
+            <field name="ident00">11</field>
+            <field name="nam">2029</field>
+            <field name="me">Z</field>
+        </record>
+    </data>
+</odoo>

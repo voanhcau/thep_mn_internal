@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_iwmn_r81vtptchamlc_list" model="ir.ui.view">
+        <field name="name">iwmn.r81vtptchamlc.list</field>
+        <field name="model">iwmn.r81vtptchamlc</field>
+        <field name="arch" type="xml">
+            <list string="R81VTPTCHAMLC - Ten_CBNV">
+                <field name="ma_vt"/>
+                <field name="so_luong"/>
+                <field name="ngay_nk"/>
+                <field name="ten_cbnv"/>
+                <field name="muc_dich"/>
+                <field name="is_clc"/>
+                <field name="ma_kho"/>
+                <field name="ident00"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81vtptchamlc_form" model="ir.ui.view">
+        <field name="name">iwmn.r81vtptchamlc.form</field>
+        <field name="model">iwmn.r81vtptchamlc</field>
+        <field name="arch" type="xml">
+            <form string="R81VTPTCHAMLC - Ten_CBNV">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="ma_vt"/>
+                            <field name="so_luong"/>
+                            <field name="ngay_nk"/>
+                            <field name="ten_cbnv"/>
+                            <field name="muc_dich"/>
+                        </group>
+                        <group>
+                            <field name="is_clc"/>
+                            <field name="ma_kho"/>
+                            <field name="ident00"/>
+                            <field name="ngay_ap"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81vtptchamlc_search" model="ir.ui.view">
+        <field name="name">iwmn.r81vtptchamlc.search</field>
+        <field name="model">iwmn.r81vtptchamlc</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="ten_cbnv"/>
+                <field name="ma_vt"/>
+                <field name="so_luong"/>
+                <field name="ngay_nk"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_iwmn_r81vtptchamlc" model="ir.actions.act_window">
+        <field name="name">R81VTPTCHAMLC - Ten_CBNV</field>
+        <field name="res_model">iwmn.r81vtptchamlc</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_iwmn_r81vtptchamlc_search"/>
+    </record>
+
+    <menuitem id="menu_iwmn_r81vtptchamlc" name="R81VTPTCHAMLC - Ten_CBNV"
+              parent="menu_iwmn_master_materials"
+              action="action_iwmn_r81vtptchamlc" sequence="72"/>
+</odoo>

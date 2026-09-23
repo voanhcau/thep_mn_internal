@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_iwmn_r81dmdmkygui_list" model="ir.ui.view">
+        <field name="name">iwmn.r81dmdmkygui.list</field>
+        <field name="model">iwmn.r81dmdmkygui</field>
+        <field name="arch" type="xml">
+            <list string="R81DMDMKYGUI - So_Luong">
+                <field name="ident00"/>
+                <field name="ma_kho"/>
+                <field name="grade_id"/>
+                <field name="is_cuon"/>
+                <field name="is_cay"/>
+                <field name="so_luong"/>
+                <field name="ngay_ap"/>
+                <field name="ma_data"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmdmkygui_form" model="ir.ui.view">
+        <field name="name">iwmn.r81dmdmkygui.form</field>
+        <field name="model">iwmn.r81dmdmkygui</field>
+        <field name="arch" type="xml">
+            <form string="R81DMDMKYGUI - So_Luong">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="ident00"/>
+                            <field name="ma_kho"/>
+                            <field name="grade_id"/>
+                            <field name="is_cuon"/>
+                            <field name="is_cay"/>
+                        </group>
+                        <group>
+                            <field name="so_luong"/>
+                            <field name="ngay_ap"/>
+                            <field name="ma_data"/>
+                            <field name="create_log"/>
+                            <field name="lastmodify_log"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmdmkygui_search" model="ir.ui.view">
+        <field name="name">iwmn.r81dmdmkygui.search</field>
+        <field name="model">iwmn.r81dmdmkygui</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="so_luong"/>
+                <field name="ident00"/>
+                <field name="ma_kho"/>
+                <field name="grade_id"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_iwmn_r81dmdmkygui" model="ir.actions.act_window">
+        <field name="name">R81DMDMKYGUI - So_Luong</field>
+        <field name="res_model">iwmn.r81dmdmkygui</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_iwmn_r81dmdmkygui_search"/>
+    </record>
+
+    <menuitem id="menu_iwmn_r81dmdmkygui" name="R81DMDMKYGUI - So_Luong"
+              parent="menu_iwmn_master_warehouse"
+              action="action_iwmn_r81dmdmkygui" sequence="23"/>
+</odoo>

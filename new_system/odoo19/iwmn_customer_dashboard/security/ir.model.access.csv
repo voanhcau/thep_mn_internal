@@ -1,0 +1,7 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_iwmn_customer_order_user,iwmn.customer.order user,model_iwmn_customer_order,base.group_user,1,1,1,1
+access_iwmn_customer_order_line_user,iwmn.customer.order.line user,model_iwmn_customer_order_line,base.group_user,1,1,1,1
+access_iwmn_customer_order_vehicle_user,iwmn.customer.order.vehicle user,model_iwmn_customer_order_vehicle,base.group_user,1,1,1,1
+access_iwmn_customer_order_contract_user,iwmn.customer.order.contract user,model_iwmn_customer_order_contract,base.group_user,1,1,1,1
+access_iwmn_customer_order_project_user,iwmn.customer.order.project user,model_iwmn_customer_order_project,base.group_user,1,1,1,1
+access_iwmn_customer_credit_dashboard_cache_system,iwmn.customer.credit.dashboard.cache system,model_iwmn_customer_credit_dashboard_cache,base.group_system,1,1,1,1

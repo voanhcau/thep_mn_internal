@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ActiveReportsLayout Version="3" PrintWidth="11892" DocumentName="ARNet Document" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-style: normal; text-decoration: none; font-weight: normal; font-size: 10pt; color: Black; font-family: &quot;Microsoft Sans Serif&quot;; ddo-char-set: 204; " />
+    <Style Name="Heading1" Value="font-size: 16pt; font-weight: bold; ddo-char-set: 204; " />
+    <Style Name="Heading2" Value="font-size: 14pt; font-weight: bold; font-style: italic; font-family: &quot;Microsoft Sans Serif&quot;; ddo-char-set: 204; " />
+    <Style Name="Heading3" Value="font-size: 13pt; font-weight: bold; ddo-char-set: 204; " />
+  </StyleSheet>
+  <Sections>
+    <Section Type="PageHeader" Name="pageHeader" Height="16785" BackColor="16777215">
+      <Control Type="AR.Line" Name="line13" X1="684.0001" Y1="0" X2="684.0001" Y2="14472" />
+      <Control Type="AR.Line" Name="line1" X1="684.0001" Y1="1476" X2="11412" Y2="1476" />
+      <Control Type="AR.Line" Name="Line2" X1="684.0001" Y1="72" X2="11412" Y2="72" />
+      <Control Type="AR.Line" Name="Line4" X1="11412" Y1="0" X2="11412" Y2="14472" />
+      <Control Type="AR.Line" Name="Line6" X1="684.0001" Y1="3492" X2="11412" Y2="3492" />
+      <Control Type="AR.Line" Name="Line7" X1="684.0001" Y1="5472" X2="11412" Y2="5472" />
+      <Control Type="AR.Label" Name="label15" Left="1404" Top="3600" Width="864.0001" Height="287.9998" Caption="32A (*)		" Style="ddo-char-set: 1; text-align: center; font-weight: bold; " />
+      <Control Type="AR.Line" Name="Line8" X1="2664" Y1="5904" X2="11412" Y2="5904" />
+      <Control Type="AR.Line" Name="Line15" X1="684.0001" Y1="6516" X2="11412" Y2="6516" />
+      <Control Type="AR.Line" Name="Line16" X1="684.0001" Y1="7560" X2="11412" Y2="7560" />
+      <Control Type="AR.Line" Name="Line25" X1="684.0001" Y1="8676" X2="11412" Y2="8676" />
+      <Control Type="AR.Line" Name="Line11" X1="7704" Y1="1116" X2="7920" Y2="1116" />
+      <Control Type="AR.Line" Name="Line34" X1="7920" Y1="936.0001" X2="7920" Y2="1116" />
+      <Control Type="AR.Line" Name="Line35" X1="7704" Y1="1116" X2="7920" Y2="1116" />
+      <Control Type="AR.Line" Name="Line36" X1="7704" Y1="1116" X2="7704" Y2="936.0001" />
+      <Control Type="AR.Label" Name="Label46" Left="8172.001" Top="864.0001" Width="684.0002" Height="252" Caption="SWIFT" Style="ddo-char-set: 1; font-weight: normal; " />
+      <Control Type="AR.Line" Name="Line37" X1="8964.001" Y1="1116" X2="9180" Y2="1116" />
+      <Control Type="AR.Line" Name="Line38" X1="8964.001" Y1="1116" X2="9180" Y2="1116" />
+      <Control Type="AR.Line" Name="Line39" X1="9180" Y1="936.0001" X2="9180" Y2="1116" />
+      <Control Type="AR.Line" Name="Line40" X1="8964.001" Y1="1116" X2="8964.001" Y2="936.0001" />
+      <Control Type="AR.Line" Name="Line42" X1="7704" Y1="1116" X2="7920" Y2="1116" />
+      <Control Type="AR.Line" Name="Line43" X1="7704" Y1="1116" X2="7920" Y2="1116" />
+      <Control Type="AR.Line" Name="Line44" X1="8964.001" Y1="1116" X2="9180" Y2="1116" />
+      <Control Type="AR.Label" Name="Label44" Left="756.0001" Top="252" Width="5904" Height="288.0001" Caption="YÊU CẦU CHUYỂN TIỀN-APPLICATION FOR REMITTANCE								" Style="ddo-char-set: 1; font-weight: bold; " />
+      <Control Type="AR.Label" Name="Label45" Left="1224" Top="576" Width="3276" Height="288.0001" Caption="Ngày giao dịch (Date)…………………..								" Style="ddo-char-set: 0; font-weight: normal; font-size: 9pt; " />
+      <Control Type="AR.Label" Name="Label58" Left="6984" Top="252" Width="2412" Height="288.0001" Caption="Số chuyển tiền(REF no):" Style="ddo-char-set: 1; font-weight: bold; " />
+      <Control Type="AR.Label" Name="Label47" Left="9324.001" Top="864.0001" Width="1512" Height="252" Caption="Sec (Bank draft)" Style="ddo-char-set: 1; font-weight: normal; " />
+      <Control Type="AR.Line" Name="Line41" X1="7704" Y1="936.0001" X2="7920" Y2="936.0001" />
+      <Control Type="AR.Line" Name="Line45" X1="8964.001" Y1="936.0001" X2="9180" Y2="936.0001" />
+      <Control Type="AR.Line" Name="Line46" X1="9432.001" Y1="864.0001" X2="11412" Y2="864.0001" />
+      <Control Type="AR.Line" Name="Line47" X1="9432.001" Y1="72" X2="9432.001" Y2="864.0001" />
+      <Control Type="AR.Label" Name="Label63" Left="5256" Top="900.0001" Width="2304" Height="252.0001" Caption="Phương thức chuyển tiền:" Style="ddo-char-set: 1; font-weight: normal; " />
+      <Control Type="AR.Label" Name="Label64" Left="5436" Top="1224" Width="1944" Height="252" Caption="(Remittance Method)" Style="ddo-char-set: 0; text-align: center; font-weight: normal; font-size: 9pt; " />
+      <Control Type="AR.Label" Name="Label65" Left="756.0001" Top="900.0001" Width="1296" Height="288.0001" Caption="Mã VAT VCB:" Style="ddo-char-set: 1; font-weight: normal; " />
+      <Control Type="AR.Label" Name="Label66" Left="2988" Top="900.0001" Width="1152" Height="288" Caption="Mã VAT KH:" Style="ddo-char-set: 1; font-weight: normal; " />
+      <Control Type="AR.Label" Name="Label7" Left="792" Top="1476" Width="1584" Height="288.0001" Caption="QUÝ KH LƯU Ý: " Style="ddo-char-set: 1; font-weight: bold; " />
+      <Control Type="AR.Label" Name="Label38" Left="2592" Top="1476" Width="8676" Height="468.0001" Caption="1. Điền vào các mục dưới đây bằng chữ in hoa hoặc đánh dấu (x) vào chỗ thích hợp. Các mục có dấu (*) cần được điền đầy đủ" Style="ddo-char-set: 0; font-weight: normal; font-size: 9pt; " />
+      <Control Type="AR.Label" Name="Label8" Left="2700" Top="1908" Width="8352.001" Height="252" Caption="( Please complete in Block Letters and tick where applicable. Fields with (*) must be completed)." Style="ddo-char-set: 0; font-weight: normal; font-size: 9pt; " />
+      <Control Type="AR.Label" Name="Label9" Left="2592" Top="2160" Width="8712.001" Height="432.0001" Caption="2. Đọc kỹ các điều kiện chuyển tiền của VCB (Phụ lục đi kèm). (Please refer carefully to the conditions enclosed)." Style="ddo-char-set: 0; font-weight: normal; font-size: 9pt; " />
+      <Control Type="AR.Label" Name="Label10" Left="2592" Top="2628" Width="8712.001" Height="431.9999" Caption="3. Khi cần liên hệ với VCB về giao dịch này xin sử dụng số chuyển tiền (Ref no) được in ở gốc trên bên phải của yêu cầu chuyển tiền." Style="ddo-char-set: 0; font-weight: normal; font-size: 9pt; " />
+      <Control Type="AR.Label" Name="Label11" Left="2592" Top="3024" Width="8568" Height="432.0001" Caption="(Please refer the Reference number printed in the top of the right corner of this application form incase of contact)." Style="ddo-char-set: 0; font-weight: normal; font-size: 9pt; " />
+      <Control Type="AR.Line" Name="Line48" X1="2664" Y1="3492" X2="2664" Y2="12636" />
+      <Control Type="AR.Line" Name="Line5" X1="2664" Y1="3888" X2="11412" Y2="3888" />
+      <Control Type="AR.Label" Name="Label13" Left="6336" Top="3564" Width="3384" Height="252.0001" Caption="Số tiền chuyển đi bằng số (Amt in figures)" Style="ddo-char-set: 0; font-weight: normal; font-size: 9pt; " />
+      <Control Type="AR.Line" Name="Line49" X1="2664" Y1="4284" X2="11412" Y2="4284" />
+      <Control Type="AR.Label" Name="Label14" Left="2736" Top="3924" Width="2880" Height="252.0001" Caption="Số tiền bằng chữ (Amt in words)" Style="ddo-char-set: 0; font-weight: normal; font-size: 9pt; " />
+      <Control Type="AR.Line" Name="Line50" X1="3852" Y1="4284" X2="3852" Y2="5472" />
+      <Control Type="AR.Line" Name="Line51" X1="4428" Y1="4284" X2="4428" Y2="5472" />
+      <Control Type="AR.Line" Name="Line52" X1="3852" Y1="4680" X2="4428" Y2="4680" />
+      <Control Type="AR.Line" Name="Line53" X1="3852" Y1="5148" X2="4428" Y2="5148" />
+      <Control Type="AR.Label" Name="Label16" Left="2772" Top="4428" Width="936.0001" Height="251.9999" Caption="Trong đó:" Style="ddo-char-set: 1; font-weight: normal; " />
+      <Control Type="AR.Label" Name="Label17" Left="2808" Top="4860" Width="972" Height="252.0002" Caption="(Of which)" Style="ddo-char-set: 1; font-weight: normal; " />
+      <Control Type="AR.Label" Name="Label18" Left="4464" Top="5184" Width="2232" Height="252" Caption="Từ nguồn khác (Others):" Style="ddo-char-set: 0; font-weight: normal; font-size: 9pt; " />
+      <Control Type="AR.Label" Name="Label19" Left="4464" Top="4788" Width="1764" Height="252.0002" Caption="Từ tiền mặt (Cash):" Style="ddo-char-set: 0; font-weight: normal; font-size: 9pt; " />
+      <Control Type="AR.Label" Name="Label12" Left="4500" Top="4356" Width="2232" Height="252" Caption="Từ TK số (Debit a/c no):" Style="ddo-char-set: 0; font-weight: normal; font-size: 9pt; " />
+      <Control Type="AR.Label" Name="Label28" Left="8100" Top="4356" Width="1260" Height="252" Caption="Số tiền (Amt):" Style="ddo-char-set: 0; font-weight: normal; font-size: 9pt; " />
+      <Control Type="AR.Label" Name="Label29" Left="8100" Top="4788" Width="1260" Height="251.9998" Caption="Số tiền (Amt):" Style="ddo-char-set: 0; font-weight: normal; font-size: 9pt; " />
+      <Control Type="AR.Label" Name="Label32" Left="8100" Top="5184" Width="1260" Height="251.9996" Caption="Số tiền (Amt):" Style="ddo-char-set: 0; font-weight: normal; font-size: 9pt; " />
+      <Control Type="AR.Label" Name="Label20" Left="2736" Top="5544" Width="1512" Height="252.0003" Caption="Tên (Full name):" Style="ddo-char-set: 0; font-weight: normal; font-size: 9pt; " />
+      <Control Type="AR.Line" Name="Line9" X1="7668" Y1="5472" X2="7668" Y2="6876" />
+      <Control Type="AR.Label" Name="Label21" Left="7920" Top="5544" Width="2628" Height="251.9998" Caption="Số CMT/Hộ chiếu (ID/PP no)" Style="ddo-char-set: 0; font-weight: normal; font-size: 9pt; " />
+      <Control Type="AR.Label" Name="Label48" Left="2700" Top="6012" Width="1512" Height="252.0003" Caption="Địa chỉ (Add):" Style="ddo-char-set: 0; font-weight: normal; font-size: 9pt; " />
+      <Control Type="AR.Label" Name="Label49" Left="7848" Top="6012" Width="1440" Height="251.9996" Caption="Điện thoại (Tel)" Style="ddo-char-set: 0; font-weight: normal; font-size: 9pt; " />
+      <Control Type="AR.Label" Name="Label22" Left="1224" Top="6552" Width="864.0001" Height="287.9998" Caption="56a		" Style="ddo-char-set: 1; text-align: center; font-weight: bold; " />
+      <Control Type="AR.Label" Name="Label23" Left="792" Top="5868" Width="1800" Height="287.9998" Caption="Người chuyển tiền		" Style="ddo-char-set: 1; text-align: center; font-weight: bold; " />
+      <Control Type="AR.Label" Name="Label24" Left="1296" Top="6192" Width="864.0001" Height="287.9998" Caption="(Remitter)		" Style="ddo-char-set: 1; text-align: center; font-weight: bold; " />
+      <Control Type="AR.Line" Name="Line10" X1="2664" Y1="6876" X2="11412" Y2="6876" />
+      <Control Type="AR.Label" Name="Label25" Left="2772" Top="6588" Width="1188" Height="252.0004" Caption="Tên (Name):" Style="ddo-char-set: 0; font-weight: normal; font-size: 9pt; " />
+      <Control Type="AR.Label" Name="Label26" Left="7884" Top="6588" Width="1836" Height="252.0004" Caption="Mã NH (Bank code)" Style="ddo-char-set: 0; font-weight: normal; font-size: 9pt; " />
+      <Control Type="AR.Label" Name="Label27" Left="2736" Top="6948" Width="1512" Height="252.0003" Caption="Địa chỉ (Add):" Style="ddo-char-set: 0; font-weight: normal; font-size: 9pt; " />
+      <Control Type="AR.Label" Name="Label30" Left="720" Top="6912" Width="1872" Height="287.9997" Caption="NH trung gian		" Style="ddo-char-set: 1; text-align: center; font-weight: bold; " />
+      <Control Type="AR.Label" Name="Label31" Left="864.0001" Top="7200" Width="1728" Height="288.0002" Caption="(Intermediary BK)		" Style="ddo-char-set: 1; text-align: center; font-weight: bold; " />
+      <Control Type="AR.Label" Name="Label33" Left="1332" Top="5544" Width="864.0001" Height="287.9998" Caption="50 (*)		" Style="ddo-char-set: 1; text-align: center; font-weight: bold; " />
+      <Control Type="AR.Line" Name="Line12" X1="2664" Y1="8244.001" X2="11412" Y2="8244.001" />
+      <Control Type="AR.Label" Name="Label34" Left="1224" Top="8676" Width="864.0001" Height="287.9998" Caption="59 (*)		" Style="ddo-char-set: 1; text-align: center; font-weight: bold; " />
+      <Control Type="AR.Label" Name="Label35" Left="864.0001" Top="7920" Width="1656" Height="288.0004" Caption="NH người hưởng		" Style="ddo-char-set: 1; text-align: center; font-weight: bold; " />
+      <Control Type="AR.Label" Name="Label36" Left="1188" Top="8280" Width="864.0001" Height="287.9998" Caption="(Beneficiary BK)		" Style="ddo-char-set: 1; text-align: center; font-weight: bold; " />
+      <Control Type="AR.Label" Name="Label37" Left="2736" Top="7668" Width="1188" Height="252.0004" Caption="Tên (Name):" Style="ddo-char-set: 0; font-weight: normal; font-size: 9pt; " />
+      <Control Type="AR.Label" Name="Label39" Left="2772" Top="8352.001" Width="1512" Height="252.0003" Caption="Địa chỉ (Add):" Style="ddo-char-set: 0; font-weight: normal; font-size: 9pt; " />
+      <Control Type="AR.Line" Name="Line14" X1="7704" Y1="7560" X2="7704" Y2="8244.001" />
+      <Control Type="AR.Label" Name="Label40" Left="7848" Top="7632" Width="1836" Height="252.0004" Caption="Mã NH (Bank code)" Style="ddo-char-set: 0; font-weight: normal; font-size: 9pt; " />
+      <Control Type="AR.Label" Name="Label41" Left="7848" Top="7956" Width="1404" Height="251.9999" Caption="SWIFT CODE : " Style="ddo-char-set: 0; font-weight: normal; font-size: 9pt; " />
+      <Control Type="AR.Line" Name="Line17" X1="2664" Y1="9360" X2="11412" Y2="9360" />
+      <Control Type="AR.Line" Name="Line18" X1="684.0001" Y1="9828" X2="11412" Y2="9828" />
+      <Control Type="AR.Label" Name="Label42" Left="900.0001" Top="9036" Width="1620" Height="287.9998" Caption="Người hưởng		" Style="ddo-char-set: 1; text-align: center; font-weight: bold; " />
+      <Control Type="AR.Label" Name="Label43" Left="1080" Top="9396" Width="1368" Height="288.0001" Caption="(Beneficiary)		" Style="ddo-char-set: 1; text-align: center; font-weight: bold; " />
+      <Control Type="AR.Label" Name="Label50" Left="1224" Top="7560" Width="864.0001" Height="287.9998" Caption="57a (*)		" Style="ddo-char-set: 1; text-align: center; font-weight: bold; " />
+      <Control Type="AR.Label" Name="Label51" Left="2736" Top="8784.001" Width="1188" Height="252.0004" Caption="Tên (Name):" Style="ddo-char-set: 0; font-weight: normal; font-size: 9pt; " />
+      <Control Type="AR.Label" Name="Label52" Left="2736" Top="9468" Width="1512" Height="252.0003" Caption="Địa chỉ (Add):" Style="ddo-char-set: 0; font-weight: normal; font-size: 9pt; " />
+      <Control Type="AR.Line" Name="Line19" X1="7704" Y1="8676" X2="7704" Y2="9360" />
+      <Control Type="AR.Label" Name="Label53" Left="7740" Top="8748" Width="3708" Height="252.0001" Caption="Số TK hoặc số IBAN (A/C no or IBAN no)" Style="ddo-char-set: 0; font-weight: normal; font-size: 9pt; " />
+      <Control Type="AR.Line" Name="Line20" X1="7164" Y1="9360" X2="7164" Y2="9828" />
+      <Control Type="AR.Line" Name="Line21" X1="684.0001" Y1="10368" X2="11412" Y2="10368" />
+      <Control Type="AR.Label" Name="Label54" Left="1224" Top="9900" Width="720" Height="216.0004" Caption="70		" Style="ddo-char-set: 1; text-align: center; font-weight: bold; " />
+      <Control Type="AR.Label" Name="Label55" Left="828" Top="10116" Width="1764" Height="288.0003" Caption="Nội dung (Detail)		" Style="ddo-char-set: 1; text-align: center; font-weight: bold; " />
+      <Control Type="AR.Line" Name="Line22" X1="684.0001" Y1="12636" X2="11412" Y2="12636" />
+      <Control Type="AR.Label" Name="Label56" Left="1332" Top="10656" Width="720" Height="287.9998" Caption="71 (*)		" Style="ddo-char-set: 1; text-align: center; font-weight: bold; " />
+      <Control Type="AR.Label" Name="Label57" Left="828" Top="11052" Width="1764" Height="288.0003" Caption="Phí (Charges)		" Style="ddo-char-set: 1; text-align: center; font-weight: bold; " />
+      <Control Type="AR.Label" Name="Label61" Left="2808" Top="10368" Width="2304" Height="252.0004" Caption="Phí do người chuyển tiền chịu  " Style="ddo-char-set: 0; font-weight: normal; font-size: 9pt; " />
+      <Control Type="AR.Label" Name="Label62" Left="2808" Top="10584" Width="3240" Height="251.9996" Caption="(All charges to be borne by remitter)" Style="ddo-char-set: 1; font-weight: normal; " />
+      <Control Type="AR.Label" Name="Label67" Left="2808" Top="10836" Width="2196" Height="251.9998" Caption="Phí do người hưởng chịu" Style="ddo-char-set: 0; font-weight: normal; font-size: 9pt; " />
+      <Control Type="AR.Label" Name="Label68" Left="2808" Top="11196" Width="3600" Height="251.9999" Caption="(All charges to be borne by beneficiary)" Style="ddo-char-set: 0; font-weight: normal; font-size: 9pt; " />
+      <Control Type="AR.Label" Name="Label69" Left="2808" Top="12024" Width="1980" Height="251.9999" Caption="Phí chia sẽ cho 2 bên" Style="ddo-char-set: 0; font-weight: normal; font-size: 9pt; " />
+      <Control Type="AR.Label" Name="Label70" Left="2808" Top="12384" Width="2124" Height="251.9999" Caption="(Charges to be shared)" Style="ddo-char-set: 0; font-weight: normal; font-size: 9pt; " />
+      <Control Type="AR.Label" Name="Label71" Left="6120" Top="10440" Width="648.0002" Height="251.9998" Caption="(OUR)" Style="ddo-char-set: 1; font-weight: normal; " />
+      <Control Type="AR.Label" Name="Label72" Left="6120" Top="10872" Width="648.0002" Height="251.9998" Caption="(BEN)" Style="ddo-char-set: 1; font-weight: normal; " />
+      <Control Type="AR.Label" Name="Label73" Left="6156" Top="12024" Width="648.0002" Height="251.9998" Caption="(SHA)" Style="ddo-char-set: 1; font-weight: normal; " />
+      <Control Type="AR.Line" Name="Line31" X1="6912" Y1="10656" X2="7128" Y2="10656" />
+      <Control Type="AR.Line" Name="Line32" X1="6912" Y1="10656" X2="7128" Y2="10656" />
+      <Control Type="AR.Line" Name="Line33" X1="6912" Y1="10656" X2="7128" Y2="10656" />
+      <Control Type="AR.Line" Name="Line54" X1="6912" Y1="10656" X2="6912" Y2="10476" />
+      <Control Type="AR.Line" Name="Line55" X1="7128" Y1="10476" X2="7128" Y2="10656" />
+      <Control Type="AR.Line" Name="Line56" X1="6912" Y1="10476" X2="7128" Y2="10476" />
+      <Control Type="AR.Line" Name="Line57" X1="6912" Y1="10656" X2="7128" Y2="10656" />
+      <Control Type="AR.Line" Name="Line23" X1="7128" Y1="10908" X2="7128" Y2="11088" />
+      <Control Type="AR.Line" Name="Line24" X1="6912" Y1="11088" X2="7128" Y2="11088" />
+      <Control Type="AR.Line" Name="Line26" X1="6912" Y1="11088" X2="6912" Y2="10908" />
+      <Control Type="AR.Line" Name="Line27" X1="6912" Y1="11088" X2="7128" Y2="11088" />
+      <Control Type="AR.Line" Name="Line28" X1="6912" Y1="11088" X2="7128" Y2="11088" />
+      <Control Type="AR.Line" Name="Line29" X1="6912" Y1="11088" X2="7128" Y2="11088" />
+      <Control Type="AR.Line" Name="Line30" X1="6912" Y1="10908" X2="7128" Y2="10908" />
+      <Control Type="AR.Line" Name="Line58" X1="6912" Y1="12240" X2="7128" Y2="12240" />
+      <Control Type="AR.Line" Name="Line59" X1="6912" Y1="12240" X2="6912" Y2="12060" />
+      <Control Type="AR.Line" Name="Line60" X1="6912" Y1="12240" X2="7128" Y2="12240" />
+      <Control Type="AR.Line" Name="Line61" X1="6912" Y1="12240" X2="7128" Y2="12240" />
+      <Control Type="AR.Line" Name="Line62" X1="7128" Y1="12060" X2="7128" Y2="12240" />
+      <Control Type="AR.Line" Name="Line63" X1="6912" Y1="12240" X2="7128" Y2="12240" />
+      <Control Type="AR.Line" Name="Line64" X1="6912" Y1="12060" X2="7128" Y2="12060" />
+      <Control Type="AR.Label" Name="Label74" Left="7668" Top="10404" Width="2808" Height="216.0001" Caption="Phí trích từ TK số (Debit a/c no)" Style="ddo-char-set: 1; font-weight: normal; " />
+      <Control Type="AR.Label" Name="Label76" Left="7704" Top="11664" Width="2664" Height="251.9999" Caption="Phí nộp bằng tiền mặt (Cash)" Style="ddo-char-set: 0; font-weight: normal; font-size: 9pt; " />
+      <Control Type="AR.Line" Name="Line65" X1="10692" Y1="10584" X2="10908" Y2="10584" />
+      <Control Type="AR.Line" Name="Line66" X1="10692" Y1="10584" X2="10908" Y2="10584" />
+      <Control Type="AR.Line" Name="Line67" X1="10692" Y1="10584" X2="10908" Y2="10584" />
+      <Control Type="AR.Line" Name="Line68" X1="10908" Y1="10404" X2="10908" Y2="10584" />
+      <Control Type="AR.Line" Name="Line69" X1="10692" Y1="10584" X2="10908" Y2="10584" />
+      <Control Type="AR.Line" Name="Line70" X1="10692" Y1="10584" X2="10692" Y2="10404" />
+      <Control Type="AR.Line" Name="Line71" X1="10692" Y1="10404" X2="10908" Y2="10404" />
+      <Control Type="AR.Line" Name="Line72" X1="10692" Y1="11844" X2="10908" Y2="11844" />
+      <Control Type="AR.Line" Name="Line73" X1="10692" Y1="11844" X2="10908" Y2="11844" />
+      <Control Type="AR.Line" Name="Line74" X1="10692" Y1="11844" X2="10908" Y2="11844" />
+      <Control Type="AR.Line" Name="Line75" X1="10908" Y1="11664" X2="10908" Y2="11844" />
+      <Control Type="AR.Line" Name="Line76" X1="10692" Y1="11844" X2="10908" Y2="11844" />
+      <Control Type="AR.Line" Name="Line77" X1="10692" Y1="11844" X2="10692" Y2="11664" />
+      <Control Type="AR.Line" Name="Line78" X1="10692" Y1="11664" X2="10908" Y2="11664" />
+      <Control Type="AR.Label" Name="Label75" Left="792" Top="12636" Width="10476" Height="467.9999" Caption="Tôi (Chúng tôi) xin cam kết tuân thủ mọi qui định hiện hành về quản lý ngoại hối của nước Cộng hòa Xã hội Chủ nghĩa Việt Nam và đồng ý với các điều kiện chuyển tiền của VCB." Style="ddo-char-set: 0; font-weight: normal; font-size: 9pt; " />
+      <Control Type="AR.Label" Name="Label77" Left="828" Top="13104" Width="10440" Height="467.9999" Caption="I/we assure to comply with the current regulations on foreign exchange control of S.R Vietnam and agree with th conditions of VCB." Style="ddo-char-set: 0; font-weight: normal; font-size: 9pt; " />
+      <Control Type="AR.Label" Name="Label78" Left="1584" Top="13572" Width="1908" Height="288.0003" Caption="Chữ ký khách hàng				" Style="ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9pt; " />
+      <Control Type="AR.Label" Name="Label79" Left="4824" Top="13572" Width="1764" Height="288.0003" Caption="Kế toán trưởng			" Style="ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9pt; " />
+      <Control Type="AR.Label" Name="Label80" Left="8136" Top="13572" Width="3024" Height="288.0003" Caption="Chủ tài khoản ký và đóng dấu				" Style="ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9pt; " />
+      <Control Type="AR.Label" Name="Label81" Left="1620" Top="13896" Width="1944" Height="252.0007" Caption="Customer's signature				" Style="ddo-char-set: 0; font-weight: normal; font-size: 9pt; " />
+      <Control Type="AR.Label" Name="Label82" Left="4932" Top="13896" Width="1656" Height="252.0007" Caption="Chief Accountant			" Style="ddo-char-set: 0; font-weight: normal; font-size: 9pt; " />
+      <Control Type="AR.Label" Name="Label83" Left="8172.001" Top="13860" Width="3168" Height="252.0003" Caption="Account Holder signature &amp; stamp				" Style="ddo-char-set: 0; font-weight: normal; font-size: 9pt; " />
+      <Control Type="AR.Line" Name="Line79" X1="684.0001" Y1="14472" X2="11412" Y2="14472" />
+      <Control Type="AR.Label" Name="Label84" Left="756.0001" Top="14580" Width="4068" Height="288.0008" Caption="DÀNH CHO VCB (FOR VCB USE ONLY) :" Style="ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9pt; " />
+      <Control Type="AR.Label" Name="Label85" Left="5040" Top="14796" Width="899.9999" Height="288" Caption="TT Viên" Style="ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9pt; " />
+      <Control Type="AR.Label" Name="Label86" Left="6588" Top="14796" Width="864.0001" Height="287.9993" Caption="Thủ quĩ" Style="ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9pt; " />
+      <Control Type="AR.Label" Name="Label87" Left="8028" Top="14796" Width="1368" Height="287.9993" Caption="Người duyệt 1" Style="ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9pt; " />
+      <Control Type="AR.Label" Name="Label88" Left="9900" Top="14796" Width="1332" Height="287.9993" Caption="Người duyệt 2" Style="ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9pt; " />
+      <Control Type="AR.Label" Name="Label59" Left="2772" Top="3564" Width="2088" Height="252" Caption="Ngày Giá trị (Value date)" Style="ddo-char-set: 0; font-weight: normal; font-size: 9pt; " />
+    </Section>
+    <Section Type="Detail" Name="detail" Height="3044" BackColor="16777215" />
+    <Section Type="PageFooter" Name="pageFooter" Height="15" BackColor="16777215" />
+  </Sections>
+  <ReportComponentTray />
+  <PageSettings LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" PaperSize="9" PaperWidth="11906" PaperHeight="16838" PaperName="" Orientation="1" />
+  <Parameters />
+</ActiveReportsLayout>

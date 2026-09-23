@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ActiveReportsLayout Version="3.1" PrintWidth="16558.8" DocumentName="ARNet Document" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-style: normal; text-decoration: none; font-weight: normal; font-size: 10pt; color: Black; font-family: &quot;Times New Roman&quot;; ddo-char-set: 204" />
+    <Style Name="Heading1" Value="font-size: 16pt; font-weight: bold; ddo-char-set: 204" />
+    <Style Name="Heading2" Value="font-size: 14pt; font-weight: bold; font-style: italic; font-family: &quot;Times New Roman&quot;; ddo-char-set: 204" />
+    <Style Name="Heading3" Value="font-size: 13pt; font-weight: bold; ddo-char-set: 204" />
+  </StyleSheet>
+  <Sections>
+    <Section Type="ReportHeader" Name="ReportHeader1" Height="2311" BackColor="16777215">
+      <Control Type="AR.Shape" Name="Shape1" Left="13331.86" Top="106.4412" Width="1905" Height="885" BackColor="16777215" RoundingRadius="9.999999" />
+      <Control Type="AR.Label" Name="Label32" Tag="" Left="766.4883" Top="870.52" Width="495.4965" Height="270" Caption="Số:" HyperLink="" Style="ddo-char-set: 1; font-weight: bold; font-size: 10pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="Label7" Tag="" Left="13470.78" Top="571.1812" Width="1646.363" Height="270.1654" Caption="QT-KHVT-03/00" Style="ddo-char-set: 1; text-align: center; font-style: normal; font-size: 9.75pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="Label46" Tag="" Left="13470.57" Top="270.4019" Width="1646.363" Height="270.1653" Caption="BM : 04" Style="ddo-char-set: 1; text-align: center; font-style: normal; font-size: 9.75pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="label1" Tag="" Left="766.4882" Top="540" Width="7994.835" Height="270" Caption="PHÒNG KẾ HOẠCH VẬT TƯ" HyperLink="" Style="ddo-char-set: 1; font-weight: bold; font-size: 10pt; font-family: Times New Roman" />
+      <Control Type="AR.Image" Name="Picture1" Left="15325.77" Top="721.4174" Width="927.967" Height="270.2832" LineColor="16777215" LineWeight="0" HyperLink="" SizeMode="1">0D0D000402B609000089504E470D0A1A0A0000000D494844520000005B000000220806000000301BA5900000000467414D410000B18E7CFB5193000000206348524D00007A25000080830000F9FF000080E9000075300000EA6000003A980000176F925FC546000000097048597300002E2200002E2201AAE2DD920000092C494441546843ED5A676C1C45147E2184160882D021F41ED17B1135548104024411882E2008247A88040EA2238A15F183044409A1C4108C9D9DB9736CE776F62E0E04430A204A4247B45012427A62F3BDD9397B6767D7576C2423F9933E8DBDFBA6ECB7336FDE9B3D1AC000063080FF12B9CC49A4E4B5A4BC6B29C89E43396F14A9EC9194F7763716FF6F14DEDD8C664DDF8B1A276C62AE5486CECEC1A432DB53ABB78BB9520572B9F5C997A349895FC17F0CFF007FA340FC8417F02DFE6E473911C28FA2B6EC965453B35E58F97F001EAB2FCF8750B3F11CDFE1993C2AC83DCCDDF250573798F2D93BA1C1579ABE780193735773B702E4332331888F29909D25A9C44A0CB6097F5F4E53A66C6C5AE8DF68CBEE89F17E18798E7514786F62E26C612C4AC36F3E0422FF1969632D3CC01873B702F8F2EC701677355406C55FE87C121532FBA085416143FD14813C15FCD11EBF5C065E82BBA5C7DE3E61089EF5713CF39A581B6F1B8B0AE0CB73D1D0EFB186CAA3123F80A7D0977243D35AFF4361FA0E18EB0C67ECBEF89A5ACB7027BCF20339DFAAABB4F0B7188B0A9024B6129FA29C024A0C0A7E2E72CFA1F81236676103E99F33BC133E5B890B9C712BB11AE37E9064898992CFDCE0CC6A5FCC237FFA7EC6A202248BFD80DE1498BC8106E2385C7F9682CCB7965D97BDFC051BC841A6C5FE079E08BE7C136385BFB6C6FE33A2AE338D958BC6C64DF40AB0EBAC421DF6D7554CAE64B1C799BBDD60D10BF274D806B0890F9AEBBC456D6DFD77D354D38EC4181738E30E64B3B1701188F35C7B44683E42C8AA50AED80C9E212DD37684FDCBB07367096F46A5C0ABA550D84CFB5226C7AE1C0397E9863A89D65F4AB4ED4AA27D57111D8AF23C945745B982E88C65443BC1B63B44ED44BF4ADC082EB7C6ADC43AF2A75DE3F43FB3691BDC6BB16C35C533D5BBCC4AC42E82131D25E65875D8AF2979A7B148862F0E80DD581DC9F842692AC19BD72BB87E3DBDDF3CDC58266239D10888390E023741D01FC035F8BB334E5C5F8B52A1B437405E79CA9B6E8F1BF4C5FB946BD8D358A10588C9D18A124B62B63F43AF238C5515A846EC9A1AF6E363AD3ABA1E129FA649438D553702B935FAB91FED2E04573BF5422E05917078079B5A5DC00C1D04E14E86806D6902C709BB0E94B79A26BA3143EF3FBF44FAE5E7E5313DD11555C95787E1A5D45B36E14A7E9EDEC52AAC1AD588CD098D1213AC3A9A702FEC12A26037A13275AE6D1A33F3B1016D676A6B74106D0DE16647C52C8710FC29D344375850BDBA62EE2490C89CBD13B44D5E9CE64C0ACEB0836CFA665A162A137B10CD6D1A0A316E830DCFC4EE3A81ECC0727C54FBC6223EC96D8AEBB5683F9E1094A0574B9FD46D605A2188763AB82E26E43A7005B82CC295511BF076D3840D351513406FF4F17E5B69767604EE3538F7F299166AC2B3F70AE5889D6BDC8A7C6F3F7478115C854C110FFE0C33220A5F5C06DBF84BE1F6178379B019B3E90B5C5B6BDB2059F2BD934D2BECABEF8889C8624FFE9B687FDE308D19AD263A1CD73F07D985FC04FFEEB8A42EE870169970B45F2556A1FC0065DC57AFC56C3FCBD4EC0592C5FE98F2F2F52EB228819C83F21FCBCEE66B7AD647C1873F8E1D42A740DE44EFC99DF44B54DEB17881F10C8FCF1EEE2AAE9214B1A7A2B44230083F04821F01912FC6FD93F0FF46E6960B4E6694F794EECBEE3B897369E6D46D4CCD5E2049EC4AC8B3C197AD94837851701AAF44876D8F19ED63757056D70DECFC3A9E5D64D9E665BD764300043C0CE22D8B89CD6EE53B08FB1078E0373D099B86D6D65DD04FABD56F9CFAF00DA93987ACBD466FC40E975DAD39F3B6634F25C724D8B7E8E4288EE6C69D71EFF398ED3C7D9C0B60831C0A612743600EE9E2339C5DC642703CB8B76EAF1228246AE173D8632D5289B908492B6F371155899D59A9671EFB554E69931088A96E3D6FB4B96B83CF9C03113D06C543CA2F8A7137877E1C6343CC5721EE0A16394E7E11E0F7E06378393BEA76CB01CFD8C07B167D2687A4BE773FE2EE3E3ABFAF46EC70037984666219A621108D4E3DBFF11873D78592ED966D44EC2220FA16107D2C04FD0CE419ED886ED8840CF2287E49A66ACF084FF6DC337D257FA596866D8D551F207983345F6A64FAF20AB42F9BAB97612EE7FACB24B10BE27073D7869E5DD6013F8F610E654337120504DC0042EF01D1EF43391FC25ABE9C89EBECCF3983DCCD54EB19AC81EF9CE92302910F1B8B3E42B2D8E328DF3012BB35FB5D6C203DC4C9E12CAF8D2722B8F69A65A7898D300939BC04FDC92A62ABC41BA5E2DA2544C321E8D5107606E8B817DCEB393963F01EA2449BD577D8FF3C94FB1BAB3E429AD80CF6A57CF0C407383C8BD3C224CEB6F27212B523942B42897B5D5B31D9F97EA9B351CC20278D9F36561F0B18B04B48720B7C8D7D342212DE202DB1C18F8C593A7CEF22F4673F97D2FEFB416A6F1F62ACFA083D891D05C7A5BEB803F7166030EE11AB666616E5B2E1818E2F0F715604EFFACA7B522748EC0B79E604C83A1DA1C542BCBCA3B919883918A1DFF1106E0C78CF1A649328F7627762EE0FFA9D689899E171B117B04D2AF21C05C9F7ECBE35E7F7EE0C240DE58ACDD0DFE39084043221D2D04432221ED0B6E1F2CC3B36E1990427489C2861B524B828255F2C463998B12321E4BCA280F87B094A3E27E150F02194135136A0FC91EF4789BAF57A2C49E015A6C475E8CF4DD494B8D958F53112C59613E112D27F5FD1DCBC39EC6A403EC3B607CAB3A2885C6614DA4AFEBA934625BE8AFA7F6C843CAB1D21991099C3BDB4A8642978A169C60567AFFCD2EDFE3909F3FA36028922902742ECEFBB3AE48CC9177797CC98DAF4C9DF05E01F5D753533134203800F9302EF52B41FB34923DC07FFC6230284703B40B44244C472B81C2FE169F8F261A61917DACD39FD2FC678AFA8FEE34029F079862F5E866898DDDC19967EB9DF13C3A5C869399F9F7C86BA2F395FACD99DF0CF2502310B4C3A94EA00978039FD0BAC5886C93E99D371089883808B40EBF42F4ADC5B0AF241D4E845443DFBDC592DBC67747F35D7470B62CA7FFF69AF4ECFC033D1E1C57A79558378E817873ED7F6AEC2033D070AF4C5A77E8DE078AC864B9362EA28CC26C847AD8F40D897502A94792EC13ABC905AB89C2B39D3E41764AAA5837F4E96D72EF41D8C019BBE9844B9FA2A7EE5D49FC10990FEBE573F42BFD8523F25880142AEC767251CEEB1B0FCAD7131324B5C77CF5C4A81DD45F33BC31141EDABF7A1010C60003D82E85FECFF9B88B5033C310000000049454E44AE426082</Control>
+      <Control Type="AR.Label" Name="label2" Tag="Ten_Dv_Cq" Left="766.4882" Top="0" Width="7994.835" Height="270" Caption="Ten_Dv_Cq" HyperLink="" Style="ddo-char-set: 1; font-weight: bold; font-size: 10pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="label3" Tag="Ten_Dv" Left="766.4882" Top="270" Width="7994.835" Height="270" Caption="Ten_Dv" HyperLink="" Style="ddo-char-set: 1; font-weight: bold; font-size: 10pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="Label33" Tag="So_Ct" Left="1261.984" Top="870.52" Width="7491.402" Height="270" Caption="So_Ct" HyperLink="" Style="ddo-char-set: 1; font-weight: bold; font-size: 10pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="label4" Tag="" Left="934.2991" Top="1580.882" Width="15321.83" Height="432.0002" Caption="BẢNG DỰ TRÙ MUA VẬT TƯ PHỤ TÙNG" HyperLink="" Style="ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 18pt; font-family: Times New Roman" />
+    </Section>
+    <Section Type="PageHeader" Name="pageHeader" Height="1934" BackColor="16777215">
+      <Control Type="AR.Line" Name="line1" X1="887.8111" Y1="1001.764" X2="16209.64" Y2="1003.465" />
+      <Control Type="AR.Label" Name="label8" Left="995.811" Top="1361.762" Width="432" Height="288" Caption="STT" HyperLink="" Style="ddo-char-set: 1; font-weight: bold; font-size: 10pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="label15" Left="1611.213" Top="1213.228" Width="1766.551" Height="576.0003" Caption="Tên vật tư phụ tùng" HyperLink="" Style="ddo-char-set: 1; font-weight: bold; font-size: 10pt; font-family: Times New Roman; text-align: center" />
+      <Control Type="AR.Label" Name="label24" Left="7974.992" Top="1222.866" Width="648.0001" Height="432" Caption="Đvt" HyperLink="" Style="ddo-char-set: 1; text-align: center; font-weight: bold; font-size: 10pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="label27" Left="8707.18" Top="1206.426" Width="720.0007" Height="494.3623" Caption="Số lượng" HyperLink="" Style="ddo-char-set: 1; text-align: center; font-weight: bold; font-size: 10pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="label30" Left="9567.78" Top="1206.426" Width="885.5433" Height="252.8497" Caption="Đơn giá " HyperLink="" Style="ddo-char-set: 1; font-weight: bold; font-size: 10pt; font-family: Times New Roman; text-align: center" />
+      <Control Type="AR.Label" Name="label31" Left="13837.9" Top="1213.228" Width="803.9053" Height="472.8188" Caption="Ngày đề nghị" HyperLink="" Style="ddo-char-set: 1; font-weight: bold; font-size: 10pt; font-family: Times New Roman; text-align: center" />
+      <Control Type="AR.Line" Name="line2" X1="887.8111" Y1="1001.764" X2="887.8111" Y2="1901.76" />
+      <Control Type="AR.Line" Name="line3" X1="1440" Y1="1001.764" X2="1440" Y2="1901.76" />
+      <Control Type="AR.Line" Name="line5" X1="3497.953" Y1="1003.465" X2="3497.953" Y2="1903.461" />
+      <Control Type="AR.Line" Name="line6" X1="8629.511" Y1="1023.308" X2="8629.511" Y2="1923.303" />
+      <Control Type="AR.Line" Name="line7" X1="10513.98" Y1="1003.465" X2="10513.98" Y2="1903.461" />
+      <Control Type="AR.Line" Name="line8" X1="11497.89" Y1="1023.307" X2="11497.89" Y2="1923.303" />
+      <Control Type="AR.Line" Name="line9" X1="16209.64" Y1="1001.764" X2="16209.64" Y2="1901.76" />
+      <Control Type="AR.Line" Name="line22" X1="887.8111" Y1="1916.784" X2="16209.64" Y2="1918.201" />
+      <Control Type="AR.Line" Name="Line10" X1="9427.18" Y1="1023.308" X2="9427.18" Y2="1923.303" />
+      <Control Type="AR.Line" Name="Line11" X1="12437.59" Y1="1003.465" X2="12437.59" Y2="1903.461" />
+      <Control Type="AR.Label" Name="Label11" Left="11497.89" Top="1206.426" Width="903.1193" Height="494.3618" Caption="Số phiếu yêu cầu" HyperLink="" Style="ddo-char-set: 1; font-weight: bold; font-size: 10pt; font-family: Times New Roman; text-align: center" />
+      <Control Type="AR.Label" Name="Label5" Left="10509.17" Top="1176.945" Width="1003.464" Height="267.5904" Caption="Thành tiền" HyperLink="" Style="ddo-char-set: 1; font-weight: bold; font-size: 10pt; font-family: Times New Roman; text-align: center" />
+      <Control Type="AR.Line" Name="Line4" X1="6681.827" Y1="1018.204" X2="6681.827" Y2="1918.201" />
+      <Control Type="AR.Label" Name="Label6" Left="12437.59" Top="1213.228" Width="1314.136" Height="472.8188" Caption="Người yêu cầu" HyperLink="" Style="ddo-char-set: 1; font-weight: bold; font-size: 10pt; font-family: Times New Roman; text-align: center" />
+      <Control Type="AR.Line" Name="Line15" X1="13751.73" Y1="1018.204" X2="13751.73" Y2="1932.941" />
+      <Control Type="AR.Label" Name="Label9" Left="14734.49" Top="1206.425" Width="1298.834" Height="472.8186" Caption="Ghi chú" HyperLink="" Style="ddo-char-set: 1; font-weight: bold; font-size: 10pt; font-family: Times New Roman; text-align: center" />
+      <Control Type="AR.Line" Name="Line43" X1="14641.81" Y1="1018.204" X2="14641.81" Y2="1932.941" />
+      <Control Type="AR.Line" Name="Line23" X1="7974.992" Y1="1018.204" X2="7974.992" Y2="1918.2" />
+      <Control Type="AR.Label" Name="Label10" Left="3551.811" Top="1213.228" Width="1766.551" Height="576.0003" Caption="Mô tả đặc tính kỹ thuật" HyperLink="" Style="ddo-char-set: 1; font-weight: bold; font-size: 10pt; font-family: Times New Roman; text-align: center" />
+      <Control Type="AR.Label" Name="Label21" Left="6681.827" Top="1242.708" Width="1293.165" Height="399.118" Caption="Xuất xứ" HyperLink="" Style="ddo-char-set: 1; font-weight: bold; font-size: 10pt; font-family: Times New Roman; text-align: center" />
+      <Control Type="AR.Label" Name="Label28" Left="5354.646" Top="1227.968" Width="1293.165" Height="399.118" Caption="Mã số" HyperLink="" Style="ddo-char-set: 1; font-weight: bold; font-size: 10pt; font-family: Times New Roman; text-align: center" />
+      <Control Type="AR.Line" Name="Line46" X1="5354.646" Y1="1003.465" X2="5354.646" Y2="1903.461" />
+      <Control Type="AR.Label" Name="Label34" Tag="Ma_Tte" Left="9567.78" Top="1549.276" Width="885.5433" Height="252.8497" Caption="Ma_Tte" HyperLink="" Style="ddo-char-set: 1; font-weight: bold; font-size: 10pt; font-family: Times New Roman; text-align: center" />
+      <Control Type="AR.Label" Name="Label35" Tag="Ma_Tte" Left="10509.17" Top="1534.535" Width="1003.464" Height="267.5904" Caption="Ma_Tte" HyperLink="" Style="ddo-char-set: 1; font-weight: bold; font-size: 10pt; font-family: Times New Roman; text-align: center" />
+    </Section>
+    <Section Type="GroupHeader" Name="groupHeader1" Height="0" BackColor="16777215" />
+    <Section Type="Detail" Name="detail" Height="384" BackColor="16777215">
+      <Control Type="AR.Line" Name="line13" X1="887.8111" Y1="0" X2="887.8111" Y2="374.7402" />
+      <Control Type="AR.Line" Name="line14" X1="1440" Y1="0" X2="1440" Y2="360" />
+      <Control Type="AR.Line" Name="line16" X1="7974.994" Y1="0" X2="7974.994" Y2="360" />
+      <Control Type="AR.Line" Name="line17" X1="10514.26" Y1="0" X2="10514.26" Y2="360" />
+      <Control Type="AR.Line" Name="line18" X1="11497.89" Y1="1.700783" X2="11497.89" Y2="361.7008" />
+      <Control Type="AR.Line" Name="line19" X1="12437.86" Y1="0" X2="12437.86" Y2="359.9999" />
+      <Control Type="AR.Line" Name="line21" X1="3497.954" Y1="0" X2="3497.954" Y2="360" />
+      <Control Type="AR.Field" Name="textBox1" DataField="Stt0" Left="956.693" Top="70.86614" Width="425.1969" Height="283.4646" Text="STT" Multiline="0" Style="ddo-char-set: 1; text-align: right; font-size: 8pt; font-family: Times New Roman; white-space: nowrap" />
+      <Control Type="AR.Field" Name="textBox2" DataField="Ten_Vt" Left="1488.189" Top="48" Width="2009.764" Height="288" Text="Ten_Vt" Style="ddo-char-set: 1; font-size: 8pt; font-family: Times New Roman" />
+      <Control Type="AR.Field" Name="textBox4" DataField="Dvt" Left="8049.828" Top="35.71654" Width="543.6866" Height="288" Text="Dvt" Multiline="0" Style="ddo-char-set: 1; font-size: 8pt; font-family: Times New Roman; white-space: nowrap" />
+      <Control Type="AR.Field" Name="textBox5" DataField="Tien_Nt" Left="10480.82" Top="37.98425" Width="961.0867" Height="270" Text="Tien_Nt" OutputFormat="#,##0" Multiline="0" Style="ddo-char-set: 1; text-align: right; font-size: 8pt; font-family: Times New Roman; white-space: nowrap" />
+      <Control Type="AR.Field" Name="TextBox12" DataField="So_Ct_Org" Left="11497.89" Top="30.61418" Width="936.0022" Height="270" Text="So_Ct_Org" OutputFormat="" Multiline="0" Style="ddo-char-set: 1; text-align: left; font-size: 8pt; font-family: Times New Roman; white-space: nowrap" />
+      <Control Type="AR.Line" Name="Line26" X1="8629.794" Y1="0" X2="8629.794" Y2="360" />
+      <Control Type="AR.Line" Name="Line27" X1="9427.464" Y1="0" X2="9427.464" Y2="360" />
+      <Control Type="AR.Field" Name="TextBox13" DataField="So_Luong9" Left="8677.984" Top="35.71654" Width="720.1415" Height="270" Text="So_Luong9" OutputFormat="#,##0.00" Multiline="0" Style="ddo-char-set: 1; text-align: right; font-size: 8pt; font-family: Times New Roman; white-space: nowrap" />
+      <Control Type="AR.Line" Name="Line12" X1="902.5512" Y1="360" X2="16209.64" Y2="360" />
+      <Control Type="AR.Field" Name="TextBox3" DataField="Gia_Nt" Left="9492.662" Top="35.71654" Width="961.0867" Height="270" Text="Gia_Nt" OutputFormat="#,##0" Multiline="0" Style="ddo-char-set: 1; text-align: right; font-size: 8pt; font-family: Times New Roman; white-space: nowrap" />
+      <Control Type="AR.Line" Name="Line24" X1="13752" Y1="0" X2="13752" Y2="360" />
+      <Control Type="AR.Line" Name="Line25" X1="16209.64" Y1="0" X2="16209.64" Y2="360" />
+      <Control Type="AR.Field" Name="TextBox6" DataField="Ten_Dt_CbNv_Org" Left="12509.86" Top="13.03937" Width="1242.143" Height="270" Text="Ten_Dt_CbNv_Org" OutputFormat="" Multiline="0" Style="ddo-char-set: 1; text-align: left; font-size: 8pt; font-family: Times New Roman; white-space: nowrap" />
+      <Control Type="AR.Field" Name="TextBox8" DataField="Muc_Dich" Left="14734.49" Top="48.18898" Width="1475.148" Height="270" Text="Muc_Dich" OutputFormat="" Style="ddo-char-set: 1; text-align: left; font-size: 8pt; font-family: Times New Roman; white-space: inherit" />
+      <Control Type="AR.Line" Name="Line44" X1="14642.08" Y1="0" X2="14642.08" Y2="360" />
+      <Control Type="AR.Line" Name="Line45" X1="6681.827" Y1="0" X2="6681.827" Y2="360" />
+      <Control Type="AR.Line" Name="Line47" X1="5354.646" Y1="0" X2="5354.646" Y2="360" />
+      <Control Type="AR.Field" Name="TextBox7" DataField="Mo_Ta_Kt" Left="3551.811" Top="48.18898" Width="1766.551" Height="288" Text="Mo_Ta_Kt" Style="ddo-char-set: 1; font-size: 8pt; font-family: Times New Roman" />
+      <Control Type="AR.Field" Name="TextBox14" DataField="Ma_Vt" Left="5354.646" Top="48.18898" Width="1327.182" Height="288" Text="Ma_Vt" Style="ddo-char-set: 1; font-size: 8pt; font-family: Times New Roman" />
+      <Control Type="AR.Field" Name="TextBox15" DataField="Nguon_Sx" Left="6697.701" Top="35.71654" Width="1277.292" Height="288" Text="Nguon_Sx" Style="ddo-char-set: 1; font-size: 8pt; font-family: Times New Roman" />
+      <Control Type="AR.Field" Name="TextBox16" DataField="Ngay_Ct_Org" Left="13796.22" Top="30.61418" Width="890.0766" Height="270" Text="Ngay_Ct_Org" OutputFormat="dd/MM/yyyy" Style="font-size: 8pt; ddo-char-set: 1" />
+    </Section>
+    <Section Type="GroupFooter" Name="groupFooter1" Height="1005" BackColor="16777215">
+      <Control Type="AR.Line" Name="line32" X1="900.2834" Y1="330.5196" X2="16209.64" Y2="328.8189" />
+      <Control Type="AR.Line" Name="Line28" X1="898.0159" Y1="660.4724" X2="16207.37" Y2="658.7715" />
+      <Control Type="AR.Line" Name="Line29" X1="898.0159" Y1="975.6852" X2="16207.37" Y2="973.9841" />
+      <Control Type="AR.Line" Name="Line30" X1="890.0787" Y1="0" X2="890.0787" Y2="975.6852" />
+      <Control Type="AR.Line" Name="Line31" X1="1440" Y1="0" X2="1440" Y2="975.6852" />
+      <Control Type="AR.Line" Name="Line33" X1="3497.953" Y1="0" X2="3497.953" Y2="975.6852" />
+      <Control Type="AR.Line" Name="Line34" X1="5354.646" Y1="0" X2="5354.646" Y2="975.6852" />
+      <Control Type="AR.Line" Name="Line36" X1="6681.827" Y1="0" X2="6681.827" Y2="975.6852" />
+      <Control Type="AR.Line" Name="Line37" X1="8629.796" Y1="0" X2="8629.796" Y2="975.6852" />
+      <Control Type="AR.Line" Name="Line38" X1="11497.89" Y1="0" X2="11497.89" Y2="975.6852" />
+      <Control Type="AR.Line" Name="Line39" X1="12437.86" Y1="0" X2="12437.86" Y2="975.6852" />
+      <Control Type="AR.Line" Name="Line40" X1="13752" Y1="0" X2="13752" Y2="975.6852" />
+      <Control Type="AR.Line" Name="Line41" X1="14642.08" Y1="0" X2="14642.08" Y2="975.6852" />
+      <Control Type="AR.Line" Name="Line42" X1="16209.64" Y1="0" X2="16209.64" Y2="975.6852" />
+      <Control Type="AR.Label" Name="Label12" Left="1488.189" Top="29.48032" Width="2277.921" Height="310.6772" Caption="Cộng trước thuế" HyperLink="" Style="ddo-char-set: 1; font-weight: normal; font-size: 9pt; font-family: Times New Roman; text-align: left" />
+      <Control Type="AR.Label" Name="Label13" Left="1440" Top="349.7953" Width="2277.921" Height="310.6772" Caption="Thuế VAT 10%" HyperLink="" Style="ddo-char-set: 1; font-weight: normal; font-size: 9pt; font-family: Times New Roman; text-align: left" />
+      <Control Type="AR.Label" Name="Label14" Left="1440" Top="665.0079" Width="2277.921" Height="310.6772" Caption="Tổng cộng sau thuế" HyperLink="" Style="ddo-char-set: 1; font-weight: normal; font-size: 9pt; font-family: Times New Roman; text-align: left" />
+      <Control Type="AR.Field" Name="TextBox9" Tag="TTien_Nt0" Left="10512" Top="10.20476" Width="961.0867" Height="270" Text="TTien_Nt0" OutputFormat="#,##0" Multiline="0" Style="ddo-char-set: 1; text-align: right; font-size: 8pt; font-family: Times New Roman; white-space: nowrap" />
+      <Control Type="AR.Field" Name="TextBox10" Tag="TTien_Nt3" Left="10513.7" Top="330.5197" Width="961.0867" Height="270" Text="TTien_Nt3" OutputFormat="#,##0" Multiline="0" Style="ddo-char-set: 1; text-align: right; font-size: 8pt; font-family: Times New Roman; white-space: nowrap" />
+      <Control Type="AR.Field" Name="TextBox11" Tag="TTien_Nt" Left="10513.7" Top="686.5512" Width="961.0867" Height="270" Text="TTien_Nt" OutputFormat="#,##0" Multiline="0" Style="ddo-char-set: 1; text-align: right; font-size: 8pt; font-family: Times New Roman; white-space: nowrap" />
+      <Control Type="AR.Line" Name="Line20" X1="10514.27" Y1="0" X2="10514.27" Y2="975.6852" />
+      <Control Type="AR.Line" Name="Line48" X1="9427.468" Y1="0" X2="9427.468" Y2="975.6852" />
+      <Control Type="AR.Line" Name="Line49" X1="7974.994" Y1="0" X2="7974.994" Y2="975.6852" />
+    </Section>
+    <Section Type="PageFooter" Name="pageFooter" Height="464" BackColor="16777215">
+      <Control Type="AR.ReportInfo" Name="ReportInfo1" Left="14698.21" Top="0" Width="1512" Height="288" FormatString="Trang: {PageNumber}/{PageCount}" Style="font-size: 10pt" />
+    </Section>
+    <Section Type="ReportFooter" Name="ReportFooter1" Height="4320" BackColor="16777215">
+      <Control Type="AR.Label" Name="label17" Tag="Ngay_Thang" Left="11905.23" Top="1885.323" Width="4304.835" Height="270" Caption="Ngày...... tháng...... năm......" HyperLink="" Style="ddo-char-set: 1; text-align: left; font-weight: normal; font-style: italic; font-size: 9.75pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="label22" Left="13285.42" Top="2262.047" Width="1551.119" Height="288" Caption="NGƯỜI MUA" HyperLink="" Style="ddo-char-set: 1; font-weight: bold; font-size: 9.75pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="label18" Left="7255.559" Top="2279.622" Width="1989.07" Height="288" Caption="TP.KHVT" HyperLink="" Style="ddo-char-set: 1; font-weight: bold; font-size: 9.75pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="label23" Left="1215.496" Top="2280.189" Width="1620" Height="270" Caption="GIÁM ĐỐC" HyperLink="" Style="ddo-char-set: 1; font-weight: bold; font-size: 9.75pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="Label16" Left="900.2838" Top="124.1579" Width="2294.929" Height="270" Caption="Tổng số tiền bằng chữ:" HyperLink="" Style="ddo-char-set: 1; font-weight: normal; font-size: 11pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="Label20" Tag="Doc_Tien" Left="3023.433" Top="124.1575" Width="13183.94" Height="270" Caption="Doc_Tien" HyperLink="" Style="ddo-char-set: 1; font-weight: normal; font-size: 11pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="Label19" Left="900.2838" Top="484.1583" Width="1140.094" Height="270" Caption="- Đánh giá:" HyperLink="" Style="ddo-char-set: 1; font-weight: bold; font-size: 11pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="Label25" Tag="NhanXet_Bb" Left="2040.378" Top="484.1575" Width="14169.83" Height="585.0709" Caption="NhanXet_Bb" HyperLink="" Style="ddo-char-set: 1; font-weight: normal; font-size: 11pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="Label26" Left="900.2838" Top="1159.229" Width="1140.094" Height="270" Caption="- Nhận xét:" HyperLink="" Style="ddo-char-set: 1; font-weight: bold; font-size: 11pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="Label29" Tag="KienNghi_Bb" Left="2040.378" Top="1159.228" Width="14169.83" Height="585.0709" Caption="KienNghi_Bb" HyperLink="" Style="ddo-char-set: 1; font-weight: normal; font-size: 11pt; font-family: Times New Roman" />
+    </Section>
+  </Sections>
+  <ReportComponentTray />
+  <Script><![CDATA[public void groupFooter1_Format()
+{
+	
+}
+
+
+]]></Script>
+  <PageSettings LeftMargin="0" TopMargin="0" Orientation="2" />
+  <Parameters />
+</ActiveReportsLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_iwmn_r81dmmacthepct_list" model="ir.ui.view">
+        <field name="name">iwmn.r81dmmacthepct.list</field>
+        <field name="model">iwmn.r81dmmacthepct</field>
+        <field name="arch" type="xml">
+            <list string="R81DMMACTHEPCT - Ma_Data">
+                <field name="ident00"/>
+                <field name="grade_id"/>
+                <field name="standard_id"/>
+                <field name="ngay_ap"/>
+                <field name="bend_standard"/>
+                <field name="chemis_standard"/>
+                <field name="pull_standard"/>
+                <field name="create_log"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmmacthepct_form" model="ir.ui.view">
+        <field name="name">iwmn.r81dmmacthepct.form</field>
+        <field name="model">iwmn.r81dmmacthepct</field>
+        <field name="arch" type="xml">
+            <form string="R81DMMACTHEPCT - Ma_Data">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="ident00"/>
+                            <field name="grade_id"/>
+                            <field name="standard_id"/>
+                            <field name="ngay_ap"/>
+                            <field name="bend_standard"/>
+                        </group>
+                        <group>
+                            <field name="chemis_standard"/>
+                            <field name="pull_standard"/>
+                            <field name="create_log"/>
+                            <field name="lastmodify_log"/>
+                            <field name="ma_data"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmmacthepct_search" model="ir.ui.view">
+        <field name="name">iwmn.r81dmmacthepct.search</field>
+        <field name="model">iwmn.r81dmmacthepct</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="ma_data"/>
+                <field name="ident00"/>
+                <field name="grade_id"/>
+                <field name="standard_id"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_iwmn_r81dmmacthepct" model="ir.actions.act_window">
+        <field name="name">R81DMMACTHEPCT - Ma_Data</field>
+        <field name="res_model">iwmn.r81dmmacthepct</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_iwmn_r81dmmacthepct_search"/>
+    </record>
+
+    <menuitem id="menu_iwmn_r81dmmacthepct" name="R81DMMACTHEPCT - Ma_Data"
+              parent="menu_iwmn_master_quality"
+              action="action_iwmn_r81dmmacthepct" sequence="37"/>
+</odoo>

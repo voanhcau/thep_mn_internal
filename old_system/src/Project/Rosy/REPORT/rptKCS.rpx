@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ActiveReportsLayout Version="3.1" PrintWidth="16570.56" DocumentName="ARNet Document" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-style: normal; text-decoration: none; font-weight: normal; font-size: 10pt; color: Black; font-family: &quot;Times New Roman&quot;; ddo-char-set: 204" />
+    <Style Name="Heading1" Value="font-size: 16pt; font-weight: bold; ddo-char-set: 204" />
+    <Style Name="Heading2" Value="font-size: 14pt; font-weight: bold; font-style: italic; font-family: &quot;Times New Roman&quot;; ddo-char-set: 204" />
+    <Style Name="Heading3" Value="font-size: 13pt; font-weight: bold; ddo-char-set: 204" />
+  </StyleSheet>
+  <Sections>
+    <Section Type="ReportHeader" Name="ReportHeader1" Height="0" BackColor="16777215" />
+    <Section Type="PageHeader" Name="pageHeader" Height="5850" BackColor="16777215">
+      <Control Type="AR.Label" Name="label32" Tag="So_Ct" Left="4780.8" Top="2831.041" Width="3398.4" Height="299.7596" Caption="So_Ct" HyperLink="" Style="ddo-char-set: 0; font-size: 9.75pt; font-family: Tahoma" />
+      <Control Type="AR.Label" Name="Label5" Tag="Ten_Vt_Sp_Sx" Left="4780.8" Top="3173.76" Width="7192.8" Height="299.7596" Caption="Ten_Vt_Sp" HyperLink="" Style="ddo-char-set: 0; font-size: 9.75pt; font-family: Tahoma" />
+      <Control Type="AR.Label" Name="Label6" Tag="Grade_Name" Left="4780.8" Top="3502.081" Width="3398.399" Height="299.7596" Caption="Grade_Name" HyperLink="" Style="ddo-char-set: 0; font-size: 9.75pt; font-family: Tahoma" />
+      <Control Type="AR.Label" Name="Label7" Tag="Standard_Name" Left="4780.8" Top="3849.12" Width="3398.399" Height="299.7596" Caption="Standard_Name" HyperLink="" Style="ddo-char-set: 0; font-size: 9.75pt; font-family: Tahoma" />
+      <Control Type="AR.Label" Name="Label8" Tag="Pull_Standard" Left="13047.84" Top="3502.081" Width="2865.601" Height="299.5199" Caption="Pull_Standard" HyperLink="" Style="ddo-char-set: 0; font-size: 9.75pt; font-family: Tahoma" />
+      <Control Type="AR.Label" Name="Label9" Tag="Bend_Standard" Left="13047.84" Top="3849.121" Width="2865.601" Height="299.5199" Caption="Bend_Standard" HyperLink="" Style="ddo-char-set: 0; font-size: 9.75pt; font-family: Tahoma" />
+      <Control Type="AR.Field" Name="TextBox12" Tag="Ngay_Xuat" Left="13047.84" Top="2831.041" Width="2865.601" Height="288" Text="Ngay_Xuat" OutputFormat="dd/MM/yyyy" Multiline="0" Style="ddo-char-set: 0; font-size: 9.75pt; font-family: Tahoma" />
+      <Control Type="AR.Label" Name="Label11" Tag="Chemis_Standard" Left="13047.84" Top="3173.761" Width="2865.599" Height="299.5199" Caption="Chemis_Standard" HyperLink="" Style="ddo-char-set: 0; font-size: 9.75pt; font-family: Tahoma" />
+    </Section>
+    <Section Type="GroupHeader" Name="groupHeader1" Height="0" BackColor="16777215" />
+    <Section Type="Detail" Name="detail" Height="219" BackColor="16777215">
+      <Control Type="AR.Field" Name="textBox3" DataField="Try_ID" Left="2309.773" Top="28.8" Width="1962.72" Height="185.76" Text="Try_ID" Style="white-space: inherit; font-family: Microsoft Sans Serif; ddo-char-set: 1; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="textBox7" DataField="Yeild" Left="4675.69" Top="28.8" Width="894.2421" Height="185.76" Text="Yeild" OutputFormat="#,##0" Multiline="0" Style="text-align: center; white-space: nowrap; font-family: Microsoft Sans Serif; ddo-char-set: 1; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox4" DataField="Ngay_Nhap" Left="590.4131" Top="28.8" Width="1440" Height="185.76" Text="Ngay_Nhap" OutputFormat="dd/MM/yyyy" Multiline="0" Style="text-align: center; white-space: nowrap; font-family: Microsoft Sans Serif; ddo-char-set: 1; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox2" DataField="Tension" Left="5711.04" Top="28.8" Width="1058.401" Height="185.76" Text="Tension" OutputFormat="#,##0" Multiline="0" Style="text-align: center; white-space: nowrap; font-family: Microsoft Sans Serif; ddo-char-set: 1; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox8" DataField="ELong" Left="6897.615" Top="28.8" Width="758.8789" Height="185.76" Text="ELong" OutputFormat="#,##0.0" Multiline="0" Style="text-align: center; white-space: nowrap; font-family: Tahoma; ddo-char-set: 1; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox10" DataField="Bend_Test" Left="8241.133" Top="28.8" Width="684.0022" Height="185.76" Text="Bend_Test" OutputFormat="" Multiline="0" Style="text-align: left; white-space: nowrap; font-family: Tahoma; ddo-char-set: 1; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox11" DataField="Description" Left="13993.93" Top="28.8" Width="2463.839" Height="185.76" Text="Description" OutputFormat="" Multiline="0" Style="text-align: center; white-space: nowrap; font-family: Tahoma; ddo-char-set: 0; font-size: 6.75pt" />
+      <Control Type="AR.Field" Name="TextBox9" DataField="S" Left="13154.41" Top="34.55998" Width="986.4005" Height="185.5219" Text="S" OutputFormat="#,##0.000" Multiline="0" Style="text-align: center; white-space: nowrap; font-family: Tahoma; ddo-char-set: 1; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox5" DataField="C" Left="9195.852" Top="34.55998" Width="532.8031" Height="185.5219" Text="C" OutputFormat="#,##0.000" Multiline="0" Style="text-align: center; white-space: nowrap; font-family: Tahoma; ddo-char-set: 1; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox6" DataField="Si" Left="11168.65" Top="34.55998" Width="785.7606" Height="185.5219" Text="Si" OutputFormat="#,##0.000" Multiline="0" Style="text-align: center; white-space: nowrap; font-family: Tahoma; ddo-char-set: 1; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox13" DataField="Mn" Left="10152.02" Top="34.55998" Width="668.1623" Height="185.5219" Text="Mn" OutputFormat="#,##0.000" Multiline="0" Style="text-align: center; white-space: nowrap; font-family: Tahoma; ddo-char-set: 1; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox14" DataField="P" Left="12225.61" Top="34.55998" Width="833.7596" Height="185.5219" Text="P" OutputFormat="#,##0.000" Multiline="0" Style="text-align: center; white-space: nowrap; font-family: Tahoma; ddo-char-set: 1; font-size: 8.25pt" />
+    </Section>
+    <Section Type="GroupFooter" Name="groupFooter1" Height="538" BackColor="16777215">
+      <Control Type="AR.Line" Name="Line1" X1="878.4" Y1="103.68" X2="3912.48" Y2="103.68" />
+      <Control Type="AR.Line" Name="Line2" X1="3926.88" Y1="103.68" X2="4573.442" Y2="393.1201" />
+    </Section>
+    <Section Type="PageFooter" Name="pageFooter" Height="1837" BackColor="16777215">
+      <Control Type="AR.Label" Name="Label1" Tag="Ten_Dt" Left="5417.28" Top="0" Width="4887.36" Height="576" Caption="Ten_Dt" HyperLink="" Style="ddo-char-set: 1; font-size: 11pt; font-family: Tahoma; text-align: left; font-weight: bold" />
+      <Control Type="AR.Label" Name="Label2" Tag="Ten_Cong_Trinh" Left="4871.52" Top="832.32" Width="5562.72" Height="947.5201" Caption="Ten_Cong_Trinh" HyperLink="" Style="ddo-char-set: 1; font-size: 10pt; font-family: Tahoma; text-align: left" />
+      <Control Type="AR.Label" Name="Label4" Tag="Ten_Dt_CbNv" Left="13188.96" Top="1193.76" Width="3225.598" Height="299.7596" Caption="Ten_Dt_CbNv" HyperLink="" Style="ddo-char-set: 1; font-size: 11pt; font-family: Tahoma; text-align: center" />
+    </Section>
+    <Section Type="ReportFooter" Name="ReportFooter1" PrintAtBottom="1" Height="45" BackColor="16777215" />
+  </Sections>
+  <ReportComponentTray />
+  <Script><![CDATA[public void ActiveReport_DataInitialize()
+{
+	//add a counter field for the number of the records 
+	//directly in the activereports script
+	rpt.Fields.Add("Stt1");
+}
+
+
+public void detail_Format()
+{
+	int sl = System.Convert.ToInt32(rpt.Fields["Stt1"].Value);
+	if (sl != 0 && ((sl % 12) == 0))
+	{
+		// if the current record number is modulus of 15 
+		//(12 records per page!) and it is not the first record
+		// than force the page break
+		DataDynamics.ActiveReports.Detail subReportDetail =
+			(DataDynamics.ActiveReports.Detail) (rpt.Sections["detail"]);
+		subReportDetail.NewPage = DataDynamics.ActiveReports.NewPage.After;
+              
+		// increase the height of the detail section to 0,9 inches 
+		//that the text "Continued on the next page" will be displayed
+		subReportDetail.Height = (float) (0.144);
+	} 
+	else 
+	{
+		//the record is not modulus of 15, do not break page
+		DataDynamics.ActiveReports.Detail subReportDetail =
+			(DataDynamics.ActiveReports.Detail) (rpt.Sections["detail"]);
+		subReportDetail.NewPage = DataDynamics.ActiveReports.NewPage.None;
+
+		//decrease the detail height so that the text 
+		//"Continued on the next page" hides
+		subReportDetail.Height = (float) (0.144);
+	}
+
+	//increase the record counter
+	sl = sl + 1;
+	rpt.Fields["Stt1"].Value = sl;
+}
+
+
+]]></Script>
+  <PageSettings LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" PaperSize="9" PaperWidth="11906" PaperHeight="16838" PaperName="" Orientation="2" />
+  <Parameters />
+</ActiveReportsLayout>

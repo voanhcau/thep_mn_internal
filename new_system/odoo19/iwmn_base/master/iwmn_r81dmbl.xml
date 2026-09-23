@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_iwmn_r81dmbl_list" model="ir.ui.view">
+        <field name="name">iwmn.r81dmbl.list</field>
+        <field name="model">iwmn.r81dmbl</field>
+        <field name="arch" type="xml">
+            <list string="R81DMBL - So_BL">
+                <field name="ident00"/>
+                <field name="ma_dt"/>
+                <field name="ma_hd"/>
+                <field name="so_bl"/>
+                <field name="tien_bao_lanh"/>
+                <field name="ngay_bd_bl"/>
+                <field name="ngay_kt_bl"/>
+                <field name="ma_dt_bl"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmbl_form" model="ir.ui.view">
+        <field name="name">iwmn.r81dmbl.form</field>
+        <field name="model">iwmn.r81dmbl</field>
+        <field name="arch" type="xml">
+            <form string="R81DMBL - So_BL">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="ident00"/>
+                            <field name="ma_dt"/>
+                            <field name="ma_hd"/>
+                            <field name="so_bl"/>
+                            <field name="tien_bao_lanh"/>
+                            <field name="ngay_bd_bl"/>
+                            <field name="ngay_kt_bl"/>
+                            <field name="ma_dt_bl"/>
+                            <field name="ma_data"/>
+                            <field name="create_log"/>
+                            <field name="lastmodify_log"/>
+                            <field name="ghi_chu"/>
+                        </group>
+                        <group>
+                            <field name="lock"/>
+                            <field name="user_lock"/>
+                            <field name="ghi_chu_lock"/>
+                            <field name="tien_bao_lanh_nt"/>
+                            <field name="ngay_begin"/>
+                            <field name="ngay_end"/>
+                            <field name="so_bl_goc"/>
+                            <field name="note"/>
+                            <field name="ma_tte"/>
+                            <field name="ty_gia"/>
+                            <field name="ngay_ph"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmbl_search" model="ir.ui.view">
+        <field name="name">iwmn.r81dmbl.search</field>
+        <field name="model">iwmn.r81dmbl</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="so_bl"/>
+                <field name="ident00"/>
+                <field name="ma_dt"/>
+                <field name="ma_hd"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_iwmn_r81dmbl" model="ir.actions.act_window">
+        <field name="name">R81DMBL - So_BL</field>
+        <field name="res_model">iwmn.r81dmbl</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_iwmn_r81dmbl_search"/>
+    </record>
+
+    <menuitem id="menu_iwmn_r81dmbl" name="R81DMBL - So_BL"
+              parent="menu_iwmn_master_finance"
+              action="action_iwmn_r81dmbl" sequence="10"/>
+</odoo>

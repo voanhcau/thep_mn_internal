@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ActiveReportsLayout Version="3.1" PrintWidth="4065" DocumentName="ARNet Document" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-style: normal; text-decoration: none; font-weight: normal; font-size: 10pt; color: Black; font-family: &quot;Times New Roman&quot;; ddo-char-set: 204" />
+    <Style Name="Heading1" Value="font-size: 16pt; font-weight: bold; ddo-char-set: 204" />
+    <Style Name="Heading2" Value="font-size: 14pt; font-weight: bold; font-style: italic; font-family: &quot;Times New Roman&quot;; ddo-char-set: 204" />
+    <Style Name="Heading3" Value="font-size: 13pt; font-weight: bold; ddo-char-set: 204" />
+  </StyleSheet>
+  <Sections>
+    <Section Type="ReportHeader" Name="ReportHeader1" Height="5671" BackColor="16777215">
+      <Control Type="AR.Label" Name="Label1" DataField="TITLE" Tag="" Left="79.20009" Top="806.4012" Width="3839.04" Height="267.84" Caption="TITLE" Style="font-size: 10pt; ddo-char-set: 1; font-weight: bold; vertical-align: middle; white-space: nowrap; text-align: center" />
+      <Control Type="AR.Label" Name="Label2" Tag="" Left="79.2" Top="1254.242" Width="1954.08" Height="348.4782" Caption="TIÊU CHUẨN (STANDARD):" Style="font-size: 6.75pt; ddo-char-set: 0; font-weight: bold; vertical-align: middle; white-space: inherit; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="Label5" Tag="" Left="79.2" Top="1592.641" Width="1468.8" Height="286.5589" Caption="MÁC THÉP (GRADE):" Style="font-size: 6.75pt; ddo-char-set: 0; font-weight: bold; vertical-align: middle; white-space: inherit" />
+      <Control Type="AR.Label" Name="Label8" Tag="" Left="79.2" Top="1879.2" Width="1454.4" Height="300.9599" Caption="KÍCH CỠ (SIZE):" Style="font-size: 6.75pt; ddo-char-set: 0; font-weight: bold; vertical-align: middle; white-space: inherit" />
+      <Control Type="AR.Label" Name="Label3" Tag="" Left="79.2" Top="2180.16" Width="1573.92" Height="288.0002" Caption="SỐ LÔ (LOT NUMBER):" Style="font-size: 6.75pt; ddo-char-set: 0; font-weight: bold; vertical-align: middle; white-space: inherit" />
+      <Control Type="AR.Label" Name="Label7" Tag="" Left="79.2" Top="2773.44" Width="2178.72" Height="285.1198" Caption="SỐ THANH/BÓ (BAR/BUNDLE):" Style="font-size: 6.75pt; ddo-char-set: 0; font-weight: bold; vertical-align: middle; white-space: inherit; text-align: left" />
+      <Control Type="AR.Label" Name="Label9" Tag="" Left="79.2" Top="2468.16" Width="1454.4" Height="287.9999" Caption="BÓ SỐ (BUNDLE NO):" Style="font-size: 6.75pt; ddo-char-set: 0; font-weight: bold; vertical-align: middle; white-space: inherit" />
+      <Control Type="AR.Label" Name="Label10" Tag="" Left="79.2" Top="3015.36" Width="1304.64" Height="288" Caption="KHỐI LƯỢNG TB" Style="font-size: 6.75pt; ddo-char-set: 0; font-weight: bold; vertical-align: middle; white-space: inherit; text-align: left" />
+      <Control Type="AR.Label" Name="Label11" Tag="" Left="79.2" Top="3569.76" Width="829.4401" Height="230.4001" Caption="CA (SHIFT):" Style="font-size: 6.75pt; ddo-char-set: 0; font-weight: bold; vertical-align: middle; white-space: inherit" />
+      <Control Type="AR.Label" Name="Label12" Tag="" Left="79.2" Top="3828.96" Width="1062.72" Height="230.4001" Caption="NGÀY (DATE):" Style="font-size: 6.75pt; ddo-char-set: 0; font-weight: bold; vertical-align: middle; white-space: inherit; text-align: left" />
+      <Control Type="AR.Label" Name="Label14" DataField="Standard_Name" Tag="" Left="1958.4" Top="1254.242" Width="2046.24" Height="348.4781" Caption="Standard_Name" Style="font-size: 9pt; ddo-char-set: 1; font-weight: bold; vertical-align: middle; white-space: inherit; text-align: left" />
+      <Control Type="AR.Label" Name="Label15" DataField="Grade_Name" Tag="" Left="1533.6" Top="1607.04" Width="2471.04" Height="243.3602" Caption="Grade_Name" Style="font-size: 9pt; ddo-char-set: 1; font-weight: bold; vertical-align: middle; white-space: inherit; text-align: left" />
+      <Control Type="AR.Label" Name="Label16" DataField="Ten_Vt_Length" Tag="" Left="1533.6" Top="1879.2" Width="2468.16" Height="300.96" Caption="Ten_Vt_Length" Style="font-size: 9pt; ddo-char-set: 1; font-weight: bold; vertical-align: middle; white-space: inherit; text-align: left" />
+      <Control Type="AR.Label" Name="Label18" DataField="Num_Lot" Tag="" Left="1648.8" Top="2180.16" Width="2352.96" Height="288.0001" Caption="Num_Lot" Style="font-size: 9pt; ddo-char-set: 1; font-weight: bold; vertical-align: middle; white-space: inherit; text-align: left" />
+      <Control Type="AR.Field" Name="TextBox1" DataField="Num_Bars" Left="2207.52" Top="2773.44" Width="902.8801" Height="285.1199" Text="ST" OutputFormat="#,###0" Style="font-weight: bold; ddo-char-set: 1; vertical-align: middle; font-size: 9pt; text-align: left" />
+      <Control Type="AR.Field" Name="TextBox2" DataField="Num_Barcode" Left="1533.6" Top="2468.16" Width="1231.2" Height="288.0001" Text="SOBO" OutputFormat="#,###" Style="font-weight: bold; ddo-char-set: 1; vertical-align: middle; font-size: 9pt; text-align: left" />
+      <Control Type="AR.Field" Name="TextBox3" DataField="Ngay_Ct" Left="1105.92" Top="3828.96" Width="1493.28" Height="230.4001" Text="Ngay_Ct" OutputFormat="dd/MM/yyyy" Style="font-weight: bold; ddo-char-set: 1; vertical-align: middle; font-size: 8pt; text-align: left" />
+      <Control Type="AR.Label" Name="Label19" DataField="Ca" Tag="" Left="923.04" Top="3569.76" Width="383.0399" Height="230.4001" Caption="Ca" Style="font-size: 8pt; ddo-char-set: 1; font-weight: bold; vertical-align: middle; white-space: inherit" />
+      <Control Type="AR.Barcode" Name="Barcode1" DataField="Barcode" Left="407.52" Top="4563.36" Width="3391.2" Height="835.2003" BarStyle="23" Text="Barcode" Font="Courier New" FontSize="8" CODE128="0;0;0" />
+      <Control Type="AR.Label" Name="Label21" DataField="Barcode_Split" Tag="Barcode_Split" Left="407.52" Top="4304.161" Width="3391.2" Height="259.2004" Caption="Barcode_Split" Style="font-size: 9.75pt; ddo-char-set: 0; font-weight: bold; text-align: center; vertical-align: middle" />
+      <Control Type="AR.Label" Name="Label6" DataField="Barcode_Split" Tag="Barcode_Split" Left="407.52" Top="5441.76" Width="3391.2" Height="230.3994" Caption="Barcode_Split" Style="font-size: 11pt; ddo-char-set: 1; font-weight: bold; text-align: center; vertical-align: middle" />
+      <Control Type="AR.Label" Name="Label17" DataField="So_Luong_Kg" Tag="" Left="1548" Top="3166.56" Width="1216.8" Height="288.0001" Caption="So_Luong_Kg" Style="font-size: 9pt; ddo-char-set: 1; font-weight: bold; vertical-align: middle; white-space: inherit; text-align: left" />
+      <Control Type="AR.Label" Name="Label4" Tag="" Left="79.20009" Top="1019.522" Width="3925.44" Height="239.0401" Caption="(STEEL FOR CONCRETE REINFORCEMENT)" Style="font-size: 9pt; ddo-char-set: 1; font-weight: bold; vertical-align: middle; white-space: nowrap; text-align: center" />
+      <Control Type="AR.Label" Name="Label13" Tag="" Left="79.2" Top="3238.561" Width="1573.92" Height="288" Caption="(AVERAGE WEIGHT):" Style="font-size: 6.75pt; ddo-char-set: 0; font-weight: bold; vertical-align: middle; white-space: inherit; text-align: left" />
+      <Control Type="AR.Barcode" Name="Ma_QR" DataField="Ma_QR" Left="2842.56" Top="3097.44" Width="1159.2" Height="1159.2" BarStyle="24" Text="Ma_QR" Font="Courier New" FontSize="8" QRCode="Err=H,Mask111" CODE128="0;0;0" />
+      <Control Type="AR.Label" Name="Label20" Tag="" Left="79.2" Top="4073.76" Width="2520" Height="230.4001" Caption="NƯỚC SẢN XUẤT - VIỆT NAM" Style="font-size: 6.75pt; ddo-char-set: 0; font-weight: bold; vertical-align: middle; white-space: inherit; text-align: left" />
+    </Section>
+    <Section Type="Detail" Name="detail" Height="0" RepeatToFill="1" BackColor="16777215" />
+    <Section Type="ReportFooter" Name="ReportFooter1" Height="0" BackColor="16777215" />
+  </Sections>
+  <ReportComponentTray />
+  <Script><![CDATA[public void ReportHeader1_Format()
+{
+	
+}
+
+
+]]></Script>
+  <PageSettings LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" PaperSize="0" PaperWidth="8640" PaperHeight="3974" PaperName="Barcode" Orientation="2" />
+  <Parameters />
+</ActiveReportsLayout>

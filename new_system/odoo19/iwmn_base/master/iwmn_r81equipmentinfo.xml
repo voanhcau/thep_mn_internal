@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_iwmn_r81equipmentinfo_list" model="ir.ui.view">
+        <field name="name">iwmn.r81equipmentinfo.list</field>
+        <field name="model">iwmn.r81equipmentinfo</field>
+        <field name="arch" type="xml">
+            <list string="R81EQUIPMENTINFO - Description">
+                <field name="ident00"/>
+                <field name="host_ip"/>
+                <field name="equip_id"/>
+                <field name="description"/>
+                <field name="port_name"/>
+                <field name="baudrate"/>
+                <field name="parity"/>
+                <field name="databits"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81equipmentinfo_form" model="ir.ui.view">
+        <field name="name">iwmn.r81equipmentinfo.form</field>
+        <field name="model">iwmn.r81equipmentinfo</field>
+        <field name="arch" type="xml">
+            <form string="R81EQUIPMENTINFO - Description">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="ident00"/>
+                            <field name="host_ip"/>
+                            <field name="equip_id"/>
+                            <field name="description"/>
+                            <field name="port_name"/>
+                            <field name="baudrate"/>
+                            <field name="parity"/>
+                            <field name="databits"/>
+                            <field name="stopbits"/>
+                            <field name="handshake"/>
+                            <field name="zero_coefficient"/>
+                            <field name="span_coefficient"/>
+                            <field name="net_weight_min"/>
+                            <field name="net_weight_max"/>
+                            <field name="slopes_up"/>
+                            <field name="slopes_down"/>
+                            <field name="stable_count"/>
+                            <field name="num_ticket_print"/>
+                        </group>
+                        <group>
+                            <field name="print_barcode"/>
+                            <field name="print_report"/>
+                            <field name="print_eticket"/>
+                            <field name="create_log"/>
+                            <field name="lastmodify_log"/>
+                            <field name="status_input_type"/>
+                            <field name="stx"/>
+                            <field name="etx"/>
+                            <field name="value_len"/>
+                            <field name="plc_port_name"/>
+                            <field name="stable_time"/>
+                            <field name="stable_range"/>
+                            <field name="can"/>
+                            <field name="khoi_luong_old"/>
+                            <field name="loai_can"/>
+                            <field name="note"/>
+                            <field name="loai_sp"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81equipmentinfo_search" model="ir.ui.view">
+        <field name="name">iwmn.r81equipmentinfo.search</field>
+        <field name="model">iwmn.r81equipmentinfo</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="description"/>
+                <field name="ident00"/>
+                <field name="host_ip"/>
+                <field name="equip_id"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_iwmn_r81equipmentinfo" model="ir.actions.act_window">
+        <field name="name">R81EQUIPMENTINFO - Description</field>
+        <field name="res_model">iwmn.r81equipmentinfo</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_iwmn_r81equipmentinfo_search"/>
+    </record>
+
+    <menuitem id="menu_iwmn_r81equipmentinfo" name="R81EQUIPMENTINFO - Description"
+              parent="menu_iwmn_master_equipment"
+              action="action_iwmn_r81equipmentinfo" sequence="65"/>
+</odoo>

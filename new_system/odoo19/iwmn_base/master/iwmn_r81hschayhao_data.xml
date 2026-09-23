@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="iwmn_r81hschayhao_1" model="iwmn.r81hschayhao">
+            <field name="ident00">1</field>
+            <field name="ma_size">R06</field>
+            <field name="loai_nap">NO</field>
+            <field name="he_so">1.1500</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_2" model="iwmn.r81hschayhao">
+            <field name="ident00">2</field>
+            <field name="ma_size">R07</field>
+            <field name="loai_nap">NO</field>
+            <field name="he_so">0.0000</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_3" model="iwmn.r81hschayhao">
+            <field name="ident00">3</field>
+            <field name="ma_size">R08</field>
+            <field name="loai_nap">NO</field>
+            <field name="he_so">1.0000</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_4" model="iwmn.r81hschayhao">
+            <field name="ident00">4</field>
+            <field name="ma_size">R10</field>
+            <field name="loai_nap">NO</field>
+            <field name="he_so">0.0000</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_5" model="iwmn.r81hschayhao">
+            <field name="ident00">5</field>
+            <field name="ma_size">D10</field>
+            <field name="loai_nap">NO</field>
+            <field name="he_so">0.6500</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_6" model="iwmn.r81hschayhao">
+            <field name="ident00">6</field>
+            <field name="ma_size">D12</field>
+            <field name="loai_nap">NO</field>
+            <field name="he_so">0.6000</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_7" model="iwmn.r81hschayhao">
+            <field name="ident00">7</field>
+            <field name="ma_size">D14</field>
+            <field name="loai_nap">NO</field>
+            <field name="he_so">0.5500</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_8" model="iwmn.r81hschayhao">
+            <field name="ident00">8</field>
+            <field name="ma_size">D16</field>
+            <field name="loai_nap">NO</field>
+            <field name="he_so">0.5500</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_9" model="iwmn.r81hschayhao">
+            <field name="ident00">9</field>
+            <field name="ma_size">D18</field>
+            <field name="loai_nap">NO</field>
+            <field name="he_so">0.5500</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_10" model="iwmn.r81hschayhao">
+            <field name="ident00">10</field>
+            <field name="ma_size">D20</field>
+            <field name="loai_nap">NO</field>
+            <field name="he_so">0.5500</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_11" model="iwmn.r81hschayhao">
+            <field name="ident00">11</field>
+            <field name="ma_size">D22</field>
+            <field name="loai_nap">NO</field>
+            <field name="he_so">0.5000</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_12" model="iwmn.r81hschayhao">
+            <field name="ident00">12</field>
+            <field name="ma_size">D25</field>
+            <field name="loai_nap">NO</field>
+            <field name="he_so">0.4500</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_13" model="iwmn.r81hschayhao">
+            <field name="ident00">13</field>
+            <field name="ma_size">D28</field>
+            <field name="loai_nap">NO</field>
+            <field name="he_so">0.4500</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_14" model="iwmn.r81hschayhao">
+            <field name="ident00">14</field>
+            <field name="ma_size">D32</field>
+            <field name="loai_nap">NO</field>
+            <field name="he_so">0.4500</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_15" model="iwmn.r81hschayhao">
+            <field name="ident00">15</field>
+            <field name="ma_size">D36</field>
+            <field name="loai_nap">NO</field>
+            <field name="he_so">0.4500</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_16" model="iwmn.r81hschayhao">
+            <field name="ident00">16</field>
+            <field name="ma_size">D40</field>
+            <field name="loai_nap">NO</field>
+            <field name="he_so">0.4500</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_17" model="iwmn.r81hschayhao">
+            <field name="ident00">17</field>
+            <field name="ma_size">D43</field>
+            <field name="loai_nap">NO</field>
+            <field name="he_so">0.4500</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_18" model="iwmn.r81hschayhao">
+            <field name="ident00">18</field>
+            <field name="ma_size">D35</field>
+            <field name="loai_nap">NO</field>
+            <field name="he_so">0.4500</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_19" model="iwmn.r81hschayhao">
+            <field name="ident00">19</field>
+            <field name="ma_size">D38</field>
+            <field name="loai_nap">NO</field>
+            <field name="he_so">0.4500</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_20" model="iwmn.r81hschayhao">
+            <field name="ident00">20</field>
+            <field name="ma_size">D41</field>
+            <field name="loai_nap">NO</field>
+            <field name="he_so">0.4500</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_21" model="iwmn.r81hschayhao">
+            <field name="ident00">21</field>
+            <field name="ma_size">R06</field>
+            <field name="loai_nap">TG</field>
+            <field name="he_so">1.2000</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_22" model="iwmn.r81hschayhao">
+            <field name="ident00">22</field>
+            <field name="ma_size">R07</field>
+            <field name="loai_nap">TG</field>
+            <field name="he_so">1.3000</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_23" model="iwmn.r81hschayhao">
+            <field name="ident00">23</field>
+            <field name="ma_size">R08</field>
+            <field name="loai_nap">TG</field>
+            <field name="he_so">1.1700</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_24" model="iwmn.r81hschayhao">
+            <field name="ident00">24</field>
+            <field name="ma_size">R10</field>
+            <field name="loai_nap">TG</field>
+            <field name="he_so">1.2000</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_25" model="iwmn.r81hschayhao">
+            <field name="ident00">25</field>
+            <field name="ma_size">D10</field>
+            <field name="loai_nap">TG</field>
+            <field name="he_so">1.1000</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_26" model="iwmn.r81hschayhao">
+            <field name="ident00">26</field>
+            <field name="ma_size">D12</field>
+            <field name="loai_nap">TG</field>
+            <field name="he_so">0.9500</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_27" model="iwmn.r81hschayhao">
+            <field name="ident00">27</field>
+            <field name="ma_size">D14</field>
+            <field name="loai_nap">TG</field>
+            <field name="he_so">0.9000</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_28" model="iwmn.r81hschayhao">
+            <field name="ident00">28</field>
+            <field name="ma_size">D16</field>
+            <field name="loai_nap">TG</field>
+            <field name="he_so">0.8500</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_29" model="iwmn.r81hschayhao">
+            <field name="ident00">29</field>
+            <field name="ma_size">D18</field>
+            <field name="loai_nap">TG</field>
+            <field name="he_so">0.8500</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_30" model="iwmn.r81hschayhao">
+            <field name="ident00">30</field>
+            <field name="ma_size">D20</field>
+            <field name="loai_nap">TG</field>
+            <field name="he_so">0.8500</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_31" model="iwmn.r81hschayhao">
+            <field name="ident00">31</field>
+            <field name="ma_size">D22</field>
+            <field name="loai_nap">TG</field>
+            <field name="he_so">0.8000</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_32" model="iwmn.r81hschayhao">
+            <field name="ident00">32</field>
+            <field name="ma_size">D25</field>
+            <field name="loai_nap">TG</field>
+            <field name="he_so">0.7500</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_33" model="iwmn.r81hschayhao">
+            <field name="ident00">33</field>
+            <field name="ma_size">D28</field>
+            <field name="loai_nap">TG</field>
+            <field name="he_so">0.7500</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_34" model="iwmn.r81hschayhao">
+            <field name="ident00">34</field>
+            <field name="ma_size">D32</field>
+            <field name="loai_nap">TG</field>
+            <field name="he_so">0.7500</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_35" model="iwmn.r81hschayhao">
+            <field name="ident00">35</field>
+            <field name="ma_size">D36</field>
+            <field name="loai_nap">TG</field>
+            <field name="he_so">0.7500</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_36" model="iwmn.r81hschayhao">
+            <field name="ident00">36</field>
+            <field name="ma_size">D40</field>
+            <field name="loai_nap">TG</field>
+            <field name="he_so">0.7500</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_37" model="iwmn.r81hschayhao">
+            <field name="ident00">37</field>
+            <field name="ma_size">D43</field>
+            <field name="loai_nap">TG</field>
+            <field name="he_so">0.7500</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_38" model="iwmn.r81hschayhao">
+            <field name="ident00">38</field>
+            <field name="ma_size">D35</field>
+            <field name="loai_nap">TG</field>
+            <field name="he_so">0.7500</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_39" model="iwmn.r81hschayhao">
+            <field name="ident00">39</field>
+            <field name="ma_size">D38</field>
+            <field name="loai_nap">TG</field>
+            <field name="he_so">0.7500</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_40" model="iwmn.r81hschayhao">
+            <field name="ident00">40</field>
+            <field name="ma_size">D41</field>
+            <field name="loai_nap">TG</field>
+            <field name="he_so">0.7500</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_41" model="iwmn.r81hschayhao">
+            <field name="ident00">41</field>
+            <field name="ma_size">R06</field>
+            <field name="loai_nap">NG</field>
+            <field name="he_so">1.3000</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_42" model="iwmn.r81hschayhao">
+            <field name="ident00">42</field>
+            <field name="ma_size">R07</field>
+            <field name="loai_nap">NG</field>
+            <field name="he_so">1.4000</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_43" model="iwmn.r81hschayhao">
+            <field name="ident00">43</field>
+            <field name="ma_size">R08</field>
+            <field name="loai_nap">NG</field>
+            <field name="he_so">1.2300</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_44" model="iwmn.r81hschayhao">
+            <field name="ident00">44</field>
+            <field name="ma_size">R10</field>
+            <field name="loai_nap">NG</field>
+            <field name="he_so">1.3000</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_45" model="iwmn.r81hschayhao">
+            <field name="ident00">45</field>
+            <field name="ma_size">D10</field>
+            <field name="loai_nap">NG</field>
+            <field name="he_so">1.2000</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_46" model="iwmn.r81hschayhao">
+            <field name="ident00">46</field>
+            <field name="ma_size">D12</field>
+            <field name="loai_nap">NG</field>
+            <field name="he_so">1.1000</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_47" model="iwmn.r81hschayhao">
+            <field name="ident00">47</field>
+            <field name="ma_size">D14</field>
+            <field name="loai_nap">NG</field>
+            <field name="he_so">1.0000</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_48" model="iwmn.r81hschayhao">
+            <field name="ident00">48</field>
+            <field name="ma_size">D16</field>
+            <field name="loai_nap">NG</field>
+            <field name="he_so">0.9500</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_49" model="iwmn.r81hschayhao">
+            <field name="ident00">49</field>
+            <field name="ma_size">D18</field>
+            <field name="loai_nap">NG</field>
+            <field name="he_so">0.9000</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_50" model="iwmn.r81hschayhao">
+            <field name="ident00">50</field>
+            <field name="ma_size">D20</field>
+            <field name="loai_nap">NG</field>
+            <field name="he_so">0.9000</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_51" model="iwmn.r81hschayhao">
+            <field name="ident00">51</field>
+            <field name="ma_size">D22</field>
+            <field name="loai_nap">NG</field>
+            <field name="he_so">0.8500</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_52" model="iwmn.r81hschayhao">
+            <field name="ident00">52</field>
+            <field name="ma_size">D25</field>
+            <field name="loai_nap">NG</field>
+            <field name="he_so">0.8000</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_53" model="iwmn.r81hschayhao">
+            <field name="ident00">53</field>
+            <field name="ma_size">D28</field>
+            <field name="loai_nap">NG</field>
+            <field name="he_so">0.8000</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_54" model="iwmn.r81hschayhao">
+            <field name="ident00">54</field>
+            <field name="ma_size">D32</field>
+            <field name="loai_nap">NG</field>
+            <field name="he_so">0.8000</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_55" model="iwmn.r81hschayhao">
+            <field name="ident00">55</field>
+            <field name="ma_size">D36</field>
+            <field name="loai_nap">NG</field>
+            <field name="he_so">0.8000</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_56" model="iwmn.r81hschayhao">
+            <field name="ident00">56</field>
+            <field name="ma_size">D40</field>
+            <field name="loai_nap">NG</field>
+            <field name="he_so">0.8000</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_57" model="iwmn.r81hschayhao">
+            <field name="ident00">57</field>
+            <field name="ma_size">D43</field>
+            <field name="loai_nap">NG</field>
+            <field name="he_so">0.8000</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_58" model="iwmn.r81hschayhao">
+            <field name="ident00">58</field>
+            <field name="ma_size">D35</field>
+            <field name="loai_nap">NG</field>
+            <field name="he_so">0.8000</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_59" model="iwmn.r81hschayhao">
+            <field name="ident00">59</field>
+            <field name="ma_size">D38</field>
+            <field name="loai_nap">NG</field>
+            <field name="he_so">0.8000</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+        <record id="iwmn_r81hschayhao_60" model="iwmn.r81hschayhao">
+            <field name="ident00">60</field>
+            <field name="ma_size">D41</field>
+            <field name="loai_nap">NG</field>
+            <field name="he_so">0.8000</field>
+            <field name="ngay_ap">2019-01-01 00:00:00</field>
+            <field name="ma_dvcs">*</field>
+        </record>
+    </data>
+</odoo>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="iwmn_r81equipmentinfoct_1" model="iwmn.r81equipmentinfoct">
+            <field name="ident00">1</field>
+            <field name="host_ip">192.168.10.31</field>
+            <field name="equip_id">TOLEDOIND221</field>
+            <field name="stx">42</field>
+            <field name="etx">2</field>
+            <field name="value_len">1,9</field>
+            <field name="used" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">280725:101242:LYTB</field>
+            <field name="ma_data">A01</field>
+        </record>
+        <record id="iwmn_r81equipmentinfoct_2" model="iwmn.r81equipmentinfoct">
+            <field name="ident00">2</field>
+            <field name="host_ip">192.168.10.31</field>
+            <field name="equip_id">DI81</field>
+            <field name="stx">10</field>
+            <field name="etx">13</field>
+            <field name="value_len">1,9</field>
+            <field name="used" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">150124:145133:TAVV</field>
+            <field name="ma_data">A01</field>
+        </record>
+        <record id="iwmn_r81equipmentinfoct_3" model="iwmn.r81equipmentinfoct">
+            <field name="ident00">3</field>
+            <field name="host_ip">192.168.10.31</field>
+            <field name="equip_id">DI-28SS</field>
+            <field name="stx">10</field>
+            <field name="etx">13</field>
+            <field name="value_len">1,9</field>
+            <field name="used" eval="True"/>
+            <field name="create_log">280725:094751:VR</field>
+            <field name="lastmodify_log">280725:134430:VR</field>
+            <field name="ma_data">A01</field>
+        </record>
+    </data>
+</odoo>

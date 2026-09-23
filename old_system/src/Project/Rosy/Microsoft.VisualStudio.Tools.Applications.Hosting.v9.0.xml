@@ -1,0 +1,1460 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>Microsoft.VisualStudio.Tools.Applications.Hosting.v9.0</name>
+  </assembly>
+  <members>
+    <member name="T:Microsoft.VisualStudio.Tools.Applications.AddInStoreExtensions">
+      <summary>
+          Provides extension methods for the <see cref="T:System.AddIn.Hosting.AddInStore" /> class.
+        </summary>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.AddInStoreExtensions.DefaultPipelinePath">
+      <summary>
+          Gets a string representing the default pipeline path.
+        </summary>
+      <returns>
+          A string representing the default pipeline path.
+        </returns>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.AddInStoreExtensions.FindAddIn(Microsoft.VisualStudio.Tools.Applications.Deployment.AddInInformation)">
+      <summary>
+          Finds a specific add-in by providing information about the add-in.
+        </summary>
+      <returns>
+          A collection of tokens that contains only the token that represents the add-in that was found.
+        </returns>
+      <param name="addInInformation">
+              Information needed by the Visual Studio Tools for Applications runtime to create the application domain and start an add-in.
+            </param>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.AddInStoreExtensions.FindAddIn(Microsoft.VisualStudio.Tools.Applications.Deployment.AddInInformation,System.String)">
+      <summary>
+          Finds a specific add-in by providing information about the add-in and the path of the pipeline directory structure.
+        </summary>
+      <returns>
+          A collection of tokens that contains only the token that represents the add-in that was found.
+        </returns>
+      <param name="addInInformation">
+              Information needed by the Visual Studio Tools for Applications runtime to create the application domain and start an add-in.
+            </param>
+      <param name="pipelinePath">
+              The path of the pipeline directory structure.
+            </param>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.AddInStoreExtensions.FindAddIn(Microsoft.VisualStudio.Tools.Applications.Deployment.AddInInformation,System.String,System.Type)">
+      <summary>
+          Finds a specific add-in by providing information about the add-in, the path of the pipeline directory structure, and the type that defines the host's view of the add-in.
+        </summary>
+      <returns>
+          A collection of tokens that contains only the token that represents the add-in that was found.
+        </returns>
+      <param name="addInInformation">
+              Information needed by the Visual Studio Tools for Applications runtime to create the application domain and start an add-in.
+            </param>
+      <param name="pipelinePath">
+              The path of the pipeline directory structure.
+            </param>
+      <param name="hostAddInView">
+              The type that defines the host's view of the add-in. This type cannot be an interface.
+            </param>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.AddInStoreExtensions.FindAddIn(Microsoft.VisualStudio.Tools.Applications.Deployment.AddInInformation,System.String,System.Type,Microsoft.VisualStudio.Tools.Applications.SegmentConstraints[])">
+      <summary>
+          Finds a specific add-in by providing information about the add-in, the path of the pipeline directory structure, the type that defines the host's view of the add-in, and an array of segment constraints.
+        </summary>
+      <returns>
+          A collection of tokens that contains only the token that represents the add-in that was found.
+        </returns>
+      <param name="addInInformation">
+              Information needed by the Visual Studio Tools for Applications runtime to create the application domain and start an add-in.
+            </param>
+      <param name="pipelinePath">
+              The path of the pipeline directory structure.
+            </param>
+      <param name="hostAddInView">
+              The type that defines the host's view of the add-in. This type cannot be an interface.
+            </param>
+      <param name="segmentConstraints">
+              An array that contains segment constraints.
+            </param>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.AddInStoreExtensions.FindAddIns(Microsoft.VisualStudio.Tools.Applications.ExtensionPipelineStoreLocation,System.String[])">
+      <summary>
+          Finds all add-ins by specifying the location of the pipeline store and the path or paths to the add-ins.
+        </summary>
+      <returns>
+          A collection of tokens that represents the add-ins that were found.
+        </returns>
+      <param name="location">
+              Location of the pipeline store.
+            </param>
+      <param name="addInPaths">
+              (Optional). The path of the directory that contains one or more subdirectories of add-ins. Because this parameter takes an array of strings, you can specify more than one path.
+            </param>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.AddInStoreExtensions.FindAddIns(System.Type,Microsoft.VisualStudio.Tools.Applications.ExtensionPipelineStoreLocation,System.String[])">
+      <summary>
+          Finds all add-ins by specifying location of the pipeline store and path or paths to the add-ins.
+        </summary>
+      <returns>
+          A collection of tokens that represents the add-ins that were found.
+        </returns>
+      <param name="hostAddInViewType">
+              The type that defines the host's view of the add-in.
+            </param>
+      <param name="location">
+              Location of the pipeline store.
+            </param>
+      <param name="addInPaths">
+              (Optional). The path of the directory that contains one or more subdirectories of add-ins. Because this parameter takes an array of strings, you can specify more than one path.
+            </param>
+    </member>
+    <member name="T:Microsoft.VisualStudio.Tools.Applications.AddInTokenExtensions">
+      <summary>
+          Adds extension methods to the <see cref="T:System.AddIn.Hosting.AddInToken" /> class.
+        </summary>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.AddInTokenExtensions.Activate``1(System.AddIn.Hosting.AddInToken,Microsoft.VisualStudio.Tools.Applications.Deployment.AddInInformation)">
+      <summary>
+          Returns an <see cref="T:Microsoft.VisualStudio.Tools.Applications.Runtime.IEntryPoint" /> for the <see cref="T:System.AddIn.Hosting.AddInToken" /> instance by specifying the add-in token, the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInInformation" />, and the <see cref="T:System.IServiceProvider" />.
+        </summary>
+      <returns>
+          An object that represents the host view of the add-in.
+        </returns>
+      <param name="token">
+              A token object on which activation is being called.
+            </param>
+      <param name="info">
+              Information about the add-in being activated.
+            </param>
+      <typeparam name="T">
+              The type of the add-in to be activated.
+            </typeparam>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.AddInTokenExtensions.Activate(System.AddIn.Hosting.AddInToken,Microsoft.VisualStudio.Tools.Applications.Deployment.AddInInformation,System.IServiceProvider)">
+      <summary>
+          Returns an <see cref="T:Microsoft.VisualStudio.Tools.Applications.Runtime.IEntryPoint" /> for the <see cref="T:System.AddIn.Hosting.AddInToken" /> instance by specifying the add-in token, the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInInformation" />, and the <see cref="T:System.IServiceProvider" />.
+        </summary>
+      <returns>
+          An <see cref="T:Microsoft.VisualStudio.Tools.Applications.Runtime.IEntryPoint" /> representing the entry-point of the add-in.
+        </returns>
+      <param name="token">
+              A token object on which activation is being called.
+            </param>
+      <param name="info">
+              Information about the add-in being activated.
+            </param>
+      <param name="hostContext">
+              The implementation of the <see cref="T:System.IServiceProvider" /> provided by the host.
+            </param>
+    </member>
+    <member name="T:Microsoft.VisualStudio.Tools.Applications.ExtensionPipelineStoreLocation">
+      <summary>
+          Specifies alternative locations for a pipeline store instead of a path of a directory.
+        </summary>
+    </member>
+    <member name="F:Microsoft.VisualStudio.Tools.Applications.ExtensionPipelineStoreLocation.VisualStudioToolsForApplicationsDefault">
+      <summary>
+          The specified location.
+        </summary>
+    </member>
+    <member name="T:Microsoft.VisualStudio.Tools.Applications.IExtendedMultipleEntryPoint">
+      <summary>
+          Extends <see cref="T:Microsoft.VisualStudio.Tools.Applications.IMultipleEntryPoint" /> to enable the host application to specify and invoke multiple entry points in the add-in.
+        </summary>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.IExtendedMultipleEntryPoint.GetEntryPointObjects">
+      <summary>
+          Returns a collection of entry points.
+        </summary>
+      <returns>
+          A collection of references to add-in objects.
+        </returns>
+    </member>
+    <member name="T:Microsoft.VisualStudio.Tools.Applications.IMultipleEntryPoint">
+      <summary>
+          Represents a view that can be used to specify multiple entry points in an add-in.
+        </summary>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.IMultipleEntryPoint.Initialize(System.String,System.String[],System.IServiceProvider)">
+      <summary>
+          Initializes an <see cref="T:Microsoft.VisualStudio.Tools.Applications.IMultipleEntryPoint" /> by specifying the assembly name, the entry points, and the service provider.
+        </summary>
+      <param name="assemblyName">
+              The name of the assembly where the entry points are found.
+            </param>
+      <param name="entryPoints">
+              A string array of entry points.
+            </param>
+      <param name="hostContext">
+              The <see cref="T:System.IServiceProvider" /> for the adapter.
+            </param>
+    </member>
+    <member name="T:Microsoft.VisualStudio.Tools.Applications.SegmentConstraints">
+      <summary>
+          Specifies constraints on a pipeline segment.
+        </summary>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.SegmentConstraints.#ctor(System.AddIn.Hosting.AddInSegmentType,System.Collections.Generic.IDictionary{System.String,System.String})">
+      <summary>
+          Initializes a new instance of <see cref="T:Microsoft.VisualStudio.Tools.Applications.SegmentConstraints" />.
+        </summary>
+      <param name="segmentType">
+              The category of pipeline segment.
+            </param>
+      <param name="qualificationConstraints">
+              A collection of constraints to be imposed.
+            </param>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.SegmentConstraints.QualificationConstraints">
+      <summary>
+          Gets a collection of qualification constraints.
+        </summary>
+      <returns>
+          A collection of constraints.
+        </returns>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.SegmentConstraints.SegmentType">
+      <summary>
+          Gets or sets the category of pipeline segment.
+        </summary>
+      <returns>
+          The type of pipeline segment.
+        </returns>
+    </member>
+    <member name="T:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInAlreadyInstalledException">
+      <summary>
+          The exception that is thrown when a solution has been installed from one location and is being reinstalled from another location. This class cannot be inherited. 
+        </summary>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInAlreadyInstalledException.#ctor">
+      <summary>
+          Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInAlreadyInstalledException" /> class. 
+        </summary>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInAlreadyInstalledException.#ctor(System.Exception)">
+      <summary>
+          Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInAlreadyInstalledException" /> class with a reference to the inner exception that is the cause of this exception. 
+        </summary>
+      <param name="innerException">
+              The exception that is the cause of the current exception, or null if no inner exception is specified.
+            </param>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInAlreadyInstalledException.#ctor(System.String)">
+      <summary>
+          Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInAlreadyInstalledException" /> class with a specified error message. 
+        </summary>
+      <param name="message">
+              The error message that explains the reason for the exception.
+            </param>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInAlreadyInstalledException.#ctor(System.String,System.Exception)">
+      <summary>
+          Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInAlreadyInstalledException" /> class with a specified error message and a reference to the inner exception that is the cause of this exception. 
+        </summary>
+      <param name="message">
+              The error message that explains the reason for the exception.
+            </param>
+      <param name="innerException">
+              The exception that is the cause of the current exception, or null if no inner exception is specified.
+            </param>
+    </member>
+    <member name="T:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInDeploymentArguments">
+      <summary>
+          Base class for classes that provide arguments to deployment methods. 
+        </summary>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInDeploymentArguments.#ctor">
+      <summary>
+          Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInDeploymentArguments" /> class. 
+        </summary>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInDeploymentArguments.#ctor(System.Uri)">
+      <summary>
+          Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInDeploymentArguments" /> class with the location of the deployment manifest. 
+        </summary>
+      <param name="manifestLocation">
+              The location of the deployment manifest.
+            </param>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInDeploymentArguments.ManifestLocation">
+      <summary>
+          Gets the location of the deployment manifest.
+        </summary>
+      <returns>
+          The location of the deployment manifest.
+        </returns>
+    </member>
+    <member name="T:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInDownloadedArgs">
+      <summary>
+          Provides data for the <see cref="M:Microsoft.VisualStudio.Tools.Applications.Deployment.IClickOnceAddInInstaller.OnAddInDownloaded(Microsoft.VisualStudio.Tools.Applications.Deployment.AddInDownloadedArgs)" /> event. 
+        </summary>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInDownloadedArgs.#ctor(System.Uri,Microsoft.VisualStudio.Tools.Applications.Deployment.AddInInstallationStatus,System.String,System.String)">
+      <summary>
+          Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInDownloadedArgs" /> class. 
+        </summary>
+      <param name="manifest">
+              The location of the deployment manifest that was requested by the host.
+            </param>
+      <param name="installationStatus">
+              One of the enumeration values that specifies the type of add-in installation.
+            </param>
+      <param name="productName">
+              The name of the add-in that is defined in the deployment manifest.
+            </param>
+      <param name="path">
+              The path to the log file that is created while the application files are being downloaded.
+            </param>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInDownloadedArgs.InstallationStatus">
+      <summary>
+          Gets one of the enumeration values that specifies the type of add-in installation.
+        </summary>
+      <returns>
+          The type of add-in installation that is being performed.
+        </returns>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInDownloadedArgs.LogFilePath">
+      <summary>
+          Gets the path to the log file that is created while the application files are being downloaded.
+        </summary>
+      <returns>
+          The path to the log file.
+        </returns>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInDownloadedArgs.ProductName">
+      <summary>
+          Gets the name of the add-in that is defined in the deployment manifest.
+        </summary>
+      <returns>
+          The name of the add-in that is defined in the deployment manifest.
+        </returns>
+    </member>
+    <member name="T:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInDownloadingArgs">
+      <summary>
+          Provides data for the <see cref="M:Microsoft.VisualStudio.Tools.Applications.Deployment.IClickOnceAddInInstaller.OnAddInDownloading(Microsoft.VisualStudio.Tools.Applications.Deployment.AddInDownloadingArgs,System.Boolean@)" /> event. 
+        </summary>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInDownloadingArgs.#ctor(System.Uri,Microsoft.VisualStudio.Tools.Applications.Deployment.AddInInstallationStatus,System.String,System.Uri,System.Uri)">
+      <summary>
+          Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInDownloadingArgs" /> class. 
+        </summary>
+      <param name="manifest">
+              The location of the deployment manifest that was requested by the host application.
+            </param>
+      <param name="installationStatus">
+              One of the enumeration values that specifies the type of add-in installation.
+            </param>
+      <param name="productName">
+              The name of the add-in that is defined in the deployment manifest.
+            </param>
+      <param name="originalLocation">
+              The location of the deployment manifest that was requested by the host application. This is the same as <paramref name="manifest" />.
+            </param>
+      <param name="finalLocation">
+              The location of the deployment manifest after server-side redirection by IIS.
+            </param>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInDownloadingArgs.FinalManifestLocation">
+      <summary>
+          Gets the updated location of the deployment manifest if it has changed from the location specified in <see cref="P:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInDownloadingArgs.OriginalManifestLocation" />.
+        </summary>
+      <returns>
+          The location of the deployment manifest after server-side redirection by IIS.
+        </returns>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInDownloadingArgs.InstallationStatus">
+      <summary>
+          Gets one of the enumeration values that specifies the type of add-in installation.
+        </summary>
+      <returns>
+          The type of add-in installation that is being performed.
+        </returns>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInDownloadingArgs.OriginalManifestLocation">
+      <summary>
+          Gets the original path of the deployment manifest, if the request was redirected by IIS.
+        </summary>
+      <returns>
+          The original path of the deployment manifest, if the request was redirected by IIS.
+        </returns>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInDownloadingArgs.ProductName">
+      <summary>
+          Gets the name of the add-in that is defined in the deployment manifest.
+        </summary>
+      <returns>
+          The name of the add-in that is defined in the deployment manifest.
+        </returns>
+    </member>
+    <member name="T:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInDownloadProgressChangedArgs">
+      <summary>
+          Provides data for the <see cref="M:Microsoft.VisualStudio.Tools.Applications.Deployment.IClickOnceAddInInstaller.OnAddInDownloadProgressChanged(Microsoft.VisualStudio.Tools.Applications.Deployment.AddInDownloadProgressChangedArgs)" /> event. 
+        </summary>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInDownloadProgressChangedArgs.#ctor(System.Uri,System.String,Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInDownloadProgressState,System.Int64,System.Int64,System.Int32)">
+      <summary>
+          Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInDownloadProgressChangedArgs" /> class. 
+        </summary>
+      <param name="manifest">
+              The location of the deployment manifest that was requested by the host application.
+            </param>
+      <param name="productName">
+              The name of the add-in that is defined in the deployment manifest.
+            </param>
+      <param name="state">
+              A value that indicates which part of the solution is being downloaded: application manifest, deployment manifest, or application files.
+            </param>
+      <param name="bytesDownloaded">
+              The size of the downloaded information in bytes.
+            </param>
+      <param name="totalBytesToDownload">
+              The total size of the add-in that must be downloaded.
+            </param>
+      <param name="percentageComplete">
+              The progress of the add-in download process in terms of percentage complete.
+            </param>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInDownloadProgressChangedArgs.BytesDownloaded">
+      <summary>
+          Gets the size of the downloaded information in bytes.
+        </summary>
+      <returns>
+          The size of the downloaded information in bytes. 
+        </returns>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInDownloadProgressChangedArgs.PercentageComplete">
+      <summary>
+          Gets the progress of the add-in download process in terms of percentage complete.
+        </summary>
+      <returns>
+          The progress of the add-in download process in terms of percentage complete.
+        </returns>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInDownloadProgressChangedArgs.ProductName">
+      <summary>
+          Gets the name of the add-in that is defined in the deployment manifest.
+        </summary>
+      <returns>
+          The name of the add-in that is defined in the deployment manifest.
+        </returns>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInDownloadProgressChangedArgs.State">
+      <summary>
+          Gets the status of the add-in download process.
+        </summary>
+      <returns>
+          The status of the add-in download process.
+        </returns>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInDownloadProgressChangedArgs.TotalBytesToDownload">
+      <summary>
+          Gets the total size of the add-in that must be downloaded.
+        </summary>
+      <returns>
+          The total size of the add-in that must be downloaded.
+        </returns>
+    </member>
+    <member name="T:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInInformation">
+      <summary>
+          Contains information needed by the Visual Studio Tools for Applications runtime to create an application domain and start an add-in.
+        </summary>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInInformation.AppDomainSetup">
+      <summary>
+          Gets the add-in assembly binding information.
+        </summary>
+      <returns>
+          Assembly binding information that can be added to an instance of <see cref="T:System.AppDomain" /> to create the application domain for the add-in.
+        </returns>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInInformation.ApplicationManifest">
+      <summary>
+          Gets the application manifest for the add-in.
+        </summary>
+      <returns>
+          An XML string that represents the application manifest for the add-in.
+        </returns>
+    </member>
+    <member name="T:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInInstallationStatus">
+      <summary>
+          Contains values that indicate the type of installation that is being performed.
+        </summary>
+    </member>
+    <member name="F:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInInstallationStatus.InitialInstall">
+      <summary>
+          The add-in is installed for the first time. The application and deployment manifests are retrieved, <see cref="M:Microsoft.VisualStudio.Tools.Applications.Deployment.IClickOnceAddInTrustManager.VerifyAddInPermissions(System.Security.PermissionSet)" /> is called to analyze the manifests, and then the signatures are analyzed. 
+        </summary>
+    </member>
+    <member name="F:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInInstallationStatus.RunFromCache">
+      <summary>
+          The add-in does not require an update and will be run from the ClickOnce cache.
+        </summary>
+    </member>
+    <member name="F:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInInstallationStatus.RunFromFolder">
+      <summary>
+          The add-in runs from the folder that contains the deployment manifest because the host application has set the <see cref="P:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInDeploymentManager.RunFromFolder" /> property to true. This is useful if you want to test or run an add-in without installing it. Also, the add-in is not installed into the ClickOnce cache.
+        </summary>
+    </member>
+    <member name="F:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInInstallationStatus.Update">
+      <summary>
+          The add-in is being updated. The installation steps are the same as <see cref="F:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInInstallationStatus.InitialInstall" />.
+        </summary>
+    </member>
+    <member name="F:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInInstallationStatus.Offline">
+      <summary>
+          The add-in is scheduled to check for an update, but the update location is unreachable. 
+        </summary>
+    </member>
+    <member name="F:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInInstallationStatus.Uninstall">
+      <summary>
+          The add-in is being uninstalled.
+        </summary>
+    </member>
+    <member name="T:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInInstalledArgs">
+      <summary>
+          Provides data for the <see cref="M:Microsoft.VisualStudio.Tools.Applications.Deployment.IClickOnceAddInInstaller.OnAddInInstalled(Microsoft.VisualStudio.Tools.Applications.Deployment.AddInInstalledArgs)" /> event. 
+        </summary>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInInstalledArgs.#ctor(System.Uri,Microsoft.VisualStudio.Tools.Applications.Deployment.AddInInstallationStatus,System.String)">
+      <summary>
+          Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInInstalledArgs" /> class. 
+        </summary>
+      <param name="manifest">
+              The location of the deployment manifest that was requested by the host application.
+            </param>
+      <param name="installationStatus">
+              One of the enumeration values that specifies the type of add-in installation.
+            </param>
+      <param name="productName">
+              The name of the add-in that is defined in the deployment manifest.
+            </param>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInInstalledArgs.ProductName">
+      <summary>
+          Gets the name of the add-in that is defined in the deployment manifest.
+        </summary>
+      <returns>
+          The name of the add-in that is defined in the deployment manifest.
+        </returns>
+    </member>
+    <member name="T:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInInstallingArgs">
+      <summary>
+          Provides data for the <see cref="M:Microsoft.VisualStudio.Tools.Applications.Deployment.IClickOnceAddInInstaller.OnAddInInstalling(Microsoft.VisualStudio.Tools.Applications.Deployment.AddInInstallingArgs,System.Boolean@)" /> event. 
+        </summary>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInInstallingArgs.#ctor(System.Uri,Microsoft.VisualStudio.Tools.Applications.Deployment.AddInInstallationStatus,System.String)">
+      <summary>
+          Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInInstallingArgs" /> class. 
+        </summary>
+      <param name="manifest">
+              The location of the deployment manifest that was requested by the host application.
+            </param>
+      <param name="installationStatus">
+              One of the enumeration values that specifies the type of add-in installation.
+            </param>
+      <param name="productName">
+              The name of the add-in that is defined in the deployment manifest.
+            </param>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInInstallingArgs.InstallationStatus">
+      <summary>
+          Gets the type of add-in installation that is being performed.  
+        </summary>
+      <returns>
+          The type of add-in installation that is being performed.
+        </returns>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInInstallingArgs.ProductName">
+      <summary>
+          Gets the name of the add-in that is defined in the deployment manifest.
+        </summary>
+      <returns>
+          The name of the add-in that is defined in the deployment manifest.
+        </returns>
+    </member>
+    <member name="T:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInManifestsDownloadedArgs">
+      <summary>
+          Provides data for the <see cref="M:Microsoft.VisualStudio.Tools.Applications.Deployment.IClickOnceAddInInstaller.OnAddInManifestsDownloaded(Microsoft.VisualStudio.Tools.Applications.Deployment.AddInManifestsDownloadedArgs)" /> event. 
+        </summary>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInManifestsDownloadedArgs.#ctor(System.Uri,Microsoft.VisualStudio.Tools.Applications.Deployment.AddInInstallationStatus,System.String,System.String,System.String,System.String,System.String,System.String,System.Uri)">
+      <summary>
+          Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInManifestsDownloadedArgs" /> class. 
+        </summary>
+      <param name="manifest">
+              The location of the deployment manifest that was requested by the host application.
+            </param>
+      <param name="installationStatus">
+              One of the enumeration values that specifies the type of add-in installation.
+            </param>
+      <param name="productName">
+              The name of the add-in that is defined in the deployment manifest.
+            </param>
+      <param name="deploymentManifest">
+              An XML string that represents the deployment manifest of the add-in.
+            </param>
+      <param name="applicationManifest">
+              An XML string that represents the application manifest of the add-in.
+            </param>
+      <param name="manifestXml">
+              An XML string that represents the application manifest of the host application.
+            </param>
+      <param name="path">
+              The path of the log file that is created during the downloading of application files.
+            </param>
+      <param name="version">
+              The version of the add-in being downloaded. The version number is based on the value in the deployment manifest.
+            </param>
+      <param name="supportUri">
+              The support URI in the deployment manifest. 
+            </param>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInManifestsDownloadedArgs.ApplicationManifestXml">
+      <summary>
+          Gets the application manifest for the add-in.
+        </summary>
+      <returns>
+          An XML string that represents the application manifest for the add-in.
+        </returns>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInManifestsDownloadedArgs.DeploymentManifestXml">
+      <summary>
+          Gets the deployment manifest for the add-in.
+        </summary>
+      <returns>
+          An XML string that represents the deployment manifest for the add-in.
+        </returns>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInManifestsDownloadedArgs.HostManifestXml">
+      <summary>
+          Gets the application manifest for the host application.
+        </summary>
+      <returns>
+          An XML string that represents the application manifest for the host application.
+        </returns>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInManifestsDownloadedArgs.InstallationStatus">
+      <summary>
+          Gets the type of add-in installation that is being performed.  
+        </summary>
+      <returns>
+          The type of add-in installation that is being performed.
+        </returns>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInManifestsDownloadedArgs.LogFilePath">
+      <summary>
+          Gets the path of the log file that is created during the downloading of the application files.
+        </summary>
+      <returns>
+          The path of the log file that is created during the downloading of the application files.
+        </returns>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInManifestsDownloadedArgs.ProductName">
+      <summary>
+          Gets the name of the add-in that is defined in the deployment manifest.
+        </summary>
+      <returns>
+          The name of the add-in that is defined in the deployment manifest.
+        </returns>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInManifestsDownloadedArgs.SupportUri">
+      <summary>
+          Gets the support URI of the add-in being downloaded.
+        </summary>
+      <returns>
+          The location of support resources for the add-in.
+        </returns>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInManifestsDownloadedArgs.Version">
+      <summary>
+          Gets the version of the add-in being downloaded.
+        </summary>
+      <returns>
+          The version of the add-in being downloaded. The version number is based on the value in the deployment manifest.
+        </returns>
+    </member>
+    <member name="T:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInManifestsDownloadingArgs">
+      <summary>
+          Provides data for the <see cref="M:Microsoft.VisualStudio.Tools.Applications.Deployment.IClickOnceAddInInstaller.OnAddInManifestsDownloading(Microsoft.VisualStudio.Tools.Applications.Deployment.AddInManifestsDownloadingArgs,System.Boolean@)" /> event. 
+        </summary>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInManifestsDownloadingArgs.#ctor(System.Uri,Microsoft.VisualStudio.Tools.Applications.Deployment.AddInInstallationStatus)">
+      <summary>
+          Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInManifestsDownloadingArgs" /> class. 
+        </summary>
+      <param name="manifest">
+              The location of the deployment manifest that was requested by the host application.
+            </param>
+      <param name="installationStatus">
+              One of the enumeration values that specifies the type of add-in installation.
+            </param>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInManifestsDownloadingArgs.InstallationStatus">
+      <summary>
+          Gets the type of add-in installation that is being performed.  
+        </summary>
+      <returns>
+          The type of add-in installation that is being performed.
+        </returns>
+    </member>
+    <member name="T:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInOfflineArgs">
+      <summary>
+          Provides data for the <see cref="M:Microsoft.VisualStudio.Tools.Applications.Deployment.IClickOnceAddInInstaller.OnAddInOffline(Microsoft.VisualStudio.Tools.Applications.Deployment.AddInOfflineArgs,System.Boolean@)" /> event. 
+        </summary>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInOfflineArgs.#ctor(System.Uri,System.String)">
+      <summary>
+          Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInOfflineArgs" /> class. 
+        </summary>
+      <param name="manifest">
+              The location of the deployment manifest that was requested by the host application.
+            </param>
+      <param name="productName">
+              The name of the add-in that is defined in the deployment manifest.
+            </param>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInOfflineArgs.ProductName">
+      <summary>
+          Gets the name of the add-in that is defined in the deployment manifest.
+        </summary>
+      <returns>
+          The name of the add-in that is defined in the deployment manifest.
+        </returns>
+    </member>
+    <member name="T:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInProcessAbortArgs">
+      <summary>
+          Provides data for the <see cref="M:Microsoft.VisualStudio.Tools.Applications.Deployment.IClickOnceAddInInstaller.OnAddInProcessAbort(Microsoft.VisualStudio.Tools.Applications.Deployment.AddInProcessAbortArgs)" /> event. 
+        </summary>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInProcessAbortArgs.#ctor(System.Uri,Microsoft.VisualStudio.Tools.Applications.Deployment.AddInInstallationStatus,System.String,System.Exception,System.String)">
+      <summary>
+          Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInProcessAbortArgs" /> class. 
+        </summary>
+      <param name="manifest">
+              The location of the deployment manifest that was requested by the host application.
+            </param>
+      <param name="installationStatus">
+              One of the enumeration values that specifies the type of add-in installation.
+            </param>
+      <param name="productName">
+              The name of the add-in that is defined in the deployment manifest.
+            </param>
+      <param name="error">
+              The error message that explains the reason for the exception.
+            </param>
+      <param name="path">
+              The path of the log file that is created while the application files are being downloaded.
+            </param>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInProcessAbortArgs.Error">
+      <summary>
+          Gets the <see cref="T:System.Exception" /> that is the root cause of one or more subsequent exceptions.
+        </summary>
+      <returns>
+          The root cause of one or more subsequent exceptions.
+        </returns>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInProcessAbortArgs.InstallationStatus">
+      <summary>
+          Gets the type of add-in installation that is being performed.
+        </summary>
+      <returns>
+          The type of add-in installation that is being performed.
+        </returns>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInProcessAbortArgs.LogFilePath">
+      <summary>
+          Gets the path of the log file that is created while the application files are being downloaded.
+        </summary>
+      <returns>
+          The path of the log file that is created while the application files are being downloaded.
+        </returns>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInProcessAbortArgs.ProductName">
+      <summary>
+          Gets the name of the add-in that is defined in the deployment manifest.
+        </summary>
+      <returns>
+          The name of the add-in that is defined in the deployment manifest.
+        </returns>
+    </member>
+    <member name="T:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInUninstalledArgs">
+      <summary>
+          Provides data for the <see cref="M:Microsoft.VisualStudio.Tools.Applications.Deployment.IClickOnceAddInInstaller.OnAddInUninstalled(Microsoft.VisualStudio.Tools.Applications.Deployment.AddInUninstalledArgs)" /> event. 
+        </summary>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInUninstalledArgs.#ctor(System.Uri,System.String,System.String,System.String,System.String)">
+      <summary>
+          Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInUninstalledArgs" /> class. 
+        </summary>
+      <param name="manifest">
+              The location of the deployment manifest that was requested by the host application.
+            </param>
+      <param name="productName">
+              The name of the add-in that is defined in the deployment manifest.
+            </param>
+      <param name="deploymentManifest">
+              An XML string that represents the deployment manifest of the add-in.
+            </param>
+      <param name="applicationManifest">
+              An XML string that represents the application manifest of the add-in.
+            </param>
+      <param name="manifestXml">
+              An XML string that represents the application manifest of the host application.
+            </param>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInUninstalledArgs.ApplicationManifestXml">
+      <summary>
+          Gets the application manifest for the add-in.
+        </summary>
+      <returns>
+          An XML string that represents the application manifest for the add-in.
+        </returns>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInUninstalledArgs.DeploymentManifestXml">
+      <summary>
+          Gets the deployment manifest for the add-in.
+        </summary>
+      <returns>
+          An XML string that represents the deployment manifest for the add-in.
+        </returns>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInUninstalledArgs.HostManifestXml">
+      <summary>
+          Gets the application manifest for the host application.
+        </summary>
+      <returns>
+          An XML string that represents the application manifest for the host application.
+        </returns>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInUninstalledArgs.ProductName">
+      <summary>
+          Gets the name of the add-in that is defined in the deployment manifest.
+        </summary>
+      <returns>
+          The name of the add-in that is defined in the deployment manifest.
+        </returns>
+    </member>
+    <member name="T:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInUninstallingArgs">
+      <summary>
+          Provides data for the <see cref="M:Microsoft.VisualStudio.Tools.Applications.Deployment.IClickOnceAddInInstaller.OnAddInUninstalling(Microsoft.VisualStudio.Tools.Applications.Deployment.AddInUninstallingArgs,System.Boolean@)" /> event. 
+        </summary>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInUninstallingArgs.#ctor(System.Uri,System.String)">
+      <summary>
+          Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInUninstallingArgs" /> class. 
+        </summary>
+      <param name="manifest">
+              The location of the deployment manifest that was requested by the host application.
+            </param>
+      <param name="productName">
+              The name of the add-in that is defined in the deployment manifest.
+            </param>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInUninstallingArgs.ProductName">
+      <summary>
+          Gets the name of the add-in that is defined in the deployment manifest.
+        </summary>
+      <returns>
+          The name of the add-in that is defined in the deployment manifest.
+        </returns>
+    </member>
+    <member name="T:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInDeploymentManager">
+      <summary>
+          Provides methods and properties for ClickOnce deployment infrastructure, including downloading manifests, installing add-ins, checking security, and uninstalling add-ins.
+        </summary>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInDeploymentManager.#ctor(System.Uri,Microsoft.VisualStudio.Tools.Applications.Deployment.IClickOnceAddInTrustManager)">
+      <summary>
+          Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInDeploymentManager" /> class with the location of the deployment manifest and a trust manager to validate certificate signatures. 
+        </summary>
+      <param name="manifest">
+              The location of the deployment manifest that was requested by the host application.
+            </param>
+      <param name="trustManager">
+              The trust manager object with which to validate certificate signatures.
+            </param>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInDeploymentManager.#ctor(System.Uri,Microsoft.VisualStudio.Tools.Applications.Deployment.IClickOnceAddInTrustManager,Microsoft.VisualStudio.Tools.Applications.Deployment.IClickOnceAddInInstaller)">
+      <summary>
+          Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInDeploymentManager" /> class with the location of the deployment manifest, a trust manager to validate certificate signatures, and the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.IClickOnceAddInInstaller" /> that is implemented by the host application.
+        </summary>
+      <param name="manifest">
+              The location of the deployment manifest that was requested by the host application.
+            </param>
+      <param name="trustManager">
+              The <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInTrustManager" /> object with which to validate certificate signatures. Must be implemented by the host application.
+            </param>
+      <param name="installer">
+              The ClickOnce installer that will manage the installation of the add-in. Must be implemented by the host application.
+            </param>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInDeploymentManager.DeploymentManifest">
+      <summary>
+          Gets the location of the deployment manifest for the add-in.
+        </summary>
+      <returns>
+          The location of the deployment manifest for the add-in.
+        </returns>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInDeploymentManager.ForceUpdate">
+      <summary>
+          Gets or sets a value that indicates whether the add-in should always check for updates. 
+        </summary>
+      <returns>
+          
+            true to always check for updates; false to use the configurable update settings.
+        </returns>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInDeploymentManager.InstallAddIn">
+      <summary>
+          Installs or updates an add-in, including downloading manifests, installing add-ins, and checking security.
+        </summary>
+      <returns>
+          An <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInInformation" /> object to create the application domain for an add-in, and start an add-in. 
+        </returns>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInDeploymentManager.RunFromFolder">
+      <summary>
+          Gets or sets a value that indicates whether to run the add-in from the installation location.
+        </summary>
+      <returns>
+          
+            true to run the add-in from the installation folder; false to install the add-in to the ClickOnce cache.
+        </returns>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInDeploymentManager.Timeout">
+      <summary>
+          Gets or sets the value that determines the maximum time that the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInDeploymentManager" /> waits for each asynchronous method to respond.
+        </summary>
+      <returns>
+          The maximum time that the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInDeploymentManager" /> waits for each asynchronous method to respond during an installation or update. 
+        </returns>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInDeploymentManager.UninstallAddIn">
+      <summary>
+          Uninstalls an add-in by removing the add-in and its manifests from the ClickOnce cache.
+        </summary>
+    </member>
+    <member name="T:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInDownloadProgressState">
+      <summary>
+          Indicates which add-in files are currently being downloaded.
+        </summary>
+    </member>
+    <member name="F:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInDownloadProgressState.DownloadingApplicationFiles">
+      <summary>
+          The application files, including the assemblies and resources, are being downloaded.
+        </summary>
+    </member>
+    <member name="F:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInDownloadProgressState.DownloadingDeploymentManifest">
+      <summary>
+          The deployment manifest is being downloaded.
+        </summary>
+    </member>
+    <member name="F:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInDownloadProgressState.DownloadingApplicationManifest">
+      <summary>
+          The application manifest is being downloaded.
+        </summary>
+    </member>
+    <member name="T:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInPromptingLevel">
+      <summary>
+          Specifies the credentials used by the runtime to make a trust decision to install an add-in. 
+        </summary>
+    </member>
+    <member name="F:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInPromptingLevel.TrustByPrompt">
+      <summary>
+          Indicates that the runtime should be prompted to make a trust decision to install an add-in.
+        </summary>
+    </member>
+    <member name="F:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInPromptingLevel.TrustByCertificate">
+      <summary>
+          Indicates that an add-in is signed with a trusted certificate.
+        </summary>
+    </member>
+    <member name="T:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInTrustEvidence">
+      <summary>
+          Provides information that can be used to determine whether to trust an add-in.
+        </summary>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInTrustEvidence.#ctor(System.Uri,System.Uri,System.Security.Cryptography.ManifestSignatureInformationCollection,Microsoft.VisualStudio.Tools.Applications.Deployment.AddInInstallationStatus,Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInPromptingLevel,System.Boolean,System.String)">
+      <summary>
+          Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInTrustEvidence" /> class. 
+        </summary>
+      <param name="manifest">
+              The location of the deployment manifest that was requested by the host application. This value is assigned to the <see cref="P:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInTrustEvidence.OriginalManifestLocation" /> property.
+            </param>
+      <param name="finalLocation">
+              The final location of the deployment manifest after server-side redirection. This value is assigned to the <see cref="P:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInTrustEvidence.FinalManifestLocation" /> property.
+            </param>
+      <param name="collection">
+              A <see cref="T:System.Security.Cryptography.ManifestSignatureInformationCollection" /> that contains information about the manifest type, the Authenticode signature, and the strong name signature.
+            </param>
+      <param name="installationStatus">
+              The type of add-in installation that is being performed. This value is assigned to the <see cref="P:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInTrustEvidence.InstallationStatus" /> property.
+            </param>
+      <param name="promptingLevel">
+              Specifies whether the add-in is signed with a trusted certificate or the user is to be prompted to make a trust decision to install the add-in. This value is assigned to the <see cref="P:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInTrustEvidence.PromptingLevel" /> property.
+            </param>
+      <param name="permissionElevationRequired">
+              Specifies whether the add-in will require more permission than is permitted in the zone in which the deployment manifest is located (Internet, UntrustedSites, MyComputer, LocalIntranet, or TrustedSites). This value is assigned to the <see cref="P:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInTrustEvidence.PermissionElevationRequired" /> property.
+            </param>
+      <param name="productName">
+              The name of the add-in that is defined in the deployment manifest. This value is assigned to the <see cref="P:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInTrustEvidence.ProductName" /> property.
+            </param>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInTrustEvidence.FinalManifestLocation">
+      <summary>
+          Gets the updated location of the deployment manifest, if it has changed from the location that is specified in the deployment manifest that was requested by the host application.
+        </summary>
+      <returns>
+          The location of the deployment manifest after redirection.
+        </returns>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInTrustEvidence.InstallationStatus">
+      <summary>
+          Gets the type of add-in installation that is being performed.
+        </summary>
+      <returns>
+          The type of add-in installation that is being performed.
+        </returns>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInTrustEvidence.OriginalManifestLocation">
+      <summary>
+          Gets the original path of the deployment manifest, if the request was redirected by IIS.
+        </summary>
+      <returns>
+          The path of the original location of the deployment manifest before redirection.
+        </returns>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInTrustEvidence.PermissionElevationRequired">
+      <summary>
+          Gets a value that indicates whether elevated permissions are required to install an add-in.
+        </summary>
+      <returns>
+          
+            true if elevated permissions are required; otherwise, false.
+        </returns>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInTrustEvidence.ProductName">
+      <summary>
+          Gets the name of the add-in that is defined in the deployment manifest.
+        </summary>
+      <returns>
+          The name of the add-in that is defined in the deployment manifest.
+        </returns>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInTrustEvidence.PromptingLevel">
+      <summary>
+          Gets a value that indicates whether an add-in is signed with a trusted certificate or the end user is to be prompted to make a trust decision to install an add-in.
+        </summary>
+      <returns>
+          
+            <see cref="F:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInPromptingLevel.TrustByCertificate" /> if the add-in is signed with a trusted certificate; <see cref="F:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInPromptingLevel.TrustByPrompt" /> if the end user should be prompted to make a trust decision to install the add-in.
+        </returns>
+    </member>
+    <member name="P:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInTrustEvidence.SignatureResults">
+      <summary>
+          Gets information that indicates whether the certificate can be trusted.
+        </summary>
+      <returns>
+          The certificate signature analysis of the deployment and application manifests.
+        </returns>
+    </member>
+    <member name="T:Microsoft.VisualStudio.Tools.Applications.Deployment.IClickOnceAddInInstaller">
+      <summary>
+          Provides methods that you can use to create actions that run while an add-in is being installed or uninstalled. 
+        </summary>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.IClickOnceAddInInstaller.OnAddInDownloaded(Microsoft.VisualStudio.Tools.Applications.Deployment.AddInDownloadedArgs)">
+      <summary>
+          Called by a <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInDeploymentManager" /> object to show add-in installation progress after an add-in is downloaded and copied to the ClickOnce cache.
+        </summary>
+      <param name="args">
+              An <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInDownloadedArgs" /> object that shows add-in installation progress after the add-in is downloaded and copied to the ClickOnce cache.
+            </param>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.IClickOnceAddInInstaller.OnAddInDownloading(Microsoft.VisualStudio.Tools.Applications.Deployment.AddInDownloadingArgs,System.Boolean@)">
+      <summary>
+          Called by a <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInDeploymentManager" /> object to show add-in installation progress before it begins to download the add-in.
+        </summary>
+      <param name="args">
+              An <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInDownloadingArgs" /> object that shows the progress before the download process is started.
+            </param>
+      <param name="cancel">
+              
+                true to cancel this action; otherwise, false.
+            </param>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.IClickOnceAddInInstaller.OnAddInDownloadProgressChanged(Microsoft.VisualStudio.Tools.Applications.Deployment.AddInDownloadProgressChangedArgs)">
+      <summary>
+          Called at intervals by a <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInDeploymentManager" /> object to show add-in installation progress while the add-in is being downloaded.
+        </summary>
+      <param name="args">
+              An <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInDownloadProgressChangedArgs" /> object that shows the progress while the add-in is being downloaded.
+            </param>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.IClickOnceAddInInstaller.OnAddInInstalled(Microsoft.VisualStudio.Tools.Applications.Deployment.AddInInstalledArgs)">
+      <summary>
+          Called by a <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInDeploymentManager" /> object to show add-in installation progress after installation is complete.
+        </summary>
+      <param name="args">
+              An <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInInstalledArgs" /> object that shows add-in installation progress after installation is complete.
+            </param>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.IClickOnceAddInInstaller.OnAddInInstalling(Microsoft.VisualStudio.Tools.Applications.Deployment.AddInInstallingArgs,System.Boolean@)">
+      <summary>
+          Called by a <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInDeploymentManager" /> object to show add-in installation progress before the first step of the installation process, downloading the add-in, begins.
+        </summary>
+      <param name="args">
+              An <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInInstallingArgs" /> object that shows add-in installation progress before the first step of the installation process, downloading the add-in, is started.
+            </param>
+      <param name="cancel">
+              
+                true to cancel the installation process; otherwise, false.
+            </param>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.IClickOnceAddInInstaller.OnAddInManifestsDownloaded(Microsoft.VisualStudio.Tools.Applications.Deployment.AddInManifestsDownloadedArgs)">
+      <summary>
+          Called by a <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInDeploymentManager" /> object to show add-in installation progress after the manifests have been downloaded. 
+        </summary>
+      <param name="args">
+              An <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInManifestsDownloadedArgs" /> object that shows add-in installation progress just after the manifests have been downloaded.
+            </param>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.IClickOnceAddInInstaller.OnAddInManifestsDownloading(Microsoft.VisualStudio.Tools.Applications.Deployment.AddInManifestsDownloadingArgs,System.Boolean@)">
+      <summary>
+          Called by a <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInDeploymentManager" /> object to show add-in installation progress just before downloading the manifests. 
+        </summary>
+      <param name="args">
+              An <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInManifestsDownloadingArgs" /> object that shows add-in installation progress just before downloading the manifests.
+            </param>
+      <param name="cancel">
+              
+                true to cancel the installation of the add-in; otherwise, false.
+            </param>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.IClickOnceAddInInstaller.OnAddInOffline(Microsoft.VisualStudio.Tools.Applications.Deployment.AddInOfflineArgs,System.Boolean@)">
+      <summary>
+          Called by the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInDeploymentManager" /> object to determine whether the add-in should run from the ClickOnce cache.
+        </summary>
+      <param name="args">
+              An <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInOfflineArgs" /> object to determine whether the add-in should run from the ClickOnce cache.
+            </param>
+      <param name="goOffline">
+              
+                true to run the solution from the ClickOnce cache; false causes an <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.InstallAddInCanceledException" /> to be thrown because the add-in cannot be run from the host location.
+            </param>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.IClickOnceAddInInstaller.OnAddInProcessAbort(Microsoft.VisualStudio.Tools.Applications.Deployment.AddInProcessAbortArgs)">
+      <summary>
+          Called by the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInDeploymentManager" /> object to show add-in installation progress after an error occurs during add-in installation.
+        </summary>
+      <param name="args">
+              An <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInProcessAbortArgs" /> object that shows add-in installation progress after an error occurs during add-in installation.
+            </param>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.IClickOnceAddInInstaller.OnAddInUninstalled(Microsoft.VisualStudio.Tools.Applications.Deployment.AddInUninstalledArgs)">
+      <summary>
+          Called by the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInDeploymentManager" /> object after an add-in is uninstalled to show the progress.
+        </summary>
+      <param name="args">
+              An <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInUninstalledArgs" /> object that shows the progress of uninstalling an add-in.
+            </param>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.IClickOnceAddInInstaller.OnAddInUninstalling(Microsoft.VisualStudio.Tools.Applications.Deployment.AddInUninstallingArgs,System.Boolean@)">
+      <summary>
+          Called by the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInDeploymentManager" /> object just before uninstalling an add-in to show the progress.
+        </summary>
+      <param name="args">
+              An <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.AddInUninstallingArgs" /> object that shows the progress of uninstalling an add-in.
+            </param>
+      <param name="cancel">
+              
+                true to stop the add-in from being uninstalled; otherwise, false.
+            </param>
+    </member>
+    <member name="T:Microsoft.VisualStudio.Tools.Applications.Deployment.IClickOnceAddInTrustManager">
+      <summary>
+          Defines methods that you can use to verify permissions and trust for add-ins.
+        </summary>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.IClickOnceAddInTrustManager.VerifyAddInPermissions(System.Security.PermissionSet)">
+      <summary>
+          Examines or modifies the permissions for an add-in.
+        </summary>
+      <param name="permissions">
+              The set of add-in permissions to examine or modify.
+            </param>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.IClickOnceAddInTrustManager.VerifyAddInTrust(Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInTrustEvidence)">
+      <summary>
+          Evaluates trust evidence to determine whether an add-in runs.
+        </summary>
+      <param name="evidence">
+              The evidence to evaluate to determine whether the add-in should run.
+            </param>
+    </member>
+    <member name="T:Microsoft.VisualStudio.Tools.Applications.Deployment.InstallAddInCanceledException">
+      <summary>
+          The exception that is thrown when the add-in installation or update is canceled. This class cannot be inherited. 
+        </summary>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.InstallAddInCanceledException.#ctor">
+      <summary>
+          Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.InstallAddInCanceledException" /> class. 
+        </summary>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.InstallAddInCanceledException.#ctor(System.Exception)">
+      <summary>
+          Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.InstallAddInCanceledException" /> class with a reference to the inner exception that is the cause of this exception.
+        </summary>
+      <param name="innerException">
+              The exception that is the cause of the current exception, or null if no inner exception is specified.
+            </param>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.InstallAddInCanceledException.#ctor(System.String)">
+      <summary>
+          Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.InstallAddInCanceledException" /> class with a specified error message. 
+        </summary>
+      <param name="message">
+              The error message that explains the reason for the exception.
+            </param>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.InstallAddInCanceledException.#ctor(System.String,System.Exception)">
+      <summary>
+          Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.InstallAddInCanceledException" /> class with a specified error message and a reference to the inner exception that is the cause of this exception.
+        </summary>
+      <param name="message">
+              The error message that explains the reason for the exception.
+            </param>
+      <param name="innerException">
+              The exception that is the cause of the current exception, or null if no inner exception is specified.
+            </param>
+    </member>
+    <member name="T:Microsoft.VisualStudio.Tools.Applications.Deployment.InstallAddInFailedException">
+      <summary>
+          The exception that is thrown when the add-in installation or update failed. This class cannot be inherited. 
+        </summary>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.InstallAddInFailedException.#ctor">
+      <summary>
+          Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.InstallAddInFailedException" /> class. 
+        </summary>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.InstallAddInFailedException.#ctor(System.Exception)">
+      <summary>
+          Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.InstallAddInFailedException" /> class with a reference to the inner exception that is the cause of this exception. 
+        </summary>
+      <param name="innerException">
+              The exception that is the cause of the current exception, or null if no inner exception is specified.
+            </param>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.InstallAddInFailedException.#ctor(System.String)">
+      <summary>
+          Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.InstallAddInFailedException" /> class with a specified error message. 
+        </summary>
+      <param name="message">
+              The error message that explains the reason for the exception.
+            </param>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.InstallAddInFailedException.#ctor(System.String,System.Exception)">
+      <summary>
+          Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.InstallAddInFailedException" /> class with a specified error message and a reference to the inner exception that is the cause of this exception. 
+        </summary>
+      <param name="message">
+              The error message that explains the reason for the exception.
+            </param>
+      <param name="innerException">
+              The exception that is the cause of the current exception, or null if no inner exception is specified.
+            </param>
+    </member>
+    <member name="T:Microsoft.VisualStudio.Tools.Applications.Deployment.InvalidManifestException">
+      <summary>
+          The exception that is thrown when the manifest is not valid. This class cannot be inherited. 
+        </summary>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.InvalidManifestException.#ctor">
+      <summary>
+          Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.InvalidManifestException" /> class. 
+        </summary>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.InvalidManifestException.#ctor(System.Exception)">
+      <summary>
+          Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.InvalidManifestException" /> class with a reference to the inner exception that is the cause of this exception.
+        </summary>
+      <param name="innerException">
+              The exception that is the cause of the current exception, or null if no inner exception is specified.
+            </param>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.InvalidManifestException.#ctor(System.String)">
+      <summary>
+          Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.InvalidManifestException" /> class with a specified error message.
+        </summary>
+      <param name="message">
+              The error message that explains the reason for the exception.
+            </param>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.InvalidManifestException.#ctor(System.String,System.Exception)">
+      <summary>
+          Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.InvalidManifestException" /> class with a specified error message and a reference to the inner exception that is the cause of this exception.
+        </summary>
+      <param name="message">
+              The error message that explains the reason for the exception.
+            </param>
+      <param name="innerException">
+              The exception that is the cause of the current exception, or null if no inner exception is specified.
+            </param>
+    </member>
+    <member name="T:Microsoft.VisualStudio.Tools.Applications.Deployment.InvalidRegistryStoreValueException">
+      <summary>
+          The exception that is thrown when the current solution configuration values in the registry are not valid. This class cannot be inherited.
+        </summary>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.InvalidRegistryStoreValueException.#ctor">
+      <summary>
+          Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.InvalidRegistryStoreValueException" /> class.
+        </summary>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.InvalidRegistryStoreValueException.#ctor(System.Exception)">
+      <summary>
+          Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.InvalidRegistryStoreValueException" /> class with a reference to the inner exception that is the cause of this exception.
+        </summary>
+      <param name="innerException">
+              The exception that is the cause of the current exception, or null if no inner exception is specified.
+            </param>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.InvalidRegistryStoreValueException.#ctor(System.String)">
+      <summary>
+          Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.InvalidRegistryStoreValueException" /> class with a specified error message.
+        </summary>
+      <param name="message">
+              The error message that explains the reason for the exception.
+            </param>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.InvalidRegistryStoreValueException.#ctor(System.String,System.Exception)">
+      <summary>
+          Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.InvalidRegistryStoreValueException" /> class with a specified error message and a reference to the inner exception that is the cause of this exception.
+        </summary>
+      <param name="message">
+              The error message that explains the reason for the exception.
+            </param>
+      <param name="innerException">
+              The exception that is the cause of the current exception, or null if no inner exception is specified.
+            </param>
+    </member>
+    <member name="T:Microsoft.VisualStudio.Tools.Applications.Deployment.OfflineAddInFailedException">
+      <summary>
+          The exception that is thrown when the solution is not present in the ClickOnce cache, though the solution was previously installed. This class cannot be inherited. 
+        </summary>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.OfflineAddInFailedException.#ctor">
+      <summary>
+          Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.OfflineAddInFailedException" /> class.
+        </summary>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.OfflineAddInFailedException.#ctor(System.Exception)">
+      <summary>
+          Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.OfflineAddInFailedException" /> class with a reference to the inner exception that is the cause of this exception. 
+        </summary>
+      <param name="innerException">
+              The exception that is the cause of the current exception, or null if no inner exception is specified.
+            </param>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.OfflineAddInFailedException.#ctor(System.String)">
+      <summary>
+          Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.OfflineAddInFailedException" /> class with a specified error message.
+        </summary>
+      <param name="message">
+              The error message that explains the reason for the exception.
+            </param>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.OfflineAddInFailedException.#ctor(System.String,System.Exception)">
+      <summary>
+          Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.OfflineAddInFailedException" /> class with a specified error message and a reference to the inner exception that is the cause of this exception.
+        </summary>
+      <param name="message">
+              The error message that explains the reason for the exception.
+            </param>
+      <param name="innerException">
+              The exception that is the cause of the current exception, or null if no inner exception is specified.
+            </param>
+    </member>
+    <member name="T:Microsoft.VisualStudio.Tools.Applications.Deployment.UninstallAddInCanceledException">
+      <summary>
+          The exception that is thrown when the removal of the add-in is canceled. This class cannot be inherited.
+        </summary>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.UninstallAddInCanceledException.#ctor">
+      <summary>
+          Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.UninstallAddInCanceledException" /> class.
+        </summary>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.UninstallAddInCanceledException.#ctor(System.Exception)">
+      <summary>
+          Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.UninstallAddInCanceledException" /> class with a reference to the inner exception that is the cause of this exception.
+        </summary>
+      <param name="innerException">
+              The exception that is the cause of the current exception, or null if no inner exception is specified.
+            </param>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.UninstallAddInCanceledException.#ctor(System.String)">
+      <summary>
+          Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.UninstallAddInCanceledException" /> class with a specified error message.
+        </summary>
+      <param name="message">
+              The error message that explains the reason for the exception.
+            </param>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.UninstallAddInCanceledException.#ctor(System.String,System.Exception)">
+      <summary>
+          Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.UninstallAddInCanceledException" /> class with a specified error message and a reference to the inner exception that is the cause of this exception.
+        </summary>
+      <param name="message">
+              The error message that explains the reason for the exception.
+            </param>
+      <param name="innerException">
+              The exception that is the cause of the current exception, or null if no inner exception is specified.
+            </param>
+    </member>
+    <member name="T:Microsoft.VisualStudio.Tools.Applications.Deployment.UninstallAddInFailedException">
+      <summary>
+          The exception that is thrown when the add-in could not be uninstalled. This class cannot be inherited.
+        </summary>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.UninstallAddInFailedException.#ctor">
+      <summary>
+          Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.UninstallAddInFailedException" /> class.
+        </summary>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.UninstallAddInFailedException.#ctor(System.Exception)">
+      <summary>
+          Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.UninstallAddInFailedException" /> class with a reference to the inner exception that is the cause of this exception.
+        </summary>
+      <param name="innerException">
+              The exception that is the cause of the current exception, or null if no inner exception is specified.
+            </param>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.UninstallAddInFailedException.#ctor(System.String)">
+      <summary>
+          Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.UninstallAddInFailedException" /> class with a specified error message.
+        </summary>
+      <param name="message">
+              The error message that explains the reason for the exception.
+            </param>
+    </member>
+    <member name="M:Microsoft.VisualStudio.Tools.Applications.Deployment.UninstallAddInFailedException.#ctor(System.String,System.Exception)">
+      <summary>
+          Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Tools.Applications.Deployment.UninstallAddInFailedException" /> class with a specified error message and a reference to the inner exception that is the cause of this exception.
+        </summary>
+      <param name="message">
+              The error message that explains the reason for the exception.
+            </param>
+      <param name="innerException">
+              The exception that is the cause of the current exception, or null if no inner exception is specified.
+            </param>
+    </member>
+  </members>
+</doc>

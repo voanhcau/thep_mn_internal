@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_iwmn_r81dmxervc_list" model="ir.ui.view">
+        <field name="name">iwmn.r81dmxervc.list</field>
+        <field name="model">iwmn.r81dmxervc</field>
+        <field name="arch" type="xml">
+            <list string="R81DMXERVC - Ten_Tx">
+                <field name="so_xe"/>
+                <field name="id_cm"/>
+                <field name="id_bl"/>
+                <field name="ten_tx"/>
+                <field name="tai_trong"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmxervc_form" model="ir.ui.view">
+        <field name="name">iwmn.r81dmxervc.form</field>
+        <field name="model">iwmn.r81dmxervc</field>
+        <field name="arch" type="xml">
+            <form string="R81DMXERVC - Ten_Tx">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="so_xe"/>
+                            <field name="id_cm"/>
+                            <field name="id_bl"/>
+                        </group>
+                        <group>
+                            <field name="ten_tx"/>
+                            <field name="tai_trong"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmxervc_search" model="ir.ui.view">
+        <field name="name">iwmn.r81dmxervc.search</field>
+        <field name="model">iwmn.r81dmxervc</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="ten_tx"/>
+                <field name="so_xe"/>
+                <field name="id_cm"/>
+                <field name="id_bl"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_iwmn_r81dmxervc" model="ir.actions.act_window">
+        <field name="name">R81DMXERVC - Ten_Tx</field>
+        <field name="res_model">iwmn.r81dmxervc</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_iwmn_r81dmxervc_search"/>
+    </record>
+
+    <menuitem id="menu_iwmn_r81dmxervc" name="R81DMXERVC - Ten_Tx"
+              parent="menu_iwmn_master_warehouse"
+              action="action_iwmn_r81dmxervc" sequence="62"/>
+</odoo>

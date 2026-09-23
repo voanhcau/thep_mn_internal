@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_iwmn_r81dmlopdt_list" model="ir.ui.view">
+        <field name="name">iwmn.r81dmlopdt.list</field>
+        <field name="model">iwmn.r81dmlopdt</field>
+        <field name="arch" type="xml">
+            <list string="R81DMLOPDT - Ma_LopDT">
+                <field name="ma_lopdt"/>
+                <field name="ma_nh_lopdt"/>
+                <field name="noi_dung"/>
+                <field name="ma_dt"/>
+                <field name="ngay_bd"/>
+                <field name="ngay_kt"/>
+                <field name="ghi_chu"/>
+                <field name="create_log"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmlopdt_form" model="ir.ui.view">
+        <field name="name">iwmn.r81dmlopdt.form</field>
+        <field name="model">iwmn.r81dmlopdt</field>
+        <field name="arch" type="xml">
+            <form string="R81DMLOPDT - Ma_LopDT">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="ma_lopdt"/>
+                            <field name="ma_nh_lopdt"/>
+                            <field name="noi_dung"/>
+                            <field name="ma_dt"/>
+                            <field name="ngay_bd"/>
+                            <field name="ngay_kt"/>
+                        </group>
+                        <group>
+                            <field name="ghi_chu"/>
+                            <field name="create_log"/>
+                            <field name="lastmodify_log"/>
+                            <field name="ma_data"/>
+                            <field name="tien"/>
+                            <field name="giang_vien"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmlopdt_search" model="ir.ui.view">
+        <field name="name">iwmn.r81dmlopdt.search</field>
+        <field name="model">iwmn.r81dmlopdt</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="ma_lopdt"/>
+                <field name="ma_nh_lopdt"/>
+                <field name="noi_dung"/>
+                <field name="ma_dt"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_iwmn_r81dmlopdt" model="ir.actions.act_window">
+        <field name="name">R81DMLOPDT - Ma_LopDT</field>
+        <field name="res_model">iwmn.r81dmlopdt</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_iwmn_r81dmlopdt_search"/>
+    </record>
+
+    <menuitem id="menu_iwmn_r81dmlopdt" name="R81DMLOPDT - Ma_LopDT"
+              parent="menu_iwmn_master_organization"
+              action="action_iwmn_r81dmlopdt" sequence="34"/>
+</odoo>

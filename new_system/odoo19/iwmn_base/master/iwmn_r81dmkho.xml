@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_iwmn_r81dmkho_list" model="ir.ui.view">
+        <field name="name">iwmn.r81dmkho.list</field>
+        <field name="model">iwmn.r81dmkho</field>
+        <field name="arch" type="xml">
+            <list string="R81DMKHO - Ten_Kho">
+                <field name="ma_kho"/>
+                <field name="ten_kho"/>
+                <field name="ngay_begin"/>
+                <field name="ngay_end"/>
+                <field name="ma_data"/>
+                <field name="create_log"/>
+                <field name="lastmodify_log"/>
+                <field name="stt"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmkho_form" model="ir.ui.view">
+        <field name="name">iwmn.r81dmkho.form</field>
+        <field name="model">iwmn.r81dmkho</field>
+        <field name="arch" type="xml">
+            <form string="R81DMKHO - Ten_Kho">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="ma_kho"/>
+                            <field name="ten_kho"/>
+                            <field name="ngay_begin"/>
+                            <field name="ngay_end"/>
+                            <field name="ma_data"/>
+                            <field name="create_log"/>
+                            <field name="lastmodify_log"/>
+                            <field name="stt"/>
+                            <field name="ident00"/>
+                            <field name="tk_vtu"/>
+                        </group>
+                        <group>
+                            <field name="is_ketoan"/>
+                            <field name="tk_gvon"/>
+                            <field name="dia_chi"/>
+                            <field name="ten_thu_kho"/>
+                            <field name="ten_ct_giao"/>
+                            <field name="ma_dt"/>
+                            <field name="sl_dm_kg"/>
+                            <field name="han_hd"/>
+                            <field name="note"/>
+                            <field name="ma_nh_kg"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmkho_search" model="ir.ui.view">
+        <field name="name">iwmn.r81dmkho.search</field>
+        <field name="model">iwmn.r81dmkho</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="ten_kho"/>
+                <field name="ma_kho"/>
+                <field name="ngay_begin"/>
+                <field name="ngay_end"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_iwmn_r81dmkho" model="ir.actions.act_window">
+        <field name="name">R81DMKHO - Ten_Kho</field>
+        <field name="res_model">iwmn.r81dmkho</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_iwmn_r81dmkho_search"/>
+    </record>
+
+    <menuitem id="menu_iwmn_r81dmkho" name="R81DMKHO - Ten_Kho"
+              parent="menu_iwmn_master_warehouse"
+              action="action_iwmn_r81dmkho" sequence="26"/>
+</odoo>

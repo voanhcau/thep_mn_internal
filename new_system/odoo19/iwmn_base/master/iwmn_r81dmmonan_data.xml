@@ -1,0 +1,1751 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="iwmn_r81dmmonan_1s" model="iwmn.r81dmmonan">
+            <field name="ma_man">1S</field>
+            <field name="ten_man">ĂN SÁNG</field>
+            <field name="ma_man_parent" eval="False"/>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">231121:133942:HANHTN</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_2m" model="iwmn.r81dmmonan">
+            <field name="ma_man">2M</field>
+            <field name="ten_man">Món mặn (Ăn trưa, chiều, khuya)</field>
+            <field name="ma_man_parent" eval="False"/>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">231121:134255:HANHTN</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_3r" model="iwmn.r81dmmonan">
+            <field name="ma_man">3R</field>
+            <field name="ten_man">Món xào, món rau (Ăn trưa, chiều, khuya)</field>
+            <field name="ma_man_parent" eval="False"/>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_4c" model="iwmn.r81dmmonan">
+            <field name="ma_man">4C</field>
+            <field name="ten_man">Món canh/ cơm (Ăn trưa, chiều, khuya)</field>
+            <field name="ma_man_parent" eval="False"/>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">020321:104532:LANHDP</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_5t" model="iwmn.r81dmmonan">
+            <field name="ma_man">5T</field>
+            <field name="ten_man">Tráng miệng</field>
+            <field name="ma_man_parent" eval="False"/>
+            <field name="nh_cuoi" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_c01" model="iwmn.r81dmmonan">
+            <field name="ma_man">C01</field>
+            <field name="ten_man">Canh cải thảo thịt lợn bằm</field>
+            <field name="ma_man_parent">4C</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_c02" model="iwmn.r81dmmonan">
+            <field name="ma_man">C02</field>
+            <field name="ten_man">Canh cải xoang thịt lợn bằm</field>
+            <field name="ma_man_parent">4C</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_c03" model="iwmn.r81dmmonan">
+            <field name="ma_man">C03</field>
+            <field name="ten_man">Canh tần ô thịt lợn bằm</field>
+            <field name="ma_man_parent">4C</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_c04" model="iwmn.r81dmmonan">
+            <field name="ma_man">C04</field>
+            <field name="ten_man">Canh rau ngót thịt lợn bằm</field>
+            <field name="ma_man_parent">4C</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_c05" model="iwmn.r81dmmonan">
+            <field name="ma_man">C05</field>
+            <field name="ten_man">Canh cải ngọt thịt lợn bằm</field>
+            <field name="ma_man_parent">4C</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_c06" model="iwmn.r81dmmonan">
+            <field name="ma_man">C06</field>
+            <field name="ten_man">Canh cải thìa thịt lợn bằm</field>
+            <field name="ma_man_parent">4C</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_c07" model="iwmn.r81dmmonan">
+            <field name="ma_man">C07</field>
+            <field name="ten_man">Canh cải xanh thịt lợn bằm</field>
+            <field name="ma_man_parent">4C</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_c08" model="iwmn.r81dmmonan">
+            <field name="ma_man">C08</field>
+            <field name="ten_man">Canh cải nhúng thịt lợn bằm</field>
+            <field name="ma_man_parent">4C</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_c09" model="iwmn.r81dmmonan">
+            <field name="ma_man">C09</field>
+            <field name="ten_man">Canh rau dền nấu tôm</field>
+            <field name="ma_man_parent">4C</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_c10" model="iwmn.r81dmmonan">
+            <field name="ma_man">C10</field>
+            <field name="ten_man">Canh rau mồng tơi nấu tôm</field>
+            <field name="ma_man_parent">4C</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_c11" model="iwmn.r81dmmonan">
+            <field name="ma_man">C11</field>
+            <field name="ten_man">Canh cua rau đay</field>
+            <field name="ma_man_parent">4C</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_c12" model="iwmn.r81dmmonan">
+            <field name="ma_man">C12</field>
+            <field name="ten_man">Canh giá hẹ thịt bằm/ huyết</field>
+            <field name="ma_man_parent">4C</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_c13" model="iwmn.r81dmmonan">
+            <field name="ma_man">C13</field>
+            <field name="ten_man">Canh gà lá giang</field>
+            <field name="ma_man_parent">4C</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_c14" model="iwmn.r81dmmonan">
+            <field name="ma_man">C14</field>
+            <field name="ten_man">Canh củ quả nấu xương lợn</field>
+            <field name="ma_man_parent">4C</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_c15" model="iwmn.r81dmmonan">
+            <field name="ma_man">C15</field>
+            <field name="ten_man">Canh khổ qua nấu xương/ thịt lợn</field>
+            <field name="ma_man_parent">4C</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_c16" model="iwmn.r81dmmonan">
+            <field name="ma_man">C16</field>
+            <field name="ten_man">Canh bí xanh nấu xương/ thịt lợn</field>
+            <field name="ma_man_parent">4C</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_c17" model="iwmn.r81dmmonan">
+            <field name="ma_man">C17</field>
+            <field name="ten_man">Canh bí đỏ nấu xương/ thịt lợn</field>
+            <field name="ma_man_parent">4C</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_c18" model="iwmn.r81dmmonan">
+            <field name="ma_man">C18</field>
+            <field name="ten_man">Canh khoai mỡ nấu thịt bằm</field>
+            <field name="ma_man_parent">4C</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_c19" model="iwmn.r81dmmonan">
+            <field name="ma_man">C19</field>
+            <field name="ten_man">Canh chua đầu cá lóc</field>
+            <field name="ma_man_parent">4C</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_c20" model="iwmn.r81dmmonan">
+            <field name="ma_man">C20</field>
+            <field name="ten_man">Canh chua tép</field>
+            <field name="ma_man_parent">4C</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_c21" model="iwmn.r81dmmonan">
+            <field name="ma_man">C21</field>
+            <field name="ten_man">Canh đu đủ hầm xương lợn</field>
+            <field name="ma_man_parent">4C</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_c22" model="iwmn.r81dmmonan">
+            <field name="ma_man">C22</field>
+            <field name="ten_man">Canh cà chua trứng</field>
+            <field name="ma_man_parent">4C</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_c23" model="iwmn.r81dmmonan">
+            <field name="ma_man">C23</field>
+            <field name="ten_man">Canh hến thì là</field>
+            <field name="ma_man_parent">4C</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_c24" model="iwmn.r81dmmonan">
+            <field name="ma_man">C24</field>
+            <field name="ten_man">Canh rau má nấu thịt bằm</field>
+            <field name="ma_man_parent">4C</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_c25" model="iwmn.r81dmmonan">
+            <field name="ma_man">C25</field>
+            <field name="ten_man">Canh bầu nấu tôm</field>
+            <field name="ma_man_parent">4C</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_c26" model="iwmn.r81dmmonan">
+            <field name="ma_man">C26</field>
+            <field name="ten_man">Canh Măng chua</field>
+            <field name="ma_man_parent">4C</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_c27" model="iwmn.r81dmmonan">
+            <field name="ma_man">C27</field>
+            <field name="ten_man">Canh dưa chua</field>
+            <field name="ma_man_parent">4C</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log">250221:143821:VR</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_ck1" model="iwmn.r81dmmonan">
+            <field name="ma_man">CK1</field>
+            <field name="ten_man">Cơm trắng</field>
+            <field name="ma_man_parent">4C</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m01" model="iwmn.r81dmmonan">
+            <field name="ma_man">M01</field>
+            <field name="ten_man">Thịt heo kho tiêu</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">240221:153452:LANHDP</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m02" model="iwmn.r81dmmonan">
+            <field name="ma_man">M02</field>
+            <field name="ten_man">Thịt heo kho tàu</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m03" model="iwmn.r81dmmonan">
+            <field name="ma_man">M03</field>
+            <field name="ten_man">Thịt heo kho giò lụa</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m04" model="iwmn.r81dmmonan">
+            <field name="ma_man">M04</field>
+            <field name="ten_man">Thịt heo kho cùi dừa</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m05" model="iwmn.r81dmmonan">
+            <field name="ma_man">M05</field>
+            <field name="ten_man">Thịt heo kho đậu hủ</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m06" model="iwmn.r81dmmonan">
+            <field name="ma_man">M06</field>
+            <field name="ten_man">Thịt heo kho trứng cút</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m07" model="iwmn.r81dmmonan">
+            <field name="ma_man">M07</field>
+            <field name="ten_man">Thịt heo quay kho dưa chua</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m08" model="iwmn.r81dmmonan">
+            <field name="ma_man">M08</field>
+            <field name="ten_man">Thịt heo luộc</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m09" model="iwmn.r81dmmonan">
+            <field name="ma_man">M09</field>
+            <field name="ten_man">Thịt heo áp chảo</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m10" model="iwmn.r81dmmonan">
+            <field name="ma_man">M10</field>
+            <field name="ten_man">Heo nấu giả cầy (miền bắc)</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m11" model="iwmn.r81dmmonan">
+            <field name="ma_man">M11</field>
+            <field name="ten_man">Khổ qua nhồi thịt</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m12" model="iwmn.r81dmmonan">
+            <field name="ma_man">M12</field>
+            <field name="ten_man">Bò xào khổ qua tây</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m13" model="iwmn.r81dmmonan">
+            <field name="ma_man">M13</field>
+            <field name="ten_man">Bò xào hành cần</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m14" model="iwmn.r81dmmonan">
+            <field name="ma_man">M14</field>
+            <field name="ten_man">Bò xào cải thìa</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m15" model="iwmn.r81dmmonan">
+            <field name="ma_man">M15</field>
+            <field name="ten_man">Bò cuốn lá lốt</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m16" model="iwmn.r81dmmonan">
+            <field name="ma_man">M16</field>
+            <field name="ten_man">Trứng chiên thịt</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m17" model="iwmn.r81dmmonan">
+            <field name="ma_man">M17</field>
+            <field name="ten_man">Trứng cuộn</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m18" model="iwmn.r81dmmonan">
+            <field name="ma_man">M18</field>
+            <field name="ten_man">Trứng chiên</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m19" model="iwmn.r81dmmonan">
+            <field name="ma_man">M19</field>
+            <field name="ten_man">Trứng ốp la</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m20" model="iwmn.r81dmmonan">
+            <field name="ma_man">M20</field>
+            <field name="ten_man">Đậu hũ nhồi thịt sốt cà</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m21" model="iwmn.r81dmmonan">
+            <field name="ma_man">M21</field>
+            <field name="ten_man">Đậu hũ sốt thịt</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m22" model="iwmn.r81dmmonan">
+            <field name="ma_man">M22</field>
+            <field name="ten_man">Đậu hũ chiên sả</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m23" model="iwmn.r81dmmonan">
+            <field name="ma_man">M23</field>
+            <field name="ten_man">Đậu hũ luộc</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m24" model="iwmn.r81dmmonan">
+            <field name="ma_man">M24</field>
+            <field name="ten_man">Giò lụa</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m25" model="iwmn.r81dmmonan">
+            <field name="ma_man">M25</field>
+            <field name="ten_man">Chả giò cuốn</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m26" model="iwmn.r81dmmonan">
+            <field name="ma_man">M26</field>
+            <field name="ten_man">Cá lóc kho</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m27" model="iwmn.r81dmmonan">
+            <field name="ma_man">M27</field>
+            <field name="ten_man">Cá lóc kho tiêu, hành ớt</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m28" model="iwmn.r81dmmonan">
+            <field name="ma_man">M28</field>
+            <field name="ten_man">Cá basa kho</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m29" model="iwmn.r81dmmonan">
+            <field name="ma_man">M29</field>
+            <field name="ten_man">Cá basa phile chiên sả</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m30" model="iwmn.r81dmmonan">
+            <field name="ma_man">M30</field>
+            <field name="ten_man">Cá kèo kho</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m31" model="iwmn.r81dmmonan">
+            <field name="ma_man">M31</field>
+            <field name="ten_man">Cá diêu hồng chiên</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m32" model="iwmn.r81dmmonan">
+            <field name="ma_man">M32</field>
+            <field name="ten_man">Cá rô phi (chiên, kho)</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m33" model="iwmn.r81dmmonan">
+            <field name="ma_man">M33</field>
+            <field name="ten_man">Cá hường chiên sả</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m34" model="iwmn.r81dmmonan">
+            <field name="ma_man">M34</field>
+            <field name="ten_man">Cá rô đồng kho tiêu</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m35" model="iwmn.r81dmmonan">
+            <field name="ma_man">M35</field>
+            <field name="ten_man">Cá bống chiên giòn</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m36" model="iwmn.r81dmmonan">
+            <field name="ma_man">M36</field>
+            <field name="ten_man">Cá bống kho tiêu</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m37" model="iwmn.r81dmmonan">
+            <field name="ma_man">M37</field>
+            <field name="ten_man">Cá nục chiên kho cà</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m38" model="iwmn.r81dmmonan">
+            <field name="ma_man">M38</field>
+            <field name="ten_man">Cá nục bông kho</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m39" model="iwmn.r81dmmonan">
+            <field name="ma_man">M39</field>
+            <field name="ten_man">Cá cam kho</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m40" model="iwmn.r81dmmonan">
+            <field name="ma_man">M40</field>
+            <field name="ten_man">Cá ngừ kho</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m41" model="iwmn.r81dmmonan">
+            <field name="ma_man">M41</field>
+            <field name="ten_man">Cá chim (chiên sả, sốt cà)</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m42" model="iwmn.r81dmmonan">
+            <field name="ma_man">M42</field>
+            <field name="ten_man">Cá thu nhật (kho cà, kho tiêu)</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m43" model="iwmn.r81dmmonan">
+            <field name="ma_man">M43</field>
+            <field name="ten_man">Cá chép kho</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m44" model="iwmn.r81dmmonan">
+            <field name="ma_man">M44</field>
+            <field name="ten_man">Cá trắm kho</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m45" model="iwmn.r81dmmonan">
+            <field name="ma_man">M45</field>
+            <field name="ten_man">Cá trôi kho</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m46" model="iwmn.r81dmmonan">
+            <field name="ma_man">M46</field>
+            <field name="ten_man">Cá mèo chiên</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m47" model="iwmn.r81dmmonan">
+            <field name="ma_man">M47</field>
+            <field name="ten_man">Tôm rang</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m48" model="iwmn.r81dmmonan">
+            <field name="ma_man">M48</field>
+            <field name="ten_man">Tôm rang thịt</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m49" model="iwmn.r81dmmonan">
+            <field name="ma_man">M49</field>
+            <field name="ten_man">Tép đồng rang khế</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m50" model="iwmn.r81dmmonan">
+            <field name="ma_man">M50</field>
+            <field name="ten_man">Gà luộc</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m51" model="iwmn.r81dmmonan">
+            <field name="ma_man">M51</field>
+            <field name="ten_man">Vịt luộc</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m52" model="iwmn.r81dmmonan">
+            <field name="ma_man">M52</field>
+            <field name="ten_man">Vịt nấu giả cầy</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m53" model="iwmn.r81dmmonan">
+            <field name="ma_man">M53</field>
+            <field name="ten_man">Vịt kho gừng</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m54" model="iwmn.r81dmmonan">
+            <field name="ma_man">M54</field>
+            <field name="ten_man">Vịt kho sả ớt</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m55" model="iwmn.r81dmmonan">
+            <field name="ma_man">M55</field>
+            <field name="ten_man">Vịt nấu chao</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m56" model="iwmn.r81dmmonan">
+            <field name="ma_man">M56</field>
+            <field name="ten_man">Gà hấp hành tăm, lá chanh</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m57" model="iwmn.r81dmmonan">
+            <field name="ma_man">M57</field>
+            <field name="ten_man">Gà kho gừng</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m58" model="iwmn.r81dmmonan">
+            <field name="ma_man">M58</field>
+            <field name="ten_man">Gà kho sả ớt</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m59" model="iwmn.r81dmmonan">
+            <field name="ma_man">M59</field>
+            <field name="ten_man">Gà rang lá chanh</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m60" model="iwmn.r81dmmonan">
+            <field name="ma_man">M60</field>
+            <field name="ten_man">Gà rang muối</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m61" model="iwmn.r81dmmonan">
+            <field name="ma_man">M61</field>
+            <field name="ten_man">Gà chiên nước mắm</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m62" model="iwmn.r81dmmonan">
+            <field name="ma_man">M62</field>
+            <field name="ten_man">Thịt heo chiên riềng</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log">020321:091827:LANHDP</field>
+            <field name="lastmodify_log">020321:092144:LANHDP</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m63" model="iwmn.r81dmmonan">
+            <field name="ma_man">M63</field>
+            <field name="ten_man">Cá trác chiên</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log">020321:092448:LANHDP</field>
+            <field name="lastmodify_log">020321:092144:LANHDP</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m64" model="iwmn.r81dmmonan">
+            <field name="ma_man">M64</field>
+            <field name="ten_man">Bò xào cần nước</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log">310726:091422:VR</field>
+            <field name="lastmodify_log">020321:092144:LANHDP</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m65" model="iwmn.r81dmmonan">
+            <field name="ma_man">M65</field>
+            <field name="ten_man">Sườn non ram</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log">310726:091533:VR</field>
+            <field name="lastmodify_log">020321:092144:LANHDP</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m66" model="iwmn.r81dmmonan">
+            <field name="ma_man">M66</field>
+            <field name="ten_man">Ba rọi cháy cạnh</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log">310726:091544:VR</field>
+            <field name="lastmodify_log">020321:092144:LANHDP</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_m67" model="iwmn.r81dmmonan">
+            <field name="ma_man">M67</field>
+            <field name="ten_man">Sườn non xào chua ngọt</field>
+            <field name="ma_man_parent">2M</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log">310726:091557:VR</field>
+            <field name="lastmodify_log">020321:092144:LANHDP</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_r01" model="iwmn.r81dmmonan">
+            <field name="ma_man">R01</field>
+            <field name="ten_man">Dưa góp</field>
+            <field name="ma_man_parent">3R</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_r02" model="iwmn.r81dmmonan">
+            <field name="ma_man">R02</field>
+            <field name="ten_man">Dưa cải</field>
+            <field name="ma_man_parent">3R</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_r03" model="iwmn.r81dmmonan">
+            <field name="ma_man">R03</field>
+            <field name="ten_man">Dưa giá</field>
+            <field name="ma_man_parent">3R</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_r04" model="iwmn.r81dmmonan">
+            <field name="ma_man">R04</field>
+            <field name="ten_man">Bắp cải muối</field>
+            <field name="ma_man_parent">3R</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_r05" model="iwmn.r81dmmonan">
+            <field name="ma_man">R05</field>
+            <field name="ten_man">Bắp cải xào (luộc)</field>
+            <field name="ma_man_parent">3R</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_r06" model="iwmn.r81dmmonan">
+            <field name="ma_man">R06</field>
+            <field name="ten_man">Rau lang xào (luộc)</field>
+            <field name="ma_man_parent">3R</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_r07" model="iwmn.r81dmmonan">
+            <field name="ma_man">R07</field>
+            <field name="ten_man">Giá, hẹ xào thịt</field>
+            <field name="ma_man_parent">3R</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_r08" model="iwmn.r81dmmonan">
+            <field name="ma_man">R08</field>
+            <field name="ten_man">Su hào xào (luộc)</field>
+            <field name="ma_man_parent">3R</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_r09" model="iwmn.r81dmmonan">
+            <field name="ma_man">R09</field>
+            <field name="ten_man">Su su xào (luộc)</field>
+            <field name="ma_man_parent">3R</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_r10" model="iwmn.r81dmmonan">
+            <field name="ma_man">R10</field>
+            <field name="ten_man">Su su xào lưỡi heo</field>
+            <field name="ma_man_parent">3R</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_r11" model="iwmn.r81dmmonan">
+            <field name="ma_man">R11</field>
+            <field name="ten_man">Su su xào bò</field>
+            <field name="ma_man_parent">3R</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_r12" model="iwmn.r81dmmonan">
+            <field name="ma_man">R12</field>
+            <field name="ten_man">Đậu đũa xào</field>
+            <field name="ma_man_parent">3R</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_r13" model="iwmn.r81dmmonan">
+            <field name="ma_man">R13</field>
+            <field name="ten_man">Đậu ve xào</field>
+            <field name="ma_man_parent">3R</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_r14" model="iwmn.r81dmmonan">
+            <field name="ma_man">R14</field>
+            <field name="ten_man">Cải thìa xào (luộc)</field>
+            <field name="ma_man_parent">3R</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_r15" model="iwmn.r81dmmonan">
+            <field name="ma_man">R15</field>
+            <field name="ten_man">Cải thảo xào (luộc)</field>
+            <field name="ma_man_parent">3R</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_r16" model="iwmn.r81dmmonan">
+            <field name="ma_man">R16</field>
+            <field name="ten_man">Cải ngọt xào (luộc)</field>
+            <field name="ma_man_parent">3R</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_r17" model="iwmn.r81dmmonan">
+            <field name="ma_man">R17</field>
+            <field name="ten_man">Cải xanh xào (luộc)</field>
+            <field name="ma_man_parent">3R</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_r18" model="iwmn.r81dmmonan">
+            <field name="ma_man">R18</field>
+            <field name="ten_man">Cải ngồng luộc</field>
+            <field name="ma_man_parent">3R</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_r19" model="iwmn.r81dmmonan">
+            <field name="ma_man">R19</field>
+            <field name="ten_man">Đậu bắp luộc</field>
+            <field name="ma_man_parent">3R</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_r20" model="iwmn.r81dmmonan">
+            <field name="ma_man">R20</field>
+            <field name="ten_man">Đu đủ xào</field>
+            <field name="ma_man_parent">3R</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_r21" model="iwmn.r81dmmonan">
+            <field name="ma_man">R21</field>
+            <field name="ten_man">Rau muống xào (luộc)</field>
+            <field name="ma_man_parent">3R</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_r22" model="iwmn.r81dmmonan">
+            <field name="ma_man">R22</field>
+            <field name="ten_man">Khổ qua xào trứng</field>
+            <field name="ma_man_parent">3R</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_r23" model="iwmn.r81dmmonan">
+            <field name="ma_man">R23</field>
+            <field name="ten_man">Đậu rồng xào bò</field>
+            <field name="ma_man_parent">3R</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_r24" model="iwmn.r81dmmonan">
+            <field name="ma_man">R24</field>
+            <field name="ten_man">Đậu rồng xào tỏi</field>
+            <field name="ma_man_parent">3R</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_r25" model="iwmn.r81dmmonan">
+            <field name="ma_man">R25</field>
+            <field name="ten_man">Khoai tây xào thịt</field>
+            <field name="ma_man_parent">3R</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_r26" model="iwmn.r81dmmonan">
+            <field name="ma_man">R26</field>
+            <field name="ten_man">Giá xào</field>
+            <field name="ma_man_parent">3R</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_r27" model="iwmn.r81dmmonan">
+            <field name="ma_man">R27</field>
+            <field name="ten_man">Cà pháo muối sổi</field>
+            <field name="ma_man_parent">3R</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_r28" model="iwmn.r81dmmonan">
+            <field name="ma_man">R28</field>
+            <field name="ten_man">Đậu phộng rang</field>
+            <field name="ma_man_parent">3R</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_r30" model="iwmn.r81dmmonan">
+            <field name="ma_man">R30</field>
+            <field name="ten_man">Su su xào thịt heo</field>
+            <field name="ma_man_parent">3R</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log">020321:092519:LANHDP</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_r31" model="iwmn.r81dmmonan">
+            <field name="ma_man">R31</field>
+            <field name="ten_man">Đậu ve xào lưỡi heo</field>
+            <field name="ma_man_parent">3R</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log">020321:092533:LANHDP</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_r32" model="iwmn.r81dmmonan">
+            <field name="ma_man">R32</field>
+            <field name="ten_man">Đậu rồng xào lưỡi heo</field>
+            <field name="ma_man_parent">3R</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log">020321:092558:LANHDP</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_r33" model="iwmn.r81dmmonan">
+            <field name="ma_man">R33</field>
+            <field name="ten_man">Cải ngồng xào bò</field>
+            <field name="ma_man_parent">3R</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log">040321:165402:LANHDP</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_r34" model="iwmn.r81dmmonan">
+            <field name="ma_man">R34</field>
+            <field name="ten_man">Cải thìa xào heo nạc</field>
+            <field name="ma_man_parent">3R</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log">040321:165419:LANHDP</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_r35" model="iwmn.r81dmmonan">
+            <field name="ma_man">R35</field>
+            <field name="ten_man">Đậu ve xào bò</field>
+            <field name="ma_man_parent">3R</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log">150621:055546:LANHDP</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_r36" model="iwmn.r81dmmonan">
+            <field name="ma_man">R36</field>
+            <field name="ten_man">Cải thìa xào lưỡi heo</field>
+            <field name="ma_man_parent">3R</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log">150621:055603:LANHDP</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_r37" model="iwmn.r81dmmonan">
+            <field name="ma_man">R37</field>
+            <field name="ten_man">Cải ngồng xào lưỡi heo</field>
+            <field name="ma_man_parent">3R</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log">150621:055619:LANHDP</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_r38" model="iwmn.r81dmmonan">
+            <field name="ma_man">R38</field>
+            <field name="ten_man">Khổ qua tây xào lưỡi heo</field>
+            <field name="ma_man_parent">3R</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log">150621:055646:LANHDP</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_r39" model="iwmn.r81dmmonan">
+            <field name="ma_man">R39</field>
+            <field name="ten_man">Đậu ve xào heo nạc</field>
+            <field name="ma_man_parent">3R</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log">150621:055705:LANHDP</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_rk" model="iwmn.r81dmmonan">
+            <field name="ma_man">RK</field>
+            <field name="ten_man">Các loại rau củ quả khác</field>
+            <field name="ma_man_parent">3R</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">020321:104656:LANHDP</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_s01" model="iwmn.r81dmmonan">
+            <field name="ma_man">S01</field>
+            <field name="ten_man">Cơm chiên cá mặn</field>
+            <field name="ma_man_parent">1S</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_s02" model="iwmn.r81dmmonan">
+            <field name="ma_man">S02</field>
+            <field name="ten_man">Cơm chiên trứng</field>
+            <field name="ma_man_parent">1S</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_s03" model="iwmn.r81dmmonan">
+            <field name="ma_man">S03</field>
+            <field name="ten_man">Cơm chiên dương châu</field>
+            <field name="ma_man_parent">1S</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_s04" model="iwmn.r81dmmonan">
+            <field name="ma_man">S04</field>
+            <field name="ten_man">Cháo thịt bằm</field>
+            <field name="ma_man_parent">1S</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_s05" model="iwmn.r81dmmonan">
+            <field name="ma_man">S05</field>
+            <field name="ten_man">Cháo gà</field>
+            <field name="ma_man_parent">1S</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_s06" model="iwmn.r81dmmonan">
+            <field name="ma_man">S06</field>
+            <field name="ten_man">Cháo vịt</field>
+            <field name="ma_man_parent">1S</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_s07" model="iwmn.r81dmmonan">
+            <field name="ma_man">S07</field>
+            <field name="ten_man">Cháo hàu</field>
+            <field name="ma_man_parent">1S</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_s08" model="iwmn.r81dmmonan">
+            <field name="ma_man">S08</field>
+            <field name="ten_man">Cháo lươn</field>
+            <field name="ma_man_parent">1S</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_s09" model="iwmn.r81dmmonan">
+            <field name="ma_man">S09</field>
+            <field name="ten_man">Cháo trứng muối</field>
+            <field name="ma_man_parent">1S</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_s10" model="iwmn.r81dmmonan">
+            <field name="ma_man">S10</field>
+            <field name="ten_man">Bánh ướt (chả giò)</field>
+            <field name="ma_man_parent">1S</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log">030423:143306:LANHDP</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_s11" model="iwmn.r81dmmonan">
+            <field name="ma_man">S11</field>
+            <field name="ten_man">Bánh hỏi</field>
+            <field name="ma_man_parent">1S</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_s12" model="iwmn.r81dmmonan">
+            <field name="ma_man">S12</field>
+            <field name="ten_man">Bánh màn thầu</field>
+            <field name="ma_man_parent">1S</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_s13" model="iwmn.r81dmmonan">
+            <field name="ma_man">S13</field>
+            <field name="ten_man">Xôi gấc</field>
+            <field name="ma_man_parent">1S</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_s14" model="iwmn.r81dmmonan">
+            <field name="ma_man">S14</field>
+            <field name="ten_man">Xôi đậu xanh</field>
+            <field name="ma_man_parent">1S</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_s15" model="iwmn.r81dmmonan">
+            <field name="ma_man">S15</field>
+            <field name="ten_man">Xôi đậu đen</field>
+            <field name="ma_man_parent">1S</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_s16" model="iwmn.r81dmmonan">
+            <field name="ma_man">S16</field>
+            <field name="ten_man">Xôi đậu phộng</field>
+            <field name="ma_man_parent">1S</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_s17" model="iwmn.r81dmmonan">
+            <field name="ma_man">S17</field>
+            <field name="ten_man">Xôi hạt sen</field>
+            <field name="ma_man_parent">1S</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_s18" model="iwmn.r81dmmonan">
+            <field name="ma_man">S18</field>
+            <field name="ten_man">Khoai lang luộc</field>
+            <field name="ma_man_parent">1S</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_s19" model="iwmn.r81dmmonan">
+            <field name="ma_man">S19</field>
+            <field name="ten_man">Khoai mì luộc</field>
+            <field name="ma_man_parent">1S</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_s20" model="iwmn.r81dmmonan">
+            <field name="ma_man">S20</field>
+            <field name="ten_man">Khoai từ luộc</field>
+            <field name="ma_man_parent">1S</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_s21" model="iwmn.r81dmmonan">
+            <field name="ma_man">S21</field>
+            <field name="ten_man">Bắp luộc</field>
+            <field name="ma_man_parent">1S</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_s22" model="iwmn.r81dmmonan">
+            <field name="ma_man">S22</field>
+            <field name="ten_man">Mì xào (bò, rau củ)</field>
+            <field name="ma_man_parent">1S</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_s23" model="iwmn.r81dmmonan">
+            <field name="ma_man">S23</field>
+            <field name="ten_man">Nui xào bò</field>
+            <field name="ma_man_parent">1S</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_s24" model="iwmn.r81dmmonan">
+            <field name="ma_man">S24</field>
+            <field name="ten_man">Miến dong xào</field>
+            <field name="ma_man_parent">1S</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_s25" model="iwmn.r81dmmonan">
+            <field name="ma_man">S25</field>
+            <field name="ten_man">Bún gạo xào</field>
+            <field name="ma_man_parent">1S</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_s26" model="iwmn.r81dmmonan">
+            <field name="ma_man">S26</field>
+            <field name="ten_man">Bánh mỳ trứng ốp la/ bơ đường/ chả lụa</field>
+            <field name="ma_man_parent">1S</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_s27" model="iwmn.r81dmmonan">
+            <field name="ma_man">S27</field>
+            <field name="ten_man">Bánh mỳ cà ri gà</field>
+            <field name="ma_man_parent">1S</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_s28" model="iwmn.r81dmmonan">
+            <field name="ma_man">S28</field>
+            <field name="ten_man">Bún bò</field>
+            <field name="ma_man_parent">1S</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_s29" model="iwmn.r81dmmonan">
+            <field name="ma_man">S29</field>
+            <field name="ten_man">Bún riêu cua</field>
+            <field name="ma_man_parent">1S</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_s30" model="iwmn.r81dmmonan">
+            <field name="ma_man">S30</field>
+            <field name="ten_man">Bún cá lóc</field>
+            <field name="ma_man_parent">1S</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_s31" model="iwmn.r81dmmonan">
+            <field name="ma_man">S31</field>
+            <field name="ten_man">Phở bò</field>
+            <field name="ma_man_parent">1S</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_s32" model="iwmn.r81dmmonan">
+            <field name="ma_man">S32</field>
+            <field name="ten_man">Phở gà</field>
+            <field name="ma_man_parent">1S</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_s33" model="iwmn.r81dmmonan">
+            <field name="ma_man">S33</field>
+            <field name="ten_man">Bánh canh giò heo</field>
+            <field name="ma_man_parent">1S</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_s34" model="iwmn.r81dmmonan">
+            <field name="ma_man">S34</field>
+            <field name="ten_man">Xà lách trộn</field>
+            <field name="ma_man_parent">1S</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_s35" model="iwmn.r81dmmonan">
+            <field name="ma_man">S35</field>
+            <field name="ten_man">Miến lươn/ súp lươn + bánh ướt</field>
+            <field name="ma_man_parent">1S</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_s36" model="iwmn.r81dmmonan">
+            <field name="ma_man">S36</field>
+            <field name="ten_man">Hủ tiếu bò kho</field>
+            <field name="ma_man_parent">1S</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_s37" model="iwmn.r81dmmonan">
+            <field name="ma_man">S37</field>
+            <field name="ten_man">Xôi vò</field>
+            <field name="ma_man_parent">1S</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log">150621:055728:LANHDP</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_s38" model="iwmn.r81dmmonan">
+            <field name="ma_man">S38</field>
+            <field name="ten_man">Xôi mặn</field>
+            <field name="ma_man_parent">1S</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log">150621:055755:LANHDP</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_s39" model="iwmn.r81dmmonan">
+            <field name="ma_man">S39</field>
+            <field name="ten_man">Miến gà</field>
+            <field name="ma_man_parent">1S</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log">310726:091311:VR</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_s40" model="iwmn.r81dmmonan">
+            <field name="ma_man">S40</field>
+            <field name="ten_man">Miến vịt</field>
+            <field name="ma_man_parent">1S</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log">310726:091322:VR</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_s41" model="iwmn.r81dmmonan">
+            <field name="ma_man">S41</field>
+            <field name="ten_man">Bún mọc</field>
+            <field name="ma_man_parent">1S</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log">310726:091332:VR</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_s42" model="iwmn.r81dmmonan">
+            <field name="ma_man">S42</field>
+            <field name="ten_man">Hủ tiếu nam vang</field>
+            <field name="ma_man_parent">1S</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log">310726:091342:VR</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_t01" model="iwmn.r81dmmonan">
+            <field name="ma_man">T01</field>
+            <field name="ten_man">Ổi</field>
+            <field name="ma_man_parent">5T</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_t02" model="iwmn.r81dmmonan">
+            <field name="ma_man">T02</field>
+            <field name="ten_man">Dưa hấu</field>
+            <field name="ma_man_parent">5T</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_t03" model="iwmn.r81dmmonan">
+            <field name="ma_man">T03</field>
+            <field name="ten_man">Táo xanh</field>
+            <field name="ma_man_parent">5T</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_t04" model="iwmn.r81dmmonan">
+            <field name="ma_man">T04</field>
+            <field name="ten_man">Chôm chôm</field>
+            <field name="ma_man_parent">5T</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_t05" model="iwmn.r81dmmonan">
+            <field name="ma_man">T05</field>
+            <field name="ten_man">Chuối</field>
+            <field name="ma_man_parent">5T</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_t06" model="iwmn.r81dmmonan">
+            <field name="ma_man">T06</field>
+            <field name="ten_man">Chè đậu xanh</field>
+            <field name="ma_man_parent">5T</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_t07" model="iwmn.r81dmmonan">
+            <field name="ma_man">T07</field>
+            <field name="ten_man">Chè đậu đỏ</field>
+            <field name="ma_man_parent">5T</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_t08" model="iwmn.r81dmmonan">
+            <field name="ma_man">T08</field>
+            <field name="ten_man">Chè đậu đen</field>
+            <field name="ma_man_parent">5T</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_t09" model="iwmn.r81dmmonan">
+            <field name="ma_man">T09</field>
+            <field name="ten_man">Chè hạt sen</field>
+            <field name="ma_man_parent">5T</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_t10" model="iwmn.r81dmmonan">
+            <field name="ma_man">T10</field>
+            <field name="ten_man">Sữa chua</field>
+            <field name="ma_man_parent">5T</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_t11" model="iwmn.r81dmmonan">
+            <field name="ma_man">T11</field>
+            <field name="ten_man">Vải Thiều</field>
+            <field name="ma_man_parent">5T</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log">150621:055449:LANHDP</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_t12" model="iwmn.r81dmmonan">
+            <field name="ma_man">T12</field>
+            <field name="ten_man">Thanh Long</field>
+            <field name="ma_man_parent">5T</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log">200721:153906:LANHDP</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmmonan_t13" model="iwmn.r81dmmonan">
+            <field name="ma_man">T13</field>
+            <field name="ten_man">Nhãn</field>
+            <field name="ma_man_parent">5T</field>
+            <field name="nh_cuoi" eval="True"/>
+            <field name="create_log">040821:222440:LANHDP</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+    </data>
+</odoo>

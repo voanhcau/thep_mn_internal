@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_iwmn_r81dmcumtb_list" model="ir.ui.view">
+        <field name="name">iwmn.r81dmcumtb.list</field>
+        <field name="model">iwmn.r81dmcumtb</field>
+        <field name="arch" type="xml">
+            <list string="R81DMCUMTB - Ten_Cum">
+                <field name="ident00"/>
+                <field name="ma_cum"/>
+                <field name="ten_cum"/>
+                <field name="ghi_chu"/>
+                <field name="create_log"/>
+                <field name="lastmodify_log"/>
+                <field name="nhom"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmcumtb_form" model="ir.ui.view">
+        <field name="name">iwmn.r81dmcumtb.form</field>
+        <field name="model">iwmn.r81dmcumtb</field>
+        <field name="arch" type="xml">
+            <form string="R81DMCUMTB - Ten_Cum">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="ident00"/>
+                            <field name="ma_cum"/>
+                            <field name="ten_cum"/>
+                            <field name="ghi_chu"/>
+                        </group>
+                        <group>
+                            <field name="create_log"/>
+                            <field name="lastmodify_log"/>
+                            <field name="nhom"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmcumtb_search" model="ir.ui.view">
+        <field name="name">iwmn.r81dmcumtb.search</field>
+        <field name="model">iwmn.r81dmcumtb</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="ten_cum"/>
+                <field name="ident00"/>
+                <field name="ma_cum"/>
+                <field name="ghi_chu"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_iwmn_r81dmcumtb" model="ir.actions.act_window">
+        <field name="name">R81DMCUMTB - Ten_Cum</field>
+        <field name="res_model">iwmn.r81dmcumtb</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_iwmn_r81dmcumtb_search"/>
+    </record>
+
+    <menuitem id="menu_iwmn_r81dmcumtb" name="R81DMCUMTB - Ten_Cum"
+              parent="menu_iwmn_master_equipment"
+              action="action_iwmn_r81dmcumtb" sequence="20"/>
+</odoo>

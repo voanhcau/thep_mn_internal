@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_iwmn_r81dmtokhaihq_list" model="ir.ui.view">
+        <field name="name">iwmn.r81dmtokhaihq.list</field>
+        <field name="model">iwmn.r81dmtokhaihq</field>
+        <field name="arch" type="xml">
+            <list string="R81DMTOKHAIHQ - Ten_Vt">
+                <field name="so_tkhai"/>
+                <field name="loai_tkhai"/>
+                <field name="ngay_tkhai"/>
+                <field name="ngay_tddky"/>
+                <field name="ma_dt_hq"/>
+                <field name="ma_dt"/>
+                <field name="van_don"/>
+                <field name="dia_diem_dh"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmtokhaihq_form" model="ir.ui.view">
+        <field name="name">iwmn.r81dmtokhaihq.form</field>
+        <field name="model">iwmn.r81dmtokhaihq</field>
+        <field name="arch" type="xml">
+            <form string="R81DMTOKHAIHQ - Ten_Vt">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="so_tkhai"/>
+                            <field name="loai_tkhai"/>
+                            <field name="ngay_tkhai"/>
+                            <field name="ngay_tddky"/>
+                            <field name="ma_dt_hq"/>
+                            <field name="ma_dt"/>
+                            <field name="van_don"/>
+                            <field name="dia_diem_dh"/>
+                            <field name="dia_diem_xh"/>
+                            <field name="pt_vc"/>
+                            <field name="ngay_hang_den"/>
+                            <field name="so_luong"/>
+                            <field name="trong_luong"/>
+                            <field name="dvt"/>
+                            <field name="so_ct0"/>
+                            <field name="ngay_ct0"/>
+                            <field name="pt_tt"/>
+                            <field name="loai_gia"/>
+                            <field name="ma_tte"/>
+                            <field name="ty_gia"/>
+                        </group>
+                        <group>
+                            <field name="tien_nt"/>
+                            <field name="tien"/>
+                            <field name="tien_bhiem"/>
+                            <field name="tien5"/>
+                            <field name="tien3"/>
+                            <field name="ttien"/>
+                            <field name="ma_hd"/>
+                            <field name="ngay_cap_phep"/>
+                            <field name="ngay_ht_ktra"/>
+                            <field name="create_log"/>
+                            <field name="lastmodify_log"/>
+                            <field name="ma_data"/>
+                            <field name="ngay_van_don"/>
+                            <field name="ten_vt"/>
+                            <field name="don_gia_nt"/>
+                            <field name="thue_nk"/>
+                            <field name="thue_gtgt"/>
+                            <field name="ma_dt_ck"/>
+                            <field name="note"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmtokhaihq_search" model="ir.ui.view">
+        <field name="name">iwmn.r81dmtokhaihq.search</field>
+        <field name="model">iwmn.r81dmtokhaihq</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="ten_vt"/>
+                <field name="so_tkhai"/>
+                <field name="loai_tkhai"/>
+                <field name="ngay_tkhai"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_iwmn_r81dmtokhaihq" model="ir.actions.act_window">
+        <field name="name">R81DMTOKHAIHQ - Ten_Vt</field>
+        <field name="res_model">iwmn.r81dmtokhaihq</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_iwmn_r81dmtokhaihq_search"/>
+    </record>
+
+    <menuitem id="menu_iwmn_r81dmtokhaihq" name="R81DMTOKHAIHQ - Ten_Vt"
+              parent="menu_iwmn_master_warehouse"
+              action="action_iwmn_r81dmtokhaihq" sequence="56"/>
+</odoo>

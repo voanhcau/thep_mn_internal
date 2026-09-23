@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="portal_customer_orders" name="Đơn đặt hàng của khách">
+        <t t-call="portal.portal_layout">
+            <t t-set="additional_title">Đơn đặt hàng</t>
+            <div class="iwmn-order-portal">
+                <div class="iwmn-order-page-head">
+                    <div><p class="iwmn-order-eyebrow">PORTAL KHÁCH HÀNG</p><h1>Đơn hàng của tôi</h1><p><t t-if="orders"><strong t-out="len(orders)"/> đơn hàng gần nhất</t><t t-else="">Theo dõi từ lúc gửi yêu cầu đến giao hàng và phát hành chứng từ.</t></p></div>
+                    <a href="/my/orders/new" class="btn iwmn-order-primary"><i class="fa fa-plus"/> Tạo đơn mới</a>
+                </div>
+                <div t-if="orders" class="iwmn-order-list">
+                    <a t-foreach="orders" t-as="order" t-att-href="'/my/orders/%s' % order.id" class="iwmn-order-list-item">
+                        <div class="iwmn-order-list-main"><div class="iwmn-order-code"><strong t-out="order.name"/><span>PO: <t t-out="order.customer_reference"/></span></div><span t-att-class="'iwmn-order-status iwmn-status-' + order.state" t-out="order.state_label"/></div>
+                        <div class="iwmn-order-list-meta"><span><i class="fa fa-calendar"/><t t-out="order.order_date" t-options="{'widget': 'date'}"/></span><span><i class="fa fa-map-marker"/><t t-out="order.delivery_area_label"/></span><span><i class="fa fa-balance-scale"/><strong><t t-out="order.total_weight_kg" t-options="{'widget': 'float', 'precision': 0}"/> kg</strong></span><span t-if="order.project_name"><i class="fa fa-building-o"/><t t-out="order.project_name"/></span><i class="fa fa-angle-right iwmn-order-chevron"/></div>
+                    </a>
+                </div>
+                <div t-else="" class="iwmn-order-empty"><i class="fa fa-shopping-cart"/><h2>Chưa có đơn hàng</h2><p>Tạo đơn đầu tiên chỉ với vài thông tin cần thiết.</p><a href="/my/orders/new" class="btn iwmn-order-primary">Tạo đơn hàng</a></div>
+            </div>
+        </t>
+    </template>
+
+    <template id="portal_customer_order_form" name="Nhập đơn đặt hàng">
+        <t t-call="portal.portal_layout">
+            <t t-set="additional_title" t-value="'Chỉnh sửa đơn' if editing_order else 'Tạo đơn mới'"/>
+            <div class="iwmn-order-portal" data-iwmn-order-form="1">
+                <a href="/my/orders" class="iwmn-order-back"><i class="fa fa-arrow-left"/> Đơn hàng của tôi</a>
+                <div class="iwmn-order-page-head"><div><p class="iwmn-order-eyebrow">ĐẶT HÀNG TRỰC TUYẾN</p><h1><t t-if="editing_order">Chỉnh sửa đơn nháp</t><t t-else="">Tạo đơn đặt hàng</t></h1><p>Nhập lần lượt 5 bước. TMN sẽ xác nhận kho, tồn kho và giá chính thức sau khi tiếp nhận.</p></div></div>
+                <div t-if="not erp_partner" class="alert alert-warning">Tài khoản chưa được gắn mã khách hàng ERP. Bạn có thể xem biểu mẫu nhưng cần liên hệ TMN trước khi lưu đơn.</div>
+                <div t-if="form_errors" class="iwmn-order-errors"><strong>Vui lòng kiểm tra lại:</strong><ul><li t-foreach="form_errors" t-as="error" t-out="error"/></ul></div>
+
+                <form action="/my/orders/new" method="post" class="iwmn-order-form">
+                    <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+                    <input t-if="editing_order" type="hidden" name="order_id" t-att-value="editing_order.id"/>
+                    <input type="hidden" name="shape_change_confirmed" value="0" data-shape-change-confirmed="1"/>
+
+                    <section class="iwmn-form-card">
+                        <div class="iwmn-form-section-title"><span>1</span><div><h2>Thông tin đơn</h2><p>PO là ký hiệu tự do của khách hàng; số SOCP do TMN tạo nội bộ.</p></div></div>
+                        <div class="iwmn-form-grid">
+                            <label class="iwmn-field"><span>Số PO/ký hiệu của khách <b>*</b></span><input name="customer_reference" required="required" placeholder="Ví dụ: PO-2026-081" t-att-value="form.get('customer_reference', '')"/></label>
+                            <label class="iwmn-field"><span>Ngày đơn hàng <b>*</b></span><input type="date" name="order_date" required="required" t-att-value="form.get('order_date', '')"/></label>
+                            <label class="iwmn-field"><span>Ngày dự kiến nhận</span><input type="date" name="requested_delivery_date" t-att-value="form.get('requested_delivery_date', '')"/></label>
+                            <label class="iwmn-field"><span>Hình thức giao nhận</span><select name="delivery_type" data-delivery-type="1"><option value="HD" t-att-selected="form.get('delivery_type') == 'HD'">Xuất hóa đơn</option><option value="KG" t-att-selected="form.get('delivery_type') == 'KG'">Ký gửi</option><option value="GK" t-att-selected="form.get('delivery_type') == 'GK'">Gửi kho</option></select></label>
+                            <label class="iwmn-field"><span>Hình dạng <b>*</b></span><select name="steel_shape" data-order-steel-shape="1" required="required"><option value="straight" t-att-selected="form.get('steel_shape') == 'straight'">Thẳng</option><option value="bent" t-att-selected="form.get('steel_shape') == 'bent'">Bẻ cong</option><option value="mixed" t-att-selected="form.get('steel_shape') == 'mixed'">Cả hai</option></select><small>Hình dạng mặc định cho sản phẩm mới trong đơn.</small></label>
+                            <label class="iwmn-field iwmn-contract-search"><span>Hợp đồng</span>
+                                <input type="hidden" name="contract_id" t-att-value="form.get('contract_id', '')"/>
+                                <input type="hidden" name="contract_number" t-att-value="form.get('contract_number', '')"/>
+                                <input name="contract_query" autocomplete="off" data-contract-search="1" placeholder="Gõ mã, số hoặc tên hợp đồng..." t-att-value="form.get('contract_query', '')"/>
+                                <div class="iwmn-contract-suggestions" data-contract-suggestions="1" role="listbox" hidden="hidden"/>
+                                <small>Chỉ hiển thị hợp đồng của khách hàng đang còn hiệu lực tại ngày hiện tại.</small>
+                            </label>
+                            <label class="iwmn-field iwmn-field-row"><span>Hình thức thanh toán <b>*</b></span><select name="payment_method" required="required"><option value="tra_cham" t-att-selected="form.get('payment_method') == 'tra_cham'">Trả chậm</option><option value="tra_cham_40" t-att-selected="form.get('payment_method', 'tra_cham_40') == 'tra_cham_40'">Trả chậm 40 ngày</option></select></label>
+                            <label class="iwmn-field iwmn-contract-search" data-project-field="1"><span>Công trình</span>
+                                <input type="hidden" name="project_id" t-att-value="form.get('project_id', '')"/>
+                                <input name="project_query" data-project-search="1" autocomplete="off" placeholder="Gõ mã hoặc tên công trình..." t-att-value="form.get('project_query', '')"/>
+                                <div class="iwmn-contract-suggestions" data-project-suggestions="1" role="listbox" hidden="hidden"/>
+                                <small>Nhập gần đúng theo mã hoặc tên công trình rồi chọn kết quả phù hợp.</small>
+                            </label>
+                            <label class="iwmn-field iwmn-contract-search" data-project-appendix-field="1"><span>Phụ lục</span>
+                                <input type="hidden" name="project_appendix_id" t-att-value="form.get('project_appendix_id', '')"/>
+                                <input name="project_appendix_query" data-project-appendix-search="1" autocomplete="off" placeholder="Chọn công trình trước, sau đó gõ mã hoặc tên phụ lục..." t-att-value="form.get('project_appendix_query', '')" t-att-disabled="not form.get('project_id')"/>
+                                <div class="iwmn-contract-suggestions" data-project-appendix-suggestions="1" role="listbox" hidden="hidden"/>
+                                <small>Chỉ hiển thị phụ lục thuộc công trình đã chọn; tìm theo mã hoặc tên phụ lục.</small>
+                            </label>
+                            <label class="iwmn-field"><span>Số lượng giấy CNXX</span><input type="number" name="so_luong_cnxx" min="0" step="1" inputmode="numeric" t-att-value="form.get('so_luong_cnxx', 0)"/><small>Nhập số lượng cần cấp cho đơn hàng.</small></label>
+                            <label class="iwmn-check-field iwmn-cnxx-check"><input type="checkbox" name="cnxx_show_project" value="1" t-att-checked="form.get('cnxx_show_project')"/><span><strong>Hiển thị tên công trình trên CNXX</strong><small>Chỉ hiển thị tên công trình.</small></span></label>
+                        </div>
+                    </section>
+
+                    <section class="iwmn-form-card">
+                        <div class="iwmn-form-section-title"><span>2</span><div><h2>Khu vực, phương tiện và tài xế</h2><p>Một đơn hàng sử dụng một phương tiện và một bộ thông tin tài xế duy nhất.</p></div></div>
+                        <div class="iwmn-form-grid">
+                            <label class="iwmn-field"><span>Khu vực giao/nhận hàng <b>*</b></span><select name="delivery_area" required="required"><option value="">-- Chọn khu vực --</option><option t-foreach="delivery_areas.items()" t-as="area" t-att-value="area[0]" t-att-selected="form.get('delivery_area') == area[0]" t-out="area[1]"/></select><small>PKD sẽ phân bổ kho nội bộ phù hợp theo khu vực đã chọn.</small></label>
+                            <label class="iwmn-field"><span>Phương tiện duy nhất <b>*</b></span><select name="transport_method" required="required" data-transport-method="1"><option value="xe" t-att-selected="form.get('transport_method') == 'xe'">Xe</option><option value="salan" t-att-selected="form.get('transport_method') == 'salan'">Xà lan</option></select><small>Mỗi đơn hàng chỉ sử dụng một phương tiện vận chuyển.</small></label>
+                            <label class="iwmn-field iwmn-truck-field"><span>Biển số xe <b>*</b></span><input name="vehicle_license_plate" placeholder="51C-963.87" t-att-value="vehicle.get('license_plate', '')"/></label>
+                            <label class="iwmn-field iwmn-barge-field"><span>Số xà lan <b>*</b></span><input name="vehicle_barge_number" t-att-value="vehicle.get('barge_number', '')"/></label>
+                            <label class="iwmn-field"><span>Tên tài xế <b>*</b></span><input name="vehicle_driver_name" required="required" t-att-value="vehicle.get('driver_name', '')"/></label>
+                            <label class="iwmn-field"><span>CCCD/CMT tài xế <b>*</b></span><input name="vehicle_driver_identity" required="required" inputmode="numeric" maxlength="15" placeholder="087.096.015.286" t-att-value="vehicle.get('driver_identity', '')"/></label>
+                            <label class="iwmn-field"><span>Số điện thoại <small>(không bắt buộc)</small></span><input name="vehicle_driver_phone" type="tel" inputmode="numeric" maxlength="12" placeholder="090 123 4567" t-att-value="vehicle.get('driver_phone', '')"/></label>
+                        </div>
+                    </section>
+
+                    <section class="iwmn-form-card iwmn-cart-card">
+                        <div class="iwmn-form-section-title iwmn-title-with-action"><span>3</span><div><h2>Giỏ hàng</h2><p>Thêm sản phẩm rồi thu gọn thành danh sách để đơn nhiều mặt hàng vẫn dễ theo dõi.</p></div><button type="button" class="btn iwmn-add-line" data-add-order-line="1"><i class="fa fa-plus"/> Thêm sản phẩm</button></div>
+                        <div class="iwmn-cart-layout">
+                            <div class="iwmn-cart-main">
+                                <div class="iwmn-cart-toolbar"><strong><i class="fa fa-shopping-cart"/> Sản phẩm đã chọn</strong><span><b data-cart-item-count="1">0</b> mặt hàng</span></div>
+                                <div class="iwmn-product-lines iwmn-cart-lines" data-order-lines="1">
+                            <article t-foreach="lines" t-as="line" t-att-class="'iwmn-product-line iwmn-cart-item%s' % (' is-collapsed' if line.get('product_id') and not form_errors else '')" data-order-line="1" t-att-data-bars-per-bundle="line.get('bars_per_bundle', '')">
+                                <div class="iwmn-cart-row" data-cart-row="1">
+                                    <img data-cart-image="1" t-att-src="('/my/orders/products/%s/image' % line.get('product_id')) if line.get('product_id') else '/iwmn_customer_dashboard/static/src/img/steel-bars.svg'" alt="Ảnh sản phẩm"/>
+                                    <div class="iwmn-cart-product"><small>Sản phẩm <span data-line-number="1"/></small><strong data-cart-name="1" t-out="line.get('product_query') or 'Chưa chọn sản phẩm'"/><span data-cart-spec="1"><t t-out="line.get('size_code', '')"/> <t t-out="line.get('steel_grade', '')"/></span></div>
+                                    <div class="iwmn-cart-quantity"><small>Số lượng</small><strong data-cart-quantity="1">—</strong><span data-cart-conversion="1">Chưa tính quy đổi</span></div>
+                                    <div class="iwmn-cart-weight"><small>Khối lượng</small><strong data-cart-weight="1">0 kg</strong><span data-cart-price="1">Chưa nhập giá</span></div>
+                                    <div class="iwmn-cart-actions"><button type="button" data-edit-cart-item="1" title="Chỉnh sửa"><i class="fa fa-pencil"/></button><button type="button" class="iwmn-remove-row" data-remove-row="1" title="Xóa"><i class="fa fa-trash-o"/></button></div>
+                                </div>
+                                <div class="iwmn-product-editor" data-product-editor="1">
+                                    <div class="iwmn-line-head"><strong>Thông tin sản phẩm <span data-line-number="1"/></strong><button type="button" data-close-editor="1"><i class="fa fa-times"/> Thu gọn</button></div>
+                                    <div class="iwmn-form-grid iwmn-line-grid">
+                                    <label class="iwmn-field iwmn-field-wide iwmn-product-search"><span>Tìm và chọn sản phẩm <b>*</b></span><input type="hidden" name="line_product_id" t-att-value="line.get('product_id', '')"/><input name="line_product_query" required="required" autocomplete="off" data-product-search="1" placeholder="Chọn hoặc gõ size, rồi đến mác và chiều dài..." t-att-value="line.get('product_query', '')"/><div class="iwmn-product-suggestions" data-product-suggestions="1" role="listbox" hidden="hidden"/><input type="hidden" name="line_size_code" t-att-value="line.get('size_code', '')"/><input type="hidden" name="line_steel_grade" t-att-value="line.get('steel_grade', '')"/><input type="hidden" name="line_length_m" t-att-value="line.get('length_m', '')"/><small data-product-summary="1">Chọn hoặc gõ size → mác thép → chiều dài.</small></label>
+                                    <label class="iwmn-field"><span>Dạng sản phẩm</span><input type="hidden" name="line_product_type" t-att-value="line.get('product_type') or 'bar'"/><input class="iwmn-product-type-display" data-product-type-label="1" readonly="readonly" t-att-value="('Thép cuộn' if line.get('product_type') == 'coil' else 'Thép cây') if line.get('product_id') else 'Chọn sản phẩm để xác định'"/></label>
+                                    <label class="iwmn-field"><span>Hình dạng</span><select name="line_steel_shape"><option value="straight" t-att-selected="line.get('steel_shape') != 'bent'">Thẳng</option><option value="bent" t-att-selected="line.get('steel_shape') == 'bent'">Bẻ cong</option></select></label>
+                                    <input type="hidden" name="line_total_bar_qty" t-att-value="line.get('total_bar_qty', '')"/>
+                                    <label class="iwmn-field iwmn-bar-field"><span>Số bó</span><input type="number" min="0" step="1" name="line_order_bundle_qty" t-att-value="line.get('order_bundle_qty', '')"/><small data-bars-per-bundle-label="1">Chọn vật tư để xem số cây mỗi bó.</small></label>
+                                    <label class="iwmn-field iwmn-bar-field"><span>Số cây lẻ</span><input type="number" min="0" step="1" name="line_order_loose_bar_qty" t-att-value="line.get('order_loose_bar_qty', '')"/></label>
+                                    <label class="iwmn-field iwmn-coil-field"><span>Khối lượng cuộn (kg) <b>*</b></span><input type="number" min="0.001" step="0.001" name="line_requested_weight_kg" t-att-value="line.get('requested_weight_kg', '')"/></label>
+                                    <label class="iwmn-field iwmn-coil-field"><span>Số cuộn cần cắt <b>*</b></span><input type="number" min="1" step="1" name="line_coil_cut_qty" t-att-value="line.get('coil_cut_qty', '')"/></label>
+                                    <label class="iwmn-field iwmn-field-wide"><span>Đơn giá đã thỏa thuận (nếu có)</span><input type="number" min="0" step="1" name="line_customer_unit_price" t-att-value="line.get('customer_unit_price', '')"/><small>Chỉ để TMN tham khảo; giá chính thức được cập nhật sau.</small></label>
+                                    <label class="iwmn-field iwmn-note-field"><span>Ghi chú</span><input name="line_note" placeholder="Yêu cầu riêng cho sản phẩm" t-att-value="line.get('note', '')"/></label>
+                                </div>
+                                <div class="iwmn-line-weight"><span data-line-conversion="1">Đang chờ dữ liệu barem</span><strong data-line-weight="1">0 kg</strong></div>
+                                <div class="iwmn-cart-editor-actions"><button type="button" class="btn iwmn-order-primary" data-add-to-cart="1"><i class="fa fa-cart-plus"/> Đưa vào giỏ hàng</button></div>
+                                </div>
+                            </article>
+                                </div>
+                                <div class="iwmn-cart-empty" data-cart-empty="1" hidden="hidden"><i class="fa fa-shopping-cart"/><strong>Giỏ hàng đang trống</strong><span>Bấm “Thêm sản phẩm” để bắt đầu.</span></div>
+                                <div class="iwmn-cart-add-bottom">
+                                    <button type="button" data-add-order-line="1" aria-label="Thêm sản phẩm" title="Thêm sản phẩm"><i class="fa fa-plus"/><span>Thêm sản phẩm</span></button>
+                                </div>
+                            </div>
+                            <aside class="iwmn-cart-summary">
+                                <div class="iwmn-cart-summary-head"><span><i class="fa fa-shopping-basket"/></span><div><strong>Tổng đơn hàng</strong><small>Cập nhật tự động</small></div></div>
+                                <dl><div><dt>Mặt hàng</dt><dd><b data-cart-item-count="1">0</b> sản phẩm</dd></div><div><dt>Tổng số cây</dt><dd><b data-cart-total-bars="1">0</b> cây</dd></div><div><dt>Tổng số cuộn</dt><dd><b data-cart-total-coils="1">0</b> cuộn</dd></div><div><dt>Khối lượng</dt><dd data-cart-total-weight="1">0 kg</dd></div><div><dt>Giá tham khảo</dt><dd data-cart-total-amount="1">0 ₫</dd></div></dl>
+                                <p><i class="fa fa-info-circle"/> Giá và tồn kho chính thức sẽ do TMN xác nhận.</p>
+                            </aside>
+                        </div>
+                    </section>
+
+                    <section class="iwmn-form-card">
+                        <div class="iwmn-form-section-title"><span>4</span><div><h2>Yêu cầu khác</h2><p>Ghi rõ các yêu cầu như xuất hàng mới, đẹp hoặc lưu ý giao hàng.</p></div></div>
+                        <label class="iwmn-field iwmn-contract-search iwmn-warehouse-search" data-warehouse-field="1" t-att-hidden="'hidden' if form.get('delivery_type') != 'KG' else None">
+                            <span>Kho ký gửi <b>*</b></span>
+                            <input type="hidden" name="warehouse_id" t-att-value="form.get('warehouse_id', '')"/>
+                            <input type="hidden" name="ma_kho" t-att-value="form.get('ma_kho', '')"/>
+                            <input name="warehouse_query" data-warehouse-search="1" autocomplete="off" placeholder="Gõ mã hoặc tên kho..." t-att-value="form.get('warehouse_query', '')"/>
+                            <div class="iwmn-contract-suggestions" data-warehouse-suggestions="1" role="listbox" hidden="hidden"/>
+                            <small>Chỉ hiển thị các kho ký gửi được liên kết với mã khách hàng ERP của bạn.</small>
+                        </label>
+                        <label class="iwmn-field"><span>Yêu cầu khác</span><textarea name="other_requirements" rows="3" placeholder="Ví dụ: xuất hàng mới đẹp..." t-out="form.get('other_requirements', '')"/></label>
+                    </section>
+                    <div class="iwmn-order-submit-bar"><div><strong data-order-total-weight="1">0 kg</strong><small>Tổng khối lượng tạm tính</small></div><div class="iwmn-submit-actions"><a href="/my/orders" class="btn btn-light">Thoát</a><button type="submit" name="order_action" value="draft" class="btn btn-outline-secondary"><i class="fa fa-save"/> Lưu nháp</button><button type="submit" name="order_action" value="submit" class="btn iwmn-order-primary"><i class="fa fa-paper-plane"/> Gửi TMN xác nhận</button></div></div>
+                </form>
+
+                <template id="iwmn-product-line-template">
+                    <article class="iwmn-product-line iwmn-cart-item" data-order-line="1">
+                        <div class="iwmn-cart-row" data-cart-row="1">
+                            <img data-cart-image="1" src="/iwmn_customer_dashboard/static/src/img/steel-bars.svg" alt="Ảnh sản phẩm"/>
+                            <div class="iwmn-cart-product"><small>Sản phẩm <span data-line-number="1"/></small><strong data-cart-name="1">Chưa chọn sản phẩm</strong><span data-cart-spec="1"/></div>
+                            <div class="iwmn-cart-quantity"><small>Số lượng</small><strong data-cart-quantity="1">—</strong><span data-cart-conversion="1">Chưa tính quy đổi</span></div>
+                            <div class="iwmn-cart-weight"><small>Khối lượng</small><strong data-cart-weight="1">0 kg</strong><span data-cart-price="1">Chưa nhập giá</span></div>
+                            <div class="iwmn-cart-actions"><button type="button" data-edit-cart-item="1"><i class="fa fa-pencil"/></button><button type="button" class="iwmn-remove-row" data-remove-row="1"><i class="fa fa-trash-o"/></button></div>
+                        </div>
+                        <div class="iwmn-product-editor" data-product-editor="1">
+                            <div class="iwmn-line-head"><strong>Thông tin sản phẩm <span data-line-number="1"/></strong><button type="button" data-close-editor="1"><i class="fa fa-times"/> Thu gọn</button></div>
+                            <div class="iwmn-form-grid iwmn-line-grid">
+                                <label class="iwmn-field iwmn-field-wide iwmn-product-search"><span>Tìm và chọn sản phẩm <b>*</b></span><input type="hidden" name="line_product_id"/><input name="line_product_query" required="required" autocomplete="off" data-product-search="1" placeholder="Chọn hoặc gõ size, rồi đến mác và chiều dài..."/><div class="iwmn-product-suggestions" data-product-suggestions="1" role="listbox" hidden="hidden"/><input type="hidden" name="line_size_code"/><input type="hidden" name="line_steel_grade"/><input type="hidden" name="line_length_m"/><small data-product-summary="1">Chọn hoặc gõ size → mác thép → chiều dài.</small></label>
+                                <label class="iwmn-field"><span>Dạng sản phẩm</span><input type="hidden" name="line_product_type" value="bar"/><input class="iwmn-product-type-display" data-product-type-label="1" readonly="readonly" value="Chọn sản phẩm để xác định"/></label>
+                                <label class="iwmn-field"><span>Hình dạng</span><select name="line_steel_shape"><option value="straight">Thẳng</option><option value="bent">Bẻ cong</option></select></label>
+                                <input type="hidden" name="line_total_bar_qty"/>
+                                <label class="iwmn-field iwmn-bar-field"><span>Số bó</span><input type="number" min="0" step="1" name="line_order_bundle_qty"/><small data-bars-per-bundle-label="1">Chọn vật tư để xem số cây mỗi bó.</small></label>
+                                <label class="iwmn-field iwmn-bar-field"><span>Số cây lẻ</span><input type="number" min="0" step="1" name="line_order_loose_bar_qty"/></label>
+                                <label class="iwmn-field iwmn-coil-field"><span>Khối lượng cuộn (kg) <b>*</b></span><input type="number" min="0.001" step="0.001" name="line_requested_weight_kg"/></label>
+                                <label class="iwmn-field iwmn-coil-field"><span>Số cuộn cần cắt <b>*</b></span><input type="number" min="1" step="1" name="line_coil_cut_qty"/></label>
+                                <label class="iwmn-field iwmn-field-wide"><span>Đơn giá đã thỏa thuận (nếu có)</span><input type="number" min="0" step="1" name="line_customer_unit_price"/><small>Chỉ để TMN tham khảo; giá chính thức được cập nhật sau.</small></label>
+                                <label class="iwmn-field iwmn-note-field"><span>Ghi chú</span><input name="line_note"/></label>
+                            </div>
+                            <div class="iwmn-line-weight"><span data-line-conversion="1">Đang chờ dữ liệu barem</span><strong data-line-weight="1">0 kg</strong></div>
+                            <div class="iwmn-cart-editor-actions"><button type="button" class="btn iwmn-order-primary" data-add-to-cart="1"><i class="fa fa-cart-plus"/> Đưa vào giỏ hàng</button></div>
+                        </div>
+                    </article>
+                </template>
+            </div>
+        </t>
+    </template>
+
+    <template id="portal_customer_order_detail" name="Chi tiết đơn đặt hàng">
+        <t t-call="portal.portal_layout"><t t-set="additional_title" t-value="order.name"/><div class="iwmn-order-portal" data-iwmn-order-detail="1">
+            <a href="/my/orders" class="iwmn-order-back"><i class="fa fa-arrow-left"/> Đơn hàng của tôi</a>
+            <div t-if="saved" class="iwmn-order-success"><i class="fa fa-check-circle"/><div><strong>Đã lưu bản nháp</strong><span>Bạn có thể kiểm tra rồi gửi TMN xác nhận.</span></div></div>
+            <div t-if="sent" class="iwmn-order-success"><i class="fa fa-check-circle"/><div><strong>Đã gửi đơn hàng</strong><span>TMN sẽ xác nhận tồn kho, kho phân bổ và giá chính thức.</span><a t-if="order.submitted_at" t-att-href="'/my/orders/%s/print' % order.id" class="btn btn-outline-secondary mt-2" target="_blank" rel="noopener"><i class="fa fa-print"/> In phiếu đặt hàng</a></div></div>
+            <div t-if="order.legacy_sync_state == 'failed'" class="iwmn-order-errors"><strong>Đơn đã lưu trong Odoo nhưng chưa chuyển được sang hệ thống TMN.</strong><span> Hệ thống sẽ tự thử lại; vui lòng liên hệ TMN nếu trạng thái này kéo dài.</span></div>
+            <div t-if="order.legacy_sync_state == 'pending'" class="iwmn-order-success"><i class="fa fa-clock-o"/><div><strong>Đang chuyển đơn sang hệ thống TMN</strong><span>Vui lòng kiểm tra lại sau ít phút.</span></div></div>
+            <div t-if="vehicles_updated" class="iwmn-order-success"><i class="fa fa-check-circle"/><div><strong>Đã cập nhật phương tiện</strong></div></div>
+            <div t-if="cancelled" class="iwmn-order-success"><i class="fa fa-check-circle"/><div><strong>Đơn hàng đã được hủy</strong></div></div>
+            <div t-if="submit_error" class="iwmn-order-errors"><strong>Chưa thể gửi đơn.</strong><span> Vui lòng chỉnh sửa bản nháp và nhập đủ biển số xe/số xà lan theo phương tiện đã chọn.</span></div>
+            <div t-if="vehicle_error" class="iwmn-order-errors"><strong>Chưa thể lưu phương tiện.</strong><span> Vui lòng kiểm tra số phương tiện, tên tài xế và CCCD/CMT tài xế.</span></div>
+            <div class="iwmn-order-detail-head"><div><p class="iwmn-order-eyebrow">ĐƠN ĐẶT HÀNG</p><h1 t-out="order.name"/><p>PO/ký hiệu: <strong t-out="order.customer_reference"/></p></div><span t-att-class="'iwmn-order-status iwmn-status-' + order.state" t-out="order.state_label"/></div>
+            <section class="iwmn-form-card iwmn-order-summary-grid"><div><small>Ngày đơn hàng</small><strong t-out="order.order_date" t-options="{'widget': 'date'}"/></div><div><small>Khu vực</small><strong t-out="order.delivery_area_label"/><span>Kho do TMN phân bổ</span></div><div><small>Hình thức giao nhận</small><strong t-out="order.delivery_type_label"/></div><div><small>Thanh toán</small><strong t-out="order.payment_method_label"/></div><div><small>Hình dạng</small><strong t-out="order.steel_shape_label"/></div><div><small>Phương tiện</small><strong t-out="order.transport_method_label"/></div><div><small>Tài xế</small><strong t-out="order.vehicle_driver_name"/><span t-out="order.vehicle_driver_identity"/></div><div><small>Tổng khối lượng</small><strong><t t-out="order.total_weight_kg" t-options="{'widget': 'float', 'precision': 0}"/> kg</strong></div></section>
+            <section t-if="order.delivery_type == 'KG' and order.r81dmkho_id" class="iwmn-form-card">
+                <div class="iwmn-form-section-title"><span><i class="fa fa-building-o"/></span><div><h2>Kho ký gửi</h2><p><t t-out="order.ma_kho"/> - <t t-out="order.r81dmkho_id.ten_kho"/></p></div></div>
+            </section>
+            <section class="iwmn-form-card"><div class="iwmn-form-section-title"><span><i class="fa fa-cubes"/></span><div><h2>Hàng hóa</h2><p>Giá và tồn kho chính thức do TMN cập nhật sau khi xử lý.</p></div></div><div class="iwmn-detail-lines iwmn-detail-product-lines"><article t-foreach="order.line_ids" t-as="line"><img t-att-src="('/my/orders/products/%s/image' % line.product_id.id) if line.product_id else ('/iwmn_customer_dashboard/static/src/img/steel-bars.svg' if line.product_type == 'bar' else '/iwmn_customer_dashboard/static/src/img/steel-coil.svg')" alt="Ảnh sản phẩm"/><div><strong t-out="line.product_query"/><span><t t-out="line.size_code"/> <t t-out="line.steel_grade"/><t t-if="line.product_type == 'bar'"> · <t t-out="line.total_bar_qty"/> cây = <t t-out="line.bundle_qty"/> bó + <t t-out="line.loose_bar_qty"/> cây lẻ</t></span><small>Hình dạng: <t t-out="'Bẻ cong' if line.steel_shape == 'bent' else 'Thẳng'"/></small><small><t t-if="line.stock_status == 'pending'">Chờ TMN kiểm tra tồn kho</t><t t-elif="line.stock_status == 'available'">Đủ hàng</t><t t-elif="line.stock_status == 'partial'">Thiếu một phần</t><t t-else="">Chưa có hàng</t></small></div><div><small t-if="line.official_unit_price">Đơn giá chính thức: <t t-out="line.official_unit_price" t-options="{'widget': 'monetary', 'display_currency': order.currency_id}"/></small><small t-elif="line.customer_unit_price">Giá khách đề nghị: <t t-out="line.customer_unit_price" t-options="{'widget': 'monetary', 'display_currency': order.currency_id}"/></small><strong><t t-out="line.weight_kg" t-options="{'widget': 'float', 'precision': 0}"/> kg</strong></div></article></div></section>
+            <section class="iwmn-form-card"><div class="iwmn-form-section-title"><span><i class="fa fa-truck"/></span><div><h2>Phương tiện duy nhất của đơn</h2></div></div><div class="iwmn-detail-lines"><article><div><strong t-out="order.vehicle_license_plate or order.vehicle_barge_number or 'Chưa có số phương tiện'"/><span t-out="order.vehicle_driver_name"/></div><div><small t-out="order.vehicle_driver_phone"/><strong t-out="order.vehicle_driver_identity"/></div></article></div></section>
+            <section t-if="can_update_vehicles" class="iwmn-form-card"><div class="iwmn-form-section-title"><span><i class="fa fa-id-card-o"/></span><div><h2>Cập nhật phương tiện và tài xế</h2><p>Thông tin áp dụng cho toàn bộ đơn và được phép thay đổi đến khi phương tiện đến cổng.</p></div></div><form t-att-action="'/my/orders/%s/vehicles' % order.id" method="post"><input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/><div class="iwmn-form-grid"><label t-if="order.transport_method == 'xe'" class="iwmn-field"><span>Biển số xe</span><input name="vehicle_license_plate" required="required" t-att-value="order.vehicle_license_plate"/></label><label t-if="order.transport_method == 'salan'" class="iwmn-field"><span>Số xà lan</span><input name="vehicle_barge_number" required="required" t-att-value="order.vehicle_barge_number"/></label><label class="iwmn-field"><span>Tên tài xế <b>*</b></span><input name="vehicle_driver_name" required="required" t-att-value="order.vehicle_driver_name"/></label><label class="iwmn-field"><span>CCCD/CMT tài xế <b>*</b></span><input name="vehicle_driver_identity" required="required" inputmode="numeric" maxlength="15" t-att-value="order.vehicle_driver_identity"/></label><label class="iwmn-field"><span>Số điện thoại <small>(không bắt buộc)</small></span><input name="vehicle_driver_phone" type="tel" inputmode="numeric" maxlength="12" placeholder="090 123 4567" t-att-value="order.vehicle_driver_phone"/></label></div><button type="submit" class="btn iwmn-order-primary"><i class="fa fa-save"/> Lưu phương tiện</button></form></section>
+            <section t-if="order.invoice_url or order.cnxx_file" class="iwmn-form-card"><div class="iwmn-form-section-title"><span><i class="fa fa-file-pdf-o"/></span><div><h2>Chứng từ</h2></div></div><div class="iwmn-document-links"><a t-if="order.invoice_url" t-att-href="order.invoice_url" target="_blank" rel="noopener"><i class="fa fa-external-link"/> Xem hóa đơn điện tử</a><a t-if="order.cnxx_file" t-att-href="'/my/orders/%s/cnxx' % order.id"><i class="fa fa-download"/> Tải file CNXX</a></div></section>
+            <div class="iwmn-detail-submit">
+                <a t-if="order.state == 'draft'" t-att-href="'/my/orders/%s/edit' % order.id" class="btn btn-outline-secondary iwmn-order-action"><i class="fa fa-pencil"/> Chỉnh sửa</a>
+                <form t-if="order.state == 'draft'" t-att-action="'/my/orders/%s/submit' % order.id" method="post"><input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/><button class="btn iwmn-order-primary iwmn-order-action" type="submit"><i class="fa fa-paper-plane"/> Gửi TMN xác nhận</button></form>
+                <a t-if="order.submitted_at" t-att-href="'/my/orders/%s/print' % order.id" class="btn btn-outline-secondary iwmn-order-action" target="_blank" rel="noopener"><i class="fa fa-print"/> In phiếu đặt hàng</a>
+                <button t-if="can_cancel" class="btn btn-outline-danger iwmn-order-action" type="button" data-open-cancel-dialog="1"><i class="fa fa-times"/> Hủy đơn</button>
+            </div>
+            <dialog t-if="can_cancel" class="iwmn-cancel-dialog" data-cancel-dialog="1" aria-labelledby="iwmn-cancel-dialog-title">
+                <form t-att-action="'/my/orders/%s/cancel' % order.id" method="post" data-cancel-form="1">
+                    <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+                    <div class="iwmn-cancel-dialog-head">
+                        <span><i class="fa fa-exclamation-triangle"/></span>
+                        <div><h2 id="iwmn-cancel-dialog-title">Hủy đơn hàng?</h2><p>Đơn <strong t-out="order.name"/> sẽ không tiếp tục được TMN xử lý.</p></div>
+                        <button type="button" aria-label="Đóng" data-close-cancel-dialog="1"><i class="fa fa-times"/></button>
+                    </div>
+                    <div class="iwmn-cancel-dialog-body">
+                        <label for="iwmn-cancellation-reason">Lý do hủy <small>(không bắt buộc)</small></label>
+                        <textarea id="iwmn-cancellation-reason" name="cancellation_reason" rows="4" maxlength="500" placeholder="Ví dụ: Tôi cần thay đổi số lượng hoặc sản phẩm trong đơn..." data-cancel-reason="1"/>
+                        <small>Lý do này giúp TMN hỗ trợ bạn tốt hơn.</small>
+                    </div>
+                    <div class="iwmn-cancel-dialog-actions">
+                        <button class="btn btn-light iwmn-order-action" type="button" data-close-cancel-dialog="1">Giữ lại đơn</button>
+                        <button class="btn btn-danger iwmn-order-action" type="submit" data-confirm-cancel="1"><i class="fa fa-times"/> Xác nhận hủy</button>
+                    </div>
+                </form>
+            </dialog>
+        </div></t>
+    </template>
+</odoo>

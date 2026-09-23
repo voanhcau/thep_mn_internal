@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_iwmn_r81bangcandoithep_list" model="ir.ui.view">
+        <field name="name">iwmn.r81bangcandoithep.list</field>
+        <field name="model">iwmn.r81bangcandoithep</field>
+        <field name="arch" type="xml">
+            <list string="Bảng cân đối thép" default_order="nam desc, stt, id">
+                <field name="ident00"/>
+                <field name="nam" options="{'enable_formatting': false}"/>
+                <field name="stt"/>
+                <field name="chi_tieu"/>
+                <field name="ten_chi_tieu"/>
+                <field name="ma_dvcs"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81bangcandoithep_form" model="ir.ui.view">
+        <field name="name">iwmn.r81bangcandoithep.form</field>
+        <field name="model">iwmn.r81bangcandoithep</field>
+        <field name="arch" type="xml">
+            <form string="Bảng cân đối thép">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="nam" options="{'enable_formatting': false}"/>
+                            <field name="stt"/>
+                            <field name="ma_dvcs"/>
+                        </group>
+                        <group>
+                            <field name="chi_tieu"/>
+                            <field name="ten_chi_tieu"/>
+                            <field name="ident00"/>
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Tháng 01">
+                            <group><field name="thang01_01"/><field name="thang01_02"/><field name="thang01_03"/><field name="thang01_04"/><field name="thang01_05"/></group>
+                        </page>
+                        <page string="Tháng 02">
+                            <group><field name="thang02_01"/><field name="thang02_02"/><field name="thang02_03"/><field name="thang02_04"/><field name="thang02_05"/></group>
+                        </page>
+                        <page string="Tháng 03">
+                            <group><field name="thang03_01"/><field name="thang03_02"/><field name="thang03_03"/><field name="thang03_04"/><field name="thang03_05"/></group>
+                        </page>
+                        <page string="Tháng 04">
+                            <group><field name="thang04_01"/><field name="thang04_02"/><field name="thang04_03"/><field name="thang04_04"/><field name="thang04_05"/></group>
+                        </page>
+                        <page string="Tháng 05">
+                            <group><field name="thang05_01"/><field name="thang05_02"/><field name="thang05_03"/><field name="thang05_04"/><field name="thang05_05"/></group>
+                        </page>
+                        <page string="Tháng 06">
+                            <group><field name="thang06_01"/><field name="thang06_02"/><field name="thang06_03"/><field name="thang06_04"/><field name="thang06_05"/></group>
+                        </page>
+                        <page string="Tháng 07">
+                            <group><field name="thang07_01"/><field name="thang07_02"/><field name="thang07_03"/><field name="thang07_04"/><field name="thang07_05"/></group>
+                        </page>
+                        <page string="Tháng 08">
+                            <group><field name="thang08_01"/><field name="thang08_02"/><field name="thang08_03"/><field name="thang08_04"/><field name="thang08_05"/></group>
+                        </page>
+                        <page string="Tháng 09">
+                            <group><field name="thang09_01"/><field name="thang09_02"/><field name="thang09_03"/><field name="thang09_04"/><field name="thang09_05"/></group>
+                        </page>
+                        <page string="Tháng 10">
+                            <group><field name="thang10_01"/><field name="thang10_02"/><field name="thang10_03"/><field name="thang10_04"/><field name="thang10_05"/></group>
+                        </page>
+                        <page string="Tháng 11">
+                            <group><field name="thang11_01"/><field name="thang11_02"/><field name="thang11_03"/><field name="thang11_04"/><field name="thang11_05"/></group>
+                        </page>
+                        <page string="Tháng 12">
+                            <group><field name="thang12_01"/><field name="thang12_02"/><field name="thang12_03"/><field name="thang12_04"/><field name="thang12_05"/></group>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81bangcandoithep_search" model="ir.ui.view">
+        <field name="name">iwmn.r81bangcandoithep.search</field>
+        <field name="model">iwmn.r81bangcandoithep</field>
+        <field name="arch" type="xml">
+            <search string="Tìm kiếm bảng cân đối thép">
+                <field name="ident00"/>
+                <field name="nam" options="{'enable_formatting': false}"/>
+                <field name="stt"/>
+                <field name="chi_tieu"/>
+                <field name="ten_chi_tieu"/>
+                <field name="ma_dvcs"/>
+                <group>
+                    <filter name="group_by_nam" string="Năm" context="{'group_by': 'nam'}"/>
+                    <filter
+                        name="group_by_ma_dvcs"
+                        string="Đơn vị cơ sở"
+                        context="{'group_by': 'ma_dvcs'}"
+                    />
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_iwmn_r81bangcandoithep" model="ir.actions.act_window">
+        <field name="name">Bảng cân đối thép</field>
+        <field name="res_model">iwmn.r81bangcandoithep</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_iwmn_r81bangcandoithep_search"/>
+    </record>
+
+    <menuitem
+        id="menu_iwmn_r81bangcandoithep"
+        name="Bảng cân đối thép"
+        parent="menu_iwmn_master_production"
+        action="action_iwmn_r81bangcandoithep"
+        sequence="50"
+    />
+</odoo>

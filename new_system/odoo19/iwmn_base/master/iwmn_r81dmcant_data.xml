@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="iwmn_r81dmcant_nc01" model="iwmn.r81dmcant">
+            <field name="ma_ca">NC01</field>
+            <field name="ky_hieu">K</field>
+            <field name="gio_bd">06:30:00</field>
+            <field name="gio_kt">16:30:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="loai">HC</field>
+        </record>
+        <record id="iwmn_r81dmcant_nc02" model="iwmn.r81dmcant">
+            <field name="ma_ca">NC02</field>
+            <field name="ky_hieu">C1</field>
+            <field name="gio_bd">05:30:00</field>
+            <field name="gio_kt">14:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="loai">HC</field>
+        </record>
+        <record id="iwmn_r81dmcant_nc03" model="iwmn.r81dmcant">
+            <field name="ma_ca">NC03</field>
+            <field name="ky_hieu">C2</field>
+            <field name="gio_bd">14:00:00</field>
+            <field name="gio_kt">22:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="loai">HC</field>
+        </record>
+        <record id="iwmn_r81dmcant_nc04" model="iwmn.r81dmcant">
+            <field name="ma_ca">NC04</field>
+            <field name="ky_hieu">C3</field>
+            <field name="gio_bd">22:00:00</field>
+            <field name="gio_kt">06:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="loai">CA</field>
+        </record>
+        <record id="iwmn_r81dmcant_nc05" model="iwmn.r81dmcant">
+            <field name="ma_ca">NC05</field>
+            <field name="ky_hieu">K</field>
+            <field name="gio_bd">07:00:00</field>
+            <field name="gio_kt">11:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="loai">HC</field>
+        </record>
+        <record id="iwmn_r81dmcant_nc06" model="iwmn.r81dmcant">
+            <field name="ma_ca">NC06</field>
+            <field name="ky_hieu">K</field>
+            <field name="gio_bd">13:00:00</field>
+            <field name="gio_kt">16:30:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="loai">HC</field>
+        </record>
+        <record id="iwmn_r81dmcant_nc07" model="iwmn.r81dmcant">
+            <field name="ma_ca">NC07</field>
+            <field name="ky_hieu">C1</field>
+            <field name="gio_bd">07:30:00</field>
+            <field name="gio_kt">19:30:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="loai">HC</field>
+        </record>
+        <record id="iwmn_r81dmcant_nc08" model="iwmn.r81dmcant">
+            <field name="ma_ca">NC08</field>
+            <field name="ky_hieu">C2</field>
+            <field name="gio_bd">19:30:00</field>
+            <field name="gio_kt">07:30:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="loai">CA</field>
+        </record>
+        <record id="iwmn_r81dmcant_nc09" model="iwmn.r81dmcant">
+            <field name="ma_ca">NC09</field>
+            <field name="ky_hieu">C1</field>
+            <field name="gio_bd">07:00:00</field>
+            <field name="gio_kt">15:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="loai">HC</field>
+        </record>
+        <record id="iwmn_r81dmcant_nc10" model="iwmn.r81dmcant">
+            <field name="ma_ca">NC10</field>
+            <field name="ky_hieu">C2</field>
+            <field name="gio_bd">15:00:00</field>
+            <field name="gio_kt">23:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="loai">HC</field>
+        </record>
+        <record id="iwmn_r81dmcant_nc11" model="iwmn.r81dmcant">
+            <field name="ma_ca">NC11</field>
+            <field name="ky_hieu">C3</field>
+            <field name="gio_bd">23:00:00</field>
+            <field name="gio_kt">07:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="loai">HC</field>
+        </record>
+        <record id="iwmn_r81dmcant_nc12" model="iwmn.r81dmcant">
+            <field name="ma_ca">NC12</field>
+            <field name="ky_hieu">C1</field>
+            <field name="gio_bd">06:00:00</field>
+            <field name="gio_kt">18:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="loai">HC</field>
+        </record>
+        <record id="iwmn_r81dmcant_nc13" model="iwmn.r81dmcant">
+            <field name="ma_ca">NC13</field>
+            <field name="ky_hieu">C2</field>
+            <field name="gio_bd">18:00:00</field>
+            <field name="gio_kt">06:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="loai">CA</field>
+        </record>
+        <record id="iwmn_r81dmcant_nc14" model="iwmn.r81dmcant">
+            <field name="ma_ca">NC14</field>
+            <field name="ky_hieu">C3</field>
+            <field name="gio_bd">07:00:00</field>
+            <field name="gio_kt">23:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="loai">HC</field>
+        </record>
+        <record id="iwmn_r81dmcant_nc15" model="iwmn.r81dmcant">
+            <field name="ma_ca">NC15</field>
+            <field name="ky_hieu">C3</field>
+            <field name="gio_bd">17:00:00</field>
+            <field name="gio_kt">05:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="loai">CA</field>
+        </record>
+        <record id="iwmn_r81dmcant_nc16" model="iwmn.r81dmcant">
+            <field name="ma_ca">NC16</field>
+            <field name="ky_hieu">C4</field>
+            <field name="gio_bd">18:00:00</field>
+            <field name="gio_kt">20:00:00</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="loai">CA</field>
+        </record>
+    </data>
+</odoo>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_iwmn_r81dmlots_list" model="ir.ui.view">
+        <field name="name">iwmn.r81dmlots.list</field>
+        <field name="model">iwmn.r81dmlots</field>
+        <field name="arch" type="xml">
+            <list string="R81DMLOTS - Lot_Name">
+                <field name="lot_id"/>
+                <field name="lot_name"/>
+                <field name="create_log"/>
+                <field name="lastmodify_log"/>
+                <field name="ma_data"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmlots_form" model="ir.ui.view">
+        <field name="name">iwmn.r81dmlots.form</field>
+        <field name="model">iwmn.r81dmlots</field>
+        <field name="arch" type="xml">
+            <form string="R81DMLOTS - Lot_Name">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="lot_id"/>
+                            <field name="lot_name"/>
+                            <field name="create_log"/>
+                        </group>
+                        <group>
+                            <field name="lastmodify_log"/>
+                            <field name="ma_data"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmlots_search" model="ir.ui.view">
+        <field name="name">iwmn.r81dmlots.search</field>
+        <field name="model">iwmn.r81dmlots</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="lot_name"/>
+                <field name="lot_id"/>
+                <field name="create_log"/>
+                <field name="lastmodify_log"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_iwmn_r81dmlots" model="ir.actions.act_window">
+        <field name="name">R81DMLOTS - Lot_Name</field>
+        <field name="res_model">iwmn.r81dmlots</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_iwmn_r81dmlots_search"/>
+    </record>
+
+    <menuitem id="menu_iwmn_r81dmlots" name="R81DMLOTS - Lot_Name"
+              parent="menu_iwmn_master_materials"
+              action="action_iwmn_r81dmlots" sequence="35"/>
+</odoo>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_iwmn_r81dmloaihang_list" model="ir.ui.view">
+        <field name="name">iwmn.r81dmloaihang.list</field>
+        <field name="model">iwmn.r81dmloaihang</field>
+        <field name="arch" type="xml">
+            <list string="R81DMLOAIHANG - Ten_Loai_Hang">
+                <field name="ma_loai_hang"/>
+                <field name="ten_loai_hang"/>
+                <field name="quy_cach"/>
+                <field name="ma_dvcs"/>
+                <field name="create_log"/>
+                <field name="lastmodify_log"/>
+                <field name="giah2_nhat"/>
+                <field name="giah2_my"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmloaihang_form" model="ir.ui.view">
+        <field name="name">iwmn.r81dmloaihang.form</field>
+        <field name="model">iwmn.r81dmloaihang</field>
+        <field name="arch" type="xml">
+            <form string="R81DMLOAIHANG - Ten_Loai_Hang">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="ma_loai_hang"/>
+                            <field name="ten_loai_hang"/>
+                            <field name="quy_cach"/>
+                            <field name="ma_dvcs"/>
+                            <field name="create_log"/>
+                            <field name="lastmodify_log"/>
+                        </group>
+                        <group>
+                            <field name="giah2_nhat"/>
+                            <field name="giah2_my"/>
+                            <field name="giah2_namphi"/>
+                            <field name="giah2_uc"/>
+                            <field name="giah2_kored"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmloaihang_search" model="ir.ui.view">
+        <field name="name">iwmn.r81dmloaihang.search</field>
+        <field name="model">iwmn.r81dmloaihang</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="ten_loai_hang"/>
+                <field name="ma_loai_hang"/>
+                <field name="quy_cach"/>
+                <field name="ma_dvcs"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_iwmn_r81dmloaihang" model="ir.actions.act_window">
+        <field name="name">R81DMLOAIHANG - Ten_Loai_Hang</field>
+        <field name="res_model">iwmn.r81dmloaihang</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_iwmn_r81dmloaihang_search"/>
+    </record>
+
+    <menuitem id="menu_iwmn_r81dmloaihang" name="R81DMLOAIHANG - Ten_Loai_Hang"
+              parent="menu_iwmn_master_materials"
+              action="action_iwmn_r81dmloaihang" sequence="33"/>
+</odoo>

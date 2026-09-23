@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{412C66F6-77A7-499F-9EA3-FC1F7A29406B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RosyModule.Costing</RootNamespace>
+    <AssemblyName>Rosy.Module.Costing</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Rosy\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Rosy\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v7.1, Version=7.1.4.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v7.1, Version=7.1.4.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v7.1, Version=7.1.4.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v7.1, Version=7.1.4.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v7.1.Design, Version=7.1.4.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL" />
+    <Reference Include="Rosy.List, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Rosy\Rosy.List.dll</HintPath>
+    </Reference>
+    <Reference Include="Rosy.Module, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ROSY\Rosy.Module.dll</HintPath>
+    </Reference>
+    <Reference Include="Rosy.System, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL" />
+    <Reference Include="Rosy.System.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL" />
+    <Reference Include="Rosy.System.Data, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL" />
+    <Reference Include="Rosy.System.Element, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL" />
+    <Reference Include="Rosy.System.Library, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL" />
+    <Reference Include="Rosy.System.Public, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmZCheckBOM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmZCheckBOM.Designer.cs">
+      <DependentUpon>frmZCheckBOM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmZDinhMuc_Copy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmZDinhMuc_Copy.Designer.cs">
+      <DependentUpon>frmZDinhMuc_Copy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmZCheckCapNhatGiaThanh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmZCheckCapNhatGiaThanh.designer.cs">
+      <DependentUpon>frmZCheckCapNhatGiaThanh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmZDinhMucYt_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmZDinhMucYt_Edit.Designer.cs">
+      <DependentUpon>frmZDinhMucYt_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmZDauKyYt_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmZDauKyYt_Edit.Designer.cs">
+      <DependentUpon>frmZDauKyYt_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmZDauKySp0_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmZDauKySp0_Edit.Designer.cs">
+      <DependentUpon>frmZDauKySp0_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmZDauKySp_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmZDauKySp_Edit.Designer.cs">
+      <DependentUpon>frmZDauKySp_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmZDauKy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmZDauKy.Designer.cs">
+      <DependentUpon>frmZDauKy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmZDinhMucVt_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmZDinhMucVt_Edit.Designer.cs">
+      <DependentUpon>frmZDinhMucVt_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmZDinhMuc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmZDinhMuc.Designer.cs">
+      <DependentUpon>frmZDinhMuc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmZCheckPhanBo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmZCheckPhanBo.Designer.cs">
+      <DependentUpon>frmZCheckPhanBo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmZPhanDoan_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmZPhanDoan_Edit.Designer.cs">
+      <DependentUpon>frmZPhanDoan_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmZPhanDoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmZPhanDoan.Designer.cs">
+      <DependentUpon>frmZPhanDoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDmYt_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDmYt_Edit.Designer.cs">
+      <DependentUpon>frmDmYt_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDmYt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDmYt.Designer.cs">
+      <DependentUpon>frmDmYt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmZPhanBo3_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmZPhanBo3_Edit.Designer.cs">
+      <DependentUpon>frmZPhanBo3_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmZPhanBo2_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmZPhanBo2_Edit.Designer.cs">
+      <DependentUpon>frmZPhanBo2_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmZPhanBo1_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmZPhanBo1_Edit.Designer.cs">
+      <DependentUpon>frmZPhanBo1_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmZPhanBo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmZPhanBo.Designer.cs">
+      <DependentUpon>frmZPhanBo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGiaThanh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGiaThanh.Designer.cs">
+      <DependentUpon>frmGiaThanh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmZCheckTapHop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmZCheckTapHop.designer.cs">
+      <DependentUpon>frmZCheckTapHop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmZDinhMuc_Copy.resx">
+      <DependentUpon>frmZDinhMuc_Copy.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmZDinhMucYt_Edit.resx">
+      <DependentUpon>frmZDinhMucYt_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmZDauKyYt_Edit.resx">
+      <DependentUpon>frmZDauKyYt_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmZDauKySp0_Edit.resx">
+      <DependentUpon>frmZDauKySp0_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmZDauKySp_Edit.resx">
+      <DependentUpon>frmZDauKySp_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmZDauKy.resx">
+      <DependentUpon>frmZDauKy.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmZDinhMucVt_Edit.resx">
+      <DependentUpon>frmZDinhMucVt_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmZDinhMuc.resx">
+      <DependentUpon>frmZDinhMuc.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmZPhanDoan_Edit.resx">
+      <DependentUpon>frmZPhanDoan_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmZPhanDoan.resx">
+      <DependentUpon>frmZPhanDoan.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDmYt_Edit.resx">
+      <DependentUpon>frmDmYt_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDmYt.resx">
+      <DependentUpon>frmDmYt.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmZPhanBo3_Edit.resx">
+      <DependentUpon>frmZPhanBo3_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmZPhanBo2_Edit.resx">
+      <DependentUpon>frmZPhanBo2_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmZPhanBo1_Edit.resx">
+      <DependentUpon>frmZPhanBo1_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmZPhanBo.resx">
+      <DependentUpon>frmZPhanBo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGiaThanh.resx">
+      <DependentUpon>frmGiaThanh.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Summary.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

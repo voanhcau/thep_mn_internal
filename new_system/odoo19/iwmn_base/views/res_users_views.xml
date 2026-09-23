@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_users_form_home_action_iwmn" model="ir.ui.view">
+        <field name="name">res.users.form.home.action.iwmn</field>
+        <field name="model">res.users</field>
+        <field name="inherit_id" ref="base.view_users_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//page[@name='preferences']//group[@name='other_preferences']" position="inside">
+                <field name="action_id"
+                       string="Trang mặc định sau đăng nhập"
+                       help="Màn hình được tự động mở khi người dùng nội bộ đăng nhập vào hệ thống."
+                       options="{'no_create': True, 'no_open': True}"
+                       invisible="share"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

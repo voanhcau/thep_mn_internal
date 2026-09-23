@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Connection>
+  <Server>192.168.1.19</Server>
+  <Database>R50THEPMN3</Database>
+  <Sercurity>0</Sercurity>
+  <User>VR</User>
+  <Password>pSBUWi3qADN2REO2pacGkA==</Password>
+  <Synchronize>0</Synchronize>
+  <StartLanguage>V</StartLanguage>
+  <Ngay_Setup>xziLWIG7cFRFizuKXaYIbg==</Ngay_Setup>
+</Connection>

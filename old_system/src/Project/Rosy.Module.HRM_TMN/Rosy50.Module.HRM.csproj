@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AD5177D8-D989-4BE1-A3F7-D3834F610E89}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RosyModule.HRM</RootNamespace>
+    <AssemblyName>Rosy.Module.HRM</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Rosy\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v7.1, Version=7.1.4.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Rosy\DevExpress.Data.v7.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v7.1, Version=7.1.4.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Rosy\DevExpress.Utils.v7.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v7.1, Version=7.1.4.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Rosy\DevExpress.XtraEditors.v7.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v7.1, Version=7.1.4.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Rosy\DevExpress.XtraTreeList.v7.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v7.1.Design, Version=7.1.4.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Rosy\DevExpress.XtraTreeList.v7.1.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Rosy.List, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Rosy\Rosy.List.dll</HintPath>
+    </Reference>
+    <Reference Include="Rosy.Module, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Rosy\Rosy.Module.dll</HintPath>
+    </Reference>
+    <Reference Include="Rosy.System, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL" />
+    <Reference Include="Rosy.System.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL" />
+    <Reference Include="Rosy.System.Data, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL" />
+    <Reference Include="Rosy.System.Element, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL" />
+    <Reference Include="Rosy.System.Library, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL" />
+    <Reference Include="Rosy.System.Public, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Human\frmQLBDDH_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Human\frmQLBDDH_Edit.Designer.cs">
+      <DependentUpon>frmQLBDDH_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Human\frmQLCT_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Human\frmQLCT_Edit.Designer.cs">
+      <DependentUpon>frmQLCT_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Human\frmQLTS_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Human\frmQLTS_Edit.Designer.cs">
+      <DependentUpon>frmQLTS_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Human\frmQLSC_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Human\frmQLSC_Edit.Designer.cs">
+      <DependentUpon>frmQLSC_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Human\frmQLBL_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Human\frmQLBL_Edit.Designer.cs">
+      <DependentUpon>frmQLBL_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Human\frmDmBpCt_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Human\frmDmBpCt_Edit.Designer.cs">
+      <DependentUpon>frmDmBpCt_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Human\frmEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Human\frmEmployee.Designer.cs">
+      <DependentUpon>frmEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Human\frmHDLD_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Human\frmHDLD_Edit.Designer.cs">
+      <DependentUpon>frmHDLD_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Human\frmEmployee_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Human\frmEmployee_Edit.designer.cs">
+      <DependentUpon>frmEmployee_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Human\frmEmployee_Bk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Human\frmEmployee_Bk.Designer.cs">
+      <DependentUpon>frmEmployee_Bk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Human\frmNghiPhep_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Human\frmNghiPhep_Edit.Designer.cs">
+      <DependentUpon>frmNghiPhep_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Human\frmQTCT_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Human\frmQTCT_Edit.Designer.cs">
+      <DependentUpon>frmQTCT_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Human\frmQTDT_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Human\frmQTDT_Edit.Designer.cs">
+      <DependentUpon>frmQTDT_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Human\frmQHGD_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Human\frmQHGD_Edit.Designer.cs">
+      <DependentUpon>frmQHGD_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Human\frmQTKTKL_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Human\frmQTKTKL_Edit.Designer.cs">
+      <DependentUpon>frmQTKTKL_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Human\frmTsTn0_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Human\frmTsTn0_Edit.Designer.cs">
+      <DependentUpon>frmTsTn0_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Human\frmEmployee_View.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Human\frmEmployee_View.designer.cs">
+      <DependentUpon>frmEmployee_View.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Human\frmQLBDDH_Edit.resx">
+      <DependentUpon>frmQLBDDH_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Human\frmQLCT_Edit.resx">
+      <DependentUpon>frmQLCT_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Human\frmQLTS_Edit.resx">
+      <DependentUpon>frmQLTS_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Human\frmQLSC_Edit.resx">
+      <DependentUpon>frmQLSC_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Human\frmQLBL_Edit.resx">
+      <DependentUpon>frmQLBL_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Human\frmDmBpCt_Edit.resx">
+      <DependentUpon>frmDmBpCt_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Human\frmEmployee.resx">
+      <DependentUpon>frmEmployee.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Human\frmHDLD_Edit.resx">
+      <DependentUpon>frmHDLD_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Human\frmEmployee_Edit.resx">
+      <DependentUpon>frmEmployee_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Human\frmEmployee_Bk.resx">
+      <DependentUpon>frmEmployee_Bk.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Human\frmNghiPhep_Edit.resx">
+      <DependentUpon>frmNghiPhep_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Human\frmQTDT_Edit.resx">
+      <DependentUpon>frmQTDT_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Human\frmQHGD_Edit.resx">
+      <DependentUpon>frmQHGD_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Human\frmQTCT_Edit.resx">
+      <DependentUpon>frmQTCT_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Human\frmQTKTKL_Edit.resx">
+      <DependentUpon>frmQTKTKL_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Human\frmTsTn0_Edit.resx">
+      <DependentUpon>frmTsTn0_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Human\frmEmployee_View.resx">
+      <DependentUpon>frmEmployee_View.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmBangLuong.resx">
+      <DependentUpon>frmBangLuong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmBangLuong_Create.resx">
+      <DependentUpon>frmBangLuong_Create.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmBangLuong_Edit.resx">
+      <DependentUpon>frmBangLuong_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmBangLuong_Posted.resx">
+      <DependentUpon>frmBangLuong_Posted.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmChamCong.resx">
+      <DependentUpon>frmChamCong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmHieuQua.resx">
+      <DependentUpon>frmHieuQua.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmHieuQua_Edit.resx">
+      <DependentUpon>frmHieuQua_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmDmTn.resx">
+      <DependentUpon>frmDmTn.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmDmTn_Edit.resx">
+      <DependentUpon>frmDmTn_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmThueTn.resx">
+      <DependentUpon>frmThueTn.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmThueTn_Edit.resx">
+      <DependentUpon>frmThueTn_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmTsTn.resx">
+      <DependentUpon>frmTsTn.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmTsTn_Edit.resx">
+      <DependentUpon>frmTsTn_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Salary\frmBangLuong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmBangLuong.Designer.cs">
+      <DependentUpon>frmBangLuong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmBangLuong_Create.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmBangLuong_Create.Designer.cs">
+      <DependentUpon>frmBangLuong_Create.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmBangLuong_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmBangLuong_Edit.designer.cs">
+      <DependentUpon>frmBangLuong_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmBangLuong_Posted.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmBangLuong_Posted.Designer.cs">
+      <DependentUpon>frmBangLuong_Posted.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmChamCong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmChamCong.designer.cs">
+      <DependentUpon>frmChamCong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmHieuQua.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmHieuQua.Designer.cs">
+      <DependentUpon>frmHieuQua.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmHieuQua_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmHieuQua_Edit.Designer.cs">
+      <DependentUpon>frmHieuQua_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmDmTn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmDmTn.Designer.cs">
+      <DependentUpon>frmDmTn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmDmTn_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmDmTn_Edit.Designer.cs">
+      <DependentUpon>frmDmTn_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmThueTn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmThueTn.Designer.cs">
+      <DependentUpon>frmThueTn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmThueTn_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmThueTn_Edit.Designer.cs">
+      <DependentUpon>frmThueTn_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmTsTn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmTsTn.Designer.cs">
+      <DependentUpon>frmTsTn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmTsTn_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmTsTn_Edit.Designer.cs">
+      <DependentUpon>frmTsTn_Edit.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

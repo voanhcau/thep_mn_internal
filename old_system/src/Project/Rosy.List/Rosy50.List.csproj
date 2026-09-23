@@ -1,0 +1,1661 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2224CC58-5200-4537-BBE3-B57044BCD8D5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RosyList</RootNamespace>
+    <AssemblyName>Rosy.List</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>Rosy.snk</AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Rosy\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v7.1, Version=7.1.4.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v7.1, Version=7.1.4.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v7.1, Version=7.1.4.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v7.1, Version=7.1.4.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v7.1.Design, Version=7.1.4.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL" />
+    <Reference Include="Rosy.System, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL" />
+    <Reference Include="Rosy.System.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL" />
+    <Reference Include="Rosy.System.Data, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL" />
+    <Reference Include="Rosy.System.Element, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL" />
+    <Reference Include="Rosy.System.Library, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL" />
+    <Reference Include="Rosy.System.Public, Version=5.0.0.0, Culture=neutral, PublicKeyToken=49927a8425d824f2, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DLSXKT\frmDLSXKT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DLSXKT\frmDLSXKT.Designer.cs">
+      <DependentUpon>frmDLSXKT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DLSXKT\frmDLSXKT_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DLSXKT\frmDLSXKT_Edit.Designer.cs">
+      <DependentUpon>frmDLSXKT_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmBL\frmTransferHMBL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmBL\frmTransferHMBL.designer.cs">
+      <DependentUpon>frmTransferHMBL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmBL\frmUnLock_DM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmBL\frmUnLock_DM.designer.cs">
+      <DependentUpon>frmUnLock_DM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmCa\frmDmCa_CreateAuto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmCa\frmDmCa_CreateAuto.Designer.cs">
+      <DependentUpon>frmDmCa_CreateAuto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmCa\frmDmCaSX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmCa\frmDmCaSX.Designer.cs">
+      <DependentUpon>frmDmCaSX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmCa\frmDmCaSX_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmCa\frmDmCaSX_Edit.Designer.cs">
+      <DependentUpon>frmDmCaSX_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmCk-CTrinh_QDinh\frmDmQdMua_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmCk-CTrinh_QDinh\frmDmQdMua_Edit.Designer.cs">
+      <DependentUpon>frmDmQdMua_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DMCSGia\frmCSGiaMuaPL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DMCSGia\frmCSGiaMuaPL.Designer.cs">
+      <DependentUpon>frmCSGiaMuaPL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DMCSGia\frmCSGiaMuaPL_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DMCSGia\frmCSGiaMuaPL_Edit.Designer.cs">
+      <DependentUpon>frmCSGiaMuaPL_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmDotBT\frmDmDotBT_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmDotBT\frmDmDotBT_Edit.designer.cs">
+      <DependentUpon>frmDmDotBT_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmDotBT\frmDmDotBT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmDotBT\frmDmDotBT.designer.cs">
+      <DependentUpon>frmDmDotBT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmDtCbNv\frmIDCMND.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmDtCbNv\frmIDCMND.Designer.cs">
+      <DependentUpon>frmIDCMND.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmDtCbNv\frmNVNT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmDtCbNv\frmNVNT.Designer.cs">
+      <DependentUpon>frmNVNT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmDtCbNv\frmIDCMND_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmDtCbNv\frmIDCMND_Edit.Designer.cs">
+      <DependentUpon>frmIDCMND_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmDtCbNv\frmNVNT_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmDtCbNv\frmNVNT_Edit.Designer.cs">
+      <DependentUpon>frmNVNT_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmDt_TinChap\frmDmDtXNCN_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmDt_TinChap\frmDmDtXNCN_Edit.Designer.cs">
+      <DependentUpon>frmDmDtXNCN_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmKho\frmDmKhoCTKG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmKho\frmDmKhoCTKG.Designer.cs">
+      <DependentUpon>frmDmKhoCTKG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmKho\frmDmKhoCTKG_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmKho\frmDmKhoCTKG_Edit.Designer.cs">
+      <DependentUpon>frmDmKhoCTKG_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmKho\frmDmKhoKG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmKho\frmDmKhoKG.Designer.cs">
+      <DependentUpon>frmDmKhoKG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmKho\frmDmKhoCT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmKho\frmDmKhoCT.Designer.cs">
+      <DependentUpon>frmDmKhoCT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmKho\frmDmKhoKG_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmKho\frmDmKhoKG_Edit.Designer.cs">
+      <DependentUpon>frmDmKhoKG_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmKho\frmDmKhoCT_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmKho\frmDmKhoCT_Edit.Designer.cs">
+      <DependentUpon>frmDmKhoCT_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmSuCo\frmDmSuCo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmSuCo\frmDmSuCo.Designer.cs">
+      <DependentUpon>frmDmSuCo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmSuCo\frmDmSuCo_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmSuCo\frmDmSuCo_Edit.Designer.cs">
+      <DependentUpon>frmDmSuCo_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmMacThep\frmDmMacThepCt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmMacThep\frmDmMacThepCt.Designer.cs">
+      <DependentUpon>frmDmMacThepCt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmMacThep\frmDmMacThepCt_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmMacThep\frmDmMacThepCt_Edit.Designer.cs">
+      <DependentUpon>frmDmMacThepCt_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmSoHDDT\frmDmSoHDDT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmSoHDDT\frmDmSoHDDT.Designer.cs">
+      <DependentUpon>frmDmSoHDDT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmSoHDDT\frmDmSoHDDT_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmSoHDDT\frmDmSoHDDT_Edit.Designer.cs">
+      <DependentUpon>frmDmSoHDDT_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmThietBi\frmDmNhTb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmThietBi\frmDmNhTb.Designer.cs">
+      <DependentUpon>frmDmNhTb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmThietBi\frmDmNhTb_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmThietBi\frmDmNhTb_Edit.Designer.cs">
+      <DependentUpon>frmDmNhTb_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmThietBi\frmDmTb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmThietBi\frmDmTb.Designer.cs">
+      <DependentUpon>frmDmTb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmThietBi\frmDmTb_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmThietBi\frmDmTb_Edit.Designer.cs">
+      <DependentUpon>frmDmTb_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmBanVe\frmDmBanVe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmBanVe\frmDmBanVe.Designer.cs">
+      <DependentUpon>frmDmBanVe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmBanVe\frmDmBanVe_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmBanVe\frmDmBanVe_Edit.Designer.cs">
+      <DependentUpon>frmDmBanVe_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmCa\frmDmCa_Filter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmCa\frmDmCa_Filter.Designer.cs">
+      <DependentUpon>frmDmCa_Filter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DMCSGia\frmCSGiaMua_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DMCSGia\frmCSGiaMua_Edit.Designer.cs">
+      <DependentUpon>frmCSGiaMua_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DMCSGia\frmCSGiaMua.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DMCSGia\frmCSGiaMua.Designer.cs">
+      <DependentUpon>frmCSGiaMua.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DMCSGia\frmCSGia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DMCSGia\frmCSGia.Designer.cs">
+      <DependentUpon>frmCSGia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DMCSGia\frmCSGia_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DMCSGia\frmCSGia_Edit.Designer.cs">
+      <DependentUpon>frmCSGia_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmCtAuto\frmDmCtAuto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmCtAuto\frmDmCtAuto.Designer.cs">
+      <DependentUpon>frmDmCtAuto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmCtAuto\frmDmCtAuto_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmCtAuto\frmDmCtAuto_Edit.Designer.cs">
+      <DependentUpon>frmDmCtAuto_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmCTrinh\frmDmCTrinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmCTrinh\frmDmCTrinh.Designer.cs">
+      <DependentUpon>frmDmCTrinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmCTrinh\frmDmCTrinh_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmCTrinh\frmDmCTrinh_Edit.Designer.cs">
+      <DependentUpon>frmDmCTrinh_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmCTrinh\frmDmPLCTrinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmCTrinh\frmDmPLCTrinh.Designer.cs">
+      <DependentUpon>frmDmPLCTrinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmCTrinh\frmDmPLCTrinh_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmCTrinh\frmDmPLCTrinh_Edit.Designer.cs">
+      <DependentUpon>frmDmPLCTrinh_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmLaiSuat\frmDmLaiSuat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmLaiSuat\frmDmLaiSuat.Designer.cs">
+      <DependentUpon>frmDmLaiSuat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmLaiSuat\frmDmLaiSuat_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmLaiSuat\frmDmLaiSuat_Edit.Designer.cs">
+      <DependentUpon>frmDmLaiSuat_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmNgayLe\frmDmNgayLe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmNgayLe\frmDmNgayLe.designer.cs">
+      <DependentUpon>frmDmNgayLe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmNgayLe\frmDmNgayLe_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmNgayLe\frmDmNgayLe_Edit.designer.cs">
+      <DependentUpon>frmDmNgayLe_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmDinhMucNL\frmDmNL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmDinhMucNL\frmDmNL.Designer.cs">
+      <DependentUpon>frmDmNL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmDinhMucNL\frmDmNL_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmDinhMucNL\frmDmNL_Edit.Designer.cs">
+      <DependentUpon>frmDmNL_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmBL\frmDmBL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmBL\frmDmBL.Designer.cs">
+      <DependentUpon>frmDmBL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmBL\frmDmBl_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmBL\frmDmBl_Edit.Designer.cs">
+      <DependentUpon>frmDmBl_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmDt_TinChap\frmDmDt_Chung_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmDt_TinChap\frmDmDt_Chung_Edit.Designer.cs">
+      <DependentUpon>frmDmDt_Chung_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmKm\frmDmKm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmKm\frmDmKm.Designer.cs">
+      <DependentUpon>frmDmKm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmKm\frmDmKm_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmKm\frmDmKm_Edit.Designer.cs">
+      <DependentUpon>frmDmKm_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmNvu\frmDmNvu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmNvu\frmDmNvu.designer.cs">
+      <DependentUpon>frmDmNvu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmQDCanTP\frmDmQDCan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmQDCanTP\frmDmQDCan.Designer.cs">
+      <DependentUpon>frmDmQDCan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmQDCanTP\frmDmQDCan_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmQDCanTP\frmDmQDCan_Edit.Designer.cs">
+      <DependentUpon>frmDmQDCan_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmSize\frmDmSize.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmSize\frmDmSize.Designer.cs">
+      <DependentUpon>frmDmSize.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmSize\frmDmSize_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmSize\frmDmSize_Edit.Designer.cs">
+      <DependentUpon>frmDmSize_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmTKhai\frmDmTKhai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmTKhai\frmDmTKhai.Designer.cs">
+      <DependentUpon>frmDmTKhai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmTKhai\frmDmTKhai_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmTKhai\frmDmTKhai_Edit.Designer.cs">
+      <DependentUpon>frmDmTKhai_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmVtPt\frmDmPTKT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmVtPt\frmDmPTKT.Designer.cs">
+      <DependentUpon>frmDmPTKT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmVtPt\frmDmNhVtPt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmVtPt\frmDmNhVtPt.Designer.cs">
+      <DependentUpon>frmDmNhVtPt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmVtPt\frmDmNhVtPt_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmVtPt\frmDmNhVtPt_Edit.Designer.cs">
+      <DependentUpon>frmDmNhVtPt_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmVtPt\frmDmVtPt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmVtPt\frmDmVtPt.Designer.cs">
+      <DependentUpon>frmDmVtPt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmVtPt\frmDmVtPt_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmVtPt\frmDmVtPt_Edit.Designer.cs">
+      <DependentUpon>frmDmVtPt_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmVtPt\frmDmPTKT_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmVtPt\frmDmPTKT_Edit.Designer.cs">
+      <DependentUpon>frmDmPTKT_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmVt\frmDmTenTb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmVt\frmDmTenTb.Designer.cs">
+      <DependentUpon>frmDmTenTb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmVt\frmDmVt_Edit_.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmVt\frmDmVt_Edit_.Designer.cs">
+      <DependentUpon>frmDmVt_Edit_.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmXe\frmDmSoXe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmXe\frmDmSoXe.Designer.cs">
+      <DependentUpon>frmDmSoXe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmXe\frmDmSoXe_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmXe\frmDmSoXe_Edit.Designer.cs">
+      <DependentUpon>frmDmSoXe_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmXe\frmDmXe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmXe\frmDmXe.Designer.cs">
+      <DependentUpon>frmDmXe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmXe\frmDmXe_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmXe\frmDmXe_Edit.Designer.cs">
+      <DependentUpon>frmDmXe_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmVt\frmDmTenTb_.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmVt\frmDmTenTb_.Designer.cs">
+      <DependentUpon>frmDmTenTb_.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmVt\frmDmTenTb_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmVt\frmDmTenTb_Edit.Designer.cs">
+      <DependentUpon>frmDmTenTb_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmVt\frmDmVtPtCt_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmVt\frmDmVtPtCt_Edit.Designer.cs">
+      <DependentUpon>frmDmVtPtCt_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmVt\frmDmCumTb_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmVt\frmDmCumTb_Edit.Designer.cs">
+      <DependentUpon>frmDmCumTb_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmVt\frmDmCumTb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmVt\frmDmCumTb.Designer.cs">
+      <DependentUpon>frmDmCumTb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Equipment\frmEquipmentCt_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Equipment\frmEquipmentCt_Edit.Designer.cs">
+      <DependentUpon>frmEquipmentCt_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formular\frmFormular.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formular\frmFormular.Designer.cs">
+      <DependentUpon>frmFormular.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formular\frmFormular_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formular\frmFormular_Edit.Designer.cs">
+      <DependentUpon>frmFormular_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmCk-CTrinh_QDinh\frmDmQd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmCk-CTrinh_QDinh\frmDmQd.Designer.cs">
+      <DependentUpon>frmDmQd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmCk-CTrinh_QDinh\frmDmQd_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmCk-CTrinh_QDinh\frmDmQd_Edit.Designer.cs">
+      <DependentUpon>frmDmQd_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmBarems\frmDmBarems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmBarems\frmDmBarems.Designer.cs">
+      <DependentUpon>frmDmBarems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmBarems\frmDmBarems_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmBarems\frmDmBarems_Edit.Designer.cs">
+      <DependentUpon>frmDmBarems_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmCk-CTrinh_QDinh\frmDmCk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmCk-CTrinh_QDinh\frmDmCk.Designer.cs">
+      <DependentUpon>frmDmCk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmCk-CTrinh_QDinh\frmDmCk_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmCk-CTrinh_QDinh\frmDmCk_Edit.Designer.cs">
+      <DependentUpon>frmDmCk_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmBp\frmDmBp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmBp\frmDmBp.Designer.cs">
+      <DependentUpon>frmDmBp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmBp\frmDmBp_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmBp\frmDmBp_Edit.Designer.cs">
+      <DependentUpon>frmDmBp_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmCa\frmDmCa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmCa\frmDmCa.Designer.cs">
+      <DependentUpon>frmDmCa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmCa\frmDmCa_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmCa\frmDmCa_Edit.Designer.cs">
+      <DependentUpon>frmDmCa_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmCL\frmDmCL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmCL\frmDmCL.Designer.cs">
+      <DependentUpon>frmDmCL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmCL\frmDmCL_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmCL\frmDmCL_Edit.Designer.cs">
+      <DependentUpon>frmDmCL_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmCoTinh\frmDmCoTinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmCoTinh\frmDmCoTinh.Designer.cs">
+      <DependentUpon>frmDmCoTinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmCoTinh\frmDmCoTinh_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmCoTinh\frmDmCoTinh_Edit.Designer.cs">
+      <DependentUpon>frmDmCoTinh_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmDtCbNv\frmDmDtCbNv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmDtCbNv\frmDmDtCbNv.Designer.cs">
+      <DependentUpon>frmDmDtCbNv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmDtCbNv\frmDmDtCbNv_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmDtCbNv\frmDmDtCbNv_Edit.Designer.cs">
+      <DependentUpon>frmDmDtCbNv_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmDtCbNv\frmDmNhDtCbNv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmDtCbNv\frmDmNhDtCbNv.Designer.cs">
+      <DependentUpon>frmDmNhDtCbNv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmDtCbNv\frmDmNhDtCbNv_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmDtCbNv\frmDmNhDtCbNv_Edit.Designer.cs">
+      <DependentUpon>frmDmNhDtCbNv_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmDt_TinChap\frmDmDt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmDt_TinChap\frmDmDt.Designer.cs">
+      <DependentUpon>frmDmDt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmDt_TinChap\frmDmDt_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmDt_TinChap\frmDmDt_Edit.Designer.cs">
+      <DependentUpon>frmDmDt_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmDt_TinChap\frmDmDt_Ncc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmDt_TinChap\frmDmDt_Ncc.designer.cs">
+      <DependentUpon>frmDmDt_Ncc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmDt_TinChap\frmDmNhDt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmDt_TinChap\frmDmNhDt.Designer.cs">
+      <DependentUpon>frmDmNhDt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmDt_TinChap\frmDmNhDt_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmDt_TinChap\frmDmNhDt_Edit.Designer.cs">
+      <DependentUpon>frmDmNhDt_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmHd\frmDmHd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmHd\frmDmHd.Designer.cs">
+      <DependentUpon>frmDmHd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmHd\frmDmHd_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmHd\frmDmHd_Edit.Designer.cs">
+      <DependentUpon>frmDmHd_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmHd\frmDmNhHd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmHd\frmDmNhHd.Designer.cs">
+      <DependentUpon>frmDmNhHd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmHd\frmDmNhHd_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmHd\frmDmNhHd_Edit.Designer.cs">
+      <DependentUpon>frmDmNhHd_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmHd\frmDmPLHd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmHd\frmDmPLHd.Designer.cs">
+      <DependentUpon>frmDmPLHd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmHd\frmDmPLHd_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmHd\frmDmPLHd_Edit.Designer.cs">
+      <DependentUpon>frmDmPLHd_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmJob\frmDmJob.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmJob\frmDmJob.Designer.cs">
+      <DependentUpon>frmDmJob.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmJob\frmDmJob_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmJob\frmDmJob_Edit.Designer.cs">
+      <DependentUpon>frmDmJob_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmKho\frmDmKho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmKho\frmDmKho.Designer.cs">
+      <DependentUpon>frmDmKho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmKho\frmDmKho_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmKho\frmDmKho_Edit.Designer.cs">
+      <DependentUpon>frmDmKho_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmKv\frmDmKv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmKv\frmDmKv.Designer.cs">
+      <DependentUpon>frmDmKv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmKv\frmDmKv_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmKv\frmDmKv_Edit.Designer.cs">
+      <DependentUpon>frmDmKv_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmLoaiHang\frmDmLoai_Hang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmLoaiHang\frmDmLoai_Hang.Designer.cs">
+      <DependentUpon>frmDmLoai_Hang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmLoaiHang\frmDmLoai_Hang_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmLoaiHang\frmDmLoai_Hang_Edit.Designer.cs">
+      <DependentUpon>frmDmLoai_Hang_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmLots\frmDmLots.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmLots\frmDmLots.designer.cs">
+      <DependentUpon>frmDmLots.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmLots\frmDmLots_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmLots\frmDmLots_Edit.designer.cs">
+      <DependentUpon>frmDmLots_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmMacThep\frmDmMacThep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmMacThep\frmDmMacThep.Designer.cs">
+      <DependentUpon>frmDmMacThep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmMacThep\frmDmMacThep_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmMacThep\frmDmMacThep_Edit.Designer.cs">
+      <DependentUpon>frmDmMacThep_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmNvu\frmDmNvu_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmNvu\frmDmNvu_Edit.Designer.cs">
+      <DependentUpon>frmDmNvu_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmStandard\frmDmStandard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmStandard\frmDmStandard.Designer.cs">
+      <DependentUpon>frmDmStandard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmStandard\frmDmStandard_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmStandard\frmDmStandard_Edit.Designer.cs">
+      <DependentUpon>frmDmStandard_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmThue\frmDmThue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmThue\frmDmThue.Designer.cs">
+      <DependentUpon>frmDmThue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmThue\frmDmThue_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmThue\frmDmThue_Edit.Designer.cs">
+      <DependentUpon>frmDmThue_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmTk\frmDmTk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmTk\frmDmTk.Designer.cs">
+      <DependentUpon>frmDmTk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmTk\frmDmTk_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmTk\frmDmTk_Edit.Designer.cs">
+      <DependentUpon>frmDmTk_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmTPHH\frmDmTPHH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmTPHH\frmDmTPHH.Designer.cs">
+      <DependentUpon>frmDmTPHH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmTPHH\frmDmTPHH_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmTPHH\frmDmTPHH_Edit.Designer.cs">
+      <DependentUpon>frmDmTPHH_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmVtTs\frmDmNhVtTs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmVtTs\frmDmNhVtTs.Designer.cs">
+      <DependentUpon>frmDmNhVtTs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmVtTs\frmDmNhVtTs_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmVtTs\frmDmNhVtTs_Edit.Designer.cs">
+      <DependentUpon>frmDmNhVtTs_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmVtTs\frmDmVtTs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmVtTs\frmDmVtTs.Designer.cs">
+      <DependentUpon>frmDmVtTs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmVtTs\frmDmVtTs_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmVtTs\frmDmVtTs_Edit.Designer.cs">
+      <DependentUpon>frmDmVtTs_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmVtSp\frmDmNhVtSp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmVtSp\frmDmNhVtSp.Designer.cs">
+      <DependentUpon>frmDmNhVtSp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmVtSp\frmDmNhVtSp_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmVtSp\frmDmNhVtSp_Edit.Designer.cs">
+      <DependentUpon>frmDmNhVtSp_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmVtSp\frmDmVtSp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmVtSp\frmDmVtSp.Designer.cs">
+      <DependentUpon>frmDmVtSp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmVtSp\frmDmVtSp_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmVtSp\frmDmVtSp_Edit.Designer.cs">
+      <DependentUpon>frmDmVtSp_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmVt\frmDmNhVt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmVt\frmDmNhVt.Designer.cs">
+      <DependentUpon>frmDmNhVt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmVt\frmDmNhVt_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmVt\frmDmNhVt_Edit.Designer.cs">
+      <DependentUpon>frmDmNhVt_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmVt\frmDmVt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmVt\frmDmVt.Designer.cs">
+      <DependentUpon>frmDmVt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmVt\frmDmVt_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmVt\frmDmVt_Edit.Designer.cs">
+      <DependentUpon>frmDmVt_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Equipment\frmEquipmentInfo_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Equipment\frmEquipmentInfo_Edit.Designer.cs">
+      <DependentUpon>frmEquipmentInfo_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="List\frmReplace.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="List\frmReplace.Designer.cs">
+      <DependentUpon>frmReplace.cs</DependentUpon>
+    </Compile>
+    <Compile Include="List\frmDmType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="List\frmDmType.Designer.cs">
+      <DependentUpon>frmDmType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="List\frmDmType_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="List\frmDmType_Edit.Designer.cs">
+      <DependentUpon>frmDmType_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="List\frmEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="List\frmEdit.Designer.cs">
+      <DependentUpon>frmEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="List\frmMergeID.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="List\frmMergeID.Designer.cs">
+      <DependentUpon>frmMergeID.cs</DependentUpon>
+    </Compile>
+    <Compile Include="List\frmView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="List\frmView.Designer.cs">
+      <DependentUpon>frmView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MTTPHH\frmImport_MTTPHH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MTTPHH\frmImport_MTTPHH.Designer.cs">
+      <DependentUpon>frmImport_MTTPHH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MTTPHH\frmInherit_MTTPHH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MTTPHH\frmInherit_MTTPHH.Designer.cs">
+      <DependentUpon>frmInherit_MTTPHH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MTTPHH\frmMTTPHH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MTTPHH\frmMTTPHH.Designer.cs">
+      <DependentUpon>frmMTTPHH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Equipment\frmEquipment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Equipment\frmEquipment.Designer.cs">
+      <DependentUpon>frmEquipment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Equipment\frmEquipment_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Equipment\frmEquipment_Edit.Designer.cs">
+      <DependentUpon>frmEquipment_Edit.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DLSXKT\frmDLSXKT.resx">
+      <DependentUpon>frmDLSXKT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DLSXKT\frmDLSXKT_Edit.resx">
+      <DependentUpon>frmDLSXKT_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmBL\frmTransferHMBL.resx">
+      <DependentUpon>frmTransferHMBL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmBL\frmUnLock_DM.resx">
+      <DependentUpon>frmUnLock_DM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmCa\frmDmCa_CreateAuto.resx">
+      <DependentUpon>frmDmCa_CreateAuto.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmCa\frmDmCaSX.resx">
+      <DependentUpon>frmDmCaSX.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmCa\frmDmCaSX_Edit.resx">
+      <DependentUpon>frmDmCaSX_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmCk-CTrinh_QDinh\frmDmQdMua_Edit.resx">
+      <DependentUpon>frmDmQdMua_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMCSGia\frmCSGiaMuaPL.resx">
+      <DependentUpon>frmCSGiaMuaPL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMCSGia\frmCSGiaMuaPL_Edit.resx">
+      <DependentUpon>frmCSGiaMuaPL_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmDotBT\frmDmDotBT_Edit.resx">
+      <DependentUpon>frmDmDotBT_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmDotBT\frmDmDotBT.resx">
+      <DependentUpon>frmDmDotBT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmDtCbNv\frmIDCMND.resx">
+      <DependentUpon>frmIDCMND.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmDtCbNv\frmNVNT.resx">
+      <DependentUpon>frmNVNT.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmDtCbNv\frmIDCMND_Edit.resx">
+      <DependentUpon>frmIDCMND_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmDtCbNv\frmNVNT_Edit.resx">
+      <DependentUpon>frmNVNT_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmDt_TinChap\frmDmDtXNCN_Edit.resx">
+      <DependentUpon>frmDmDtXNCN_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmKho\frmDmKhoCTKG.resx">
+      <DependentUpon>frmDmKhoCTKG.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmKho\frmDmKhoCTKG_Edit.resx">
+      <DependentUpon>frmDmKhoCTKG_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmKho\frmDmKhoKG.resx">
+      <DependentUpon>frmDmKhoKG.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmKho\frmDmKhoCT.resx">
+      <DependentUpon>frmDmKhoCT.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmKho\frmDmKhoKG_Edit.resx">
+      <DependentUpon>frmDmKhoKG_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmKho\frmDmKhoCT_Edit.resx">
+      <DependentUpon>frmDmKhoCT_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmSuCo\frmDmSuCo.resx">
+      <DependentUpon>frmDmSuCo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmSuCo\frmDmSuCo_Edit.resx">
+      <DependentUpon>frmDmSuCo_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmMacThep\frmDmMacThepCt.resx">
+      <DependentUpon>frmDmMacThepCt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmMacThep\frmDmMacThepCt_Edit.resx">
+      <DependentUpon>frmDmMacThepCt_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmSoHDDT\frmDmSoHDDT.resx">
+      <DependentUpon>frmDmSoHDDT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmSoHDDT\frmDmSoHDDT_Edit.resx">
+      <DependentUpon>frmDmSoHDDT_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmThietBi\frmDmNhTb.resx">
+      <DependentUpon>frmDmNhTb.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmThietBi\frmDmNhTb_Edit.resx">
+      <DependentUpon>frmDmNhTb_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmThietBi\frmDmTb.resx">
+      <DependentUpon>frmDmTb.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmThietBi\frmDmTb_Edit.resx">
+      <DependentUpon>frmDmTb_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmBanVe\frmDmBanVe.resx">
+      <DependentUpon>frmDmBanVe.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmBanVe\frmDmBanVe_Edit.resx">
+      <DependentUpon>frmDmBanVe_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmCa\frmDmCa_Filter.resx">
+      <DependentUpon>frmDmCa_Filter.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMCSGia\frmCSGiaMua_Edit.resx">
+      <DependentUpon>frmCSGiaMua_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMCSGia\frmCSGiaMua.resx">
+      <DependentUpon>frmCSGiaMua.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMCSGia\frmCSGia.resx">
+      <DependentUpon>frmCSGia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMCSGia\frmCSGia_Edit.resx">
+      <DependentUpon>frmCSGia_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmCtAuto\frmDmCtAuto.resx">
+      <DependentUpon>frmDmCtAuto.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmCtAuto\frmDmCtAuto_Edit.resx">
+      <DependentUpon>frmDmCtAuto_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmCTrinh\frmDmCTrinh.resx">
+      <DependentUpon>frmDmCTrinh.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmCTrinh\frmDmCTrinh_Edit.resx">
+      <DependentUpon>frmDmCTrinh_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmCTrinh\frmDmPLCTrinh.resx">
+      <DependentUpon>frmDmPLCTrinh.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmCTrinh\frmDmPLCTrinh_Edit.resx">
+      <DependentUpon>frmDmPLCTrinh_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmLaiSuat\frmDmLaiSuat.resx">
+      <DependentUpon>frmDmLaiSuat.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmLaiSuat\frmDmLaiSuat_Edit.resx">
+      <DependentUpon>frmDmLaiSuat_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmNgayLe\frmDmNgayLe.resx">
+      <DependentUpon>frmDmNgayLe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmNgayLe\frmDmNgayLe_Edit.resx">
+      <DependentUpon>frmDmNgayLe_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmDinhMucNL\frmDmNL.resx">
+      <DependentUpon>frmDmNL.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmDinhMucNL\frmDmNL_Edit.resx">
+      <DependentUpon>frmDmNL_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmBL\frmDmBL.resx">
+      <DependentUpon>frmDmBL.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmBL\frmDmBl_Edit.resx">
+      <DependentUpon>frmDmBl_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmDt_TinChap\frmDmDt_Chung_Edit.resx">
+      <DependentUpon>frmDmDt_Chung_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmKm\frmDmKm.resx">
+      <DependentUpon>frmDmKm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmKm\frmDmKm_Edit.resx">
+      <DependentUpon>frmDmKm_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmNvu\frmDmNvu.resx">
+      <DependentUpon>frmDmNvu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmQDCanTP\frmDmQDCan.resx">
+      <DependentUpon>frmDmQDCan.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmQDCanTP\frmDmQDCan_Edit.resx">
+      <DependentUpon>frmDmQDCan_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmSize\frmDmSize.resx">
+      <DependentUpon>frmDmSize.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmSize\frmDmSize_Edit.resx">
+      <DependentUpon>frmDmSize_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmTKhai\frmDmTKhai.resx">
+      <DependentUpon>frmDmTKhai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmTKhai\frmDmTKhai_Edit.resx">
+      <DependentUpon>frmDmTKhai_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmVtPt\frmDmPTKT.resx">
+      <DependentUpon>frmDmPTKT.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmVtPt\frmDmNhVtPt.resx">
+      <DependentUpon>frmDmNhVtPt.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmVtPt\frmDmNhVtPt_Edit.resx">
+      <DependentUpon>frmDmNhVtPt_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmVtPt\frmDmVtPt.resx">
+      <DependentUpon>frmDmVtPt.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmVtPt\frmDmVtPt_Edit.resx">
+      <DependentUpon>frmDmVtPt_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmVtPt\frmDmPTKT_Edit.resx">
+      <DependentUpon>frmDmPTKT_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmVt\frmDmTenTb.resx">
+      <DependentUpon>frmDmTenTb.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmVt\frmDmVt_Edit_.resx">
+      <DependentUpon>frmDmVt_Edit_.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmXe\frmDmSoXe.resx">
+      <DependentUpon>frmDmSoXe.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmXe\frmDmSoXe_Edit.resx">
+      <DependentUpon>frmDmSoXe_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmXe\frmDmXe.resx">
+      <DependentUpon>frmDmXe.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmXe\frmDmXe_Edit.resx">
+      <DependentUpon>frmDmXe_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmVt\frmDmTenTb_.resx">
+      <DependentUpon>frmDmTenTb_.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmVt\frmDmTenTb_Edit.resx">
+      <DependentUpon>frmDmTenTb_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmVt\frmDmVtPtCt_Edit.resx">
+      <DependentUpon>frmDmVtPtCt_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmVt\frmDmCumTb_Edit.resx">
+      <DependentUpon>frmDmCumTb_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmVt\frmDmCumTb.resx">
+      <DependentUpon>frmDmCumTb.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Equipment\frmEquipmentCt_Edit.resx">
+      <DependentUpon>frmEquipmentCt_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formular\frmFormular.resx">
+      <DependentUpon>frmFormular.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formular\frmFormular_Edit.resx">
+      <DependentUpon>frmFormular_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmCk-CTrinh_QDinh\frmDmQd.resx">
+      <DependentUpon>frmDmQd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmCk-CTrinh_QDinh\frmDmQd_Edit.resx">
+      <DependentUpon>frmDmQd_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmBarems\frmDmBarems.resx">
+      <DependentUpon>frmDmBarems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmBarems\frmDmBarems_Edit.resx">
+      <DependentUpon>frmDmBarems_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmCk-CTrinh_QDinh\frmDmCk.resx">
+      <DependentUpon>frmDmCk.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmCk-CTrinh_QDinh\frmDmCk_Edit.resx">
+      <DependentUpon>frmDmCk_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmBp\frmDmBp.resx">
+      <DependentUpon>frmDmBp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmBp\frmDmBp_Edit.resx">
+      <DependentUpon>frmDmBp_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmCa\frmDmCa.resx">
+      <DependentUpon>frmDmCa.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmCa\frmDmCa_Edit.resx">
+      <DependentUpon>frmDmCa_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmCL\frmDmCL.resx">
+      <DependentUpon>frmDmCL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmCL\frmDmCL_Edit.resx">
+      <DependentUpon>frmDmCL_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmCoTinh\frmDmCoTinh.resx">
+      <DependentUpon>frmDmCoTinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmCoTinh\frmDmCoTinh_Edit.resx">
+      <DependentUpon>frmDmCoTinh_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmDtCbNv\frmDmDtCbNv.resx">
+      <DependentUpon>frmDmDtCbNv.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmDtCbNv\frmDmDtCbNv_Edit.resx">
+      <DependentUpon>frmDmDtCbNv_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmDtCbNv\frmDmNhDtCbNv.resx">
+      <DependentUpon>frmDmNhDtCbNv.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmDtCbNv\frmDmNhDtCbNv_Edit.resx">
+      <DependentUpon>frmDmNhDtCbNv_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmDt_TinChap\frmDmDt.resx">
+      <DependentUpon>frmDmDt.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmDt_TinChap\frmDmDt_Edit.resx">
+      <DependentUpon>frmDmDt_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmDt_TinChap\frmDmDt_Ncc.resx">
+      <DependentUpon>frmDmDt_Ncc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmDt_TinChap\frmDmNhDt.resx">
+      <DependentUpon>frmDmNhDt.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmDt_TinChap\frmDmNhDt_Edit.resx">
+      <DependentUpon>frmDmNhDt_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmHd\frmDmHd.resx">
+      <DependentUpon>frmDmHd.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmHd\frmDmHd_Edit.resx">
+      <DependentUpon>frmDmHd_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmHd\frmDmNhHd.resx">
+      <DependentUpon>frmDmNhHd.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmHd\frmDmNhHd_Edit.resx">
+      <DependentUpon>frmDmNhHd_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmHd\frmDmPLHd.resx">
+      <DependentUpon>frmDmPLHd.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmHd\frmDmPLHd_Edit.resx">
+      <DependentUpon>frmDmPLHd_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmJob\frmDmJob.resx">
+      <DependentUpon>frmDmJob.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmJob\frmDmJob_Edit.resx">
+      <DependentUpon>frmDmJob_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmKho\frmDmKho.resx">
+      <DependentUpon>frmDmKho.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmKho\frmDmKho_Edit.resx">
+      <DependentUpon>frmDmKho_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmKv\frmDmKv.resx">
+      <DependentUpon>frmDmKv.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmKv\frmDmKv_Edit.resx">
+      <DependentUpon>frmDmKv_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmLoaiHang\frmDmLoai_Hang.resx">
+      <DependentUpon>frmDmLoai_Hang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmLoaiHang\frmDmLoai_Hang_Edit.resx">
+      <DependentUpon>frmDmLoai_Hang_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmLots\frmDmLots.resx">
+      <DependentUpon>frmDmLots.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmLots\frmDmLots_Edit.resx">
+      <DependentUpon>frmDmLots_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmMacThep\frmDmMacThep.resx">
+      <DependentUpon>frmDmMacThep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmMacThep\frmDmMacThep_Edit.resx">
+      <DependentUpon>frmDmMacThep_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmNvu\frmDmNvu_Edit.resx">
+      <DependentUpon>frmDmNvu_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmStandard\frmDmStandard.resx">
+      <DependentUpon>frmDmStandard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmStandard\frmDmStandard_Edit.resx">
+      <DependentUpon>frmDmStandard_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmThue\frmDmThue.resx">
+      <DependentUpon>frmDmThue.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmThue\frmDmThue_Edit.resx">
+      <DependentUpon>frmDmThue_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmTk\frmDmTk.resx">
+      <DependentUpon>frmDmTk.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmTk\frmDmTk_Edit.resx">
+      <DependentUpon>frmDmTk_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmTPHH\frmDmTPHH.resx">
+      <DependentUpon>frmDmTPHH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmTPHH\frmDmTPHH_Edit.resx">
+      <DependentUpon>frmDmTPHH_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmVtTs\frmDmNhVtTs.resx">
+      <DependentUpon>frmDmNhVtTs.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmVtTs\frmDmNhVtTs_Edit.resx">
+      <DependentUpon>frmDmNhVtTs_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmVtTs\frmDmVtTs.resx">
+      <DependentUpon>frmDmVtTs.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmVtTs\frmDmVtTs_Edit.resx">
+      <DependentUpon>frmDmVtTs_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmVtSp\frmDmNhVtSp.resx">
+      <DependentUpon>frmDmNhVtSp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmVtSp\frmDmNhVtSp_Edit.resx">
+      <DependentUpon>frmDmNhVtSp_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmVtSp\frmDmVtSp.resx">
+      <DependentUpon>frmDmVtSp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmVtSp\frmDmVtSp_Edit.resx">
+      <DependentUpon>frmDmVtSp_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmVt\frmDmNhVt.resx">
+      <DependentUpon>frmDmNhVt.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmVt\frmDmNhVt_Edit.resx">
+      <DependentUpon>frmDmNhVt_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmVt\frmDmVt.resx">
+      <DependentUpon>frmDmVt.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmVt\frmDmVt_Edit.resx">
+      <DependentUpon>frmDmVt_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Equipment\frmEquipmentInfo_Edit.resx">
+      <DependentUpon>frmEquipmentInfo_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="List\frmReplace.resx">
+      <DependentUpon>frmReplace.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="List\frmDmType.resx">
+      <DependentUpon>frmDmType.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="List\frmDmType_Edit.resx">
+      <DependentUpon>frmDmType_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="List\frmEdit.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="List\frmMergeID.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMergeID.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="List\frmView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MTTPHH\frmImport_MTTPHH.resx">
+      <DependentUpon>frmImport_MTTPHH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MTTPHH\frmInherit_MTTPHH.resx">
+      <DependentUpon>frmInherit_MTTPHH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MTTPHH\frmMTTPHH.resx">
+      <DependentUpon>frmMTTPHH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Equipment\frmEquipment.resx">
+      <DependentUpon>frmEquipment.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Equipment\frmEquipment_Edit.resx">
+      <DependentUpon>frmEquipment_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Rosy.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Log.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="So_Xe\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_iwmn_r81dmbarems_list" model="ir.ui.view">
+        <field name="name">iwmn.r81dmbarems.list</field>
+        <field name="model">iwmn.r81dmbarems</field>
+        <field name="arch" type="xml">
+            <list string="Danh mục barem thép" default_order="ma_size, grade_id, id">
+                <field name="ident00"/>
+                <field name="ma_size"/>
+                <field name="grade_id"/>
+                <field name="bar_weight"/>
+                <field name="barem_kg"/>
+                <field name="barem_qd_min" optional="hide"/>
+                <field name="barem_qd_max" optional="hide"/>
+                <field name="barem_tc_min" optional="hide"/>
+                <field name="barem_tc_max" optional="hide"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmbarems_form" model="ir.ui.view">
+        <field name="name">iwmn.r81dmbarems.form</field>
+        <field name="model">iwmn.r81dmbarems</field>
+        <field name="arch" type="xml">
+            <form string="Danh mục barem thép">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="ma_size"/>
+                            <field name="grade_id"/>
+                            <field name="bar_weight"/>
+                            <field name="barem_kg"/>
+                        </group>
+                        <group>
+                            <field name="ident00"/>
+                            <field name="create_log"/>
+                            <field name="lastmodify_log"/>
+                        </group>
+                    </group>
+                    <group string="Barem quy định">
+                        <field name="barem_qd_min"/>
+                        <field name="barem_qd_max"/>
+                        <field name="barem_qd_tb"/>
+                    </group>
+                    <group string="Barem tiêu chuẩn">
+                        <field name="barem_tc_min"/>
+                        <field name="barem_tc_max"/>
+                        <field name="barem_tc_tb"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmbarems_search" model="ir.ui.view">
+        <field name="name">iwmn.r81dmbarems.search</field>
+        <field name="model">iwmn.r81dmbarems</field>
+        <field name="arch" type="xml">
+            <search string="Tìm kiếm danh mục barem thép">
+                <field name="ident00"/>
+                <field name="ma_size"/>
+                <field name="grade_id"/>
+                <group>
+                    <filter
+                        name="group_by_ma_size"
+                        string="Kích thước"
+                        context="{'group_by': 'ma_size'}"
+                    />
+                    <filter
+                        name="group_by_grade_id"
+                        string="Mác thép"
+                        context="{'group_by': 'grade_id'}"
+                    />
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_iwmn_r81dmbarems" model="ir.actions.act_window">
+        <field name="name">Danh mục barem thép</field>
+        <field name="res_model">iwmn.r81dmbarems</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_iwmn_r81dmbarems_search"/>
+    </record>
+
+    <menuitem
+        id="menu_iwmn_r81dmbarems"
+        name="Danh mục barem thép"
+        parent="menu_iwmn_master_materials"
+        action="action_iwmn_r81dmbarems"
+        sequence="60"
+    />
+</odoo>

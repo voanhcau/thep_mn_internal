@@ -1,0 +1,676 @@
+USE [R50THEPMN3_MACHINE]
+GO
+
+/****** Object:  Table [dbo].[R06BTSC]    Script Date: 06/21/2016 11:03:13 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+----
+drop table VTTB
+SELECT * FROM VTTB WHERE MA_NH_TB <> '' AND LEN(MA_NH_TB) = 2
+
+UPDATE VTTB SET Ma_Nh_Tb = REPLACE(Ma_Nh_Tb, 'B', 'B0') WHERE MA_NH_TB <> '' AND LEN(MA_NH_TB) = 3
+UPDATE VTTB SET Ma_Nh_Tb = REPLACE(Ma_Nh_Tb, 'C', 'C00') WHERE MA_NH_TB <> '' AND LEN(MA_NH_TB) = 2
+UPDATE VTTB SET Ma_Nh_Tb = REPLACE(Ma_Nh_Tb, 'D', 'D0') WHERE MA_NH_TB <> '' AND LEN(MA_NH_TB) = 3
+
+UPDATE VTTB SET Ma_Nh_Tb_Parent = '' where Ma_Nh_Tb_Parent IS NULL
+UPDATE VTTB SET Ma_Nh_Tb = '' where Ma_Nh_Tb IS NULL
+UPDATE VTTB SET Cum = '' where Cum IS NULL
+EXEC sp_GetColumnList 'R81DMNHTB'
+delete from R81DMNHTB
+INSERT INTO R81DMNHTB( Ma_Nh_Tb, Ten_Nh_Tb, Ma_Nh_Tb_Parent, Nh_Cuoi, Ma_Cum, Create_Log, LastModify_Log, Ma_Data)
+select MA_NH_TB, TEN_TB, LEFT(Ma_Nh_Tb,1), CASE WHEN LEN(Ma_Nh_Tb)= 4 then 1 else 0 end, Cum, '','','*' 
+from VTTB WHERE MA_NH_TB <> ''
+
+INSERT INTO R81DMVTTB(Ma_Vt, Ma_Nh_Tb)
+SELECT Ma_Vt, Ma_Nh_Tb 
+	FROM R81DMVT T1 JOIN R81DMNHTB T2 ON T1.Ma_Cum = T2.MA_CUM
+	WHERE SUBSTRING(MA_VT,2,1) = '1' AND Ma_Nh_Tb LIKE 'A%' AND (Ma_Nh_Vt LIKE '0%' OR Ma_Nh_Vt LIKE '4%') AND LEN(Ma_Vt) = 11
+	
+INSERT INTO R81DMVTTB(Ma_Vt, Ma_Nh_Tb)
+SELECT Ma_Vt, Ma_Nh_Tb 
+	FROM R81DMVT T1 JOIN R81DMNHTB T2 ON T1.Ma_Cum = T2.MA_CUM
+	WHERE SUBSTRING(MA_VT,2,1) = '2' AND Ma_Nh_Tb LIKE 'B%' AND (Ma_Nh_Vt LIKE '0%' OR Ma_Nh_Vt LIKE '4%') AND LEN(Ma_Vt) = 11
+			
+
+SELECT * FROM R81DMNHTB
+--where Ma_Nh_Tb not in (SELECT MA_NH_TB from VTTB GROUP BY MA_NH_TB HAVING COUNT(*)>1)
+
+SELECT MA_NH_TB, COUNT(*) from VTTB GROUP BY MA_NH_TB HAVING COUNT(*)>1
+
+select * from R81DMNHTB where LEN(Ma_Nh_Tb)= 8
+UPDATE R81DMNHTB SET MA_NH_TB = LEFT(MA_NH_TB,7) + '0'+ RIGHT(MA_NH_TB,1) where LEN(Ma_Nh_Tb)= 8
+---------
+CREATE TABLE [dbo].[R81DMNHTB](
+	Ma_Nh_Tb VARCHAR(20) NOT NULL DEFAULT('') PRIMARY KEY,
+	Ten_Nh_Tb NVARCHAR(200) NOT NULL DEFAULT(''),
+	Ma_Nh_Tb_Parent VARCHAR(20) NOT NULL DEFAULT(''),
+	Nh_Cuoi BIT NOT NULL DEFAULT(0),
+	Ma_Cum VARCHAR(20) NOT NULL DEFAULT(''),
+	Create_Log VARCHAR(50) NOT NULL DEFAULT(''),
+	LastModify_Log VARCHAR(50) NOT NULL DEFAULT(''),
+	Ma_Data VARCHAR(5) NOT NULL DEFAULT('*')
+)
+GO
+drop table R81DMVTTB
+CREATE TABLE [dbo].[R81DMVTTB](
+	Ident00 INT IDENTITY PRIMARY KEY,
+	Ma_Nh_Tb VARCHAR(20) NOT NULL DEFAULT('') ,
+	Ma_Vt VARCHAR(20) NOT NULL DEFAULT(''),
+	Ngay_Su_Dung DATETIME NOT NULL DEFAULT(''),
+	So_Luong MONEY NOT NULL DEFAULT(0),
+	Tuoi_Tho MONEY NOT NULL DEFAULT(0),
+	Thoi_Gian_Bh MONEY NOT NULL DEFAULT(0),
+	Hinh VARBINARY(MAX),
+	Create_Log VARCHAR(50) NOT NULL DEFAULT(''),
+	LastModify_Log VARCHAR(50) NOT NULL DEFAULT(''),
+	Ma_Data VARCHAR(5) NOT NULL DEFAULT('*')
+)
+
+CREATE TABLE [dbo].[R06BTSC](
+	[Ident00] [int] IDENTITY(1,1) NOT NULL,
+	[Ngay_Lap] [datetime] NOT NULL,
+	[Ma_Vt_Tb] [varchar](20) NOT NULL,
+	[Ma_Vt_Tb_Kt] [varchar](20) NOT NULL,
+	[Ngay_Sua_Chua] [datetime] NOT NULL,
+	[Noi_Dung] [nvarchar](300) NOT NULL,
+	[Thoi_Gian_Ngung_May_DK] [money] NOT NULL,
+	[Thoi_Gian_Ngung_May] [money] NOT NULL,
+	[Thoi_Gian_Hoan_Thanh] [datetime] NOT NULL,
+	[Duyet] [bit] NOT NULL,
+	[Ngay_Duyet] [datetime] NOT NULL,
+	[Hien_Trang] [nvarchar](200) NOT NULL,
+	[Nguyen_Nhan] [nvarchar](200) NOT NULL,
+	[Bien_Phap] [nvarchar](200) NOT NULL,
+	[Ket_Qua] [nvarchar](200) NOT NULL,
+	[Ngay_DKHT] [datetime] NOT NULL,
+	[Nghiem_Thu] [nvarchar](200) NOT NULL,
+	[Ngay_Nghiem_Thu] [datetime] NOT NULL,
+	[Hinh] [varbinary](max) NULL,
+	[Create_Log] [varchar](35) NOT NULL,
+	[LastModify_Log] [varchar](35) NOT NULL,
+	[Trong_Ke_Hoach] [bit] NOT NULL,
+	[TypeOfMaintenance] [nvarchar](50) NOT NULL,
+	[Ma_Dt_Cbnv_YC] [varchar](20) NOT NULL,
+	[Ma_Dt_Cbnv_Bt] [varchar](20) NOT NULL,
+	[Ma_Dt_Cbnv_KT] [varchar](20) NOT NULL,
+	[ContractID] [varchar](20) NOT NULL,
+	[ContractDate] [datetime] NOT NULL,
+	[ContractDescription] [nvarchar](200) NOT NULL,
+	[Ten_DtA] [nvarchar](100) NOT NULL,
+	[Dia_ChiA] [nvarchar](100) NOT NULL,
+	[MSTA] [varchar](50) NOT NULL,
+	[Ong_baA] [nvarchar](50) NOT NULL,
+	[Chuc_VuA] [nvarchar](50) NOT NULL,
+	[Ten_DtB] [nvarchar](100) NOT NULL,
+	[Dia_ChiB] [nvarchar](100) NOT NULL,
+	[MSTB] [varchar](50) NOT NULL,
+	[Ong_baB] [nvarchar](50) NOT NULL,
+	[Chuc_VuB] [nvarchar](50) NOT NULL,
+	[De_Xuat] [nvarchar](200) NOT NULL,
+	[Ket_Luan] [nvarchar](200) NOT NULL,
+	[Tinh_Trang] [nvarchar](200) NOT NULL,
+	[Ma_Bp] [varchar](20) NOT NULL,
+	[Duyet_YC] [bit] NOT NULL,
+	[Ngay_Duyet_YC] [datetime] NOT NULL,
+	[Phu_Tung_Kem_Theo] [nvarchar](200) NOT NULL,
+	[Ghi_Chu] [nvarchar](200) NOT NULL,
+	[Ky_Hieu] [char](1) NOT NULL,
+	[Stt] [varchar](15) NOT NULL,
+	[Ma_Ct] [varchar](5) NOT NULL,
+	[Ngay_Ct] [datetime] NOT NULL,
+	[Ma_Dvcs] [varchar](3) NOT NULL,
+	[Tien] [money] NOT NULL,
+	[Tien_Nt] [money] NOT NULL,
+	[Ty_Gia] [money] NOT NULL,
+	[Ma_Tte] [varchar](5) NOT NULL,
+	[Stt0] [int] NOT NULL,
+	[So_Ct] [varchar](20) NOT NULL,
+	[Ma_Nvu] [varchar](20) NOT NULL,
+	[Cong_Du_Kien] [money] NOT NULL,
+	[Cong_Thuc_Te] [money] NOT NULL,
+	[Ma_Bp_YC] [varchar](20) NOT NULL,
+	[Is_YC] [bit] NOT NULL,
+	[Hoan_Thanh] [bit] NOT NULL,
+ CONSTRAINT [PK__R06BTSC__352AA1BB1922560A] PRIMARY KEY CLUSTERED 
+(
+	[Ident00] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Ngay_La__0B5E4698]  DEFAULT ('19000101') FOR [Ngay_Lap]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Ma_Vt_T__1CF2E6EE]  DEFAULT ('') FOR [Ma_Vt_Tb]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Ma_Vt_T__3AA34566]  DEFAULT ('') FOR [Ma_Vt_Tb_Kt]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Ngay_Su__1B0A9E7C]  DEFAULT ('19000101') FOR [Ngay_Sua_Chua]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Noi_Dun__1BFEC2B5]  DEFAULT ('') FOR [Noi_Dung]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Thoi_Gi__2261A781]  DEFAULT ((0)) FOR [Thoi_Gian_Ngung_May_DK]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Thoi_Gi__1FCF5399]  DEFAULT ((0)) FOR [Thoi_Gian_Ngung_May]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Thoi_Gi__20C377D2]  DEFAULT ('19000101') FOR [Thoi_Gian_Hoan_Thanh]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Duyet__249408B6]  DEFAULT ((0)) FOR [Duyet]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Ngay_Du__59C6EB04]  DEFAULT ('19000101') FOR [Ngay_Duyet]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Hien_Tr__05A56D42]  DEFAULT ('') FOR [Hien_Trang]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Nguyen___0699917B]  DEFAULT ('') FOR [Nguyen_Nhan]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Bien_Ph__078DB5B4]  DEFAULT ('') FOR [Bien_Phap]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Ket_Qua__0881D9ED]  DEFAULT ('') FOR [Ket_Qua]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Ngay_DK__0A6A225F]  DEFAULT ('19000101') FOR [Ngay_DKHT]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Nghiem___0975FE26]  DEFAULT ('') FOR [Nghiem_Thu]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Ngay_Ng__0C526AD1]  DEFAULT ('19000101') FOR [Ngay_Nghiem_Thu]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Create___43188FD6]  DEFAULT ('') FOR [Create_Log]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__LastMod__440CB40F]  DEFAULT ('') FOR [LastModify_Log]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Is_Plan__4E202E2E]  DEFAULT ((0)) FOR [Trong_Ke_Hoach]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__TypeOfM__4F145267]  DEFAULT ('') FOR [TypeOfMaintenance]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Ma_Dt_C__589DBCA1]  DEFAULT ('') FOR [Ma_Dt_Cbnv_YC]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Ma_Dt_C__22ABC044]  DEFAULT ('') FOR [Ma_Dt_Cbnv_Bt]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Ma_Dt_C__3B97699F]  DEFAULT ('') FOR [Ma_Dt_Cbnv_KT]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Contrac__79FEB06C]  DEFAULT ('') FOR [ContractID]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Contrac__7AF2D4A5]  DEFAULT ('19000101') FOR [ContractDate]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Contrac__7BE6F8DE]  DEFAULT ('') FOR [ContractDescription]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Ten_DtA__7CDB1D17]  DEFAULT ('') FOR [Ten_DtA]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Dia_Chi__7DCF4150]  DEFAULT ('') FOR [Dia_ChiA]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__MSTA__7EC36589]  DEFAULT ('') FOR [MSTA]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Ong_baA__7FB789C2]  DEFAULT ('') FOR [Ong_baA]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Chuc_Vu__00ABADFB]  DEFAULT ('') FOR [Chuc_VuA]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Ten_DtB__019FD234]  DEFAULT ('') FOR [Ten_DtB]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Dia_Chi__0293F66D]  DEFAULT ('') FOR [Dia_ChiB]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__MSTB__03881AA6]  DEFAULT ('') FOR [MSTB]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Ong_baB__047C3EDF]  DEFAULT ('') FOR [Ong_baB]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Chuc_Vu__05706318]  DEFAULT ('') FOR [Chuc_VuB]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__De_Xuat__06648751]  DEFAULT ('') FOR [De_Xuat]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Ket_Lua__0758AB8A]  DEFAULT ('') FOR [Ket_Luan]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Tinh_Tr__2E7278AB]  DEFAULT ('') FOR [Tinh_Trang]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Ma_Bp__2F669CE4]  DEFAULT ('') FOR [Ma_Bp]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Duyet_Y__305AC11D]  DEFAULT ('') FOR [Duyet_YC]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Ngay_Du__314EE556]  DEFAULT ('19000101') FOR [Ngay_Duyet_YC]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Phu_Tun__33372DC8]  DEFAULT ('') FOR [Phu_Tung_Kem_Theo]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Ghi_Chu__39E42B57]  DEFAULT ('') FOR [Ghi_Chu]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Ky_Hieu__6093E424]  DEFAULT ('') FOR [Ky_Hieu]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Stt__65589941]  DEFAULT ('') FOR [Stt]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Ma_Ct__6B117297]  DEFAULT ('') FOR [Ma_Ct]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Ngay_Ct__6C0596D0]  DEFAULT ('19000101') FOR [Ngay_Ct]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Ma_Dvcs__6CF9BB09]  DEFAULT ('A01') FOR [Ma_Dvcs]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Tien__6DEDDF42]  DEFAULT ((0)) FOR [Tien]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Tien_Nt__6EE2037B]  DEFAULT ((0)) FOR [Tien_Nt]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Ty_Gia__6FD627B4]  DEFAULT ((0)) FOR [Ty_Gia]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Ma_Tte__70CA4BED]  DEFAULT ('') FOR [Ma_Tte]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Stt0__71BE7026]  DEFAULT ((0)) FOR [Stt0]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__So_Ct__72B2945F]  DEFAULT ('') FOR [So_Ct]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Ma_Nvu__7A53B627]  DEFAULT ('') FOR [Ma_Nvu]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Cong_Du__17E4190E]  DEFAULT ((0)) FOR [Cong_Du_Kien]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  CONSTRAINT [DF__R06BTSC__Cong_Th__18D83D47]  DEFAULT ((0)) FOR [Cong_Thuc_Te]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  DEFAULT ('') FOR [Ma_Bp_YC]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  DEFAULT ((0)) FOR [Is_YC]
+GO
+
+ALTER TABLE [dbo].[R06BTSC] ADD  DEFAULT ((0)) FOR [Hoan_Thanh]
+GO
+
+-----------------------------
+USE [R50DONGTIEN]
+GO
+
+/****** Object:  Table [dbo].[R06KHBTSC]    Script Date: 06/21/2016 11:04:54 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[R06KHBTSC](
+	[Ident00] [int] IDENTITY(1,1) NOT NULL,
+	[Ma_Vt_Tb] [varchar](20) NOT NULL,
+	[Ma_Vt_Tb_Kt] [varchar](20) NOT NULL,
+	[Noi_Dung] [nvarchar](200) NOT NULL,
+	[Dinh_Ky] [money] NOT NULL,
+	[Thoi_Luong] [money] NOT NULL,
+	[Ma_Dt_Cbnv] [varchar](20) NOT NULL,
+	[Ma_Bp] [varchar](20) NOT NULL,
+	[Ngay_Ap] [datetime] NOT NULL,
+	[Ngay_End] [datetime] NOT NULL,
+	[LastModify_Log] [varchar](35) NOT NULL,
+	[Create_Log] [varchar](35) NOT NULL,
+	[Loai_Ke_Hoach] [nvarchar](100) NOT NULL,
+ CONSTRAINT [PK__R06KHBTS__352AA1BB45BFF257] PRIMARY KEY CLUSTERED 
+(
+	[Ident00] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+ALTER TABLE [dbo].[R06KHBTSC] ADD  CONSTRAINT [DF__R06KHBTSC__Ma_Vt__4D61141F]  DEFAULT ('') FOR [Ma_Vt_Tb]
+GO
+
+ALTER TABLE [dbo].[R06KHBTSC] ADD  CONSTRAINT [DF__R06KHBTSC__Ma_Vt__420F5D04]  DEFAULT ('') FOR [Ma_Vt_Tb_Kt]
+GO
+
+ALTER TABLE [dbo].[R06KHBTSC] ADD  CONSTRAINT [DF__R06KHBTSC__Noi_D__342B5201]  DEFAULT ('') FOR [Noi_Dung]
+GO
+
+ALTER TABLE [dbo].[R06KHBTSC] ADD  CONSTRAINT [DF__R06KHBTSC__Dinh___4F695822]  DEFAULT ((0)) FOR [Dinh_Ky]
+GO
+
+ALTER TABLE [dbo].[R06KHBTSC] ADD  CONSTRAINT [DF__R06KHBTSC__Thoi___3707BEAC]  DEFAULT ((0)) FOR [Thoi_Luong]
+GO
+
+ALTER TABLE [dbo].[R06KHBTSC] ADD  CONSTRAINT [DF__R06KHBTSC__Ma_Dt__37FBE2E5]  DEFAULT ('') FOR [Ma_Dt_Cbnv]
+GO
+
+ALTER TABLE [dbo].[R06KHBTSC] ADD  CONSTRAINT [DF__R06KHBTSC__Ma_Bp__38F0071E]  DEFAULT ('') FOR [Ma_Bp]
+GO
+
+ALTER TABLE [dbo].[R06KHBTSC] ADD  CONSTRAINT [DF__R06KHBTSC__Ngay___40271492]  DEFAULT ('19000101') FOR [Ngay_Ap]
+GO
+
+ALTER TABLE [dbo].[R06KHBTSC] ADD  CONSTRAINT [DF__R06KHBTSC__Ngay___411B38CB]  DEFAULT ('19000101') FOR [Ngay_End]
+GO
+
+ALTER TABLE [dbo].[R06KHBTSC] ADD  CONSTRAINT [DF__R06KHBTSC__LastM__57DEA292]  DEFAULT ('') FOR [LastModify_Log]
+GO
+
+ALTER TABLE [dbo].[R06KHBTSC] ADD  CONSTRAINT [DF__R06KHBTSC__Creat__58D2C6CB]  DEFAULT ('') FOR [Create_Log]
+GO
+
+ALTER TABLE [dbo].[R06KHBTSC] ADD  DEFAULT ('') FOR [Loai_Ke_Hoach]
+GO
+
+
+-------------------------
+USE [R50DONGTIEN]
+GO
+
+/****** Object:  Table [dbo].[R06PTKT]    Script Date: 06/21/2016 11:05:14 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[R06PTKT](
+	[Ident00] [int] IDENTITY(1,1) NOT NULL,
+	[Ma_Vt_Tb] [varchar](20) NOT NULL,
+	[Ma_Vt_Tb_Kt] [varchar](20) NOT NULL,
+	[Create_Log] [varchar](35) NOT NULL,
+	[LastModify_Log] [varchar](35) NOT NULL,
+	[So_Luong] [money] NOT NULL,
+	[Vi_Tri] [nvarchar](200) NOT NULL,
+	[Ngay_Thay] [datetime] NOT NULL,
+	[Dinh_Ky_Thay] [money] NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Ident00] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+ALTER TABLE [dbo].[R06PTKT] ADD  DEFAULT ('') FOR [Ma_Vt_Tb]
+GO
+
+ALTER TABLE [dbo].[R06PTKT] ADD  DEFAULT ('') FOR [Ma_Vt_Tb_Kt]
+GO
+
+ALTER TABLE [dbo].[R06PTKT] ADD  DEFAULT ('') FOR [Create_Log]
+GO
+
+ALTER TABLE [dbo].[R06PTKT] ADD  DEFAULT ('') FOR [LastModify_Log]
+GO
+
+ALTER TABLE [dbo].[R06PTKT] ADD  DEFAULT ((0)) FOR [So_Luong]
+GO
+
+ALTER TABLE [dbo].[R06PTKT] ADD  DEFAULT ('') FOR [Vi_Tri]
+GO
+
+ALTER TABLE [dbo].[R06PTKT] ADD  DEFAULT ('19000101') FOR [Ngay_Thay]
+GO
+
+ALTER TABLE [dbo].[R06PTKT] ADD  DEFAULT ((0)) FOR [Dinh_Ky_Thay]
+GO
+
+
+--------------
+USE [R50DONGTIEN]
+GO
+
+/****** Object:  Table [dbo].[R06RESOURCE]    Script Date: 06/21/2016 11:05:32 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[R06RESOURCE](
+	[Ident00] [int] IDENTITY(1,1) NOT NULL,
+	[Ma_Vt_Tb] [varchar](20) NOT NULL,
+	[File_Name] [nvarchar](50) NOT NULL,
+	[File_Tag] [varchar](10) NOT NULL,
+	[File_Content] [varbinary](max) NULL,
+	[Create_Log] [varchar](35) NOT NULL,
+	[LastModify_Log] [varchar](35) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Ident00] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+ALTER TABLE [dbo].[R06RESOURCE] ADD  DEFAULT ('') FOR [Ma_Vt_Tb]
+GO
+
+ALTER TABLE [dbo].[R06RESOURCE] ADD  DEFAULT ('') FOR [File_Tag]
+GO
+
+ALTER TABLE [dbo].[R06RESOURCE] ADD  DEFAULT ('') FOR [Create_Log]
+GO
+
+ALTER TABLE [dbo].[R06RESOURCE] ADD  DEFAULT ('') FOR [LastModify_Log]
+GO
+
+
+---------
+USE [R50DONGTIEN]
+GO
+
+/****** Object:  Table [dbo].[R06SDTS]    Script Date: 06/21/2016 11:05:45 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[R06SDTS](
+	[Ident00] [int] IDENTITY(1,1) NOT NULL,
+	[Stt] [varchar](15) NOT NULL,
+	[Nam] [int] NOT NULL,
+	[Ngay_Ct] [datetime] NOT NULL,
+	[So_Ct] [varchar](20) NOT NULL,
+	[Ma_Vt_Ts] [varchar](20) NOT NULL,
+	[So_Luong] [money] NOT NULL,
+	[Tien_NG] [money] NOT NULL,
+	[Tien_HM] [money] NOT NULL,
+	[Tien_CL] [money] NOT NULL,
+	[Tien_NG_Nt] [money] NOT NULL,
+	[Tien_HM_Nt] [money] NOT NULL,
+	[Tien_CL_Nt] [money] NOT NULL,
+	[Ma_Nvon] [varchar](20) NOT NULL,
+	[Tinh_Kh] [bit] NOT NULL,
+	[Ngay_Bd_Kh] [datetime] NOT NULL,
+	[So_Thang_Kh] [smallint] NOT NULL,
+	[Tk_No_Kh] [varchar](10) NOT NULL,
+	[Tk_Co_Kh] [varchar](10) NOT NULL,
+	[Ma_Bp] [varchar](20) NOT NULL,
+	[Ma_Km] [varchar](20) NOT NULL,
+	[Ma_Sp] [varchar](20) NOT NULL,
+	[Create_Log] [varchar](35) NOT NULL,
+	[LastModify_Log] [varchar](35) NOT NULL,
+	[Ma_DvCs] [varchar](3) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Ident00] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+ALTER TABLE [dbo].[R06SDTS] ADD  DEFAULT ('') FOR [So_Ct]
+GO
+
+ALTER TABLE [dbo].[R06SDTS] ADD  DEFAULT ((0)) FOR [So_Luong]
+GO
+
+ALTER TABLE [dbo].[R06SDTS] ADD  DEFAULT ((0)) FOR [Tien_NG]
+GO
+
+ALTER TABLE [dbo].[R06SDTS] ADD  DEFAULT ((0)) FOR [Tien_HM]
+GO
+
+ALTER TABLE [dbo].[R06SDTS] ADD  DEFAULT ((0)) FOR [Tien_CL]
+GO
+
+ALTER TABLE [dbo].[R06SDTS] ADD  DEFAULT ((0)) FOR [Tien_NG_Nt]
+GO
+
+ALTER TABLE [dbo].[R06SDTS] ADD  DEFAULT ((0)) FOR [Tien_HM_Nt]
+GO
+
+ALTER TABLE [dbo].[R06SDTS] ADD  DEFAULT ((0)) FOR [Tien_CL_Nt]
+GO
+
+ALTER TABLE [dbo].[R06SDTS] ADD  DEFAULT ('') FOR [Ma_Nvon]
+GO
+
+ALTER TABLE [dbo].[R06SDTS] ADD  DEFAULT ((1)) FOR [Tinh_Kh]
+GO
+
+ALTER TABLE [dbo].[R06SDTS] ADD  DEFAULT ('') FOR [Ngay_Bd_Kh]
+GO
+
+ALTER TABLE [dbo].[R06SDTS] ADD  DEFAULT ((0)) FOR [So_Thang_Kh]
+GO
+
+ALTER TABLE [dbo].[R06SDTS] ADD  DEFAULT ('') FOR [Tk_No_Kh]
+GO
+
+ALTER TABLE [dbo].[R06SDTS] ADD  DEFAULT ('') FOR [Tk_Co_Kh]
+GO
+
+ALTER TABLE [dbo].[R06SDTS] ADD  DEFAULT ('') FOR [Ma_Bp]
+GO
+
+ALTER TABLE [dbo].[R06SDTS] ADD  DEFAULT ('') FOR [Ma_Km]
+GO
+
+ALTER TABLE [dbo].[R06SDTS] ADD  DEFAULT ('') FOR [Ma_Sp]
+GO
+
+ALTER TABLE [dbo].[R06SDTS] ADD  DEFAULT ('') FOR [Create_Log]
+GO
+
+ALTER TABLE [dbo].[R06SDTS] ADD  DEFAULT ('') FOR [LastModify_Log]
+GO
+
+ALTER TABLE [dbo].[R06SDTS] ADD  DEFAULT ('') FOR [Ma_DvCs]
+GO
+
+
+------
+USE [R50DONGTIEN]
+GO
+
+/****** Object:  Table [dbo].[R06VTDP]    Script Date: 06/21/2016 11:06:06 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[R06VTDP](
+	[Ident00] [int] IDENTITY(1,1) NOT NULL,
+	[Ma_Vt_Tb] [varchar](20) NOT NULL,
+	[Ma_Vt_Dp] [varchar](20) NOT NULL,
+	[Create_Log] [varchar](35) NOT NULL,
+	[LastModify_Log] [varchar](35) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Ident00] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+ALTER TABLE [dbo].[R06VTDP] ADD  DEFAULT ('') FOR [Ma_Vt_Tb]
+GO
+
+ALTER TABLE [dbo].[R06VTDP] ADD  DEFAULT ('') FOR [Ma_Vt_Dp]
+GO
+
+ALTER TABLE [dbo].[R06VTDP] ADD  DEFAULT ('') FOR [Create_Log]
+GO
+
+ALTER TABLE [dbo].[R06VTDP] ADD  DEFAULT ('') FOR [LastModify_Log]
+GO
+
+
+

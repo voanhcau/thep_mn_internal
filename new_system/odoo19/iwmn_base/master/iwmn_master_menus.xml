@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem id="menu_iwmn_base_root" name="IWMN" sequence="90"/>
+    <menuitem id="menu_iwmn_master_data" name="Danh mục" parent="menu_iwmn_base_root" sequence="10"/>
+    <menuitem id="menu_iwmn_master_organization" name="Tổ chức &amp; nhân sự" parent="menu_iwmn_master_data" sequence="10"/>
+    <menuitem id="menu_iwmn_master_warehouse" name="Kho &amp; vận chuyển" parent="menu_iwmn_master_data" sequence="20"/>
+    <menuitem id="menu_iwmn_master_materials" name="Vật tư &amp; sản phẩm" parent="menu_iwmn_master_data" sequence="30"/>
+    <menuitem id="menu_iwmn_master_quality" name="Chất lượng &amp; tiêu chuẩn" parent="menu_iwmn_master_data" sequence="40"/>
+    <menuitem id="menu_iwmn_master_equipment" name="Thiết bị &amp; cân" parent="menu_iwmn_master_data" sequence="50"/>
+    <menuitem id="menu_iwmn_master_finance" name="Tài chính &amp; kế toán" parent="menu_iwmn_master_data" sequence="60"/>
+    <menuitem id="menu_iwmn_master_production" name="Sản xuất &amp; định mức" parent="menu_iwmn_master_data" sequence="70"/>
+    <menuitem id="menu_iwmn_master_business" name="Kết quả kinh doanh" parent="menu_iwmn_master_data" sequence="80"/>
+    <menuitem id="menu_iwmn_master_operations" name="Vận hành chung" parent="menu_iwmn_master_data" sequence="90"/>
+</odoo>

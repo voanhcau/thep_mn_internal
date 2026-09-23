@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_iwmn_r81dmnhhd_list" model="ir.ui.view">
+        <field name="name">iwmn.r81dmnhhd.list</field>
+        <field name="model">iwmn.r81dmnhhd</field>
+        <field name="arch" type="xml">
+            <list string="R81DMNHHD - Ten_Nh_Hd">
+                <field name="ma_nh_hd"/>
+                <field name="ten_nh_hd"/>
+                <field name="ma_nh_hd_parent"/>
+                <field name="nh_cuoi"/>
+                <field name="ngay_begin"/>
+                <field name="ngay_end"/>
+                <field name="ma_data"/>
+                <field name="create_log"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmnhhd_form" model="ir.ui.view">
+        <field name="name">iwmn.r81dmnhhd.form</field>
+        <field name="model">iwmn.r81dmnhhd</field>
+        <field name="arch" type="xml">
+            <form string="R81DMNHHD - Ten_Nh_Hd">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="ma_nh_hd"/>
+                            <field name="ten_nh_hd"/>
+                            <field name="ma_nh_hd_parent"/>
+                            <field name="nh_cuoi"/>
+                            <field name="ngay_begin"/>
+                        </group>
+                        <group>
+                            <field name="ngay_end"/>
+                            <field name="ma_data"/>
+                            <field name="create_log"/>
+                            <field name="lastmodify_log"/>
+                            <field name="ident00"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmnhhd_search" model="ir.ui.view">
+        <field name="name">iwmn.r81dmnhhd.search</field>
+        <field name="model">iwmn.r81dmnhhd</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="ten_nh_hd"/>
+                <field name="ma_nh_hd"/>
+                <field name="ma_nh_hd_parent"/>
+                <field name="nh_cuoi"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_iwmn_r81dmnhhd" model="ir.actions.act_window">
+        <field name="name">R81DMNHHD - Ten_Nh_Hd</field>
+        <field name="res_model">iwmn.r81dmnhhd</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_iwmn_r81dmnhhd_search"/>
+    </record>
+
+    <menuitem id="menu_iwmn_r81dmnhhd" name="R81DMNHHD - Ten_Nh_Hd"
+              parent="menu_iwmn_master_finance"
+              action="action_iwmn_r81dmnhhd" sequence="44"/>
+</odoo>

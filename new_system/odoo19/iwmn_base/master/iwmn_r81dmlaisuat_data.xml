@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="iwmn_r81dmlaisuat_7" model="iwmn.r81dmlaisuat">
+            <field name="ident00">7</field>
+            <field name="lai_suat">9.0000</field>
+            <field name="create_log">220216:133609:VR</field>
+            <field name="lastmodify_log">310316:080045:VR</field>
+            <field name="thang">1</field>
+            <field name="nam">2016</field>
+            <field name="so_ngay_ck_thang">15</field>
+            <field name="gia_ck_thang">1500</field>
+        </record>
+        <record id="iwmn_r81dmlaisuat_5" model="iwmn.r81dmlaisuat">
+            <field name="ident00">5</field>
+            <field name="lai_suat">8.0000</field>
+            <field name="create_log">011015:144804:VR</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="thang">8</field>
+            <field name="nam">2015</field>
+            <field name="so_ngay_ck_thang">0</field>
+            <field name="gia_ck_thang">0</field>
+        </record>
+        <record id="iwmn_r81dmlaisuat_3" model="iwmn.r81dmlaisuat">
+            <field name="ident00">3</field>
+            <field name="lai_suat">9.0000</field>
+            <field name="create_log">280915:170351:VR</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="thang">9</field>
+            <field name="nam">2015</field>
+            <field name="so_ngay_ck_thang">0</field>
+            <field name="gia_ck_thang">0</field>
+        </record>
+        <record id="iwmn_r81dmlaisuat_4" model="iwmn.r81dmlaisuat">
+            <field name="ident00">4</field>
+            <field name="lai_suat">8.0000</field>
+            <field name="create_log">280915:171403:VR</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="thang">10</field>
+            <field name="nam">2015</field>
+            <field name="so_ngay_ck_thang">0</field>
+            <field name="gia_ck_thang">0</field>
+        </record>
+        <record id="iwmn_r81dmlaisuat_6" model="iwmn.r81dmlaisuat">
+            <field name="ident00">6</field>
+            <field name="lai_suat">9.0000</field>
+            <field name="create_log">180216:163024:VR</field>
+            <field name="lastmodify_log">220216:140319:VR</field>
+            <field name="thang">12</field>
+            <field name="nam">2016</field>
+            <field name="so_ngay_ck_thang">0</field>
+            <field name="gia_ck_thang">0</field>
+        </record>
+    </data>
+</odoo>

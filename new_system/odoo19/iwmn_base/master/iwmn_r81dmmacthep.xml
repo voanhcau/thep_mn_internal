@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_iwmn_r81dmmacthep_list" model="ir.ui.view">
+        <field name="name">iwmn.r81dmmacthep.list</field>
+        <field name="model">iwmn.r81dmmacthep</field>
+        <field name="arch" type="xml">
+            <list string="R81DMMACTHEP - Grade_Name">
+                <field name="grade_id"/>
+                <field name="grade_name"/>
+                <field name="standard_id"/>
+                <field name="create_log"/>
+                <field name="lastmodify_log"/>
+                <field name="bend_standard"/>
+                <field name="chemis_standard"/>
+                <field name="pull_standard"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmmacthep_form" model="ir.ui.view">
+        <field name="name">iwmn.r81dmmacthep.form</field>
+        <field name="model">iwmn.r81dmmacthep</field>
+        <field name="arch" type="xml">
+            <form string="R81DMMACTHEP - Grade_Name">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="grade_id"/>
+                            <field name="grade_name"/>
+                            <field name="standard_id"/>
+                            <field name="create_log"/>
+                            <field name="lastmodify_log"/>
+                        </group>
+                        <group>
+                            <field name="bend_standard"/>
+                            <field name="chemis_standard"/>
+                            <field name="pull_standard"/>
+                            <field name="ngay_begin"/>
+                            <field name="ngay_end"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmmacthep_search" model="ir.ui.view">
+        <field name="name">iwmn.r81dmmacthep.search</field>
+        <field name="model">iwmn.r81dmmacthep</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="grade_name"/>
+                <field name="grade_id"/>
+                <field name="standard_id"/>
+                <field name="create_log"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_iwmn_r81dmmacthep" model="ir.actions.act_window">
+        <field name="name">R81DMMACTHEP - Grade_Name</field>
+        <field name="res_model">iwmn.r81dmmacthep</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_iwmn_r81dmmacthep_search"/>
+    </record>
+
+    <menuitem id="menu_iwmn_r81dmmacthep" name="R81DMMACTHEP - Grade_Name"
+              parent="menu_iwmn_master_quality"
+              action="action_iwmn_r81dmmacthep" sequence="36"/>
+</odoo>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="iwmn_r81baremphoi_1" model="iwmn.r81baremphoi">
+            <field name="ident00">1</field>
+            <field name="loai_phoi">120x120</field>
+            <field name="ngay_ap">2010-06-10 00:00:00</field>
+            <field name="barem">112.7470</field>
+        </record>
+        <record id="iwmn_r81baremphoi_2" model="iwmn.r81baremphoi">
+            <field name="ident00">2</field>
+            <field name="loai_phoi">150x150</field>
+            <field name="ngay_ap">2010-06-10 00:00:00</field>
+            <field name="barem">176.0610</field>
+        </record>
+        <record id="iwmn_r81baremphoi_3" model="iwmn.r81baremphoi">
+            <field name="ident00">3</field>
+            <field name="loai_phoi">120x120</field>
+            <field name="ngay_ap">2019-07-19 00:00:00</field>
+            <field name="barem">112.0700</field>
+        </record>
+        <record id="iwmn_r81baremphoi_4" model="iwmn.r81baremphoi">
+            <field name="ident00">4</field>
+            <field name="loai_phoi">150x150</field>
+            <field name="ngay_ap">2019-07-19 00:00:00</field>
+            <field name="barem">177.0710</field>
+        </record>
+    </data>
+</odoo>

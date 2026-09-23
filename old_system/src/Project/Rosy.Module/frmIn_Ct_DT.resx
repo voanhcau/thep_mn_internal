@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="txtPhat_Adp.Text" xml:space="preserve">
+    <value>Đối với phạt vi phạm theo Điều 6.1 và lãi/phạt chậm thanh toán theo Điều 6.2, trường hợp số tiền phạt hoặc lãi phát sinh được xác định cho từng Đơn đặt hàng hoặc từng lần vi phạm có giá trị dưới 500.000 đồng (Năm trăm nghìn đồng chẵn), các bên thống nhất không thực hiện thu nhằm giảm thủ tục hành chính. 
+Việc không thực hiện thu các khoản nêu trên không được hiểu là miễn trừ trách nhiệm, từ bỏ quyền yêu cầu, và không làm mất quyền áp dụng chế tài của bên bị vi phạm đối với các vi phạm có giá trị lớn hơn hoặc các hành vi vi phạm mang tính lặp lại.</value>
+  </data>
+  <data name="txtPhat_Tt.Text" xml:space="preserve">
+    <value>a) Bên Mua thanh toán chậm từ 01 (một) ngày đến hết 15 (mười lăm) ngày so với thời hạn thanh toán tại Đơn đặt hàng thì không áp dụng phạt/lãi chậm thanh toán; thời gian này được tính là thời gian dự kiến để Bên Bán hoàn thiện hồ sơ thanh toán, đối chiếu chứng từ và thực hiện thủ tục liên quan (nếu có).
+b) Bên Mua thanh toán chậm từ ngày thứ 16 đến hết ngày thứ 30:
+Lãi chậm trả = 120% × R × (Số tiền thanh toán chậm) × (Số ngày chậm thanh toán – 15) / 365.
+c) Bên Mua thanh toán chậm từ ngày thứ 31 đến hết ngày thứ 60 (không vượt quá 60 ngày):
+Lãi chậm trả = 150% × R × (Số tiền thanh toán chậm) × (Số ngày chậm thanh toán – 15) / 365.
+Trong đó, R là lãi suất tiền gửi kỳ hạn 01 (một) tháng của Khách hàng Doanh nghiệp tại Ngân hàng TMCP Ngoại thương Việt Nam công bố tại thời điểm “Ngày thanh toán”.
+d) Khoản lãi chậm trả (nếu có) phải được Bên Bán lập biên bản/bảng tính và thông báo bằng văn bản cho Bên Mua trong vòng 15 (mười lăm) ngày kể từ ngày nhận khoản thanh toán chậm; quá thời hạn này, Bên Mua có quyền không xem xét.
+e) “Ngày thanh toán” là ngày số tiền được ghi Có vào tài khoản của Bên Bán theo hạch toán ngân hàng. “Số ngày chậm thanh toán” = (Ngày thanh toán) – (Ngày đến hạn thanh toán theo Đơn đặt hàng).
+</value>
+  </data>
+  <data name="txtPhat_Gh.Text" xml:space="preserve">
+    <value>a) Bên Bán giao hàng chậm từ 01 (một) ngày đến hết 15 (mười lăm) ngày so với thời hạn giao hàng tại Đơn đặt hàng thì không áp dụng phạt vi phạm; thời gian này được tính là thời gian dự kiến để Bên Mua kiểm tra, nghiệm thu và hoàn thiện hồ sơ, thủ tục liên quan.
+b) Bên Bán giao hàng chậm từ ngày thứ 16 (mười sáu) trở đi so với thời hạn giao hàng tại Đơn đặt hàng thì chịu phạt vi phạm do chậm giao hàng, xác định như sau:
+Số tiền phạt = 0,1% × (Tổng giá trị hàng hóa giao chậm, đã bao gồm VAT) × (Số ngày giao chậm – 15).
+c) Mức phạt tối đa không vượt quá 8% tổng giá trị hàng hóa giao chậm (đã bao gồm VAT). Khoản phạt được Bên Mua thông báo bằng văn bản (kèm bảng tính) và khấu trừ vào giá trị thanh toán còn lại của Đơn đặt hàng.
+d) Trường hợp thời gian giao hàng chậm từ 60 (sáu mươi) ngày trở lên so với thời hạn giao hàng tại Đơn đặt hàng mà không có gia hạn bằng văn bản của Bên Mua (trên cơ sở giải trình của Bên Bán, nếu có), Bên Mua có quyền:
+Từ chối nhận phần hàng hóa giao chậm;
+Không thanh toán các chi phí liên quan đến phần hàng hóa giao chậm;
+Yêu cầu Bên Bán chuyển trả khoản tiền phạt ở mức tối đa bằng 8% tổng giá trị hàng hóa giao chậm (đã bao gồm VAT) vào tài khoản của Bên Mua trong vòng 15 (mười lăm) ngày kể từ ngày Bên Bán nhận được thông báo bằng văn bản; trường hợp Bên Mua đã khấu trừ/đối trừ một phần thì Bên Bán chỉ chuyển trả phần chênh lệch còn thiếu (nếu có).
+e) “Số ngày giao chậm” = (Ngày giao hàng thực tế) – (Ngày đến hạn giao hàng theo Đơn đặt hàng hoặc văn bản gia hạn, nếu có).
+</value>
+  </data>
+</root>

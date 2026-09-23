@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ActiveReportsLayout Version="3.1" PrintWidth="5838.241" DocumentName="ARNet Document" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-style: normal; text-decoration: none; font-weight: normal; font-size: 10pt; color: Black; font-family: &quot;Times New Roman&quot;; ddo-char-set: 204" />
+    <Style Name="Heading1" Value="font-size: 16pt; font-weight: bold; ddo-char-set: 204" />
+    <Style Name="Heading2" Value="font-size: 14pt; font-weight: bold; font-style: italic; font-family: &quot;Times New Roman&quot;; ddo-char-set: 204" />
+    <Style Name="Heading3" Value="font-size: 13pt; font-weight: bold; ddo-char-set: 204" />
+  </StyleSheet>
+  <Sections>
+    <Section Type="ReportHeader" Name="ReportHeader1" Height="0" BackColor="16777215" />
+    <Section Type="Detail" Name="detail" Height="997" RepeatToFill="1" BackColor="16777215">
+      <Control Type="AR.Barcode" Name="Barcode1" DataField="Barcode1" Left="1092.961" Top="406.0799" Width="1720.799" Height="375.8401" BarStyle="23" Text="Barcode1" Font="Courier New" FontSize="8" CODE128="0;0;0" />
+      <Control Type="AR.Field" Name="TextBox4" DataField="Barcode_Split1" Left="1150.562" Top="796.3188" Width="1591.2" Height="194.4" Text="Barcode_Split1" Style="font-size: 6pt; ddo-char-set: 1; text-align: center; font-weight: bold" />
+      <Control Type="AR.Field" Name="TextBox5" DataField="Ma_Vt1" Left="336.9611" Top="362.8799" Width="623.5191" Height="194.4" Text="Ma_Vt1" Style="font-size: 6pt; ddo-char-set: 1; text-align: left; font-weight: bold" />
+      <Control Type="AR.Field" Name="TextBox7" DataField="Ma_Kho1" Left="571.6811" Top="564.4799" Width="388.8" Height="194.4" Text="Ma_Kho1" Style="font-size: 6pt; ddo-char-set: 1; text-align: right; font-weight: bold" />
+      <Control Type="AR.Field" Name="TextBox8" DataField="Ma_VTri1" Left="398.88" Top="790.5601" Width="561.6003" Height="194.4" Text="Ma_VTri1" Style="font-size: 6pt; ddo-char-set: 1; text-align: right; font-weight: bold" />
+      <Control Type="AR.Label" Name="Label15" DataField="Ten_Vt1" Tag="" Left="336.9611" Top="67.67991" Width="2685.6" Height="266.4001" Caption="Ten_Vt1" Style="font-size: 6pt; ddo-char-set: 0; font-weight: bold; vertical-align: top; white-space: inherit" />
+      <Control Type="AR.Label" Name="Label2" DataField="Ten_Vt2" Tag="" Left="3150.72" Top="67.68" Width="2692.8" Height="266.4001" Caption="Ten_Vt2" Style="font-size: 6pt; ddo-char-set: 0; font-weight: bold; vertical-align: top; white-space: inherit" />
+      <Control Type="AR.Field" Name="TextBox1" DataField="Ma_Kho2" Left="3388.321" Top="564.4799" Width="388.8" Height="194.4" Text="Ma_Kho2" Style="font-size: 6pt; ddo-char-set: 1; text-align: right; font-weight: bold" />
+      <Control Type="AR.Field" Name="TextBox2" DataField="Ma_VTri2" Left="3215.522" Top="790.5601" Width="561.6003" Height="194.4" Text="Ma_VTri2" Style="font-size: 6pt; ddo-char-set: 1; text-align: right; font-weight: bold" />
+      <Control Type="AR.Field" Name="TextBox3" DataField="Ma_Vt2" Left="3153.602" Top="362.8799" Width="623.5191" Height="194.4" Text="Ma_Vt2" Style="font-size: 6pt; ddo-char-set: 1; text-align: left; font-weight: bold" />
+      <Control Type="AR.Barcode" Name="Barcode2" DataField="Barcode2" Left="3850.561" Top="383.0399" Width="1720.799" Height="375.8401" BarStyle="23" Text="Barcode2" Font="Courier New" FontSize="8" CODE128="0;0;0" />
+      <Control Type="AR.Field" Name="TextBox6" DataField="Barcode_Split2" Left="3906.722" Top="758.8798" Width="1591.2" Height="194.4" Text="Barcode_Split2" Style="font-size: 6pt; ddo-char-set: 1; text-align: center; font-weight: bold" />
+    </Section>
+    <Section Type="ReportFooter" Name="ReportFooter1" Height="0" BackColor="16777215" />
+  </Sections>
+  <ReportComponentTray />
+  <Script><![CDATA[public void ReportHeader1_Format()
+{
+	
+}
+
+
+]]></Script>
+  <PageSettings LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" PaperSize="0" PaperWidth="2952" PaperHeight="1123" PaperName="barcode_pt" />
+  <Parameters />
+</ActiveReportsLayout>

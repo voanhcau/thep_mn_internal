@@ -1,0 +1,1195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="iwmn_r81dmkhoct_1" model="iwmn.r81dmkhoct">
+            <field name="ident00">1</field>
+            <field name="ma_kho">06CHCM1</field>
+            <field name="ma_dt">1071160</field>
+            <field name="ngay_ap">2024-01-01 00:00:00</field>
+            <field name="sl_dm_kg">380000.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_2" model="iwmn.r81dmkhoct">
+            <field name="ident00">2</field>
+            <field name="ma_kho">06CKTG</field>
+            <field name="ma_dt">1071097</field>
+            <field name="ngay_ap">2024-01-01 00:00:00</field>
+            <field name="sl_dm_kg">350000.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_3" model="iwmn.r81dmkhoct">
+            <field name="ident00">3</field>
+            <field name="ma_kho">06HCM1</field>
+            <field name="ma_dt">1000001</field>
+            <field name="ngay_ap">2024-01-01 00:00:00</field>
+            <field name="sl_dm_kg">700000.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_4" model="iwmn.r81dmkhoct">
+            <field name="ident00">4</field>
+            <field name="ma_kho">06HCM2</field>
+            <field name="ma_dt">1000002</field>
+            <field name="ngay_ap">2024-01-01 00:00:00</field>
+            <field name="sl_dm_kg">1000000.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_5" model="iwmn.r81dmkhoct">
+            <field name="ident00">5</field>
+            <field name="ma_kho">06HGBL</field>
+            <field name="ma_dt">1071005</field>
+            <field name="ngay_ap">2024-01-01 00:00:00</field>
+            <field name="sl_dm_kg">890000.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_6" model="iwmn.r81dmkhoct">
+            <field name="ident00">6</field>
+            <field name="ma_kho">06HS</field>
+            <field name="ma_dt">1071113</field>
+            <field name="ngay_ap">2024-01-01 00:00:00</field>
+            <field name="sl_dm_kg">1240000.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_7" model="iwmn.r81dmkhoct">
+            <field name="ident00">7</field>
+            <field name="ma_kho">06MTGNT</field>
+            <field name="ma_dt">1000014</field>
+            <field name="ngay_ap">2024-01-01 00:00:00</field>
+            <field name="sl_dm_kg">300000.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_8" model="iwmn.r81dmkhoct">
+            <field name="ident00">8</field>
+            <field name="ma_kho">06PTNT1</field>
+            <field name="ma_dt">1071109</field>
+            <field name="ngay_ap">2024-01-01 00:00:00</field>
+            <field name="sl_dm_kg">1145000.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_9" model="iwmn.r81dmkhoct">
+            <field name="ident00">9</field>
+            <field name="ma_kho">06QTVL1</field>
+            <field name="ma_dt">1071128</field>
+            <field name="ngay_ap">2024-01-01 00:00:00</field>
+            <field name="sl_dm_kg">700000.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_10" model="iwmn.r81dmkhoct">
+            <field name="ident00">10</field>
+            <field name="ma_kho">06SLHCM1</field>
+            <field name="ma_dt">1071017</field>
+            <field name="ngay_ap">2024-01-01 00:00:00</field>
+            <field name="sl_dm_kg">250000.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_11" model="iwmn.r81dmkhoct">
+            <field name="ident00">11</field>
+            <field name="ma_kho">06SMC</field>
+            <field name="ma_dt">1071013</field>
+            <field name="ngay_ap">2024-01-01 00:00:00</field>
+            <field name="sl_dm_kg">2700000.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_12" model="iwmn.r81dmkhoct">
+            <field name="ident00">12</field>
+            <field name="ma_kho">06TD</field>
+            <field name="ma_dt">1071101</field>
+            <field name="ngay_ap">2024-01-01 00:00:00</field>
+            <field name="sl_dm_kg">1170000.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_13" model="iwmn.r81dmkhoct">
+            <field name="ident00">13</field>
+            <field name="ma_kho">06THP</field>
+            <field name="ma_dt">1071136</field>
+            <field name="ngay_ap">2024-01-01 00:00:00</field>
+            <field name="sl_dm_kg">680000.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_14" model="iwmn.r81dmkhoct">
+            <field name="ident00">14</field>
+            <field name="ma_kho">06TP</field>
+            <field name="ma_dt">1078816</field>
+            <field name="ngay_ap">2024-01-01 00:00:00</field>
+            <field name="sl_dm_kg">170000.0000</field>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_16" model="iwmn.r81dmkhoct">
+            <field name="ident00">16</field>
+            <field name="ma_kho">06CKTG</field>
+            <field name="ma_dt">1071097</field>
+            <field name="ngay_ap">2024-03-18 00:00:00</field>
+            <field name="sl_dm_kg">700000.0000</field>
+            <field name="create_log">190324:084704:TRANGDT</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_17" model="iwmn.r81dmkhoct">
+            <field name="ident00">17</field>
+            <field name="ma_kho">06CKTG</field>
+            <field name="ma_dt">1071097</field>
+            <field name="ngay_ap">2024-07-01 00:00:00</field>
+            <field name="sl_dm_kg">350000.0000</field>
+            <field name="create_log">190324:084719:TRANGDT</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_18" model="iwmn.r81dmkhoct">
+            <field name="ident00">18</field>
+            <field name="ma_kho">06THP</field>
+            <field name="ma_dt">1071136</field>
+            <field name="ngay_ap">2024-03-18 00:00:00</field>
+            <field name="sl_dm_kg">1180000.0000</field>
+            <field name="create_log">190324:084821:TRANGDT</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_19" model="iwmn.r81dmkhoct">
+            <field name="ident00">19</field>
+            <field name="ma_kho">06THP</field>
+            <field name="ma_dt">1071136</field>
+            <field name="ngay_ap">2024-07-01 00:00:00</field>
+            <field name="sl_dm_kg">680000.0000</field>
+            <field name="create_log">190324:084840:TRANGDT</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_20" model="iwmn.r81dmkhoct">
+            <field name="ident00">20</field>
+            <field name="ma_kho">06THP</field>
+            <field name="ma_dt">1071136</field>
+            <field name="ngay_ap">2025-01-01 00:00:00</field>
+            <field name="sl_dm_kg">755000.0000</field>
+            <field name="create_log">190324:085032:TRANGDT</field>
+            <field name="lastmodify_log">020125:131833:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_21" model="iwmn.r81dmkhoct">
+            <field name="ident00">21</field>
+            <field name="ma_kho">06HCM1</field>
+            <field name="ma_dt">1000001</field>
+            <field name="ngay_ap">2024-03-20 00:00:00</field>
+            <field name="sl_dm_kg">500000.0000</field>
+            <field name="create_log">190324:085113:TRANGDT</field>
+            <field name="lastmodify_log">080424:100423:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_22" model="iwmn.r81dmkhoct">
+            <field name="ident00">22</field>
+            <field name="ma_kho">06HCM2</field>
+            <field name="ma_dt">1000002</field>
+            <field name="ngay_ap">2024-03-20 00:00:00</field>
+            <field name="sl_dm_kg">1200000.0000</field>
+            <field name="create_log">190324:085134:TRANGDT</field>
+            <field name="lastmodify_log">080424:100401:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_23" model="iwmn.r81dmkhoct">
+            <field name="ident00">23</field>
+            <field name="ma_kho">06MTGNT</field>
+            <field name="ma_dt">1000014</field>
+            <field name="ngay_ap">2025-01-01 00:00:00</field>
+            <field name="sl_dm_kg">350000.0000</field>
+            <field name="create_log">190324:085150:TRANGDT</field>
+            <field name="lastmodify_log">140525:104055:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_24" model="iwmn.r81dmkhoct">
+            <field name="ident00">24</field>
+            <field name="ma_kho">06HGBL</field>
+            <field name="ma_dt">1071005</field>
+            <field name="ngay_ap">2025-01-01 00:00:00</field>
+            <field name="sl_dm_kg">585000.0000</field>
+            <field name="create_log">190324:085236:TRANGDT</field>
+            <field name="lastmodify_log">020125:115717:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_25" model="iwmn.r81dmkhoct">
+            <field name="ident00">25</field>
+            <field name="ma_kho">06SMC</field>
+            <field name="ma_dt">1071013</field>
+            <field name="ngay_ap">2025-01-01 00:00:00</field>
+            <field name="sl_dm_kg">2100000.0000</field>
+            <field name="create_log">190324:085248:TRANGDT</field>
+            <field name="lastmodify_log">020125:115826:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_26" model="iwmn.r81dmkhoct">
+            <field name="ident00">26</field>
+            <field name="ma_kho">06SLHCM1</field>
+            <field name="ma_dt">1071017</field>
+            <field name="ngay_ap">2025-01-01 00:00:00</field>
+            <field name="sl_dm_kg">425000.0000</field>
+            <field name="create_log">190324:085305:TRANGDT</field>
+            <field name="lastmodify_log">020125:115424:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_27" model="iwmn.r81dmkhoct">
+            <field name="ident00">27</field>
+            <field name="ma_kho">06CKTG</field>
+            <field name="ma_dt">1071097</field>
+            <field name="ngay_ap">2025-01-01 00:00:00</field>
+            <field name="sl_dm_kg">350000.0000</field>
+            <field name="create_log">190324:085317:TRANGDT</field>
+            <field name="lastmodify_log">020125:115522:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_28" model="iwmn.r81dmkhoct">
+            <field name="ident00">28</field>
+            <field name="ma_kho">06TD</field>
+            <field name="ma_dt">1071101</field>
+            <field name="ngay_ap">2025-01-01 00:00:00</field>
+            <field name="sl_dm_kg">960000.0000</field>
+            <field name="create_log">190324:085327:TRANGDT</field>
+            <field name="lastmodify_log">030125:134809:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_29" model="iwmn.r81dmkhoct">
+            <field name="ident00">29</field>
+            <field name="ma_kho">06PTNT1</field>
+            <field name="ma_dt">1071109</field>
+            <field name="ngay_ap">2024-03-22 00:00:00</field>
+            <field name="sl_dm_kg">1445000.0000</field>
+            <field name="create_log">190324:085337:TRANGDT</field>
+            <field name="lastmodify_log">220324:155508:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_30" model="iwmn.r81dmkhoct">
+            <field name="ident00">30</field>
+            <field name="ma_kho">06HS</field>
+            <field name="ma_dt">1071113</field>
+            <field name="ngay_ap">2024-03-22 00:00:00</field>
+            <field name="sl_dm_kg">1740000.0000</field>
+            <field name="create_log">190324:085349:TRANGDT</field>
+            <field name="lastmodify_log">220324:135021:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_31" model="iwmn.r81dmkhoct">
+            <field name="ident00">31</field>
+            <field name="ma_kho">06QTVL1</field>
+            <field name="ma_dt">1071128</field>
+            <field name="ngay_ap">2024-06-21 00:00:00</field>
+            <field name="sl_dm_kg">0.0000</field>
+            <field name="create_log">190324:085358:TRANGDT</field>
+            <field name="lastmodify_log">010126:100402:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_32" model="iwmn.r81dmkhoct">
+            <field name="ident00">32</field>
+            <field name="ma_kho">06CHCM1</field>
+            <field name="ma_dt">1071160</field>
+            <field name="ngay_ap">2025-01-01 00:00:00</field>
+            <field name="sl_dm_kg">370000.0000</field>
+            <field name="create_log">190324:085413:TRANGDT</field>
+            <field name="lastmodify_log">030125:134958:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_33" model="iwmn.r81dmkhoct">
+            <field name="ident00">33</field>
+            <field name="ma_kho">06TP</field>
+            <field name="ma_dt">1078816</field>
+            <field name="ngay_ap">2025-01-01 00:00:00</field>
+            <field name="sl_dm_kg">70000.0000</field>
+            <field name="create_log">190324:085425:TRANGDT</field>
+            <field name="lastmodify_log">140525:103805:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_34" model="iwmn.r81dmkhoct">
+            <field name="ident00">34</field>
+            <field name="ma_kho">06HCM1</field>
+            <field name="ma_dt">1000001</field>
+            <field name="ngay_ap">2025-01-01 00:00:00</field>
+            <field name="sl_dm_kg">1000000.0000</field>
+            <field name="create_log">200324:141057:TRANGDT</field>
+            <field name="lastmodify_log">030125:085246:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_35" model="iwmn.r81dmkhoct">
+            <field name="ident00">35</field>
+            <field name="ma_kho">06HCM2</field>
+            <field name="ma_dt">1000002</field>
+            <field name="ngay_ap">2025-01-01 00:00:00</field>
+            <field name="sl_dm_kg">1130000.0000</field>
+            <field name="create_log">200324:141143:TRANGDT</field>
+            <field name="lastmodify_log">140525:103559:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_36" model="iwmn.r81dmkhoct">
+            <field name="ident00">36</field>
+            <field name="ma_kho">06HS</field>
+            <field name="ma_dt">1071113</field>
+            <field name="ngay_ap">2024-07-01 00:00:00</field>
+            <field name="sl_dm_kg">1240000.0000</field>
+            <field name="create_log">220324:135225:TRANGDT</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_37" model="iwmn.r81dmkhoct">
+            <field name="ident00">37</field>
+            <field name="ma_kho">06HS</field>
+            <field name="ma_dt">1071113</field>
+            <field name="ngay_ap">2025-01-01 00:00:00</field>
+            <field name="sl_dm_kg">1240000.0000</field>
+            <field name="create_log">220324:135424:TRANGDT</field>
+            <field name="lastmodify_log">020125:154202:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_38" model="iwmn.r81dmkhoct">
+            <field name="ident00">38</field>
+            <field name="ma_kho">06PTNT1</field>
+            <field name="ma_dt">1071109</field>
+            <field name="ngay_ap">2024-07-01 00:00:00</field>
+            <field name="sl_dm_kg">1145000.0000</field>
+            <field name="create_log">220324:155536:TRANGDT</field>
+            <field name="lastmodify_log">220324:155508:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_39" model="iwmn.r81dmkhoct">
+            <field name="ident00">39</field>
+            <field name="ma_kho">06PTNT1</field>
+            <field name="ma_dt">1071109</field>
+            <field name="ngay_ap">2025-01-01 00:00:00</field>
+            <field name="sl_dm_kg">1110000.0000</field>
+            <field name="create_log">220324:155545:TRANGDT</field>
+            <field name="lastmodify_log">020125:115457:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_40" model="iwmn.r81dmkhoct">
+            <field name="ident00">40</field>
+            <field name="ma_kho">06HCM1</field>
+            <field name="ma_dt">1000001</field>
+            <field name="ngay_ap">2024-04-15 00:00:00</field>
+            <field name="sl_dm_kg">400000.0000</field>
+            <field name="create_log">150424:092615:TRANGDT</field>
+            <field name="lastmodify_log">080424:100423:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_41" model="iwmn.r81dmkhoct">
+            <field name="ident00">41</field>
+            <field name="ma_kho">06HCM2</field>
+            <field name="ma_dt">1000002</field>
+            <field name="ngay_ap">2024-04-15 00:00:00</field>
+            <field name="sl_dm_kg">1300000.0000</field>
+            <field name="create_log">150424:092655:TRANGDT</field>
+            <field name="lastmodify_log">080424:100401:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_42" model="iwmn.r81dmkhoct">
+            <field name="ident00">42</field>
+            <field name="ma_kho">06HCM1</field>
+            <field name="ma_dt">1000001</field>
+            <field name="ngay_ap">2024-04-22 00:00:00</field>
+            <field name="sl_dm_kg">1.0000</field>
+            <field name="create_log">220424:095643:TRANGDT</field>
+            <field name="lastmodify_log">130526:155449:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_43" model="iwmn.r81dmkhoct">
+            <field name="ident00">43</field>
+            <field name="ma_kho">06HCM2</field>
+            <field name="ma_dt">1000002</field>
+            <field name="ngay_ap">2024-04-22 00:00:00</field>
+            <field name="sl_dm_kg">1699999.0000</field>
+            <field name="create_log">220424:095726:TRANGDT</field>
+            <field name="lastmodify_log">080424:100401:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_44" model="iwmn.r81dmkhoct">
+            <field name="ident00">44</field>
+            <field name="ma_kho">06HCM2</field>
+            <field name="ma_dt">1000002</field>
+            <field name="ngay_ap">2024-05-15 00:00:00</field>
+            <field name="sl_dm_kg">1200000.0000</field>
+            <field name="create_log">150624:080329:GIANGTT</field>
+            <field name="lastmodify_log">080424:100401:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_45" model="iwmn.r81dmkhoct">
+            <field name="ident00">45</field>
+            <field name="ma_kho">06HCM1</field>
+            <field name="ma_dt">1000001</field>
+            <field name="ngay_ap">2024-06-15 00:00:00</field>
+            <field name="sl_dm_kg">500000.0000</field>
+            <field name="create_log">150624:080450:GIANGTT</field>
+            <field name="lastmodify_log">080424:100423:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_46" model="iwmn.r81dmkhoct">
+            <field name="ident00">46</field>
+            <field name="ma_kho">06HCM1</field>
+            <field name="ma_dt">1000001</field>
+            <field name="ngay_ap">2024-07-02 00:00:00</field>
+            <field name="sl_dm_kg">660000.0000</field>
+            <field name="create_log">020724:145056:TRANGDT</field>
+            <field name="lastmodify_log">080424:100423:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_47" model="iwmn.r81dmkhoct">
+            <field name="ident00">47</field>
+            <field name="ma_kho">06MTGNT</field>
+            <field name="ma_dt">1000014</field>
+            <field name="ngay_ap">2024-07-02 00:00:00</field>
+            <field name="sl_dm_kg">290000.0000</field>
+            <field name="create_log">020724:145121:TRANGDT</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_48" model="iwmn.r81dmkhoct">
+            <field name="ident00">48</field>
+            <field name="ma_kho">06HGBL</field>
+            <field name="ma_dt">1071005</field>
+            <field name="ngay_ap">2024-07-02 00:00:00</field>
+            <field name="sl_dm_kg">610000.0000</field>
+            <field name="create_log">020724:152746:TRANGDT</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_49" model="iwmn.r81dmkhoct">
+            <field name="ident00">49</field>
+            <field name="ma_kho">06SMC</field>
+            <field name="ma_dt">1071013</field>
+            <field name="ngay_ap">2024-07-02 00:00:00</field>
+            <field name="sl_dm_kg">2320000.0000</field>
+            <field name="create_log">020724:152902:TRANGDT</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_50" model="iwmn.r81dmkhoct">
+            <field name="ident00">50</field>
+            <field name="ma_kho">06SLHCM1</field>
+            <field name="ma_dt">1071017</field>
+            <field name="ngay_ap">2024-07-02 00:00:00</field>
+            <field name="sl_dm_kg">260000.0000</field>
+            <field name="create_log">020724:152947:TRANGDT</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_51" model="iwmn.r81dmkhoct">
+            <field name="ident00">51</field>
+            <field name="ma_kho">06TD</field>
+            <field name="ma_dt">1071101</field>
+            <field name="ngay_ap">2024-07-02 00:00:00</field>
+            <field name="sl_dm_kg">1150000.0000</field>
+            <field name="create_log">020724:153143:TRANGDT</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_52" model="iwmn.r81dmkhoct">
+            <field name="ident00">52</field>
+            <field name="ma_kho">06HS</field>
+            <field name="ma_dt">1071113</field>
+            <field name="ngay_ap">2024-07-02 00:00:00</field>
+            <field name="sl_dm_kg">1170000.0000</field>
+            <field name="create_log">020724:153449:TRANGDT</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_53" model="iwmn.r81dmkhoct">
+            <field name="ident00">53</field>
+            <field name="ma_kho">06THP</field>
+            <field name="ma_dt">1071136</field>
+            <field name="ngay_ap">2024-07-02 00:00:00</field>
+            <field name="sl_dm_kg">990000.0000</field>
+            <field name="create_log">020724:153524:TRANGDT</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_54" model="iwmn.r81dmkhoct">
+            <field name="ident00">54</field>
+            <field name="ma_kho">06CHCM1</field>
+            <field name="ma_dt">1071160</field>
+            <field name="ngay_ap">2024-07-02 00:00:00</field>
+            <field name="sl_dm_kg">360000.0000</field>
+            <field name="create_log">020724:153622:TRANGDT</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_55" model="iwmn.r81dmkhoct">
+            <field name="ident00">55</field>
+            <field name="ma_kho">06TP</field>
+            <field name="ma_dt">1078816</field>
+            <field name="ngay_ap">2024-07-02 00:00:00</field>
+            <field name="sl_dm_kg">140000.0000</field>
+            <field name="create_log">020724:153657:TRANGDT</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_56" model="iwmn.r81dmkhoct">
+            <field name="ident00">56</field>
+            <field name="ma_kho">06QTVL1</field>
+            <field name="ma_dt">1071128</field>
+            <field name="ngay_ap">2024-07-01 00:00:00</field>
+            <field name="sl_dm_kg">0.0000</field>
+            <field name="create_log">020724:153833:TRANGDT</field>
+            <field name="lastmodify_log">281124:082526:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_57" model="iwmn.r81dmkhoct">
+            <field name="ident00">57</field>
+            <field name="ma_kho">06HCM2</field>
+            <field name="ma_dt">1000002</field>
+            <field name="ngay_ap">2024-07-22 00:00:00</field>
+            <field name="sl_dm_kg">960000.0000</field>
+            <field name="create_log">220724:161843:TRANGDT</field>
+            <field name="lastmodify_log">080424:100401:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_58" model="iwmn.r81dmkhoct">
+            <field name="ident00">58</field>
+            <field name="ma_kho">06HCM1</field>
+            <field name="ma_dt">1000001</field>
+            <field name="ngay_ap">2024-07-22 00:00:00</field>
+            <field name="sl_dm_kg">900000.0000</field>
+            <field name="create_log">220724:161912:TRANGDT</field>
+            <field name="lastmodify_log">080424:100423:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_59" model="iwmn.r81dmkhoct">
+            <field name="ident00">59</field>
+            <field name="ma_kho">06HCM1</field>
+            <field name="ma_dt">1000001</field>
+            <field name="ngay_ap">2024-09-10 00:00:00</field>
+            <field name="sl_dm_kg">970000.0000</field>
+            <field name="create_log">110924:141957:TRANGDT</field>
+            <field name="lastmodify_log">110924:142018:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_60" model="iwmn.r81dmkhoct">
+            <field name="ident00">60</field>
+            <field name="ma_kho">06HCM2</field>
+            <field name="ma_dt">1000002</field>
+            <field name="ngay_ap">2024-09-10 00:00:00</field>
+            <field name="sl_dm_kg">890000.0000</field>
+            <field name="create_log">100924:113735:TRANGDT</field>
+            <field name="lastmodify_log">070924:092841:OANHNT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_61" model="iwmn.r81dmkhoct">
+            <field name="ident00">61</field>
+            <field name="ma_kho">06HCM1</field>
+            <field name="ma_dt">1000001</field>
+            <field name="ngay_ap">2024-09-11 00:00:00</field>
+            <field name="sl_dm_kg">770000.0000</field>
+            <field name="create_log">110924:142036:TRANGDT</field>
+            <field name="lastmodify_log">110924:142018:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_62" model="iwmn.r81dmkhoct">
+            <field name="ident00">62</field>
+            <field name="ma_kho">06HCM2</field>
+            <field name="ma_dt">1000002</field>
+            <field name="ngay_ap">2024-09-11 00:00:00</field>
+            <field name="sl_dm_kg">1090000.0000</field>
+            <field name="create_log">110924:142055:TRANGDT</field>
+            <field name="lastmodify_log">070924:092841:OANHNT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_63" model="iwmn.r81dmkhoct">
+            <field name="ident00">63</field>
+            <field name="ma_kho">06HCM1</field>
+            <field name="ma_dt">1000001</field>
+            <field name="ngay_ap">2024-09-12 00:00:00</field>
+            <field name="sl_dm_kg">580000.0000</field>
+            <field name="create_log">120924:141342:DANGT</field>
+            <field name="lastmodify_log">160924:154436:DANGT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_64" model="iwmn.r81dmkhoct">
+            <field name="ident00">64</field>
+            <field name="ma_kho">06HCM2</field>
+            <field name="ma_dt">1000002</field>
+            <field name="ngay_ap">2024-09-12 00:00:00</field>
+            <field name="sl_dm_kg">1280000.0000</field>
+            <field name="create_log">120924:141458:DANGT</field>
+            <field name="lastmodify_log">160924:154411:DANGT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_65" model="iwmn.r81dmkhoct">
+            <field name="ident00">65</field>
+            <field name="ma_kho">06THP</field>
+            <field name="ma_dt">1071136</field>
+            <field name="ngay_ap">2026-01-05 00:00:00</field>
+            <field name="sl_dm_kg">994000.0000</field>
+            <field name="create_log">020125:131848:TRANGDT</field>
+            <field name="lastmodify_log">050126:095653:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_66" model="iwmn.r81dmkhoct">
+            <field name="ident00">66</field>
+            <field name="ma_kho">06HS</field>
+            <field name="ma_dt">1071113</field>
+            <field name="ngay_ap">2026-01-05 00:00:00</field>
+            <field name="sl_dm_kg">1274000.0000</field>
+            <field name="create_log">020125:154237:TRANGDT</field>
+            <field name="lastmodify_log">050126:095834:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_67" model="iwmn.r81dmkhoct">
+            <field name="ident00">67</field>
+            <field name="ma_kho">06HCM1</field>
+            <field name="ma_dt">1000001</field>
+            <field name="ngay_ap">2026-01-05 00:00:00</field>
+            <field name="sl_dm_kg">2021000.0000</field>
+            <field name="create_log">030125:085253:TRANGDT</field>
+            <field name="lastmodify_log">170426:161858:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_68" model="iwmn.r81dmkhoct">
+            <field name="ident00">68</field>
+            <field name="ma_kho">06HCM2</field>
+            <field name="ma_dt">1000002</field>
+            <field name="ngay_ap">2026-01-05 00:00:00</field>
+            <field name="sl_dm_kg">2000000.0000</field>
+            <field name="create_log">030125:085330:TRANGDT</field>
+            <field name="lastmodify_log">050126:101151:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_69" model="iwmn.r81dmkhoct">
+            <field name="ident00">69</field>
+            <field name="ma_kho">06TD</field>
+            <field name="ma_dt">1071101</field>
+            <field name="ngay_ap">2026-01-05 00:00:00</field>
+            <field name="sl_dm_kg">2122000.0000</field>
+            <field name="create_log">030125:134819:TRANGDT</field>
+            <field name="lastmodify_log">050126:095739:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_70" model="iwmn.r81dmkhoct">
+            <field name="ident00">70</field>
+            <field name="ma_kho">06CHCM1</field>
+            <field name="ma_dt">1071160</field>
+            <field name="ngay_ap">2026-01-05 00:00:00</field>
+            <field name="sl_dm_kg">718000.0000</field>
+            <field name="create_log">030125:135010:TRANGDT</field>
+            <field name="lastmodify_log">050126:101349:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_71" model="iwmn.r81dmkhoct">
+            <field name="ident00">71</field>
+            <field name="ma_kho">06HCM1</field>
+            <field name="ma_dt">1000001</field>
+            <field name="ngay_ap">2025-05-15 00:00:00</field>
+            <field name="sl_dm_kg">850000.0000</field>
+            <field name="create_log">150525:122110:TRANGDT</field>
+            <field name="lastmodify_log">030125:085246:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_72" model="iwmn.r81dmkhoct">
+            <field name="ident00">72</field>
+            <field name="ma_kho">06HCM2</field>
+            <field name="ma_dt">1000002</field>
+            <field name="ngay_ap">2025-05-15 00:00:00</field>
+            <field name="sl_dm_kg">1280000.0000</field>
+            <field name="create_log">150525:122158:TRANGDT</field>
+            <field name="lastmodify_log">140525:103559:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_73" model="iwmn.r81dmkhoct">
+            <field name="ident00">73</field>
+            <field name="ma_kho">06HOSA</field>
+            <field name="ma_dt">1071175</field>
+            <field name="ngay_ap">2025-08-25 00:00:00</field>
+            <field name="sl_dm_kg">600000.0000</field>
+            <field name="create_log">250825:164234:TRANGDT</field>
+            <field name="lastmodify_log">250925:160725:DIEMLTT</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmkhoct_74" model="iwmn.r81dmkhoct">
+            <field name="ident00">74</field>
+            <field name="ma_kho">06HOSA</field>
+            <field name="ma_dt">1071175</field>
+            <field name="ngay_ap">2026-01-05 00:00:00</field>
+            <field name="sl_dm_kg">600000.0000</field>
+            <field name="create_log">250825:164259:TRANGDT</field>
+            <field name="lastmodify_log">050126:101925:TRANGDT</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmkhoct_75" model="iwmn.r81dmkhoct">
+            <field name="ident00">75</field>
+            <field name="ma_kho">06HUTH</field>
+            <field name="ma_dt">1071177</field>
+            <field name="ngay_ap">2025-09-10 00:00:00</field>
+            <field name="sl_dm_kg">500000.0000</field>
+            <field name="create_log">110925:143010:TRANGDT</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmkhoct_76" model="iwmn.r81dmkhoct">
+            <field name="ident00">76</field>
+            <field name="ma_kho">06HUTH</field>
+            <field name="ma_dt">1071177</field>
+            <field name="ngay_ap">2026-01-05 00:00:00</field>
+            <field name="sl_dm_kg">500000.0000</field>
+            <field name="create_log">110925:143021:TRANGDT</field>
+            <field name="lastmodify_log">050126:101953:TRANGDT</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmkhoct_77" model="iwmn.r81dmkhoct">
+            <field name="ident00">77</field>
+            <field name="ma_kho">06TSCM1</field>
+            <field name="ma_dt">1071178</field>
+            <field name="ngay_ap">2025-09-19 00:00:00</field>
+            <field name="sl_dm_kg">700000.0000</field>
+            <field name="create_log">240925:145723:TRANGDT</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmkhoct_78" model="iwmn.r81dmkhoct">
+            <field name="ident00">78</field>
+            <field name="ma_kho">06XTDN1</field>
+            <field name="ma_dt">1071155</field>
+            <field name="ngay_ap">2025-09-19 00:00:00</field>
+            <field name="sl_dm_kg">500000.0000</field>
+            <field name="create_log">250925:153035:TRANGDT</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmkhoct_79" model="iwmn.r81dmkhoct">
+            <field name="ident00">79</field>
+            <field name="ma_kho">06XTDN1</field>
+            <field name="ma_dt">1071155</field>
+            <field name="ngay_ap">2026-01-05 00:00:00</field>
+            <field name="sl_dm_kg">500000.0000</field>
+            <field name="create_log">051225:140432:TRANGDT</field>
+            <field name="lastmodify_log">050126:102122:TRANGDT</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmkhoct_80" model="iwmn.r81dmkhoct">
+            <field name="ident00">80</field>
+            <field name="ma_kho">06MTGNT</field>
+            <field name="ma_dt">1000014</field>
+            <field name="ngay_ap">2026-01-05 00:00:00</field>
+            <field name="sl_dm_kg">1423000.0000</field>
+            <field name="create_log">010126:100059:TRANGDT</field>
+            <field name="lastmodify_log">050126:101018:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_81" model="iwmn.r81dmkhoct">
+            <field name="ident00">81</field>
+            <field name="ma_kho">06HGBL</field>
+            <field name="ma_dt">1071005</field>
+            <field name="ngay_ap">2026-01-05 00:00:00</field>
+            <field name="sl_dm_kg">897000.0000</field>
+            <field name="create_log">010126:100115:TRANGDT</field>
+            <field name="lastmodify_log">050126:101320:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_82" model="iwmn.r81dmkhoct">
+            <field name="ident00">82</field>
+            <field name="ma_kho">06SMC</field>
+            <field name="ma_dt">1071013</field>
+            <field name="ngay_ap">2026-01-05 00:00:00</field>
+            <field name="sl_dm_kg">1968000.0000</field>
+            <field name="create_log">010126:100212:TRANGDT</field>
+            <field name="lastmodify_log">050126:101844:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_83" model="iwmn.r81dmkhoct">
+            <field name="ident00">83</field>
+            <field name="ma_kho">06SLHCM1</field>
+            <field name="ma_dt">1071017</field>
+            <field name="ngay_ap">2026-01-05 00:00:00</field>
+            <field name="sl_dm_kg">566000.0000</field>
+            <field name="create_log">010126:100226:TRANGDT</field>
+            <field name="lastmodify_log">050126:095925:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_84" model="iwmn.r81dmkhoct">
+            <field name="ident00">84</field>
+            <field name="ma_kho">06CKTG</field>
+            <field name="ma_dt">1071097</field>
+            <field name="ngay_ap">2026-01-05 00:00:00</field>
+            <field name="sl_dm_kg">387000.0000</field>
+            <field name="create_log">010126:100259:TRANGDT</field>
+            <field name="lastmodify_log">050126:101240:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_85" model="iwmn.r81dmkhoct">
+            <field name="ident00">85</field>
+            <field name="ma_kho">06PTNT1</field>
+            <field name="ma_dt">1071109</field>
+            <field name="ngay_ap">2026-01-05 00:00:00</field>
+            <field name="sl_dm_kg">1052000.0000</field>
+            <field name="create_log">010126:100341:TRANGDT</field>
+            <field name="lastmodify_log">050126:100039:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_86" model="iwmn.r81dmkhoct">
+            <field name="ident00">86</field>
+            <field name="ma_kho">06TP</field>
+            <field name="ma_dt">1078816</field>
+            <field name="ngay_ap">2026-01-05 00:00:00</field>
+            <field name="sl_dm_kg">72000.0000</field>
+            <field name="create_log">010126:100455:TRANGDT</field>
+            <field name="lastmodify_log">050126:101809:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_87" model="iwmn.r81dmkhoct">
+            <field name="ident00">87</field>
+            <field name="ma_kho">06TSCM1</field>
+            <field name="ma_dt">1071178</field>
+            <field name="ngay_ap">2026-01-05 00:00:00</field>
+            <field name="sl_dm_kg">700000.0000</field>
+            <field name="create_log">010126:101549:TRANGDT</field>
+            <field name="lastmodify_log">050126:102050:TRANGDT</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmkhoct_88" model="iwmn.r81dmkhoct">
+            <field name="ident00">88</field>
+            <field name="ma_kho">06THP</field>
+            <field name="ma_dt">1071136</field>
+            <field name="ngay_ap">2027-01-01 00:00:00</field>
+            <field name="sl_dm_kg">0.0000</field>
+            <field name="create_log">050126:095703:TRANGDT</field>
+            <field name="lastmodify_log">050126:095653:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_89" model="iwmn.r81dmkhoct">
+            <field name="ident00">89</field>
+            <field name="ma_kho">06TD</field>
+            <field name="ma_dt">1071101</field>
+            <field name="ngay_ap">2027-01-01 00:00:00</field>
+            <field name="sl_dm_kg">0.0000</field>
+            <field name="create_log">050126:095750:TRANGDT</field>
+            <field name="lastmodify_log">050126:095739:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_91" model="iwmn.r81dmkhoct">
+            <field name="ident00">91</field>
+            <field name="ma_kho">06SLHCM1</field>
+            <field name="ma_dt">1071017</field>
+            <field name="ngay_ap">2027-01-01 00:00:00</field>
+            <field name="sl_dm_kg">0.0000</field>
+            <field name="create_log">050126:095932:TRANGDT</field>
+            <field name="lastmodify_log">050126:095925:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_92" model="iwmn.r81dmkhoct">
+            <field name="ident00">92</field>
+            <field name="ma_kho">06PTNT1</field>
+            <field name="ma_dt">1071109</field>
+            <field name="ngay_ap">2027-01-01 00:00:00</field>
+            <field name="sl_dm_kg">0.0000</field>
+            <field name="create_log">050126:100046:TRANGDT</field>
+            <field name="lastmodify_log">050126:100039:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_93" model="iwmn.r81dmkhoct">
+            <field name="ident00">93</field>
+            <field name="ma_kho">06MTGNT</field>
+            <field name="ma_dt">1000014</field>
+            <field name="ngay_ap">2027-01-01 00:00:00</field>
+            <field name="sl_dm_kg">0.0000</field>
+            <field name="create_log">050126:101027:TRANGDT</field>
+            <field name="lastmodify_log">050126:101018:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_94" model="iwmn.r81dmkhoct">
+            <field name="ident00">94</field>
+            <field name="ma_kho">06HCM1</field>
+            <field name="ma_dt">1000001</field>
+            <field name="ngay_ap">2027-01-01 00:00:00</field>
+            <field name="sl_dm_kg">0.0000</field>
+            <field name="create_log">050126:101124:TRANGDT</field>
+            <field name="lastmodify_log">050126:101114:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_95" model="iwmn.r81dmkhoct">
+            <field name="ident00">95</field>
+            <field name="ma_kho">06HCM2</field>
+            <field name="ma_dt">1000002</field>
+            <field name="ngay_ap">2027-01-01 00:00:00</field>
+            <field name="sl_dm_kg">0.0000</field>
+            <field name="create_log">050126:101202:TRANGDT</field>
+            <field name="lastmodify_log">050126:101151:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_96" model="iwmn.r81dmkhoct">
+            <field name="ident00">96</field>
+            <field name="ma_kho">06CKTG</field>
+            <field name="ma_dt">1071097</field>
+            <field name="ngay_ap">2027-01-01 00:00:00</field>
+            <field name="sl_dm_kg">0.0000</field>
+            <field name="create_log">050126:101249:TRANGDT</field>
+            <field name="lastmodify_log">050126:101240:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_97" model="iwmn.r81dmkhoct">
+            <field name="ident00">97</field>
+            <field name="ma_kho">06HGBL</field>
+            <field name="ma_dt">1071005</field>
+            <field name="ngay_ap">2027-01-01 00:00:00</field>
+            <field name="sl_dm_kg">0.0000</field>
+            <field name="create_log">050126:101330:TRANGDT</field>
+            <field name="lastmodify_log">050126:101320:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_98" model="iwmn.r81dmkhoct">
+            <field name="ident00">98</field>
+            <field name="ma_kho">06CHCM1</field>
+            <field name="ma_dt">1071160</field>
+            <field name="ngay_ap">2027-01-01 00:00:00</field>
+            <field name="sl_dm_kg">0.0000</field>
+            <field name="create_log">050126:101400:TRANGDT</field>
+            <field name="lastmodify_log">050126:101349:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_99" model="iwmn.r81dmkhoct">
+            <field name="ident00">99</field>
+            <field name="ma_kho">06TP</field>
+            <field name="ma_dt">1078816</field>
+            <field name="ngay_ap">2027-01-01 00:00:00</field>
+            <field name="sl_dm_kg">0.0000</field>
+            <field name="create_log">050126:101821:TRANGDT</field>
+            <field name="lastmodify_log">050126:101809:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_100" model="iwmn.r81dmkhoct">
+            <field name="ident00">100</field>
+            <field name="ma_kho">06SMC</field>
+            <field name="ma_dt">1071013</field>
+            <field name="ngay_ap">2027-01-01 00:00:00</field>
+            <field name="sl_dm_kg">0.0000</field>
+            <field name="create_log">050126:101854:TRANGDT</field>
+            <field name="lastmodify_log">050126:101844:TRANGDT</field>
+            <field name="ma_data" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmkhoct_101" model="iwmn.r81dmkhoct">
+            <field name="ident00">101</field>
+            <field name="ma_kho">06HOSA</field>
+            <field name="ma_dt">1071175</field>
+            <field name="ngay_ap">2027-01-01 00:00:00</field>
+            <field name="sl_dm_kg">0.0000</field>
+            <field name="create_log">050126:101932:TRANGDT</field>
+            <field name="lastmodify_log">050126:101925:TRANGDT</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmkhoct_102" model="iwmn.r81dmkhoct">
+            <field name="ident00">102</field>
+            <field name="ma_kho">06HUTH</field>
+            <field name="ma_dt">1071177</field>
+            <field name="ngay_ap">2027-01-01 00:00:00</field>
+            <field name="sl_dm_kg">0.0000</field>
+            <field name="create_log">050126:102006:TRANGDT</field>
+            <field name="lastmodify_log">050126:101953:TRANGDT</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmkhoct_103" model="iwmn.r81dmkhoct">
+            <field name="ident00">103</field>
+            <field name="ma_kho">06TSCM1</field>
+            <field name="ma_dt">1071178</field>
+            <field name="ngay_ap">2027-01-01 00:00:00</field>
+            <field name="sl_dm_kg">0.0000</field>
+            <field name="create_log">050126:102058:TRANGDT</field>
+            <field name="lastmodify_log">050126:102050:TRANGDT</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmkhoct_104" model="iwmn.r81dmkhoct">
+            <field name="ident00">104</field>
+            <field name="ma_kho">06XTDN1</field>
+            <field name="ma_dt">1071155</field>
+            <field name="ngay_ap">2027-01-01 00:00:00</field>
+            <field name="sl_dm_kg">0.0000</field>
+            <field name="create_log">050126:102130:TRANGDT</field>
+            <field name="lastmodify_log">050126:102122:TRANGDT</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmkhoct_105" model="iwmn.r81dmkhoct">
+            <field name="ident00">105</field>
+            <field name="ma_kho">06PNKGKG1</field>
+            <field name="ma_dt">1071184</field>
+            <field name="ngay_ap">2026-03-16 00:00:00</field>
+            <field name="sl_dm_kg">1000000.0000</field>
+            <field name="create_log">140426:161143:TRANGDT</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmkhoct_106" model="iwmn.r81dmkhoct">
+            <field name="ident00">106</field>
+            <field name="ma_kho">06PNKGKG1</field>
+            <field name="ma_dt">1071184</field>
+            <field name="ngay_ap">2027-01-01 00:00:00</field>
+            <field name="sl_dm_kg">0.0000</field>
+            <field name="create_log">140426:161155:TRANGDT</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmkhoct_107" model="iwmn.r81dmkhoct">
+            <field name="ident00">107</field>
+            <field name="ma_kho">06PHSDAG</field>
+            <field name="ma_dt">1080046</field>
+            <field name="ngay_ap">2026-03-16 00:00:00</field>
+            <field name="sl_dm_kg">1000000.0000</field>
+            <field name="create_log">140426:161652:TRANGDT</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmkhoct_108" model="iwmn.r81dmkhoct">
+            <field name="ident00">108</field>
+            <field name="ma_kho">06PHSDAG</field>
+            <field name="ma_dt">1080046</field>
+            <field name="ngay_ap">2027-01-01 00:00:00</field>
+            <field name="sl_dm_kg">0.0000</field>
+            <field name="create_log">140426:161701:TRANGDT</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmkhoct_109" model="iwmn.r81dmkhoct">
+            <field name="ident00">109</field>
+            <field name="ma_kho">06HTLD</field>
+            <field name="ma_dt">1071186</field>
+            <field name="ngay_ap">2026-03-24 00:00:00</field>
+            <field name="sl_dm_kg">600000.0000</field>
+            <field name="create_log">170426:153102:TRANGDT</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmkhoct_110" model="iwmn.r81dmkhoct">
+            <field name="ident00">110</field>
+            <field name="ma_kho">06HTLD</field>
+            <field name="ma_dt">1071186</field>
+            <field name="ngay_ap">2027-01-01 00:00:00</field>
+            <field name="sl_dm_kg">0.0000</field>
+            <field name="create_log">170426:153110:TRANGDT</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmkhoct_111" model="iwmn.r81dmkhoct">
+            <field name="ident00">111</field>
+            <field name="ma_kho">06HCMLD</field>
+            <field name="ma_dt">1000001</field>
+            <field name="ngay_ap">2026-01-04 00:00:00</field>
+            <field name="sl_dm_kg">0.0000</field>
+            <field name="create_log">170426:161143:TRANGDT</field>
+            <field name="lastmodify_log">170426:162046:TRANGDT</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmkhoct_112" model="iwmn.r81dmkhoct">
+            <field name="ident00">112</field>
+            <field name="ma_kho">06HCMLD</field>
+            <field name="ma_dt">1000001</field>
+            <field name="ngay_ap">2027-01-01 00:00:00</field>
+            <field name="sl_dm_kg">0.0000</field>
+            <field name="create_log">170426:161153:TRANGDT</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmkhoct_113" model="iwmn.r81dmkhoct">
+            <field name="ident00">113</field>
+            <field name="ma_kho">06LKHCM1</field>
+            <field name="ma_dt">1075131</field>
+            <field name="ngay_ap">2026-04-20 00:00:00</field>
+            <field name="sl_dm_kg">1000000.0000</field>
+            <field name="create_log">250426:120955:TRANGDT</field>
+            <field name="lastmodify_log">270526:080213:TRANGDT</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmkhoct_114" model="iwmn.r81dmkhoct">
+            <field name="ident00">114</field>
+            <field name="ma_kho">06TLLD1</field>
+            <field name="ma_dt">1071183</field>
+            <field name="ngay_ap">2026-03-24 00:00:00</field>
+            <field name="sl_dm_kg">600000.0000</field>
+            <field name="create_log">090526:102400:DANGT</field>
+            <field name="lastmodify_log">090526:102904:DANGT</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmkhoct_115" model="iwmn.r81dmkhoct">
+            <field name="ident00">115</field>
+            <field name="ma_kho">06TLLD1</field>
+            <field name="ma_dt">1071183</field>
+            <field name="ngay_ap">2027-01-01 00:00:00</field>
+            <field name="sl_dm_kg">0.0000</field>
+            <field name="create_log">090526:102923:DANGT</field>
+            <field name="lastmodify_log">090526:102904:DANGT</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmkhoct_116" model="iwmn.r81dmkhoct">
+            <field name="ident00">116</field>
+            <field name="ma_kho">06TKCM1</field>
+            <field name="ma_dt">1071170</field>
+            <field name="ngay_ap">2026-05-13 00:00:00</field>
+            <field name="sl_dm_kg">600000.0000</field>
+            <field name="create_log">130526:154758:TRANGDT</field>
+            <field name="lastmodify_log">280526:094953:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmkhoct_117" model="iwmn.r81dmkhoct">
+            <field name="ident00">117</field>
+            <field name="ma_kho">06TKCM1</field>
+            <field name="ma_dt">1071170</field>
+            <field name="ngay_ap">2027-01-01 00:00:00</field>
+            <field name="sl_dm_kg">0.0000</field>
+            <field name="create_log">130526:154818:TRANGDT</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmkhoct_118" model="iwmn.r81dmkhoct">
+            <field name="ident00">118</field>
+            <field name="ma_kho">06LKHCM1</field>
+            <field name="ma_dt">1075131</field>
+            <field name="ngay_ap">2027-01-01 00:00:00</field>
+            <field name="sl_dm_kg">0.0000</field>
+            <field name="create_log">130526:161924:TRANGDT</field>
+            <field name="lastmodify_log">130526:161917:TRANGDT</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmkhoct_119" model="iwmn.r81dmkhoct">
+            <field name="ident00">119</field>
+            <field name="ma_kho">06LKHCM1</field>
+            <field name="ma_dt">1075131</field>
+            <field name="ngay_ap">2026-05-26 00:00:00</field>
+            <field name="sl_dm_kg">1500000.0000</field>
+            <field name="create_log">250526:143849:TRANGDT</field>
+            <field name="lastmodify_log">270526:080234:TRANGDT</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmkhoct_120" model="iwmn.r81dmkhoct">
+            <field name="ident00">120</field>
+            <field name="ma_kho">06LKHCM1</field>
+            <field name="ma_dt">1075131</field>
+            <field name="ngay_ap">2026-06-23 00:00:00</field>
+            <field name="sl_dm_kg">2500000.0000</field>
+            <field name="create_log">230626:151626:VR</field>
+            <field name="lastmodify_log">230626:151736:VR</field>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmkhoct_121" model="iwmn.r81dmkhoct">
+            <field name="ident00">121</field>
+            <field name="ma_kho">06HSM</field>
+            <field name="ma_dt">1071189</field>
+            <field name="ngay_ap">2026-07-01 00:00:00</field>
+            <field name="sl_dm_kg">500000.0000</field>
+            <field name="create_log">010726:140004:VR</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+    </data>
+</odoo>

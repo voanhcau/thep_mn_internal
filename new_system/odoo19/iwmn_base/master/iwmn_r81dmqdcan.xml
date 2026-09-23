@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_iwmn_r81dmqdcan_list" model="ir.ui.view">
+        <field name="name">iwmn.r81dmqdcan.list</field>
+        <field name="model">iwmn.r81dmqdcan</field>
+        <field name="arch" type="xml">
+            <list string="R81DMQDCAN - Ident00">
+                <field name="ident00"/>
+                <field name="loai_thep"/>
+                <field name="duong_kinh"/>
+                <field name="tieu_hao_gas"/>
+                <field name="tieu_hao_dien"/>
+                <field name="tieu_hao_phoi"/>
+                <field name="ghi_chu"/>
+                <field name="create_log"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmqdcan_form" model="ir.ui.view">
+        <field name="name">iwmn.r81dmqdcan.form</field>
+        <field name="model">iwmn.r81dmqdcan</field>
+        <field name="arch" type="xml">
+            <form string="R81DMQDCAN - Ident00">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="ident00"/>
+                            <field name="loai_thep"/>
+                            <field name="duong_kinh"/>
+                            <field name="tieu_hao_gas"/>
+                            <field name="tieu_hao_dien"/>
+                        </group>
+                        <group>
+                            <field name="tieu_hao_phoi"/>
+                            <field name="ghi_chu"/>
+                            <field name="create_log"/>
+                            <field name="lastmodify_log"/>
+                            <field name="ngay_ap"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_iwmn_r81dmqdcan_search" model="ir.ui.view">
+        <field name="name">iwmn.r81dmqdcan.search</field>
+        <field name="model">iwmn.r81dmqdcan</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="ident00"/>
+                <field name="loai_thep"/>
+                <field name="duong_kinh"/>
+                <field name="tieu_hao_gas"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_iwmn_r81dmqdcan" model="ir.actions.act_window">
+        <field name="name">R81DMQDCAN - Ident00</field>
+        <field name="res_model">iwmn.r81dmqdcan</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_iwmn_r81dmqdcan_search"/>
+    </record>
+
+    <menuitem id="menu_iwmn_r81dmqdcan" name="R81DMQDCAN - Ident00"
+              parent="menu_iwmn_master_production"
+              action="action_iwmn_r81dmqdcan" sequence="48"/>
+</odoo>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="iwmn_r81dmcl_1" model="iwmn.r81dmcl">
+            <field name="ma_cl">1</field>
+            <field name="ten_cl">CP</field>
+            <field name="create_log">250215:134724:VR</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+        <record id="iwmn_r81dmcl_2" model="iwmn.r81dmcl">
+            <field name="ma_cl">2</field>
+            <field name="ten_cl">KPH</field>
+            <field name="create_log">250215:134732:VR</field>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">*</field>
+        </record>
+    </data>
+</odoo>

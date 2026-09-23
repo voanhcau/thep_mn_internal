@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ActiveReportsLayout Version="3.1" PrintWidth="11908.8" DocumentName="ARNet Document" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-style: normal; text-decoration: none; font-weight: normal; font-size: 10pt; color: Black; font-family: &quot;Times New Roman&quot;; ddo-char-set: 204" />
+    <Style Name="Heading1" Value="font-size: 16pt; font-weight: bold; ddo-char-set: 204" />
+    <Style Name="Heading2" Value="font-size: 14pt; font-weight: bold; font-style: italic; font-family: &quot;Times New Roman&quot;; ddo-char-set: 204" />
+    <Style Name="Heading3" Value="font-size: 13pt; font-weight: bold; ddo-char-set: 204" />
+  </StyleSheet>
+  <Sections>
+    <Section Type="ReportHeader" Name="ReportHeader1" Height="0" BackColor="16777215" />
+    <Section Type="PageHeader" Name="pageHeader" Height="5159" BackColor="16777215">
+      <Control Type="AR.Label" Name="Label19" Tag="" Left="5731.2" Top="2484" Width="1792.8" Height="398.8803" Caption="/ TMN-QLCL" HyperLink="" Style="ddo-char-set: 0; font-size: 12pt; font-family: Times New Roman" />
+      <Control Type="AR.Label" Name="label32" Tag="Ten_Cong_Trinh" Left="515.52" Top="3183.84" Width="11070.72" Height="777.6003" Caption="Ten_Cong_Trinh" HyperLink="" Style="ddo-char-set: 1; font-size: 12pt; font-family: Times New Roman; font-weight: bold; text-align: center" />
+      <Control Type="AR.Label" Name="label9" Tag="So_Ct" Left="4059.36" Top="2484" Width="1643.04" Height="398.8804" Caption="So_Ct" HyperLink="" Style="ddo-char-set: 0; font-size: 12pt; font-family: Times New Roman" />
+    </Section>
+    <Section Type="GroupHeader" Name="groupHeader1" Height="0" BackColor="16777215" />
+    <Section Type="Detail" Name="detail" Height="400" BackColor="16777215">
+      <Control Type="AR.Field" Name="textBox2" DataField="Ten_Vt" Left="1162.081" Top="43.2" Width="2095.2" Height="288" Text="Ten_Vt" Style="font-size: 10pt" />
+      <Control Type="AR.Field" Name="TextBox17" DataField="Ngay_Nhap" Left="9843.842" Top="43.2" Width="1219.68" Height="270" Text="Ngay_Nhap" OutputFormat="dd/MM/yyyy" Multiline="0" Style="text-align: center; white-space: nowrap; font-size: 10pt" />
+      <Control Type="AR.Field" Name="TextBox3" DataField="Nhan_Mac" Left="3283.201" Top="43.2" Width="1847.52" Height="288" Text="Thép Miền Nam /V/" Style="font-size: 10pt; text-align: center" />
+      <Control Type="AR.Field" Name="TextBox4" DataField="Grade_Name" Left="5559.841" Top="43.2" Width="1278.72" Height="288" Text="Grade_Name" Style="font-size: 10pt; text-align: center" />
+      <Control Type="AR.Field" Name="TextBox5" DataField="Try_ID" Left="7408.801" Top="43.2" Width="1964.158" Height="288" Text="Try_ID" Style="font-size: 10pt; text-align: center" />
+      <Control Type="AR.Line" Name="Line_GTGT1" Visible="0" X1="1175.04" Y1="0" X2="1799.4" Y2="0.2399826" />
+      <Control Type="AR.Line" Name="Line_GTGT2" Visible="0" X1="4808.16" Y1="0" X2="5432.521" Y2="0.2399826" />
+      <Control Type="AR.Line" Name="Line_GTGT3" Visible="0" X1="10409.76" Y1="380.16" X2="11034.12" Y2="380.4" />
+    </Section>
+    <Section Type="GroupFooter" Name="groupFooter1" Height="116" BackColor="16777215" />
+    <Section Type="PageFooter" Name="pageFooter" Height="5100" BackColor="16777215">
+      <Control Type="AR.Label" Name="Label17" DataField="Ten_Dt_CbNv" Tag="Ten_Dt_CbNv" Left="6708.96" Top="4350.24" Width="4007.52" Height="447.8398" Caption="Ten_Dt_CbNv" HyperLink="" Style="ddo-char-set: 163; font-style: normal; font-size: 11.25pt; font-family: Times New Roman; text-align: center; font-weight: bold" />
+      <Control Type="AR.Label" Name="Label29" Tag="Ngay_Xuat" Left="8524.8" Top="2376" Width="2964.959" Height="433.4402" Caption="Ngay_Xuat" HyperLink="" Style="ddo-char-set: 1; font-size: 12pt; font-family: Times New Roman; font-style: italic" />
+      <Control Type="AR.Label" Name="Label26" Tag="" Left="6562.086" Top="2376" Width="1936.8" Height="433.4402" Caption="Bà Rịa - Vũng Tàu," HyperLink="" Style="ddo-char-set: 1; font-size: 12pt; font-family: Times New Roman; font-style: italic" />
+    </Section>
+    <Section Type="ReportFooter" Name="ReportFooter1" Height="0" BackColor="16777215" />
+  </Sections>
+  <ReportComponentTray />
+  <Script><![CDATA[
+public void ActiveReport_DataInitialize()
+{
+	//add a counter field for the number of the records 
+	//directly in the activereports script
+	rpt.Fields.Add("Stt1");
+}
+
+public void detail_Format()
+{
+	int sl = System.Convert.ToInt32(rpt.Fields["Stt1"].Value);
+	if (sl != 0 && ((sl % 13) == 0))
+	{
+		// if the current record number is modulus of 15 
+		//(12 records per page!) and it is not the first record
+		// than force the page break
+		DataDynamics.ActiveReports.Detail subReportDetail =
+			(DataDynamics.ActiveReports.Detail) (rpt.Sections["detail"]);
+		subReportDetail.NewPage = DataDynamics.ActiveReports.NewPage.After;
+              
+		// increase the height of the detail section to 0,9 inches 
+		//that the text "Continued on the next page" will be displayed
+		subReportDetail.Height = (float) (0.248);
+	} 
+	else 
+	{
+		//the record is not modulus of 15, do not break page
+		DataDynamics.ActiveReports.Detail subReportDetail =
+			(DataDynamics.ActiveReports.Detail) (rpt.Sections["detail"]);
+		subReportDetail.NewPage = DataDynamics.ActiveReports.NewPage.None;
+
+		//decrease the detail height so that the text 
+		//"Continued on the next page" hides
+		subReportDetail.Height = (float) (0.248);
+	}
+
+	//increase the record counter
+	sl = sl + 1;
+	rpt.Fields["Stt1"].Value = sl;
+}
+]]></Script>
+  <PageSettings LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" />
+  <Parameters />
+</ActiveReportsLayout>

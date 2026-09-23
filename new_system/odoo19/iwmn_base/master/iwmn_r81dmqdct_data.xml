@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="iwmn_r81dmqdct_1" model="iwmn.r81dmqdct">
+            <field name="ident00">1</field>
+            <field name="so_qd">0705-2021/QÐ-TMN</field>
+            <field name="ma_dt_list">1071170</field>
+            <field name="ma_kho_list">04TP</field>
+            <field name="grade_id_list">G01,G02,G03,G04,G28</field>
+            <field name="tu_ngay">2021-07-01 00:00:00</field>
+            <field name="den_ngay">2021-09-30 00:00:00</field>
+            <field name="sl_hd">0.0000</field>
+            <field name="sl_ck">2000000.0000</field>
+            <field name="sl_ck1">0.0000</field>
+            <field name="sl_ck2">0.0000</field>
+            <field name="muc_ck">300.0000</field>
+            <field name="is_lk" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="file_re" eval="False"/>
+            <field name="not_ma_dt_list" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmqdct_2" model="iwmn.r81dmqdct">
+            <field name="ident00">2</field>
+            <field name="so_qd">0705-2021/QÐ-TMN</field>
+            <field name="ma_dt_list">1071170</field>
+            <field name="ma_kho_list">04TP</field>
+            <field name="grade_id_list">G01,G02,G03,G04,G28</field>
+            <field name="tu_ngay">2021-10-01 00:00:00</field>
+            <field name="den_ngay">2021-12-31 00:00:00</field>
+            <field name="sl_hd">0.0000</field>
+            <field name="sl_ck">2500000.0000</field>
+            <field name="sl_ck1">0.0000</field>
+            <field name="sl_ck2">0.0000</field>
+            <field name="muc_ck">300.0000</field>
+            <field name="is_lk" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="file_re" eval="False"/>
+            <field name="not_ma_dt_list" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmqdct_4" model="iwmn.r81dmqdct">
+            <field name="ident00">4</field>
+            <field name="so_qd">0003-2021/QÐ-TMN</field>
+            <field name="ma_dt_list" eval="False"/>
+            <field name="ma_kho_list">04TP,051DN,051NT,051P2</field>
+            <field name="grade_id_list">G02,G03,G08,G09</field>
+            <field name="tu_ngay">2022-01-01 00:00:00</field>
+            <field name="den_ngay">2022-12-31 00:00:00</field>
+            <field name="sl_hd">500000.0000</field>
+            <field name="sl_ck">50000.0000</field>
+            <field name="sl_ck1">500000.0000</field>
+            <field name="sl_ck2">100000000.0000</field>
+            <field name="muc_ck">50.0000</field>
+            <field name="is_lk" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="file_re" eval="False"/>
+            <field name="not_ma_dt_list">1070000</field>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmqdct_5" model="iwmn.r81dmqdct">
+            <field name="ident00">5</field>
+            <field name="so_qd">939-2020/QÐ-TMN</field>
+            <field name="ma_dt_list" eval="False"/>
+            <field name="ma_kho_list">04TP,051DN,051NT,051P2,058BH,058NB,058TD,08BH,08NB,08TD</field>
+            <field name="grade_id_list" eval="False"/>
+            <field name="tu_ngay">2022-01-01 00:00:00</field>
+            <field name="den_ngay">2022-03-31 00:00:00</field>
+            <field name="sl_hd">2000000.0000</field>
+            <field name="sl_ck">0.0000</field>
+            <field name="sl_ck1">1000000.0000</field>
+            <field name="sl_ck2">1499000.0000</field>
+            <field name="muc_ck">170.0000</field>
+            <field name="is_lk" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="file_re">Thang</field>
+            <field name="not_ma_dt_list">1070000,1071170</field>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmqdct_6" model="iwmn.r81dmqdct">
+            <field name="ident00">6</field>
+            <field name="so_qd">939-2020/QÐ-TMN</field>
+            <field name="ma_dt_list" eval="False"/>
+            <field name="ma_kho_list">04TP,051DN,051NT,051P2,058BH,058NB,058TD,08BH,08NB,08TD</field>
+            <field name="grade_id_list" eval="False"/>
+            <field name="tu_ngay">2022-01-01 00:00:00</field>
+            <field name="den_ngay">2022-03-31 00:00:00</field>
+            <field name="sl_hd">2000000.0000</field>
+            <field name="sl_ck">0.0000</field>
+            <field name="sl_ck1">1500000.0000</field>
+            <field name="sl_ck2">1999000.0000</field>
+            <field name="muc_ck">190.0000</field>
+            <field name="is_lk" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="file_re">Thang</field>
+            <field name="not_ma_dt_list">1070000,1071170</field>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmqdct_7" model="iwmn.r81dmqdct">
+            <field name="ident00">7</field>
+            <field name="so_qd">939-2020/QÐ-TMN</field>
+            <field name="ma_dt_list" eval="False"/>
+            <field name="ma_kho_list">04TP,051DN,051NT,051P2,058BH,058NB,058TD,08BH,08NB,08TD</field>
+            <field name="grade_id_list" eval="False"/>
+            <field name="tu_ngay">2022-01-01 00:00:00</field>
+            <field name="den_ngay">2022-03-31 00:00:00</field>
+            <field name="sl_hd">2000000.0000</field>
+            <field name="sl_ck">0.0000</field>
+            <field name="sl_ck1">2000000.0000</field>
+            <field name="sl_ck2">2999000.0000</field>
+            <field name="muc_ck">210.0000</field>
+            <field name="is_lk" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="file_re">Thang</field>
+            <field name="not_ma_dt_list">1070000,1071170</field>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmqdct_8" model="iwmn.r81dmqdct">
+            <field name="ident00">8</field>
+            <field name="so_qd">1070-2019/QÐ-TMN</field>
+            <field name="ma_dt_list" eval="False"/>
+            <field name="ma_kho_list" eval="False"/>
+            <field name="grade_id_list" eval="False"/>
+            <field name="tu_ngay">1900-01-01 00:00:00</field>
+            <field name="den_ngay">1900-01-01 00:00:00</field>
+            <field name="sl_hd">0.0000</field>
+            <field name="sl_ck">0.0000</field>
+            <field name="sl_ck1">0.0000</field>
+            <field name="sl_ck2">0.0000</field>
+            <field name="muc_ck">50.0000</field>
+            <field name="is_lk" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="file_re" eval="False"/>
+            <field name="not_ma_dt_list" eval="False"/>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+        <record id="iwmn_r81dmqdct_9" model="iwmn.r81dmqdct">
+            <field name="ident00">9</field>
+            <field name="so_qd">939-2020/QÐ-TMN</field>
+            <field name="ma_dt_list" eval="False"/>
+            <field name="ma_kho_list">04TP,051DN,051NT,051P2,058BH,058NB,058TD,08BH,08NB,08TD</field>
+            <field name="grade_id_list" eval="False"/>
+            <field name="tu_ngay">2022-01-01 00:00:00</field>
+            <field name="den_ngay">2022-03-31 00:00:00</field>
+            <field name="sl_hd">2000000.0000</field>
+            <field name="sl_ck">0.0000</field>
+            <field name="sl_ck1">3000000.0000</field>
+            <field name="sl_ck2">100000000.0000</field>
+            <field name="muc_ck">230.0000</field>
+            <field name="is_lk" eval="False"/>
+            <field name="create_log" eval="False"/>
+            <field name="lastmodify_log" eval="False"/>
+            <field name="ma_data">A01</field>
+            <field name="file_re">Thang</field>
+            <field name="not_ma_dt_list">1070000,1071170</field>
+            <field name="ghi_chu" eval="False"/>
+        </record>
+    </data>
+</odoo>
