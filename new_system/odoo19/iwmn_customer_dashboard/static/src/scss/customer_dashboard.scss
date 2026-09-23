@@ -347,6 +347,9 @@
 .iwmn-product-type-display[readonly] { background: #f3f7f5; color: #52675d; cursor: default; }
 .iwmn-field textarea { min-height: 82px; resize: vertical; }.iwmn-field input:focus, .iwmn-field select:focus, .iwmn-field textarea:focus { background: #fff; border-color: #4f8372; box-shadow: 0 0 0 3px rgba(49, 91, 78, .12); }
 .iwmn-field small { color: #87948e; font-size: .67rem; font-weight: 450; margin-top: -2px; }
+[data-driver-lookup-status].is-loading { color: #86662d; }
+[data-driver-lookup-status].is-found { color: #287057; font-weight: 650; }
+[data-driver-lookup-status].is-error { color: #b94034; }
 .iwmn-product-search { position: relative; z-index: 3; }
 .iwmn-product-search:focus-within { z-index: 8; }
 .iwmn-product-suggestions { background: #fff; border: 1px solid #b9ccc3; border-radius: 12px; box-shadow: 0 14px 34px rgba(23, 56, 46, .18); left: 0; max-height: 360px; overflow-y: auto; position: absolute; right: 0; top: 70px; }

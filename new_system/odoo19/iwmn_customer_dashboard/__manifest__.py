@@ -1,7 +1,7 @@
 {
     "name": "IWMN Customer Credit Dashboard",
     "summary": "Portal dashboard for customer debt and credit limits",
-    "version": "19.0.1.39.2",
+    "version": "19.0.1.40.0",
     "category": "Website/Portal",
     "license": "LGPL-3",
     "depends": ["iwmn_base", "portal", "website", "sale"],

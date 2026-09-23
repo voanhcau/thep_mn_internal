@@ -934,15 +934,89 @@ function initializeOrderForm(root) {
         calculateLine(line);
     }
 
+    function initializeDriverVehicleLookup() {
+        const identity = form.querySelector("[name='vehicle_driver_identity']");
+        const orderDate = form.querySelector("[name='order_date']");
+        const driverName = form.querySelector("[name='vehicle_driver_name']");
+        const vehicleNumber = form.querySelector("[name='vehicle_license_plate']");
+        const bargeNumber = form.querySelector("[name='vehicle_barge_number']");
+        const status = form.querySelector("[data-driver-lookup-status]");
+        if (!identity || !orderDate || !driverName || !vehicleNumber || !bargeNumber || !status) return;
+
+        let lookupTimer;
+        let lookupController;
+        let lastIdentity = identity.value.replace(/\D/g, "");
+
+        const setStatus = (message, state = "") => {
+            status.textContent = message;
+            status.classList.toggle("is-loading", state === "loading");
+            status.classList.toggle("is-found", state === "found");
+            status.classList.toggle("is-error", state === "error");
+        };
+        const lookup = async () => {
+            const digits = identity.value.replace(/\D/g, "");
+            if (![9, 12].includes(digits.length) || digits === lastIdentity) return;
+            lastIdentity = digits;
+            lookupController?.abort();
+            lookupController = new AbortController();
+            setStatus("Đang tìm thông tin tài xế và phương tiện gần nhất...", "loading");
+            try {
+                const response = await fetch(
+                    `/my/orders/driver-vehicle?identity=${encodeURIComponent(identity.value)}&document_date=${encodeURIComponent(orderDate.value)}`,
+                    {
+                        credentials: "same-origin",
+                        headers: { Accept: "application/json" },
+                        signal: lookupController.signal,
+                    }
+                );
+                const payload = await response.json();
+                if (!response.ok) {
+                    setStatus(payload.error || "Không lấy được thông tin tài xế.", "error");
+                    return;
+                }
+                if (!payload.found) {
+                    setStatus("Không tìm thấy dữ liệu tài xế trong 3 năm gần nhất.");
+                    return;
+                }
+                if (payload.driver_name) driverName.value = payload.driver_name;
+                if (payload.vehicle_number) vehicleNumber.value = payload.vehicle_number;
+                if (payload.barge_number) bargeNumber.value = payload.barge_number;
+                setStatus("Đã tự động điền thông tin gần nhất; anh/chị có thể chỉnh lại nếu cần.", "found");
+            } catch (error) {
+                if (error.name !== "AbortError") {
+                    setStatus("Không thể kết nối để tìm thông tin tài xế.", "error");
+                }
+            }
+        };
+        identity.addEventListener("input", () => {
+            const digits = identity.value.replace(/\D/g, "");
+            if (![9, 12].includes(digits.length)) {
+                lastIdentity = "";
+                setStatus("Nhập đủ CCCD/CMT để tự động tìm tên tài xế và phương tiện gần nhất.");
+                clearTimeout(lookupTimer);
+                return;
+            }
+            clearTimeout(lookupTimer);
+            lookupTimer = setTimeout(lookup, 350);
+        });
+        identity.addEventListener("blur", lookup);
+        orderDate.addEventListener("change", () => {
+            lastIdentity = "";
+            lookup();
+        });
+    }
+
     function updateTransportFields() {
         const method = form.querySelector("[data-transport-method]").value;
         root.querySelectorAll(".iwmn-truck-field").forEach((field) => {
-            field.hidden = method !== "xe";
+            field.hidden = false;
             field.querySelector("input")?.toggleAttribute("required", method === "xe");
+            field.querySelector("[data-truck-required-mark]")?.toggleAttribute("hidden", method !== "xe");
         });
         root.querySelectorAll(".iwmn-barge-field").forEach((field) => {
-            field.hidden = method !== "salan";
+            field.hidden = false;
             field.querySelector("input")?.toggleAttribute("required", method === "salan");
+            field.querySelector("[data-barge-required-mark]")?.toggleAttribute("hidden", method !== "salan");
         });
     }
 
@@ -1025,6 +1099,7 @@ function initializeOrderForm(root) {
         previousOrderShape = nextShape;
     });
     initializeContactFormatting(root);
+    initializeDriverVehicleLookup();
     initializeProjectSearch();
     initializeProjectAppendixSearch();
     form.addEventListener("submit", (event) => {

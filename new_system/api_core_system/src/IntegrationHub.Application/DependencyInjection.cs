@@ -22,6 +22,7 @@ public static class DependencyInjection
         services.AddScoped<BarWeightService>();
         services.AddScoped<OdooMethodCallService>();
         services.AddScoped<CustomerOrderSyncService>();
+        services.AddScoped<DriverVehicleLookupService>();
         return services;
     }
 }

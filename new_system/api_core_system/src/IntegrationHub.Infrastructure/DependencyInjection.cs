@@ -32,6 +32,7 @@ public static class DependencyInjection
         services.AddScoped<IMasterDataSyncReadRepository, MasterDataSyncReadRepository>();
         services.AddScoped<IBarWeightReadRepository, BarWeightReadRepository>();
         services.AddScoped<ICustomerOrderWriteRepository, CustomerOrderWriteRepository>();
+        services.AddScoped<IDriverVehicleLookupRepository, DriverVehicleLookupRepository>();
         services.AddOptions<OdooOptions>()
             .Bind(configuration.GetSection(OdooOptions.SectionName))
             .Validate(options => !options.Enabled ||

@@ -10,7 +10,14 @@ from odoo.addons.sale.controllers.portal import CustomerPortal as SaleCustomerPo
 from odoo.osv import expression
 from odoo.tools.mimetypes import guess_mimetype
 
-from ..services import BarWeightApiError, BarWeightApiService, CreditLimitApiError, CreditLimitApiService
+from ..services import (
+    BarWeightApiError,
+    BarWeightApiService,
+    CreditLimitApiError,
+    CreditLimitApiService,
+    DriverVehicleApiError,
+    DriverVehicleApiService,
+)
 
 
 DELIVERY_AREAS = {
@@ -272,6 +279,14 @@ def _format_identity(value):
     if len(digits) in (9, 12):
         return ".".join(digits[index:index + 3] for index in range(0, len(digits), 3))
     return value.strip() if value else ""
+
+
+def _driver_lookup_identity(value):
+    """Normalize the portal's dotted identity into the legacy store format."""
+    digits = re.sub(r"\D", "", value or "")
+    if len(digits) not in (9, 12):
+        return ""
+    return "-".join(digits[index:index + 3] for index in range(0, len(digits), 3))
 
 
 def _apply_order_shape_change(line_commands, order_shape, previous_shape=None, previous_line_shapes=(), confirmed=False):
@@ -1142,6 +1157,27 @@ class IwmnCustomerPortal(SaleCustomerPortal):
         return request.make_json_response({
             "items": [self._warehouse_item(warehouse) for warehouse in warehouses],
         })
+
+    @http.route("/my/orders/driver-vehicle", type="http", auth="user", methods=["GET"])
+    def portal_order_driver_vehicle(self, identity=None, document_date=None, **kwargs):
+        normalized_identity = _driver_lookup_identity(identity)
+        if not normalized_identity:
+            return request.make_json_response(
+                {"error": "CCCD/CMT phải gồm 9 hoặc 12 chữ số."}, status=400,
+            )
+        try:
+            lookup_date = fields.Date.to_date(document_date) if document_date else fields.Date.context_today(request.env.user)
+        except (TypeError, ValueError):
+            return request.make_json_response({"error": "Ngày đơn hàng không hợp lệ."}, status=400)
+        try:
+            result = DriverVehicleApiService(request.env).find(
+                normalized_identity, fields.Date.to_string(lookup_date),
+            )
+        except DriverVehicleApiError as exception:
+            return request.make_json_response({"error": str(exception)}, status=502)
+        if not result:
+            return request.make_json_response({"found": False})
+        return request.make_json_response({"found": True, **result})
 
     @http.route("/my/orders/projects", type="http", auth="user", methods=["GET"])
     def portal_order_projects(self, q=None, **kwargs):

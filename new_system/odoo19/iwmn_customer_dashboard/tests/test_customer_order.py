@@ -10,6 +10,7 @@ from ..controllers.portal import (
     _calculate_barem_weights,
     _contract_search_domain,
     _customer_order_domain,
+    _driver_lookup_identity,
     _format_identity,
     _normalize_size_term,
     _normalize_bar_entry,
@@ -32,6 +33,11 @@ from ..services.bar_weight_api import BarWeightApiService
 
 
 class TestCustomerPortalOrder(TransactionCase):
+    def test_driver_lookup_identity_uses_legacy_hyphen_format(self):
+        self.assertEqual(_driver_lookup_identity("038.080.035.903"), "038-080-035-903")
+        self.assertEqual(_driver_lookup_identity("091 093 019"), "091-093-019")
+        self.assertEqual(_driver_lookup_identity("123"), "")
+
     def test_default_length_is_first_then_remaining_lengths_ascending(self):
         products = Mock()
         products.search.return_value = [
