@@ -239,7 +239,7 @@
 .iwmn-credit-detail-item-head > div { display: flex; flex-direction: column; }
 .iwmn-credit-detail-item-head small { color: #7b8982; font-size: .63rem; }
 .iwmn-credit-detail-item-head strong { color: #315b4e; font-size: .8rem; overflow-wrap: anywhere; }
-.iwmn-credit-detail-item-head em { color: #718078; font-size: .64rem; font-style: normal; margin-top: 2px; }
+.iwmn-credit-detail-item-head em { color: #315b4e; font-size: 1.28rem; font-style: normal; font-weight: 800; line-height: 1.2; margin-top: 4px; overflow-wrap: anywhere; }
 .iwmn-credit-detail-fields { display: grid; gap: 9px; grid-template-columns: repeat(2, minmax(0, 1fr)); padding: 12px 14px 14px; }
 .iwmn-credit-detail-field { align-items: center; background: #fff; border: 1px solid #e2eae6; border-radius: 11px; display: grid; gap: 9px; grid-template-columns: 1fr; min-width: 0; padding: 10px; }
 .iwmn-credit-detail-field.iwmn-has-icon { grid-template-columns: 36px minmax(0, 1fr); }

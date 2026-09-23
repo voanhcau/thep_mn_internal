@@ -45,7 +45,7 @@ DETAIL_FIELD_LABELS = {
     "quantity": "Khối lượng",
     "deliveryOrderQuantity": "Khối lượng LXH",
     "paymentMethod": "Hình thức thanh toán",
-    "warehouseCode": "Mã kho",
+    "warehouseCode": "Tên kho",
     "vehicleNumber": "Số xe",
     "bargeNumber": "Số xà lan",
     "deliveryOrderNumber": "Số LXH",
@@ -394,15 +394,18 @@ def _display_detail_value(row, key):
     return None
 
 
-def _prepare_credit_detail_table(rows, detail_type):
-    debt_fields = ("amount", "quantity", "deliveryOrderQuantity", "paymentMethod", "deliveryOrderNumber")
-    order_fields = ("amount", "quantity", "paymentMethod", "warehouseCode", "vehicleNumber", "bargeNumber", "deliveryOrderNumber")
+def _prepare_credit_detail_table(rows, detail_type, warehouse_names=None):
+    warehouse_names = warehouse_names or {}
+    debt_fields = ("amount", "quantity", "deliveryOrderQuantity", "warehouseCode", "vehicleNumber", "bargeNumber")
+    order_fields = ("amount", "quantity", "warehouseCode", "vehicleNumber", "bargeNumber")
     field_keys = debt_fields if detail_type.get("debt") else order_fields
     items = []
     for source_row in _dashboard_detail_rows(rows, detail_type):
         cells = []
         for key in field_keys:
             value = _display_detail_value(source_row, key)
+            if key == "warehouseCode" and value not in (None, "", "NULL"):
+                value = warehouse_names.get(str(value).strip().casefold(), value)
             is_number = isinstance(value, (int, float)) and not isinstance(value, bool)
             cells.append({
                 "key": key,
@@ -1043,7 +1046,25 @@ class IwmnCustomerPortal(SaleCustomerPortal):
                     if summary:
                         cache_model.store_summary(erp_partner, report_date, summary)
                 values["detail_total"] = _credit_detail_total(summary, detail_key)
-                values["detail_table"] = _prepare_credit_detail_table(summary, detail_type)
+                detail_rows = _dashboard_detail_rows(summary, detail_type)
+                warehouse_codes = {
+                    str(code).strip()
+                    for code in (_display_detail_value(row, "warehouseCode") for row in detail_rows)
+                    if code not in (None, "", "NULL")
+                }
+                warehouse_names = {}
+                if warehouse_codes:
+                    warehouses = request.env["iwmn.r81dmkho"].sudo().search([
+                        ("ma_kho", "in", sorted(warehouse_codes)),
+                    ])
+                    warehouse_names = {
+                        (warehouse.ma_kho or "").strip().casefold(): warehouse.ten_kho or warehouse.ma_kho
+                        for warehouse in warehouses
+                        if warehouse.ma_kho
+                    }
+                values["detail_table"] = _prepare_credit_detail_table(
+                    summary, detail_type, warehouse_names,
+                )
                 values["detail_count"] = len(values["detail_table"]["rows"])
             except CreditLimitApiError as exception:
                 values["detail_error"] = str(exception)

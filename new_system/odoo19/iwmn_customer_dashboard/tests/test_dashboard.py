@@ -91,6 +91,22 @@ class TestCustomerCreditDashboard(TransactionCase):
         self.assertEqual(icons["quantity"], "fa-balance-scale")
         self.assertEqual(icons["vehicleNumber"], "fa-truck")
 
+    def test_detail_hides_payment_and_duplicate_lxh_and_resolves_warehouse_name(self):
+        table = _prepare_credit_detail_table(
+            self._rows(),
+            CREDIT_DETAIL_TYPES["pending-approvals"],
+            {"04tp": "Kho thành phẩm"},
+        )
+
+        row = table["rows"][0]
+        cells = {cell["key"]: cell for cell in row["cells"]}
+        self.assertNotIn("paymentMethod", cells)
+        self.assertNotIn("deliveryOrderNumber", cells)
+        self.assertEqual(cells["warehouseCode"]["label"], "Tên kho")
+        self.assertEqual(cells["warehouseCode"]["value"], "Kho thành phẩm")
+        self.assertTrue(cells["bargeNumber"]["visible"])
+        self.assertEqual(cells["bargeNumber"]["value"], "SG-01")
+
     def test_credit_detail_totals_match_dashboard_cards(self):
         rows = self._rows()
 
