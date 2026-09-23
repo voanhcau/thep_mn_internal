@@ -49,20 +49,24 @@
                                 <small>Chỉ hiển thị hợp đồng của khách hàng đang còn hiệu lực tại ngày hiện tại.</small>
                             </label>
                             <label class="iwmn-field iwmn-field-row"><span>Hình thức thanh toán <b>*</b></span><select name="payment_method" required="required"><option value="tra_cham" t-att-selected="form.get('payment_method') == 'tra_cham'">Trả chậm</option><option value="tra_cham_40" t-att-selected="form.get('payment_method', 'tra_cham_40') == 'tra_cham_40'">Trả chậm 40 ngày</option></select></label>
-                            <label class="iwmn-field iwmn-contract-search" data-project-field="1"><span>Công trình</span>
-                                <input type="hidden" name="project_id" t-att-value="form.get('project_id', '')"/>
-                                <input name="project_query" data-project-search="1" autocomplete="off" placeholder="Gõ mã hoặc tên công trình..." t-att-value="form.get('project_query', '')"/>
-                                <div class="iwmn-contract-suggestions" data-project-suggestions="1" role="listbox" hidden="hidden"/>
-                                <small>Nhập gần đúng theo mã hoặc tên công trình rồi chọn kết quả phù hợp.</small>
-                            </label>
-                            <label class="iwmn-field iwmn-contract-search" data-project-appendix-field="1"><span>Phụ lục</span>
-                                <input type="hidden" name="project_appendix_id" t-att-value="form.get('project_appendix_id', '')"/>
-                                <input name="project_appendix_query" data-project-appendix-search="1" autocomplete="off" placeholder="Chọn công trình trước, sau đó gõ mã hoặc tên phụ lục..." t-att-value="form.get('project_appendix_query', '')" t-att-disabled="not form.get('project_id')"/>
-                                <div class="iwmn-contract-suggestions" data-project-appendix-suggestions="1" role="listbox" hidden="hidden"/>
-                                <small>Chỉ hiển thị phụ lục thuộc công trình đã chọn; tìm theo mã hoặc tên phụ lục.</small>
-                            </label>
-                            <label class="iwmn-field"><span>Số lượng giấy CNXX</span><input type="number" name="so_luong_cnxx" min="0" step="1" inputmode="numeric" t-att-value="form.get('so_luong_cnxx', 0)"/><small>Nhập số lượng cần cấp cho đơn hàng.</small></label>
-                            <label class="iwmn-check-field iwmn-cnxx-check"><input type="checkbox" name="cnxx_show_project" value="1" t-att-checked="form.get('cnxx_show_project')"/><span><strong>Hiển thị tên công trình trên CNXX</strong><small>Chỉ hiển thị tên công trình.</small></span></label>
+                            <div class="iwmn-form-pair-row">
+                                <label class="iwmn-field iwmn-contract-search" data-project-field="1"><span>Công trình</span>
+                                    <input type="hidden" name="project_id" t-att-value="form.get('project_id', '')"/>
+                                    <input name="project_query" data-project-search="1" autocomplete="off" placeholder="Gõ mã hoặc tên công trình..." t-att-value="form.get('project_query', '')"/>
+                                    <div class="iwmn-contract-suggestions" data-project-suggestions="1" role="listbox" hidden="hidden"/>
+                                    <small>Nhập gần đúng theo mã hoặc tên công trình rồi chọn kết quả phù hợp.</small>
+                                </label>
+                                <label class="iwmn-field iwmn-contract-search" data-project-appendix-field="1"><span>Phụ lục</span>
+                                    <input type="hidden" name="project_appendix_id" t-att-value="form.get('project_appendix_id', '')"/>
+                                    <input name="project_appendix_query" data-project-appendix-search="1" autocomplete="off" placeholder="Chọn công trình trước, sau đó gõ mã hoặc tên phụ lục..." t-att-value="form.get('project_appendix_query', '')" t-att-disabled="not form.get('project_id')"/>
+                                    <div class="iwmn-contract-suggestions" data-project-appendix-suggestions="1" role="listbox" hidden="hidden"/>
+                                    <small>Chỉ hiển thị phụ lục thuộc công trình đã chọn; tìm theo mã hoặc tên phụ lục.</small>
+                                </label>
+                            </div>
+                            <div class="iwmn-form-pair-row iwmn-cnxx-pair-row">
+                                <label class="iwmn-field"><span>Số lượng giấy CNXX</span><input type="number" name="so_luong_cnxx" min="0" step="1" inputmode="numeric" t-att-value="form.get('so_luong_cnxx', 0)"/><small>Nhập số lượng cần cấp cho đơn hàng.</small></label>
+                                <label class="iwmn-check-field iwmn-cnxx-check"><input type="checkbox" name="cnxx_show_project" value="1" t-att-checked="form.get('cnxx_show_project')"/><span><strong>Hiển thị tên công trình trên CNXX</strong><small>Chỉ hiển thị tên công trình.</small></span></label>
+                            </div>
                         </div>
                     </section>
 
