@@ -99,7 +99,7 @@
                         <article class="iwmn-donut-panel iwmn-capacity-panel" aria-labelledby="iwmn-capacity-chart-title">
                             <div class="iwmn-chart-heading">
                                 <h3 id="iwmn-capacity-chart-title">Cấu thành khả năng mua hàng</h3>
-                                <p>Bảo lãnh + tín chấp + tiền mặt - Hóa đơn - lệnh chờ giao - PXK/NMHH - ký gửi</p>
+                                <p>Bảo lãnh + tín chấp + tiền thanh toán - Hóa đơn - lệnh chờ giao - PXK/NMHH - ký gửi</p>
                             </div>
                             <div class="iwmn-capacity-sources">
                                 <article t-foreach="dashboard['limits']['source_segments']" t-as="source"
