@@ -81,13 +81,15 @@
 .iwmn-debt-total > strong .oe_currency_value { font-size: clamp(1.6rem, 3vw, 2.3rem); font-weight: 700; line-height: 1.15; }
 .iwmn-debt-total .iwmn-negative { color: var(--iwmn-orange); }
 .iwmn-debt-breakdown { display: grid; gap: 10px; grid-template-columns: repeat(2, 1fr); }
-.iwmn-debt-stat { align-items: center; background: #f5f8f6; border: 1px solid transparent; border-radius: 14px; color: inherit; display: flex; gap: 10px; min-width: 0; padding: 13px; text-decoration: none; transition: .18s ease; }
+.iwmn-debt-stat { --iwmn-stat-color: #356f91; --iwmn-stat-bg: #e8f2f8; align-items: center; background: #f5f8f6; border: 1px solid transparent; border-radius: 14px; color: inherit; display: flex; gap: 14px; min-height: 78px; min-width: 0; padding: 13px 15px; text-decoration: none; transition: .18s ease; }
 .iwmn-debt-stat:hover { border-color: #bfd2c9; box-shadow: 0 7px 16px rgba(25, 60, 49, .07); color: inherit; transform: translateY(-1px); }
 .iwmn-debt-stat > div { min-width: 0; }
 .iwmn-debt-stat-arrow { color: #9eada6; margin-left: auto; }
-.iwmn-stat-mark { align-items: center; background: #e5eeea; border-radius: 50%; display: flex; flex: 0 0 30px; height: 30px; justify-content: center; }
+.iwmn-stat-mark { align-items: center; background: var(--iwmn-stat-bg); border: 1px solid color-mix(in srgb, var(--iwmn-stat-color) 16%, transparent); border-radius: 13px; color: var(--iwmn-stat-color); display: flex; flex: 0 0 48px; font-size: 1.15rem; height: 48px; justify-content: center; box-shadow: 0 5px 13px color-mix(in srgb, var(--iwmn-stat-color) 10%, transparent); }
 .iwmn-debt-stat small { color: #718078; display: block; font-size: .72rem; }
-.iwmn-debt-stat strong { display: block; font-size: .84rem; margin-top: 2px; overflow-wrap: anywhere; }
+.iwmn-debt-stat strong { display: block; font-size: .94rem; margin-top: 3px; overflow-wrap: anywhere; }
+.iwmn-debt-overdue { --iwmn-stat-color: #b9473b; --iwmn-stat-bg: #fbe8e5; }
+.iwmn-debt-not-due { --iwmn-stat-color: #356f91; --iwmn-stat-bg: #e8f2f8; }
 .iwmn-overdue .iwmn-stat-mark { background: #fbe8e5; color: var(--iwmn-red); }
 .iwmn-prepaid .iwmn-stat-mark { background: #fff0e3; color: var(--iwmn-orange); }
 .iwmn-overdue-note { background: #fff4f1; border-radius: 10px; color: #8e443b; font-size: .82rem; margin-top: 12px; padding: 9px 12px; }
@@ -105,7 +107,7 @@
     transition: .18s ease;
 }
 .iwmn-approval-card:hover { border-color: #e6b47e; box-shadow: 0 14px 36px rgba(126, 76, 31, .12); color: inherit; transform: translateY(-1px); }
-.iwmn-approval-icon { align-items: center; background: #fff0df; border-radius: 14px; color: var(--iwmn-orange); display: flex; flex: 0 0 48px; font-size: 1.1rem; height: 48px; justify-content: center; width: 48px; }
+.iwmn-approval-icon { align-items: center; background: #fff0df; border: 1px solid #f4d8b8; border-radius: 15px; box-shadow: 0 6px 15px rgba(180, 101, 34, .11); color: var(--iwmn-orange); display: flex; flex: 0 0 56px; font-size: 1.3rem; height: 56px; justify-content: center; width: 56px; }
 .iwmn-approval-copy { min-width: 0; }
 .iwmn-approval-copy small { color: #aa672d; display: block; font-size: .68rem; font-weight: 750; letter-spacing: .08em; margin-bottom: 3px; }
 .iwmn-approval-copy h2 { color: var(--iwmn-ink); font-size: 1.05rem; font-weight: 750; margin: 0 0 3px; }
@@ -138,10 +140,10 @@
 .iwmn-donut-panel { background: #f8faf9; border: 1px solid #e3eae6; border-radius: 18px; display: flex; flex-direction: column; padding: 18px; }
 .iwmn-capacity-panel { --iwmn-donut-size: 220px; --iwmn-usage-accent: #e98a3d; margin-top: 24px; }
 .iwmn-capacity-sources { display: grid; gap: 10px; grid-template-columns: repeat(3, minmax(0, 1fr)); margin-bottom: 18px; }
-.iwmn-capacity-source { background: #fff; border: 1px solid #e2eae6; border-radius: 12px; min-width: 0; padding: 11px 13px; }
-.iwmn-capacity-source > div { align-items: center; color: #6f7f77; display: flex; font-size: .72rem; gap: 7px; }
-.iwmn-capacity-source > div span { border-radius: 50%; flex: 0 0 8px; height: 8px; width: 8px; }
-.iwmn-capacity-source strong { color: var(--iwmn-ink); display: block; font-size: .86rem; margin-top: 4px; overflow-wrap: anywhere; }
+.iwmn-capacity-source { background: #fff; border: 1px solid #cedde7; border-radius: 13px; box-shadow: 0 6px 15px rgba(48, 89, 119, .07); min-width: 0; padding: 13px 15px; }
+.iwmn-capacity-source > div { align-items: center; color: #61717d; display: flex; font-size: .74rem; font-weight: 650; gap: 8px; }
+.iwmn-capacity-source > div span { background: #416b88 !important; border: 3px solid #dce9f1; border-radius: 50%; box-shadow: 0 0 0 1px #8eacbf; flex: 0 0 11px; height: 11px; width: 11px; }
+.iwmn-capacity-source strong { color: #315c78; display: block; font-size: .98rem; font-weight: 800; margin-top: 6px; overflow-wrap: anywhere; }
 .iwmn-capacity-chart-content { grid-template-columns: minmax(var(--iwmn-donut-size), .72fr) minmax(260px, 1.28fr); }
 .iwmn-capacity-legend { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .iwmn-chart-heading { border-bottom: 1px solid #e3eae6; box-sizing: border-box; flex: 0 0 70px; height: 70px; margin-bottom: 18px; padding-bottom: 12px; }
@@ -169,12 +171,16 @@
 .iwmn-capacity-panel .iwmn-donut-center b { color: var(--iwmn-usage-accent); }
 .iwmn-usage-donut.iwmn-is-exceeded .iwmn-donut-center b { color: var(--iwmn-red); }
 .iwmn-limit-legend { align-self: flex-start; display: grid; gap: 8px; }
-.iwmn-limit-item { background: #f6f8f7; border-radius: 11px; min-height: 68px; padding: 9px 11px; }
-.iwmn-limit-label { align-items: center; color: #64736b; display: flex; font-size: .73rem; gap: 6px; }
+.iwmn-capacity-legend .iwmn-limit-item { background: color-mix(in srgb, var(--iwmn-segment-color) 58%, #213b32); border: 1px solid color-mix(in srgb, var(--iwmn-segment-color) 72%, #fff); box-shadow: 0 6px 15px color-mix(in srgb, var(--iwmn-segment-color) 15%, transparent); }
+.iwmn-limit-item { background: #f6f8f7; border-radius: 11px; min-height: 68px; padding: 10px 12px; }
+.iwmn-limit-label { align-items: center; color: #64736b; display: flex; font-size: .73rem; gap: 7px; }
+.iwmn-capacity-legend .iwmn-limit-label { color: rgba(255, 255, 255, .86); font-weight: 650; }
 .iwmn-limit-label > span { border-radius: 50%; height: 8px; width: 8px; }
+.iwmn-capacity-legend .iwmn-limit-label > span { background: #fff !important; border: 3px solid color-mix(in srgb, var(--iwmn-segment-color) 55%, #fff); box-shadow: 0 0 0 1px rgba(255, 255, 255, .3); height: 11px; width: 11px; }
 .iwmn-limit-label small { flex: 1; }
 .iwmn-limit-label b { font-weight: 600; }
 .iwmn-limit-item > strong { display: block; font-size: .85rem; margin: 3px 0 0 14px; }
+.iwmn-capacity-legend .iwmn-limit-item > strong { color: #fff; font-size: .94rem; font-weight: 800; margin-top: 5px; text-shadow: 0 1px 2px rgba(0, 0, 0, .16); }
 .iwmn-limit-prepaid { background: #fff3e9; }
 .iwmn-total-dot { background: #aebbb5; }
 .iwmn-used-dot { background: var(--iwmn-red); }
@@ -196,14 +202,19 @@
 .iwmn-credit-details-heading > span { color: #829088; font-size: .72rem; white-space: nowrap; }
 .iwmn-credit-metric-grid { display: grid; gap: 12px; grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .iwmn-credit-metric-card {
+    --iwmn-metric-color: #2f7568; --iwmn-metric-bg: #e6f1ed;
     align-items: center; background: #f7f9f8; border: 1px solid #e2e9e5; border-radius: 14px;
-    display: grid; gap: 10px; grid-template-columns: 36px minmax(0, 1fr) 14px; min-height: 82px; padding: 12px;
+    display: grid; gap: 12px; grid-template-columns: 52px minmax(0, 1fr) 14px; min-height: 92px; padding: 13px;
     text-decoration: none; transition: border-color .2s ease, box-shadow .2s ease, transform .2s ease;
 }
 .iwmn-credit-metric-card:hover { border-color: #bfd2c9; box-shadow: 0 8px 18px rgba(25, 60, 49, .07); transform: translateY(-1px); }
-.iwmn-credit-metric-icon { align-items: center; background: #e5eeea; border-radius: 10px; color: var(--iwmn-green); display: flex; height: 36px; justify-content: center; width: 36px; }
+.iwmn-credit-metric-card[data-detail-key="invoices"] { --iwmn-metric-color: #356f9c; --iwmn-metric-bg: #e7f1f8; }
+.iwmn-credit-metric-card[data-detail-key="approved-deliveries"] { --iwmn-metric-color: #b76d20; --iwmn-metric-bg: #fff0df; }
+.iwmn-credit-metric-card[data-detail-key="warehouse-issues"] { --iwmn-metric-color: #74599c; --iwmn-metric-bg: #f0eafb; }
+.iwmn-credit-metric-card[data-detail-key="consigned-goods"] { --iwmn-metric-color: #2f7568; --iwmn-metric-bg: #e6f1ed; }
+.iwmn-credit-metric-icon { align-items: center; background: var(--iwmn-metric-bg); border: 1px solid color-mix(in srgb, var(--iwmn-metric-color) 16%, transparent); border-radius: 14px; box-shadow: 0 5px 13px color-mix(in srgb, var(--iwmn-metric-color) 9%, transparent); color: var(--iwmn-metric-color); display: flex; font-size: 1.2rem; height: 52px; justify-content: center; width: 52px; }
 .iwmn-credit-metric-card small { color: #718078; display: block; font-size: .72rem; line-height: 1.25; min-height: 1.8em; }
-.iwmn-credit-metric-card strong { color: var(--iwmn-ink); display: block; font-size: .88rem; margin-top: 3px; overflow-wrap: anywhere; }
+.iwmn-credit-metric-card strong { color: var(--iwmn-ink); display: block; font-size: .96rem; margin-top: 4px; overflow-wrap: anywhere; }
 .iwmn-credit-metric-arrow { color: #a5b2ac; }
 .iwmn-credit-detail-page { padding-top: 28px; }
 .iwmn-credit-detail-back { align-items: center; color: var(--iwmn-green); display: inline-flex; font-size: .82rem; font-weight: 700; gap: 7px; margin-bottom: 14px; text-decoration: none; }

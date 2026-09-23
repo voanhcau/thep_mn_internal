@@ -99,10 +99,11 @@
                         <article class="iwmn-donut-panel iwmn-capacity-panel" aria-labelledby="iwmn-capacity-chart-title">
                             <div class="iwmn-chart-heading">
                                 <h3 id="iwmn-capacity-chart-title">Cấu thành khả năng mua hàng</h3>
-                                <p>Bảo lãnh + tín chấp + tiền mặt, sau khi trừ các khoản đang sử dụng</p>
+                                <p>Bảo lãnh + tín chấp + tiền mặt - Hóa đơn - lệnh chờ giao - PXK/NMHH - ký gửi</p>
                             </div>
                             <div class="iwmn-capacity-sources">
-                                <article t-foreach="dashboard['limits']['source_segments']" t-as="source" class="iwmn-capacity-source">
+                                <article t-foreach="dashboard['limits']['source_segments']" t-as="source"
+                                         class="iwmn-capacity-source">
                                     <div><span t-att-style="'background-color: %s' % source['color']"/><small t-out="source['label']"/></div>
                                     <strong t-out="source['value']" t-options="{'widget': 'monetary', 'display_currency': res_company.currency_id, 'decimal_places': 0}"/>
                                 </article>
@@ -125,7 +126,8 @@
                                 </div>
                                 <div class="iwmn-limit-legend iwmn-capacity-legend">
                                     <article t-foreach="dashboard['limits']['segments']" t-as="segment"
-                                             t-att-class="'iwmn-limit-item iwmn-limit-' + segment['key']">
+                                             t-att-class="'iwmn-limit-item iwmn-limit-' + segment['key']"
+                                             t-att-style="'--iwmn-segment-color: %s' % segment['color']">
                                         <div class="iwmn-limit-label">
                                             <span t-att-style="'background-color: %s' % segment['color']"/>
                                             <small t-out="segment['label']"/>

@@ -495,7 +495,7 @@ def _prepare_dashboard(report_rows, report_date=None):
     source_segments = [
         {"key": "guarantee", "label": "Bảo lãnh", "value": float(guarantee), "color": "#4f8f79"},
         {"key": "unsecured", "label": "Tín chấp", "value": float(unsecured), "color": "#8ab7a7"},
-        {"key": "cash", "label": "Tiền mặt", "value": float(cash), "color": "#f5a35b"},
+        {"key": "cash", "label": "Tiền thanh toán", "value": float(cash), "color": "#f5a35b"},
     ]
     chart_values = [
         ("invoices", "Hóa đơn", invoices, "#ac76a4"),
