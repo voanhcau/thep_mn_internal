@@ -111,7 +111,7 @@
                             <div class="iwmn-chart-content iwmn-capacity-chart-content">
                                 <div class="iwmn-donut-wrap">
                                     <div class="iwmn-donut-usage-ring"
-                                         t-att-style="'--iwmn-used-angle: %sdeg' % (float(dashboard['limits']['used_percent']) * 3.6)"
+                                         t-att-style="'--iwmn-used-start: %.2fdeg; --iwmn-used-end: %.2fdeg' % (dashboard['limits']['usage_arc_start'], dashboard['limits']['usage_arc_end'])"
                                          t-att-aria-label="'Tỷ lệ hạn mức đang sử dụng: %s phần trăm' % int(float(dashboard['limits']['used_percent']))">
                                         <div class="iwmn-donut-usage-gap">
                                             <div t-att-class="'iwmn-donut ' + (dashboard['limits']['is_exceeded'] and 'iwmn-is-exceeded' or '')"

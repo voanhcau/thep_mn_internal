@@ -526,6 +526,12 @@ def _prepare_dashboard(report_rows, report_date=None):
         f"{segment['color']} {segment['start']:.2f}% {segment['end']:.2f}%"
         for segment in segments if segment["percent"] > 0 and segment["start"] < 100
     ) or "#dfe7e3 0% 100%"
+    invoice_segment = next(segment for segment in segments if segment["key"] == "invoices")
+    consigned_segment = next(segment for segment in segments if segment["key"] == "consigned-goods")
+    # The outer arc summarizes exactly the four used components shown on the
+    # inner donut, so both rings must share the same start and end boundaries.
+    usage_arc_start = invoice_segment["start"] * 3.6
+    usage_arc_end = consigned_segment["end"] * 3.6
 
     overdue_days = 0
     for row in _dashboard_detail_rows(rows, CREDIT_DETAIL_TYPES["overdue"]):
@@ -590,6 +596,8 @@ def _prepare_dashboard(report_rows, report_date=None):
             "remaining": float(remaining),
             "used": float(used),
             "used_percent": float(used_percent),
+            "usage_arc_start": usage_arc_start,
+            "usage_arc_end": usage_arc_end,
             "is_exceeded": remaining < 0,
             "gradient": gradient,
             "detail_metrics": detail_metrics,

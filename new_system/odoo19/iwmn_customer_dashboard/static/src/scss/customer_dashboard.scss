@@ -153,7 +153,12 @@
 .iwmn-donut-wrap { align-items: flex-start; align-self: flex-start; display: flex; justify-content: center; padding-top: 6px; }
 .iwmn-donut-usage-ring {
     align-items: center;
-    background: conic-gradient(from -90deg, var(--iwmn-usage-accent) 0 var(--iwmn-used-angle), transparent var(--iwmn-used-angle) 360deg);
+    background: conic-gradient(
+        from 0deg,
+        transparent 0deg var(--iwmn-used-start),
+        var(--iwmn-usage-accent) var(--iwmn-used-start) var(--iwmn-used-end),
+        transparent var(--iwmn-used-end) 360deg
+    );
     border-radius: 50%;
     display: flex;
     justify-content: center;

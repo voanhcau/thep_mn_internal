@@ -61,6 +61,18 @@ class TestCustomerCreditDashboard(TransactionCase):
         self.assertEqual(dashboard["limits"]["used"], 375.0)
         self.assertEqual(dashboard["limits"]["remaining"], 925.0)
         self.assertAlmostEqual(dashboard["limits"]["used_percent"], 375 / 1300 * 100)
+        self.assertEqual(dashboard["limits"]["usage_arc_start"], 0.0)
+        self.assertAlmostEqual(
+            dashboard["limits"]["usage_arc_end"],
+            dashboard["limits"]["used_percent"] * 3.6,
+        )
+        consigned = next(
+            segment for segment in dashboard["limits"]["segments"]
+            if segment["key"] == "consigned-goods"
+        )
+        self.assertAlmostEqual(
+            dashboard["limits"]["usage_arc_end"], consigned["end"] * 3.6
+        )
         self.assertFalse(dashboard["limits"]["is_exceeded"])
 
     def test_cash_is_displayed_positive_but_offsets_purchasing_capacity(self):
