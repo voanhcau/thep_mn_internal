@@ -20,14 +20,15 @@ public sealed class CustomerOrderSyncService(ICustomerOrderWriteRepository repos
         foreach (var row in request.Rows)
         {
             if (new[] { row.MaDt, row.SoDh, row.SoXe, row.SoXaLanTau, row.PtVc,
-                    row.HtTt, row.HtGn, row.MaHd, row.MaPlCtrinh, row.IdDtVc, row.TenDtVc,
+                    row.HtTt, row.HtGn, row.MaCTrinh, row.MaHd, row.MaPlCtrinh, row.IdDtVc, row.TenDtVc,
                     row.DienGiai, row.MaVt, row.TenVt, row.Dvt, row.BoBe,
                     row.BoThang, row.MaKhoN, row.KhoNhan, row.CreateLog, row.LastModifyLog }
                     .Any(value => value is null) ||
                 row.MaDt.Length > 20 || row.SoDh.Length > 20 || row.SoXe.Length > 20 ||
                 row.SoXaLanTau.Length > 20 || row.PtVc.Length > 20 || row.HtTt.Length > 20 ||
                 row.HtGn.Length > 50 ||
-                row.MaHd.Length > 20 || row.MaPlCtrinh.Length > 20 || row.IdDtVc.Length > 20 ||
+                row.MaCTrinh.Length > 500 || row.MaHd.Length > 20 ||
+                row.MaPlCtrinh.Length > 20 || row.IdDtVc.Length > 20 ||
                 row.TenDtVc.Length > 100 || row.DienGiai.Length > 500 || row.MaVt.Length > 20 ||
                 row.TenVt.Length > 500 || row.Dvt.Length > 500 || row.BoBe.Length > 20 ||
                 row.BoThang.Length > 20 || row.MaKhoN.Length > 20 || row.KhoNhan.Length > 500 || row.CreateLog.Length > 50 ||

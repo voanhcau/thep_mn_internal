@@ -17,6 +17,7 @@ public sealed class R04CtdhRow
     public string PtVc { get; init; } = "";
     public string HtTt { get; init; } = "";
     public string HtGn { get; init; } = "";
+    public string MaCTrinh { get; init; } = "";
     public string MaHd { get; init; } = "";
     public string MaPlCtrinh { get; init; } = "";
     public string IdDtVc { get; init; } = "";

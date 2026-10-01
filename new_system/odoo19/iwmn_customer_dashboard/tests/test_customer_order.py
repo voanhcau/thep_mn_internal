@@ -209,6 +209,7 @@ class TestCustomerPortalOrder(TransactionCase):
         self.assertEqual(order.r81dmplctrinh_id, project_appendix)
         self.assertIn(project.ma_ctrinh, _project_label(project))
         self.assertIn(project_appendix.ma_plctrinh, _project_appendix_label(project_appendix))
+        self.assertEqual(build_r04ctdh_rows(order)[0]["maCTrinh"], project.ma_ctrinh)
         self.assertEqual(build_r04ctdh_rows(order)[0]["maPlCtrinh"], project_appendix.ma_plctrinh)
 
     def test_consignment_order_stores_warehouse_code_and_reference(self):
@@ -262,7 +263,7 @@ class TestCustomerPortalOrder(TransactionCase):
         order = self._create_order(
             customer_reference="PO-SYNC-001", cnxx_show_project=True, so_luong_cnxx=2,
             vehicle_driver_name="Tài xế A", vehicle_driver_identity="087.096.015.286",
-            transport_method="xe",
+            transport_method="xe", project_code="CT-SYNC-001",
         )
         row = build_r04ctdh_rows(order)[0]
         self.assertEqual(row["idWebHeader"], order.id)
@@ -272,6 +273,7 @@ class TestCustomerPortalOrder(TransactionCase):
         self.assertEqual(row["ptVc"], "xe")
         self.assertEqual(row["htTt"], "tra_cham_40")
         self.assertEqual(row["htGn"], "HD")
+        self.assertEqual(row["maCTrinh"], "CT-SYNC-001")
         self.assertEqual((row["soLuongBo"], row["soLuongCayLe"], row["soLuongCay"]), (2, 21, 721))
         self.assertEqual(row["soLuong"], 4998)
         self.assertEqual((row["boBe"], row["boThang"]), ("false", "true"))

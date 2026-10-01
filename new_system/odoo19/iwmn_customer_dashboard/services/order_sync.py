@@ -23,6 +23,7 @@ def build_r04ctdh_rows(order):
         "ptVc": order.transport_method or "",
         "htTt": order.payment_method or "",
         "htGn": order.delivery_type or "",
+        "maCTrinh": order.r81dmctrinh_id.ma_ctrinh or order.project_code or "",
         "maHd": order.r81dmhd_id.ma_hd or order.contract_number or "",
         "maPlCtrinh": order.r81dmplctrinh_id.ma_plctrinh or order.subproject_code or "",
         "idDtVc": order.vehicle_driver_identity or "",
