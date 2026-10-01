@@ -274,6 +274,7 @@ class TestCustomerPortalOrder(TransactionCase):
         self.assertEqual(row["htTt"], "tra_cham_40")
         self.assertEqual(row["htGn"], "HD")
         self.assertEqual(row["maCTrinh"], "CT-SYNC-001")
+        self.assertEqual(row["isHuy"], "false")
         self.assertEqual((row["soLuongBo"], row["soLuongCayLe"], row["soLuongCay"]), (2, 21, 721))
         self.assertEqual(row["soLuong"], 4998)
         self.assertEqual((row["boBe"], row["boThang"]), ("false", "true"))
@@ -284,6 +285,9 @@ class TestCustomerPortalOrder(TransactionCase):
         order.line_ids.steel_shape = "bent"
         bent_row = build_r04ctdh_rows(order)[0]
         self.assertEqual((bent_row["boBe"], bent_row["boThang"]), ("true", "false"))
+
+        order.state = "cancelled"
+        self.assertEqual(build_r04ctdh_rows(order)[0]["isHuy"], "true")
 
     def test_payment_method_defaults_to_40_day_credit_and_supports_deferred(self):
         default_order = self._create_order(customer_reference="PO-PAYMENT-DEFAULT")
@@ -419,6 +423,21 @@ class TestCustomerPortalOrder(TransactionCase):
         locked_order = self._create_order(customer_reference="PO-ORDER-005", gate_state="exited")
         with self.assertRaises(ValidationError):
             locked_order.action_cancel_by_customer()
+
+    def test_cancelled_submitted_order_is_queued_for_legacy_sync(self):
+        order = self._create_order(
+            customer_reference="PO-ORDER-CANCEL-SYNC",
+            state="waiting_confirmation",
+            submitted_at=fields.Datetime.now(),
+            legacy_sync_state="synced",
+        )
+
+        order.action_cancel_by_customer("Khách hàng đổi kế hoạch")
+
+        self.assertEqual(order.state, "cancelled")
+        self.assertEqual(order.legacy_sync_state, "pending")
+        self.assertFalse(order.legacy_sync_error)
+        self.assertEqual(build_r04ctdh_rows(order)[0]["isHuy"], "true")
 
     def test_internal_warehouse_allocation_must_match_delivery_area(self):
         order = self._create_order(

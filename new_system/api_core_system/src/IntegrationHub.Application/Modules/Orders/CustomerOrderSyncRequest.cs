@@ -33,6 +33,7 @@ public sealed class R04CtdhRow
     public string BoBe { get; init; } = "";
     public string BoThang { get; init; } = "";
     public bool IsCnxx { get; init; }
+    public string IsHuy { get; init; } = "false";
     public decimal SoLuongCnxx { get; init; }
     public string MaKhoN { get; init; } = "";
     public string KhoNhan { get; init; } = "";

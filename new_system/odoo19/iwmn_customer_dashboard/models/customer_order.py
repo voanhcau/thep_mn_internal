@@ -264,7 +264,7 @@ class IwmnCustomerOrder(models.Model):
 
     def _sync_legacy_order(self):
         self.ensure_one()
-        if self.state in ("draft", "cancelled") or self.legacy_sync_state == "synced":
+        if self.state == "draft" or self.legacy_sync_state == "synced":
             return
         attempts = self.legacy_sync_attempts + 1
         try:
@@ -290,7 +290,7 @@ class IwmnCustomerOrder(models.Model):
     @api.model
     def cron_retry_legacy_sync(self):
         orders = self.search([
-            ("state", "not in", ("draft", "cancelled")),
+            ("state", "!=", "draft"),
             ("legacy_sync_state", "in", ("pending", "failed")),
         ], order="id asc", limit=20)
         for order in orders:
@@ -304,7 +304,22 @@ class IwmnCustomerOrder(models.Model):
             if order.gate_state == "exited" or order.state in ("delivered", "documents_issued", "closed"):
                 raise ValidationError("Không thể hủy đơn sau khi phương tiện đã ra cổng hoặc đã giao hàng.")
             if order.state != "cancelled":
-                order.write({"state": "cancelled", "cancellation_reason": reason or "Khách hàng hủy trên portal"})
+                should_sync = bool(
+                    order.submitted_at
+                    or order.legacy_sync_state in ("pending", "failed", "synced")
+                )
+                values = {
+                    "state": "cancelled",
+                    "cancellation_reason": reason or "Khách hàng hủy trên portal",
+                }
+                if should_sync:
+                    values.update({"legacy_sync_state": "pending", "legacy_sync_error": False})
+                order.write(values)
+                if should_sync:
+                    database_name, order_id = self.env.cr.dbname, order.id
+                    self.env.cr.postcommit.add(
+                        lambda db=database_name, oid=order_id: _sync_order_after_commit(db, oid)
+                    )
 
     def _validate_transport_details(self):
         for order in self:

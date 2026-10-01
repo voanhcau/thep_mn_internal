@@ -29,6 +29,7 @@ def build_r04ctdh_rows(order):
         "idDtVc": order.vehicle_driver_identity or "",
         "tenDtVc": order.vehicle_driver_name or "",
         "isCnxx": bool(order.cnxx_show_project),
+        "isHuy": "true" if order.state == "cancelled" else "false",
         "soLuongCnxx": order.so_luong_cnxx or 0,
         "maKhoN": order.r81dmkho_id.ma_kho or order.ma_kho or "",
         "khoNhan": order.delivery_area or "",

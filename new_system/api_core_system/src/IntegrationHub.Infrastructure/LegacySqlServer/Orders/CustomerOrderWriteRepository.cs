@@ -39,13 +39,13 @@ internal sealed class CustomerOrderWriteRepository(
                     So_Xa_Lan_Tau, Pt_Vc, Ht_Tt, Ht_Gn, Ma_CTrinh, Ma_Hd, Ma_PLCtrinh, ID_Dt_VC,
                     Ten_Dt_Vc, Dien_Giai, Ma_Vt, Ten_Vt, Dvt, So_Luong_Bo,
                     So_Luong_Cay_Le, So_Luong_Cay, So_Luong, Bo_Be, Bo_Thang,
-                    Is_CNXX, So_Luong_CNXX, Ma_KhoN, Kho_Nhan, Create_Log, LastModify_Log)
+                    Is_CNXX, Is_Huy, So_Luong_CNXX, Ma_KhoN, Kho_Nhan, Create_Log, LastModify_Log)
                 VALUES (
                     @IdWebHeader, @IdWebDetail, @MaDt, @NgayCt, @SoDh, @SoXe,
                     @SoXaLanTau, @PtVc, @HtTt, @HtGn, @MaCTrinh, @MaHd, @MaPlCtrinh, @IdDtVc,
                     @TenDtVc, @DienGiai, @MaVt, @TenVt, @Dvt, @SoLuongBo,
                     @SoLuongCayLe, @SoLuongCay, @SoLuong, @BoBe, @BoThang,
-                    @IsCnxx, @SoLuongCnxx, @MaKhoN, @KhoNhan, @CreateLog, @LastModifyLog);
+                    @IsCnxx, @IsHuy, @SoLuongCnxx, @MaKhoN, @KhoNhan, @CreateLog, @LastModifyLog);
                 """;
             foreach (var row in rows)
             {
