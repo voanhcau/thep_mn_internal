@@ -36,16 +36,16 @@ internal sealed class CustomerOrderWriteRepository(
             const string insertSql = """
                 INSERT INTO dbo.R04CTDH (
                     ID_Web_Header, ID_Web_Detail, Ma_Dt, Ngay_Ct, So_Dh, So_Xe,
-                    So_Xa_Lan_Tau, Pt_Vc, Ht_Tt, Ma_Hd, Ma_PLCtrinh, ID_Dt_VC,
+                    So_Xa_Lan_Tau, Pt_Vc, Ht_Tt, Ht_Gn, Ma_Hd, Ma_PLCtrinh, ID_Dt_VC,
                     Ten_Dt_Vc, Dien_Giai, Ma_Vt, Ten_Vt, Dvt, So_Luong_Bo,
                     So_Luong_Cay_Le, So_Luong_Cay, So_Luong, Bo_Be, Bo_Thang,
-                    Is_CNXX, So_Luong_CNXX, Ma_KhoN, Create_Log, LastModify_Log)
+                    Is_CNXX, So_Luong_CNXX, Ma_KhoN, Kho_Nhan, Create_Log, LastModify_Log)
                 VALUES (
                     @IdWebHeader, @IdWebDetail, @MaDt, @NgayCt, @SoDh, @SoXe,
-                    @SoXaLanTau, @PtVc, @HtTt, @MaHd, @MaPlCtrinh, @IdDtVc,
+                    @SoXaLanTau, @PtVc, @HtTt, @HtGn, @MaHd, @MaPlCtrinh, @IdDtVc,
                     @TenDtVc, @DienGiai, @MaVt, @TenVt, @Dvt, @SoLuongBo,
                     @SoLuongCayLe, @SoLuongCay, @SoLuong, @BoBe, @BoThang,
-                    @IsCnxx, @SoLuongCnxx, @MaKhoN, @CreateLog, @LastModifyLog);
+                    @IsCnxx, @SoLuongCnxx, @MaKhoN, @KhoNhan, @CreateLog, @LastModifyLog);
                 """;
             foreach (var row in rows)
             {

@@ -22,6 +22,7 @@ def build_r04ctdh_rows(order):
         "soXaLanTau": order.vehicle_barge_number or "",
         "ptVc": order.transport_method or "",
         "htTt": order.payment_method or "",
+        "htGn": order.delivery_type or "",
         "maHd": order.r81dmhd_id.ma_hd or order.contract_number or "",
         "maPlCtrinh": order.r81dmplctrinh_id.ma_plctrinh or order.subproject_code or "",
         "idDtVc": order.vehicle_driver_identity or "",
@@ -29,6 +30,7 @@ def build_r04ctdh_rows(order):
         "isCnxx": bool(order.cnxx_show_project),
         "soLuongCnxx": order.so_luong_cnxx or 0,
         "maKhoN": order.r81dmkho_id.ma_kho or order.ma_kho or "",
+        "khoNhan": order.delivery_area or "",
         "createLog": f"ODOO-WEB:{order.id}",
         "lastModifyLog": f"ODOO-WEB:{order.id}",
     }
@@ -45,8 +47,8 @@ def build_r04ctdh_rows(order):
         "soLuong": int(Decimal(str(max(line.weight_kg, 0))).quantize(
             Decimal("1"), rounding=ROUND_HALF_UP,
         )),
-        "boBe": "true" if line.steel_shape == "straight" else "false",
-        "boThang": "false" if line.steel_shape == "straight" else "true",
+        "boBe": "true" if line.steel_shape == "bent" else "false",
+        "boThang": "true" if line.steel_shape == "straight" else "false",
     } for line in order.line_ids]
 
 

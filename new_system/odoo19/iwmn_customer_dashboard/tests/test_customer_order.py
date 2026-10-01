@@ -271,11 +271,17 @@ class TestCustomerPortalOrder(TransactionCase):
         self.assertEqual(row["soXe"], "51C-963.87")
         self.assertEqual(row["ptVc"], "xe")
         self.assertEqual(row["htTt"], "tra_cham_40")
+        self.assertEqual(row["htGn"], "HD")
         self.assertEqual((row["soLuongBo"], row["soLuongCayLe"], row["soLuongCay"]), (2, 21, 721))
         self.assertEqual(row["soLuong"], 4998)
-        self.assertEqual((row["boBe"], row["boThang"]), ("true", "false"))
+        self.assertEqual((row["boBe"], row["boThang"]), ("false", "true"))
         self.assertTrue(row["isCnxx"])
         self.assertEqual(row["soLuongCnxx"], 2)
+        self.assertEqual(row["khoNhan"], "phu_my")
+
+        order.line_ids.steel_shape = "bent"
+        bent_row = build_r04ctdh_rows(order)[0]
+        self.assertEqual((bent_row["boBe"], bent_row["boThang"]), ("true", "false"))
 
     def test_payment_method_defaults_to_40_day_credit_and_supports_deferred(self):
         default_order = self._create_order(customer_reference="PO-PAYMENT-DEFAULT")

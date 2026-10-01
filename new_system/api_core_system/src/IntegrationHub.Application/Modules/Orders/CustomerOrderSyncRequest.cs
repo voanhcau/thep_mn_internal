@@ -16,6 +16,7 @@ public sealed class R04CtdhRow
     public string SoXaLanTau { get; init; } = "";
     public string PtVc { get; init; } = "";
     public string HtTt { get; init; } = "";
+    public string HtGn { get; init; } = "";
     public string MaHd { get; init; } = "";
     public string MaPlCtrinh { get; init; } = "";
     public string IdDtVc { get; init; } = "";
@@ -33,6 +34,7 @@ public sealed class R04CtdhRow
     public bool IsCnxx { get; init; }
     public decimal SoLuongCnxx { get; init; }
     public string MaKhoN { get; init; } = "";
+    public string KhoNhan { get; init; } = "";
     public string CreateLog { get; init; } = "";
     public string LastModifyLog { get; init; } = "";
 }
